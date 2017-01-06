@@ -84,3 +84,17 @@ function Activate()
   GameRules.GameMode = GameMode()
   GameRules.GameMode:_InitGameMode()
 end
+
+function CDOTA_BaseNPC:HasTalent(talentName)
+    if self:HasAbility(talentName) then
+        if self:FindAbilityByName(talentName):GetLevel() > 0 then return true end
+    end
+    return false
+end
+
+function CDOTA_BaseNPC:FindTalentValue(talentName)
+    if self:HasAbility(talentName) then
+        return self:FindAbilityByName(talentName):GetSpecialValueFor("value")
+    end
+    return nil
+end
