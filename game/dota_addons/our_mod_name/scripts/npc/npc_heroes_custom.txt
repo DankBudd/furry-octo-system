@@ -63,8 +63,8 @@
         "AbilityLayout" "4"
         "Ability1"          "void_curse"
         "Ability2"          "gravity_well"
-        "Ability3"          "enigma_passive"
-        "Ability4"          "barebones_empty1"
+        "Ability3"          "barebones_empty1"
+        "Ability4"          "barebones_empty2"
 
         "Ability10"         "special_bonus_unique_enigma_1"
         "Ability11"         "special_bonus_unique_enigma_2"

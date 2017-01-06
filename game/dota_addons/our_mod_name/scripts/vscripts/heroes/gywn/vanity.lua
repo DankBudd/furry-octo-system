@@ -5,8 +5,8 @@ function InitializeTable( keys )
 	keys.caster:RemoveModifierByNameAndCaster(keys.modifier, keys.caster)
 end
 
--- leveling vanity while it has stacks makes it bug out
--- killing a unit that is in table causes it to not be removed
+-- leveling vanity while it has stacks makes it bug out, fixed by temp fix
+-- killing a unit that is in table causes it to not be removed, fixed by temp fix
 function Vanity( keys )
 	local caster = keys.caster
 	local target = keys.target
