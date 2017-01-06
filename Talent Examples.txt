@@ -80,7 +80,6 @@ end
 What do these new functions do?
 --------------
 HasTalent() will return true or false, depending on whether or not the unit handle has the talent and has the talent skilled.
-
 FindTalentValue() will return the value found in the talent's AbilitySpecial block
 
 
@@ -88,25 +87,21 @@ FindTalentValue() will return the value found in the talent's AbilitySpecial blo
  Usage
 --------------
 someEntity:HasTalent("talent_name")
-
 someEntity:FindTalentValue("talent_name")
 
 
 --------------
  Examples
 --------------
-1.
-	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
+1.	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
 		-- do something
 	end
 
-2.
-	local hasTalent = keys.caster:HasTalent("special_bonus_unique_enigma_3")
+2.	local hasTalent = keys.caster:HasTalent("special_bonus_unique_enigma_3")
 
 	if not hasTalent then return end
 
-3.
-	local stackCount = caster:GetModifierStackCount("some_modifier_name", keys.caster)
+3.	local stackCount = caster:GetModifierStackCount("some_modifier_name", keys.caster)
 	local talentValue = keys.caster:FindTalentValue("talent_name")
 
  	if stackCount < talentValue then
@@ -115,8 +110,7 @@ someEntity:FindTalentValue("talent_name")
  		-- do something else
  	end
 
-4.
-	local damage = keys.ability:GetSpecialValueFor("damage")
+4.	local damage = keys.ability:GetSpecialValueFor("damage")
 
 	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
 		damage = damage + keys.caster:FindTalentValue("special_bonus_unique_enigma_3")
