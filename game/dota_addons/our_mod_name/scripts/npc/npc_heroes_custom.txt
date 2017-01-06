@@ -56,4 +56,76 @@
     "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
     "VisionNighttimeRange"    "1800"                  // Range of vision at night time.
   }
+
+  "npc_dota_hero_enigma"
+    {
+        "override_hero"     "npc_dota_hero_enigma"
+        "AbilityLayout" "4"
+        "Ability1"          "void_curse"
+        "Ability2"          "gravity_well"
+        "Ability3"          "enigma_passive"
+        "Ability4"          "barebones_empty1"
+
+        "Ability10"         "special_bonus_unique_enigma_1"
+        "Ability11"         "special_bonus_unique_enigma_2"
+        "Ability12"         "special_bonus_unique_enigma_3"
+        "Ability13"         "special_bonus_unique_enigma_4"
+//      "Ability14"         ""
+//      "Ability15"         ""
+//      "Ability16"         ""
+//      "Ability17"         ""
+    }
+
+    "npc_dota_hero_medusa"
+    {
+        "override_hero"     "npc_dota_hero_medusa"
+
+        "AbilityLayout"     "4"
+        "Ability1"          "reflecting_pool"
+        "Ability2"          "vanity"
+        "Ability3"          "enchanting_leer"
+        "Ability4"          "mirror_hall"
+
+//      "Ability10"         ""
+//      "Ability11"         ""
+//      "Ability12"         ""
+//      "Ability13"         ""
+//      "Ability14"         ""
+//      "Ability15"         ""
+//      "Ability16"         ""
+//      "Ability17"         ""
+
+        "ModelScale"        "0.879"
+        
+//      "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+//      "AttackDamageMin"           "1"
+//      "AttackDamageMax"           "1"
+//      "AttackDamageType"          "DAMAGE_TYPE_ArmorPhysical"
+//      "AttackRate"                "1.700000"
+//      "AttackAnimationPoint"      "0.750000"
+//      "AttackAcquisitionRange"    "600"
+//      "AttackRange"               "125"
+//      "ProjectileSpeed"           "900"
+
+//      "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+//      "MovementSpeed"             "315"
+//      "MovementTurnRate"          "0.400000"
+//      "HasAggressiveStance"       "0"
+
+//      "StatusHealth"          "200"
+//      "StatusHealthRegen"     "0.250000"
+        "StatusMana"            "100"
+//      "StatusManaRegen"       "0.010000"
+
+//      "ArmorPhysical"         "4"
+//      "MagicalResistance"     "25"
+
+//      "AttributePrimary"          "DOTA_ATTRIBUTE_STRENGTH"
+//      "AttributeBaseStrength"     "0"
+//      "AttributeStrengthGain"     "0"
+//      "AttributeBaseIntelligence" "0"
+//      "AttributeIntelligenceGain" "0"
+//      "AttributeBaseAgility"      "0"
+//      "AttributeAgilityGain"      "0"
+    }
 }
