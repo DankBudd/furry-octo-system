@@ -1,0 +1,145 @@
+Talent Examples
+--------------
+
+ i think these can be called whatever you want, ex. "talent_crystalmaidens_left_testicle"
+ but we should stick to valves names for easy reference, however with that being said,
+ feel free to use damage, duration, slow or whatever else in the name instead of #'s
+
+ special_bonus_unique_heroname_#
+
+ and for talents that are not unique to one hero, but something generic that could be used for many heroes just use:
+
+ special_bonus_whatever
+
+--------------
+
+"special_bonus_unique_enigma_3"
+{
+	"BaseClass"             		"ability_datadriven"
+
+	//ability type attributes, and behavior passive are what defines this ability as a talent.
+	"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"MaxLevel" 						"1"
+
+	"AbilitySpecial"
+	{
+		//write in commented text somwhere on the talent saying what its for, or what it does.
+		//increase gravity_well damage by % per slow stack
+		"01"
+		{
+			"var_type"			"FIELD_INTEGER"
+			//leave talent value as "value" so that the FindTalentValue() function will work
+			"value"				"5"
+		}
+	}
+}
+
+"special_bonus_faster_in_water" //topkek
+{
+	"BaseClass"             		"ability_datadriven"
+	"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"MaxLevel" 						"1"
+
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			//heroes with this talent will move 9001% faster while in water
+			"var_type"			"FIELD_INTEGER"
+			"value"				"9001"
+		}
+	}
+}
+
+--------------
+How the hell does that talent value affect my ability/hero ??!?!
+--------------
+talents will do absolutely nothing on their own, they need to be coded directly into the abilities
+in lua scripts using: HasTalent() and FindTalentValue()
+
+in order to be able to use those functions copy paste both of these into your addon_game_mode.lua file, found in the vscripts folder
+
+function CDOTA_BaseNPC:HasTalent(talentName)
+    if self:HasAbility(talentName) then
+        if self:FindAbilityByName(talentName):GetLevel() > 0 then return true end
+    end
+    return false
+end
+
+function CDOTA_BaseNPC:FindTalentValue(talentName)
+    if self:HasAbility(talentName) then
+        return self:FindAbilityByName(talentName):GetSpecialValueFor("value")
+    end
+    return nil
+end
+
+
+--------------
+What do these new functions do?
+--------------
+HasTalent() will return true or false, depending on whether or not the unit handle has the talent and has the talent skilled.
+
+FindTalentValue() will return the value found in the talent's AbilitySpecial block
+
+
+--------------
+ Usage
+--------------
+someEntity:HasTalent("talent_name")
+
+someEntity:FindTalentValue("talent_name")
+
+
+--------------
+ Examples
+--------------
+1.
+	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
+		-- do something
+	end
+
+2.
+	local hasTalent = keys.caster:HasTalent("special_bonus_unique_enigma_3")
+
+	if not hasTalent then return end
+
+3.
+	local stackCount = caster:GetModifierStackCount("some_modifier_name", keys.caster)
+	local talentValue = keys.caster:FindTalentValue("talent_name")
+
+ 	if stackCount < talentValue then
+ 		-- do something
+ 	else
+ 		-- do something else
+ 	end
+
+4.
+	local damage = keys.ability:GetSpecialValueFor("damage")
+
+	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
+		damage = damage + keys.caster:FindTalentValue("special_bonus_unique_enigma_3")
+	end
+	ApplyDamage({...})
+
+
+--------------
+Notes
+--------------
+talents are put in ability slots 10 - 17, with 17 being the last talent
+
+Arhowk has made a talent libary to streamline making talents, but i don't think we will be using it. or at least not until he gets it bug-free.
+
+you're apparently supposed to put: "LinkedSpecialBonus" "talent_name"
+underneath the value of the AbilitySpecial you are changing with the talent, but this is for tooltip purposes and we don't need to do this. 
+ex.
+"AbilitySpecial"
+{
+	"01"
+	{
+		"var_type"			"FIELD_INTEGER"
+		"some_value"		"900"
+		"LinkedSpecialBonus" "special_bonus_whatever"
+	}
+}
