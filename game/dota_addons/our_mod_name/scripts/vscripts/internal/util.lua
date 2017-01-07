@@ -1,3 +1,30 @@
+-- Initializes heroes' innate abilities
+function InitializeInnateAbilities( hero )
+
+  -- List of innate abilities
+  local innates = {
+    "dummy_unit",
+  }
+
+  -- Cycle through any innate abilities found, then upgrade them
+  for i = 1, #innates do
+    local currentAbility = hero:FindAbilityByName(innates[i])
+    if currentAbility then
+      currentAbility:SetLevel(1)
+    end
+  end
+end
+
+-- Removes unwanted passive modifiers from illusions upon their creation
+function IllusionPassiveRemover( keys )
+  local target = keys.target
+  local modifier = keys.modifier
+
+  if target:IsIllusion() or not target:GetPlayerOwner() then
+    target:RemoveModifierByName(modifier)
+  end
+end
+
 function CDOTA_BaseNPC:HasTalent(talentName)
     if self:HasAbility(talentName) then
         if self:FindAbilityByName(talentName):GetLevel() > 0 then return true end
@@ -7,7 +34,28 @@ end
 
 function CDOTA_BaseNPC:FindTalentValue(talentName)
     if self:HasAbility(talentName) then
-        return self:FindAbilityByName(talentName):GetSpecialValueFor("value")
+      local talent = self:FindAbilityByName(talentName)
+      values = {}
+      table.insert(values, talent:GetSpecialValueFor("value"))
+      if talent:GetSpecialValueFor("value1") ~= nil then
+        table.insert(values, talent:GetSpecialValueFor("value1"))
+      end
+      if talent:GetSpecialValueFor("value2") ~= nil then
+        table.insert(values, talent:GetSpecialValueFor("value2"))
+      end
+      if talent:GetSpecialValueFor("value3") ~= nil then
+        table.insert(values, talent:GetSpecialValueFor("value3"))
+      end
+      if talent:GetSpecialValueFor("value4") ~= nil then
+        table.insert(values, talent:GetSpecialValueFor("value4"))
+      end
+      if talent:GetSpecialValueFor("value5") ~= nil then
+        table.insert(values, talent:GetSpecialValueFor("value5"))
+      end
+      if talent:GetSpecialValueFor("value6") ~= nil then
+        table.insert(values, talent:GetSpecialValueFor("value6"))
+      end
+        return values
     end
     return nil
 end

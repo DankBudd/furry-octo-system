@@ -330,6 +330,7 @@
     "BaseClass"           "ability_datadriven"
     "AbilityTextureName"            "rubick_empty1"
   }
+
   // casting does not interrupt channels 
   // can be cast while moving
   // if a target turns towards the caster while affected by the slow debuff, they will become taunted for the remainder of the taunt duration
@@ -370,7 +371,7 @@
       "03"
       {
         "var_type"      "FIELD_INTEGER"
-        "taunt_width"   "85" //???? does this mean their vision cone? because 200 is a huge fucking vision cone, squab
+        "taunt_width"   "85"
       }
       "04"
       {
@@ -1013,6 +1014,180 @@
     }
   }
 
+  "void_curse"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityTextureName"      "enigma_malefice"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+    "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
+    "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+    "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
+
+    "AbilityCooldown"       "32.0"
+    "AbilityManaCost"       "100 150 200 250"
+    "AbilityCastRange"        "600"
+    "AbilityCastPoint"        "0.3"
+    "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
+
+    "MaxLevel"            "4"
+
+    "precache"
+    {
+      "soundfile"   "soundevents/game_sounds_heroes/game_sounds_silencer.vsndevts"    
+      "particle"    "particles/units/heroes/hero_silencer/silencer_last_word.vpcf"
+      "particle"    "particles/units/heroes/hero_silencer/silencer_last_word_status.vpcf"
+    }
+
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"      "FIELD_INTEGER"
+        "damage"      "10 15 20 25"
+        "LinkedSpecialBonus" "special_bonus_unique_enigma_1"
+      }
+      "02"
+      {
+        "var_type"      "FIELD_FLOAT"
+        "duration"      "4.0 6.0 8.0 10.0"
+        "LinkedSpecialBonus" "special_bonus_unique_enigma_2"
+      }
+      "03"
+      {
+        "var_type"      "FIELD_INTEGER"
+        "armor_loss_tooltip""2 3 4 5"
+      }
+      "04"
+      {
+        "var_type"      "FIELD_INTEGER"
+        "armor_loss"    "-1"
+      }
+      "05"
+      {
+        "var_type"      "FIELD_INTEGER"
+        "resist_loss_tooltip""4 6 8 10"
+      }
+      "06"
+      {
+        "var_type"      "FIELD_INTEGER"
+        "resist_loss"   "-2"
+      }
+    }
+
+    "OnSpellStart"
+    {
+      "FireSound"
+      {
+        "EffectName"  "Hero_Silencer.LastWord.Cast"
+        "Target"    "TARGET"
+      }
+
+      "RunScript"
+      {
+        "ScriptFile"  "heroes/enigma/void_curse.lua"
+        "Function"    "ApplyCurse"
+        "Target"    "TARGET"
+        "modifier"    "modifier_void_curse_tick"
+      }
+    }
+
+    "Modifiers"
+    {
+
+      "modifier_void_curse_tick"
+      {
+        "IsPurgable"    "1"
+        "IsHidden"      "1"
+    
+        "EffectName"    "particles/units/heroes/hero_silencer/silencer_last_word_status.vpcf"
+        "EffectAttachType"  "follow_origin"
+    
+        "ThinkInterval"  "2.0"
+        "OnIntervalThink"
+        {
+          "RunScript"
+          {
+            "ScriptFile"  "heroes/enigma/void_curse.lua"
+            "Function"    "TickDamage"
+            "Target"    "TARGET"
+            "modifier"    "modifier_void_curse_debuff"
+          }
+        }
+
+        "OnCreated"
+        {
+          "RunScript"
+          {
+            "ScriptFile"  "heroes/enigma/void_curse.lua"
+            "Function"    "TickDamage"
+            "Target"    "TARGET"
+            "modifier"    "modifier_void_curse_debuff"
+          }
+        }
+
+        //remove armor debuff after a short delay of ability expiring
+        "OnDestroy"
+        {
+          "RemoveModifier"
+          {
+            "ModifierName"  "modifier_void_curse_debuff"
+            "Target"    "TARGET"
+          }
+        }
+      }
+
+      "modifier_void_curse_debuff"
+      {
+        "IsDebuff"      "1"
+        "IsPurgable"    "1"
+      
+        "Properties"
+        {
+          "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor_loss"
+            "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS" "%resist_loss" 
+        }
+      }
+    }
+  }
+
+  //increases tick damage by 10 and changes damage type to pure
+  "special_bonus_unique_enigma_1"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityType"         "DOTA_ABILITY_TYPE_ATTRIBUTES"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "MaxLevel"            "1"
+
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"      "FIELD_INTEGER"
+        "value"       "10"
+        "LinkedSpecialBonus" "void_curse"
+      }
+    }
+  }
+
+  //increases modifier duration by 4.0 seconds
+  "special_bonus_unique_enigma_2"
+  {
+    "BaseClass"                 "ability_datadriven"
+    "AbilityType"         "DOTA_ABILITY_TYPE_ATTRIBUTES"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "MaxLevel"            "1"
+
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"      "FIELD_FLOAT"
+        "value"       "4.0"
+        "LinkedSpecialBonus" "void_curse"
+      }
+    }
+  }
+
   "gravity_well"
   {
     "BaseClass"                 "ability_datadriven"
@@ -1021,8 +1196,8 @@
     "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
     "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
     "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
-    "AoERadius"           "%radius"
 
+    "AoERadius"           "300 350 400 450"
     "AbilityCooldown"       "35.0"
     "AbilityManaCost"       "100 200 300 400"
     "AbilityCastRange"        "700"
@@ -1071,44 +1246,28 @@
       }
       "07"
       {
-        "var_type"      "FIELD_INTEGER"
-        "attack_slow_tooltip" "3 5 7 9"
-      }
-      "08"
-      {
-        "var_type"      "FIELD_INTEGER"
-        "move_slow_tooltip" "2 3 4 5"
+        "var_type"    "FIELD_FLOAT"
+        "think_interval"  "2.0"
       }
     }
 
     "OnSpellStart"
     {
-      "CreateThinker"
-      {
-        "ModifierName"  "modifier_gravity_well_thinker_damage"
-        "Target"    "POINT"
-      }
-
       "RunScript"
       {
         "ScriptFile"  "heroes/enigma/gravity_well.lua"
-        "Function"    "CreateGravityWellThinkerSlow"
+        "Function"    "CreateGravityWellThinker"
+        "Target"    "POINT"
+        "modifier"  "modifier_gravity_well_slow"
       }
-
     }
 
     "Modifiers"
     {
-      "modifier_gravity_well_thinker_damage"
+      "modifier_gravity_well_particle"
       {
         "IsHidden"      "1"
-        "Duration"        "%duration"
-
-        "Aura"          "modifier_gravity_well_aura"
-        "Aura_Radius"     "%radius"
-        "Aura_Teams"      "DOTA_UNIT_TARGET_TEAM_ENEMY"
-        "Aura_Types"      "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
-
+      
         "OnCreated"
         {
           "FireSound"
@@ -1131,32 +1290,15 @@
         }
       }
 
-      "modifier_gravity_well_aura"
+      "modifier_gravity_well_slow"
       {
         "IsDebuff"      "1"
-        "IsPurgable"    "0"
-      
-        "ThinkInterval"  "2.01"
-        "OnIntervalThink"
-        {
-          "RunScript"
-          {
-            "ScriptFile"  "heroes/enigma/gravity_well.lua"
-            "Function"    "DamageTargets"
-            "Target"    "TARGET"
-            "modifier"    "modifier_gravity_well_slow"
-          }
-        }
+        "IsPurgable"    "1"        
 
-        "OnCreated"
+        "Properties"
         {
-          "RunScript"
-          {
-            "ScriptFile"  "heroes/enigma/gravity_well.lua"
-            "Function"    "DamageTargets"
-            "Target"    "TARGET"
-            "modifier"    "modifier_gravity_well_slow"
-          }
+          "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attack_slow"
+          "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%move_slow" 
         }
       }
     }
@@ -1189,11 +1331,17 @@
 
     "AbilitySpecial"
     {
-      //increase gravity_well duration to value
+      //increase gravity_well duration by value
       "01"
       {
-        "var_type"      "FIELD_INTEGER"
-        "value"       "15"
+        "var_type"      "FIELD_FLOAT"
+        "value"       "6.0"
+      }
+      //increase gravity_well tick rate to value
+      "02"
+      {
+        "var_type"    "FIELD_FLOAT"
+        "value1"      "1.0"
       }
     }
   }
