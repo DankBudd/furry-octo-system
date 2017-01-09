@@ -1,12 +1,13 @@
 Added support for multiple talent values
-use names "value", "value1", "value2", and so on
+use names "value", "value1", "value2", and so on up to "value6"
+if you need more than 6 talent values for whatever reason then tell me and ill increase the limit.
 
 Talent Examples
 --------------
 
  i think these can be called whatever you want, ex. "talent_crystalmaidens_left_testicle"
  but we should stick to valves names for easy reference, however with that being said,
- feel free to use damage, duration, slow or whatever else in the name instead of #'s
+ feel free to use damage, duration, slow or whatever else in the name instead of #
 
  special_bonus_unique_heroname_#
 
@@ -110,7 +111,7 @@ end
 What do these new functions do?
 --------------
 HasTalent() will return true or false, depending on whether or not the unit handle has the talent and has the talent skilled.
-FindTalentValue() will return a table with the value('s) found in the talent's AbilitySpecial block
+FindTalentValue() will return a table with the value('s) found in the talents AbilitySpecial block 	'
 
 
 --------------
@@ -123,30 +124,38 @@ someEntity:FindTalentValue("talent_name")
 --------------
  Examples
 --------------
-1.	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
+function TalentBasic( keys )
+	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
 		-- do something
 	end
+end
 
-2.	local hasTalent = keys.caster:HasTalent("special_bonus_unique_enigma_3")
-
+function MoveToCenterOfMapIfTalent( keys )
+	local hasTalent = keys.caster:HasTalent("special_bonus_unique_enigma_3")
 	if not hasTalent then return end
 
-3.	local stackCount = caster:GetModifierStackCount("some_modifier_name", keys.caster)
+	FindClearSpaceForUnit(keys.caster, Vector(0,0,0), false)
+end
+
+function TalentSomethingWithModifierStacks( keys )
+	local stackCount = keys.caster:GetModifierStackCount("some_modifier_name", keys.caster)
 	local talentValue = keys.caster:FindTalentValue("talent_name")
 
- 	if stackCount < talentValue[1] then
+ 	if stackCount < talentValue[2] then
  		-- do something
  	else
  		-- do something else
  	end
+end
 
-4.	local damage = keys.ability:GetSpecialValueFor("damage")
+function TalentDamageIncrease( keys )
+	local damage = keys.ability:GetSpecialValueFor("damage")
 
 	if keys.caster:HasTalent("special_bonus_unique_enigma_3") then
 		damage = damage + keys.caster:FindTalentValue("special_bonus_unique_enigma_3")[1]
 	end
 	ApplyDamage({...})
-
+end
 
 --------------
 Notes
@@ -157,7 +166,7 @@ Arhowk has made a talent libary to streamline making talents, but i don't think 
 
 you're apparently supposed to put: "LinkedSpecialBonus" "talent_name"
 underneath the value of the AbilitySpecial you are changing with the talent, but this is for tooltip purposes and we don't need to do this. 
-ex.
+ex.			'
 "AbilitySpecial"
 {
 	"01"
