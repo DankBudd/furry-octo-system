@@ -1,0 +1,160 @@
+Enigma,Gravity lord Starting stats 15 Int, 3 Agi, 5 Str, base speed 270, base damage 4, Stats Gain per level 2.00 int, 1.00 str, 0.50 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+
+Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
+
+max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+
+LEVEL 20 TALENT
+
+talent 1
+
+give 4 armor and 10% magic resist with 100 life
+
+talent 2
+
+give 8% spell amp 4 mana regen with 10 int
+
+
+PASSIVE D OR F level needed 1 5 15 25 
+
+Gravity Lord
+
+Increase overall stats/Level 25 Talent double all the bonus
+
+mana bonus 4% 8% 12% 16%/upgrade 8% 16% 24% 32%
+
+Mana regen 3 4 5 6/upgrade 6 8 10 12
+
+Spell amp 4% 8% 12% 16%/upgrade 8% 16% 24% 32%
+
+cast range 50 100 150/upgrade 100 200 300
+
+Spell vamp 3% 6%/upgrade 6% 12%
+
+change the spell amp from 10 int 1% amp to 5 int 1% amp
+
+talent 25 also give a new modifer making all spell have void fissure making the enemy take 10% more damage from anyone
+
+
+
+SPELL Q level needed 1 4 9 15
+
+Void Curse
+
+Deal damage over time to a target lowering the armor and magic resist for the duration
+
+Damage 10 15 20 25 magic damage/level 10 talent change damage to pure and increase damage by 5
+
+cast range 600 600 600 600
+
+Duration 4 6 8 10 second damage every 2 second/level 10 talent increase the duration by 4
+
+Armor lost 1 per tick of damage total of 2 3 4 5 armor lost with talent upgrade 4 5 6 7 armor lost
+
+Magic resist lost 2% per tick of damage total of 4% 6% 8% 10% magic resist lost with talent upgrade 8% 10% 12% 14% magic resist lost
+
+debuff duration 6 second refresh on hit with void curse and Black Star
+
+Coldown 34 34 34 34
+
+Mana cost 100 150 200 250
+
+
+
+SPELL W level needed 1 4 9 15
+
+Gravity Well
+
+Infest the ground with pure energy of gravity dealing damage overtime and slowing attack and movement speed
+
+Damage 10 20 30 40 magic damage
+
+cast range 700 700 700 700
+
+Duration 12 deal damage every 4 sec/level 10 talent increase the duration by 15 second, increasing the damage overall and change the tick second damage to 3 instead of 4
+
+Attack slow 3 5 7 9 per stack of damage taken by the spell total of 9 15 21 27 attack slow, with the talent upgrade 15 25 35 45 total attack slow
+
+Movement slow 2% 3% 4% 5% per stack of damage taken by the spell total of 6% 9% 12% 15% movement slow, with the talent 10% 15% 20% 25% total movement slow
+
+talent level 10 add a new modifier that make enemy take increase damage by 5% per damage stack
+
+Increase damage taken by 4% per stack of damage taken by gravity well total of 16%
+
+Radius 300 350 400 450
+
+debuff duration 6 second refresh on hit with gravity well
+
+Coldown 35 35 35 35
+
+Mana cost 100 200 300 400
+
+
+SPELL E level needed 1 4 9 15
+
+Gravity Bolt
+
+Cast a bolt made of pure gravity dealing magical damage and healing engima
+
+Base damage 20 magic damage with 8% 18% 28% 38% of int caster as bonus damage/talent 15 increase int bonus damage by 12%
+
+cast range 500 500 500 500
+
+healing recive 5% 10% 15% 20% damage dealt with gravity bolt/Level 15 talent increase healing by 10%
+
+talent level 15 add a new modifier that increase int by 8 for every cast of gravity bolt last 8 second, does not refresh stack on cast
+
+coldown 7 6 5 4/level 15 talent will lower the coldown by 2
+
+Mana cost 85 90 95 100, with 2% of enigma max mana/level 15 talent increase mana cost by 2%
+
+
+PASSIVE D OR F level needed 3 7 11 15
+
+Galaxy
+
+Reduce coldown by 2% 4% 6% 8%/level 15 talent increase the reduce coldown by 2% total
+
+reduce mana cost of all spell by 10 20 30 40/level 15 talent increase the mana reduce by 40
+
+give a new modifier to void curse ally that kill the enemy under the effect of void curse will be heal for 5% 6% 7% 8% of is life and mana, dont work on enigma/level 15 talent increase how much life and mana restore by 2%
+
+give a new modifier to Gravity well incease the damage by 6% 10% 14% 18% of enigma int and increase is radius by 25 50 75 100, gravity well will also restore 1% 2% 3% 4% per tick, restoring mana to ally, dont work on enigma/level 15 talent increase the int damage to 7% and the radius by 50
+
+level 15 talent give 3% 6% 9% 12% magic resist to engima
+
+
+ULTIMATE R level needed 8 16 24
+
+black star
+
+summon a star infested with void and gravity stuning and damaging and also increasing damage taken by engima void curse to all enemy in a radius of the star
+
+Damage 60 80 100 pure damage with 50% 75% 100% of enigma int/level 25 talent increase the damage by 20 and the int scale by 100%
+
+Stun duration 1/talent level 25 increase stun duration by 0.01 for every 1 point of int
+
+radius 400 500 600
+
+cast range 700 700 700
+
+Void Curse bonus damage 15% 25% 35%/level 25 talent give all enemy hit by black star void curse
+
+coldown 200 170 140/level 25 talen coldown reduce by 20
+
+mana cost 500 700 900
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
