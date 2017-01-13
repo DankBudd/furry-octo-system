@@ -1,0 +1,188 @@
+Pudge, Meaty Man Starting stats 17 str, 2 agi, 2 int, base speed 260, base damage 7, stats gain per level 2.00 str, 1.00 int, 0.50 agi, Starting item Flesh Hand give 2% life with 1 armor base attack time 2.10
+
+Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
+
+max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+
+LEVEL 20 TALENT
+
+talent 1
+
+7% life with 3 armor and 4 life regen
+
+talent 2
+
+15 damage with 30 attack speed and 12% spell amp
+
+
+PASSIVE D OR F
+
+Wierd Meat
+ 
+Increase overall stats/talent level 25 double all the bonus
+
+life 2% 4% 6% 8%/upgrade 4% 8% 12% 16%
+
+life regen 1 2 3 4/upgrade 2 4 6 8
+
+magic resist 3% 6% 9% 12%/upgrade 6% 12% 18% 24%
+
+damage reduction 2% 4% 6%/upgrade 4% 8% 12%
+
+spell amp 5% 10%/upgrade 10% 20%
+
+increase life bonus from strenght by 3
+
+level 25 talent make pudge basic attack deal 5% damage base on is life but lose 65 attack speed
+
+
+
+SPELL Q Glory Hook
+
+hook multiple enemy and dealing damage with reducing the armor of enemy hook
+
+damage 15 25 35 45 pyshical damage and 1% of pudge max life/talent level 10 increase damage by 10
+
+Range 1000 1000 1000 1000
+
+Area of effect 300 350 400 450/talent level 10 increase the area of effect by 150
+
+Multihook 3 5 7 9/talent level 10 remove the limit
+
+armor reduce 4% 6% 8% 10%
+
+life cost 5% 7% 9% 11%/talent level 10 reduce life cost by 2%
+
+mana cost 70 80 90 100/talent level 10 reduce mana cost by 30
+
+cooldown 16 14 12 10
+
+
+
+SPEED Q Rotting Flesh
+
+rot enemy dealing damage to them and also reducing magic resist and movement speed, double on pudge
+
+damage 15 magical damage and 1% of pudge max life/talent level 10 pudge take normal damage instead of double
+
+movement speed reduction 10% 15% 20% 25%/talent level 10 no longer affect pudge
+
+magic resist reduction 4% 8% 12% 16%/talent level 10 increase the magic resist by 6% and no longer affect pudge
+
+mana cost per second 10 15 20 25
+
+no cooldown
+
+level 10 talent add a new modifer making enemy attack pudge instead
+
+
+
+SPEED E Freah Meat!
+
+Pudge empower this next attack dealing damage and healing him and also taunting the enemy on hit and taking increase damage
+
+damage 3% 4% 5% 6% of pudge max life/talent level 15 increase damage by 1%
+
+lifesteal 5% 10% 15% 20%
+
+taunt duration 1 1.2 1.4 1.6/talent level 15 increase taunt duration by 0.4
+
+increase damage taken 20% 25% 30% 35%/talent level 15 reduce the increase damage by 10%
+
+talent level 15 add a new modifer cleaving for 100% of the damage done with Freah Meat!
+
+Number of attack 1
+
+life cost 3% 4% 5% 6%/talent level 15 reduce life cost by 2%
+
+mana cost 60 80 100 120
+
+
+
+PASSIVE F OR D
+
+Flesh Heap
+
+Increase pudge strenght and magic resist and give pudge bonus stats went killing enemy creep or bosses 
+
+bonus strenght 4 8 12 16/talent level 15 inctease strenght gain by 4
+
+magic resist 3% 6% 9% 12%/talent level 15 increase magic resist by 6%
+
+strenght per stack 0.2 0.4 0.6 0.8/ talent level 15 increase stack by 0.7
+
+life regen per stack 0.1/talent level 15 increase life regen by 0.1
+
+max stack 15 20 25 30/talent level 15 increase max stack by 10
+
+stack per bosses 4 6 8 10/talent level 15 increase stack per bosses by 6
+
+stack per non-boss enemy 1
+
+
+
+UILTMATE R 
+
+Dismenber
+
+deal damage to a enemy base on pudge strenght and healing pudge and nearby ally, doesnt stun
+
+damage 40% 60% 80% of pudge str/talent level 25 increase the damage by 40%
+
+healing done by damage, pudge heal 15% 25% 35%/talent level 25 increase the heal by 10%
+
+healing done by damage, ally heal 5% 10% 15%
+
+radius for heal 400
+
+duration 4 5 6/talent level 25 increase duration by 1
+
+damage per second 1
+
+life cost 10% 20% 30%
+
+mana cost 150 250 350
+
+cooldown 90 80 70
+
+level 25 talent add a new modifer if the unit die withing dismenber pudge next dismenber will be more powerfull
+
+next dismenber damage 30%
+
+next dismenber heal 25%
+
+next dismenber heal ally 10%
+
+next dismenber duration increase 1
+
+cooldown for next dismenber buff 200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
