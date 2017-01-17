@@ -21,13 +21,13 @@ PASSIVE D OR F level needed 1 5 15 25
 
 Gravity Lord
 
-Increase overall stats 																/Level 25 Talent double all the bonus
+Increase overall stats/Level 25 Talent double all the bonus
 
 mana bonus 4% 8% 12% 16%/upgrade 8% 16% 24% 32%
 
 Mana regen 3 4 5 6/upgrade 6 8 10 12
 
-Spell amp 4% 8% 12% 16%/upgrade 8% 16% 24% 32%
+Spell amp 3% 6% 9% 12%/upgrade 6% 12% 18% 24%
 
 cast range 50 100 150/upgrade 100 200 300
 
@@ -60,9 +60,9 @@ Magic resist lost 2% per tick of damage total of 4% 6% 8% 10% magic resist lost 
 
 debuff duration 6 second refresh on hit with void curse and Black Star
 
-Coldown 34 34 34 34
+Coldown 34 32 30 28 -change-
 
-Mana cost 100 150 200 250
+Mana cost 100 130 160 190
 
 
 
@@ -76,23 +76,21 @@ Damage 10 20 30 40 magic damage
 
 cast range 700 700 700 700
 
-Duration 12 deal damage every 4 sec/level 10 talent increase the duration by 15 second, increasing the damage overall and change the tick second damage to 3 instead of 4
+Duration 15 deal damage every 3 sec/level 10 talent increase the duration by 1 second, increasing the damage overall and change the tick second damage to 2 instead of 3
 
-Attack slow 3 5 7 9 per stack of damage taken by the spell total of 9 15 21 27 attack slow, with the talent upgrade 15 25 35 45 total attack slow
+Attack slow 2 3 4 5 per stack of damage taken by the spell
 
-Movement slow 2% 3% 4% 5% per stack of damage taken by the spell total of 6% 9% 12% 15% movement slow, with the talent 10% 15% 20% 25% total movement slow
+Movement slow 1% 2% 3% 4% per stack of damage taken by the spell
 
 talent level 10 add a new modifier that make enemy take increase damage by 5% per damage stack
-
-Increase damage taken by 4% per stack of damage taken by gravity well total of 16%
 
 Radius 300 350 400 450
 
 debuff duration 6 second refresh on hit with gravity well
 
-Coldown 35 35 35 35
+Coldown 35 34 33 32
 
-Mana cost 100 200 300 400
+Mana cost 100 160 220 280
 
 
 SPELL E level needed 1 4 9 15
@@ -101,7 +99,7 @@ Gravity Bolt
 
 Cast a bolt made of pure gravity dealing magical damage and healing engima
 
-Base damage 20 magic damage with 8% 18% 28% 38% of int caster as bonus damage/talent 15 increase int bonus damage by 12%
+Base damage 15 20 25 30 magic damage with 8% 18% 28% 38% of int caster as bonus damage/talent 15 increase int bonus damage by 22%
 
 cast range 500 500 500 500
 
@@ -162,7 +160,7 @@ Void Curse bonus damage 15% 25% 35%/level 25 talent give all enemy hit by black 
 
 coldown 200 170 140/level 25 talen coldown reduce by 20
 
-mana cost 500 700 900
+mana cost 300 600 900
 
 
 
@@ -220,6 +218,31 @@ decrease cooldown by 20 seconds
 double all the bonus
 new stacking modifer applied by all of enigmas spells: void fissure;
  making the enemy take 10% more damage from all sources
+
+
+
+
+
+
+
+
+
+
+
+
+-LATER CHANGE-
+
+VOID CURSE
+
+VACUUM TALENT UPGRADE
+
+pull near enemy every tick to the target affected by void curse enemy will take less damage from it
+
+PULL STRENGHT 70
+
+DAMAGE 60% does not ally the magic resist and armor loss
+
+pull area of effect 300
 
 
 
