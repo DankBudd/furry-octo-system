@@ -32,6 +32,8 @@ require('libraries/modmaker')
 require('libraries/pathgraph')
 -- This library (by Noya) provides player selection inspection and management from server lua
 require('libraries/selection')
+--
+require('libraries/misc/mana_item_table_functions')
 
 -- These internal libraries set up barebones's events and processes.  Feel free to inspect them/change them if you need to.
 require('internal/gamemode')

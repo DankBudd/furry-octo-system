@@ -4,22 +4,24 @@ Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int 
 
 max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
 
+
 LEVEL 20 TALENT
 
 talent 1
-
 give 4 armor and 10% magic resist with 100 life
 
-talent 2
 
+talent 2
 give 8% spell amp 4 mana regen with 10 int
+
+
 
 
 PASSIVE D OR F level needed 1 5 15 25 
 
 Gravity Lord
 
-Increase overall stats/Level 25 Talent double all the bonus
+Increase overall stats 																/Level 25 Talent double all the bonus
 
 mana bonus 4% 8% 12% 16%/upgrade 8% 16% 24% 32%
 
@@ -32,6 +34,9 @@ cast range 50 100 150/upgrade 100 200 300
 Spell vamp 3% 6%/upgrade 6% 12%
 
 change the spell amp from 10 int 1% amp to 5 int 1% amp
+
+
+
 
 talent 25 also give a new modifer making all spell have void fissure making the enemy take 10% more damage from anyone
 
@@ -124,6 +129,21 @@ give a new modifier to Gravity well incease the damage by 6% 10% 14% 18% of enig
 level 15 talent give 3% 6% 9% 12% magic resist to engima
 
 
+
+
+
+
+
+DankBot: is enigmas ult supposed to be like black hole?
+Soz: almost
+Soz: it like
+Soz: aoe stun
+Soz: linger around for like 4 sec
+Soz: can only get hit by it 1 time
+
+Soz: change the black star model blackhole for the immortal one
+
+
 ULTIMATE R level needed 8 16 24
 
 black star
@@ -146,7 +166,60 @@ mana cost 500 700 900
 
 
 
+///////////////////
+level 10 talents
+///////////////////
+-- void curse upgrade --
+change damage to pure
+increase damage by 5
+increase the duration by 4
+4 5 6 7 more armor lost
+8% 10% 12% 14% more magic resist lost
 
+-- gravity well upgrade --
+increase the duration by 15 second
+change the tick rate to 1 instead of 2
+15 25 35 45 total attack slow
+10% 15% 20% 25% total movement slow
+add a new modifier on tick that make enemy take increase damage by 5% per slow stack
+
+///////////////////
+level 15 talents
+///////////////////
+-- gravity bolt upgrade --
+increase int bonus damage by 12%
+increase healing by 10%
+add a new modifier that increase int by 8 for every cast of gravity bolt last 8 second, does not refresh stack on cast
+talent will lower the coldown by 2
+talent increase mana cost by 2%
+
+-- galaxy upgrade --
+increase the reduce coldown by 2% total
+increase the mana reduce by 40
+increase how much life and mana restore by 2%
+increase the int damage to 7% and the radius by 50
+
+///////////////////
+level 20 talents
+///////////////////
+-- defensive stats --
+
+-- offensive stats --
+
+///////////////////
+level 25 talents
+///////////////////
+-- black star upgrade --
+increase damage by 20
+increase int damage by 100% of enigmas int
+increase stun duration by 0.01 per int
+apply void curse to all units hit by black star
+decrease cooldown by 20 seconds
+
+-- gravity lord --
+double all the bonus
+new stacking modifer applied by all of enigmas spells: void fissure;
+ making the enemy take 10% more damage from all sources
 
 
 

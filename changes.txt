@@ -1,0 +1,17 @@
+fixed enigma Q and W
+
+added the rest of his spells
+
+merged enigma talents into 1 per ability
+
+added break check in passives
+
+organized heroes lua files
+
+added talent tooltips, "hold alt to view talent info"
+
+talent leveling SHOULD be fixed, ty volvo
+
+
+
+NEED TO: rework enigma R to match soz's concept

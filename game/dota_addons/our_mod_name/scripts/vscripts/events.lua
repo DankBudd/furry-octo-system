@@ -26,7 +26,7 @@ function GameMode:OnNPCSpawned(keys)
 
   local npc = EntIndexToHScript(keys.entindex)
 
-  InitializeInnateAbilities( npc )
+  --InitializeInnateAbilities( npc )
 end
 
 -- An entity somewhere has been hurt.  This event fires very often with many units so don't do too many expensive
@@ -338,17 +338,19 @@ function GameMode:OnPlayerChat(keys)
 
   local text = keys.text
 
-  ChatCommandTest(playerID, text)
+  --ChatCommandTest(playerID, text)
 end
 
+--[[
 function ChatCommandTest( playerID, text )
   if playerID ~= nil and playerID ~= -1 then
     if string.find(text, "-center") then
      allHeroes = FindUnitsInRadius(DOTA_TEAM_GOODGUYS + DOTA_TEAM_BADGUYS, Vector(0,0,0), nil, 20000, DOTA_UNIT_TARGET_TEAM_BOTH,
                                            DOTA_UNIT_TARGET_HERO, DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
       for _,hero in pairs(allHeroes) do
-        FindClearSpaceForUnit(hero, Vector(0,0,0), false))
+        FindClearSpaceForUnit(hero, Vector(0,0,0), false)
       end
     end
   end
 end
+]]

@@ -25,6 +25,7 @@ function IllusionPassiveRemover( keys )
   end
 end
 
+-- Talent Stuff
 function CDOTA_BaseNPC:HasTalent(talentName)
     if self:HasAbility(talentName) then
         if self:FindAbilityByName(talentName):GetLevel() > 0 then return true end
@@ -32,6 +33,7 @@ function CDOTA_BaseNPC:HasTalent(talentName)
     return false
 end
 
+-- this can be improved significantly with a file that contains every talent and their values in it
 function CDOTA_BaseNPC:FindTalentValue(talentName)
     if self:HasAbility(talentName) then
       local talent = self:FindAbilityByName(talentName)
@@ -60,6 +62,7 @@ function CDOTA_BaseNPC:FindTalentValue(talentName)
     return nil
 end
 
+------------------------------------------------------------------
 function DebugPrint(...)
   local spew = Convars:GetInt('barebones_spew') or -1
   if spew == -1 and BAREBONES_DEBUG_SPEW then

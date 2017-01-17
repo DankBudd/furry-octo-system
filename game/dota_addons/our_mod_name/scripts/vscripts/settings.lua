@@ -2,7 +2,7 @@
 
 
 ENABLE_HERO_RESPAWN = true              -- Should the heroes automatically respawn on a timer or stay dead until manually respawned
-UNIVERSAL_SHOP_MODE = false             -- Should the main shop contain Secret Shop items as well as regular items
+UNIVERSAL_SHOP_MODE = true             -- Should the main shop contain Secret Shop items as well as regular items
 ALLOW_SAME_HERO_SELECTION = true        -- Should we let people select the same hero as each other
 
 HERO_SELECTION_TIME = 30.0              -- How long should we let people select their hero?
@@ -10,8 +10,8 @@ PRE_GAME_TIME = 5.0                    -- How long after people select their her
 POST_GAME_TIME = 60.0                   -- How long should we let people look at the scoreboard before closing the server automatically?
 TREE_REGROW_TIME = 60.0                 -- How long should it take individual trees to respawn after being cut down/destroyed?
 
-GOLD_PER_TICK = 100                     -- How much gold should players get per tick?
-GOLD_TICK_TIME = 5                      -- How long should we wait in seconds between gold ticks?
+GOLD_PER_TICK = 2                     -- How much gold should players get per tick?
+GOLD_TICK_TIME = 2                      -- How long should we wait in seconds between gold ticks?
 
 RECOMMENDED_BUILDS_DISABLED = false     -- Should we disable the recommened builds for heroes
 CAMERA_DISTANCE_OVERRIDE = -1           -- How far out should we allow the camera to go?  Use -1 for the default (1134) while still allowing for panorama camera distance changes
@@ -69,7 +69,7 @@ MINIMUM_ATTACK_SPEED = 20               -- What should we use for the minimum at
 
 GAME_END_DELAY = -1                     -- How long should we wait after the game winner is set to display the victory banner and End Screen?  Use -1 to keep the default (about 10 seconds)
 VICTORY_MESSAGE_DURATION = 3            -- How long should we wait after the victory message displays to show the End Screen?  Use 
-STARTING_GOLD = 500                     -- How much starting gold should we give to each player?
+STARTING_GOLD = 625                     -- How much starting gold should we give to each player?
 DISABLE_DAY_NIGHT_CYCLE = false         -- Should we disable the day night cycle from naturally occurring? (Manual adjustment still possible)
 DISABLE_KILLING_SPREE_ANNOUNCER = false -- Shuold we disable the killing spree announcer?
 DISABLE_STICKY_ITEM = false             -- Should we disable the sticky item button in the quick buy area?
