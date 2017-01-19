@@ -238,11 +238,34 @@ VACUUM TALENT UPGRADE
 
 pull near enemy every tick to the target affected by void curse enemy will take less damage from it
 
-PULL STRENGHT 70
+PULL STRENGHT 40
 
-DAMAGE 60% does not ally the magic resist and armor loss
+DAMAGE 70% does not give the magic resist and armor loss
 
 pull area of effect 300
+
+damage area of effect 300
+
+
+-LATER CHANGE-
+
+BLACK STAR
+
+BLACK HOLE TALENT UPGRADE
+
+pull enemy into the black star dealing damage per second
+
+blackhole linger around 5 second
+
+PULL STRENGHT 150
+
+damage per 2 second 40% of blackstar damage
+
+area of effect for pull 1000
+
+area of effect for damage 450
+
+
 
 
 
