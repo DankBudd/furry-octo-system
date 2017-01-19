@@ -8,7 +8,7 @@ TALENT LEVEL 20
 
 talent 1 
 
-4% life 10% magic resist and 15 str
+6% life 10% magic resist and 15 str
 
 talent 2
 
@@ -31,7 +31,7 @@ magic resist 5% 10%/upgrade 10% 20%
 
 change the number of damage needed for base damage on primary stats from 0.20 to 0.25 increase of 5 str for 1 damage to 4 str for 1 damage
 
-level 25 talent also making all spell of sven to do 1% of current life of enemy as pure damage dont work on spell immune unit
+level 25 talent also make all spell of sven do 30% more damage base on the damage of is spell
 
 
 
@@ -39,21 +39,21 @@ SPELL Q level needed 1 4 9 15
 
 Bloodlust
 
-make sven go crazy increasing is attack damage attack speed and movement speed for a short time
+make sven go crazy increasing is attack damage, attack speed and movement speed for a short time
 
 attack speed 10 20 30 40/talent level 10 icrease attack speed by 15
 
-movement speed 15 30 45 60
+flat movement speed 15 30 45 60
 
-damage bonus 10 15 20 25
+damage bonus 15 20 25 30
 
 duration 3 3.5 4 4.5/talent level 10 increase the durastion by 1
 
-level 10 talent also give a new modifier to bloodlust increasing sven damage by 10%
+level 10 talent also give a new modifier to bloodlust increasing sven damage by 20% of is base damage
 
 coldown 17 16 15 14/talent level 10 reduce coldown by 4
 
-mana cost 20 40 60 80/talent level 10 increase mana cost by 30
+mana cost 40 60 80 100/talent level 10 increase mana cost by 40
 
 
 SPELL W level needed 1 4 9 15
@@ -62,15 +62,15 @@ Great Cleave
 
 Sven attack with a deadly blow dealing heavy damage and restoring life
 
-damage 10 20 30 40 pysical damage plus 8% 10% 12% 14% of sven damage/level 10 talent increase the damage by 15% of sven str
+damage 10 20 30 40 pysical damage plus 10% 12% 14% 16% of sven damage/level 10 talent increase damage by 10 and increase scaling damage by 4%
 
-Life regain 2% 3% 4% 5% of sven life/level 10 talent increase the life regain by 2%
+Life regain 2% 3% 4% 5% of sven life/level 10 talent increase the life regain by 3%
 
-level 10 talent add a new modifier making the enemy lose 4% 8% 12% 16% of is base damage, last 7 second
+level 10 talent add a new modifier making the enemy lose 5% 10% 15% 20% of is base damage, last 7 second
 
 coldown 15 15 15 15
 
-mana 100 120 140 160
+mana 100 130 160 190
 
 
 SPEED E level needed 1 4 9 15
@@ -81,13 +81,13 @@ Sven sharp is sword making it have a more clean cut dealing damage per second an
 
 damage 4 8 12 16 physical damage per tick/talent level 15 increase the damage by 8 and 10% of sven str
 
-armor loss 1 2 3 4/talent level 15 reduce armor by a % of 5% 10% 15% 20% of the total enemy armor
+armor loss 1 2 3 4/talent level 15 increase the armor lost by 3
 
 duration 4 5 6 7 second
 
 talent level 15 add a new modifier making ally lifeleach on melee attack
 
-lifeleach 2% 4% 6% 8% of damage done, work with the bleed damage of sven
+lifeleach 3% 6% 9% 12% of damage done, work with the bleed damage of sven
 
 PASSIVE D OR F Level needed 3 7 11 15
 
@@ -96,17 +96,17 @@ War Gladiator
 
 give sven a chance to block and crit on hit that also reduce armor
 
-Crit Multiplier 130% 150% 170% 190%/level 15 talent increase crit multiplier by 20% total
+Crit Multiplier 130% 150% 170% 190%/level 15 talent increase crit multiplier by 60% total
 
 Crit chance 10% 12% 14% 16%/level 15 talent increase crit chance by 4% total
 
-armor reduce 1 2 3 4/level 15 talent increase armor reduce by 1 total of 2 3 4 5
+armor reduce 1 2 3 4/level 15 talent increase armor reduce by 2
 
 block damage 10% 15% 20% 25% of pysical damage recive/level 15 talent increase damage block by 5%
 
 level 15 talent give a new modifier blocking 5% 10% 15% 20% of magic damage
 
-coldown for block and crit 4 4 4 4
+cooldown for block and crit 4 4 4 4
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
@@ -117,11 +117,13 @@ increase sven damage and life but reduce speed attack speed for a short duration
 
 damage 30 50 70/talent level 25 increase the damage by 30
 
-base damage 10% 30% 50%/talent level 25 increase the base damage bonus to 10%
+base damage 20% 40% 60%/talent level 25 increase the base damage bonus by 40%
 
-attack speed reduce 90 120 150/talent level 25 increase the attack speel lost by 30
+attack speed reduce 90 120 150/talent level 25 increase the attack speed lost by 60
 
 duration 10 11 12 second/talent level 25 increase duration by 3
+
+talent level 25 also give a new modifier Great Eage, making sven cleave for 40% of his damage
 
 life bonus 300 450 600
 
