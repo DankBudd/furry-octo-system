@@ -1,11 +1,11 @@
 manaItemTable = require("libraries/misc/item_table")
 
-function CDOTA_BaseNPC:CalculateBaseMana(bStats, bItems)
+function CDOTA_BaseNPC:CalculateBaseMana(bStats, bBonusMana)
 	local outcome = 0
 	if bStats then
 		outcome = self:GetStatsBasedMana()
 	end
-	if bItems then
+	if bBonusMana then
 		local itemBasedMana = 0
 		for i = 0,5 do
 			local item = self:GetItemInSlot(i)

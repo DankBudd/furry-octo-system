@@ -1,29 +1,39 @@
--- Initializes heroes' innate abilities
-function InitializeInnateAbilities( hero )
 
-  -- List of innate abilities
-  local innates = {
-    "dummy_unit",
-  }
+-- we can use these imba functions to implement our own cast range / cd reduction stuff, but we'd have to use it in each ability.
+-- Returns an unit's existing increased cast range modifiers
+function GetCastRangeIncrease( unit )
+  local cast_range_increase = 0
+  
+  -- From items
+  if unit:HasModifier("modifier_item_imba_elder_staff_range") then
+    cast_range_increase = cast_range_increase + 300
+  elseif unit:HasModifier("modifier_item_imba_aether_lens_range") then
+    cast_range_increase = cast_range_increase + 225
+  end
 
-  -- Cycle through any innate abilities found, then upgrade them
-  for i = 1, #innates do
-    local currentAbility = hero:FindAbilityByName(innates[i])
-    if currentAbility then
-      currentAbility:SetLevel(1)
+  -- From talents
+  for talent_name,cast_range_bonus in pairs(CAST_RANGE_TALENTS) do
+    if unit:FindAbilityByName(talent_name) and unit:FindAbilityByName(talent_name):GetLevel() > 0 then
+      cast_range_increase = cast_range_increase + cast_range_bonus
     end
   end
+
+  return cast_range_increase
 end
 
--- Removes unwanted passive modifiers from illusions upon their creation
-function IllusionPassiveRemover( keys )
-  local target = keys.target
-  local modifier = keys.modifier
+-- Returns the total cooldown reduction on a given unit
+function GetCooldownReduction( unit )
 
-  if target:IsIllusion() or not target:GetPlayerOwner() then
-    target:RemoveModifierByName(modifier)
+  local reduction = 1.0
+
+  -- Octarine Core
+  if unit:HasModifier("modifier_item_imba_octarine_core_unique") then
+    reduction = reduction * 0.75
   end
+
+  return reduction
 end
+--------------------------------------------------------------------------------------------
 
 -- Talent Stuff
 function CDOTA_BaseNPC:HasTalent(talentName)

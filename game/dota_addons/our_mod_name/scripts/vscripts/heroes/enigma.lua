@@ -224,11 +224,8 @@ function GravityBoltModifier( keys )
 	local ability = keys.ability
 
 	if caster:HasTalent("special_bonus_unique_gravity_lord_3") then
-		if caster:HasModifier(keys.modifier) then 
-			caster:SetModifierStackCount(keys.modifier, caster, caster:GetModifierStackCount(keys.modifier, caster) + 1)
-		else
-			ability:ApplyDataDrivenModifier(caster, caster, keys.modifier, {})
-		end
+		ability:ApplyDataDrivenModifier(caster, caster, keys.modifier, {})
+		caster:CalculateStatBonus()
 	end
 end
 
@@ -237,7 +234,7 @@ function GravityBoltManaCost( keys )
 	local manaCostPct = caster:FindTalentValue("special_bonus_unique_gravity_lord_3")[3] * 0.01
 
 	if caster:HasTalent("special_bonus_unique_gravity_lord_3") then
-		caster:SetMana(caster:GetMana() * manaCostPct)
+		caster:SetMana(caster:GetMana() - caster:GetMana() * manaCostPct)
 	end
 end
 
@@ -334,6 +331,7 @@ function BlackStar( keys )
 	end
 
 	local dummy = CreateUnitByName("npc_dummy_unit", keys.target_points[1], false, nil, nil, caster:GetTeamNumber())
+	ability:ApplyDataDrivenModifier(caster, dummy, "modifier_black_star_dummy", {})
 	EmitSoundOn("Hero_Phoenix.SuperNova.Explode", dummy)
 
 	local pfxName = "particles/units/heroes/hero_phoenix/phoenix_supernova_reborn.vpcf"
@@ -379,13 +377,25 @@ end
 /// Gravity Lord ///
 ///////////////////]]
 
-function DoubleGravityLordBonuses( keys )
+function HandleGravityLordBuffs( keys )
 	local caster = keys.caster
 	local ability = keys.ability
+	local regenCount = ability:GetSpecialValueFor("mana_regen_tooltip")
+	local ampCount = ability:GetSpecialValueFor("spell_amp_tooltip")
+	local talent = "special_bonus_unique_gravity_lord_6"
+	local modifier = keys.modifier
+
+	local stackCount 
+	if modifier == keys.check then stackCount = ampCount else stackCount = regenCount end
+	local talentCount = stackCount * caster:FindTalentValue(talent)[1]
+
+	if caster:GetModifierStackCount(modifier, caster) < stackCount then
+		caster:SetModifierStackCount(modifier, caster, stackCount)
+	end
+
 	-- double gravity lord bonuses if caster has talent and bonuses have not already been doubled.
-	if caster:HasTalent("special_bonus_unique_gravity_lord_6") and not caster.hasDoubled then
-		ability:ApplyDataDrivenModifier(caster, target, keys.modifier, {})
-		ability.hasDoubled = true
+	if caster:HasTalent(talent) and caster:GetModifierStackCount(modifier, caster) < talentCount then
+		caster:SetModifierStackCount(modifier, caster, talentCount)
 	end
 end
 
@@ -432,6 +442,7 @@ function VoidFissure( caster, target )
 		if target ~= nil then
 			if not target:HasModifier(modifier) then
 				gravityLord:ApplyDataDrivenModifier(caster, target, modifier, {})
+				target:SetModifierStackCount(modifier, caster, 1)
 			else
 				target:SetModifierStackCount(modifier, caster, target:GetModifierStackCount(modifier, caster)+1)
 			end
