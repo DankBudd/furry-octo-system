@@ -44,6 +44,74 @@ increase all stats with 1 life and mana regeneration and movement speed
 5% movespeed
 
 
-Earth Ring GREEN gold 400
+Earth Ring GREEN gold 200
 
-increase armor 
+give armor to near ally and reduce armor to enemy
+
+armor ally 1.5
+
+armor enemy 1.5
+
+
+Water Ring GREEN 200 gold
+
+increase regeneration of ally and reduce the regeneration of enemy
+
+ally regen 1.6 life and 1.2 mana
+
+enemy regen -1.2 life and -0.8 mana
+
+
+Fire Ring GREEN 200 gold
+
+increase the damage of ally and reduce damage of enemy
+
+damage increase ally 5% and 5 damage
+
+damage reduction enemy 10% and 3 damage
+
+
+Air Ring GREEN 200 gold
+
+increase attack speed and movement spell of ally and reduce enemy attack speed and movement speed
+
+attack speed ally 15
+
+movement speed ally 30
+
+attack speed enemy -10
+
+movement speed enemy -20
+
+Elemental Ring TEAL need Earth Ring, Water Ring, Fire Ring, Air Ring and Recipe drop from boss
+
+Give ally boosted stats and reduce enemy stats as well
+
+6 all stats -not aura-
+
+ally armor 3
+
+ally regen 2.2 life and 1.6 mana
+
+ally damage increase 10% and 10 damage
+
+ally movement speed 10%
+
+ally attack speed 25
+
+ally lifesteal 5%
+
+enemy armor -4
+
+enemy regen -2.6 life and -1.4 mana
+
+enemy damage reduction 15% and 6 damage
+
+enemy attack speed -15
+
+enemy movement speed -10%
+
+enemy damage taken Increase 6%
+
+
+
