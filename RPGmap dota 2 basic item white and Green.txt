@@ -1,0 +1,49 @@
+ITEM BASIC --- WHITE COLOR --- GREEN COLOR
+
+
+
+Iron Branch WHITE gold 100
+
+increase strenght and life regeneration
+
+1 to strenght
+
+0.3 life-regen
+
+
+Leaf Branch WHITE gold 100
+
+increase agility and movement speed
+
+1 to agility
+
+2% movespeed
+
+
+Wisdom Branch WHITE gold 100
+
+increase intelligence and mana regeneration
+
+1 to intelligence
+
+0.3 mana-regen
+
+
+Superior Branch gold 350
+
+item needed Iron Brach, Leaf Branch, Wisdom Branch and recipe 50 gold
+
+increase all stats with 1 life and mana regeneration and movement speed
+
+3 to all stats
+
+1 life-regen
+
+1 mana-regen
+
+5% movespeed
+
+
+Earth Ring GREEN gold 400
+
+increase armor 
