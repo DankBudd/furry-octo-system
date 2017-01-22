@@ -101,17 +101,19 @@ cooldown 12
 
 Lesser Soul WHITE cant buy
 
-give bonus damage and stats
+give bonus damage and stats with spell amp
 
 damage 3
+spell amp 2%
 all stats 2
 
 
 Soul GREEN cant buy
 
-give bonus damage, stats, and lifesteal with spellvamp
+give bonus damage, stats, spellamp and lifesteal with spellvamp
 
 damage 7
+spell amp 5%
 all stats 3
 life steal 4%
 spell vamp 2%
@@ -119,18 +121,19 @@ spell vamp 2%
 
 Greater Soul BLUE cant buy
 
-give bonus damage, stats, lifesteal, spellvamp and spellamp
+give bonus damage, stats, lifesteal, spellamp and spellvamp with cast range
 
 damage 15
-spell amp 3%
+spell amp 9%
 all stats 7
 lifesteal 6%
-spell amp 3%
+spell vamp 3%
+cast range 75
 
 
 Divine Soul PURPLE cant buy
 
-increase overall stats and give the user to stun the target and also giving the change to crit with spell
+increase overall stats and give the user to stun the target and also giving the chance to crit with spell
 
 active item use
 deal 100 pure damage plus 70% of user intelligence, stun the target for 2,5 second dealing full damage, other unit in 250 radius of the spell
