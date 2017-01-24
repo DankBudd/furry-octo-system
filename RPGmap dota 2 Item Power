@@ -1,5 +1,13 @@
-ITEM POWER CAN ONLY HAVE 1 ACTIVE
+Item Quality
+"artifact" //Orange 
+"epic" //Purple
+"rare" //Blue
+"common" //Green
+"component" //White
+"consumable" //White
 
+
+ITEM POWER CAN ONLY HAVE 1 ACTIVE
 
 Iron Branch WHITE gold 100
 
