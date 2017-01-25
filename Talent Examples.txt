@@ -1,4 +1,4 @@
-Added support for multiple talent values
+-Added support for multiple talent values
 use names "value", "value1", "value2", and so on up to "value6"
 if you need more than 6 talent values for whatever reason then tell me and ill increase the limit.
 
@@ -17,9 +17,9 @@ Talent Examples
 
 --------------
 
-"special_bonus_unique_enigma_3"
+"special_bonus_gravity_lord_1"
 {
-	"BaseClass"             		"ability_datadriven"
+	"BaseClass"             		"special_bonus_undefined"
 
 	//ability type attributes, and behavior passive are what defines this ability as a talent.
 	"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
@@ -29,19 +29,18 @@ Talent Examples
 	"AbilitySpecial"
 	{
 		//write in commented text somwhere on the talent saying what its for, or what it does.
-		//increase gravity_well damage by % per slow stack
 		"01"
 		{
 			"var_type"			"FIELD_INTEGER"
-			//SEE ABOVE so that the FindTalentValue() function will work
-			"value"				"5"
+			//keep the keys as "value", "value1", etc so that FindTalentValue() function will work
+			"value"				"5"//increases tick damage by 10
 		}
 	}
 }
 
 "special_bonus_faster_in_water" //topkek
 {
-	"BaseClass"             		"ability_datadriven"
+	"BaseClass"             		"special_bonus_undefined"
 	"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
 	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 	"MaxLevel" 						"1"
