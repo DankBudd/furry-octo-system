@@ -181,7 +181,7 @@ Magic Stone BLUE gold 600
 increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
 
 Active item use
-deal 35 magic damage plus 15% of user int to the target slowing for movement for 30% last 4 second
+deal 35 magic damage plus 15% of user int to the target slowing for movement for 30% last 4 second cooldown 16
 
 intelligence 7
 spell amp 4%
@@ -192,13 +192,24 @@ Rad Stone ORANGE needed Magic Stone 600 gold and Recipe 1400 gold
 increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
 
 Active item use
-deal 55 magic damage plus 25% of user int to the target slowing movement by 35% and attack speed by 25 last 4 second
+deal 55 magic damage plus 25% of user int to the target slowing movement by 35% and attack speed by 25 last 4 second cooldown 16
 
 Passive item use
-deal 15 magical damage per 2.5 second plus 15% of user int also slow enemy by 5%
+deal 10 magical damage per 2.5 second plus 10% of user int also slow enemy by 5%
 
 intelligence 16
 spell amp 9%
 mana 220
+
+
+Uranuim Stone needed Rad stone 2000 gold, Rad stone 2000 gold and recipe 1000 gold
+increase intelligence, spell amp, mana, spellvamp and healing effect and also can be use to deal damage or heal a target and damage nearby enemy
+
+Active use item
+deal 75 magical damage plus 35% of user int OR heal 130 plus 20% of int user to a target enemy or ally, enemy will be slow for 40% movement speed
+and 35 attackspeed and ally will be boosted by 20% movement speed and 25 attackpeed last 6 second cooldown 20
+
+Passive use item
+deal 15 magical damage per 2 second plus 20% of user int and also heal ally for 30 plus 10% of user int per 2.5 second
 
 
