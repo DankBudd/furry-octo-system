@@ -10,7 +10,6 @@ Item Quality
 ITEM POWER CAN ONLY HAVE 1 ACTIVE
 
 Iron Branch WHITE gold 100
-
 increase strenght and life regeneration
 
 1 to strenght
@@ -18,7 +17,6 @@ increase strenght and life regeneration
 
 
 Leaf Branch WHITE gold 100
-
 increase agility and movement speed
 
 1 to agility
@@ -26,7 +24,6 @@ increase agility and movement speed
 
 
 Wisdom Branch WHITE gold 100
-
 increase intelligence and mana regeneration
 
 1 to intelligence
@@ -46,7 +43,6 @@ increase all stats with 1 life and mana regeneration and movement speed
 
 
 Earth Ring GREEN gold 200
-
 give armor to near ally and reduce armor to enemy
 
 armor ally 1.5
@@ -54,7 +50,6 @@ armor enemy 1.5
 
 
 Water Ring GREEN 200 gold
-
 increase regeneration of ally and reduce the regeneration of enemy
 
 ally regen 1.6 life and 1.2 mana
@@ -62,7 +57,6 @@ enemy regen -1.2 life and -0.8 mana
 
 
 Fire Ring GREEN 200 gold
-
 increase the damage of ally and reduce damage of enemy
 
 damage increase ally 5% and 5 damage
@@ -70,7 +64,6 @@ damage reduction enemy 10% and 3 damage
 
 
 Air Ring GREEN 200 gold
-
 increase attack speed and movement spell of ally and reduce enemy attack speed and movement speed
 
 attack speed ally 15
@@ -79,7 +72,6 @@ attack speed enemy -10
 movement speed enemy -20
 
 Elemental Ring TEAL need Earth Ring, Water Ring, Fire Ring, Air Ring and Recipe drop from boss
-
 Give ally boosted stats and reduce enemy stats as well
 
 6 all stats -not aura-
@@ -98,16 +90,15 @@ enemy damage taken Increase 6%
 
 
 Realm Soul ORANGE cant buy
+increase damage and life and also giving a chance to deal bonus damage
 
-increase damage and give a chance to deal bonus damage
-bonus damage 17
-chance for bonus damage 8%
-damage 30 plus 40% of user base damage
-cooldown 12
+Passive item use
+10% to deal 50 physical damage plus 40% of user damage stuning for 0.40 second
 
+damage 27
+life 150
 
 Lesser Soul WHITE cant buy
-
 give bonus damage and stats with spell amp
 
 damage 3
@@ -116,7 +107,6 @@ all stats 2
 
 
 Soul GREEN cant buy
-
 give bonus damage, stats, spellamp and lifesteal with spellvamp
 
 damage 7
@@ -127,7 +117,6 @@ spell vamp 2%
 
 
 Greater Soul BLUE cant buy
-
 give bonus damage, stats, lifesteal, spellamp and spellvamp with cast range
 
 damage 15
@@ -139,11 +128,10 @@ cast range 75
 
 
 Divine Soul PURPLE cant buy
-
 increase overall stats and give the user to stun the target and also giving the chance to crit with spell
 
 active item use
-deal 100 pure damage plus 70% of user intelligence, stun the target for 2,5 second dealing full damage, other unit in 250 radius of the spell
+deal 90 pure damage plus 70% of user intelligence, stun the target for 2,5 second dealing full damage, other unit in 250 radius of the spell
 casted will recive 50% of the damage and will be stun for 1 second instead, cast range 600 cooldown 35
 
 Spell crit
@@ -159,7 +147,6 @@ cast range 100
 
 
 Hellish Soul PURPLE cant buy
-
 increase overall stats and give a chance to crit on hit and giving the user to deal a heavy blow that disarm the target
 
 Active item use
@@ -180,7 +167,6 @@ life regeneration 4
 
 
 Skull of Death BLUE gold 850
-
 Increase agility and strenght user will have a chance to deal bonus damage with physical damage crit on spell
 
 spell crit, physical spell only
@@ -195,7 +181,7 @@ Magic Stone BLUE gold 600
 increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
 
 Active item use
-deal 35 damage plus 15% of user int to the target slowing for movement for 30%
+deal 35 magic damage plus 15% of user int to the target slowing for movement for 30% last 4 second
 
 intelligence 7
 spell amp 4%
@@ -203,6 +189,16 @@ mana 120
 
 
 Rad Stone ORANGE needed Magic Stone 600 gold and Recipe 1400 gold
+increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
 
+Active item use
+deal 55 magic damage plus 25% of user int to the target slowing movement by 35% and attack speed by 25 last 4 second
+
+Passive item use
+deal 15 magical damage per 2.5 second plus 15% of user int also slow enemy by 5%
+
+intelligence 16
+spell amp 9%
+mana 220
 
 
