@@ -155,7 +155,7 @@ in 250 radius will take 30% of the damage and be disarm for 0.75 second, cast ra
 
 damage crit
 chance 15%
-damage 175% 
+damage 225% 
 
 allstats 16
 damage bonus 45
@@ -263,9 +263,36 @@ reduce cooldown by 1 and increase damage by 15 and also increasing duration by 2
 6 mana regeneration
 
 
+Elemental Dust WHITE
+increase the user life regen and mana also giving a chance to deal bonus damage
+
+damage crit
+chance 20%
+damage 125%
+
+life regeneration 1
+mana regeneration 1
 
 
+lesser agility Shard WHITE
+increase user stats
+
+3 agility
+1 strenght
+1 intelligence
 
 
+Lesser Strenght Shard WHITE
+
+3 strenght
+1 agility
+1 intelligence
+
+
+Lesser Intelligence Shard
+
+3 intelligence
+1 agility
+1 strenght
 
 
