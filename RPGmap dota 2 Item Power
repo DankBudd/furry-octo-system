@@ -289,10 +289,69 @@ Lesser Strenght Shard WHITE
 1 intelligence
 
 
-Lesser Intelligence Shard
+Lesser Intelligence Shard WHITE
 
 3 intelligence
 1 agility
 1 strenght
+
+
+Lesser Infernal Stone gold 450 GREEN
+summon infernal unit to aid you in fight, the infernal scale base on your stats
+
+Active use item
+summon a infernal with 150 life 100 mana 13 damage 1.90 base attack time 320 movementspeed.
+
+SCALING
+65% of intelligence will be life for the infernal
+45% of Intelligence will be mana for the infernal
+15% of intelligence will be damage for the infernal
+10% of intelligence will be attackspeed for the infernal
+
+SPELL
+deal 15 magical damage to nearby enemy in a 400 area of effect and then deal 5 damage per second, last 7 second
+
+PASSIVE
+block 14 physical damage OR 26 magical damage went attack and then return 70% of the damage block to the attacker, cooldown 3
+
+
+Infernal Stone BLUE, needed lesser infernal stone 450 gold with recipe 1050 gold
+summon infernal unit to aid you in fight, the infernal scale base on your stats
+
+Active use item
+summon a infernal with 350 life 270 mana 27 damage 1.70 base attack time 330 movementspeed.
+
+SCALING
+95% of intelligence will be life for the infernal
+65% of Intelligence will be mana for the infernal
+25% of intelligence will be damage for the infernal
+15% of intelligence will be attackspeed for the infernal
+
+SPELL
+deal 35 magical damage to nearby enemy in a 400 area of effect and then deal 7 damage per second, last 9 second
+
+PASSIVE
+block 31 physical damage OR 53 magical damage went attack and then return 70% of the damage block to the attacker, cooldown 3
+
+
+Hellish Infernal Stone ORANGE, needed infernal stone 1500 gold with recipe 2500 gold
+summon infernal unit to aid you in fight, the infernal scale base on your stats
+
+Active use item
+summon a infernal with 650 life 420 mana 41 damage 1.50 base attack time 340 movementspeed.
+
+SCALING
+125% of intelligence will be life for the infernal
+85% of Intelligence will be mana for the infernal
+35% of intelligence will be damage for the infernal
+20% of intelligence will be attackspeed for the infernal
+
+SPELL
+deal 55 magical damage to nearby enemy in a 400 area of effect and then deal 9 damage per second, last 11 second
+
+PASSIVE
+block 57 physical damage OR 82 magical damage went attack and then return 70% of the damage block to the attacker, cooldown 3
+
+
 
 
