@@ -132,7 +132,7 @@ increase overall stats and give the user to stun the target and also giving the 
 
 active item use
 deal 90 pure damage plus 70% of user intelligence, stun the target for 2,5 second dealing full damage, other unit in 250 radius of the spell
-casted will recive 50% of the damage and will be stun for 1 second instead, cast range 600 cooldown 45
+casted will recive 50% of the damage and will be stun for 1 second instead, cast range 600 cooldown 45 mana cost 450
 
 Spell crit
 chance 15%
@@ -151,7 +151,7 @@ increase overall stats and give a chance to crit on hit and giving the user to d
 
 Active item use
 deal 130 pure damage plus 35% of user damage, disarm the target for 4 second, 2 for bosses and dealing full damage on the target, other unit
-in 250 radius will take 30% of the damage and be disarm for 0.75 second, cast range 300 cooldown 45
+in 250 radius will take 30% of the damage and be disarm for 0.75 second, cast range 300 cooldown 45 mana cost 350
 
 damage crit
 chance 15%
@@ -181,7 +181,7 @@ Magic Stone BLUE gold 600
 increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
 
 Active item use
-deal 35 magic damage plus 15% of user int to the target slowing for movement for 30% last 4 second cooldown 16
+deal 35 magic damage plus 15% of user int to the target slowing for movement for 30% last 4 second cooldown 20 mana cost 140
 
 intelligence 7
 spell amp 4%
@@ -192,7 +192,8 @@ Rad Stone ORANGE needed Magic Stone 600 gold and Recipe 1400 gold
 increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
 
 Active item use
-deal 55 magic damage plus 25% of user int to the target slowing movement by 35% and attack speed by 25 last 4 second cooldown 16
+deal 55 magic damage plus 25% of user int to the target slowing movement by 35% and attack speed by 25 last 4 second cooldown 20
+mana cost 240
 
 Passive item use
 deal 10 magical damage per 2.5 second plus 10% of user int also slow enemy by 5%
@@ -206,8 +207,8 @@ Uranuim Stone needed Rad stone 2000 gold, Rad stone 2000 gold and recipe 1000 go
 increase intelligence, spell amp, mana, spellvamp and healing effect and also can be use to deal damage or heal a target and damage nearby enemy
 
 Active use item
-deal 75 magical damage plus 35% of user int OR heal 130 plus 20% of user int to a target enemy or ally, enemy will be slow for 40% movement speed
-and 35 attackspeed and ally will be boosted by 20% movement speed and 25 attackpeed last 6 second cooldown 20
+deal 75 magical damage plus 45% of user int OR heal 130 plus 25% of user int to a target enemy or ally, enemy will be slow for 40% movement speed
+and 35 attackspeed and ally will be boosted by 20% movement speed and 25 attackpeed last 6 second cooldown 24 mana cost 320
 
 Passive use item
 deal 15 magical damage per 2 second plus 20% of user int and also heal ally for 20 plus 10% of user int per 2.5 second
@@ -216,7 +217,7 @@ intelligence 34
 spell amp 15%
 mana 430
 spellvamp 2%
-heal amp 10%
+heal amp 30%
 
 
 Stone of Jordan TEAL
@@ -297,60 +298,83 @@ Lesser Intelligence Shard WHITE
 
 
 Lesser Infernal Stone gold 450 GREEN
-summon infernal unit to aid you in fight, the infernal scale base on your stats
+summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
 
 Active use item
-summon a infernal with 150 life 100 mana 13 damage 1.90 base attack time 320 movementspeed.
+summon a infernal with 150 life 230 mana 12 damage 2 armor 1.80  base attack time 320 movementspeed.
 
 SCALING
-65% of intelligence will be life for the infernal
+55% of intelligence and 0.4% health will be life for the infernal
 45% of Intelligence will be mana for the infernal
 15% of intelligence will be damage for the infernal
 10% of intelligence will be attackspeed for the infernal
 
-SPELL
-deal 15 magical damage to nearby enemy in a 400 area of effect and then deal 5 damage per second, last 7 second
+SPELL 1
+Fist the target pulling all near enemy in a radius of 400 to him dealing 40 magical damage plus 1% of the infernal max life
+primary target will get double the damage, cooldown 14 mana cost 100 plus 2% of max mana
+
+SPELL 2
+Slam the ground kocking enemy into the air for 1.25 second after all enemy reach the ground they will get stun for 1 second and
+dealing 20 magical damage plus 1% of the infernal life for each enemy in a radius of 250, cooldown 18 mana 100 plus 1% of max mana
 
 PASSIVE
-block 14 physical damage OR 26 magical damage went attack and then return 70% of the damage block to the attacker, cooldown 3
+the infernal got 30% chance to deal 25 pure damage in a radius of 220 and stuning all enemy hit for 0.2 second
 
 
 Infernal Stone BLUE, needed lesser infernal stone 450 gold with recipe 1050 gold
-summon infernal unit to aid you in fight, the infernal scale base on your stats
+summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
 
 Active use item
-summon a infernal with 350 life 270 mana 27 damage 1.70 base attack time 330 movementspeed.
+summon a infernal with 250 life 280 mana 23 damage 4 armor 1.70  base attack time 330 movementspeed.
 
 SCALING
-95% of intelligence will be life for the infernal
+85% of intelligence and 0.7% health will be life for the infernal
 65% of Intelligence will be mana for the infernal
 25% of intelligence will be damage for the infernal
 15% of intelligence will be attackspeed for the infernal
 
-SPELL
-deal 35 magical damage to nearby enemy in a 400 area of effect and then deal 7 damage per second, last 9 second
+SPELL 1
+Fist the target pulling all near enemy in a radius of 400 to him dealing 60 magical damage plus 1% of the infernal max life
+primary target will get double the damage cooldown 13 mana cost 110 plus 3.5% of max mana
+
+SPELL 2
+Slam the ground kocking enemy into the air for 1.25 second after all enemy reach the ground they will get stun for 1 second and
+dealing 30 magical damage plus 1% of the infernal life for each enemy in a radius of 250, cooldown 16 mana 105 plus 2% of max mana
 
 PASSIVE
-block 31 physical damage OR 53 magical damage went attack and then return 70% of the damage block to the attacker, cooldown 3
+the infernal got 30% chance to deal 35 pure damage in a radius of 220 and stuning all enemy hit for 0.3 second
 
 
 Hellish Infernal Stone ORANGE, needed infernal stone 1500 gold with recipe 2500 gold
-summon infernal unit to aid you in fight, the infernal scale base on your stats
+summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive
 
 Active use item
-summon a infernal with 650 life 420 mana 41 damage 1.50 base attack time 340 movementspeed.
+summon a infernal with 350 life 280 mana 34 damage 4 armor 1.60  base attack time 340 movementspeed.
 
 SCALING
-125% of intelligence will be life for the infernal
+115% of intelligence and 1.0% health will be life for the infernal
 85% of Intelligence will be mana for the infernal
 35% of intelligence will be damage for the infernal
 20% of intelligence will be attackspeed for the infernal
 
-SPELL
-deal 55 magical damage to nearby enemy in a 400 area of effect and then deal 9 damage per second, last 11 second
+SPELL 1
+Fist the target pulling all near enemy in a radius of 400 to him dealing 80 magical damage plus 1% of the infernal max life
+primary target will get double the damage coldown 12 mana cost 120 plus 5% of max mana
+
+SPELL 2
+Slam the ground kocking enemy into the air for 1.25 second after all enemy reach the ground they will get stun for 1 second and
+dealing 40 magical damage plus 1% of the infernal life for each enemy in a radius of 250, cooldown 14 mana 110 plus 3% of max mana
 
 PASSIVE
-block 57 physical damage OR 82 magical damage went attack and then return 70% of the damage block to the attacker, cooldown 3
+the infernal got 30% chance to deal 45 pure damage in a radius of 220 and stuning all enemy hit for 0.4 second
+
+
+Molten Earth 800 gold BLUE
+give strenght and agility with lifesteal for near ally, can also be use to throw a lava Ball that will bounce to near enemy
+
+Active item use
+deal 20 physical damage plus 20% of user strenght and agility, bounce up to 7 time reducing armor by 1 and silencing for 0.75 second
+can also bounce to the user increasing damage by 14, cooldown 17 mana cost 150
 
 
 
