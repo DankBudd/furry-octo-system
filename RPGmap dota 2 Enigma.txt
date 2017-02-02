@@ -1,4 +1,4 @@
-Enigma,Gravity lord Starting stats 15 Int, 3 Agi, 5 Str, base speed 270, base damage 4, Stats Gain per level 2.00 int, 1.00 str, 0.50 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+Enigma,Gravity lord Starting stats 15 Int, 3 Agi, 5 Str, base speed 270, base damage 4, Stats Gain per level 2.00 int, 1.00 str, 0.50 agi, starting item gravity wand reduce cooldown by 3% and give 1 mana regen base attack time 1.60
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -48,19 +48,19 @@ Void Curse
 
 Deal damage over time to a target lowering the armor and magic resist for the duration
 
-Damage 10 15 20 25 magic damage/level 10 talent increase damage by 10 -change-
+Damage 10 15 20 25 magic damage/level 10 talent increase damage by 10
 
 cast range 600 600 600 600
 
-Duration 5 6 7 8 second damage every 1 second/level 10 talent increase the duration by 4 -change-
+Duration 5 6 7 8 second damage every 1 second/level 10 talent increase the duration by 4
 
-Armor lost 0.5 per tick of damage -change-
+Armor lost 0.5 per tick of damage
 
 Magic resist lost 2% per tick of damage
 
 debuff duration 6 second refresh on hit with void curse and Black Star
 
-Coldown 30 28 26 24 -change-
+Cooldown 30 28 26 24
 
 Mana cost 100 130 160 190
 
@@ -76,7 +76,7 @@ Damage 10 20 30 40 magic damage
 
 cast range 700 700 700 700
 
-Duration 10 deal damage every 2 sec/level 10 talent increase the duration by 4 second, increasing the damage overall and change the tick second damage to 1 instead of 2 -change-
+Duration 10 deal damage every 2 sec/level 10 talent increase the duration by 4 second, increasing the damage overall and change the tick second damage to 1 instead of 2 
 
 Attack slow 2 3 4 5 per stack of damage taken by the spell
 
@@ -88,9 +88,9 @@ Radius 300 350 400 450
 
 debuff duration 6 second refresh on hit with gravity well
 
-Coldown 35 34 33 32
+Cooldown 35 34 33 32
 
-Mana cost 160 200 240 280 -change-
+Mana cost 160 200 240 280 
 
 
 SPELL E level needed 1 4 9 15
@@ -107,18 +107,18 @@ healing recive 5% 10% 15% 20% damage dealt with gravity bolt/Level 15 talent inc
 
 talent level 15 add a new modifier that increase int by 8 for every cast of gravity bolt last 8 second, does not refresh stack on cast
 
-coldown 7 6 5 4/level 15 talent will lower the coldown by 2
+cooldown 7 6 5 4/level 15 talent will lower the cooldown by 2
 
-Mana cost 100 110 120 130, with 2% of enigma max mana/level 15 talent increase mana cost by 2% -change-
+Mana cost 100 110 120 130, with 2% of enigma max mana/level 15 talent increase mana cost by 2%
 
 
 PASSIVE D OR F level needed 3 7 11 15
 
 Galaxy
 
-Reduce coldown by 3% 5% 7% 9%/level 15 talent increase the reduce coldown by 3% total -change-
+Reduce cooldown by 3% 5% 7% 9%/level 15 talent increase the reduce cooldown by 3% total
 
-reduce mana cost of all spell by 40 60 80 100/level 15 talent increase the mana reduce by 20 -change-
+reduce mana cost of all spell by 40 60 80 100/level 15 talent increase the mana reduce by 20
 
 give a new modifier to void curse ally that kill the enemy under the effect of void curse will be heal for 5% 6% 7% 8% of is life and mana, dont work on enigma/level 15 talent increase how much life and mana restore by 2%
 
@@ -157,7 +157,7 @@ cast range 700 700 700
 
 Void Curse bonus damage 15% 25% 35%/level 25 talent give all enemy hit by black star void curse
 
-coldown 200 170 140/level 25 talen coldown reduce by 20
+cooldown 200 170 140/level 25 talen cooldown reduce by 20
 
 mana cost 300 600 900
 
@@ -187,11 +187,11 @@ level 15 talents
 increase int bonus damage by 12%
 increase healing by 10%
 add a new modifier that increase int by 8 for every cast of gravity bolt last 8 second, does not refresh stack on cast
-talent will lower the coldown by 2
+talent will lower the cooldown by 2
 talent increase mana cost by 2%
 
 -- galaxy upgrade --
-increase the reduce coldown by 2% total
+increase the reduce cooldown by 2% total
 increase the mana reduce by 40
 increase how much life and mana restore by 2%
 increase the int damage to 7% and the radius by 50
