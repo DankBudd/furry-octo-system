@@ -13,7 +13,7 @@ Dark Troll level 2
 
 damage 7-12 Pierce
 range 450
-life 110
+life 55
 mana 100
 armor 1 Basic
 magic resist 3%
@@ -27,7 +27,7 @@ manacost 30 cooldown 9
 Troll level 1
 damage 5-8 Basic
 range melee
-life 150
+life 70
 mana 100
 armor 2 Basic
 magic resist 0%
@@ -36,18 +36,108 @@ magic resist 0%
 Troll Preist level 2
 damage 7-9 Pierce
 range 350
-life 80
+life 45
 mana 300
 armor 0 Basic
 magic resist 12%
 
 Spell 1
 shadow wave CREEP
-heal ally for 35 and damage for 15 can touch up to 4 enemy or ally
+heal ally for 20 and deal 10 magical damage can touch up to 4 enemy or ally
 manacost 70 cooldown 5
 
 Passive 1
 Troll aura CREEP
 regen life of near ally by 1.4 and increase armor by 1 and magic resist by 3%
+
+
+Wild Boar level 1
+damage 6-7 basic
+range melee
+life 50 
+mana 100
+armor 1 basic
+magic resist 2%
+
+
+Clay Golem Level 2
+damage 8-11 basic
+range melee
+life 80
+mana 100
+armor 3 basic
+magic resist 15%
+
+Spell 1
+slow the target attackspeed by 12 and movementspeed by 6%
+
+Lesser Water elemental level 3
+damage 11-13 Pierce
+range 280
+life 105
+mana 150
+armor 1 basic
+magic resis 7%
+
+Passive 1
+magical water CREEP
+give the elemental 25% chance to block 8 magic damage
+
+
+Skeleton level 1
+damage 6-9 basic
+range melee
+life 40
+mana 50
+armor 0 basic
+magic resist 0%
+
+
+Zombie level 2
+damage 4-7 basic
+range melee
+life 155
+mana 100
+armor 4 basic
+magic resist 15%
+
+Passive 1
+Undead CREEP
+lifesteal for 70% of the damage and regen 1.6 life
+
+
+Flesh Horror level 4
+damage 11-17 basic
+range melee
+life 220
+mana 200
+armor 6 basic
+magic resist -15%
+
+Passive 1
+Tough Skin CREEP
+reduce physical damage by 4 and return 6% of the damage taken in a radius of 600
+
+
+Troll Hunter level 3
+damage 11-14 Pierce
+range 570
+life 130
+mana 200
+armor 2
+magic resist 4%
+evasion 5%
+
+Spell 1
+throw a net rooting the target for 2 second coolown 12 mana cost 100
+
+
+Troll fighter level 3
+damage 14-17 basic
+range melee
+life 155
+mana 200
+armor 4
+magic resist 0
 
 
