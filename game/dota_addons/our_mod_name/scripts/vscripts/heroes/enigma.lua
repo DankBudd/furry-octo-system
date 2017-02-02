@@ -6,7 +6,7 @@ function VoidCurse( keys )
 	local caster = keys.caster
 	local ability = keys.ability
 	local target = keys.target
-	local duration = ability:GetSpecialValueFor("duration") + 0.01 -- this allows for the last tick to actually occur, since it ticks the same frame that the modifier expires without this.
+	local duration = ability:GetSpecialValueFor("duration") + 0.01
 	local talent = "special_bonus_unique_gravity_lord_1"
 
 	-- check for talent and increase duration if it exists
@@ -181,7 +181,6 @@ end
 /// Gravity Bolt ///
 ///////////////////]]
 
--- on projectile hit unit damage unit and heal caster
 function GravityBoltHitUnit( keys )
 	local caster = keys.caster
 	local ability = keys.ability
@@ -207,7 +206,6 @@ function GravityBoltHitUnit( keys )
 	caster:Heal(heal, caster)
 end
 
--- if talent then reduce cooldown
 function GravityBoltCooldown( keys )
 	local caster = keys.caster
 	local ability = keys.ability
@@ -218,7 +216,6 @@ function GravityBoltCooldown( keys )
 	end
 end
 
--- if talent then apply int bonus modifier to caster
 function GravityBoltModifier( keys )
 	local caster = keys.caster
 	local ability = keys.ability
@@ -347,7 +344,7 @@ function BlackStar( keys )
 end
 
 function BlackStarVoidCurse( caster, ability, target )
-	local duration = caster:FindAbilityByName("void_curse"):GetSpecialValueFor("duration") + 0.01 -- this allows for the last tick to actually occur, since it ticks the same frame that the modifier expires without this.
+	local duration = caster:FindAbilityByName("void_curse"):GetSpecialValueFor("duration") + 0.01
 	local talent = "special_bonus_unique_gravity_lord_1"
 
 	-- check for talent and increase duration if it exists
@@ -397,25 +394,6 @@ function HandleGravityLordBuffs( keys )
 	if caster:HasTalent(talent) and caster:GetModifierStackCount(modifier, caster) < talentCount then
 		caster:SetModifierStackCount(modifier, caster, talentCount)
 	end
-end
-
-function LevelHiddenAbilityCastRange( keys )
-	local abilityToLevel = keys.caster:FindAbilityByName("gravity_lord_cast_range_bonus")
-	local ability = keys.ability
-	if abilityToLevel:GetLevel() == ability:GetLevel() then return end
-	abilityToLevel:SetLevel(ability:GetLevel())
-end
-
--- Author: SwordBacon
-function SetCastRange(keys)
-	local caster = keys.caster
-	local ability = keys.ability
-	if ability:GetLevel() <= 0 then return end
-    -- FIXME: Remove this hack once the proper property is released.
-	-- Remove old cast range
-	caster:RemoveModifierByName("modifier_item_aether_lens")
-	-- Replace cast range
-	caster:AddNewModifier(caster, ability, "modifier_item_aether_lens", {}) 
 end
 
 function GravityLordManaBonus( keys )

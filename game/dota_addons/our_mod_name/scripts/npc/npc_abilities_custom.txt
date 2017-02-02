@@ -692,7 +692,7 @@
 		"AbilityUnitTargetType"     "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
 
-		"AbilityCooldown"       "32.0"
+		"AbilityCooldown"       "30 28 26 24"
 		"AbilityManaCost"       "100 150 200 250"
 		"AbilityCastRange"        "600"
 		"AbilityCastPoint"        "0.3"
@@ -726,13 +726,13 @@
 			}			
 			"04"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"armor_loss"		"-1"
+				"var_type"			"FIELD_FLOAT"
+				"armor_loss"		"-0.5"
 			}
 			"05"
 			{
-				"var_type"			"FIELD_INTEGER"
-				"resist_loss"		"-2"
+				"var_type"			"FIELD_FLOAT"
+				"resist_loss"		"-2.0"
 			}
 		}
 
@@ -864,7 +864,7 @@
 			"03"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"value2"				"4" //change damage type. valid damage_type values for this talant are as follows:
+				"value2"				"2" //change damage type. valid damage_type values for this talant are as follows:
 				//DAMAGE_TYPE_PHYSICAL--1
 				//DAMAGE_TYPE_MAGICAL---2	
 				//DAMAGE_TYPE_PURE------4
@@ -883,7 +883,7 @@
 
 		"AoERadius"           "300 350 400 450"
 		"AbilityCooldown"       "35.0"
-		"AbilityManaCost"       "100 200 300 400"
+		"AbilityManaCost"       "160 200 240 280"
 		"AbilityCastRange"        "700"
 		"AbilityCastPoint"        "0.1"
 		"AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
@@ -906,7 +906,7 @@
 			"02"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"duration"			"12.0"
+				"duration"			"10.0"
 			}
 			"03"
 			{
@@ -1013,7 +1013,7 @@
 			"02"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"value1"				"6.0" //increase gravity_well duration by value
+				"value1"				"4.0" //increase gravity_well duration by value
 			}
 			"03"
 			{
@@ -1037,7 +1037,7 @@
 		"AbilityCastPoint"				"0.3"
 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
 		"AbilityCooldown"				"7.0 6.0 5.0 4.0"
-		"AbilityManaCost"				"85 90 95 100"
+		"AbilityManaCost"				"100 110 120 130"
 		"AbilityDamage"				"15 20 25 30"
 
 		"precache"
@@ -1062,37 +1062,32 @@
 
 		"OnSpellStart"
 		{
+			"FireSound"
+			{
+				"EffectName"	"Hero_VengefulSpirit.MagicMissile"
+				"Target" 		"CASTER"
+			}
 			"RunScript"
 			{
 				"ScriptFile"	"heroes/enigma.lua"
 				"Function"		"GravityBoltCooldown"
 			}
-
 			"RunScript"
 			{
 				"ScriptFile"	"heroes/enigma.lua"
 				"Function"		"GravityBoltManaCost"
 			}
-
 			"RunScript"
 			{
 				"ScriptFile"	"heroes/enigma.lua"
 				"Function"		"GalaxyManaCostReduction"
 			}
-
 			"RunScript"
 			{
 				"ScriptFile"	"heroes/enigma.lua"
 				"Function"		"GravityBoltModifier"
 				"modifier"		"modifier_gravity_bolt_talent_bonus"
 			}
-
-			"FireSound"
-			{
-				"EffectName"	"Hero_VengefulSpirit.MagicMissile"
-				"Target" 		"CASTER"
-			}
-
 			"TrackingProjectile"
 			{
 				"Target"           	"TARGET"
@@ -1108,16 +1103,15 @@
 		{
 			"DeleteOnHit"	"1"
 
-			"RunScript"
-			{
-				"ScriptFile"	"heroes/enigma.lua"
-				"Function"		"GravityBoltHitUnit"
-			}
-
 			"FireSound"
 			{
 				"EffectName"	"Hero_VengefulSpirit.MagicMissileImpact"
 				"Target" 		"TARGET"
+			}
+			"RunScript"
+			{
+				"ScriptFile"	"heroes/enigma.lua"
+				"Function"		"GravityBoltHitUnit"
 			}
 		}
 
@@ -1183,12 +1177,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cd_reduction"			"2 4 5 8" //%
+				"cd_reduction"			"3 5 7 9" //%
 			}
 			"02"
 			{
 				"var_type"				 "FIELD_FLOAT"
-				"mana_cost_reduction" "10 20 30 40"
+				"mana_cost_reduction" "40 60 80 100"
 			}
 			"03"
 			{
@@ -1268,12 +1262,12 @@
 			"01"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"value"				"4" //increase cooldown reduction for all of casters spells by value
+				"value"				"3" //increase cooldown reduction for all of casters spells by value
 			}
 			"02"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"value1"				"40" //all of casters spells cost 40 less mana
+				"value1"				"20" //all of casters spells cost less mana
 			}
 			"03"
 			{
@@ -1538,22 +1532,25 @@
 			}
 			"05"
 			{
-				"var_type"			"FIELD_INTEGER"//HAS NOT BEEN IMPLEMENTED YET
+				"var_type"			"FIELD_INTEGER"//FIX ME: HAS NOT BEEN IMPLEMENTED YET
 				"int_to_amp"		"5" //10 int = 1 spell amp normally, this halves that value
-			}
-		}
-
-		"OnUpgrade"
-		{
-			"RunScript"
-			{
-				"ScriptFile"    "heroes/enigma.lua"
-				"Function"      "LevelHiddenAbilityCastRange"
 			}
 		}
 
 		"Modifiers"
 		{
+			"modifier_gravity_lord_cast_range_bonus"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"IsDebuff"			"0"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING" "%cast_range_bonus"
+				}
+			}
+
 			"modifier_gravity_lord_mana_bonus"
 			{
 				"Passive"			"1"
@@ -1628,42 +1625,8 @@
 
 				"Properties"
 				{
-					"MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "10" //110?
+					"MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "10"
 				}
-			}
-		}
-	}
-
-	"gravity_lord_cast_range_bonus"
-	{		
-		"BaseClass"         				"ability_datadriven"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"MaxLevel"						"4"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"cast_range_bonus"		"150 200 250 300"
-			}
-		}
-
-		"OnOwnerSpawned"
-		{
-			"RunScript"
-			{
-				"ScriptFile"    "heroes/enigma.lua"
-				"Function"      "SetCastRange"
-			}
-		}
-
-		"OnUpgrade"
-		{
-			"RunScript"
-			{
-				"ScriptFile"    "heroes/enigma.lua"
-				"Function"      "SetCastRange"
 			}
 		}
 	}
@@ -1780,7 +1743,7 @@
 			}
 			"RunScript"
 			{
-				"ScriptFile"			"heroes/pudge.lua"
+				"ScriptFile"			"heroes/butcher.lua"
 				"Function"				"HookCast"
 				"Target"				"POINT"
 			}
@@ -1790,7 +1753,7 @@
 		{
 			"RunScript"
 			{
-				"ScriptFile"			"heroes/pudge.lua"
+				"ScriptFile"			"heroes/butcher.lua"
 				"Function"				"GloryHook"
 				"Target"				"POINT"
 			}
@@ -1873,7 +1836,7 @@
 				{
 					"RunScript"
 					{
-						"ScriptFile"	"heroes/pudge.lua"
+						"ScriptFile"	"heroes/butcher.lua"
 						"Function"		"HookCastCheck"
 					}
 				}
@@ -1892,7 +1855,7 @@
 		"AbilityCastPoint"				"0 0 0 0"
 		"MaxLevel" 						"4"
 
-		"ScriptFile"			"heroes/pudge_lua.lua"
+		"ScriptFile"			"heroes/butcher_lua.lua"
 
 		"AbilitySpecial"
 		{
@@ -1940,12 +1903,13 @@
 		"AbilityCooldown"				"15.0"
 		"AbilityManaCost"				"90 120 150 180"
 		"AbilityCastPoint"				"0.45"
-		"AbilityCastAnimation"			"ACT_DOTA_VICTORY" // ACT_DOTA_VICTORY
+		"AbilityCastAnimation"			"ACT_DOTA_VICTORY"
 		"MaxLevel" 						"4"
 
 		"precache"
 		{
-			"soundfile"			"sounds/weapons/hero/bloodseeker/blood_rite.vsnd"
+			"soundfile" 	"sounds/weapons/hero/earthshaker/enchant.vsnd"
+			"soundfile" 	"sounds/weapons/hero/earthshaker/enchant_attack.vsnd"
 		}
 
 		"AbilitySpecial"
@@ -1979,6 +1943,11 @@
 
 		"OnSpellStart"
 		{
+			"FireSound"
+			{
+				"EffectName"	"Hero_EarthShaker.Totem"
+				"Target"		"CASTER"
+			}
 			"ApplyModifier"
 			{
 				"ModifierName"	"modifier_butcher_fresh_meat"
@@ -1996,14 +1965,14 @@
 			}
 			"RunScript"
 			{
-				"ScriptFile"	"heroes/pudge.lua"
+				"ScriptFile"	"heroes/butcher.lua"
 				"Function"		"FreshMeatModifier"
 				"modifier"		"modifier_butcher_fresh_meat_damage"
 				"modifier_self"	"modifier_butcher_fresh_meat"
 			}
 			"RunScript"
 			{
-				"ScriptFile"	"heroes/pudge.lua"
+				"ScriptFile"	"heroes/butcher.lua"
 				"Function"		"FreshMeatCooldown"
 			}
 		}
@@ -2037,7 +2006,7 @@
 				{
 					"RunScript"
 					{
-						"ScriptFile"	"heroes/pudge.lua"
+						"ScriptFile"	"heroes/butcher.lua"
 						"Function"		"FreshMeat"
 						"Target"		"TARGET"
 						"attack_damage"	"%attack_damage"
@@ -2082,6 +2051,171 @@
 		}
 	}
 
+	//need to add sounds and particles. 
+	"dismember"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"pudge_dismember"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_COURIER"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+
+		"AbilityChannelTime"			"%creep_duration"
+		"AbilityCastRange"				"160"
+		"AbilityCastPoint"				"0.3 0.3 0.3"
+		"AbilityCooldown"				"30.0 30.0 30.0"
+		"AbilityManaCost"				"100 130 170"
+		"AbilityCastAnimation"			"ACT_DOTA_CHANNEL_ABILITY_4"
+
+		"MaxLevel" 						"3"
+
+		"precache"
+		{
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts"
+			"particle"			"particles/units/heroes/hero_pudge/pudge_dismember.vpcf"
+		}
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"dismember_damage"		"75 125 175" //base damage
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"strength_damage_scepter" "30" //%
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"creep_duration"		"6.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"tick_rate"				"1.01"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"meat_heal"				"80" //base heal
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"death_drop"			"3" //how many meat to drop if unit dies
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str_to_meat_heal"		"10" //%
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str_to_meat_heal_scepter" "30" //%
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"FireSound"
+			{
+				"EffectName"	"Hero_Pudge.Dismember"
+				"Target" 		"TARGET"
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"	"heroes/butcher.lua"
+				"Function"		"DismemberStart"
+				"modifier"		"modifier_butcher_dismember_target"
+			}
+		}
+
+		//completes or is interrupted
+		"OnChannelFinish"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"heroes/butcher.lua"
+				"Function"		"DismemberEnd"
+				"modifier"		"modifier_butcher_dismember_target"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_butcher_dismember_target"
+			{
+				"IsHidden"			"0"
+				"IsDebuff"			"1"
+
+				"ThinkInterval"  "%tick_rate"
+				"OnIntervalThink"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"heroes/butcher.lua"
+						"Function"		"DismemberDropMeat"
+						"meatToDrop"	"%death_drop"
+					}
+				}
+
+				"OnDeath"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"heroes/butcher.lua"
+						"Function"		"DismemberDropMeat"
+						"meatToDrop"	"%death_drop"
+					}
+					//if channel continues when target dies then add a short function for caster:stop() here
+				}
+		
+				"States"
+				{
+					"MODIFIER_STATE_STUNNED"		"MODIFIER_STATE_VALUE_ENABLED"
+				}
+			}
+
+			"modifier_butcher_dismember_meat_thinker"
+			{
+				"IsHidden"	"1"
+
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"heroes/butcher.lua"
+						"Function"		"DismemberMeatDisplacement"
+					}
+
+					"RunScript"
+					{
+						"ScriptFile"	"heroes/butcher.lua"
+						"Function"		"DismemberMeatHeal"
+					}
+				}
+			}
+
+			"modifier_butcher_dismember_meat_dummy"
+			{
+				"IsHidden"			"1"
+			}
+
+			"modifier_butcher_dismember_channeling"
+			{
+				"IsHidden"			"1"
+			}
+		}
+	}
+
 	"special_bonus_unique_butcher_1"
 	{
 		"BaseClass"             		"special_bonus_undefined"
@@ -2109,7 +2243,7 @@
 		}
 	}
 
-		"special_bonus_unique_butcher_2"
+	"special_bonus_unique_butcher_2"
 	{
 		"BaseClass"             		"special_bonus_undefined"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
@@ -2136,7 +2270,6 @@
 		}
 	}
 
-	//adds a cleave effect to fresh_meat
 	"special_bonus_unique_butcher_3"
 	{
 		"BaseClass"             		"special_bonus_undefined"
@@ -2154,12 +2287,12 @@
 			"02"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"value1"			"4" //% increase fresh_meat hp_to_damage
+				"value1"			"4" // % increase fresh_meat hp_to_damage
 			}
 			"03"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"value2"			"10" //% increase fresh_meat lifesteal 
+				"value2"			"10" // % increase fresh_meat lifesteal 
 			}
 			"04"
 			{
@@ -2173,8 +2306,582 @@
 			}
 			"06"
 			{
+				"var_type"			"FIELD_FLOAT"
+				"value6"			"100.0" // 100% dmg cleave attack
+			}
+		}
+	}
+
+	"special_bonus_unique_butcher_4"
+	{
+		"BaseClass"             		"special_bonus_undefined"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
 				"var_type"			"FIELD_INTEGER"
-				"value6"			"100" // 100% cleave attack
+				"value"				"0" 
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value1"			"0" 
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"value2"			"0" 
+			}
+		}
+	}
+
+	"special_bonus_unique_butcher_5"
+	{
+		"BaseClass"             		"special_bonus_undefined"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value"				"0" 
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value1"			"0" 
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"value2"			"0" 
+			}
+		}
+	}
+
+	"special_bonus_unique_butcher_6"
+	{
+		"BaseClass"             		"special_bonus_undefined"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value"				"0" 
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value1"			"40"//% stronger damage 
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"value2"			"40"//% stronger heal 
+			}
+		}
+	}
+
+	"couriers_reign"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"MaxLevel" 						"4"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_COURIER"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+
+		"AoERadius"	"%radius"
+
+		"precache"
+		{
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_shadowshaman.vsndevts"
+			"particle"			"particles/units/heroes/hero_shadowshaman/shadowshaman_voodoo.vpcf"
+			"model"				"models/props_gameplay/chicken.vmdl"
+		}
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"900"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"			"3.0 4.0 5.0 6.0"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage"			"100 150 200 275"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"courier_speed"		"350"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"hero_min_health"	"600 700 800 900"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"hero_max_health"	"850 1000 1250 1400"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"hero_min_mana"		"200 340 460 610"
+			}
+			"08"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"hero_max_mana"		"300 470 610 900"
+			}
+			"09"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"hero_min_armor"	"2 5 8 14"
+			}
+			"10"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"hero_max_armor"	"4 7 11 16"
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"ActOnTargets"
+			{
+				"Target"
+				{
+					"Center"  	"POINT"
+					"Radius" 	"%radius"
+					"Teams" 	"DOTA_UNIT_TARGET_TEAM_BOTH"
+					"Types" 	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_COURIER"
+				}
+			
+				"Action"    
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"heroes/couriers_reign.lua"
+						"Function"		"Transmogrify"
+						"Target"		"TARGET"
+						"particle"		"particles/units/heroes/hero_shadowshaman/shadowshaman_voodoo.vpcf"
+						"soundName"			"Hero_ShadowShaman.Hex.Target"
+					}
+				}
+			}
+		}
+	}
+
+	"infernal_summon_bash"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"MaxLevel" 						""
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bash_damage"		"25 35 45"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"bash_aoe"			"250 275 325"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"bash_duration"		"0.2 0.3 0.4"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"bash_chance"		"30 40 50"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_infernal_summon_bash"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+		
+				"OnAttackLanded"
+				// "%attack_damage" is set to the damage value before mitigation
+				{
+					"Random"
+					{
+						"Chance"			"%bash_chance"
+						"OnSuccess"
+						{
+							"ActOnTargets"
+							{
+								"Target"
+								{
+									"Center"  	"TARGET"
+									"Radius" 	"%radius"
+									"Teams" 	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+									"Types" 	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+								}
+
+								"Action"    
+								{
+									"Damage"
+									{
+										"Target"		"TARGET"
+										"Type"			"DAMAGE_TYPE_PURE"
+										"Damage"		"%bash_damage"
+									}
+
+									"Stun"
+									{
+										"Duration"   "%bash_duration"
+										"Target" 	 "TARGET"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	"infernal_summon_slam"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"MaxLevel" 						"3"
+
+		"AbilityManaCost"				"100"
+		"AbilityCooldown"				"18.0"
+		"AbilityCastRange"				"%radius"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_ATTACK"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"radius"			"250 275 300"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"knockback"			"150"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"knockback_dur"		"1.25"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"stun_duration"		"1.0"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"life_to_damage"	"1" //% of infernal life
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage"			"20 30 40"
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"ActOnTargets"
+			{
+				"Target"
+				{
+					"Center"  	"CASTER"
+					"Radius" 	"%radius"
+					"Teams" 	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+					"Types" 	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				}
+			
+				"Action"    
+				{
+					"Knockback"
+					{
+						"Target"            "TARGET"
+						"Center" 	        "CASTER"
+						"Distance"	        "%knockback"
+						"Duration"	        "%knockback_dur"
+						"Height"	        "%knockback"
+						"IsFixedDistance"	"1"
+						"ShouldStun"        "1"
+					}
+					"DelayedAction"
+					{
+						"Delay"     "%knockback_dur"
+						"Action"    
+						{
+							"RunScript"
+							{
+								"ScriptFile"	"items/item_infernal_summon.lua"
+								"Function"		"SlamDamage"
+								"Target"		"TARGET"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//attack 3/4/5 times very quickly, pulling enemies in a radius closer to the target each attack
+	//maybe alternate between act_attack and act_attack2
+	"infernal_summon_rapid_fists"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"MaxLevel" 						"3"
+
+		"AbilityCastRange"				"150"
+		"AbilityCastPoint"				"0.1"
+		"AbilityCastAnimation"			"ACT_DOTA_ATTACK2"
+		"AbilityCooldown"				"16"
+		"AbilityManaCost"				"120"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"num_atk"			"3 4 5"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"time_between_atk"	"0.15"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"400"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage"			"40"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"life_to_dmg"		"1" //% of infernal life
+			}
+			"06"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"main_target_dmg"	"100" //% takes double damage
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"max_pull" 			"0.2" 
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"min_pull" 			"0.1" 
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/item_infernal_summon.lua"
+				"Function"		"InfernalFist"
+				"Target"		"TARGET"
+				"modifier"		"modifier_infernal_summon_fists"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_infernal_summon_fists"
+			{
+				"IsDebuff"			"1"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "%main_target_dmg"
+				}
+			}
+		}
+	}
+
+	"infernal_summon_stats"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"MaxLevel" 						"3"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"int_to_life"		"55 85 115"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"life_to_life"		"0.4 0.7 1.0"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"int_to_mana"		"45 65 85"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"int_to_damage"		"15 25 35"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"int_to_atkspd"		"10 15 20"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"armor"				"2 4 6"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"base_attack_time"	"1.8 1.7 1.6"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_infernal_summon_stat_life"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+
+				"ThinkInterval"  "0.03"
+				"OnIntervalThink"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"items/item_infernal_summon.lua"
+						"Function"		"UpdateStats"
+						"modifier_life"		"modifier_infernal_summon_stat_life"
+						"modifier_mana"		"modifier_infernal_summon_stat_mana"
+						"modifier_damage"	"modifier_infernal_summon_stat_damage"
+						"modifier_speed"	"modifier_infernal_summon_stat_attackspeed"
+					}
+				}
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_HEALTH_BONUS" "1"
+				}
+			}
+
+			"modifier_infernal_summon_stat_mana"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_BONUS" "1"
+				}
+			}
+
+			"modifier_infernal_summon_stat_damage"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "1"
+				}
+			}
+
+			"modifier_infernal_summon_stat_attackspeed"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "1"
+				}
+			}
+
+			"modifier_infernal_summon_stats_armor"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor"
+				}
+			}
+
+			"modifier_infernal_summon_bat"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT" "%base_attack_time"	
+				}
 			}
 		}
 	}

@@ -104,7 +104,20 @@ function GameMode:OnHeroInGame(hero)
 --[[  -- These lines will create an item and add it to the player, effectively ensuring they start with the item
   local item = CreateItem("item_example_item", hero, hero)
   hero:AddItem(item)]]
-  
+
+  local debug_items = {
+      "item_debug_hero_spawn",
+      "item_debug_creep_spawn",
+      "item_debug_level_up",
+      "item_infernal_stone",
+  --  "",
+  }
+  local currentItem = 1
+  while currentItem <= #debug_items do
+    hero:AddItem(CreateItem(debug_items[currentItem], hero, hero))
+    currentItem = currentItem + 1
+  end
+
   --[[ --These lines if uncommented will replace the W ability of any hero that loads into the game
     --with the "example_ability" ability
   local abil = hero:GetAbilityByIndex(1)

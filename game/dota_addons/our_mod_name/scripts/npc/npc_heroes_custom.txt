@@ -1,55 +1,55 @@
 "DOTAHeroes"
 {
-  "npc_dota_hero_enigma"
-    {
-        "override_hero"     "npc_dota_hero_enigma"
-        "AbilityLayout" "6"
-        "Ability1"          "void_curse"
-        "Ability2"          "gravity_well"
-        "Ability3"          "gravity_bolt"
-        "Ability4"          "gravity_lord"
-        "Ability5"          "galaxy"
-        "Ability6"          "black_star"
+	"npc_dota_hero_enigma"
+	{
+		"override_hero"     "npc_dota_hero_enigma"
+		"AbilityLayout" "6"
+		"Ability1"          "void_curse"
+		"Ability2"          "gravity_well"
+		"Ability3"          "gravity_bolt"
+		"Ability4"          "gravity_lord"
+		"Ability5"          "galaxy"
+		"Ability6"          "black_star"
 
-        "Ability10"         "special_bonus_unique_gravity_lord_1"
-        "Ability11"         "special_bonus_unique_gravity_lord_2"
-        "Ability12"         "special_bonus_unique_gravity_lord_3"
-        "Ability13"         "special_bonus_unique_gravity_lord_4"
-        "Ability14"         "special_bonus_mage_offensive"
-        "Ability15"         "special_bonus_mage_defensive"
-        "Ability16"         "special_bonus_unique_gravity_lord_5"
-        "Ability17"         "special_bonus_unique_gravity_lord_6" //last talent
-        "Ability18"         "gravity_lord_cast_range_bonus" //part of gravity_lord passive
+		"Ability10"         "special_bonus_unique_gravity_lord_1"
+		"Ability11"         "special_bonus_unique_gravity_lord_2"
+		"Ability12"         "special_bonus_unique_gravity_lord_3"
+		"Ability13"         "special_bonus_unique_gravity_lord_4"
+		"Ability14"         "special_bonus_mage_offensive"
+		"Ability15"         "special_bonus_mage_defensive"
+		"Ability16"         "special_bonus_unique_gravity_lord_5"
+		"Ability17"         "special_bonus_unique_gravity_lord_6" //last talent
+		"Ability18"         "gravity_lord_cast_range_bonus" //part of gravity_lord passive
 
-        "AttributeBaseStrength"   "5.00"
-        "AttributeStrengthGain"   "1.00"
-        "AttributeBaseIntelligence" "15.00"
-        "AttributeIntelligenceGain" "2.00"
-        "AttributeBaseAgility"    "3.00"
-        "AttributeAgilityGain"    "0.50"
+		"AttributeBaseStrength"   "5.00"
+		"AttributeStrengthGain"   "1.00"
+		"AttributeBaseIntelligence" "15.00"
+		"AttributeIntelligenceGain" "2.00"
+		"AttributeBaseAgility"    "3.00"
+		"AttributeAgilityGain"    "0.50"
 
-        "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
-        "MovementSpeed"     "300"
-        "MovementTurnRate"  "1.0"
+		"MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"     "300"
+		"MovementTurnRate"  "1.0"
 
-        "StatusHealth"      "200"
-        "StatusHealthRegen" "0.25"
-        "StatusMana"        "200"
-        "StatusManaRegen"   "0.01"
+		"StatusHealth"      "200"
+		"StatusHealthRegen" "0.25"
+		"StatusMana"        "200"
+		"StatusManaRegen"   "0.01"
 
-        "VisionDaytimeRange"   "1800"
-        "VisionNighttimeRange" "1800"
-    }
+		"VisionDaytimeRange"   "1800"
+		"VisionNighttimeRange" "1800"
+	}
 
-    "npc_dota_hero_medusa"
-    {
-        "override_hero"     "npc_dota_hero_medusa"
+	"npc_dota_hero_medusa"
+	{
+		"override_hero"     "npc_dota_hero_medusa"
 
-        "AbilityLayout"     "4"
-        "Ability1"          "reflecting_pool"
-        "Ability2"          "vanity"
-        "Ability3"          "enchanting_leer"
-        "Ability4"          "mirror_hall"
+		"AbilityLayout"     "4"
+		"Ability1"          "reflecting_pool"
+		"Ability2"          "vanity"
+		"Ability3"          "enchanting_leer"
+		"Ability4"          "mirror_hall"
 
 //      "Ability10"         ""
 //      "Ability11"         ""
@@ -60,8 +60,8 @@
 //      "Ability16"         ""
 //      "Ability17"         ""
 
-        "ModelScale"        "0.879"
-        
+		"ModelScale"        "0.879"
+		
 //      "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
 //      "AttackDamageMin"           "1"
 //      "AttackDamageMax"           "1"
@@ -79,7 +79,7 @@
 
 //      "StatusHealth"          "200"
 //      "StatusHealthRegen"     "0.250000"
-        "StatusMana"            "200"
+		"StatusMana"            "200"
 //      "StatusManaRegen"       "0.010000"
 
 //      "ArmorPhysical"         "4"
@@ -92,7 +92,7 @@
 //      "AttributeIntelligenceGain" "0"
 //      "AttributeBaseAgility"      "0"
 //      "AttributeAgilityGain"      "0"
-    }
+	}
 
 	"npc_dota_hero_pudge"
 	{
@@ -104,12 +104,24 @@
 		"Ability2"		"rotting_flesh"
 		"Ability3"		"fresh_meat"
 		"Ability4"      ""
-        "Ability5"      ""
-        "Ability6"      ""
+		"Ability5"      ""
+		"Ability6"      "dismember"
 
 
-        "Ability10"     "special_bonus_unique_butcher_1"
-        "Ability11"     "special_bonus_unique_butcher_2"
-        "Ability12"     "special_bonus_unique_butcher_3"
+		"Ability10"     "special_bonus_unique_butcher_1"
+		"Ability11"     "special_bonus_unique_butcher_2"
+		"Ability12"     "special_bonus_unique_butcher_3"
+		"Ability13"		"special_bonus_unique_butcher_4"
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		"special_bonus_unique_butcher_5"
+		"Ability17"		"special_bonus_unique_butcher_6"
+	}
+
+	"npc_dota_hero_lina"
+	{
+		"override_hero"     "npc_dota_hero_lina"
+
+		"Ability1"      "couriers_reign"
 	}
 }

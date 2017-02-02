@@ -1,5 +1,1620 @@
 "DOTAAbilities"
-
 {
+	"item_iron_branch"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5000"
+		"AbilityTextureName"			"iron_branch"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
 
+		"ItemCost"						"100"
+		"ItemShopTags"					"str;regen_health"
+		"ItemQuality"					"component"
+		"ItemAliases"					"iron branch;ib"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"strength_bonus"	"1"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"regeneration_bonus" "0.3"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_iron_branch_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%strength_bonus"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%regeneration_bonus" 
+				}
+			}
+		}
+	}
+
+	"item_leaf_branch"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5001"
+		"AbilityTextureName"			"iron_branch"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"100"
+		"ItemShopTags"					"agi;move_speed"
+		"ItemQuality"					"component"
+		"ItemAliases"					"leaf branch;branch"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"agility_bonus"		"1"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"movespeed_bonus"	"2"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_leaf_branch_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%agility_bonus"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%movespeed_bonus" 
+				}
+			}
+		}
+	}
+
+	"item_wisdom_branch"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5003"
+		"AbilityTextureName"			"iron_branch"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"100"
+		"ItemShopTags"					"int;regen_mana"
+		"ItemQuality"					"component"
+		"ItemAliases"					"wisdom branch;wb"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"intellect_bonus"	"1"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"regeneration_bonus" "0.3"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_wisdom_branch_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%intellect_bonus"
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%regeneration_bonus" 
+				}
+			}
+		}
+	}
+
+	"item_superior_branch"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5004"
+		"AbilityTextureName"			"iron_branch"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"350"
+		"ItemShopTags"					"int;str;agi;regen_mana;regen_health;move_speed"
+		"ItemQuality"					"common"
+		"ItemAliases"					"superior branch;sb"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"all_stats_bonus"	"1"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"regeneration_bonus" "1"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movespeed_bonus"	"5"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_superior_branch_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS"	"%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"	"%all_stats_bonus"
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%regeneration_bonus"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%regeneration_bonus"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%movespeed_bonus"
+				}
+			}
+		}
+	}
+
+	//mightve done this wrong..
+	"item_recipe_superior_branch"
+	{
+		"ID"							"5005"
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"BaseClass"						"item_recipe_arcane_boots"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"50"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_superior_branch"
+		"ItemRequirements"
+		{
+			"01"						"item_iron_branch;item_leaf_branch;item_wisdom_branch"
+		}
+	}
+
+	"item_earth_ring"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5006"
+		"AbilityTextureName"			"item_ring_of_protection"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"200"
+		"ItemShopTags"					"boost_armor;hard_to_tag"
+		"ItemQuality"					"common"
+		"ItemAliases"					"earth ring;er"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"armor_bonus"		"1.5"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"armor_enemy"	"-1.5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"525"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_earth_ring_bonus"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_earth_ring_ally"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "1"
+			}
+
+			"modifier_earth_ring_ally"
+			{
+				"Passive"			"1"
+				"IsHidden"			"0"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor_bonus"
+				}
+			}
+
+			"modifier_earth_ring_enemy"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_earth_ring_enemies"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "0"
+			}
+
+			"modifier_earth_ring_enemies"
+			{
+				"IsDebuff"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor_enemy"
+				}
+			}
+		}
+	}
+
+	"item_water_ring"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5007"
+		"AbilityTextureName"			"item_void_stone"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"200"
+		"ItemShopTags"					"regen_mana;regen_health;hard_to_tag"
+		"ItemQuality"					"common"
+		"ItemAliases"					"water ring;wr"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"health_regen"		"1.6"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"mana_regen"		"1.2"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"health_regen_enemy" "-1.2"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"mana_regen_enemy" "-0.8"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"525"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_water_ring_bonus"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_water_ring_ally"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "1"
+			}
+
+			"modifier_water_ring_ally"
+			{
+				"Passive"			"1"
+				"IsHidden"			"0"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%health_regen"
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%mana_regen"
+				}
+			}
+
+			"modifier_water_ring_enemy"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_water_ring_enemies"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "0"
+			}
+
+			"modifier_water_ring_enemies"
+			{
+				"IsDebuff"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%health_regen_enemy"
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%mana_regen_enemy"
+				}
+			}
+		}
+	}
+
+	"item_fire_ring"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5008"
+		"AbilityTextureName"			"item_ring_of_health"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"200"
+		"ItemShopTags"					"damage;hard_to_tag"
+		"ItemQuality"					"common"
+		"ItemAliases"					"fire ring;fr"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage_pct_increase" "5"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage_increase"	"5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage_pct_enemy" "-10"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_enemy"		"-3"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"525"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_fire_ring_bonus"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_fire_ring_ally"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "1"
+			}
+
+			"modifier_fire_ring_ally"
+			{
+				"Passive"			"1"
+				"IsHidden"			"0"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE" "%damage_pct_increase"
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_increase"
+				}
+			}
+
+			"modifier_fire_ring_enemy"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_fire_ring_enemies"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "0"
+			}
+
+			"modifier_fire_ring_enemies"
+			{
+				"IsDebuff"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE" "%damage_pct_enemy"
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_enemy"
+				}
+			}
+		}
+	}
+
+	"item_air_ring"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5009"
+		"AbilityTextureName"			"item_recipe_ring_of_aquila"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"200"
+		"ItemShopTags"					"attack_speed;move_speed;hard_to_tag"
+		"ItemQuality"					"common"
+		"ItemAliases"					"air ring;ar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"attack_speed_ally" "15"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"movespeed_ally"	"30"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"attack_speed_enemy" "-10"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movespeed_enemy"	"-20"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"525"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_air_ring_bonus"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_air_ring_ally"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "1"
+			}
+
+			"modifier_air_ring_ally"
+			{
+				"Passive"			"1"
+				"IsHidden"			"0"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attack_speed_ally"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "%movespeed_ally"
+				}
+			}
+
+			"modifier_air_ring_enemy"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_air_ring_enemies"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "0"
+			}
+
+			"modifier_air_ring_enemies"
+			{
+				"IsDebuff"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attack_speed_enemy"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "%movespeed_enemy"
+				}
+			}
+		}
+	}
+
+	"item_elemental_ring"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5010"
+		"AbilityTextureName"			"item_ring_of_aquila"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Model"							"models/props_gameplay/red_box.vmdl" 
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+
+		"ItemCost"						"200"
+		"ItemShopTags"					"attack_speed;move_speed;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"elemental ring;er"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"radius"			"525"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"attack_speed_ally" "25"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"movespeed_pct_ally" "10"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage_pct_ally"	"10"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage_ally"		"10"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"health_regen"		"2.2"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"mana_regen"		"1.6"
+			}
+			"08"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"armor_bonus"		"3"
+			}
+			"09"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"armor_enemy"		"-4"
+			}
+			"10"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"health_regen_enemy" "-2.6"
+			}
+			"11"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"mana_regen_enemy"	"-1.4"
+			}
+			"12"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage_pct_enemy"	"-15"
+			}
+			"13"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_enemy"		"-6"
+			}
+			"14"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"attack_speed_enemy" "-15"
+			}
+			"15"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movespeed_pct_enemy" "-10"
+			}
+			"16"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"inc_damage_increase" "-6" //106?
+			}
+			"17"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_stats_bonus"	"6"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elemental_ring_stats"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+				}
+			}
+
+			"modifier_elemental_ring_bonus"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_elemental_ring_ally"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "1"
+			}
+
+			"modifier_elemental_ring_ally"
+			{
+				"Passive"			"1"
+				"IsHidden"			"0"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attack_speed_ally"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%movespeed_pct_ally"
+					"MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE" "%damage_pct_ally"
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_ally"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%health_regen"
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%mana_regen"
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor_bonus"
+				}
+			}
+
+			"modifier_elemental_ring_enemy"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+			
+				"Aura"          	"modifier_elemental_ring_enemies"
+				"Aura_Radius"   	"%radius"
+				"Aura_Teams"    	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+				"Aura_Types"    	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+				"Aura_Flags"    	"DOTA_UNIT_TARGET_FLAG_NONE"
+				"Aura_ApplyToCaster" "0"
+			}
+
+			"modifier_elemental_ring_enemies"
+			{
+				"IsDebuff"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%armor_enemy"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%health_regen_enemy"
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%mana_regen_enemy"
+					"MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE" "%damage_pct_enemy"
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_enemy"
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attack_speed_enemy"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%movespeed_pct_enemy"
+					"MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE" "%inc_damage_increase"
+				}
+			}
+		}
+	}
+
+	"item_recipe_elemental_ring"
+	{
+		"ID"							"5011"
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"BaseClass"						"item_recipe_arcane_boots"
+		
+		"ItemCost"						"300"
+		"ItemShopTags"					""
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_elemental_ring"
+		"ItemRequirements"
+		{
+			"01"						"item_earth_ring;item_water_ring;item_fire_ring;item_air_ring"
+		}
+	}
+
+	"item_lesser_soul"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5012"
+		"AbilityTextureName"			"item_soul_booster"
+
+		"ItemQuality" "component"
+		"ItemCost"						"10"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_bonus"		"3"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"spell_amp"			"2"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_stats_bonus"	"2"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_lesser_soul_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_bonus"
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE" "%spell_amp"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+				}
+			}
+		}
+	}
+
+	"item_common_soul"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5013"
+		"AbilityTextureName"			"item_soul_booster"
+
+		"ItemQuality" "common"
+		"ItemCost"						"30"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_bonus"		"7"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"spell_amp"			"5"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_stats_bonus"	"3"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"lifesteal"			"4"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_common_soul_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+
+				"OnAttackLanded"
+				// "%attack_damage" is set to the damage value before mitigation
+				{
+					"Lifesteal"
+					{
+						"Target"            "ATTACKER"
+						"LifestealPercent"	"%lifesteal"
+					}
+				}
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_bonus"
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE" "%spell_amp"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+				}
+			}
+		}
+	}
+
+	"item_greater_soul"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5014"
+		"AbilityTextureName"			"item_soul_booster"
+
+		"ItemQuality" "rare"
+		"ItemCost"						"60"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_bonus"		"15"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"spell_amp"			"9"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_stats_bonus"	"7"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"lifesteal"			"6"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"cast_range_bonus"	"75"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_greater_soul_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+
+				"OnAttackLanded"
+				// "%attack_damage" is set to the damage value before mitigation
+				{
+					"Lifesteal"
+					{
+						"Target"            "ATTACKER"
+						"LifestealPercent"	"%lifesteal"
+					}
+				}
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_bonus"
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE" "%spell_amp"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING" "%cast_range_bonus"
+				}
+			}
+		}
+	}
+
+	"item_divine_soul"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5015"
+		"AbilityTextureName"			"item_soul_booster"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AoERadius"						"%radius"
+		"AbilityCooldown"				"32.0"
+		"AbilityManaCost"				"100"
+		"AbilityCastRange"				"600"
+
+		"ItemQuality" "epic"
+		"ItemCost"						"100"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_bonus"		"15"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"spell_amp"			"14"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_stats_bonus"	"22"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"health_bonus"		"350"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"mana_bonus"		"750"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movespeed_bonus"	"5"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"cast_range_bonus"	"100"
+			}
+			"08"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"radius"			"250"
+			}
+			"09"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage"			"100"
+			}
+			"10"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"int_pct"			"70" //% of casters int
+			}
+			"11"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"stun_duration"		"2.5"
+			}
+			"12"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aoe_reduced"		"50" //% reduction to stun_duration and damage
+			}
+		}
+
+		//not implementing spell crit right now, pretty sure id have to code that in straight lua
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/item_souls.lua"
+				"Function"		"DivineRip"
+				"Target"		"TARGET"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_divine_soul_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_bonus"
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE" "%spell_amp"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%movespeed_bonus"
+					"MODIFIER_PROPERTY_HEALTH_BONUS" "%health_bonus"
+					"MODIFIER_PROPERTY_MANA_BONUS" "%mana_bonus"
+					"MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING" "%cast_range_bonus"
+				}
+			}
+		}
+	}
+
+	"item_hellish_soul"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5016"
+		"AbilityTextureName"			"item_soul_booster"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AoERadius"						"%radius"
+		"AbilityCooldown"				"45.0"
+		"AbilityManaCost"				"100"
+		"AbilityCastRange"				"300"
+
+		"ItemQuality" "epic"
+		"ItemCost"						"100"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_bonus"		"15"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"spell_amp"			"14"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"all_stats_bonus"	"16"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"health_bonus"		"300"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"mana_bonus"		"200"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"movespeed_bonus"	"15"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"cast_range_bonus"	"100"
+			}
+			"08"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"radius"			"250"
+			}
+			"09"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage"			"150"
+			}
+			"10"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_pct"		"35" //% of casters dmg
+			}
+			"11"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"disarm_duration"		"4.0"
+			}
+			"12"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aoe_reduced"		"70" //% reduction to disarm_duration and damage
+			}
+			"13"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"attack_speed_bonus" "30"
+			}
+			"14"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"health_regen"		"4"
+			}
+			"15"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"crit_chance"		"15"
+			}
+			"16"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"crit_damage"		"175"
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/item_souls.lua"
+				"Function"		"HellRip"
+				"Target"		"TARGET"
+				"attack_damage"	"%attack_damage"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_hellish_soul_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+				"Attributes"		"MODIFIER_ATTRIBUTE_MULTIPLE"
+
+				"OnAttackStart"
+				{
+					"RemoveModifier"
+					{
+						"ModifierName"	"modifier_hellish_soul_critical"
+						"Target" 		"CASTER"
+					}
+					"Random"
+					{
+						"Chance"			"%crit_chance"
+						"OnSuccess"
+						{
+							"ApplyModifier"
+							{
+								"ModifierName"	"modifier_hellish_soul_critical"
+								"Target" 		"CASTER"
+							}
+						}
+					}
+				}
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%damage_bonus"
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE" "%spell_amp"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%all_stats_bonus"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%movespeed_bonus"
+					"MODIFIER_PROPERTY_HEALTH_BONUS" "%health_bonus"
+					"MODIFIER_PROPERTY_MANA_BONUS" "%mana_bonus"
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%health_regen"
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attack_speed_bonus"
+					"MODIFIER_PROPERTY_CAST_RANGE_BONUS_STACKING" "%cast_range_bonus"
+				}
+			}
+
+			"modifier_hellish_soul_critical"
+			{
+				"IsHidden"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE" "%crit_damage"
+				}
+			}
+		}
+	}
+
+	"item_realm_soul"
+	{
+		"BaseClass"             		"item_datadriven"
+		"ID"							"5017"
+		"AbilityTextureName"			"item_soul_booster"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		"AbilityCooldown"				"12"
+
+		"ItemQuality" "artifact"
+		"ItemCost"						"100"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_damage"		"17"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"item_damage"		"30"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"item_damage_pct"	"40" //% of users base dmg
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"item_chance"		"15"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_realm_soul_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+
+				"OnAttackStart"
+				{
+					"RemoveModifier"
+					{
+						"ModifierName"	"modifier_realm_soul_proc"
+						"Target" 		"TARGET"
+					}
+
+					"Random"
+					{
+						"Chance"			"%item_chance"
+						"OnSuccess"
+						{
+							"RunScript"
+							{
+								"ScriptFile"	"items/item_souls.lua"
+								"Function"		"RealmProc"
+								"modifier"		"modifier_realm_soul_proc"
+							}
+						}
+					}
+				}
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE" "%bonus_damage"
+				}
+			}
+
+			"modifier_realm_soul_proc"
+			{
+				"Passive"			"0"
+				"IsHidden"			"1"
+			
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_POST_CRIT" "1"
+				}
+			}
+		}
+	}
+
+	"item_skull_of_death"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"ID"							"5018"
+
+		"ItemCost"						"300"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"agility_bonus"		"10"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"strength_bonus"	"8"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"crit"				"140"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"crit_chance"		"10"
+			}
+		}
+	}
+
+	"item_magic_stone"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"ability_name"
+		"ID"							"5019"
+
+		"ItemCost"						"300"
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"intellect_bonus"	"7"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"spell_amp"			"4" //%
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"mana_bonus"		"120"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"base_damage"		"35"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"int_pct"			"15" //%
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"slow"				"-30" //%
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"			"3.0"
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"ApplyModifier"
+			{
+				"ModifierName"	"modifier_magic_stone_slow"
+				"Target" 		"TARGET"
+				"Duration"		"%duration"
+			}
+			"RunScript"
+			{
+				"ScriptFile"	"items/item_magic_stone.lua"
+				"Function"		"MagicStone"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_magic_stone_bonuses"
+			{
+				"Passive"			"1"
+				"IsHidden"			"1"
+		
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%intellect_bonus"
+					"MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE" "%spell_amp"
+					"MODIFIER_PROPERTY_MANA_BONUS" "%mana_bonus"
+				}
+			}
+
+			"modifier_magic_stone_slow"
+			{
+				"IsDebuff"			"1"
+			
+				"Properties"
+				{
+				    "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%slow" 
+				}
+			}
+		}
+	}
+
+	"item_infernal_stone"
+	{
+
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"item_void_stone"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"ID"							"5020"
+
+		"MaxUpgradeLevel" "3"
+		"ItemBaseLevel" "1"
+
+		"ItemCost"						""
+		"ItemShopTags"					""
+		"ItemSellable" "1"
+		"ItemPurchasable" "0"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"value"			"900"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"		"3.0 4.0 5.0"
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/item_infernal_summon.lua"
+				"Function"		"SummonInfernal"
+				"ability_bash"		"infernal_summon_bash"
+				"ability_slam"		"infernal_summon_slam"
+				"ability_fist"		"infernal_summon_rapid_fists"
+				"ability_stats"		"infernal_summon_stats"
+			}
+		}
+
+	}
+
+	"item_testing_courier"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"animal_courier"
+		"ID"							"5021"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastAnimation"			"ACT_DOTA_IDLE_RARE"
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/item_testing_courier.lua"
+				"Function"		"SummonCourier"
+			}
+		}
+	}
+
+	"item_debug_hero_spawn"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"debug_heroes"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING"
+		"ID"	"14283"
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/debug_items.lua"
+				"Function"		"SpawnHeroes"
+			}
+			"RunScript"
+			{
+				"ScriptFile"	"items/debug_items.lua"
+				"Function"		"RemoveSpawnedEntities"
+			}
+		}
+	}
+
+	"item_debug_creep_spawn"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"debug_creeps"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING"
+		"ID"	"14286"
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/debug_items.lua"
+				"Function"		"SpawnCreeps"
+			}
+			"RunScript"
+			{
+				"ScriptFile"	"items/debug_items.lua"
+				"Function"		"RemoveSpawnedEntities"
+			}
+		}
+	}
+
+	"item_debug_level_up"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"debug_exp"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"ID"	"14233"
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/debug_items.lua"
+				"Function"		"LevelUp"
+				"target_points" "POINT"
+			}
+		}
+	}
 }

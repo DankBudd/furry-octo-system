@@ -284,4 +284,101 @@
 
         "HasInventory"      "0"
     }
+
+    "npc_testing_courier"
+    {
+        "BaseClass"                 "npc_dota_courier"
+        "Model"                     "models/courier/sillydragon/sillydragon.vmdl"
+        "SoundSet"                  "Creep_Good_Range"
+        "Level"                     "0"
+        "UnitLabel"                 "courier"
+
+        "Ability1" ""
+        "Ability2" ""
+        "Ability3" ""
+        "Ability4" ""
+        "Ability5" ""
+        "Ability6" ""
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "BoundsHullName"    "DOTA_HULL_SIZE_SMALL"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_NO_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "350"
+        "MovementTurnRate"          "1.0"
+        "FollowRange"               "150"
+
+        "TeamName"                  "DOTA_TEAM_GOODGUYS"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_COURIER"
+
+        "AttackDesire" "1.5"
+    }
+
+    "npc_infernal_summon"
+    {
+        "BaseClass"                 "npc_dota_creep_neutral"
+        "Model"                     "models/courier/sillydragon/sillydragon.vmdl"
+        "SoundSet"                  "Hero_WarlockGolem"
+        "Level"                     "0"
+        "UnitLabel"                 "hero_summon"
+
+        "Ability1" "infernal_summon_rapid_fists"
+        "Ability2" "infernal_summon_slam"
+        "Ability3" "infernal_summon_bash"
+        "Ability4" "infernal_summon_stats"
+
+        "IsSummoned"                "1"
+        "CanBeDominated"            "0"
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "AttackDamageMin"            "10"       // Damage range min.
+        "AttackDamageMax"            "14"       // Damage range max.
+        "AttackRate"                 "1.8"     // Speed of attack.
+        "AttackAnimationPoint"       "0.75"    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"     "575"     // Range within a target can be acquired.
+        "AttackRange"                "150"     // Range within a target can be attacked.
+        "AttackRangeBuffer"          "215"     // Extra range the target can move without canceling the attack
+
+        "BoundsHullName"    "DOTA_HULL_SIZE_HERO"
+
+        "StatusHealth"      "150"
+        "StatusHealthRegen" "50"
+        "StatusMana"        "230"
+        "StatusManaRegen"   "50"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "320"
+        "MovementTurnRate"          "1.0"
+        "FollowRange"               "150"
+
+        "TeamName"                  "DOTA_TEAM_GOODGUYS"
+        "CombatClassAttack"         "DOTA_COMBAT_CLASS_ATTACK_HERO"
+        "CombatClassDefend"         "DOTA_COMBAT_CLASS_DEFEND_HERO"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO"
+
+        "AttackDesire" "1.5"
+
+        "Creature"
+        {
+            "DisableClumpingBehavior"       "1"
+            "AttachWearables"
+            {
+                //"Wearable1" { "ItemDef" "" }
+                //"Wearable2" { "ItemDef" "" }
+                //"Wearable3" { "ItemDef" "" }
+                //"Wearable4" { "ItemDef" "" }
+                //"Wearable5" { "ItemDef" "" }
+                //"Wearable6" { "ItemDef" "" }
+            }
+        }
+    }
 }
