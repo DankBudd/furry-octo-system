@@ -1,4 +1,4 @@
-Pudge, Meaty Man Starting stats 17 str, 2 agi, 2 int, base speed 260, base damage 7, stats gain per level 2.00 str, 1.00 int, 0.50 agi, Starting item Flesh Hand give 2% life with 1 armor base attack time 2.10
+Pudge, Meaty Man Starting stats 14 str, 3 agi, 3 int, base speed 260, base damage 7, stats gain per level 1.60 str, 0.20 int, 0.30 agi, Starting item Flesh Hand give 2% life with 1 armor base attack time 2.10
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 

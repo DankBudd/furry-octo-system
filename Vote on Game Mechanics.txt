@@ -47,8 +47,8 @@ eventually we could change the way talents work entirely. instead of spending an
 so on every level up, or every 3 levels or whatever, you would get some talent points.
 these points as you might guess, can be spent on talents and only talents. 
 
-the talents could cost different amounts of points depending on how powerful they are.
-they could even have required levels and or prerequisite talents
+the talents could cost different amounts of points depending on how powerful they are, and some could be leveled multiple times
+they could even have required levels and or prerequisites talents / skills
 --------------------------------------------
 
 
@@ -77,6 +77,7 @@ hero level,
 skill levels,
 gold,
 equipment,
+inventory,
 perma-buffs,
 classes (if we're doing classes)
 
