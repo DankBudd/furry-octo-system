@@ -9,3 +9,45 @@ increase armor per player 2
 increase magic resist per player 3%
 increase attackspeed per player 5
 
+Dark Troll level 2
+
+damage 7-12 Pierce
+range 450
+life 110
+mana 100
+armor 1 Basic
+magic resist 3%
+
+Spell 1
+Sharp Axe CREEP
+empower the dark troll next axe dealing pure damage instead of physical
+manacost 30 cooldown 9
+
+
+Troll level 1
+damage 5-8 Basic
+range melee
+life 150
+mana 100
+armor 2 Basic
+magic resist 0%
+
+
+Troll Preist level 2
+damage 7-9 Pierce
+range 350
+life 80
+mana 300
+armor 0 Basic
+magic resist 12%
+
+Spell 1
+shadow wave CREEP
+heal ally for 35 and damage for 15 can touch up to 4 enemy or ally
+manacost 70 cooldown 5
+
+Passive 1
+Troll aura CREEP
+regen life of near ally by 1.4 and increase armor by 1 and magic resist by 3%
+
+
