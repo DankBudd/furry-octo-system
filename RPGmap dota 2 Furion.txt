@@ -81,7 +81,7 @@ Treant passive Seed of Life
 went the treant die they will do Nature Wrath that will deal only 10% of the damage and heal and also plant a seed
 enemy that get close to the seed will take 2 damage pure per second, can stack with the other seed
 
-talent level 10 upgrade Gift of Verodicia
+talent level 10 upgrade Treant Guard
 
 reduce cooldown by 5
 increase Treant life by 20% of int scaling
