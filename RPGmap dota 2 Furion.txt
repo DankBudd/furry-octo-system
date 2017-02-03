@@ -30,7 +30,7 @@ every 1 intelligence point, increase life by 2
 talent 25 modifer
 increase life per 1 point of intelligence by 1
 new modifier Nature Blessing
-every time u cast a spell restore 2% life to near ally and you 400 radius
+every time u cast a spell restore 3% life to near ally around you 400 radius doesnt affect furion
 
 
 SPELL Q
@@ -68,12 +68,12 @@ Treant Guard
 Summon Treant to fight for your side
 
 Number of Treant 1 2 2 3
-Treant Duration 30 40 50 60
+Treant Duration 25 35 45 55
 Treant life 100 110 120 130 plus 10% of int
 Treant damage 4-7 5-8 6-9 7-10 plus 10% of int
 Treant Magic resis 4% 7% 10% 13%
 Treant armor 2
-Treant base attack time 1.90 1.85 1.80 1.75
+Treant base attack time 2.00 1.95 1.90 1.85
 cooldown 15 20 25 30
 mana cost 200 225 250 275 plus 2% of max mana
 
@@ -101,34 +101,34 @@ the Treant scale off by Gift of Verodicia but only last 15 second and dont spawn
 
 Heal per second 4 5 6 7 plus 10% of int
 duration 5 6 7 8
-Treant Spawn chance per second 10% 11% 12% 13%
+Treant Spawn chance per second 11% 12% 13% 14%
 radius 500
 attackspeed bonus 5 10 15 20 
-damage bonus 5% 8% 11% 14% dosent affect Treant and Ancient of War
-cooldown 25 24 23 22
+damage bonus 8% 11% 14% 17% doesnt affect Treant and Ancient of War
+cooldown 28 27 26 25
 mana cost 100 plus 1% max mana
 lifecost 100 plus 10% of furion max life
 
 talent level 15 upgeade Pure Nature
 
-increase heal by 3
-increase duration by 2
-increase Treant spawn chance by 2%
-increase radius by 200
-increase attack speed by 5
-increase damage bonus by 6%
-reduce coldown by 4
-reduce life cost by 4%
+increase heal by 5
+increase duration by 3
+increase Treant spawn chance by 3%
+increase radius by 300
+increase attack speed by 10
+increase damage bonus by 8%
+reduce coldown by 2
+reduce life cost by 6%
 
 Give a new modifier Greater Treant
 spawn a Greater Treant every time Pure nature is cast this Treant will last 7 second and got
-triple the scaling of Gift of Verodicia and went he die he will do the explosion of Nature Wrath
+triple the scaling of Treant Guard and went he die he will do the explosion of Nature Wrath
 and do 20% of the damage of it and plant a seed that will deal 4 pure damage per second last 7 second as well
 
 
 PASSIVE D OR F
 Nature Mastery
-increase life damage attackspeed of summon in a radius around furion, doesnt affect Furion
+increase life damage attackspeed of summon in a radius around furion and upgrade some of is spell as well, doesnt affect Furion
 
 Increase Treant life by 5% 10% 15% 20%
 Increase Ancient of War life by 5% 6% 7% 8%
@@ -145,12 +145,12 @@ radius for aura 900
 talent level 15 upgrade Nature Mastery
 
 increase Treant life by 5%
-Increase Ancient of War life by 2%
+Increase Ancient of War life by 4%
 Increase non-summon life by 40
-Increase the damage of Treant by 1
-Increase the damage Ancient of War by 4
+Increase the damage of Treant by 2
+Increase the damage Ancient of War by 8
 increase the duration of Treant by 5
-Increase raduis of aura by 300
+Increase raduis of aura by 400
 
 give a new modifier Nature Rage increasing damage of all summon by 10%
 
@@ -181,18 +181,23 @@ by 50 100 150 for 3 4 5 instances, doesnt affect ancient of war last 7 second co
 
 PASSIVE 1
 on his next attack the ancient of war will puta leaching seed on the enemy he hit dealing 15 30 45 physical damage per second
-and healing any ally near of a radius of 300 for 15 20 25 per tick of damage and heal last 5 second
+and healing any ally near of a radius of 300 for 15 20 25 per tick of damage and heal last 5 second cooldown 20 second
 
 PASSIVE 2
 the ancient of war got 15% chance to stun the enemy in a radius of 300 dealing 40 80 120 physical damage
-and stuning for 0.5 0.7 0.9 second the primary target get 50% more damage and get knocking him away
+and stuning for 0.3 0.5 0.7 second the primary target get 50% more damage and get knock away
 	
 
+talent level 25 upgrade Gift of Verodicia
 
-
-
-
-
+increase life of Ancient of War by 100 and int scaling by 10%
+increase mana of Ancient of War by 200 and int scaling by 30%
+increase damage of Ancient of War by 10
+reduce base attack time by 0.10
+increase armor by 3
+increase magic resist by 10%
+increase SPELL 2 instances by 1
+increase PASSIVE 1 damage by 10 and healing by 5
 
 
 
