@@ -31,7 +31,7 @@ magic resist 5% 10%/upgrade 10% 20%
 
 change the number of damage needed for base damage on primary stats from 0.20 to 0.25 increase of 5 str for 1 damage to 4 str for 1 damage
 
-level 25 talent also make all spell of sven do 30% more damage base on the damage of is spell
+level 25 talent also make sven attack faster per hit up to 5 max stack of 12 attack speed
 
 
 
