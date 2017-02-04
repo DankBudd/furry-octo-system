@@ -49,18 +49,19 @@ magic resist reduction 3% 4% 5% 6%
 buff debuff duration 5, after the duration expire the explosion will go off
 cooldown if use on enemy 7 second
 cooldown if use on ally 9 second
-mana cost 100 140 180 220 plus 1% of max mana
+mana cost 70 140 210 280 plus 2% of max mana
 
 talent level 10 upgrade Nature Wrath
 
-increase heal by 10 and int scaling by 6% -- 50% of this goes to the explosion heal
-increase damage by 4 and int scaling by 10% -- 50% of this goes to the explosion damage
+increase heal by 10 and int scaling by 10% -- 50% of this goes to the explosion heal
+increase damage by 6 and int scaling by 20% -- 50% of this goes to the explosion damage
 increase armor bonus by 2
-increase magic resist by 3%
+increase magic resist by 4%
 armor reduction increase by 1
-magic resist reduction increase by 2%
-cooldown reduction for both 2
-mana cost increase by 20 plus 1% max mana
+magic resist reduction increase by 4%
+cooldown reduction for ally 2
+cooldown reduction for enemy 1
+reduce mana cost by 120
 
 
 SPELL W
