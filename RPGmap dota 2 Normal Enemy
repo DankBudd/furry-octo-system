@@ -141,3 +141,42 @@ armor 4
 magic resist 0
 
 
+Troll Mage level 4
+damage 15-21 Pierce
+range 375
+life 150
+mana 600
+armor 1 basic
+magic resist 35%
+
+Spell 1 
+Shadow Bolt CREEP
+deal 31 magic damage to a target lowering is magic resist by 8% cooldown 6 mana 150 debuff last 10 second
+
+Spell 2 
+Ice armor CREEP
+give the targeted ally or self 2 armor and 6% magic resist and slowing any attacker that deal damage to that target
+affected by the ice shield by 12% movementspeed and 20 attackspeed
+
+Passive 1 
+Null Field CREEP
+increase the magic resist of near ally by 5% and reduce magic damage taken by 3
+
+
+Troll Warlord Level 6
+damage 19-25 basic
+range melee
+life 285
+mana 300
+armor 4
+magic resist 10%
+evasion 10%
+
+Spell 1
+Enrage CREEP
+increase Troll Warlord attack speed by 25 and damage by 10 for 5 second, cooldown 15 mana cost 80
+
+Passive
+Leader Aura CREEP
+increase ally damage by 10% with 15% lifesteal
+
