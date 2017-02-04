@@ -1,4 +1,4 @@
-Furion, starting stats 8 int, 7 agi, 2 str, base speed 270, base damage 5, Stats Gain per level 1.00 int, 1.40 str, 0.20 agi, starting item Nature Gift increase intelligence by 3 and give 50 mana base attack time 1.55
+Furion, starting stats 12 int, 6 agi, 3 str, base speed 280, base damage 6, Stats Gain per level 1.00 int, 1.20 str, 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 50 mana base attack time 1.55
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,11 +8,11 @@ LEVEL 20 TALENT
 
 talent 1
 
-give 12% magic resist 6 armor and 45 movement speed
+give 16% magic resist 5 armor and 45 movement speed
 
 talent 2
 
-give 16 int 3.4 mana regen and 14 damage
+give 14 int 4.5 mana regen and 10% Spell amp
 
 
 
@@ -21,9 +21,9 @@ PASSIVE D OR F Nature Way
 increase overall stats/talent 25 upgrade doubling and giving a new modifier
 
 mana bonus 4% 8% 12% 16%/25 talent 8% 16% 24% 32%
-healing amp 6% 12% 18% 24%/25 talent 12% 24% 36% 48%
+healing amp 3% 6% 9% 12%/25 talent 6% 12% 18% 24%
 life bonus 30 60 90 120/25 talent 60 120 180 240
-armor 2 3 4/25 talent 4 6 8
+life-regen 1.5 2.5 3.5/25 talent 3 5 7
 intelligence bonus 8 16/25 talent 16 32
 every 1 intelligence point, increase life by 2
 
@@ -80,19 +80,20 @@ mana cost 200 225 250 275 plus 2% of max mana
 
 Treant passive Seed of Life
 went the treant die they will do Nature Wrath that will deal only 10% of the damage and heal and also plant a seed
-enemy that get close to the seed will take 2 damage pure per second, can stack with the other seed
+enemy that get close to the seed will take 2 damage pure per second, can stack with the other seed last 7 second
 
 talent level 10 upgrade Treant Guard
 
 reduce cooldown by 5
 increase Treant life by 20% of int scaling
 reduce the base attack time by 0.25
+increase magic resis by 7%
 increase armor by 2
 cost no mana
 
 also give a new passive to the treant Spliting Nightmare
-went a Treant die they will spawn 2 lesser Trean with 25% of the attributes of the Treant
-meaning that it will get the current life damage and armor that the Treat had before those small treant last 15 second
+went a Treant die they will spawn 2 lesser Treant with 20% of the attributes of the Treant
+meaning that it will get the current life damage and armor that the Treant had before, those small treant last 15 second
 
 
 SPELL E
@@ -131,7 +132,7 @@ PASSIVE D OR F
 Nature Mastery
 increase life damage attackspeed of summon in a radius around furion and upgrade some of is spell as well, doesnt affect Furion
 
-Increase Treant life by 5% 10% 15% 20%
+Increase Treant life by 4% 8% 12% 16%
 Increase Ancient of War life by 5% 6% 7% 8%
 Increase non-summon life of furion by 30 60 90 120
 increase non-summon damage of furion by 5% 6% 7% 8%
@@ -145,13 +146,13 @@ radius for aura 900
 
 talent level 15 upgrade Nature Mastery
 
-increase Treant life by 5%
+increase Treant life by 14%
 Increase Ancient of War life by 4%
 Increase non-summon life by 40
 Increase the damage of Treant by 2
 Increase the damage Ancient of War by 8
 increase the duration of Treant by 5
-Increase raduis of aura by 400
+Increase radius of aura by 400
 
 give a new modifier Nature Rage increasing damage of all summon by 10%
 
@@ -191,8 +192,8 @@ and stuning for 0.3 0.5 0.7 second the primary target get 50% more damage and ge
 
 talent level 25 upgrade Gift of Verodicia
 
-increase life of Ancient of War by 100 and int scaling by 10%
-increase mana of Ancient of War by 200 and int scaling by 30%
+increase life of Ancient of War by 100 and int scaling by 20%
+increase mana of Ancient of War by 200 and int scaling by 60%
 increase damage of Ancient of War by 10
 reduce base attack time by 0.10
 increase armor by 3
