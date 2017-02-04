@@ -426,5 +426,26 @@ Active use item
 give 10 damage 20 attack and 15% movementspeed for 15 second cooldown 30
 
 
+Seed of Life GREEN cant buy
+increase user healing amp mana-regeneration and mana, can also be activated to heal a target
+
+Active use item
+heal the target for 50 plus 3% of is max health, other in the radius of 300 will be heal for 10 plus 1% of ther max health
+cooldown 15 mana cost 50 plus 3% of user max mana
+
+heal amp 5%
+mana regen 2.2
+mana 100
+
+
+Anti-Magic Bar GREEN 500 gold
+increase user magic resist and damage can also be use to be magic immune for a short time
+
+Active item use
+become magic immune for 3 second cooldown 30
+
+magic resist 12%
+damage 6
+
 
 
