@@ -1,4 +1,4 @@
-Necro -- Summoner, starting stats 6 int, 0 agi, 4 str, base speed 290, base damage 11, Stats Gain per level 1.50 int, 1.10 str, 0.00 agi, starting item Skeletal Wand increase intelligence by 2 and give 1.5 mana regen base attack time 1.65
+Necro -- Summoner, starting stats 6 int, 0 agi, 4 str, base speed 290, base damage 3, Stats Gain per level 1.50 int, 1.10 str, 0.00 agi, starting item Skeletal Wand increase intelligence by 2 and give 1.5 mana regen base attack time 1.65
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,16 +8,61 @@ LEVEL 20 TALENT
 
 talent 1
 
-give 16% magic resist 5 armor and 45 movement speed
+give 6.5 life-regen, 220 life and 25% magic resist
 
 talent 2
 
-give 14 int 4.5 mana regen and 10% Spell amp
+give 11 mana regen, 13 int and 200 cast range
 
 
 
+PASSIVE CORE D OR F
+Corrupted Flesh
+increase all stats, double with talent level 25, giving a new modifier
+
+int 7 10 13 16
+mana regen 2 3 4 5
+mana bonus 4% 8% 12% 16%
+cast range 100 150 200
+life bonus 5% 10%
+
+Any summon near Necro will regen 0.40% of ther max life per second
+
+talent level 25, upgrade Corrupted Flesh
+Double all bonus and giving a new modifier
+Dead walk among us, for every summon that die necro will heal for 1.5% of is health
 
 
+SPELL Q
+Skeleton Warrior
+summon a SKeleton Warrior to fight for you
+
+Skeleton life 35 40 45 50 plus 25% of int
+Skeleton damage 3-4 4-5 5-6 6-7 plus 10% of int
+Skeleton armor 1, every 65 int will give the skeleton 1 armor
+Skeleton magic resist 5% plus 10% of int
+Skeleton base attack time 2.3 2.2 2.1 2.0
+Max skeleton 3 5 7 9
+Mana cost 100 120 140 160 plus 3% of max mana
+cooldown 1
+
+Skeleton passive
+Swing of the dead
+they get 15% chance to deal 150% damage after that they get 3 instance of 25% lifesteal and 10 attack speed, the final
+hit will deal 20% of the skeleton damage into pure, cooldown 3 second
+
+talent level 10 upgrade Skeleton warrior
+
+Skeleton life Increase by 20
+SKeleton armor increase by 1
+Skeleton magic resist increase by 5%
+Skeleton base attack time reduce by 1.00
+Max skeleton increase by 3
+Swing of the dead 1 instance and pure damage increase by 10%
+
+add a new modifier Bone Explosion
+deal 3% of the skeleton life in magic damage went he die in a radius of 300
 
 
-
+SPELL W
+Skeleton Archer
