@@ -35,9 +35,9 @@ Dead walk among us, for every summon that die necro will heal for 1.5% of is hea
 
 SPELL Q
 Skeleton Warrior
-summon a SKeleton Warrior to fight for you
+Summon a SKeleton Warrior to fight for you
 
-Skeleton life 35 40 45 50 plus 25% of int
+Skeleton life 35 40 45 50 plus 30% of int
 Skeleton damage 3-4 4-5 5-6 6-7 plus 10% of int
 Skeleton armor 1, every 65 int will give the skeleton 1 armor
 Skeleton magic resist 5% plus 10% of int
@@ -48,21 +48,77 @@ cooldown 1
 
 Skeleton passive
 Swing of the dead
-they get 15% chance to deal 150% damage after that they get 3 instance of 25% lifesteal and 10 attack speed, the final
-hit will deal 20% of the skeleton damage into pure, cooldown 3 second
+they get 15% chance to deal 125% damage after that they get 3 instance of 15% lifesteal and 10 attack speed, the final
+hit will deal 5 pure damage plus 10% of the skeleton damage into pure, cooldown 3 second
 
 talent level 10 upgrade Skeleton warrior
 
-Skeleton life Increase by 20
+Skeleton life Increase by 10
 SKeleton armor increase by 1
 Skeleton magic resist increase by 5%
 Skeleton base attack time reduce by 1.00
-Max skeleton increase by 3
-Swing of the dead 1 instance and pure damage increase by 10%
+Max skeleton increase by 6
+Swing of the dead plus 1 instance and pure damage increase by 5%
 
 add a new modifier Bone Explosion
-deal 3% of the skeleton life in magic damage went he die in a radius of 300
+deal 3% of the skeleton max life in magic damage went he die in a radius of 300
 
 
 SPELL W
 Skeleton Archer
+Summon Skeleton Archer To fight against your foes
+
+Skeleton Archer life 15 20 25 30 plus 15% of int
+Skeleton Archer damage 5-8 6-9 7-10 8-11 plus 5% of int
+Skeleton Archer armor 0, every 85 int will give the skeleton archer 1 armor
+Skeleton Archer magic resist 0% plus 10% of int
+Skeleton Archer base attack time 2.1 2.0 1.9 1.8
+Max skeleton archer 1 2 3 4
+mana cost 150 190 230 270 plus 3% of max mana
+
+Skeleton Archer passive 1 OF EACH MAX
+Elemental being
+
+POISON ARCHER
+every attack poison the target dealing 3 4 5 6 pure damage per second plus 5% of the Skeleton Archer damage last 3 second
+also 25% of the poison archer damage is pure
+
+ICE ARCHER
+every attack Slow the target movementspeed by 6% and attackspeed by 4 6 8 10 also dealing 3 6 9 12 physical damage per second
+plus 10% of the Skeleton Archer damage last 3 second
+
+FIRE ARCHER
+the fire archer has 14% 16% 18% 20% chance to deal 140% 160% 180% 200%, melting the armor and reducing it by 1 2 3 4 last 2.5 second
+
+LIGHTNING ARCHER
+deal 4 5 6 7 magical damage per attack plus 30% of the archer damage as well and reducing magic resist by 2% 3% 4% 5% last 2 second
+
+talent level 10 upgrade Skeleton archer
+
+Skeleton archer life increase by 5 with scaling int by 5%
+Skeleton archer damage increase by 10% of int scale
+Skeleton archer armor increase by 1
+Skeleton archer magic resist increase by 5%
+base attack time reduce by 1.00
+max skeleton archer increase by 2
+POISON ARCHER damage per second increase by 2
+ICE ARCHER movementspeed slow increase by 8%
+FIRE ARCHER armor reduction increase by 1
+LIGHTNING ARCHER magic resist reduction increase by 2%
+
+add 2 new skeleton archer
+
+VOID ARCHER
+the void archer has 9% 10% 11% 12% to stun for 0.4 second and dealing 15 25 35 45 physical damage plus 10% of the
+archer damage and silencing them for 1.2 second
+
+DARK ARCHER
+the dark archer has 15% 20% 25% 30% to blind the target and causing them to miss for 9% 12% 15% 18% last 2.5 second
+also making the dark archer get 15 attack speed for 1.2 second
+
+ 
+
+
+
+
+
