@@ -17,22 +17,21 @@ talent 2
 
 PASSIVE D OR F
 
-Andy-Mage
+Anti-Magic
+Increase overall stats
 
-Increase overall stats/Level 25 Talent double all the bonus
+damage bonus 5% 10% 15% 20%
+attack speed bonus 7 14 21 28
+life bonus 35 70 105 140
+lifesteal 4% 8% 12%
+bonus mana 15% 30%
+for every 1 point of agility, Magina get 3 mana
 
-damage bonus 5% 10% 15% 20%/upgrade 10% 20% 30% 40%
+talent level 25 upgrade Anti-Magic
+double all stats bonus and increase the agility point for mana by 2
 
-attack speed bonus 7 14 21 28/upgrade 14 28 42 56
-
-life bonus 35 70 105 140/upgrade 70 140 210 280
-
-lifesteal 4% 8% 12%/upgrade 8% 16% 24%
-
-bonus mana 15% 30%/upgrade 30% 60%
-
-talent level 25 also give anti-mage, Fool Mana every point of agility give 4 mana
-
+add a new modfier Fool Mana
+Magina gain perma 2 perma mana per kill 
 
 
 SPELL Q
