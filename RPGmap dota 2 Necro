@@ -30,6 +30,7 @@ Any summon near Necro will regen 0.40% of ther max life per second
 
 talent level 25, upgrade Corrupted Flesh
 Double all bonus and giving a new modifier
+increase the life regen by 0.30%
 Dead walk among us, for every summon that die necro will heal for 1.5% of is health
 
 
@@ -38,8 +39,8 @@ Skeleton Warrior
 Summon a SKeleton Warrior to fight for you
 
 Skeleton life 35 40 45 50 plus 30% of int
-Skeleton damage 3-4 4-5 5-6 6-7 plus 10% of int
-Skeleton armor 1, every 65 int will give the skeleton 1 armor
+Skeleton damage 3-4 4-5 5-6 6-7 plus 5% of int
+Skeleton armor 1, every 65 int it will give the skeleton 1 armor
 Skeleton magic resist 5% plus 10% of int
 Skeleton base attack time 2.3 2.2 2.1 2.0
 Max skeleton 3 5 7 9
@@ -58,7 +59,7 @@ SKeleton armor increase by 1
 Skeleton magic resist increase by 5%
 Skeleton base attack time reduce by 1.00
 Max skeleton increase by 6
-Swing of the dead plus 1 instance and pure damage increase by 5%
+Swing of the dead plus 1 instance and pure damage increase by 10%
 
 add a new modifier Bone Explosion
 deal 3% of the skeleton max life in magic damage went he die in a radius of 300
@@ -66,7 +67,8 @@ deal 3% of the skeleton max life in magic damage went he die in a radius of 300
 
 SPELL W
 Skeleton Archer
-Summon Skeleton Archer To fight against your foes
+Summon Skeleton Archer To fight against your foes, those skeleton will come with a element that will help and deal
+great damage to the enemy
 
 Skeleton Archer life 15 20 25 30 plus 15% of int
 Skeleton Archer damage 5-8 6-9 7-10 8-11 plus 5% of int
@@ -117,6 +119,33 @@ the dark archer has 15% 20% 25% 30% to blind the target and causing them to miss
 also making the dark archer get 15 attack speed for 1.2 second
 
  
+SPELL E
+Death Coil
+heal ally skeleton or damage enemy, also reduce the enemy regen and increase skeleton damage and attack speed
+
+damage 10 20 30 40 magical plus 25% of int
+heal 25 40 55 70 can only affect skeleton of necro
+bonus heal 2% 4% 6% 8% of max health
+enemy regen reduction -1 -1.5 -2 -2.5 last 10 second
+skeleton increase damage 2 3 4 5 last 4 second
+skeleton attack speed increase 7 14 21 28 last 4 second
+mana cost 150 plus 2% 3% 4% 5% of max mana
+cooldown 12
+
+
+talent level 15 upgrade Death Coil
+increase the damage by 10
+increase int scaling by 15%
+increase heal by 10
+increase bonus heal by 3%
+increase enemy regen reduction by -1.5
+skeleton damage increase by 3
+skeleton attack speed increase by 12
+cooldown reduction 1
+
+add a new modifier Bouncing Coil
+now the death coil will bounce 7 time each bounce will deal 11% less damage and heal per bounce
+can now affect Necro as well
 
 
 
