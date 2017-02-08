@@ -17,78 +17,75 @@ talent 2
 
 Mighty Warrior level needed 1 5 15 25 PASSIVE D OR F
 
-increase overall stats/level 25 talent double all bonus
+increase overall stats
 
-attack speed 10 15 20 25/upgrade 20 30 40 50
-
-life 3% 6% 9% 12%/upgrade 6% 12% 18% 24%
-
-armor 1 2 3 4/upgrade 2 4 6 8
-
-movement speed 4 8 12%/upgrade 8% 16% 24%
-
-magic resist 5% 10%/upgrade 10% 20%
-
+attack speed 10 15 20 25
+life 3% 6% 9% 12%
+armor 1 2 3 4
+movement speed 4 8 12
+magic resist 5% 10%
 change the number of damage needed for base damage on primary stats from 0.20 to 0.25 increase of 5 str for 1 damage to 4 str for 1 damage
 
-level 25 talent also make sven attack faster per hit up to 5 max stack of 12 attack speed
-
+level 25 talent upgrade Mighty Warrior
+double all bonus
+also make sven attack faster per hit up to 5 max stack of 12 attack speed
 
 
 SPELL Q level needed 1 4 9 15
 
 Bloodlust
-
 make sven go crazy increasing is attack damage, attack speed and movement speed for a short time
 
-attack speed 10 20 30 40/talent level 10 icrease attack speed by 15
-
+attack speed 10 20 30 40
 flat movement speed 15 30 45 60
-
 damage bonus 15 20 25 30
+duration 3 3.5 4 4.5
+cooldown 18 17 16 15
+mana cost 40 60 80 100
 
-duration 3 3.5 4 4.5/talent level 10 increase the durastion by 1
+talent level 10 upgrade Bloodlust
+increase attack speed by 10
+increase damage by 10
+increase duration by 1.5
+increase mana cost by 30 plus 1% of max mana
 
-level 10 talent also give a new modifier to bloodlust increasing sven damage by 20% of is base damage
-
-coldown 17 16 15 14/talent level 10 reduce coldown by 4
-
-mana cost 40 60 80 100/talent level 10 increase mana cost by 40
+add a new modifier Frenzy
+every hit on the target will increase the damage ir take by 3% up to 15%, went it reach
+the max stack of 5 the next attack of sven will do pure instead of physical damage
 
 
 SPELL W level needed 1 4 9 15
 
 Great Cleave
+hit the enemy with a deadly blow dealing high damage and lifestealing for that amount of damage and also dealing
+bonus damage base on the current life of the enemy NOTE if use on a boss the cooldown is double
 
-Sven attack with a deadly blow dealing heavy damage and restoring life
+damage 10 20 30 40 pysical damage plus 10% 15% 20% 25% of sven strenght
+lifesteal 20% 40% 60% 80%
+current life as bonus damage 3% 5% 7% 9%
+coldown 15
+mana 100 130 160 190 plus 1% of max mana
 
-damage 10 20 30 40 pysical damage plus 10% 12% 14% 16% of sven damage/level 10 talent increase damage by 10 and increase scaling damage by 4%
+talent level 10 upgrade Great Cleave
+increase damage by 10
+increase strenght scaling by 25%
+increase current life damage by 1%
+reduce cooldown by 1
+reduce mana cost by 40
 
-Life regain 2% 3% 4% 5% of sven life/level 10 talent increase the life regain by 3%
-
-level 10 talent add a new modifier making the enemy lose 5% 10% 15% 20% of is base damage, last 7 second
-
-coldown 15 15 15 15
-
-mana 100 130 160 190
+add a new modifier Colossus Sword
+sven will instanly kill enemy who are below 25% of their max life and reduce it cooldown by 7
+doenst work on bosses
 
 
 SPEED E level needed 1 4 9 15
 
 Blood lost
-
 Sven sharp is sword making it have a more clean cut dealing damage per second and lowering armor
 
-damage 4 8 12 16 physical damage per tick/talent level 15 increase the damage by 8 and 10% of sven str
-
-armor loss 1 2 3 4/talent level 15 increase the armor lost by 3
-
+damage 4 8 12 16 physical damage per tick
+armor loss 1 2 3 4
 duration 4 5 6 7 second
-
-talent level 15 add a new modifier making ally lifeleach on melee attack
-
-lifeleach 3% 6% 9% 12% of damage done, work with the bleed damage of sven
-
 PASSIVE D OR F Level needed 3 7 11 15
 
 
