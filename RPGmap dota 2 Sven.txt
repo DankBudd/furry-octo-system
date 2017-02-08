@@ -28,7 +28,7 @@ change the number of damage needed for base damage on primary stats from 0.20 to
 
 level 25 talent upgrade Mighty Warrior
 double all bonus
-also make sven attack faster per hit up to 5 max stack of 12 attack speed
+also make sven attack faster and lifesteal per hit up to 5 max stack of 12 attack speed and 1% lifesteal
 
 
 SPELL Q level needed 1 4 9 15
@@ -81,57 +81,90 @@ doenst work on bosses
 SPEED E level needed 1 4 9 15
 
 Blood lost
-Sven sharp is sword making it have a more clean cut dealing damage per second and lowering armor
+Sven sharp is sword making it have a more clean cut dealing damage per second and lowering armor if the enemy die
+under Blood lost next blood lust will be more powerfull
 
-damage 4 8 12 16 physical damage per tick
-armor loss 1 2 3 4
+damage 3 7 11 15 physical damage per tick plus 5% of sven strenght
+armor loss 2 3 4 5
 duration 4 5 6 7 second
+spellvamp of Blood Lost 10% 25% 40% 55%
+cooldown 21 20 19 18
+mana cost 100 110 120 130 plus 1% of max mana
+EMPOWER BLOOD LUST
+damage 6 11 16 21 physical damage per tick plus 7% of sven strenght
+armor loss 6
+duration 4 5 6 7
+spell vamp of blood lust 70%
+
+talent level 15 upgrade Blood Lost
+increase damage by 2
+EMPOWER BLOOD LUST damage increase 4
+strenght scaling increase by 5%
+EMPOWER BLOOD LUST strenght scaling increase by 7%
+duration increase by 1 NOTE same for the empower version
+cost no mana
+
+add a new modifier Critical Wound
+sven basic attack deal 20% pure damage on target affected by Blood Lost. if the target die
+under Blood lost he will drop a Globe of Life restoring anyone life by 5% bosses will drop a
+Greater Globe of life restoring 25% instead
+
+
 PASSIVE D OR F Level needed 3 7 11 15
 
 
 War Gladiator
+sven got a chance to deal a critical hit and blocking any attack dealt to him, he also got a small chance
+to parry any attack and reflecting it to the attacker and increasing sven damage if he block any attack.
+NOTE spell dont work for block until talent upgrade
 
-give sven a chance to block and crit on hit that also reduce armor
+Critical damage 135% 145% 155% 165%
+Critical chance 12% 13% 14% 15%
+block damage 7 12 18 26
+block chance 25%
+parry chance 10%
+parry reflect damage 10% 14% 18% 22%
 
-Crit Multiplier 130% 150% 170% 190%/level 15 talent increase crit multiplier by 60% total
+talent level 15 upgrade War Gladiator
+increase critical damage by 15%
+increase critical chance by 1%
+increase block damage by 6
+increase block chance by 15%
+increase parry reflect damage by 4%
 
-Crit chance 10% 12% 14% 16%/level 15 talent increase crit chance by 4% total
-
-armor reduce 1 2 3 4/level 15 talent increase armor reduce by 2
-
-block damage 10% 15% 20% 25% of pysical damage recive/level 15 talent increase damage block by 5%
-
-level 15 talent give a new modifier blocking 5% 10% 15% 20% of magic damage
-
-cooldown for block and crit 4 4 4 4
+add a new modifier Magical Shield
+now block and reflect magic damage also sven get 10% damage reduction upon reflecting and blocking spell or attack
+last 2 second
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
 
 God Strenght
 
-increase sven damage and life but reduce speed attack speed for a short duration
+increase sven damage and life but reduce speed attack speed for a short duration and reducing cooldown upon killing enemy
+went God Strenght is active
 
-damage 30 50 70/talent level 25 increase the damage by 30
-
-base damage 20% 40% 60%/talent level 25 increase the base damage bonus by 40%
-
-attack speed reduce 90 120 150/talent level 25 increase the attack speed lost by 60
-
-duration 10 11 12 second/talent level 25 increase duration by 3
-
-talent level 25 also give a new modifier Great Eage, making sven cleave for 40% of his damage
-
+damage 30 50 70
+base damage 30% 40% 50%
+attack speed lost 30 50 70
+duration 12 14 16
 life bonus 300 450 600
+cooldown reduction upon killing 0.60 0.80 1.0
+cooldown 160 150 140
+no mana cost
 
-coldown 160 150 140
+talent level 25 upgrade God Strenght
 
+increase damage by 30
+increase base damage by 50%
+increase attack speed lost by 15
+increase duration by 4
+reduce cooldown by 5
 
-
-
-
-
-
+add a new modifier God Will
+now give the base damage bonus to any ally near sven 900 radius and make sven attack cleave for 50% of the damage
+also went activating God Streght any enemy near sven 300 radius will be stun for 2 second and lose 5 armor for the
+duration
 
 
 
