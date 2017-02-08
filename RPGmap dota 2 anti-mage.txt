@@ -1,4 +1,4 @@
-anti-mage starting stats, 12 agi, 2 str, 7 int, base movement speed 285, base damage 9, Stats Gain per level 1.50 agi, 0.30 str 0.70 int starting item weak blade 4 damage and 5 attack speed
+Magina, starting stats, 12 agi, 2 str, 7 int, base movement speed 285, base damage 9, Stats Gain per level 1.50 agi, 0.30 str 0.70 int starting item weak blade 4 damage and 5 attack speed
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -39,43 +39,52 @@ SPELL Q
 
 Mana Break
 
-anti-mage deal damage base on enemy mana and also removing that amount of mana
+Mana Break
+Magina deal damage base on the enemy mana also deal double damage for enemy without mana
 
-base damage 10 20 30 40 pyshical damage/talent level 10 increase base damage by 10
+base damage 10 20 30 40 physical damage plus 20% of Magina agility
+bonus damage per mana of the enemy 0.1 NOTE to say this clear if a enemy got 100 mana it will deal 10 bonus damage
+mana removal 40% of the damage done
+if the enemy got no mana deal double damage with Mana Break
+cooldown 20 19 18 17
+mana cost 100 150 200 250 plus 2% of max mana
 
-damage per mana 0.1/talent level 10 increase damage per mana by 0.1
+talent level 10 upgrade Mana Break
+increase base damage by 10
+increase agility scaling by 10%
+increase bonus damage per mana 0.1
+change the double damage of enemy without mana to pure damage
+cooldown reduce by 1
+mana cost reduce by 70
 
-enemy with no mana will take double damage of mana break base damage instead
-
-mana remove, 50% of the damage
-
-talent level 10 add a new modifier, Mage Bane if the enemy got more mana than anti-mage, he deal double damage with Mana Break
-
-cooldown 19 17 15 13
-
-mana cost 50 70 90 110 plus 4% of is mana
-
+add a new modifier Mage Bane
+if the enemy got more mana than Magina deal pure damage instead and reduce the cooldown by 10
+OR
+if the enemy doenst have more mana than Magina it become AoE of 300 radius around Magina dealing 50% damage
+to the other target primary get full damage
 
 SPELL W
 
 Blink
 
 deal damage on blinking, on target area and silencing enemy
-
-damage 20 30 40 50 pure damage plus 65% of anti-mage agility/talent level 10 increase damage by 20 and agility scaling by 15%
-
-silence duration 1 1.5 2 2.5/talent level 10 increase silence duration by 0.5
-
+damage 20 30 40 50 pure damage plus 30% of Magina agility
+silence duration 1 1.5 2 2.5
 area of effect 250 275 300 325
-
 range 1000 1100 1200 1300
-
-level 10 talent add a new modifier, burning silence, every 1 second of silence deal 15 magical damage plus 20% of anti-mage agility
-
 mana cost 100 110 120 130 plus 6% of his mana
+cooldown 37 34 31 28
 
-cooldown 37 34 31 28/talent level 10 reduce cooldown by 6
+talent level 10 upgrade Blink
+increase damage by 10
+increase agility scaling by 20%
+increase silence duration by 0.5
+increase area of effect by 75
+reduce cooldown by 2
 
+add a new modifier Burning Silence
+deal 15 magical damage plus 10% of Magina agility per second of silence if the enemy die during
+the silence duration Blink cooldown get reduce by 4
 
 
 SPELL E
