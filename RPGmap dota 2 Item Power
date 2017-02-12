@@ -247,7 +247,7 @@ now deal damage in aoe that damage will only deal 50% of the damage to the other
 and reduce cooldown by 10
 
 strenght 22
-life 200
+life 100
 
 
 Spell Blade cant buy ANTI-MAGE ONLY ORANGE
@@ -255,14 +255,14 @@ increase agility and mana, upgrade andy-mage skill
 
 Passive item use
 Mana Break
-reduce cooldown by 3 and increase the damage of mana break by 50 and cost no mana
+reduce cooldown by 2 and increase the damage of mana break by 40 if the enemy die, it refresh 50% of the mana cost
 
 Passive item use 2
 Blink
 increase silence duration by 1 and the aoe effect by 125
 
-agility 30
-mana 300
+agility 17
+mana 200
 
 
 Void Stone cant buy ENGIMA ONLY ORANGE
@@ -270,14 +270,14 @@ increase spell amp and mana regen, upgrade void curse
 
 Passive item use
 Void Curse
-reduce cooldown by 2 and increase damage by 15 and also increasing duration by 1
+reduce cooldown by 1 and increase damage by 15 and also increasing duration by 1
 
 Passive item use 2
 Gravity Bolt
 now become a 250 aoe target increase base damage by 10 with 300 cast range
 
-10% spell amp
-6 mana regeneration
+11% spell amp
+4 mana regeneration
 
 
 Elemental Dust WHITE
@@ -433,7 +433,7 @@ Active use item
 heal the target for 50 plus 3% of is max health, other in the radius of 300 will be heal for 10 plus 1% of ther max health
 cooldown 15 mana cost 50 plus 3% of user max mana
 
-heal amp 5%
+heal amp 7%
 mana regen 2.2
 mana 100
 
@@ -442,7 +442,7 @@ Anti-Magic Bar GREEN 500 gold
 increase user magic resist and damage can also be use to be magic immune for a short time
 
 Active item use
-become magic immune for 3 second cooldown 30
+become magic immune for 2.5 second cooldown 24
 
 magic resist 12%
 damage 6
