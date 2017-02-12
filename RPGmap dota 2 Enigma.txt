@@ -113,8 +113,8 @@ mana cost reduce by 30
 
 add a new modifier Void Fissure
 every cast of Gravity Bolt will increase enigma intelligence by 4 and is magic resist by 1%
-if he kill a unit with this spell he will gain 1 perma-int up to a max of 15 int. if enigma
-reach 5 stack of Void Fissure next cast of Gravity Bolt will have 1 cooldown reducion and 5 damage increase
+if he kill a unit with this spell he will gain 1 perma-int for 7 normal unit and 2 int for bosses. if enigma
+reach 5 stack of Void Fissure next cast of Gravity Bolt will have 1 cooldown reducion and 10 damage increase
 consuming all stack, this can only happen every 6 second meaning that he cant get anystack for 6 second
 
 
@@ -124,7 +124,7 @@ Galaxy
 
 Reduce cooldown by 6% 8% 10% 12%
 Increase enigma mana by 75 150 225 300
-every 13 12 11 10 second enigma next basic attack will deal 1% 1.5% 2% 2.5% of is max mana as damage
+every 12 11 10 9 second enigma next basic attack will deal 0.4% 0.8% 1.2% 1.6% of is max mana as damage
 increase damage of Gravity well by 9% 11% 13% 15% of enigma intelligence
 make all enemy near enigma lose 3% 5% 7% 9% magic resist, 500 radius
 also increase enigma size by 20% 25% 30% 35%
@@ -132,13 +132,13 @@ also increase enigma size by 20% 25% 30% 35%
 Talent level 15 Upgrade Galaxy
 increase cooldown reduction by 3%
 increase mana by 100
-increase the damage of max mana by 0.5%
-increase the intelligence scaling by 5%
+increase the damage of max mana by 0.4%
+increase the intelligence scaling of Gravity Well by 5%
 also further increase enigma size by 15%
 
 add a new modifier Planet
-all enemy around enigma will suffer 0.4%, 1000 range away of their max health as damage up to 2% 250 radius near
-and enemy who got more life than enigma will take 50% of enigma base damage as pure damage
+all enemy around enigma will suffer 0.4%, 1000 range away of their max health as damage up to 1.1% 300 radius near
+and enemy who got more life than enigma will take 60% of enigma base damage as pure damage
 
 
 ULTIMATE R level needed 8 16 24
@@ -164,7 +164,7 @@ NOTE use the immortal black hole
 talent level 25 upgrade Black Star
 increase damage by 50
 increase the int scaling by 25%
-void curse bonus damage increase by 5%
+void curse bonus damage increase by 10%
 mana cost reduce by 100
 cooldown reduce by 15
 black hole radius increase by 100
@@ -172,7 +172,7 @@ black hole pull speed increase by 30
 
 add a new modifier Void Nightmare
 aplie Void Curse to all enemy hit by Black Star and enigma lifesteal for 100% of the damage done
-by void curse as well, enigma take reduce damage by 25% for 4 second went Black star is cast
+by void curse as well, enigma take 25% reduce damage for 4 second went Black star is cast
 
 
 
