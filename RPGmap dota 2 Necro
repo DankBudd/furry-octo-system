@@ -123,30 +123,58 @@ SPELL E
 Death Coil
 heal ally skeleton or damage enemy, also reduce the enemy regen and increase skeleton damage and attack speed
 
-damage 10 20 30 40 magical plus 25% of int
-heal 25 40 55 70 can only affect skeleton of necro
+damage 10 20 30 40 magical plus 20% of int
+heal 15 25 35 45 can only affect skeleton of necro
 bonus heal 2% 4% 6% 8% of max health
-enemy regen reduction -1 -1.5 -2 -2.5 last 10 second
+enemy regen reduction -1 -1.5 -2 -2.5 last 8 second
 skeleton increase damage 2 3 4 5 last 4 second
-skeleton attack speed increase 7 14 21 28 last 4 second
+skeleton attack speed increase 3 5 7 9 last 4 second
 mana cost 150 plus 2% 3% 4% 5% of max mana
-cooldown 12
+cooldown 14
 
 
 talent level 15 upgrade Death Coil
-increase the damage by 10
-increase int scaling by 15%
-increase heal by 10
-increase bonus heal by 3%
+reduce the damage of Death Coil by 20
+increase int scaling by 10%
+increase heal by 15
+increase bonus heal by 4%
 increase enemy regen reduction by -1.5
-skeleton damage increase by 3
-skeleton attack speed increase by 12
-cooldown reduction 1
+skeleton damage increase by 1
+skeleton attack speed increase by 6
+cooldown reduction 2
 
 add a new modifier Bouncing Coil
-now the death coil will bounce 7 time each bounce will deal 11% less damage and heal per bounce
-can now affect Necro as well
+now the death coil will bounce 7 time each bounce will deal 10% less damage and heal per bounce
+can now affect Necro as well and double the healing on him, can only affect him once
 
+
+PASSIVE D OR F
+Necro Mastery
+increase all skeleton life, damage, regen, armor, magic resist, attackspeed and movement speed
+
+Skeleton damage increase by 15% 20% 25% 30%
+Skeleton life increase by 2% 5% 8% 11%
+Skeleton regeneration increase by 1 2 3 4
+Skeleton armor increase by 0.5 1 1.5 2
+Skeleton magic resist 4% 6% 8% 10%
+Skeleton attack speed 6 12 18 24
+SKeleton movement speed 10% 12% 14% 16%
+radius 1100
+
+talent level 15 upgrade Necro Mastery
+
+Skeleton damage increase by 10%
+Skeleton life increase by 4%
+Skeleton regeneration increase by 1.5
+Skeleton armor increase by 1
+Skeleton magic resist 5%
+Skeleton attack speed 8
+Skeleton movement speed 9%
+
+add a new modifier Undead Master
+any skeleton that die will come back to life after 2 second with 40% of thier max life
+cooldown of 60 second and if they die again they will release a lesser version of Death Coil
+that deal only 30% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
 
 
 
