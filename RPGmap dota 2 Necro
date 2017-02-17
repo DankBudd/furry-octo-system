@@ -40,7 +40,7 @@ Summon a SKeleton Warrior to fight for you
 
 Skeleton life 35 40 45 50 plus 30% of int
 Skeleton damage 3-4 4-5 5-6 6-7 plus 5% of int
-Skeleton armor 1, every 65 int it will give the skeleton 1 armor
+Skeleton armor 1, every 45 int it will give the skeleton 1 armor
 Skeleton magic resist 5% plus 10% of int
 Skeleton base attack time 2.3 2.2 2.1 2.0
 Max skeleton 3 5 7 9
@@ -72,7 +72,7 @@ great damage to the enemy
 
 Skeleton Archer life 15 20 25 30 plus 15% of int
 Skeleton Archer damage 5-8 6-9 7-10 8-11 plus 5% of int
-Skeleton Archer armor 0, every 85 int will give the skeleton archer 1 armor
+Skeleton Archer armor 0, every 65 int will give the skeleton archer 1 armor
 Skeleton Archer magic resist 0% plus 10% of int
 Skeleton Archer base attack time 2.1 2.0 1.9 1.8
 Max skeleton archer 1 2 3 4
@@ -97,7 +97,7 @@ deal 4 5 6 7 magical damage per attack plus 30% of the archer damage as well and
 
 talent level 10 upgrade Skeleton archer
 
-Skeleton archer life increase by 5 with scaling int by 5%
+Skeleton archer life increase by 10
 Skeleton archer damage increase by 10% of int scale
 Skeleton archer armor increase by 1
 Skeleton archer magic resist increase by 5%
@@ -135,7 +135,7 @@ cooldown 14
 
 talent level 15 upgrade Death Coil
 reduce the damage of Death Coil by 20
-increase int scaling by 10%
+increase int scaling by 15%
 increase heal by 15
 increase bonus heal by 4%
 increase enemy regen reduction by -1.5
@@ -174,7 +174,7 @@ Skeleton movement speed 9%
 add a new modifier Undead Master
 any skeleton that die will come back to life after 2 second with 40% of thier max life
 cooldown of 60 second and if they die again they will release a lesser version of Death Coil
-that deal only 30% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
+that deal only 50% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
 
 
 
