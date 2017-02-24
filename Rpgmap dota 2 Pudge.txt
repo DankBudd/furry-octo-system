@@ -1,4 +1,4 @@
-Pudge, Meaty Man Starting stats 14 str, 3 agi, 3 int, base speed 260, base damage 7, stats gain per level 1.60 str, 0.20 int, 0.30 agi, Starting item Flesh Hand give 2% life with 1 armor base attack time 2.10
+Pudge, the Butcher Starting stats 12 str, 3 agi, 3 int, base speed 260, base damage 5, stats gain per level 1.60 str, 0.40 int, 0.40 agi, Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,166 +8,168 @@ LEVEL 20 TALENT
 
 talent 1
 
-7% life with 3 armor and 4 life regen
+6% life with 3 armor and 6 life regen
 
 talent 2
 
-15 damage with 30 attack speed and 12% spell amp
+10 damage with 20 attack speed and 15% spell amp
 
 
 PASSIVE D OR F
 
 Wierd Meat
  
-Increase overall stats/talent level 25 double all the bonus
+Increase overall stats
 
-life 2% 4% 6% 8%/upgrade 4% 8% 12% 16%
+life 2% 4% 6% 8%
+life regen 1.5 2.5 3.5 4.5
+magic resist 3% 6% 9% 12%
+damage reduction 2% 4% 6%
+spell amp 4% 8%/upgrade 8% 16%
+increase life bonus from strenght by 2
 
-life regen 1 2 3 4/upgrade 2 4 6 8
 
-magic resist 3% 6% 9% 12%/upgrade 6% 12% 18% 24%
+Talent level 25 Upgrade Wierd Meat
+double all stats bonus
+increase life bonus from strenght by 1
 
-damage reduction 2% 4% 6%/upgrade 4% 8% 12%
-
-spell amp 5% 10%/upgrade 10% 20%
-
-increase life bonus from strenght by 3
-
-level 25 talent make pudge basic attack deal 5% damage base on is life but lose 65 attack speed
-
+add a new modifier Meat Eater
+Butcher basic attack now deal 3% of the target current life in damage, this effect get a cooldown of 7 second
+if attacking a boss
 
 
 SPELL Q Glory Hook
-
 hook multiple enemy and dealing damage with reducing the armor of enemy hook 
 
-damage 15 25 35 45 pyshical damage and 30% of pudge strenght/talent level 10 increase damage by 15 and 30% of pudge strenght
+damage 15 25 35 45 pyshical damage and 30% of pudge strenght
+Range 800
+increase range by 1 per strenght point
+max hook target 2 3 4 5
+armor reduction 3 5 7 9
+life cost 5% 7% 9% 11%
+mana cost 100 120 140 160 plus 1% of max mana
+cooldown 17 15 13 11
 
-Range 1000 1000 1000 1000
+talent level 10 Upgrade Glory Hook
+increase damage by 5 and strenght scaling by 20%
+increase range by 100
+remove the limit of max targeted hook
+increase the armor reduction by 2
+reduce life cost by 4%
+reduce mana cost by 40
 
-Area of effect 300 350 400 450/talent level 10 increase the area of effect by 150
-
-Multihook 3 5 7 9/talent level 10 remove the limit
-
-base armor reduce 10% 16% 22% 26%
-
-talent level 10 give a new modifier blood lost, all enemy hook will get a bleeding stack that last 20 second dealing 30 pure damage per 5 second this effect also reset on hooking again, increase damage by 15 every time it reset, only 1 stack can be aplie to bosses
-
-life cost 5% 7% 9% 11%/talent level 10 reduce life cost by 2%
-
-mana cost 70 80 90 100/talent level 10 reduce mana cost by 30
-
-cooldown 16 14 12 10
+add a new modifier Titan Killer
+deal 3% of the target max life in damage Butcher also heal for 30% of the damage done by Glory Hook
+if the target die under Glory Hook it reduce the cooldown by 2, boss refresh the cooldown
 
 
+SPELL Q Rotting Flesh
+rot enemy dealing damage to them and reducing magic resist and movement speed also affect Butcher
 
-SPEED Q Rotting Flesh
-
-rot enemy dealing damage to them  and also giving them bad rot debuff and reducing magic resist and movement speed, double on pudge
-
-damage 15 magical damage per second and 1% of pudge max life/talent level 10 pudge take normal damage instead of double
-
-movement speed reduction 10% 15% 20% 25%/talent level 10 no longer affect pudge
-
-magic resist reduction 4% 8% 12% 16%/talent level 10 increase the magic resist by 6% and no longer affect pudge
-
-Bad Rot debuff enemy will take 10% 15% 20% 25% increase damage on next Glory Hook last 10 second dont work on bosses
-
-mana cost per second 10 15 20 25
-
+damage 8 11 14 17 magical damage per second and 15% of pudge strenght
+movement speed reduction 10% 15% 20% 25%
+magic resist reduction 4% 8% 12% 16%
+mana cost per second 5 10 15 20
+radius 250
 no cooldown
 
-level 10 talent add a new modifer making enemy attack pudge instead
+Talent level 10 Upgrade Rotting Flesh
+increase damage by 5 and strenght scaling by 10%
+movement speed reduction increase by 10%
+increase radius by 50
+magic resist reduction increase by 10%
+remove mana cost
+Rotting Flesh will no longer affect pudge
+
+add a new modifier Bad Rot
+now applie a stack of bad rot making enemy take 0.5% more damage from Glory hook up to a max of 30 stack
+if the enemy reach 30 stack pudge will auto-send a hook to that enemy dealing 15% more damage with glory hook
+and if the enemy die durring the hook he will release a Rotting Flesh at its location death, this rot will deal full damage
+base on butcher Rotting Flesh
 
 
+SPELL E Freah Meat!
+Pudge empower this next attack dealing damage and healing him and also disarming the enemy on hit and taking increase damage from
+Rotting Flesh
 
-SPEED E Freah Meat!
-
-Pudge empower this next attack dealing damage and healing him and also disarming the enemy on hit and taking increase damage
-
-damage 5% 6% 7% 8% of pudge max life/talent level 15 increase damage by 4%
-
-lifesteal 5% 10% 15% 20%/talent level 15 increase lifesteal by 10%
-
-disarm duration 1 1.2 1.4 1.6/talent level 15 increase disarm duration by 0.4
-
-increase damage taken 20% 25% 30% 35%/talent level 15 reduce the increase damage taken by 15%
-
-talent level 15 add a new modifer cleaving for 100% of the damage done with Freah Meat!
-
+bonus damage 4% 6% 8% 10% of pudge max life 
+lifesteal 10% 20% 30% 40%
+disarm duration 1 1.2 1.4 1.6
+increase damage taken from rotting flesh by 10% 15% 20% 25%
 Number of attack 1
+mana cost 90 120 150 180 plus 2% of max mana
+cooldown 16 16 16 16
 
-mana cost 90 120 150 180
+Talent level 15 Upgrade Fresh Meat!
+increase damage by 5%
+increase lifesteal by 30%
+increase disarm duration by 0.8
+increase damage taken by 15%
+mana cost reduce by 70
+coldown reduce by 2
 
-cooldown 15 15 15 15/talet level 15 reduce cooldown by 3
+add a new modifier Pure Meat
+killing a enemy with dismenber will restore Butcher max life by 3% and reducing Feash Meat! cooldown
+by 2 and also making Fresh Meat! cleave for 100% of the damage
+
+PASSIVE F OR D Flesh Heap
 
 
-PASSIVE F OR D
+Increase Butcher Strenght and magic resist he also get perma life per creep or boss kill
+he also get 1 stack per enemy kill near Burcher increase is attack speed and life regeneration
 
-Flesh Heap
+bonus strenght 6 8 10 12
+magic resist 3% 6% 9% 12%
+life bonus per 8 7 6 5 creep kill 1
+life bonus per bosses 10 20 30 40
+attackspeed per stack 3
+life regen per stack 1
+max stack 4 7 10 13
+duration 20 25 30 35
+radius for bonus 300
 
-Increase pudge strenght and magic resist and give pudge bonus stats went killing enemy creep or bosses
+Talent level 15 Upgrade Flesh Heap
+increase bonus strenght by 4
+increase bonus magic resist by 6%
+life bonus per creep reduce to 4
+increase life bonus for boss by 20
+increase max stack by 7
+incease life regen by 0.2
+increase duration by 5
 
-bonus strenght 6 8 10 12/talent level 15 inctease strenght gain by 8
-
-magic resist 3% 6% 9% 12%/talent level 15 increase magic resist by 6%
-
-strenght per stack 0.2 0.4 0.6 0.8/ talent level 15 increase stack by 0.7
-
-stack duration 60 second/talent level 15 increase the duration by 60
-
-life regen per stack 0.1
-
-max stack 15 20 25 30/talent level 15 increase max stack by 10
-
-stack per bosses 4 6 8 10/talent level 15 increase stack per bosses by 10
-
-stack per non-boss enemy 1
-
-talent level 15 add a new modifier Mad Meat, pudge gain 1 glory hook damage per stack of flesh heap
+add a new modifier Global Flesh
+remove how far needed to gain life and stack -GLOBAL- and Butcher gain stack for every enemy
+in a radius of 1200 of him if they die ally will gain stack as well
 
 
 UILTMATE R 
 
 Dismenber
+deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing anyone walking on it and buffing them
 
-deal damage to a enemy base on pudge strenght and healing pudge and nearby ally also making enemy run in fear went near pudge dismenbering a enemy, doesnt stun
-
-damage 60% 80% 100% of pudge str/talent level 25 increase the damage by 50%
-
-healing done by damage, pudge heal 15% 25% 35%/talent level 25 increase the heal by 20%
-
-healing done by damage, ally heal 5% 10% 15%
-
-radius for heal 400
-
-radius for fear 300
-
-duration 4 5 6/talent level 25 increase duration by 1
-
-damage per second 1
-
-mana cost 100 plus 10% of pudge max mana
-
+damage 20 30 40 plus 60% 70% 80% of pudge strenght per second -damage type PURE-
+meat drop 1-2 1-3 1-4 per second of damage
+meat healing 30 50 70 plus 2% 3% 4% of max health
+meat bonus damage 7 10 13
+meat buff duration 4 second -NOTE- every pickup of meat increase the duration by 2
+duration 4 5 6
+duration on bosses 2 3 4
+meat last 8 second on the ground
+mana cost 100 plus 5% of pudge max mana
 cooldown 90 80 70
 
-level 25 talent add a new modifer if the unit die withing dismenber pudge next dismenber will be more powerfull
+talent level 25 upgrade Dismenber
+increase damage by 10
+increase strenght scaling by 20%
+increase meat drop to 2-3 2-4 2-5
+increase meat healing by 70
+increase meat bonus damage by 2
+increase duration by 1 -NOTE- this increase duration for both
+reduce coldown by 10
 
-next dismenber damage 60%
-
-next dismenber heal 25%
-
-next dismenber heal ally 10%
-
-next dismenber duration increase 2
-
-next dismenber fear radius 300
-
-cooldown for next dismenber buff 200
-
-
-
-
+add a new modifier CLEAN CLEAVER!
+if butcher kill a enemy with dismeber the next one will deal DOUBLE DAMAGE
+and increase the meat drop to 6 per second of damage
 
 
 
