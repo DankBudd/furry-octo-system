@@ -30,7 +30,7 @@ Any summon near Necro will regen 0.40% of ther max life per second
 
 talent level 25, upgrade Corrupted Flesh
 Double all bonus and giving a new modifier
-increase the life regen by 0.30%
+increase the life regen by 0.40%
 Dead walk among us, for every summon that die necro will heal for 1.5% of is health
 
 
@@ -175,6 +175,46 @@ add a new modifier Undead Master
 any skeleton that die will come back to life after 2 second with 40% of thier max life
 cooldown of 60 second and if they die again they will release a lesser version of Death Coil
 that deal only 50% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
+
+
+ULTIMATE R
+Death Touch
+empower skeleton or deal high damage to a enemy, summon will get increase in all there stats for enemy they will suffer
+great damage over time debuffing them for a short duration
+
+IF CAST ON ENEMY
+damage per second 35 70 105 plus 70% of int -damage type magical-
+enemy magic resist lost 10% 18% 26%
+enemy attack speed lost 25 35 45
+enemy damage lost 20% 35% 50%
+duration 6
+
+IF CAST ON SKELETON
+bonus damage 15 25 35
+bonus attack speed 25 45 65
+bonus armor 3 6 9
+bonus magic resist 20% 40% 60%
+last 13 second
+
+mana cost 150 plus 30% of max mana
+cooldown 75
+
+talent level 25 upgrade Death Touch
+increase damage by 10
+increase int scaling by 30%
+increase magic resist lost by 10%
+increase bonus damage by 15
+increase attack speed bonus 10
+increase armor bonus by 2
+
+add a new modifier Bless by the Death God
+can be cast on ally as well and other summon if cast on enemy all enemy around that target
+800 radius afftected by Death Touch will get damage by 50% of the spell OR if cast on skeleton
+all ally or summon 800 radius around that skeleton affect by it will get 25% of the bonus
+
+
+
+
 
 
 
