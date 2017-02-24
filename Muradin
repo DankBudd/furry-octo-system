@@ -1,0 +1,46 @@
+Muradin,Mountain King Starting stats 2 Int, 0 Agi, 6 Str, base speed 280, base damage 9, Stats Gain per level 1.00 int, 1.60 str, 0.60 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+
+Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
+
+max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+
+
+LEVEL 20 TALENT
+
+talent 1
+250 life 3.5 life regen and 12% magic resist
+
+talent 2
+15 damage 7% spellamp and 12 attack speed
+
+
+SPELL Q
+Storm Bolt
+deal massive damage to a target stunning them and reducing magic resist and armor also pushing the target back
+
+damage 5 20 35 50 plus 40% of strenght -damage type MAGICAL-
+cast range 700
+push force 600
+magic resist lost 4% 6% 8% 10%
+armor lost 1 2 3 4
+stun duration 2 3 4 5 last half on bosses
+
+talent level 10 upgrade Storm Bolt
+increase damage by 20
+increase strenght scaling by 20%
+increase cast range by 300
+increase push force by 100
+increase the magic resist lost by 5%
+stun duration last full on bosses as well
+
+add a new modifier Violent Bolt
+after hiting the target it will send other storm bolt to near enemy in a radius of 350
+of the explosion of the first one and dealing full damage to the other target as well
+if there is no one around storm bolt damage change to pure and deal 3% of the target max life
+as damage
+
+
+
+
+
+
