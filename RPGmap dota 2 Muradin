@@ -1,4 +1,4 @@
-Muradin,Mountain King Starting stats 2 Int, 0 Agi, 6 Str, base speed 280, base damage 9, Stats Gain per level 1.00 int, 1.60 str, 0.60 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+Muradin,Mountain King Nuker-Semi-DSP Starting stats 1 Int, 5 Agi, 6 Str, base speed 280, base damage 9, Stats Gain per level 1.00 int, 1.60 str, 0.00 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -11,23 +11,45 @@ talent 1
 250 life 3.5 life regen and 12% magic resist
 
 talent 2
-15 damage 7% spellamp and 12 attack speed
+15 damage 6% spellamp and 12 attack speed
+
+
+PASSIVE D OR F
+Dwarft Might
+increase overall stats
+
+life bonus 2% 4% 6% 8%
+life regen 1 1.5 2 2.5
+spell amp 4% 5% 6% 7%
+Strenght 6 7 8 9
+attack speed 8 16
+Muradin will get 1 armor for every 45 str he got
+
+Talent level 25 Upgrade Dwarft Might
+double all stats
+reduce how much strenght Muradin need for armor by 5
+
+add a new modifier Thunder Hammer
+every basic attack, Muradin Release a Chain Lightning dealing 10 physical damage plus 5% of strenght
+that jump up to 5 target
 
 
 SPELL Q
 Storm Bolt
-deal massive damage to a target stunning them and reducing magic resist and armor also pushing the target back
+deal Heavy damage to a target stunning them and reducing magic resist and armor also pushing the target back
 
 damage 5 20 35 50 plus 40% of strenght -damage type MAGICAL-
 cast range 700
 push force 600
-magic resist lost 4% 6% 8% 10%
+magic resist lost 7% 9% 11% 13%
 armor lost 1 2 3 4
 stun duration 2 3 4 5 last half on bosses
+cooldown 8 10 12 14
+mana cost 75 plus 2% 3% 4% 5% of max mana
 
 talent level 10 upgrade Storm Bolt
 increase damage by 20
-increase strenght scaling by 20%
+increase strenght scaling by 12%
 increase cast range by 300
 increase push force by 100
 increase the magic resist lost by 5%
@@ -40,7 +62,58 @@ if there is no one around storm bolt damage change to pure and deal 3% of the ta
 as damage
 
 
+SPELL W
+Thunder Clap
+Muradin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
+by this spell the more damage it deal
 
+damage 11 14 17 20 plus 10% of strenght -damage type PURE-
+radius 320 340 360 380
+attack spell lost 15 20 25 30
+movement speed lost 10% 16% 22% 28%
+bonus damage per enemy 1 2 3 4
+debuff duration 3 4 5 6
+cooldown 9
+mana cost 70 110 140 170 plus 1% of max mana
+
+talent level 10 Upgrade Thunder Clap
+increase damage by 10
+increase strenght scaling by 10%
+increase radius by 60
+increase bonus damage per enemy at all level to 5 -NOTE- the way i mean that, it get 5 damage for level 1 2 3 and 4
+
+add a new mofidier Hammer of Thunder
+went Muradin do Thunder Clap for every enemy hit he will get 3 bonus damage for 5 second
+and Thunder Clap deal 2% of the current life of the enemy as bonus damage he also heal for 1% of is
+max life per enemy hit
+
+
+SPELL E
+Thunder Punch
+Muradin Punch out any enemy dealing Massive damage and knocking them back and any unit that get in the way
+of that enemy knock away will get stun and get damage as well
+
+damage 20 40 60 80 plus 60% of strenght -damage type PURE-
+enemy max health as damage 1% 2% 3% 4%
+knock distence 600 800 1000 1200 boss will be knock for 500 distence
+stun duration 1 second
+cooldown 40 39 38 37
+mana cost 125 150 175 200 plus 6% of max mana
+
+talent level 15 upgrade Thunder Punch
+increase damage by 10
+increase strenght scaling by 20%
+increase enemy max health as damage by 2%
+increase stun duration by 0.5 second
+
+add a new modifier Lightning Explosion
+went Muradin punch the target, that target will release a lightning Bolt for every enemy that get hit by
+Thunder Punch dealing 35 damage pure those enemy lose 35% damage and making that unit blind for 7 second
+getting 20% chance to miss
+
+
+PASSIVE D OR F
+Mountain Bash
 
 
 
