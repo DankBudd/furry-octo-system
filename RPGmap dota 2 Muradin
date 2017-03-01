@@ -1,4 +1,4 @@
-Muradin,Mountain King Nuker-Semi-DSP Starting stats 1 Int, 5 Agi, 6 Str, base speed 280, base damage 9, Stats Gain per level 1.00 int, 1.60 str, 0.00 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+Muradin,Mountain King Nuker-Semi-DSP Starting stats 1 Int, 5 Agi, 6 Str, base speed 280, base damage 5, Stats Gain per level 1.00 int, 1.60 str, 0.00 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -22,7 +22,7 @@ life bonus 2% 4% 6% 8%
 life regen 1 1.5 2 2.5
 spell amp 4% 5% 6% 7%
 Strenght 6 7 8 9
-attack speed 8 16
+magic resist 5% 10%
 Muradin will get 1 armor for every 45 str he got
 
 Talent level 25 Upgrade Dwarft Might
@@ -67,9 +67,9 @@ Thunder Clap
 Muradin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
 by this spell the more damage it deal
 
-damage 11 14 17 20 plus 10% of strenght -damage type PURE-
+damage 12 15 18 21 plus 20% of strenght -damage type PURE-
 radius 320 340 360 380
-attack spell lost 15 20 25 30
+attack speed lost 15 20 25 30
 movement speed lost 10% 16% 22% 28%
 bonus damage per enemy 1 2 3 4
 debuff duration 3 4 5 6
@@ -89,31 +89,71 @@ max life per enemy hit
 
 
 SPELL E
-Thunder Punch
-Muradin Punch out any enemy dealing Massive damage and knocking them back and any unit that get in the way
-of that enemy knock away will get stun and get damage as well
+Strenght of the Mountain
+Muradin next attack will deal bonus damage and increase attack speed as well, The last hit will deal increase damage and do cleave
+attack
 
-damage 20 40 60 80 plus 60% of strenght -damage type PURE-
-enemy max health as damage 1% 2% 3% 4%
-knock distence 600 800 1000 1200 boss will be knock for 500 distence
-stun duration 1 second
-cooldown 40 39 38 37
-mana cost 125 150 175 200 plus 6% of max mana
+damage bonus 12 14 16 18
+attack speed bonus 45
+number of attack 2 3 4 5
+last hit damage increase 20 28 34 42
+last hit cleave damage 40% 70% 100% 130%
+radius of cleave 280
+no mana cost
+cooldown 70 65 60 55
 
-talent level 15 upgrade Thunder Punch
-increase damage by 10
-increase strenght scaling by 20%
-increase enemy max health as damage by 2%
-increase stun duration by 0.5 second
+talent level 15 upgrade Strenght of the Mountain
+increase damage by 4
+increase attack speed by 15
+increase last hit damage by 10
+increase cleave radius by 50
 
-add a new modifier Lightning Explosion
-went Muradin punch the target, that target will release a lightning Bolt for every enemy that get hit by
-Thunder Punch dealing 35 damage pure those enemy lose 35% damage and making that unit blind for 7 second
-getting 20% chance to miss
+add a new modifier Mountain of Fire
+went landing the last hit, Muradin will Create a Mountain that deal 30 pure damage per second in a 420 radius around it
+the mountain last 6 second, any enemy that die during Strenght of the Mountain will reduce the cooldown Strenght of the Mountain
+by 3
 
 
 PASSIVE D OR F
-Mountain Bash
+Dwarft Mastery
+increase Muradin damage and attack speed also give a chance to bash the target dealing damage and stunning them
+
+bonus damage 3 5 7 9
+bonus attack speed 5 8 11 14
+bash chance 15% 16% 17% 18%
+bash damage 15 -damage type PHYSICAL-
+Strenght scaling 20% 35% 50% 65%
+armor scaling 25%
+bash duration 0.3 0.4 0.5 0.6 last half on bosses
+
+talent level 15 upgrade Dwarft Mastery
+increase bonus attack speed by 6
+increase bash damage by 5
+increase strenght scaling by 25%
+
+add a new modifier Mountain Hammer
+every time Muradin bash the next bash get 5 increase damage, the buff last 6 second after 4 stack of Mountain Hammer
+the next bash will do pure damage and increase muradin attack speed by 50 for 5 second, this effect got 14 second cooldown
 
 
+ULTIMATE R
+Avatar
+increase Muradin armor,damage,life and give spell immunity for the duration and increase the bash chance of Dwarft Mastery
 
+bonus damage 20 30 40
+bonus armor 4 8 12
+life bonus 350 500 650
+bash chance increase by 2% 4% 6%
+duration 40 50 60
+no mana cost
+cooldown 240 235 230
+
+talent level 25 upgrade Avatar
+increase bonus damage by 15
+increase bonus armor by 2
+increase bonus life by 100
+reduce the duration by 20 second
+
+add a new modifier Titan Might
+Upon casting Avatar deal 150 pure damage around Muradin 300 radius and stuning for 1 second also
+change muradin attack to PURE DAMAGE for the duration
