@@ -180,3 +180,25 @@ Passive
 Leader Aura CREEP
 increase ally damage by 10% with 15% lifesteal
 
+Lesser Fire Elemental Level 3
+damage 12-15 Pierce
+range 280
+life 120
+mana 400
+armor 0
+magic resist 5%
+
+Spell 1
+Firebolt
+deal 25 magical damage and stuning for 2.5 second cooldown 8, mana cost 100
+
+Lesser Earth Elemental Level 3
+damage 9-19 Basic
+range melee
+life 150
+mana 400
+armor 2
+magic resist 7%
+
+Passive 1
+Upon getting hit the lesser earth elemental got 25% chance to throw a rock dealing 20 pure damage to the attacker
