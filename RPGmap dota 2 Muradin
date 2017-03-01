@@ -110,14 +110,16 @@ increase cleave radius by 50
 
 add a new modifier Mountain of Fire
 went landing the last hit, Muradin will Create a Mountain that deal 30 pure damage per second in a 420 radius around it
-the mountain last 6 second, any enemy that die during Strenght of the Mountain will reduce the cooldown Strenght of the Mountain
+the mountain last 3 second, any enemy that die during Strenght of the Mountain will reduce the cooldown Strenght of the Mountain
 by 3
 
 
 PASSIVE D OR F
 Dwarft Mastery
-increase Muradin damage and attack speed also give a chance to bash the target dealing damage and stunning them
+increase Muradin damage and attack speed also give a chance to bash the target dealing damage and stunning them also make enemy
+take damage per second if they get hit by Storm Bolt or Thunder Clap
 
+damage per second by Storm Bolt and Thunder Clap 2 plus 4% 6% 8% 10% of strenght -damage type PURE- last 3 second
 bonus damage 3 5 7 9
 bonus attack speed 5 8 11 14
 bash chance 15% 16% 17% 18%
