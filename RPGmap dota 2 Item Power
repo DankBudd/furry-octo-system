@@ -407,10 +407,6 @@ cooldown 18 manacost 80
 Passive item use
 cleave for 25% of the damage dealt
 
-strenght 15
-attack speed 18
-damage 18
-
 
 Monster Dust consumable WHITE
 increase user stats and restore life and mana
@@ -446,6 +442,21 @@ become magic immune for 2.5 second cooldown 24
 
 magic resist 12%
 damage 6
+
+
+Pure Seed ORANGE cant buy
+upgrade Furion skill, increase heal amp and intelligence
+
+Passive item use 1
+Nature Wrath
+increase heal by 20 and damage by 12 and reduce the cooldown by 2
+
+Passive item use 2
+Pure Nature
+increase heal by 5, duration by 2 and radius by 300
+
+Heal amp 13%
+intelligence 15
 
 
 
