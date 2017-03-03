@@ -50,7 +50,7 @@ increase duration by 1.5
 increase mana cost by 30 plus 1% of max mana
 
 add a new modifier Frenzy
-every hit on the target will increase the damage ir take by 3% up to 15%, went it reach
+every hit on the target will increase the damage it take by 3% up to 15%, went it reach
 the max stack of 5 the next attack of sven will do pure instead of physical damage for the duration of BloodLust
 
 
@@ -88,29 +88,29 @@ damage 3 7 11 15 physical damage per tick plus 5% of sven strenght
 armor loss 2 3 4 5
 duration 4 5 6 7 second
 spellvamp of Blood Lost 10% 15% 20% 25%
-cooldown 22 21 20 19
+cooldown 25 24 23 22
 mana cost 100 110 120 130 plus 1% of max mana
 EMPOWER BLOOD LOST
-damage 4 9 13 18 physical damage per tick plus 7% of sven strenght
+damage 7 12 17 22 physical damage per tick plus 13% of sven strenght
 armor loss 6
-duration 4 5 6 7
+duration 6 7 8 9
 spell vamp of blood lost 40%
 NOTE if the target die durring empower bloodlust it doenst re-trigger it, meaning that the normal bloodlost will be the next
-to keep balence toward this spell
+to keep balence toward this spell, cooldown 40 for the next BloodLost Empower
 
 
 talent level 15 upgrade Blood Lost
 increase damage by 2
 EMPOWER BLOOD LOST damage increase 4
 strenght scaling increase by 5%
-EMPOWER BLOOD LOST strenght scaling increase by 13%
+EMPOWER BLOOD LOST strenght scaling increase by 12%
 duration increase by 1 NOTE same for the empower version
 cost no mana
 
 add a new modifier Critical Wound
 sven basic attack deal 20% pure damage on target affected by Blood Lost. if the target die
 under Blood lost he will drop a Globe of Life restoring anyone life by 5% bosses will drop a
-Greater Globe of life restoring 25% instead
+Greater Globe of life restoring 35% instead
 
 
 PASSIVE D OR F Level needed 3 7 11 15
