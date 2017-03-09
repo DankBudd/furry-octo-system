@@ -31,7 +31,7 @@ talent level 25 upgrade Anti-Magic
 double all stats bonus and increase the agility point for mana by 2
 
 add a new modfier Fool Mana
-Magina gain perma 2 perma mana per kill 
+Magina gain 2 perma mana per kill 
 
 
 SPELL Q
