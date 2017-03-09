@@ -195,7 +195,7 @@ talent level 25 upgrade Gift of Verodicia
 increase life of Ancient of War by 100 and int scaling by 30%
 increase mana of Ancient of War by 200 and int scaling by 50%
 increase damage of Ancient of War by 5
-reduce base attack time by 1.00
+reduce base attack time by 0.20
 increase armor by 3
 increase magic resist by 10%
 increase SPELL 2 instances by 1
