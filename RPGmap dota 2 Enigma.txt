@@ -144,8 +144,8 @@ and enemy who got more life than enigma will take 60% of enigma base damage as p
 ULTIMATE R level needed 8 16 24
 
 black star
-summon a star infested with void and gravity stuning and damaging all enemy, A blackhole will appear dealing damage per second and doing even more damage the closer you get into the center of the blackhole
-
+summon a star infested with void and gravity stuning and damaging all enemy, A blackhole will appear dealing damage per second and doing 
+even more damage the closer you get into the center of the blackhole
 
 Damage 60 80 100 Pure damage with 25% 50% 75% of enigma int
 Stun duration 1 second
