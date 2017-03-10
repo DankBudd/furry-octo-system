@@ -1,4 +1,4 @@
-Riki -- High-DPS, starting stats 2 int, 5 agi, 2 str, base speed 280, base damage 10, Stats Gain per level 0.30 int, 0.20 str, 0.40 agi, starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.30
+Riki -- High-DPS, starting stats 2 int, 5 agi, 2 str, base speed 280, base damage 8, Stats Gain per level 0.30 int, 0.20 str, 0.40 agi, starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.30
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,9 +8,36 @@ LEVEL 20 TALENT
 
 talent 1
 
-give 16% magic resist 5 armor and 45 movement speed
+5 armor 80 movement and 200 life
 
 talent 2
 
-give 14 int 4.5 mana regen and 10% Spell amp
+15 damage 10 attackspeed and 100 cast range
+
+
+
+PASSIVE F OR D Assasin Master
+increase overall stats
+
+damage 3 5 7 9
+attackspeed 4 8 12 16
+allstats 2 3 4 5
+magic resist 3% 5% 7%
+spellvamp 4% 8%
+every item riki got, it will increase is agility by 2 and life by 10
+
+talent level 25 upgrade Assasin Master
+double all stats
+increase the agility gain by 1 of item and life by 10
+
+add a new modifier Deadly
+if riki attack the same target 4 time in a row the next attack get 100% increase damage
+and deal pure damage cooldown 3
+
+
+SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on this total basic attack damage
+deal damage and reducing the enemy damage and attack speed for a short duration
+
+Attack damage 120% 140% 160% 180%
+
 
