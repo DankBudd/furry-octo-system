@@ -1,0 +1,39 @@
+this is what strenght, agility, intelligence and hero base stats are.
+
+
+if Primary stats is str, agi or int you will gain 0.20 damage per point
+all hero will have 100 life and 100 mana base start
+
+Strenght
+life 5
+life regeneration 0.02
+life 1% for every 10 point of str
+
+Agility
+attack speed 0.50
+damage 1% for every 10 point of agility
+
+Intelligence
+mana 10
+mana-regeneration 0.4
+spell amp 1% for every 10 point of intelligence
+
+DIVINE STATS after one stats got at least 10 agi, int or str you can spend a Divine Stats into it gaining new bonus
+these divine stats can be only be gain every level 10,20,30,40,50 having a total of 5 to spend.
+
+DIVINE Strenght
+armor 1
+magic resist 3%
+life 50
+
+DIVINE Agility
+give physical spell 2% chance to crit for 200% of the normal damage
+attackspeed 6
+evasion 2%
+
+DIVINE Intelligence
+give magic spell 2% chance to crit for 200% of the normal damage
+spell amp 3%
+mana 80
+
+-NOTE- if people have crit spell or crit physical the % chance will stack on it meaning the 2% will go on a of 10% and have a crit for a total of 12%
