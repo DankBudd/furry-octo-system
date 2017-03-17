@@ -40,14 +40,15 @@ attack speed 15 25 35 45
 flat movement speed 15 30 45 60
 damage bonus 6 10 14 18
 duration 3 3.5 4 4.5
+increase duration by 0.01 per strenght points
 cooldown 18 17 16 15
 mana cost 40 60 80 100
 
 talent level 10 upgrade Bloodlust
 increase attack speed by 10
-increase damage by 7
-increase duration by 1.5
-increase mana cost by 30 plus 1% of max mana
+increase damage by 5
+increase duration by 1
+increase mana cost by 20
 
 add a new modifier Frenzy
 every hit on the target will increase the damage it take by 3% up to 15%, went it reach
@@ -56,17 +57,17 @@ the max stack of 5 the next attack of sven will do pure instead of physical dama
 
 SPELL W level needed 1 4 9 15
 
-Great Cleave
+Death Blow
 hit the enemy with a deadly blow dealing high damage and lifestealing for that amount of damage and also dealing
 bonus damage base on the current life of the enemy NOTE if use on a boss the cooldown is double
 
-damage 10 16 22 28 pysical damage plus 12% 18% 24% 30% of sven strenght
-spellvamp 10% 20% 30% 40%
-current life as bonus damage 5% 7% 9% 11%
+damage 10 16 22 28 pysical damage plus 24% 36% 48% 60% of sven strenght
+spellvamp 10% 15% 20% 25%
+current life as bonus damage 6% 8% 10% 12%
 coldown 20
 mana 100 130 160 190 plus 1% of max mana
 
-talent level 10 upgrade Great Cleave
+talent level 10 upgrade Death Blow
 increase damage by 10
 increase strenght scaling by 20%
 increase current life damage by 4%
@@ -81,30 +82,19 @@ doenst work on bosses
 SPEED E level needed 1 4 9 15
 
 Blood lost
-Sven sharp is sword making it have a more clean cut dealing damage per second and lowering armor if the enemy die
-under Blood lost next blood lost will be more powerfull
+Sven sharp is sword making it have a more clean cut dealing damage per second and lowering armor
 
-damage 3 7 11 15 physical damage per tick plus 5% of sven strenght
+damage 3 5 7 9 physical damage per tick plus 10% of sven strenght
 armor loss 2 3 4 5
-duration 4 5 6 7 second
-spellvamp of Blood Lost 10% 15% 20% 25%
-cooldown 25 24 23 22
-mana cost 100 110 120 130 plus 1% of max mana
-EMPOWER BLOOD LOST
-damage 7 12 17 22 physical damage per tick plus 13% of sven strenght
-armor loss 6
-duration 6 7 8 9
-spell vamp of blood lost 40%
-NOTE if the target die durring empower bloodlust it doenst re-trigger it, meaning that the normal bloodlost will be the next
-to keep balence toward this spell, cooldown 40 for the next BloodLost Empower
-
+duration 3 4 5 6 second
+increase duration by 0.1 of current level
+spellvamp of Blood Lost 8% 12% 16% 20%
+cooldown 21 20 19 18
+mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 upgrade Blood Lost
 increase damage by 2
-EMPOWER BLOOD LOST damage increase 4
-strenght scaling increase by 5%
-EMPOWER BLOOD LOST strenght scaling increase by 12%
-duration increase by 1 NOTE same for the empower version
+strenght scaling increase by 10%
 cost no mana
 
 add a new modifier Critical Wound
@@ -117,27 +107,24 @@ PASSIVE D OR F Level needed 3 7 11 15
 
 
 War Gladiator
-sven got a chance to deal a critical hit and blocking any attack dealt to him, he also got a small chance
-to parry any attack and reflecting it to the attacker and increasing sven damage if he block any attack.
-NOTE spell dont work for block until talent upgrade
+sven got a chance to deal a critical hit and blocking any attack dealt to him
 
 Critical damage 135% 145% 155% 165%
+increase critical damage by 1% for every 5 point of strenght
 Critical chance 12% 13% 14% 15%
 block damage 7 12 18 26
-block chance 20%
-parry chance 5%
-parry reflect damage 16% 20% 24% 28%
+increase block damage by 1 for every 10 strenght point
+block chance 15% 20% 25% 30%
 
 talent level 15 upgrade War Gladiator
-increase critical damage by 15%
-increase critical chance by 1%
+increase critical damage by 25%
+increase critical chance by 2%
 increase block damage by 7
-increase block chance by 5%
-increase parry reflect damage by 7%
+increase block chance by 10%
 
-add a new modifier Magical Shield
-now block and reflect magic damage also sven get 10% damage reduction upon reflecting and blocking spell or attack
-last 2 second
+add a new modifier Legend Gladiator
+for every block and critical hit sven do he will gain 0.5 armor and 1 damage for 4 second refresh every block and crit
+up to 20 stack, upon reaching 20 stack sven will perma-increase is strenght by 1
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
@@ -148,8 +135,8 @@ increase sven damage and life but reduce speed attack speed for a short duration
 went God Strenght is active
 
 damage 30 50 70
-base damage 30% 40% 50%
-attack speed lost 30 50 70
+base damage 30% 50% 70%
+attack speed lost 20 40 60
 duration 12 14 16
 life bonus 300 450 600
 cooldown reduction upon killing 0.60 0.80 1.0
@@ -159,7 +146,7 @@ no mana cost
 talent level 25 upgrade God Strenght
 
 increase damage by 30
-increase base damage by 50%
+increase base damage by 30%
 increase attack speed lost by 15
 increase duration by 4
 reduce cooldown by 5
