@@ -38,30 +38,28 @@ Nature Wrath
 heal or damage a target increaseing or reducing armor and magic resist, also after 5 second the target affect by the debuff
 Nature Wrath will do a explosion doing again nature Wrath but doenst regive the debuff and heal and damage for less
 
-Heal 30 50 70 90 plus 40% of int
+Heal 30 50 70 90 plus 50% of int
 Damage 14 18 22 26 plus 40% of int in magical damage
-Heal explosion 15 25 35 45 plus 15% of int
+Heal explosion 15 25 35 45 plus 25% of int
 Damage explosion 7 9 11 13 plus 20% of int in magical damage
 bonus armor 1 2 3 4
 armor reduction 0.5 1 1.5 2
 magic resist 5% 7% 9% 11%
 magic resist reduction 3% 4% 5% 6%
 buff debuff duration 5, after the duration expire the explosion will go off
-cooldown if use on enemy 7 second
-cooldown if use on ally 9 second
-mana cost 70 140 210 280 plus 2% of max mana
+cooldown 10
+mana cost 70 110 150 190 plus 1% of max mana
 
 talent level 10 upgrade Nature Wrath
 
-increase heal by 20 and int scaling by 20% -- 50% of this goes to the explosion heal
-increase damage by 6 and int scaling by 30% -- 50% of this goes to the explosion damage
+increase heal by 30 and int scaling by 30% -- 50% of this goes to the explosion heal
+increase damage by 8 and int scaling by 20% -- 50% of this goes to the explosion damage
 increase armor bonus by 2
 increase magic resist by 4%
 armor reduction increase by 1
 magic resist reduction increase by 4%
-cooldown reduction for ally 2
-cooldown reduction for enemy 1
-reduce mana cost by 120
+reduce cooldown by 3
+reduce mana cost by 50
 
 
 SPELL W
@@ -70,7 +68,7 @@ Summon Treant to fight for your side
 
 Number of Treant 1 2 2 3
 Treant Duration 25 35 45 55
-Treant life 60 70 80 90 plus 20% of int
+Treant life 60 70 80 90 plus 10% of int
 Treant damage 4-7 5-8 6-9 7-10 plus 5% of int
 Treant Magic resis 4% 7% 10% 13%
 Treant armor 2
@@ -87,8 +85,8 @@ talent level 10 upgrade Treant Guard
 reduce cooldown by 5
 increase Treant life by 10% of int scaling
 reduce the base attack time by 0.25
-increase magic resis by 7%
-increase armor by 2
+increase magic resis by 4%
+increase armor by 1
 cost no mana
 
 also give a new passive to the treant Spliting Nightmare
