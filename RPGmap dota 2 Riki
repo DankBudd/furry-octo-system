@@ -39,19 +39,19 @@ SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on
 deal damage and reducing the enemy damage and attack speed for a short duration and after dealing the damage, the dagger
 will bounce up to 4 target doing less damage and also reducing damage but not attackspeed
 
-Attack damage 120% 140% 160% 180%
-damage reduction 15% 20% 25% 30%
+Attack damage 120% 130% 140% 150%
+damage reduction 10% 12% 14% 16%
 attack speed lost 10 15 20 25
-bouncing dagger damage 105% 110% 115% 120%
-bouncing dagger damage reduction 4% 8% 12% 16%
+bouncing dagger damage 50% 60% 70% 80%
+bouncing dagger damage reduction 4% 5% 6% 7%
 debuff duration 3 second
-mana cost 100 plus 2% of max mana
+mana cost 90 plus 2% of max mana
 cooldown 8
 
 talent level 10 upgrade Dagger Strike
-increase damage by 20%
-increase damage reduction by 10%
-reduce mana cost by 50
+increase damage by 10%
+increase damage reduction by 6%
+reduce mana cost by 30
 reduce cooldown by 1
 
 add a new modifier Poison Dagger
@@ -62,13 +62,13 @@ also increase the damage he take by anything by 15%
 SPELL W Blink Stab
 jump behind the enemy stunning them and dealing damage, after the stun the target get silence.
 
-Attack damage 140% 170% 200% 230%
-stun 0.60 0.65 0.70 0.75
+Attack damage 110% 140% 170% 200%
+stun 0.40 0.45 0.50 0.55
 stun increase by 0.01 per agility point
 silence 1.30 1.40 1.50 1.60
 silence increase by 0.02 per agility point
 mana cost 150 plus 1% of max mana
-cooldown 20 18 16 14
+cooldown 26 24 22 20
 
 talent level 10 upgrade Blink Stab
 increase damage by 20%
@@ -92,7 +92,7 @@ magic resist bonus 4% 7% 10% 13%
 radius 250
 radius increase by 2 per agility point
 the smoke last 6.5 7 7.5 8 second
-the smoke duration increase by 0.01 per agility point
+the smoke duration increase by 0.02 per agility point
 mana cost 100 130 160 190 plus 4% of max mana
 cooldown 20 19 18 17
 
@@ -114,15 +114,15 @@ if the target get 8 stack of Stab he will take increase damage
 agility bonus 5 7 9 11
 damage multiplier behind the target 110% 120% 130% 140%
 armor lost per stack 1
-damage increase 10% 15% 20% 25%
-damage increase duration 3 second
-armor lost duration 3 second
+damage increase 10% 13% 16% 19%
+damage increase duration 2.5 second
+armor lost duration 2.5 second
 -NOTE- has no cooldown to regive the stack again meaning that with alot of attack speed the increase damage can stay for infinit time
 
 talent level 15 upgrade BackStab
 increase damage multiplier by 10%
 increase armor lost per stack by 0.5
-increase agility bonus by 6
+increase agility bonus by 4
 
 add a new modifier DeepStab
 riki got 15% chance to deal 250% of the normal damage behind and giving 3 stack instead of 1, riki also
@@ -135,7 +135,7 @@ a stack of Parry increasing armor by 1 up to a max of 5, after 5 stack next parr
 increase riki damage
 
 bonus damage 20% 25% 30%
-Attack damage to parry 200% 260% 320%
+Attack damage to parry 180% 240% 300%
 parry chance 10% 11% 12%
 damage reduction upon parrying 15%
 max stack parry damage 4% 8% 12% of max life as damage of the enemy
