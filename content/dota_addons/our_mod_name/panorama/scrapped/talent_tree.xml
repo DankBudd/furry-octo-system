@@ -1,0 +1,36 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/talent_tree/talent_tree.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/talent_tree/talent_tree.js" />
+	</scripts>
+	<snippets>
+		<snippet name="Talent">
+			<Panel class="Talent">
+				<Panel id="TalentLeft">
+					<DOTAAbilityImage id="AbilityImage" abilityname="juggernaut_q" />
+				</Panel>
+				<Panel id="TalentRight">
+					<Label id="TalentName" text="Execution: 20 points">
+						<Label id="TalentPrerequisite" text="Prerequisites: ">
+							<Label id="TalentPrerequisites" text="Level 12"/>
+						</Label>
+						<Label id="TalentDescription" text="Increase max illusions by 2"/>
+					</Label>
+				</Panel>
+			</Panel>
+		</snippet>
+	</snippets>
+	<Panel class="TalentRoot" >
+		<Panel id="TalentWindow">
+			<Label id="TalentTree" text="Talent Tree"/>
+			<Panel id="Background"/>
+			<Panel id="TalentsLeft"/>
+			<Panel id="TalentsRight"/>
+			<Button id="TreeButton" onmouseover="" onmouseout="" onactivate="ToggleTree()">
+			</Button>
+		</Panel>
+	</Panel>
+</root>

@@ -1,0 +1,28 @@
+<root>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/spell_craft/spell_craft.js" />
+	</scripts>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/spell_craft/spell_craft.css" />
+	</styles>
+	
+	<Panel class="SpellCraftRoot">
+		<Panel id="SpellCraftBackground">
+			<Panel id="MainLeft">
+				<Panel id="Block1">
+					<TextEntry id="BlockText" maxchars="20" placeholder="Target Type" oninputsubmit="" />
+				</Panel>
+				<ToggleButton id="Button1">
+					<DropDown id="Drop" oninputsubmit="">
+						<Label id="entry1" text="one"/>
+						<Label id="entry2" text="two"/>
+						<Label id="entry3" text="three"/>
+					</DropDown>
+				</ToggleButton>
+			</Panel>
+		</Panel>
+		<Button id="RootButton" onactivate="$('#SpellCraftBackground').ToggleClass('closed')">
+			<Label text="Craft a Spell!" />
+		</Button>
+	</Panel>
+</root>

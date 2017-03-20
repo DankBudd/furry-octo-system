@@ -1,0 +1,69 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 32
+	m_BoundingBoxMin = [ -32.0, -32.0, -10.0 ]
+	m_BoundingBoxMax = [ 32.0, 32.0, 256.0 ]
+	m_ConstantColor = [ 183, 0, 0, 255 ]
+	m_flConstantLifespan = 8.0
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_Decay"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderRopes"
+			m_flTextureVWorldSize = 900.0
+			m_flTextureVScrollRate = 1750.0
+			m_flSelfIllumAmount = 0.8
+			m_flDiffuseAmount = 0.2
+			m_bAdditive = true
+			m_hTexture = resource:"materials/particle/beam_jagged_02.vtex"
+			VisibilityInputs = 
+			{
+				m_flInputMax = 0.0
+			}
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_CreateSequentialPath"
+			m_flNumToAssign = 16.0
+			m_PathParams = 
+			{
+				m_nEndControlPointNumber = 1
+				m_flBulge = 75.0
+				m_flMidPoint = 0.875
+			}
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 16.0
+			m_flRadiusMax = 25.0
+		},
+		{
+			_class = "C_INIT_RandomScalar"
+			m_flMin = 0.15
+			m_flMax = 0.175
+			m_flExponent = 0.0
+			m_nFieldOutput = 1
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 16
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/volvo/zuus_lightning_bolt_castfx_ground2.vpcf"
+		},
+	]
+}
