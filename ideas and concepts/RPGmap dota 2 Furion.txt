@@ -1,0 +1,205 @@
+Furion -- Summoner-Support , starting stats 12 int, 6 agi, 3 str, base speed 280, base damage 6, Stats Gain per level 1.00 int, 1.20 str, 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 50 mana base attack time 1.55
+
+Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
+
+max level 50 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+
+LEVEL 20 TALENT
+
+talent 1
+
+give 16% magic resist 5 armor and 45 movement speed
+
+talent 2
+
+give 14 int 4.5 mana regen and 10% Spell amp
+
+
+
+PASSIVE D OR F Nature Way
+
+increase overall stats/talent 25 upgrade doubling and giving a new modifier
+
+mana bonus 4% 8% 12% 16%/25 talent 8% 16% 24% 32%
+healing amp 3% 6% 9% 12%/25 talent 6% 12% 18% 24%
+life bonus 30 60 90 120/25 talent 60 120 180 240
+life-regen 1.5 2.5 3.5/25 talent 3 5 7
+intelligence bonus 8 16/25 talent 16 32
+every 1 intelligence point, increase life by 2
+
+talent 25 modifer
+increase life per 1 point of intelligence by 1
+new modifier Nature Blessing
+every time u cast a spell restore 3% life to near ally around you 400 radius doesnt affect furion
+
+
+SPELL Q
+Nature Wrath
+heal or damage a target increaseing or reducing armor and magic resist, also after 5 second the target affect by the debuff
+Nature Wrath will do a explosion doing again nature Wrath but doenst regive the debuff and heal and damage for less
+
+Heal 30 50 70 90 plus 50% of int
+Damage 14 18 22 26 plus 40% of int in magical damage
+Heal explosion 15 25 35 45 plus 25% of int
+Damage explosion 7 9 11 13 plus 20% of int in magical damage
+bonus armor 1 2 3 4
+armor reduction 0.5 1 1.5 2
+magic resist 5% 7% 9% 11%
+magic resist reduction 3% 4% 5% 6%
+buff debuff duration 5, after the duration expire the explosion will go off
+cooldown 10
+mana cost 70 110 150 190 plus 1% of max mana
+
+talent level 10 upgrade Nature Wrath
+
+increase heal by 30 and int scaling by 30% -- 50% of this goes to the explosion heal
+increase damage by 8 and int scaling by 20% -- 50% of this goes to the explosion damage
+increase armor bonus by 2
+increase magic resist by 4%
+armor reduction increase by 1
+magic resist reduction increase by 4%
+reduce cooldown by 3
+reduce mana cost by 50
+
+
+SPELL W
+Treant Guard
+Summon Treant to fight for your side
+
+Number of Treant 1 2 2 3
+Treant Duration 25 35 45 55
+Treant life 60 70 80 90 plus 10% of int
+Treant damage 4-7 5-8 6-9 7-10 plus 5% of int
+Treant Magic resis 4% 7% 10% 13%
+Treant armor 2
+Treant base attack time 2.00 1.95 1.90 1.85
+cooldown 15 20 25 30
+mana cost 200 225 250 275 plus 2% of max mana
+
+Treant passive Seed of Life
+went the treant die they will do Nature Wrath that will deal only 10% of the damage and heal and also plant a seed
+enemy that get close to the seed will take 2 damage pure per second, can stack with the other seed last 7 second
+
+talent level 10 upgrade Treant Guard
+
+reduce cooldown by 5
+increase Treant life by 10% of int scaling
+reduce the base attack time by 0.25
+increase magic resis by 4%
+increase armor by 1
+cost no mana
+
+also give a new passive to the treant Spliting Nightmare
+went a Treant die they will spawn 2 lesser Treant with 20% of the attributes of the Treant
+meaning that it will get the current life damage and armor that the Treant had before, those small treant last 15 second
+
+
+SPELL E
+Pure Nature
+Make a garden at the location buffing ally and treant also healing them and as a small chance of spawning a Treant
+the Treant scale off by Gift of Verodicia but only last 15 second and dont spawn any small Treant, furion is not affect by Pure Nature
+
+Heal per second 5 7 9 11 plus 10% of int
+duration 5 6 7 8
+Treant Spawn chance per second 11% 12% 13% 14%
+radius 600
+attackspeed bonus 5 10 15 20 
+damage bonus 8% 11% 14% 17%
+cooldown 28 27 26 25
+mana cost 100 plus 1% max mana
+lifecost 100 plus 10% of furion max life
+
+talent level 15 upgeade Pure Nature
+
+increase heal by 5
+increase duration by 3
+increase Treant spawn chance by 3%
+increase radius by 300
+increase attack speed by 10
+increase damage bonus by 8%
+reduce coldown by 1
+reduce life cost by 6%
+
+Give a new modifier Greater Treant
+spawn a Greater Treant every time Pure nature is cast this Treant will last 5 second and got
+triple the scaling of Treant Guard and went he die he will do the explosion of Nature Wrath
+and do 20% of the damage of it and plant a seed that will deal 4 pure damage per second last 5 second as well
+
+
+PASSIVE D OR F
+Nature Mastery
+increase life damage attackspeed of summon in a radius around furion and upgrade some of is spell as well, doesnt affect Furion
+
+Increase Treant life by 4% 8% 12% 16%
+Increase Ancient of War life by 5% 6% 7% 8%
+Increase non-summon life of furion by 30 60 90 120
+increase non-summon damage of furion by 5% 6% 7% 8%
+Increase the damage of treant by 3 5 7 9
+Increase the damage of Ancient of War by 14 18 22 26
+Increase attack speed by 8 12 16 20
+increase the number of Treant by 1 1 2 3
+increase the duration of Treant by 5 10 15 20
+increase life-regen of summon by 2 3 4
+radius for aura 900
+
+talent level 15 upgrade Nature Mastery
+
+increase Treant life by 14%
+Increase Ancient of War life by 4%
+Increase non-summon life by 40
+Increase the damage of Treant by 2
+Increase the damage Ancient of War by 8
+increase the duration of Treant by 5
+Increase radius of aura by 400
+
+give a new modifier Nature Rage increasing damage of all summon by 10%
+
+give a new modifier Go Green increase all movement speed of summon by 30%
+
+
+ULTIMATE R
+Gift of Verodicia
+summon the mighty Ancient of War to fight for your side and destroy any foes that are in your way
+
+Life 150 300 450 plus 50% of int
+mana 200 300 400 plus 100% of int
+damage 13-20 23-30 33-40 plus 10% of int
+base attack time 2.30 2.20 2.10
+armor 3 5 7
+magic resist 10% 20% 30%
+mana-regen 2 4 6
+life-regen 1 3 5
+
+SPELL 1
+Slam the Ground kocking enemy away and stuning them for 1 1.5 2 second dealing 40 70 100 pure damage plus 3% of is max life
+in a radius of 800 enemy more far than 600-800 will take 50% of the damage enemy in medium of 300-500 take normal damage and
+enemy in close range of 0-200 will take 150% damage cooldown 18 mana cost 150 250 350 plus 1% of max mana
+
+SPELL 2
+make near ally in 350 radius armor of nature healing them for 10 20 30 per second and reducing damage taken from all source
+by 50 100 150 for 3 4 5 instances, doesnt affect ancient of war last 7 second cooldown 45 mana cost 200 300 400
+
+PASSIVE 1
+on his next attack the ancient of war will puta leaching seed on the enemy he hit dealing 15 30 45 physical damage per second
+and healing any ally near of a radius of 300 for 15 20 25 per tick of damage and heal last 5 second cooldown 20 second
+
+PASSIVE 2
+the ancient of war got 15% chance to stun the enemy in a radius of 300 dealing 40 80 120 physical damage
+and stuning for 0.3 0.5 0.7 second the primary target get 50% more damage and get knock away
+	
+
+talent level 25 upgrade Gift of Verodicia
+
+increase life of Ancient of War by 100 and int scaling by 30%
+increase mana of Ancient of War by 200 and int scaling by 50%
+increase damage of Ancient of War by 5
+reduce base attack time by 0.20
+increase armor by 3
+increase magic resist by 10%
+increase SPELL 2 instances by 1
+increase PASSIVE 1 damage by 10 and healing by 5
+
+
+
+
+
