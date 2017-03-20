@@ -11,7 +11,7 @@ function VoidCurse( keys )
 
 	-- check for talent and increase duration if it exists
 	if caster:HasTalent(talent) then
-		duration = duration + caster:FindTalentValue(talent)[2]
+		duration = duration + caster:FindTalentValues(talent)[2]
 	end
 	if caster:FindAbilityByName("galaxy"):GetLevel() > 0 and not caster:PassivesDisabled() then
 		ability:ApplyDataDrivenModifier(caster, target, "modifier_void_curse_galaxy_debuff", {})
@@ -27,7 +27,7 @@ function VoidCurseTick( keys )
 	local target = keys.target
 	local damage = ability:GetSpecialValueFor("damage")
 	local talent = "special_bonus_unique_gravity_lord_1"
-	local talentValues = caster:FindTalentValue(talent)
+	local talentValues = caster:FindTalentValues(talent)
 	local damageType = ability:GetAbilityDamageType()
 
 	-- add a stack of armor/resist reduction to target
@@ -40,13 +40,7 @@ function VoidCurseTick( keys )
 	-- check for talent and increase damage if its skilled
 	if caster:HasTalent(talent) then
 		damage = damage + talentValues[1]
-		if talentValues[3] == 1 then
-			damageType = DAMAGE_TYPE_PHYSICAL
-		elseif talentValues[3] == 2 then
-			damageType = DAMAGE_TYPE_MAGICAL
-		elseif talentValues[3] == 4 then
-			damageType = DAMAGE_TYPE_PURE
-		end
+		damageType = caster:FindAbilityByName("special_bonus_unique_gravity_lord_1"):GetAbilityDamageType()
 	end
 
 	if caster:HasTalent("special_bonus_unique_gravity_lord_6") and caster:FindAbilityByName("gravity_lord"):GetLevel() > 0 then
@@ -67,7 +61,7 @@ function HealLastHitter( keys )
 	local talent = "special_bonus_unique_gravity_lord_4"
 
 	if caster:HasTalent(talent) then
-		heal = heal + (caster:FindTalentValue(talent)[3] * 0.01)
+		heal = heal + (caster:FindTalentValues(talent)[3] * 0.01)
 	end
 
 	if target and target:IsAlive() or lastHitter == caster or caster:PassivesDisabled() then return end
@@ -92,12 +86,12 @@ function GravityWellThinker( keys )
 
 	if galaxy:GetLevel() > 0 and not caster:PassivesDisabled() then
 		if caster:HasTalent(talent4) then
-			radius = radius + caster:FindTalentValue(talent4)[5]
+			radius = radius + caster:FindTalentValues(talent4)[5]
 		end
 		radius = radius + galaxy:GetSpecialValueFor("gw_radius")
 	end
 
-	local talentValues = caster:FindTalentValue(talent2)
+	local talentValues = caster:FindTalentValues(talent2)
 	if caster:HasTalent(talent2) then
 		duration = talentValues[2]
 		interval = talentValues[3]
@@ -159,7 +153,7 @@ end
 function DamageTarget( ability, target, modifier, talent )
 	local caster = ability:GetCaster()
 	local damage = ability:GetSpecialValueFor("damage")
-	local talentValues = caster:FindTalentValue(talent)
+	local talentValues = caster:FindTalentValues(talent)
 	local galaxy = caster:FindAbilityByName("galaxy")
 
 	-- if talent exists then increase damage based on debuff stacks and talent %value
@@ -186,7 +180,7 @@ function GravityBoltHitUnit( keys )
 	local ability = keys.ability
 	local target = keys.target
 	local talent = "special_bonus_unique_gravity_lord_3"
-	local talentValues = caster:FindTalentValue(talent)
+	local talentValues = caster:FindTalentValues(talent)
 
 	local casterInt = caster:GetIntellect()
 	local intDamage = ability:GetSpecialValueFor("int_to_damage") * 0.01
@@ -212,7 +206,7 @@ function GravityBoltCooldown( keys )
 
 	if caster:HasTalent("special_bonus_unique_gravity_lord_3") then
 		ability:EndCooldown()
-		ability:StartCooldown(ability:GetCooldown(ability:GetLevel()-1) - caster:FindTalentValue("special_bonus_unique_gravity_lord_3")[4])
+		ability:StartCooldown(ability:GetCooldown(ability:GetLevel()-1) - caster:FindTalentValues("special_bonus_unique_gravity_lord_3")[4])
 	end
 end
 
@@ -228,7 +222,7 @@ end
 
 function GravityBoltManaCost( keys )
 	local caster = keys.caster
-	local manaCostPct = caster:FindTalentValue("special_bonus_unique_gravity_lord_3")[3] * 0.01
+	local manaCostPct = caster:FindTalentValues("special_bonus_unique_gravity_lord_3")[3] * 0.01
 
 	if caster:HasTalent("special_bonus_unique_gravity_lord_3") then
 		caster:SetMana(caster:GetMana() - caster:GetMana() * manaCostPct)
@@ -248,7 +242,7 @@ function GalaxyManaCostReduction( keys )
 	if galaxy:GetLevel() > 0 and not caster:PassivesDisabled() then
 		manaCostReduction = galaxy:GetSpecialValueFor("mana_cost_reduction")
 		if caster:HasTalent(talent) then
-			manaCostReduction = manaCostReduction + caster:FindTalentValue(talent)[2]
+			manaCostReduction = manaCostReduction + caster:FindTalentValues(talent)[2]
 		end
 		caster:SetMana(caster:GetMana() + manaCostReduction)
 	end
@@ -263,7 +257,7 @@ function DisableGalaxyPassive( keys )
 	local stackCount = caster:GetModifierStackCount(modifierToApply, caster)
 	local galaxyCount = ability:GetSpecialValueFor("cd_reduction")
 	if caster:HasTalent(talent) then
-		local talentCount = galaxyCount + caster:FindTalentValue(talent)[1]
+		local talentCount = galaxyCount + caster:FindTalentValues(talent)[1]
 	end
 
 	if caster:PassivesDisabled() or (caster:HasTalent(talent) and not stackCount == talentCount) then
@@ -281,7 +275,7 @@ function EnableGalaxyPassive( keys )
 
 	local stackCount = ability:GetSpecialValueFor("cd_reduction")
 	if caster:HasTalent(talent) then
-		stackCount = stackCount + caster:FindTalentValue(talent)[1]
+		stackCount = stackCount + caster:FindTalentValues(talent)[1]
 	end
 
 	if not caster:PassivesDisabled() then
@@ -301,46 +295,74 @@ function BlackStar( keys )
 	local radius = ability:GetSpecialValueFor("radius")
 	local stunDuration = ability:GetSpecialValueFor("stun_duration")
 	local intDamage = ability:GetSpecialValueFor("int_to_damage")
+	local duration = ability:GetSpecialValueFor("duration")
 	local damage = ability:GetAbilityDamage()
-	local talent = "special_bonus_unique_gravity_lord_5"
 
-	local hasTalent = caster:HasTalent(talent)
-	if hasTalent then
-		intDamage = intDamage + caster:FindTalentValue(talent)[4]
-		damage = damage + caster:FindTalentValue(talent)[3]
+	local talent = "special_bonus_unique_gravity_lord_5"
+	local talent2 = "special_bonus_unique_gravity_lord_6"
+	if caster:HasTalent(talent) then
+		intDamage = intDamage + caster:FindTalentValues(talent)[4]
+		damage = damage + caster:FindTalentValues(talent)[3]
 		stunDuration = stunDuration + caster:GetIntellect() * 0.01
 	end
 	damage = damage + (damage * intDamage * 0.01)
 
-	local targets = FindUnitsInRadius(caster:GetTeamNumber(), keys.target_points[1], nil, radius,
-					ability:GetAbilityTargetTeam(), ability:GetAbilityTargetType(), ability:GetAbilityTargetFlags(), FIND_ANY_ORDER, false)
-	for _,target in pairs(targets) do
-		if target ~= nil then
-			target:AddNewModifier(caster, ability, "modifier_stunned", {duration = stunDuration})
-			ApplyDamage({victim = target, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType(), damage_flags = DOTA_DAMAGE_FLAG_NONE})
-			if hasTalent then
-				BlackStarVoidCurse(caster, caster:FindAbilityByName("void_curse"), target)
+	-- needs work
+	local pfx = ParticleManager:CreateParticle("particles/econ/items/enigma/enigma_world_chasm/enigma_blackhole_ti5.vpcf", PATTACH_WORLDORIGIN, caster)
+	ParticleManager:SetParticleControl(pfx, 0, Vector(keys.target_points[1].x, keys.target_points[1].y, keys.target_points[1].z + 25))
+	ParticleManager:SetParticleControl(pfx, 1, Vector(keys.target_points[1].x, keys.target_points[1].y, keys.target_points[1].z + 25))
+	ParticleManager:SetParticleControl(pfx, 2, Vector(keys.target_points[1].x, keys.target_points[1].y, keys.target_points[1].z + 25))
+	ParticleManager:SetParticleControl(pfx, 9, Vector(keys.target_points[1].x, keys.target_points[1].y, keys.target_points[1].z + 25))
+
+	-- start blackhole
+	local tick = 0
+	Timers:CreateTimer(0, function()
+		tick = tick + 0.5
+		local units = FindUnitsInRadius(caster:GetTeamNumber(), keys.target_points[1], nil, radius, ability:GetAbilityTargetTeam(), ability:GetAbilityTargetType(), DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
+		for _,unit in pairs(units) do
+			--info for motion controller
+			ability.direction = (keys.target_points[1] - unit:GetAbsOrigin()):Normalized()
+			ability.speed = 3 --???
+			-- start pulling the unit in
+			if not unit:HasModifier("modifier_black_star_motion_controller") then
+				ability:ApplyDataDrivenModifier(caster, unit, "modifier_black_star_motion_controller", {})
 			end
-			if caster:HasTalent("special_bonus_unique_gravity_lord_6") and caster:FindAbilityByName("gravity_lord"):GetLevel() > 0 then
-				VoidFissure(caster, target)
+			-- stun if first tick
+			if tick == 0.5 then
+				unit:AddNewModifier(caster, ability, "modifier_stunned", {duration = stunDuration})
+				damage = damage/2
 			end
+			-- deal damage per tick
+			ApplyDamage({victim = unit, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType(), damage_flags = DOTA_DAMAGE_FLAG_NONE})
+			-- talent stuff
+			if caster:HasTalent(talent) then
+				BlackStarVoidCurse(caster, caster:FindAbilityByName("void_curse"), unit)
+			end
+			if caster:HasTalent(talent2) and caster:FindAbilityByName("gravity_lord"):GetLevel() > 0 then
+				VoidFissure(caster, unit)
+			end
+			--stop motion controllers if blackhole is ending
+			if tick >= duration then
+				if unit then
+					if unit:IsAlive() then
+						unit:InterruptMotionControllers(true)
+						unit:RemoveModifierByNameAndCaster("modifier_black_star_motion_controller", caster)
+					end
+				end
+			end
+		end	
+		-- end blackhole
+		if tick >= duration then
+			ParticleManager:DestroyParticle(pfx, false)
+			return nil
 		end
-	end
+		-- continue blackhole
+		return 0.5
+	end)
+end
 
-	local dummy = CreateUnitByName("npc_dummy_unit", keys.target_points[1], false, nil, nil, caster:GetTeamNumber())
-	ability:ApplyDataDrivenModifier(caster, dummy, "modifier_black_star_dummy", {})
-	EmitSoundOn("Hero_Phoenix.SuperNova.Explode", dummy)
-
-	local pfxName = "particles/units/heroes/hero_phoenix/phoenix_supernova_reborn.vpcf"
-	local pfx = ParticleManager:CreateParticle( pfxName, PATTACH_ABSORIGIN, dummy )
---	ParticleManager:SetParticleControlEnt( pfx, 0, dummy, PATTACH_POINT_FOLLOW, "follow_origin", dummy:GetAbsOrigin(), true )
---	ParticleManager:SetParticleControlEnt( pfx, 1, dummy, PATTACH_POINT_FOLLOW, "attach_hitloc", dummy:GetAbsOrigin(), true )
-
-	if hasTalent then
-		Timers:CreateTimer({0.4, function()
-			EmitSoundOn("Hero_Silencer.LastWord.Cast", dummy)
-		end})
-	end
+function BlackStarMotion( keys )
+	keys.target:SetAbsOrigin(keys.target:GetAbsOrigin() + keys.ability.direction * keys.ability.speed)
 end
 
 function BlackStarVoidCurse( caster, ability, target )
@@ -349,7 +371,7 @@ function BlackStarVoidCurse( caster, ability, target )
 
 	-- check for talent and increase duration if it exists
 	if caster:HasTalent(talent) then
-		duration = duration + caster:FindTalentValue(talent)[2]
+		duration = duration + caster:FindTalentValues(talent)[2]
 	end
 	if caster:FindAbilityByName("galaxy"):GetLevel() > 0 and not caster:PassivesDisabled() then
 		ability:ApplyDataDrivenModifier(caster, target, "modifier_void_curse_galaxy_debuff", {})
@@ -366,7 +388,7 @@ function BlackStarCooldown( keys )
 
 	if caster:HasTalent(talent) then
 		ability:EndCooldown()
-		ability:StartCooldown(ability:GetCooldown(ability:GetLevel()-1) - caster:FindTalentValue(talent)[2])
+		ability:StartCooldown(ability:GetCooldown(ability:GetLevel()-1) - caster:FindTalentValues(talent)[2])
 	end
 end
 
@@ -384,7 +406,7 @@ function HandleGravityLordBuffs( keys )
 
 	local stackCount 
 	if modifier == keys.check then stackCount = ampCount else stackCount = regenCount end
-	local talentCount = stackCount * caster:FindTalentValue(talent)[1]
+	local talentCount = stackCount * caster:FindTalentValues(talent)[1]
 
 	if caster:GetModifierStackCount(modifier, caster) < stackCount then
 		caster:SetModifierStackCount(modifier, caster, stackCount)
@@ -404,7 +426,7 @@ function GravityLordManaBonus( keys )
 	local talent = "special_bonus_unique_gravity_lord_6"
 
 	if caster:HasTalent(talent) then
-		stackCount = stackCount * caster:FindTalentValue(talent)[1]
+		stackCount = stackCount * caster:FindTalentValues(talent)[1]
 	end
 
 	caster:SetModifierStackCount(keys.modifier, caster, stackCount)

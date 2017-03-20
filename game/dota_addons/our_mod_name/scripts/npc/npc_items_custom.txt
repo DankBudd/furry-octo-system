@@ -1513,6 +1513,16 @@
 				"var_type"			"FIELD_FLOAT"
 				"duration"		"3.0 4.0 5.0"
 			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"int_to_life"		"55 85 115"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"life_to_life"		"0.4 0.7 1.0"
+			}
 		}
 
 		"OnSpellStart"
@@ -1528,26 +1538,6 @@
 			}
 		}
 
-	}
-
-	"item_testing_courier"
-	{
-		"BaseClass"             		"item_datadriven"
-		"AbilityTextureName"			"animal_courier"
-		"ID"							"5021"
-
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-		"AbilityCastPoint"				"0.0"
-		"AbilityCastAnimation"			"ACT_DOTA_IDLE_RARE"
-
-		"OnSpellStart"
-		{
-			"RunScript"
-			{
-				"ScriptFile"	"items/item_testing_courier.lua"
-				"Function"		"SummonCourier"
-			}
-		}
 	}
 
 	"item_debug_hero_spawn"
@@ -1576,7 +1566,7 @@
 
 	"item_debug_creep_spawn"
 	{
-		"BaseClass"             		"ability_datadriven"
+		"BaseClass"             		"item_datadriven"
 		"AbilityTextureName"			"debug_creeps"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
@@ -1600,7 +1590,7 @@
 
 	"item_debug_level_up"
 	{
-		"BaseClass"             		"ability_datadriven"
+		"BaseClass"             		"item_datadriven"
 		"AbilityTextureName"			"debug_exp"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
@@ -1614,6 +1604,23 @@
 				"ScriptFile"	"items/debug_items.lua"
 				"Function"		"LevelUp"
 				"target_points" "POINT"
+			}
+		}
+	}
+
+	"item_debug_control_all_units"
+	{
+		"BaseClass"             		"item_datadriven"
+		"AbilityTextureName"			"debug_control_all_units"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+		"ID"	"14283"
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"items/debug_items.lua"
+				"Function"		"ControlAllUnits"
 			}
 		}
 	}

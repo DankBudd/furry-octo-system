@@ -15,10 +15,10 @@
 		"Ability11"         "special_bonus_unique_gravity_lord_2"
 		"Ability12"         "special_bonus_unique_gravity_lord_3"
 		"Ability13"         "special_bonus_unique_gravity_lord_4"
-		"Ability14"         "special_bonus_mage_offensive"
-		"Ability15"         "special_bonus_mage_defensive"
+//		"Ability14"         "special_bonus_mage_offensive"
+//		"Ability15"         "special_bonus_mage_defensive"
 		"Ability16"         "special_bonus_unique_gravity_lord_5"
-		"Ability17"         "special_bonus_unique_gravity_lord_6" //last talent
+		"Ability17"         "special_bonus_unique_gravity_lord_6"
 		"Ability18"         "gravity_lord_cast_range_bonus" //part of gravity_lord passive
 
 		"AttributeBaseStrength"   "5.00"
@@ -50,15 +50,6 @@
 		"Ability2"          "vanity"
 		"Ability3"          "enchanting_leer"
 		"Ability4"          "mirror_hall"
-
-//      "Ability10"         ""
-//      "Ability11"         ""
-//      "Ability12"         ""
-//      "Ability13"         ""
-//      "Ability14"         ""
-//      "Ability15"         ""
-//      "Ability16"         ""
-//      "Ability17"         ""
 
 		"ModelScale"        "0.879"
 		
@@ -103,8 +94,8 @@
 		"Ability1"		"glory_hook"
 		"Ability2"		"rotting_flesh"
 		"Ability3"		"fresh_meat"
-		"Ability4"      ""
-		"Ability5"      ""
+		"Ability4"      "flesh_heap"
+		"Ability5"      "weird_meat"
 		"Ability6"      "dismember"
 
 
@@ -112,8 +103,8 @@
 		"Ability11"     "special_bonus_unique_butcher_2"
 		"Ability12"     "special_bonus_unique_butcher_3"
 		"Ability13"		"special_bonus_unique_butcher_4"
-		"Ability14"		""
-		"Ability15"		""
+//		"Ability14"		""
+//		"Ability15"		""
 		"Ability16"		"special_bonus_unique_butcher_5"
 		"Ability17"		"special_bonus_unique_butcher_6"
 	}
@@ -122,6 +113,84 @@
 	{
 		"override_hero"     "npc_dota_hero_lina"
 
-		"Ability1"      "couriers_reign"
+		"Ability1"		"purple_smoke_test"
+		"Ability2"		"red_lightning_test"
+		"Ability3"		"zuus_lightning_bolt"
+		"Ability4"		"testing"
+	}
+
+	"npc_dota_hero_juggernaut"
+	{
+		"override_hero"		"npc_dota_hero_juggernaut"
+
+		"Ability1"		"juggernaut_q"
+		"Ability3"		"juggernaut_e"
+		"Ability4"		"juggernaut_r"
+
+		"Ability17"		"" //remove built-in unique talent, was spamming in console
+	}
+
+	"npc_dota_hero_furion"
+	{
+		"override_hero"		"npc_dota_hero_furion"
+
+		"Ability1"		"natures_wrath"
+		"Ability3"		"treant_guard"
+	}
+
+	"npc_dota_hero_skeleton_king"
+	{
+		"override_hero"		"npc_dota_hero_skeleton_king"
+
+		"Ability1"		"ballerina_king"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+	}
+
+	"npc_dota_hero_omniknight"
+	{
+		"override_hero"		"npc_dota_hero_omniknight"
+
+		"AbilityLayout" "6"
+		"Ability1"		"muradin_q"
+		"Ability2"		"muradin_w"
+		"Ability3"		"muradin_e"
+		"Ability4"		"muradin_d"
+		"Ability5"		"muradin_f"
+		"Ability6"		"muradin_r"
+
+		"Ability10"		"special_bonus_unique_muradin_1"
+		"Ability11"		"special_bonus_unique_muradin_2"
+		"Ability12"		"special_bonus_unique_muradin_3"
+		"Ability13"		"special_bonus_unique_muradin_4"
+//		"Ability14"		""
+//		"Ability15"		""
+		"Ability16"		"special_bonus_unique_muradin_5"
+		"Ability17"		"special_bonus_unique_muradin_6"
+	}
+
+	"npc_dota_hero_beastmaster"
+	{
+		"override_hero"		"npc_dota_hero_beastmaster"
+
+		"AbilityLayout"	"6"
+		"Ability1"		"knockback_test"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+		"Ability7"		""
+		"Ability8"		""
+		"Ability9"		""
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
 	}
 }

@@ -23,12 +23,38 @@ function Precache( context )
 
   -- Models can also be precached by folder or individually
   -- PrecacheModel should generally used over PrecacheResource for individual models
-  PrecacheResource("model_folder", "particles/heroes/antimage", context)
+
 --  PrecacheResource("model", "particles/heroes/viper/viper.vmdl", context)
 --  PrecacheModel("models/heroes/viper/viper.vmdl", context)
   --PrecacheModel("models/props_gameplay/treasure_chest001.vmdl", context)
   --PrecacheModel("models/props_debris/merchant_debris_chest001.vmdl", context)
   --PrecacheModel("models/props_debris/merchant_debris_chest002.vmdl", context)
+
+  local heroes = {
+    "antimage",
+    "beastmaster",
+    "warlock",
+    "pudge",
+    "lina",
+    "ogre_magi",
+    "medusa",
+    "sven",
+    "monkey_king",
+    "morphling",
+    "lone_druid",
+    "enigma",
+    "juggernaut",
+    "treant_protector",
+    "skeleton_king",
+    "furion",
+    "enchantress",
+    "phoenix",
+  }
+  for _,heroName in pairs(heroes) do
+    PrecacheUnitByNameSync("npc_dota_hero_"..heroName, context)
+  end
+  PrecacheModel("models/items/beastmaster/boar/fotw_wolf/fotw_wolf.vmdl", context)
+  PrecacheModel("models/items/beastmaster/boar/beast_heart_marauder_beast_heart_marauder_warhound/beast_heart_marauder_beast_heart_marauder_warhound.vmdl", context)
 
   -- Sounds can precached here like anything else
 --  PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_gyrocopter.vsndevts", context)

@@ -6,11 +6,18 @@ function SummonInfernal( keys )
 
 	local golem = CreateUnitByName("npc_infernal_summon", targetPoint, true, caster, caster, caster:GetTeamNumber())
 	golem:SetControllableByPlayer(caster:GetPlayerID(), true)
+	golem:SetOwner(caster)
+	golem:FindAbilityByName(keys.ability_bash):SetLevel(abLvl)
+	golem:FindAbilityByName(keys.ability_slam):SetLevel(abLvl)
+	golem:FindAbilityByName(keys.ability_fist):SetLevel(abLvl)
+	golem:FindAbilityByName(keys.ability_stats):SetLevel(abLvl)
 
-	golem:FindAbilityByName(keys.ability_bash):SetLevel(1)
-	golem:FindAbilityByName(keys.ability_slam):SetLevel(1)
-	golem:FindAbilityByName(keys.ability_fist):SetLevel(1)
-	golem:FindAbilityByName(keys.ability_stats):SetLevel(1)
+	local casterInt = caster:GetIntellect()
+	local casterHealth = caster:GetMaxHealth()
+	local intLife = ability:GetSpecialValueFor("int_to_life") * 0.01
+	local healthLife = ability:GetSpecialValueFor("life_to_life") * 0.01
+	print("golem health: "..casterInt * intLife + casterHealth * healthLife)
+	golem:HandleUnitHealth(golem:GetHealth() + golem:GetHealthDeficit() + casterInt * intLife + casterHealth * healthLife)
 end
 
 --[[/////////////////////////
@@ -151,11 +158,13 @@ end
 
 function UpdateStats ( keys )
 	local summon = keys.caster
+	if not summon then return end 
+	if not summon:GetOwner() then return end
+
 	local ability = keys.ability
 	local casterInt = summon:GetOwner():GetIntellect()
 	local casterHealth = summon:GetOwner():GetMaxHealth()
 
-	local modifierLife = keys.modifier_life
 	local modifierMana = keys.modifier_mana
 	local modifierDamage = keys.modifier_damage
 	local modifierSpeed = keys.modifier_speed
@@ -166,7 +175,6 @@ function UpdateStats ( keys )
 	local intDamage = ability:GetSpecialValueFor("int_to_damage") * 0.01
 	local intSpeed = ability:GetSpecialValueFor("int_to_atkspd") * 0.01
 
-	summon:SetModifierStackCount(modifierLife, summon, (casterInt * intLife) + (casterHealth * healthLife))
 	summon:SetModifierStackCount(modifierMana, summon, casterInt * intMana)
 	summon:SetModifierStackCount(modifierDamage, summon, casterInt * intDamage)
 	summon:SetModifierStackCount(modifierSpeed, summon, casterInt * intSpeed)

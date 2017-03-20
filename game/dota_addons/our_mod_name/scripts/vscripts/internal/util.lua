@@ -1,7 +1,71 @@
+function CDOTA_BaseNPC:GetBackwardVector()
+  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetForwardVector() * 2)):Normalized()
+end
 
--- we can use these imba functions to implement our own cast range / cd reduction stuff, but we'd have to use it in each ability.
+function CDOTA_BaseNPC:GetLeftVector()
+  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetRightVector() * 2)):Normalized()
+end
+
+function CDOTA_BaseNPC:GetDownVector()
+  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetUpVector() * 2)):Normalized()
+end
+
+function CDOTA_BaseNPC:IsJuggernautIllusion()
+  if self:HasModifier("modifier_juggernaut_r_illusion") or self:HasModifier("modifier_juggernaut_r_vulnerable") then
+    return true
+  end
+  return false
+end
+
+function CDOTA_BaseNPC:HandleUnitHealth( desiredHealth )
+  local relativeHealth = self:GetHealthPercent() * 0.01
+  self:SetMaxHealth(desiredHealth)
+  self:SetBaseMaxHealth(desiredHealth)
+  self:SetHealth(desiredHealth * relativeHealth)
+end
+
+function CDOTA_BaseNPC:HasSpecialScepter()
+  local scepters = {
+      ["npc_dota_hero_pudge"] = "special_scepter_name",
+      ["npc_dota_hero_enigma"] = "special_scepter_name",
+  }
+  for hero, item in pairs(scepters) do
+    if self:GetUnitName() == hero then
+      if self:HasItemInInventory(item) then
+        return true
+      end
+    end
+  end
+  return false
+end
+
+--[[Author: Noya
+  Date: 09.08.2015.
+  Hides all dem hats
+]]
+function HideWearables(unit)
+  unit.hiddenWearables = {} -- Keep every wearable handle in a table to show them later
+  local model = unit:FirstMoveChild()
+  while model ~= nil do
+    if model:GetClassname() == "dota_item_wearable" then
+      model:AddEffects(EF_NODRAW) -- Set model hidden
+      table.insert(unit.hiddenWearables, model)
+    end
+    model = model:NextMovePeer()
+  end
+end
+
+function ShowWearables(unit)
+  for i,v in pairs(unit.hiddenWearables) do
+    v:RemoveEffects(EF_NODRAW)
+  end
+end
+
+------------------------------------------------------------------------------------------
+--borrowed from IMBA for reference when i actually need similar functions
+------------------------------------------------------------------------------------------
 -- Returns an unit's existing increased cast range modifiers
-function GetCastRangeIncrease( unit )
+function GetCastRangeIncrease(unit)
   local cast_range_increase = 0
   
   -- From items
@@ -22,8 +86,7 @@ function GetCastRangeIncrease( unit )
 end
 
 -- Returns the total cooldown reduction on a given unit
-function GetCooldownReduction( unit )
-
+function GetCooldownReduction(unit)
   local reduction = 1.0
 
   -- Octarine Core
@@ -33,45 +96,41 @@ function GetCooldownReduction( unit )
 
   return reduction
 end
+
 --------------------------------------------------------------------------------------------
-
 -- Talent Stuff
-function CDOTA_BaseNPC:HasTalent(talentName)
-    if self:HasAbility(talentName) then
-        if self:FindAbilityByName(talentName):GetLevel() > 0 then return true end
+--------------------------------------------------------------------------------------------
+function CDOTA_BaseNPC:HasTalent( talentName )
+  if self:HasAbility(talentName) then
+    if self:FindAbilityByName(talentName):GetLevel() > 0 then
+      return true
     end
-    return false
+  end
+  return false
 end
 
--- this can be improved significantly with a file that contains every talent and their values in it
-function CDOTA_BaseNPC:FindTalentValue(talentName)
-    if self:HasAbility(talentName) then
-      local talent = self:FindAbilityByName(talentName)
-      values = {}
-      table.insert(values, talent:GetSpecialValueFor("value"))
-      if talent:GetSpecialValueFor("value1") ~= nil then
-        table.insert(values, talent:GetSpecialValueFor("value1"))
+function CDOTA_BaseNPC:FindTalentValues( talentName )
+  if self:HasAbility(talentName) then
+    local values = {}
+    local kv = self:FindAbilityByName(talentName):GetAbilityKeyValues()
+    for k,v in pairs(kv) do
+      if k == "AbilitySpecial" then
+        for num,tab in pairs(v) do
+          for key,value in pairs(tab) do
+            if key ~= "var_type" then
+              values[tonumber(num)] = value
+              values[key] = value
+            end
+          end
+        end
       end
-      if talent:GetSpecialValueFor("value2") ~= nil then
-        table.insert(values, talent:GetSpecialValueFor("value2"))
-      end
-      if talent:GetSpecialValueFor("value3") ~= nil then
-        table.insert(values, talent:GetSpecialValueFor("value3"))
-      end
-      if talent:GetSpecialValueFor("value4") ~= nil then
-        table.insert(values, talent:GetSpecialValueFor("value4"))
-      end
-      if talent:GetSpecialValueFor("value5") ~= nil then
-        table.insert(values, talent:GetSpecialValueFor("value5"))
-      end
-      if talent:GetSpecialValueFor("value6") ~= nil then
-        table.insert(values, talent:GetSpecialValueFor("value6"))
-      end
-        return values
     end
-    return nil
+    return values
+  end
+  return nil
 end
-
+------------------------------------------------------------------
+-- Debug
 ------------------------------------------------------------------
 function DebugPrint(...)
   local spew = Convars:GetInt('barebones_spew') or -1
@@ -152,7 +211,6 @@ COLOR_ORANGE = '\x1B'
 COLOR_LRED = '\x1C'
 COLOR_GOLD = '\x1D'
 
-
 function DebugAllCalls()
     if not GameRules.DebugCalls then
         print("Starting DebugCalls")
@@ -171,30 +229,4 @@ function DebugAllCalls()
         GameRules.DebugCalls = false
         debug.sethook(nil, "c")
     end
-end
-
-
-
-
---[[Author: Noya
-  Date: 09.08.2015.
-  Hides all dem hats
-]]
-function HideWearables( unit )
-  unit.hiddenWearables = {} -- Keep every wearable handle in a table to show them later
-    local model = unit:FirstMoveChild()
-    while model ~= nil do
-        if model:GetClassname() == "dota_item_wearable" then
-            model:AddEffects(EF_NODRAW) -- Set model hidden
-            table.insert(unit.hiddenWearables, model)
-        end
-        model = model:NextMovePeer()
-    end
-end
-
-function ShowWearables( unit )
-
-  for i,v in pairs(unit.hiddenWearables) do
-    v:RemoveEffects(EF_NODRAW)
-  end
 end

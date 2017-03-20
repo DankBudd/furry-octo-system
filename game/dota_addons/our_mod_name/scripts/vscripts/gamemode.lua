@@ -32,7 +32,13 @@ require('libraries/modmaker')
 require('libraries/pathgraph')
 -- This library (by Noya) provides player selection inspection and management from server lua
 require('libraries/selection')
---
+-- This library by Wouterz90 (originally by Perry) can be used for lua tracking projectiles
+require('libraries/tracking_projectiles')
+-- This library makes use of PopupNumbers() for ez usage.
+require('libraries/popup')
+-- Knockback functions
+require('libraries/misc/knockback')
+-- some weird shit used for enigmas passive
 require('libraries/misc/mana_item_table_functions')
 
 -- These internal libraries set up barebones's events and processes.  Feel free to inspect them/change them if you need to.
@@ -44,6 +50,10 @@ require('settings')
 -- events.lua is where you can specify the actions to be taken when any event occurs and is one of the core barebones files.
 require('events')
 
+-- juggernauts lua script, used in order filter
+require('heroes/juggernaut')
+--
+require("items/debug_items")
 
 -- This is a detailed example of many of the containers.lua possibilities, but only activates if you use the provided "playground" map
 if GetMapName() == "playground" then
@@ -105,24 +115,32 @@ function GameMode:OnHeroInGame(hero)
   local item = CreateItem("item_example_item", hero, hero)
   hero:AddItem(item)]]
 
-  local debug_items = {
-      "item_debug_hero_spawn",
-      "item_debug_creep_spawn",
-      "item_debug_level_up",
-      "item_infernal_stone",
-  --  "",
-  }
-  local currentItem = 1
-  while currentItem <= #debug_items do
-    hero:AddItem(CreateItem(debug_items[currentItem], hero, hero))
-    currentItem = currentItem + 1
-  end
-
   --[[ --These lines if uncommented will replace the W ability of any hero that loads into the game
     --with the "example_ability" ability
   local abil = hero:GetAbilityByIndex(1)
   hero:RemoveAbility(abil:GetAbilityName())
   hero:AddAbility("example_ability")]]
+
+  local debugItems = {
+    "item_debug_hero_spawn",
+    "item_debug_creep_spawn",
+    "item_debug_level_up",
+    "item_debug_control_all_units",
+    "item_infernal_stone",
+  }
+
+  Timers:CreateTimer(1.0, function()
+ -- print(hero:GetPlayerID())
+    if not hero:IsNull() then
+      if hero:GetPlayerID() ~= -1 and not hero:HasModifier("modifier_juggernaut_temp_ult_illusion") then
+        -- give debug items and add them to table
+        for _,itemName in pairs(debugItems) do
+          local newItem = CreateItem(itemName, hero, hero)
+          hero:AddItem(newItem)
+        end
+      end
+    end
+  end)
 end
 
 --[[
@@ -148,6 +166,9 @@ function GameMode:InitGameMode()
   GameMode = self
   DebugPrint('[BAREBONES] Starting to load Barebones gamemode...')
 
+  --First set the filter to start catching events, usually this is in your init
+  GameRules:GetGameModeEntity():SetExecuteOrderFilter(Dynamic_Wrap(GameMode, "OrderFilter"), self)
+
   -- Commands can be registered for debugging purposes or as functions that can be called by the custom Scaleform UI
   Convars:RegisterCommand( "command_example", Dynamic_Wrap(GameMode, 'ExampleConsoleCommand'), "A console command example", FCVAR_CHEAT )
 
@@ -165,6 +186,40 @@ function GameMode:ExampleConsoleCommand()
       PlayerResource:ReplaceHeroWith(playerID, "npc_dota_hero_viper", 1000, 1000)
     end
   end
-
   print( '*********************************************' )
 end
+
+function GameMode:OrderFilter(filterTable)
+  local units = filterTable["units"]
+  local issuer = filterTable["issuer_player_id_const"]
+  --DeepPrintTable(filterTable)
+
+  for _,unitIndex in pairs(units) do
+    local unit = EntIndexToHScript(unitIndex)
+    if unit:GetUnitName() == "npc_dota_hero_juggernaut" and unit:IsRealHero() then
+      JuggernautIllusionLogic(filterTable)
+    end
+  end
+  --Return true by default to keep all other orders unchanged
+  return true
+end
+
+
+
+--[[
+CustomGameEventManager:Send_ServerToAllClients("quests_create_quest", {name = "Survive", desc = "The Wolves Are Coming!", max = 60, id = 5, imagePath = "file://{resources}/images/custom_game/quest/holdout_guardian_angel.png"})
+CustomGameEventManager:Send_ServerToAllClients("quests_update_quest", {max = 60, current = 5, id = 5})
+
+
+local timeElapsed = 0
+Timers:CreateTimer(1, function()
+  timeElapsed = timeElapsed + 1
+  if timeElapsed >= 60 then
+    --remove quest
+    CustomGameEventManager:Send_ServerToAllClients("quests_remove_quest", {id = 5})
+  else
+    CustomGameEventManager:Send_ServerToAllClients("quests_update_quest", {max = 60, current = timeElapsed, id = 5})
+    return 1
+  end
+end)
+]]

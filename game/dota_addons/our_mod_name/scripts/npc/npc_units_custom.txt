@@ -287,11 +287,11 @@
 
     "npc_testing_courier"
     {
-        "BaseClass"                 "npc_dota_courier"
+        "BaseClass"                 "npc_dota_creature"
         "Model"                     "models/courier/sillydragon/sillydragon.vmdl"
         "SoundSet"                  "Creep_Good_Range"
         "Level"                     "0"
-        "UnitLabel"                 "courier"
+        "UnitLabel"                 ""
 
         "Ability1" ""
         "Ability2" ""
@@ -314,15 +314,16 @@
         "FollowRange"               "150"
 
         "TeamName"                  "DOTA_TEAM_GOODGUYS"
-        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_COURIER"
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO"
 
         "AttackDesire" "1.5"
+        "HasInventory"  "1"
     }
 
     "npc_infernal_summon"
     {
         "BaseClass"                 "npc_dota_creep_neutral"
-        "Model"                     "models/courier/sillydragon/sillydragon.vmdl"
+        "Model"                     "models/heroes/warlock/warlock_demon.vmdl"
         "SoundSet"                  "Hero_WarlockGolem"
         "Level"                     "0"
         "UnitLabel"                 "hero_summon"
@@ -380,5 +381,233 @@
                 //"Wearable6" { "ItemDef" "" }
             }
         }
+    }
+
+    "furion_treant1"
+    {
+        "BaseClass"                 "npc_dota_creep_neutral"
+        "Model"                     "models/heroes/furion/treant.mdl"
+        "SoundSet"                  "Furion_Treant"
+        "ModelScale"                "0.80"
+        "SelectionGroup"            "Furion_Treants"
+        
+        "Level"                     "2"
+        "UnitLabel"                 "summon"
+
+        "Ability1" "seed_of_life"
+        "Ability2" "splitting_nightmare"
+        "Ability3"  "natures_wrath"
+
+        "IsSummoned"                "1"
+        "CanBeDominated"            "1"
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "ArmorPhysical"     "2"
+        "MagicalResistance" "4"
+
+        "AttackDamageMin"            "4 5 6 7"       // Damage range min.
+        "AttackDamageMax"            "7 8 9 10"       // Damage range max.
+        "AttackRate"                 "1.7"     // Speed of attack.
+        "AttackAnimationPoint"       "0.65"    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"     "575"     // Range within a target can be acquired.
+        "AttackRange"                "150"     // Range within a target can be attacked.
+        "AttackRangeBuffer"          "215"     // Extra range the target can move without canceling the attack
+
+        "BoundsHullName"    "DOTA_HULL_SIZE_HERO"
+
+        "StatusHealth"      "100 110 120 130"
+        "StatusHealthRegen" "0.5"
+        "StatusMana"        "200"
+        "StatusManaRegen"   "0.3"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "325"
+        "MovementTurnRate"          "1.0"
+    }
+
+    "furion_treant2"
+    {
+        "BaseClass"                 "npc_dota_creep_neutral"
+        "Model"                     "models/heroes/furion/treant.mdl"
+        "SoundSet"                  "Furion_Treant"
+        "ModelScale"                "0.80"
+        "SelectionGroup"            "Furion_Treants"
+        
+        "Level"                     "4"
+        "UnitLabel"                 "summon"
+
+        "Ability1" "seed_of_life"
+        "Ability2" "splitting_nightmare"
+        "Ability3"  "natures_wrath"
+
+        "IsSummoned"                "1"
+        "CanBeDominated"            "1"
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "ArmorPhysical"     "2"
+        "MagicalResistance" "7"
+
+        "AttackDamageMin"            "5"       // Damage range min.
+        "AttackDamageMax"            "8"       // Damage range max.
+        "AttackRate"                 "1.7"     // Speed of attack.
+        "AttackAnimationPoint"       "0.65"    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"     "575"     // Range within a target can be acquired.
+        "AttackRange"                "150"     // Range within a target can be attacked.
+        "AttackRangeBuffer"          "215"     // Extra range the target can move without canceling the attack
+
+        "BoundsHullName"    "DOTA_HULL_SIZE_HERO"
+
+        "StatusHealth"      "110"
+        "StatusHealthRegen" "0.5"
+        "StatusMana"        "200"
+        "StatusManaRegen"   "0.3"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "325"
+        "MovementTurnRate"          "1.0"
+    }
+
+    "furion_treant3"
+    {
+        "BaseClass"                 "npc_dota_creep_neutral"
+        "Model"                     "models/heroes/furion/treant.mdl"
+        "SoundSet"                  "Furion_Treant"
+        "ModelScale"                "0.80"
+        "SelectionGroup"            "Furion_Treants"
+        
+        "Level"                     "6"
+        "UnitLabel"                 "summon"
+
+        "Ability1" "seed_of_life"
+        "Ability2" "splitting_nightmare"
+        "Ability3"  "natures_wrath"
+
+        "IsSummoned"                "1"
+        "CanBeDominated"            "1"
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "ArmorPhysical"     "2"
+        "MagicalResistance" "10"
+
+        "AttackDamageMin"            "6"       // Damage range min.
+        "AttackDamageMax"            "9"       // Damage range max.
+        "AttackRate"                 "1.7"     // Speed of attack.
+        "AttackAnimationPoint"       "0.65"    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"     "575"     // Range within a target can be acquired.
+        "AttackRange"                "150"     // Range within a target can be attacked.
+        "AttackRangeBuffer"          "215"     // Extra range the target can move without canceling the attack
+
+        "BoundsHullName"    "DOTA_HULL_SIZE_HERO"
+
+        "StatusHealth"      "120"
+        "StatusHealthRegen" "0.5"
+        "StatusMana"        "200"
+        "StatusManaRegen"   "0.3"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "325"
+        "MovementTurnRate"          "1.0"
+    }
+
+    "furion_treant4"
+    {
+        "BaseClass"                 "npc_dota_creep_neutral"
+        "Model"                     "models/heroes/furion/treant.mdl"
+        "SoundSet"                  "Furion_Treant"
+        "ModelScale"                "0.80"
+        "SelectionGroup"            "Furion_Treants"
+        
+        "Level"                     "8"
+        "UnitLabel"                 "summon"
+
+        "Ability1" "seed_of_life"
+        "Ability2" "splitting_nightmare"
+        "Ability3"  "natures_wrath"
+
+        "IsSummoned"                "1"
+        "CanBeDominated"            "1"
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "ArmorPhysical"     "2"
+        "MagicalResistance" "13"
+
+        "AttackDamageMin"            "7"       // Damage range min.
+        "AttackDamageMax"            "10"       // Damage range max.
+        "AttackRate"                 "1.7"     // Speed of attack.
+        "AttackAnimationPoint"       "0.65"    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"     "575"     // Range within a target can be acquired.
+        "AttackRange"                "150"     // Range within a target can be attacked.
+        "AttackRangeBuffer"          "215"     // Extra range the target can move without canceling the attack
+
+        "BoundsHullName"    "DOTA_HULL_SIZE_HERO"
+
+        "StatusHealth"      "130"
+        "StatusHealthRegen" "0.5"
+        "StatusMana"        "200"
+        "StatusManaRegen"   "0.3"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "325"
+        "MovementTurnRate"          "1.0"
+    }
+
+    "furion_treant_split"
+    {
+        "BaseClass"                 "npc_dota_creep_neutral"
+        "Model"                     "models/heroes/furion/treant.mdl"
+        "SoundSet"                  "Furion_Treant"
+        "ModelScale"                "0.80"
+        "SelectionGroup"            "Furion_Treants"
+
+        "Level"                     "1"
+        "UnitLabel"                 "summon"
+
+        "Ability1" "seed_of_life"
+
+        "IsSummoned"                "1"
+        "CanBeDominated"            "1"
+
+        "BountyXP"                  "0"
+        "BountyGoldMin"             "0"
+        "BountyGoldMax"             "0"
+
+        "ArmorPhysical"     "2"
+        "MagicalResistance" "4"
+
+        "AttackDamageMin"            "4"       // Damage range min.
+        "AttackDamageMax"            "7"       // Damage range max.
+        "AttackRate"                 "1.7"     // Speed of attack.
+        "AttackAnimationPoint"       "0.65"    // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"     "575"     // Range within a target can be acquired.
+        "AttackRange"                "100"     // Range within a target can be attacked.
+        "AttackRangeBuffer"          "215"     // Extra range the target can move without canceling the attack
+
+        "BoundsHullName"    "DOTA_HULL_SIZE_SMALL"
+
+        "StatusHealth"      "100"
+        "StatusHealthRegen" "0.5"
+        "StatusMana"        "200"
+        "StatusManaRegen"   "0.3"
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "325"
+        "MovementTurnRate"          "1.0"
     }
 }

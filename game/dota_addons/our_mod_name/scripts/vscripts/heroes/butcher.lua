@@ -1,10 +1,9 @@
---[[ 	Authors: Pizzalol and D2imba
-		Date: 10.07.2015				]]
-
 --[[///////////////
 /// Glory Hook ///
 /////////////////]]
 
+--[[ 	Authors: Pizzalol and D2imba
+		Date: 10.07.2015				]]
 function HookCast( keys )
 	local caster = keys.caster
 	local target = keys.target_points[1]
@@ -298,8 +297,8 @@ function FreshMeatModifier( keys )
 	local stackCountSelf = ability:GetSpecialValueFor("self_damage_increase")
 
 	if caster:HasTalent(talent) then
-		stackCount = caster:GetMaxHealth() * (hpToDamage + (caster:FindTalentValue(talent)[2] * 0.01))
-		stackCountSelf = stackCountSelf - caster:FindTalentValue(talent)[4]
+		stackCount = caster:GetMaxHealth() * (hpToDamage + (caster:FindTalentValues(talent)[2] * 0.01))
+		stackCountSelf = stackCountSelf - caster:FindTalentValues(talent)[4]
 	end
 	caster:SetModifierStackCount(keys.modifier, caster, stackCount)
 	caster:SetModifierStackCount(keys.modifier_self, caster, stackCountSelf)
@@ -313,12 +312,12 @@ function FreshMeat( keys )
 	local duration = ability:GetSpecialValueFor("disarm_duration")
 	local heal = keys.attack_damage * lifesteal
 	local talent = "special_bonus_unique_butcher_3"
+	local damage = caster:FindTalentValues(talent)[6] * keys.attack_damage * 0.01
 
 	if caster:HasTalent(talent) then
-		duration = duration + caster:FindTalentValue(talent)[1]
-		heal = keys.attack_damage * (lifesteal + (caster:FindTalentValue(talent)[3] * 0.01))
-		FreshMeatCleave(caster, ability, target, keys.attack_damage, talent)
---		DoCleaveAttack(caster, target, ability, keys.attack_damage * caster:FindTalentValue(talent)[6] * 0.01, 150, 280, 500, "particles/items_fx/battlefury_cleave.vpcf")
+		duration = duration + caster:FindTalentValues(talent)[1]
+		heal = keys.attack_damage * (lifesteal + (caster:FindTalentValues(talent)[3] * 0.01))
+		DoCleaveAttack(caster, target, ability, damage, 400, 400, 400, "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf")
 	end
 	ability:ApplyDataDrivenModifier(caster, target, keys.modifier_disarm, {duration = duration})
 	caster:Heal(heal, caster)
@@ -331,40 +330,8 @@ function FreshMeatCooldown( keys )
 
 	if caster:HasTalent(talent) then
 		ability:EndCooldown()
-		ability:StartCooldown(ability:GetCooldown(ability:GetLevel()) - caster:FindTalentValue(talent)[5])
+		ability:StartCooldown(ability:GetCooldown(ability:GetLevel()) - caster:FindTalentValues(talent)[5])
 	end
-end
-
-
-function FreshMeatCleave( caster, ability, target, attackDamage, talent )
-	local cleaveEffect = "particles/items_fx/battlefury_cleave.vpcf"
-	local cleaveDistance = 400
---	local cleaveStartRadius = 280
---	local cleaveEndRadius = 280
-	local cleaveDamage = caster:FindTalentValue(talent)[6] * 0.01
-	local damage = attackDamage * cleaveDamage
-
-	--utilize DoCleaveAttack for cleave particle, kek
-	EmitSoundOn("DOTA_Item.BattleFury", target)
-	EmitSoundOn("hero_bloodseeker.bloodRite", target) --Hero_EarthShaker.Totem.Attack
-
-	local units = FindUnitsInRadius(caster:GetTeamNumber(), target:GetAbsOrigin(), nil, cleaveDistance, DOTA_UNIT_TARGET_TEAM_ENEMY, DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC, DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
-	for _,unit in pairs(units) do
-		
-		-- calculation for caster position and unit position
-		local casterPos = caster:GetAbsOrigin()
-		local targetPos = unit:GetAbsOrigin()
-
-		local direction = (targetPos - casterPos):Normalized()
-		local forwardVector = caster:GetForwardVector()
-		local angle = math.abs(RotationDelta((VectorToAngles(direction)), VectorToAngles(forwardVector)).y)
-
-		--if unit is in front of caster
---		if angle <= 85 / 2 then
-			ApplyDamage({victim = unit, attacker = caster, ability = ability, damage = damage, damage_type = DAMAGE_TYPE_PHYSICAL, damage_flags = DOTA_DAMAGE_FLAG_NO_DAMAGE_MULTIPLIERS + DOTA_DAMAGE_FLAG_IGNORES_PHYSICAL_ARMOR})
---		end
-	end 
-	DoCleaveAttack(caster, target, ability, 0, 400, 400, 400, cleaveEffect)
 end
 
 --[[//////////////
@@ -374,17 +341,20 @@ end
 function DismemberStart( keys )
 	local caster = keys.caster
 	local ability = keys.ability
+	local duration = ability:GetSpecialValueFor("creep_duration")
+	local target = keys.target
+	ability.target = target
+
 	if caster:HasScepter() then
 		ability.damage = ability:GetSpecialValueFor("dismember_damage") + ability:GetSpecialValueFor("strength_damage_scepter") * 0.01
 	else
 		ability.damage = ability:GetSpecialValueFor("dismember_damage")
 	end
 	if caster:HasTalent("special_bonus_unique_butcher_6") then
-		ability.damage = ability.damage * caster:FindTalentValue("special_bonus_unique_butcher_6")[2] * 0.01
+		ability.damage = ability.damage * caster:FindTalentValues("special_bonus_unique_butcher_6")[2] * 0.01
 	end
-	local duration = ability:GetSpecialValueFor("creep_duration")
-	local target = keys.target
-	ability.target = target
+
+--	target:EmitSound(keys.sound_name)
 
 	ability:ApplyDataDrivenModifier(caster, target, keys.modifier, {duration = duration})
 	ability:ApplyDataDrivenModifier(caster, target, "modifier_butcher_dismember_channeling", {duration = duration})
@@ -395,10 +365,7 @@ function DismemberDropMeat( keys )
 	local caster = keys.caster
 	local target = keys.target
 	local ability = keys.ability
-	if not target then return end
-
-	local duration = ability:GetSpecialValueFor("creep_duration")
-	local targetPos = target:GetAbsOrigin()
+	if not target or not caster or not ability then return end
 
 	ApplyDamage({victim = target, attacker = caster, ability = ability, damage = ability.damage, damage_type = ability:GetAbilityDamageType(), damage_flags = DOTA_DAMAGE_FLAG_NONE})
 	
@@ -410,13 +377,16 @@ function DismemberDropMeat( keys )
 	end
 	
 	while meatDropped <= keys.meatToDrop do
-		-- create meat dummy
+		local targetPos = target:GetAbsOrigin() + RandomVector(1)
 		local meat = CreateUnitByName("npc_dummy_blank", targetPos, true, nil, nil, caster:GetTeamNumber())
+		local particle = ParticleManager:CreateParticle("particles/dismember_meat_blood_spray.vpcf", PATTACH_ABSORIGIN_FOLLOW, meat)
 		ability:ApplyDataDrivenModifier(caster, meat, "modifier_butcher_dismember_meat_thinker", {})
 		ability:ApplyDataDrivenModifier(caster, meat, "modifier_butcher_dismember_meat_dummy", {})
-		-- 'throw' meat from target
-		meat:AddNewModifier(caster, nil, "modifier_knockback", {should_stun = 1, knockback_distance = RandomInt(90,225), knockback_height = RandomInt(80,130),
-			center_x = targetPos.x, center_y = targetPos.y, center_z = targetPos.z, knockback_duration = RandomFloat(0.5,1.7)})
+
+		meat:AddNewModifier(caster, nil, "modifier_knockback", {should_stun = 0, knockback_distance = RandomInt(25, 165), knockback_height = RandomInt(80, 180), knockback_duration = RandomFloat(0.5, 1.2),
+			center_x = targetPos.x,
+			center_y = targetPos.y,
+			center_z = targetPos.z})
 		meatDropped = meatDropped + 1
 	end
 end
@@ -433,63 +403,48 @@ CDOTA_Modifier_Knockback
 ]]
 
 function DismemberMeatHeal( keys )
-	-- if 1 or more units are within meat range for longer than grace period then heal all units found
-	-- ignore caster for triggering heal if he is still channeling ultimate, 
-	--  but he can still be healed if someone else triggers it
 	local caster = keys.caster
 	local meat = keys.target
 	local ability = keys.ability
-	local baseHeal = ability:GetSpecialValueFor("meat_heal")
+	local baseHeal = ability:GetSpecialValueFor("meat_heal")	
+	local gracePeriod = 0.565
+
 	local strengthHeal = ability:GetSpecialValueFor("str_to_meat_heal") * 0.01
 	if caster:HasScepter() then
 		strengthHeal = strengthHeal + ability:GetSpecialValueFor("str_to_meat_heal_scepter") * 0.01
 	end
 	if caster:HasTalent("special_bonus_unique_butcher_6") then
-		strengthHeal = strengthHeal + caster:FindTalentValue("special_bonus_unique_butcher_6")[3]*0.01
+		strengthHeal = strengthHeal + caster:FindTalentValues("special_bonus_unique_butcher_6")[3] * 0.01
 	end
+
 	local heal = baseHeal + strengthHeal * caster:GetStrength()
-	local gracePeriod = 0.7
 	if not meat then return end
 	Timers:CreateTimer(0.1, function()
 		if meat and not meat:IsNull() then 
-			local units = FindUnitsInRadius(caster:GetTeamNumber(), meat:GetAbsOrigin(), nil, 75, DOTA_UNIT_TARGET_TEAM_FRIENDLY, ability:GetAbilityTargetType(), DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
-			if #units >= 1 then
-				--decide if grace timer needs to start
-				if not meat.graceTimer then
-				--	print("grace timer is not active!")
-					for _,unit in pairs(units) do
-						if unit:HasModifier("modifier_butcher_dismember_channeling") then
-						--	print("target is caster and is channeling")
-						else
-							if unit:HasModifier("modifier_butcher_dismember_meat_dummy") then
-							--	print("target is dummy, ignoring")
-							else
-							--	print("starting grace timer!")
-								--start grace timer
-								------------------------------
-								meat.graceTimer = Timers:CreateTimer(gracePeriod, function()
-									--heal units found
-								--	print("healing units!")
-									SendOverheadEventMessage(unit, OVERHEAD_ALERT_HEAL, unit, heal, nil)
-									unit:Heal(heal, caster)
-									--after heal remove meat
-								--	print("removing meat!")
-									meat:RemoveSelf()
-								end)
-								-----------------------------
-								break
+			if caster and not caster:IsNull() then
+				local units = FindUnitsInRadius(caster:GetTeamNumber(), meat:GetAbsOrigin(), nil, 75, DOTA_UNIT_TARGET_TEAM_FRIENDLY, ability:GetAbilityTargetType(), DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
+				if #units >= 1 then
+					if not meat.graceTimer then
+						for _,unit in pairs(units) do
+							if not unit:HasModifier("modifier_butcher_dismember_channeling") then
+								if not unit:HasModifier("modifier_butcher_dismember_meat_dummy") then
+									meat.graceTimer = Timers:CreateTimer(gracePeriod, function()
+										SendOverheadEventMessage(unit, OVERHEAD_ALERT_HEAL, unit, heal, nil)
+										unit:Heal(heal, caster)
+										meat:RemoveSelf()
+									end)
+									break
+								end
 							end
 						end
 					end
+				else
+					if meat.graceTimer then
+						Timers:RemoveTimer(meat.graceTimer)
+					end
 				end
-			else
-				if meat.graceTimer then
-				--	print("no units found and grace timer is ongoing, removing grace timer")
-					-- if no units found, remove grace timer. no heals will be given and meat will remain
-					Timers:RemoveTimer(meat.graceTimer)
-				end
+				return 0.1
 			end
-			return 0.1
 		end
 	end)
 end
@@ -503,4 +458,129 @@ function DismemberEnd( keys )
 		ability.target = nil
 	end
 	caster:RemoveModifierByNameAndCaster("modifier_butcher_dismember_channeling", caster)
+end
+
+--[[///////////////
+/// Weird Meat ///
+/////////////////]]
+
+function WeirdMeatUpdate( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+
+	local healthBonus = ability:GetSpecialValueFor("health_bonus") 
+	local strToLife = ability:GetSpecialValueFor("str_to_life")
+	local regen = ability:GetSpecialValueFor("regen")
+	local magicResist = ability:GetSpecialValueFor("magic_resist")
+	local damageReduction = ability:GetSpecialValueFor("damage_reduction")
+	local spellAmp = ability:GetSpecialValueFor("spell_amp")
+
+	local talent = "special_bonus_unique_butcher_5"
+	local talentValues = caster:FindTalentValues(talent)
+	if caster:HasTalent(talent) then
+		healthBonus = healthBonus * talentValues["mult"]
+		strToLife = strToLife * talentValues["str_bonus"]
+		regen = regen * talentValues["mult"]
+		magicResist = magicResist * talentValues["mult"]
+		damageReduction = damageReduction * talentValues["mult"]
+		spellAmp = spellAmp * talentValues["mult"]
+		if not caster:HasModifier("modifier_meat_eater") then
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_meat_eater", {})
+		end
+	end
+	-- doing it like this should give them 0.2/0.4/0.6/0.8 more hp than they should have, kek
+	-- if this doesnt work then remove modifier instead, reapply after life is calculated
+	caster:SetModifierStackCount("modifier_weird_meat_health_bonus", caster, 0)
+	local life = healthBonus*0.01 * caster:GetMaxHealth() + strToLife* 0.01 * caster:GetStrength()
+
+	caster:SetModifierStackCount("modifier_weird_meat_health_bonus", caster, life)
+	caster:SetModifierStackCount("modifier_weird_meat_regen", caster, regen)
+	caster:SetModifierStackCount("modifier_weird_meat_magic_resist", caster, magicResist)
+	caster:SetModifierStackCount("modifier_weird_meat_damage_reduction", caster, damageReduction)
+	caster:SetModifierStackCount("modifier_weird_meat_spell_amp", caster, spellAmp)
+end
+
+function WeirdMeatOnHit( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+	local target = keys.target
+	if not caster or not target or caster:HasModifier("modifier_meat_eater_cooldown") then return end
+
+	ApplyDamage({victim = target, attacker = caster, ability = ability, damage = target:GetMaxHealth() * talentValues["health_damage"]*0.01, damage_type = DAMAGE_TYPE_PURE})
+	caster:RemoveModifierByNameAndCaster("modifier_meat_eater", caster)
+	ability:ApplyDataDrivenModifier(caster, caster, "modifier_meat_eater_cooldown", {duration = talentValues["cooldown"]})
+end
+
+
+--[[///////////////
+/// Flesh Heap ///
+/////////////////]]
+
+function FleshHeapDecrement( keys )
+	local caster = keys.caster
+	local oldStacks = caster:GetModifierStackCount(keys.modifier, caster)
+
+	if oldStacks > 0 then
+		caster:SetModifierStackCount(keys.modifier, caster, oldStacks - 1)
+	end
+end
+
+function FleshHeapKill( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+	local unit = keys.unit
+	local duration = ability:GetSpecialValueFor("duration")
+	local maxStacks = ability:GetSpecialValueFor("max_stacks")
+	local curStacks = caster:GetModifierStackCount("modifier_butcher_flesh_heap", caster)
+
+	local talentValues = caster:FindTalentValues("special_bonus_unique_butcher_4")
+	if caster:HasTalent("special_bonus_unique_butcher_4") then
+		if not caster:HasModifier("modifier_butcher_flesh_heap_magic_resist_talent") then
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_magic_resist_talent", {})
+		end
+		maxStacks = maxStacks + talentValues["max_stacks"]
+		duration = duration + talentValues["duration"]
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_str_talent", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_regen_talent", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_life_talent", {duration = duration})
+	end
+
+	if not unit:IsBuilding() and not unit:HasModifier("modifier_butcher_flesh_heap_aura") then
+		if curStacks < maxStacks then
+			caster:SetModifierStackCount("modifier_butcher_flesh_heap", caster, curStacks + 1)
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_str", {duration = duration})
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_atk_spd", {duration = duration})
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_regen", {duration = duration})
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_life", {duration = duration})
+		end
+	end
+end
+
+function FleshHeapDeath( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+	local unit = keys.unit
+	local duration = ability:GetSpecialValueFor("duration")
+	local maxStacks = ability:GetSpecialValueFor("max_stacks")
+	local curStacks = caster:GetModifierStackCount("modifier_butcher_flesh_heap", caster)
+
+	local talentValues = caster:FindTalentValues("special_bonus_unique_butcher_4")
+	if caster:HasTalent("special_bonus_unique_butcher_4") then
+		if not caster:HasModifier("modifier_butcher_flesh_heap_magic_resist_talent") then
+			ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_magic_resist_talent", {})
+		end
+		maxStacks = maxStacks + talentValues["max_stacks"]
+		duration = duration + talentValues["duration"]
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_str_talent", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_regen_talent", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_life_talent", {duration = duration})
+	end
+
+	if curStacks < maxStacks then
+		caster:SetModifierStackCount("modifier_butcher_flesh_heap", caster, curStacks + 1)
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_str", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_atk_spd", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_regen", {duration = duration})
+		ability:ApplyDataDrivenModifier(caster, caster, "modifier_butcher_flesh_heap_life", {duration = duration})
+	end
 end
