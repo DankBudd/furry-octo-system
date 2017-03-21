@@ -1,4 +1,4 @@
-Furion -- Summoner-Support , starting stats 12 int, 6 agi, 3 str, base speed 280, base damage 6, Stats Gain per level 1.00 int, 1.20 str, 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 50 mana base attack time 1.55
+Furion -- Summoner-Support , starting stats 9 int, 2 agi, 4 str, base speed 280, base damage 3, Stats Gain per level 1.00 int, 0.50 str, 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 30 mana base attack time 1.65
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -18,20 +18,21 @@ give 14 int 4.5 mana regen and 10% Spell amp
 
 PASSIVE D OR F Nature Way
 
-increase overall stats/talent 25 upgrade doubling and giving a new modifier
+increase overall stats and give a positive and negative buff
 
-mana bonus 4% 8% 12% 16%/25 talent 8% 16% 24% 32%
-healing amp 3% 6% 9% 12%/25 talent 6% 12% 18% 24%
-life bonus 30 60 90 120/25 talent 60 120 180 240
-life-regen 1.5 2.5 3.5/25 talent 3 5 7
-intelligence bonus 8 16/25 talent 16 32
-every 1 intelligence point, increase life by 2
+BUFF Furion will get 3 life bonus and 2 mana bonus per intelligence also gaining 0.1 armor per level
+DEBUFF Furion cannot have any Armor-Chest-Peice 
+mana bonus 4% 8% 12% 16%
+healing amp 3% 6% 9% 12%
+life bonus 30 60 90 120
+life-regen 1.2 2.2 3.2
+intelligence bonus 8 12
 
 talent 25 modifer
-increase life per 1 point of intelligence by 1
-new modifier Nature Blessing
-every time u cast a spell restore 3% life to near ally around you 400 radius doesnt affect furion
-
+double all stats
+give a new modifier Guardian of the Forest
+any trees around Furion will have 6% chance per second near them to turn into a Treant, these Treant
+will have only 50% of the current normal Treant stats but can last until kill, max of 4
 
 SPELL Q
 Nature Wrath
