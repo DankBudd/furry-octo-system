@@ -1,4 +1,4 @@
-Muradin,Mountain King Nuker-DSP Starting stats 1 Int, 5 Agi, 6 Str, base speed 280, base damage 5, Stats Gain per level 1.00 int, 1.60 str, 0.00 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+Muradin,Mountain King Nuker-DSP Starting stats 1 Int, 4 Agi, 6 Str, base speed 280, base damage 5, Stats Gain per level 1.00 int, 1.60 str, 0.00 agi, starting item Rusty Hammer increase damage by 4 and reduce coldown by 4% base attack time 2.10
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -16,22 +16,21 @@ talent 2
 
 PASSIVE D OR F
 Dwarft Might
-increase overall stats
+increase overall stats and give a positive and negative buff
 
+BUFF Muradin start with 2 armor and he gain 1 armor per 30 strenght and for each armor point Muradin got he gain 1 damage
+DEBUFF Muradin got 25% less magic resist with a 35% life penalty and he can only use hammer type weapons
 life bonus 2% 4% 6% 8%
 life regen 1 1.5 2 2.5
 spell amp 4% 5% 6% 7%
 Strenght 6 7 8 9
 magic resist 5% 10%
-Muradin will get 1 armor for every 45 str he got
 
 Talent level 25 Upgrade Dwarft Might
 double all stats
-reduce how much strenght Muradin need for armor by 5
-
 add a new modifier Thunder Hammer
-every basic attack, Muradin Release a Chain Lightning dealing 10 physical damage plus 5% of strenght
-that jump up to 5 target
+every basic attack, Muradin Release a Chain Lightning dealing 3 physical damage plus 7% of strenght
+that jump up to 7 target
 
 
 SPELL Q
