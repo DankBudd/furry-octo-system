@@ -1,4 +1,4 @@
-Enigma,Gravity lord Starting stats 15 Int, 3 Agi, 5 Str, base speed 270, base damage 4, Stats Gain per level 1.40 int, 0.80 str, 0.70 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
+Enigma,Gravity lord Starting stats 15 Int, 3 Agi, 5 Str, base speed 270, base damage 4, Stats Gain per level 1.40 int, 0.80 str, 0.40 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,11 +8,11 @@ max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8
 LEVEL 20 TALENT
 
 talent 1
-give 4 armor and 12% magic resist with 150 life
+give 3 life-regen 12% magic resist with 150 life
 
 
 talent 2
-give 8% spell amp 4 mana regen with 12 int
+give 7% spell amp 4 mana regen with 11 int
 
 
 
@@ -20,24 +20,25 @@ give 8% spell amp 4 mana regen with 12 int
 PASSIVE D OR F level needed 1 5 15 25 
 
 Gravity Lord
+Increase overall stats and give a positive and negative buff
 
-Increase overall stats
-mana bonus 4% 8% 12% 16%/upgrade 8% 16% 24% 32%
-Mana regen 3 4 5 6/upgrade 6 8 10 12
-Spell amp 3% 6% 9% 12%/upgrade 6% 12% 18% 24%
-cast range 50 100 150/upgrade 100 200 300
-Spell vamp 3% 6%/upgrade 6% 12%
-for every 20 int enigma spell will do 1 pure damage
+BUFF enigma spell will do 1 pure damage per 10 int
+DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time
+mana bonus 4% 8% 12% 16%
+Mana regen 2 3 4 5
+Spell amp 2% 4% 6% 8%
+cast range 70 140 210
+Spell vamp 4% 8%
+
 
 talent level 25 upgrade Gravity Lord
 double all stats
-reduce the amount of int needed for pure damage by 5
-add a new modifier Greater Void Power
-empower the next spell casted by enigma spell, cooldown 60
+give a new modifier Pure Gravity
+empower next enigma spell
+VOID CURSE deal 6 more damage and lower the cooldown by 3
+GRAVITY WELL increase duration by 1 and lower the cooldown by 5
+GRAVITY BOLT deal pure damage instead
 
-VOID CURSE increase the damage by 25 but the cooldown is increase cooldown by 6
-GRAVITY WELL increase the radius by 400 and the duration by 4 but the cooldown is increase by 8
-GRAVITY BOLT change the damage to pure and inceasing the damage by 10 but the cooldown is increase by 2
 
 SPELL Q level needed 1 4 9 15
 
@@ -109,13 +110,13 @@ increase intelligence scaling by 25%
 increase cast range by 100
 increase healing recive by 10%
 reduce cooldown by 1
-mana cost reduce by 30
+mana cost reduce by 60
 
 add a new modifier Void Fissure
 every cast of Gravity Bolt will increase enigma intelligence by 4 and is magic resist by 1%
-if he kill a unit with this spell he will gain 1 perma-int for 7 normal unit and 2 int for bosses. if enigma
-reach 5 stack of Void Fissure next cast of Gravity Bolt will have 1 cooldown reducion and 10 damage increase
-consuming all stack, this can only happen every 6 second meaning that he cant get anystack for 6 second
+if he kill a unit with this spell he will gain 1 perma-int for 11 normal unit and 2 int for bosses. if enigma
+reach 5 stack of Void Fissure next cast of Gravity Bolt will have 1 cooldown reducion and have 10 damage increase
+consuming all stack, this can only happen every 12 second meaning that he cant get anystack for 12 second
 
 
 PASSIVE D OR F level needed 3 7 11 15
