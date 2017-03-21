@@ -18,20 +18,21 @@ give 11 mana regen, 13 int and 200 cast range
 
 PASSIVE CORE D OR F
 Corrupted Flesh
-increase all stats, double with talent level 25, giving a new modifier
+increase all stats and give a positive and negative buff
 
-int 7 10 13 16
+BUFF Necro has 20% base magic resist and he also regen his skeleton summon life by 1%
+DEBUFF Necro will take 30% more damage from physical damage and he got -3 base armor
+int 7 9 11 13
 mana regen 2 3 4 5
 mana bonus 4% 8% 12% 16%
 cast range 100 150 200
 life bonus 5% 10%
 
-Any summon near Necro will regen 0.40% of ther max life per second
-
 talent level 25, upgrade Corrupted Flesh
-Double all bonus and giving a new modifier
-increase the life regen by 0.40%
-Dead walk among us, for every summon that die necro will heal for 1.5% of is health
+Double all bonus
+give a new modfier Death Walks Among Us
+any enemy that die near Necro 400 radius will be reanimated as a skeleton
+that last for 15 second with 100% of the normal skeleton stats as well
 
 
 SPELL Q
