@@ -24,9 +24,9 @@ DEBUFF riki only gain 2 life per strenght and he take 30% more damage from pure,
 damage 3 5 7 9
 attackspeed 4 8 12 16
 allstats 2 3 4 5
-magic resist 3% 5% 7%
-spellvamp 5% 10%
-
+magic resist 3% 5% 7% 9%
+spellvamp 4% 8% 12% 16%
+ 
 talent level 25 upgrade Thief Soul
 Double all stats
 add a new modifier Deadly
