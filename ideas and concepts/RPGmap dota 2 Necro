@@ -23,10 +23,10 @@ increase all stats and give a positive and negative buff
 BUFF Necro has 20% base magic resist and he also regen his skeleton summon life by 1%
 DEBUFF Necro will take 30% more damage from physical damage and he got -3 base armor
 int 7 9 11 13
-mana regen 2 3 4 5
+mana regen 1.5 2 2.5 3
 mana bonus 4% 8% 12% 16%
-cast range 100 150 200
-life bonus 5% 10%
+cast range 100 150 200 250
+life bonus 3% 6% 9% 12%
 
 talent level 25, upgrade Corrupted Flesh
 Double all bonus
