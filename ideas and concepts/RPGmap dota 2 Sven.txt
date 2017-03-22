@@ -24,8 +24,8 @@ DEBUFF sven lose 25 attack speed,20% max life and 30% mana, he can only use Two-
 attack speed 8 10 12 14
 life 2% 4% 8% 10%
 armor 1 2 3 4
-movement speed 4% 8% 12%
-magic resist 5% 10%
+movement speed 4% 8% 12% 16%
+magic resist 5% 10% 15% 20%
 
 level 25 talent upgrade Mighty Warrior
 double all bonus
