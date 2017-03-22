@@ -25,10 +25,10 @@ BUFF Butcher will gain 3 life bonus per strenght and block 5 physical damage and
 stack with other block type
 DEBUFF Butcher lose 60% damage and he does not gain any intelligence spell will use life instead, he can only use Axe type weapons
 life 2% 4% 6% 8%
-life regen 1.5 2.5 3.5 4.5
+life regen 2 3.5 5 6.5
 magic resist 3% 6% 9% 12%
-damage reduction 2% 4% 6%
-spell amp 4% 8%
+damage reduction 2% 4% 6% 8%
+spell amp 4% 5% 6% 7%
 
 Talent level 25 Upgrade Wierd Meat
 double all stats bonus
