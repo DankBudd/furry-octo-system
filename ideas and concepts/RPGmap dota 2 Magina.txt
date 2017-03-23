@@ -136,44 +136,25 @@ ally that cast spell also give a stack and when Magina is in Full power he gets 
 
 
 ULTIMATE R
-
 Mana Void
+Magina use all of is mana to deal heavy damage to one target and also around the target as well dealing only 50% of the damage
+he also remove some mana off the target that deal bonus damage and stun them if reach the max mana indeed for stun
 
-deal massive damage base on anti-mage mana silencing him and near enemy, anti-mage take damage from is ult
+base damage 50 type Magical
+all of Magina current mana as damage 15% 30% 45%
+target max mana as damage bonus 5% 10% 15%
+stun the target if reach a max mana of 20% 30% 40%
+stun duration 3 4 5
+mana cost 100% of current mana
+cooldown 300 270 240
 
-base damage 30 60 90 magical damage/talent level 25 increase base damage by 30
+talent level 25 Upgrade mana Void
+increase current mana as damage by 10%
+increase target mana as damage by 5%
+increase stun duration by 1 second
+reduce cooldown by 100
 
-damage per anti-mage mana 0.2 0.3 0.4/talent level 25 increase damage per mana by 0.2
-
-silence duration 4 5 6/talent level 25 last half the duration on anti-mage
-
-area of effect 600
-
-damage recive by mana void 80% 70% 60%/talent level 25 reduce the amount of damage recive by 30%
-
-level 25 talent add a new modifer,Mana Fear every 200 mana spend by mana void, will make anti-mage more durable giving him 1% damage reduction duration 10 second
-
-mana cost 200 400 600 plus 10% of his mana
-
-cooldown 160 160 160
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add a new modfier Mana Steal
+after casting Mana Void Magina gain a buff of Mana Steal that last 10 second, any enemy near Magina 700 radius
+will lose 1% of their mana per second and magina will gain that mana, also damage the enemy for all that mana lost for the duration
 
