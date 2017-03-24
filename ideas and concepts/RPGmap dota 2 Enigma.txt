@@ -38,7 +38,7 @@ empower next enigma spell
 VOID CURSE deal 6 more damage and lower the cooldown by 3
 GRAVITY WELL increase duration by 1 and lower the cooldown by 5
 GRAVITY BOLT deal pure damage instead
-
+cooldown for this empower 30 second
 
 SPELL Q level needed 1 4 9 15
 
