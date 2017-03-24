@@ -40,6 +40,9 @@ increase damage by 7
 increase intelligence scaling by 10%
 increase the duration by 1
 
+add a new modfier Molten Flame
+every second of soul burn it will damage nearby enemy 400 radius for 30% of the damage of soul burn and doesnt affect the target
+after the duration of soul burn it will explode dealing 200% of the damage of soul burn into pure damage to nearby unit 300 radius
 
 
-
+SPELL W Lava Wave
