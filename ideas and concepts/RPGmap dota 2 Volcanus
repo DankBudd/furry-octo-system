@@ -89,8 +89,8 @@ reduce the damage per second by 1
 increase radius by 100
 
 add a new modfier Lava Spawn
-if the volcano kill any unit it will spawn a Lava Spawn that has 150% of volcanus life and 50% of the damage of volcanus as well
-if the lava spawn deal at least 60 plus x20 of hero level it will spawn a new lava spawn with only 50% life of volcanus and 20% damage
+if the volcano kill any unit it will spawn a Lava Spawn that has 120% of volcanus life and 70% of the damage of volcanus as well
+if the lava spawn deal at least 60 plus x20 of hero level it will spawn a new lava spawn with only 30% of volcanus life and damage
 
 
 
