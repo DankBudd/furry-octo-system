@@ -54,7 +54,6 @@ increase range by 100
 remove the limit of max targeted hook
 increase the armor reduction by 2
 reduce life cost by 4%
-reduce mana cost by 40
 
 add a new modifier Titan Killer
 deal 3% of the target max life in damage Butcher also heal for 30% of the damage done by Glory Hook
