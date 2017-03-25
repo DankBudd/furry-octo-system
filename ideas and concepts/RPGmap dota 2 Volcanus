@@ -1,4 +1,4 @@
-Volcanus Starting stats 7 Int, 3 Agi, 3 Str, base speed 290, base damage 5, Stats Gain per level 1.10 int, 0.60 str, 0.60 agi
+Volcanus Starting stats 5 Int, 3 Agi, 3 Str, base speed 290, base damage 3, Stats Gain per level 0.80 int, 0.40 str, 0.40 agi
 Starting item Fire Hand give 3 damage and 2 int base attack time 1.90 High-DSP - Nuker
 
 LEVEL 20 TALENT
@@ -10,18 +10,24 @@ Talent 2
 10 damage,10 intelligence,20 attackspeed
 
 
-PASSIVE D OR F
+PASSIVE D OR F Fire God
 Increase overall stats and give a positive and negative buff
 
-BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 7 int instead and he can use 2 glove
+BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 8 int instead and he can use 2 glove
 Intead of 1
-DEBUFF Volcanus lose 15% magic resist with -4 armor and he cannot use any weapons type he also take 100% more damage from PURE damage type
+DEBUFF Volcanus lose 25% magic resist with -6 armor and he cannot use any weapons type he also take 150% more damage from PURE damage type
 mana 4% 8% 12% 16%
 int 4 6 8 10
 attack range 25 50 75 100
 spell-vamp 2% 3% 4% 5%
 spell-amp 2% 5% 8% 11%
 
+talent level 25 upgrade Fire God
+double all stats
+add a new modfier Demonic Power
+Double Soul Burn damage and Volcanus Spell and Attack deal 40% more damage on target affected by Soul Burn
+Volcano will deal 7% of the target current life as damage 3.5% for bosses and it will alway spawn 3 Lava Spawn that stay until death
+those Lava Spawn cannot recreate Lava Spawn after doing the damage needed
 
 SPELL Q
 Soul Burn
@@ -93,11 +99,55 @@ if the volcano kill any unit it will spawn a Lava Spawn that has 120% of volcanu
 if the lava spawn deal at least 60 plus x20 of hero level it will spawn a new lava spawn with only 30% of volcanus life and damage
 
 
+PASSIVE D OR F Incinerate
+increase Volcanus spell amp and make is auto-attack burn the target dealing low damage if the target dies under Incinerate
+it will explode dealing high damage
+
+spell amp 3% 5% 7% 9%
+burn damage 2% 3% 4% 5% of intelligence type magical
+explosion damage 15 20 25 30 type pure plus 15% of intelligence
+radius of Incinerate explosion 250
+Incinerate duration 3 second
+
+talent level 15 upgrade Incinerate
+increase spell amp by 1%
+increase Incinerate duration by 2
+increase radius by 350
+
+add a new modfier Fire Blast
+Incinerate now do a much bigger explosion and slow the attackspeed of every enemy hit by Fire Blast by 25
+and Fire Blast will deal 3% of the current life of the enemy as bonus damage 1.5% for bosses.
 
 
+ULTIMATE R
+Hells Power
+Volcanus increase Incinerate and Lava Wave for a short duration making them even more powerfull
+give all target Incinerate and after the duration expires it will explode instead of waiting for the target to die for the duration of
+Hells Power. Lava Wave gets even bigger in size, increase its damage and creating lava pool that damage enemy that stand inside of them
 
+Incinerate damage increase 15 30 45 
+Incinerate burn damage increase 6% 12% 18% intelligence scaling
+Incinerate explosion radius increase 40 80 120
+Lava Wave damage increase 20 40 60
+Lava Wave Radius 400
+Lava Pool radius 300
+Lava Pool damage 7 10 13 plus 22% 44% 66% of intelligence type magical damage every 1 second
+Lava Pool duration 5 second
+Duration of Hells Power 12 14 16
+cooldown 320 290 260
+mana cost 100 200 300 plus 15% 20% 25% of max mana
 
+talent level 25 Upgrade Hells Power
+Increase Incinerate damage by 10
+increase Incinerate radius by 120
+Increase Lava Wave damage by 30
+Increase Lava Pool radus by 150
+Increase lava Pool duration by 2
+Increase cooldown by 40
 
-
+add a new modifier King of Hell
+when casting Hells Power Volcanus Triple in Size increase is life by 200% is damage by 30% and is spell amp by 15%
+and he cannot move he also Summon a Giant Lava Wave 1000 radius behind him dealing 100 200 300 magical damage plus 100% of intelligence
+he also get Incinerate on himself exploding every second of the duration of Hells Power but only deal 20% of the damage.
 
 
