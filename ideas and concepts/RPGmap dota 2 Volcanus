@@ -31,8 +31,8 @@ damage per second 7 14 21 28 type Magical plus 15% of intelligence
 damage reduction 55% 60% 65% 70%
 slow 6% 8% 10% 12%
 Silence Target
-duration 4 5 6 7
-cooldown 28 27 26 25
+duration 5 6 7 8
+cooldown 33 32 31 30
 mana cost 70 90 110 130 plus 3% of max mana
 
 Talent level 10 upgrade Soul Burn
@@ -46,3 +46,27 @@ after the duration of soul burn it will explode dealing 200% of the damage of so
 
 
 SPELL W Lava Wave
+send out a wave that deal heavy damage to the enemy that get hit by the wave and burning them and lowering magic resist
+
+damage 15 30 45 60 type magical plus 20% of intelligence
+burn damage 8 10 12 14 per second type magical plus 5% of intelligence
+magic resist lost 3% 6% 9% 12%
+duration of burn and magic resist lost 3 second
+radius of the wave 400
+max travel distance 800
+cooldown 22
+mana cost 100 150 200 250 plus 5% of max mana
+
+talent level 10 upgrade Lava Wave
+increase damage by 10
+increase intelligence scaling by 5%
+increase the duration of burn and magic resist lost by 2
+increase max travel distance by 300
+
+add a new modfier Gift of Hell
+now send 8 more lava Wave that deal the same amount of damage and change the burn damage to pure
+and also change the magic resist lost to be damage taken increase
+
+
+
+
