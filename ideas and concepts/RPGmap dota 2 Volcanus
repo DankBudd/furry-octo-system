@@ -68,5 +68,36 @@ now send 8 more lava Wave that deal the same amount of damage and change the bur
 and also change the magic resist lost to be damage taken increase
 
 
+SPELL E Volcano
+channel a volcano that deal damage every 3 second stuning the enemy every time the enemy gets damage again by volcano
+they will take increase damage from it
+
+damage 12 18 24 30 type magical plus 35% of intelligence
+damage increase by 8 every the enemy gets damage again by volcano
+duration of channel 12 second
+stun duration 1 1.1 1.2 1.3
+stun duration increase by 0.2 every time the enemy gets damage again by volcano
+radius of volcano 300 350 400 450
+radius of volcano increase by 1 for every point of intelligence
+cooldown 50 45 40 35
+mana cost 100 170 240 310 plus 2% of max mana
+
+talent level 15 upgrade Volcano
+increase damage by 4
+increase intelligence scaling by 10%
+reduce the damage per second by 1
+increase radius by 100
+
+add a new modfier Lava Spawn
+if the volcano kill any unit it will spawn a Lava Spawn that has 150% of volcanus life and 50% of the damage of volcanus as well
+if the lava spawn deal at least 60 plus x20 of hero level it will spawn a new lava spawn with only 50% life of volcanus and 20% damage
+
+
+
+
+
+
+
+
 
 
