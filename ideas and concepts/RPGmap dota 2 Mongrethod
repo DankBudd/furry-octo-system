@@ -1,5 +1,5 @@
 Mongrethod Starting stats 4 Int, 1 Agi, 7 Str, base speed 310, base damage 6, Stats Gain per level 0.70 int, 1.40 str, 0.50 agi
-Starting item Gaint Cleaver give 7 damage and 4% lifesteal base attack time 2.20 Mage,Tank
+Starting item Gaint Cleaver give 7 damage and 4% lifesteal base attack time 2.20 Auto-Attack,Tank,Mage
 
 LEVEL 20 TALENT
 
@@ -7,4 +7,64 @@ Talent 1
 5 armor 250 life and 7% magic resist
 
 Talent 2
-25 damage -30 attack speed and 8% spell amp
+25 damage -50 attack speed and 16% spell amp
+
+PASSIVE D OR F PitLord
+Increase overall stats and give a positive and negative buff
+
+BUFF Mongrethod will gain 2 life per intelligence points and he gets 10% damage reduction he also increase is strenght
+by 10% of is intelligence
+DEBUFF Mongrethod lose 35 attack speed and 35% damage and,he take 50% more damage from pure type,he cannot pass 330 basespeed and
+he cannot use any-other weapons but Cleaver
+life 2% 4% 6% 8%
+mana 75 100 125 150
+life-regen 1 1.7 2.4 3.1
+mana-regen 2.2 3.4 4.6 5.8
+damage 6 10 14 18
+
+SPELL Q Rain of Fire
+Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max life
+it also reduce the enemy movement speed every they get damage by Rain of Fire
+
+damage 6 9 12 15 plus 8% of strenght per wave, damage type pure
+burn damage 0.6% 0.7% 0.8% 0.9% of max life, damage type magical
+amount of waves 3 4 5 6
+duration of channel 3 4 5 6
+duration of burn damage and slow 2 second
+base movement speed reduction 4% 5% 6% 7%
+movement speed lost per damage 4% 7% 10% 13%
+radius 300 330 360 390
+radius increase by 1 for every point of strenght
+cooldown 18
+manacost 100 115 130 145 plus 2% of max mana
+
+talent level 10 Upgrade Rain of Fire
+Increase strenght scaling by 6%
+increase max life as damage by 0.1%
+reduce cooldown by 2
+reduce mana cost by 50
+no longer a channel
+
+add a new modifier Rain of Chaos
+every wave of Rain of fire will summon a Chaos Infernal, this summon will have 25% life,15% damage of Mongrethod
+they also have 2 armor and 5% magicresist this bonus increase by 1 armor and 3% magic resist every 10 level of Mongrethod
+
+
+SPELL W Howl of Terror
+Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal small damage
+
+damage 5 7 9 11 plus 10% of strenght type Pure
+damage reduction FLAT amount 4 10 16 22
+damage reduction 9% 13% 17% 21%
+damage reduction duration 7 second
+fear duration 1 1.8 2.6 3.4
+cooldown 16 second
+mana cost 75 85 95 105 plus 1% of max mana
+
+talent level 10 upgrade Howl of Terror
+increase damage by 9
+increase damage lost flat amount 10
+increase the duration of damage reduction by 1
+cost no mana
+
+add a new modifier Abyssal Howl
