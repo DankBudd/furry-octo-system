@@ -18,7 +18,7 @@ Anti-Magic
 Increase overall stats and give a positive and negative buff
 
 BUFF Magina gain 4 mana per agility point and for every 200 mana, Magina gain 1 damage and he start with 2 armor and 10% magic resist
-DEBUFF Magina will take 50% increase damage from PURE,MAGICAL,PHYSICAL damage
+DEBUFF Magina will take 50% increase damage from PURE,MAGICAL,PHYSICAL damage, Magina will only gain 4 mana per intelligence
 damage bonus 5% 10% 15% 20%
 attack speed bonus 7 14 21 28
 life bonus 35 70 105 140
