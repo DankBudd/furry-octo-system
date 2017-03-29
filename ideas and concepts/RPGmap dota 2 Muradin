@@ -37,18 +37,17 @@ SPELL Q
 Storm Bolt
 deal Heavy damage to a target stunning them and reducing magic resist and armor also pushing the target back
 
-damage 5 20 35 50 plus 40% of strenght -damage type MAGICAL-
+damage 10 25 40 55 plus 30% of strenght -damage type MAGICAL-
 cast range 700
 push force 200
 magic resist lost 7% 9% 11% 13%
 armor lost 1 2 3 4
 stun duration 2 3 4 5 last half on bosses
-cooldown 8 10 12 14
+cooldown 16 15 14 13
 mana cost 75 plus 2% 3% 4% 5% of max mana
 
 talent level 10 upgrade Storm Bolt
-increase damage by 10
-increase strenght scaling by 15%
+increase strenght scaling by 30%
 increase cast range by 300
 increase push force by 100
 increase the magic resist lost by 5%
@@ -57,7 +56,7 @@ stun duration last full on bosses as well
 add a new modifier Violent Bolt
 after hiting the target it will send other storm bolt to near enemy in a radius of 350
 of the explosion of the first one and dealing full damage to the other target as well
-if there is no one around storm bolt damage change to pure and deal 3% of the target max life
+if there is no one around storm bolt damage change to pure and deal 2% of the target max life
 as damage
 
 
@@ -66,18 +65,19 @@ Thunder Clap
 Muradin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
 by this spell the more damage it deal
 
-damage 12 15 18 21 plus 20% of strenght -damage type PURE-
-radius 330 350 370 390
+damage 9 12 15 18 plus 10% of strenght -damage type PURE-
+radius 260 270 280 290
+radius increase by 1 for every point of strenght
 attack speed lost 15 20 25 30
 movement speed lost 10% 16% 22% 28%
 bonus damage per enemy 1 2 3 4
 debuff duration 3 4 5 6
-cooldown 9
+cooldown 11
 mana cost 70 110 140 170 plus 1% of max mana
 
 talent level 10 Upgrade Thunder Clap
-increase damage by 10
-increase strenght scaling by 10%
+increase damage by 6
+increase strenght scaling by 20%
 increase radius by 60
 increase bonus damage per enemy at all level to 5 -NOTE- the way i mean that, it get 5 damage for level 1 2 3 and 4
 
@@ -93,11 +93,11 @@ Muradin next attack will deal bonus damage and increase attack speed as well, Th
 attack
 
 damage bonus 9 10 11 12
-attack speed bonus 45
+attack speed bonus 25
 number of attack 2 3 4 5
 last hit damage increase 20 28 34 42
-last hit cleave damage 40% 70% 100% 130%
-radius of cleave 280
+last hit cleave damage 30% 60% 90% 120%
+radius of cleave 310
 no mana cost
 cooldown 70 65 60 55
 
@@ -110,7 +110,7 @@ increase cleave radius by 50
 add a new modifier Mountain of Fire
 went landing the last hit, Muradin will Create a Mountain that deal 20 pure damage per second in a 420 radius around it
 the mountain last 3 second, any enemy that die during Strenght of the Mountain will reduce the cooldown Strenght of the Mountain
-by 3
+by 4
 
 
 PASSIVE D OR F
@@ -118,7 +118,7 @@ Dwarft Mastery
 increase Muradin damage and attack speed also give a chance to bash the target dealing damage and stunning them also make enemy
 take damage per second if they get hit by Storm Bolt or Thunder Clap
 
-damage per second by Storm Bolt and Thunder Clap 2 plus 4% 6% 8% 10% of strenght -damage type PURE- last 3 second
+damage per second by Storm Bolt and Thunder Clap 3% 4% 5% 6% of strenght as damage -damage type PURE- last 3 second
 bonus damage 3 5 7 9
 bonus attack speed 5 8 11 14
 bash chance 12% 13% 14% 15%
@@ -130,7 +130,7 @@ talent level 15 upgrade Dwarft Mastery
 increase stun duration by 0.4
 increase bonus attack speed by 6
 increase bash damage by 5
-increase strenght scaling by 25%
+increase strenght scaling by 35%
 
 add a new modifier Mountain Hammer
 every time Muradin bash the next bash get 5 increase damage, the buff last 6 second after 4 stack of Mountain Hammer
@@ -143,8 +143,8 @@ increase Muradin armor,damage,life and give spell immunity for the duration and 
 
 bonus damage 20 30 40
 bonus armor 4 8 12
-life bonus 350 500 650
-bash chance increase by 2% 4% 6%
+life bonus 15% 35% 55%
+bash chance increase by 3% 4% 5%
 duration 40 50 60
 no mana cost
 cooldown 240 235 230
@@ -152,7 +152,7 @@ cooldown 240 235 230
 talent level 25 upgrade Avatar
 increase bonus damage by 15
 increase bonus armor by 2
-increase bonus life by 100
+increase bonus life by 10%
 reduce the duration by 30 second
 
 add a new modifier Titan Might
