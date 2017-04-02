@@ -7,7 +7,7 @@ Talent 1
 5 armor 250 life and 7% magic resist
 
 Talent 2
-25 damage -40 attack speed and 16% spell amp
+25 damage -55 attack speed and 13% spell amp
 
 PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
@@ -27,12 +27,12 @@ Channel a raining wave of fire from the sky dealing damage and burn the enemy fo
 it also reduce the enemy movement speed every they get damage by Rain of Fire
 
 damage 5 10 15 20 plus 8% of strenght per wave, damage type pure
-burn damage 0.6% 0.7% 0.8% 0.9% of max life, damage type magical
+burn damage 0.3% 0.5% 0.7% 0.9% of max life, damage type magical
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 2 second
-base movement speed reduction 4% 5% 6% 7%
-movement speed lost per damage 4% 7% 10% 13%
+base movement speed reduction 4% 9% 14% 19%
+movement speed lost per damage 2% 4% 6% 8%
 radius 300 330 360 390
 radius increase by 1 for every point of strenght
 cooldown 18
@@ -53,20 +53,20 @@ they also have 2 armor and 5% magicresist this bonus increase by 1 armor and 3% 
 SPELL W Howl of Terror
 Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal small damage
 
-damage 5 7 9 11 plus 10% of strenght type Pure
+damage 5 7 9 11 plus 20% of strenght type Pure
 damage reduction FLAT amount 4 10 16 22
 damage reduction 9% 11% 13% 15%
 damage reduction duration 5 second
 radius 600
 fear duration 1 1.8 2.6 3.4
-cooldown 18 second
+cooldown 16 second
 mana cost 75 85 95 105 plus 2% of max mana
 
 talent level 10 upgrade Howl of Terror
 increase damage by 5
 increase radius by 150
 increase damage reduction by 7%
-increase damage lost flat amount 10
+increase damage lost flat amount by 10
 increase the duration of damage reduction by 1
 cost no mana
 
@@ -142,7 +142,7 @@ Doom Guard Armor 100% 110% 120% of the enemy armor half on bosses
 Doom Guard magic resist 50% 80% 110% of the enemy magic resist half on Bosses
 Doom Guard base attack time 2.40 2.30 2.20 2.10
 duration of the Doom Guard 60
-cooldown 200 190 180
+cooldown 250 240 230
 mana cost 150 300 450 plus 3% of max mana
 
 talent level 25 upgrade Demonic Blood
