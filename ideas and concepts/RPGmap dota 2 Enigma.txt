@@ -22,8 +22,9 @@ PASSIVE D OR F level needed 1 5 15 25
 Gravity Lord
 Increase overall stats and give a positive and negative buff
 
-BUFF enigma spell will do 1 pure damage per 10 int
-DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time
+BUFF enigma spell will do 1 pure damage per 10 int he also gain 1 intelligence for every 200 mana
+DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he take 35% damage from pure,magical,physical
+and he lose 75% base damage
 mana bonus 4% 8% 12% 16%
 Mana regen 2 3 4 5
 Spell amp 2% 4% 6% 8%
@@ -46,9 +47,9 @@ Void Curse
 
 Deal damage over time to a target lowering the armor and magic resist for the duration
 Damage 14 16 18 20 magic damage plus 5% of intelligence
-cast range 600
+cast range 700
 Duration 5 6 7 8 second damage every 1 second
-Armor lost 0.5 per tick of damage
+Armor lost 0.4 per tick of damage
 Magic resist lost 2% per tick of damage
 Cooldown 30 28 26 24
 Mana cost 100 130 160 190 plus 1% of max mana
@@ -61,9 +62,8 @@ magic resist lost by 1%
 mana cost increase by 60
 
 add a new modifier Void Corruption
-enemy will take 30% more damage from Gravity bolt and make Void cuse do a VACUUM pulling enemy at a spedd of 100 into the target
-affected by void curse dealing 40% of the damage, does not aplie the debuff to those target getting pull
-
+enemy will take 20% more damage from Gravity bolt and make Void cuse do a VACUUM pulling enemy at a speed of 100 into the target
+affected by void curse dealing 40% of the damage and giving 50% of void curse debuff
 
 SPELL W level needed 1 4 9 15
 
