@@ -40,7 +40,7 @@ if attacking a boss
 SPELL Q Glory Hook
 hook multiple enemy and dealing damage with reducing the armor of enemy hook 
 
-damage 15 25 35 45 pyshical damage and 30% of pudge strenght
+damage 15 25 35 45 pyshical damage and 60% of pudge strenght
 Range 800
 increase range by 1 per strenght point
 max hook target 2 3 4 5
@@ -49,11 +49,11 @@ life cost 5% 7% 9% 11%
 cooldown 17 15 13 11
 
 talent level 10 Upgrade Glory Hook
-increase damage by 5 and strenght scaling by 20%
-increase range by 100
+increase damage by 15 and strenght scaling by 20%
+increase range by 200
 remove the limit of max targeted hook
-increase the armor reduction by 2
-reduce life cost by 4%
+increase the armor reduction by 3
+reduce life cost by 3%
 
 add a new modifier Titan Killer
 deal 3% of the target max life in damage Butcher also heal for 30% of the damage done by Glory Hook
@@ -74,7 +74,7 @@ increase damage by 3 and strenght scaling by 5%
 movement speed reduction increase by 10%
 increase radius by 50
 magic resist reduction increase by 2%
-Rotting Flesh will no longer affect pudge
+Rotting Flesh will no longer affect pudge but still damage him
 
 add a new modifier Bad Rot
 now applie a stack of bad rot making enemy take 0.5% more damage from Glory hook up to a max of 30 stack
@@ -87,7 +87,7 @@ SPELL E Freah Meat!
 Pudge empower this next attack dealing damage and healing him and also disarming the enemy on hit and taking increase damage from
 Rotting Flesh
 
-bonus damage 6% 8% 10% 12% of pudge max life 
+bonus damage 7% 10% 13% 16% of pudge max life 
 lifesteal 10% 20% 30% 40%
 disarm duration 1 1.2 1.4 1.6
 increase damage taken from rotting flesh by 10% 15% 20% 25%
@@ -97,7 +97,7 @@ life cost 4% 8% 12% 16%
 cooldown 16
 
 Talent level 15 Upgrade Fresh Meat!
-increase damage by 3%
+increase damage by 4%
 increase lifesteal by 20%
 increase disarm duration by 0.6
 increase damage taken by 5%
