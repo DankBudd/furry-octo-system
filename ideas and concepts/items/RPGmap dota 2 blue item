@@ -61,8 +61,8 @@ Molten Earth 800 gold BLUE
 give strenght and agility with lifesteal for near ally, can also be use to throw a lava Ball that will bounce to near enemy
 
 Active item use
-deal 9 physical damage plus 250% of user strenght and agility, bounce up to 5 time reducing armor by 1 and silencing for 0.25 second
-the debuff of silence and disarmor last 3 second, cooldown 27 mana cost 150
+deal 9 physical damage plus 15% of user strenght and agility, bounce up to 7 time reducing armor by 1 and silencing for 0.25 second
+the debuff of silence and disarmor last 3 second, cooldown 15 mana cost 150
 
 Passive 1 Aura that give agility, strenght and lifesteal 700 radius
 Strenght 6
@@ -79,4 +79,29 @@ cooldown 18 manacost 80
 
 Passive item use
 cleave for 15% of the damage dealt
+
+
+Radiant Stone
+give the user true sight abd give near ally bonus life regeneration and mana regeneration also inrease heal amp as well
+
+Passive item use
+give true sight in a 800 radius any enemy that is invisible will take 8% increase damage last 8 second after leaving invis
+
+Passive item use 2
+give 2.5 life regeneration and 3.5 mana regeneration to near ally in a 800 radius
+
+heal amp 5%
+
+
+Dire Stone
+the user will make near ally invisible making them deal more damage after breaking invis also give them a bonus damage and spell amp
+aura as well increasing stats for the user
+
+passive item use
+all ally near you will go invisble 800 radiuscond if they break the invis aura they will do 10% extra damage with spell and
+basic attack cannot go invis again for 10 second
+
+passive item use 2
+give 7 damage and 4% spell amp to near ally
+
 
