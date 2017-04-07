@@ -1,0 +1,82 @@
+list of the blue item
+
+
+Greater Soul BLUE cant buy
+give bonus damage, stats, lifesteal, spellamp and spellvamp with cast range
+
+damage 7
+spell amp 5%
+all stats 4
+lifesteal 4%
+spell vamp 2%
+cast range 80
+
+
+Skull of Death BLUE gold 850
+Increase agility and strenght of the user, also have a chance to deal bonus damage with physical damage crit on spell
+
+spell crit, physical spell only
+chance 10%
+damage 140%
+
+agility 9
+strenght 7
+
+
+Magic Stone BLUE gold 600
+increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
+
+Active item use
+deal 25 magic damage plus 25% of user int to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
+
+intelligence 8
+spell amp 4%
+mana 90
+
+Infernal Stone BLUE, needed lesser infernal stone 950 gold with recipe 1300 gold
+summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
+
+Active use item
+summon a infernal with 120 life 250 mana 11 damage 3 armor 2.00  base attack time 340 movementspeed.
+
+SCALING
+95% of intelligence and 0.3% health will be life for the infernal
+50% of Intelligence will be mana for the infernal
+15% of intelligence will be damage for the infernal
+10% of intelligence will be attackspeed for the infernal
+
+SPELL 1
+Fist the target pulling all near enemy in a radius of 400 to him dealing 20 magical damage plus 80% of the infernal damage to the
+target pull, primary target will get double the damage cooldown 14 mana cost 120 plus 3% of max mana
+
+SPELL 2
+Slam the ground kocking enemy into the air for 1.25 second after all enemy reach the ground they will get stun for 0.25 second and
+dealing 30 magical damage plus 60% of the infernal damage for each enemy in a radius of 250, cooldown 18 mana 100 plus 3% of max mana
+
+PASSIVE
+the infernal got 10% chance to deal 5 pure damage plus 2% of max health in a radius of 220 and stuning all enemy hit for 0.2 second
+
+
+Molten Earth 800 gold BLUE
+give strenght and agility with lifesteal for near ally, can also be use to throw a lava Ball that will bounce to near enemy
+
+Active item use
+deal 9 physical damage plus 250% of user strenght and agility, bounce up to 5 time reducing armor by 1 and silencing for 0.25 second
+the debuff of silence and disarmor last 3 second, cooldown 27 mana cost 150
+
+Passive 1 Aura that give agility, strenght and lifesteal 700 radius
+Strenght 6
+agility 6
+lifesteal 8%
+
+
+WarCry BLUE needed Orger Club 1000 gold, Quaterstaff 875 gold and recipe 50 gold
+increase user attack speed strenght and damage with increase cleaving damage upon useing the item also passively give cleaving attack
+
+Active use item
+empower next 3 attack cleaving for 65% of the damage instead and increasing damage by 15 and attackspeed by 25 for 14 second
+cooldown 18 manacost 80
+
+Passive item use
+cleave for 15% of the damage dealt
+
