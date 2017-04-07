@@ -38,3 +38,14 @@ life 300
 attackspeed 30
 11% movementspeed
 life regeneration 4
+
+
+Scroll of Darkness
+increase the user damage,spell amp and stats, when activating the item it will empower the next spell or basic attack
+
+Active item use
+the next spell will deal 50% increase damage and for basic attack it will deal pure damage instead cooldown 50 no mana cost
+
+stats 5
+damage 30
+spell amp 15%
