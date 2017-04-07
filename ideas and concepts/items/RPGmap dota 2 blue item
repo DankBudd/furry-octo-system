@@ -98,10 +98,12 @@ the user will make near ally invisible making them deal more damage after breaki
 aura as well increasing stats for the user
 
 passive item use
-all ally near you will go invisble 800 radiuscond if they break the invis aura they will do 10% extra damage with spell and
-basic attack cannot go invis again for 10 second
+all ally near you will go invisble 800 radius for 4 second, if they break the invis aura they will do 10% extra damage with spell and
+basic attack and cannot go invis again for 10 second
 
 passive item use 2
-give 7 damage and 4% spell amp to near ally
+give 7 damage and 4% spell amp to near ally 800 radius
+
+4 stats
 
 
