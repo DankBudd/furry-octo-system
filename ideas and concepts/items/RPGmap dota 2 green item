@@ -97,3 +97,23 @@ become magic immune for 1.5 second cooldown 22
 
 magic resist 12%
 damage 6
+
+
+Bottle of Health gold 250 plus lesser bottle of Health 50 gold
+has 6 charge that restore the user life per second, killing enemy will refill the bottle also increase the user attack damamge
+
+last 3 second
+life per second 11 plus 3% of the user Attributes
+amounts of kill for a charge 9
+boss will always give 3 charges
+attack damage bonus for the duration 5
+
+
+Bottle of Mana gold 250 plus lesser bottle of Mana 50 gold
+has 8 charge that restore the user mana per second, killing enemy will refill the bottle also increase the user spell amp
+
+last 3 second
+mana per second 7 plus 2% of the user Attributes
+amounts of kill for a charge 7
+boss will always give 4 charges
+spell amp bonus for the duration 2%
