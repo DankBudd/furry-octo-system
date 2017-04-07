@@ -53,3 +53,30 @@ Lesser Intelligence Shard
 3 intelligence
 1 agility
 1 strenght
+
+
+Flint gold 170
+reduce base attack time with any weapons also deal bonus damage
+
+Passive item use
+basic attack got 35% chance to deal 3 pure damage
+
+BAT reduce 0.05
+
+
+Lesser Bottle of Health gold 50
+has 3 charge that restore the user life per second, killing enemy will refill the bottle can also be upgrade.
+
+last 3 second
+life per second 6 plus 2% of the user Attributes
+amounts of kill for a charge 10
+boss will always give 2 charges
+
+
+Lesser Bottle of Mana gold 50
+has 4 charge that restore the user mana per second, killing enemy will refill the bottle can also be upgrade.
+
+last 3 second
+mana per second 4 plus 1% of the user Attributes
+Amounts of kill for a charge 8
+boss will always give 2
