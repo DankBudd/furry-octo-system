@@ -1,0 +1,99 @@
+list of the green items
+
+
+Superior Branch gold 350 
+
+item needed Iron Brach, Leaf Branch, Wisdom Branch and recipe 50 gold
+
+increase all stats with life and mana regeneration and movement speed
+
+3 to all stats
+0.8 life-regen
+0.8 mana-regen
+8 attackspeed
+
+
+Earth Ring gold 400
+give armor to near ally and reduce armor to enemy
+
+armor ally 1
+armor enemy 2
+
+
+Water Ring 400 gold
+increase regeneration of ally and reduce the regeneration of enemy
+
+ally regen 0.7 life and 1.6 mana
+enemy regen -0.4 life and -0.5 mana
+
+
+Fire Ring 400 gold
+increase the damage of ally and reduce damage of enemy
+
+damage increase ally 3% and 2 damage
+damage reduction enemy 5% and 1 damage
+
+
+Air Ring 400 gold
+increase attack speed and movement spell of ally and reduce enemy attack speed and movement speed
+
+attack speed ally 8
+movement speed ally 5%
+attack speed enemy -5
+movement speed enemy -8%
+
+
+Soul GREEN cant buy
+give bonus damage, stats, spellamp and lifesteal with spellvamp
+
+damage 3
+spell amp 2%
+all stats 1
+life steal 2%
+spell vamp 1%
+
+
+Lesser Infernal Stone gold 950 GREEN
+summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
+
+Active use item
+summon a infernal with 80 life 150 mana 7 damage 1 armor 2.10 base attack time 320 movementspeed.
+
+SCALING
+65% of intelligence and 0.1% health will be life for the infernal
+35% of Intelligence will be mana for the infernal
+10% of intelligence will be damage for the infernal
+5% of intelligence will be attackspeed for the infernal
+
+SPELL 1
+Fist the target pulling all near enemy in a radius of 400 to him dealing 15 magical damage plus 60% of the infernal damage to the
+target pull, primary target will get double the damage, cooldown 14 mana cost 100 plus 2% of max mana
+
+SPELL 2
+Slam the ground knocking the enemy into the air for 1.25 second after all enemy reach the ground they will get stun for 0.25 second and
+dealing 20 magical damage plus 50% of the infernal damage for each enemy in a radius of 250, cooldown 18 mana 100 plus 1% of max mana
+
+PASSIVE
+the infernal got 10% chance to deal 5 pure damage plus 1% of max health in a radius of 220 and stuning all enemy hit for 0.1 second
+
+
+Seed of Life GREEN cant buy
+increase user healing amp mana-regeneration and mana, can also be activated to heal a target
+
+Active use item
+heal the target for 30 plus 1% of his max health, other in the radius of 300 will be heal for 10 plus 0.5% of ther max health
+cooldown 20 mana cost 30 plus 2% of user max mana
+
+heal amp 5%
+mana regen 2
+mana 100
+
+
+Anti-Magic Bar GREEN 500 gold
+increase user magic resist and damage can also be use to be magic immune for a short time
+
+Active item use
+become magic immune for 1.5 second cooldown 22
+
+magic resist 12%
+damage 6
