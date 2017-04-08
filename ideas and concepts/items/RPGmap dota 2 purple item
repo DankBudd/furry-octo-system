@@ -56,7 +56,7 @@ activate to deal high damage base on the missing hp of the enemy also increase s
 
 active item use
 deal 20 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 10%
-cooldown 80 mana cost 40% of max mana
+to cast the spell you will need to kill at least 60 unit, after getting that amount needed the spell will be ready for use, mana cost 40%
 
 spell amp 10%
 inteillgence 25
