@@ -29,6 +29,8 @@ magic resist 5% 10% 15% 20%
 
 level 25 talent upgrade Mighty Warrior
 double all bonus
+add a new modifier Great Cleave
+sven cleave for 30% of the damage done the cleave damage is pure he also deal 0.5% of the target max life as damage
 
 
 SPELL Q level needed 1 4 9 15
