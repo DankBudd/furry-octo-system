@@ -26,8 +26,8 @@ SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max life
 it also reduce the enemy movement speed every they get damage by Rain of Fire
 
-damage 5 10 15 20 plus 8% of strenght per wave, damage type pure
-burn damage 0.3% 0.5% 0.7% 0.9% of max life, damage type magical
+damage 3 7 11 15 plus 12% of strenght per wave, damage type pure
+burn damage 0.2% 0.3% 0.4% 0.5% of max life, damage type magical
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 2 second
@@ -39,8 +39,8 @@ cooldown 18
 manacost 100 115 130 145 plus 2% of max mana
 
 talent level 10 Upgrade Rain of Fire
-Increase strenght scaling by 6%
-increase max life as damage by 0.2%
+Increase strenght scaling by 8%
+increase max life as damage by 0.3%
 reduce cooldown by 2
 reduce mana cost by 50
 no longer a channel
