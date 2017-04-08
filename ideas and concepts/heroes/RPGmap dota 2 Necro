@@ -20,7 +20,7 @@ PASSIVE CORE D OR F
 Corrupted Flesh
 increase all stats and give a positive and negative buff
 
-BUFF Necro has 20% base magic resist and he also regen his skeleton summon life by 1%
+BUFF Necro has 20% base magic resist and he also regen his skeleton summon life by 1% and he doents gain any agility per level
 DEBUFF Necro will take 30% more damage from physical damage and he got -3 base armor
 int 7 9 11 13
 mana regen 1.5 2 2.5 3
@@ -37,10 +37,10 @@ that last for 15 second with 100% of the normal skeleton stats as well
 
 SPELL Q
 Skeleton Warrior
-Summon a SKeleton Warrior to fight for you
+Summon a Skeleton Warrior to fight for you
 
-Skeleton life 35 40 45 50 plus 30% of int
-Skeleton damage 3-4 4-5 5-6 6-7 plus 5% of int
+Skeleton life 35 40 45 50 plus 20% of int
+Skeleton damage 3-4 4-5 5-6 6-7 plus 3% of int
 Skeleton armor 1, every 45 int it will give the skeleton 1 armor
 Skeleton magic resist 5% plus 10% of int
 Skeleton base attack time 2.3 2.2 2.1 2.0
@@ -55,7 +55,7 @@ hit will deal 5 pure damage plus 10% of the skeleton damage into pure, cooldown 
 
 talent level 10 upgrade Skeleton warrior
 
-Skeleton life Increase by 10
+Skeleton life Increase by 20
 SKeleton armor increase by 1
 Skeleton magic resist increase by 5%
 Skeleton base attack time reduce by 1.00
@@ -63,7 +63,7 @@ Max skeleton increase by 6
 Swing of the dead plus 1 instance and pure damage increase by 10%
 
 add a new modifier Bone Explosion
-deal 3% of the skeleton max life in magic damage went he die in a radius of 300
+deal 5% of the skeleton max life in magic damage when he die in a radius of 300
 
 
 SPELL W
@@ -71,9 +71,9 @@ Skeleton Archer
 Summon Skeleton Archer To fight against your foes, those skeleton will come with a element that will help and deal
 great damage to the enemy
 
-Skeleton Archer life 15 20 25 30 plus 15% of int
-Skeleton Archer damage 5-8 6-9 7-10 8-11 plus 5% of int
-Skeleton Archer armor 0, every 65 int will give the skeleton archer 1 armor
+Skeleton Archer life 15 20 25 30 plus 10% of int
+Skeleton Archer damage 5-8 6-9 7-10 8-11 plus 8% of int
+Skeleton Archer armor 0, every 60 int will give the skeleton archer 1 armor
 Skeleton Archer magic resist 0% plus 10% of int
 Skeleton Archer base attack time 2.1 2.0 1.9 1.8
 Max skeleton archer 1 2 3 4
@@ -102,7 +102,7 @@ Skeleton archer life increase by 10
 Skeleton archer damage increase by 10% of int scale
 Skeleton archer armor increase by 1
 Skeleton archer magic resist increase by 5%
-base attack time reduce by 1.00
+base attack time reduce by 0.20
 max skeleton archer increase by 2
 POISON ARCHER damage per second increase by 2
 ICE ARCHER movementspeed slow increase by 8%
@@ -135,7 +135,7 @@ cooldown 14
 
 
 talent level 15 upgrade Death Coil
-reduce the damage of Death Coil by 20
+increase the damage of Death Coil by 10
 increase int scaling by 15%
 increase heal by 15
 increase bonus heal by 4%
@@ -173,9 +173,9 @@ Skeleton attack speed 8
 Skeleton movement speed 9%
 
 add a new modifier Undead Master
-any skeleton that die will come back to life after 2 second with 40% of thier max life
+any skeleton that die will come back to life after 2 second with 30% of thier max life
 cooldown of 60 second and if they die again they will release a lesser version of Death Coil
-that deal only 50% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
+that deal only 20% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
 
 
 ULTIMATE R
@@ -184,21 +184,21 @@ empower skeleton or deal high damage to a enemy, summon will get increase in all
 great damage over time debuffing them for a short duration
 
 IF CAST ON ENEMY
-damage per second 35 70 105 plus 70% of int -damage type magical-
+damage per second 35 50 65 plus 20% of int -damage type magical-
 enemy magic resist lost 10% 18% 26%
 enemy attack speed lost 25 35 45
 enemy damage lost 20% 35% 50%
-duration 6
+duration 5
 
 IF CAST ON SKELETON
-bonus damage 15 25 35
+bonus damage 25 35 45
 bonus attack speed 25 45 65
 bonus armor 3 6 9
 bonus magic resist 20% 40% 60%
-last 13 second
+last 15 second
 
 mana cost 150 plus 30% of max mana
-cooldown 75
+cooldown 85
 
 talent level 25 upgrade Death Touch
 increase damage by 10
@@ -211,7 +211,7 @@ increase armor bonus by 2
 add a new modifier Bless by the Death God
 can be cast on ally as well and other summon if cast on enemy all enemy around that target
 800 radius afftected by Death Touch will get damage by 50% of the spell OR if cast on skeleton
-all ally or summon 800 radius around that skeleton affect by it will get 25% of the bonus
+all ally or summon 800 radius around that skeleton affect by it will get 30% of the bonus
 
 
 
