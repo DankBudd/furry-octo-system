@@ -153,14 +153,14 @@ Increase the damage Ancient of War by 8
 increase the duration of Treant by 5
 Increase radius of aura by 400
 
-give a new modifier Nature Rage increasing damage of all summon by 10%
-
-give a new modifier Go Green increase all movement speed of summon by 30%
-
+give a new modifier Go Green
+increase the damage of all summon by 10% and increasing the movementspeed by 25%
+also make summon lifesteal for 5% of the damage dealt
 
 ULTIMATE R
 Gift of Verodicia
-summon the mighty Ancient of War to fight for your side and destroy any foes that are in your way
+summon the mighty Ancient of War to fight for your side and destroy any foes that are in your way that scale
+with your intelligence for damage,life and mana also come with 2 spell and passive
 
 Life 150 300 450 plus 50% of int
 mana 200 300 400 plus 100% of int
