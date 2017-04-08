@@ -134,7 +134,7 @@ riki can parry any melee attack dealing bonus damage to them and reducing damage
 a stack of Parry increasing armor by 1 up to a max of 5, after 5 stack next parry will do maxlife% damage also
 increase riki damage
 
-bonus damage 20% 25% 30%
+bonus damage 10% 20% 30%
 Attack damage to parry 180% 240% 300%
 parry chance 10% 11% 12%
 damage reduction upon parrying 15%
@@ -143,17 +143,14 @@ parry stack duration 6 second
 armor per stack 1
 
 talent level 25 upgrade Assasin Parry
-increase attack damage by 30%
-increase parry chance by 1%
+increase attack damage by 20%
+increase parry chance by 2%
 increase the damage of max life by 3%
-increase the duration of stack by 1
+increase the duration of stack by 2
 
 add a new modifier Death Strike
-riki got 5% chance with a parry attack to insta-kill any-non boss unit and gaining 2 perma damage
-and 1 agility also make riki movementspeed limit increase to 800 and every point of agility increase
-movementspeed by 2
-
-
-
+riki basic attack will alway deal 10% pure damage and parry will steal life from the target
+gaining 0.5% of the stolen life for 9 second can stack up to 4 and also increase movement speed limit to 900
+and agility increase movement speed by 2
 
 
