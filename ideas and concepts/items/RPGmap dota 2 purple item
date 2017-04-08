@@ -49,3 +49,14 @@ the next spell will deal 50% increase damage and for basic attack it will deal p
 stats 5
 damage 30
 spell amp 15%
+
+
+Scroll of Death
+activate to deal high damage base on the missing hp of the enemy also increase spell amp and intelligence
+
+active item use
+deal 20 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 10%
+cooldown 80 mana cost 40% of max mana
+
+spell amp 10%
+inteillgence 25
