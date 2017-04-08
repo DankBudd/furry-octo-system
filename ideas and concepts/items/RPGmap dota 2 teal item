@@ -1,8 +1,10 @@
-list of teal items
+list of teal items, these items are game references or secrets and hard to get
 
 
-Elemental Ring TEAL need Earth Ring, Water Ring, Fire Ring, Air Ring and Recipe drop from boss
+Elemental Ring need Earth Ring, Water Ring, Fire Ring, Air Ring and Recipe drop from boss
 give ally and enemy aura that buff or debuff also give some stats for the user
+
+LORE-- The one who hold this ring will control all of the elemental power as one
 
 8 all stats -not aura-
 ally armor 3
@@ -19,8 +21,10 @@ enemy movement speed -15%
 enemy damage taken Increase 5%
 
 
-Stone of Jordan TEAL
+Stone of Jordan
 increase mana and stats, also give a passive that deal bonus damage
+
+LORE-- this ring has a powerfull stone inside that boost the user with wisdom and knowledge making him strong againts the evils
 
 Passive item use
 deal 12 pure damage on basic attack and spell
@@ -28,3 +32,30 @@ deal 12 pure damage on basic attack and spell
 1 all stats
 25% mana
 20 mana
+
+
+Sulfuras
+increase damage and strenght but remove attack speed attack will burn the target for high damage can be use for swing dealing insane
+damage in a large area
+
+active item use
+Swing Sulfuras dealing 60 pure damage plus 100% of the user strenght in a 500 radius in front of the caster stuning for 2 second
+any enemy that die upon Sulfuras Swing will give a charge that will empower Sulfuras after getting the right amount
+
+Passive item use
+auto-attack will burn the target for 5 pure damage plus 25% of strenght per second lasting 5 second, enemy that die of Sulfuras burn
+will give a charge that will empower Sulfuras after getting the right amount
+
+Passive item use 2
+after getting 1000 charge, change the item to Sulfuras Might, increasing the bonus damage of Sulfuras Swing by 100 and Sulfuras Burn by
+10 also increase the user size by 30%, increasing attack range by 130 and cleave for 30% of the damage dealt and giving Sulfuras Burn
+as well to all target hit by the cleave radius of 250
+
+damage 35
+strenght 45
+attack speed lost -40
+
+LORE--Sulfuras is the mighty weapon of Ragnaros the Firelord. The weapon never leaves his grasp. across the weapon's surface.
+and etched from end to end with intricate runes that seem to move like flowing lava It is composed of flaming red elementium
+across the weapon's surface. Sulfuras is covered with many vicious pikes of varying sizes,
+each white hot and surrounded by the distortion of shimmering heat.
