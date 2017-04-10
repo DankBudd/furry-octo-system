@@ -1,5 +1,5 @@
 Terrorblade Starting stats 3 Int, 7 Agi, 5 Str, base speed 250, base damage 2, Stats Gain per level 0.90 int, 0.50 str, 1.20 agi
-Starting item Broken Demon Blade give 2 damage and 2 agility BAT 1.30
+Starting item Broken Demon Blade give 2 damage and 2 agility BAT 1.55
 
 LEVEL 20 TALENT
 
@@ -10,14 +10,24 @@ Talent 2
 12 agility 15 attackspeed and 8% lifesteal
 
 
-PASSIVE D OR F
+PASSIVE D OR F True Demon
 Increase overall stats and give a positive and negative buff
 
 BUFF Terrorblade gain 1 damage per 4 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
 he also gain 1 damage per 50 movementspeed
-DEBUFF terrorblade cannot have any magic resist and cap at 0% and slowing effect will be double on him he also lose 30% of max mana and
-inteillgence will only give 5 mana instead of 10
+DEBUFF terrorblade cannot have any magic resist and he got -25% magic resist as well and slowing effect will be double on him he cannot
+have any Helm type armor and he got -60% max mana.
+damage bonus 5% 10% 15% 20%
+agility 3 5 7 9
+cast range 25 50 75 100
+spellvamp 2% 3% 4% 5%
+attack speed 6 12 18 24
 
+talent level 25 upgrade True Demon
+double all bonus
+add a new modifier The Demon Betrayer
+all enemy near terrorblade 900 radius get -5 armor reduction and -15% magic resist reduction also increase terrorblade movementspeed by
+4% for every enemy in the radius
 
 SPELL Q Slice of Death
 deal damage base on the enemy lifes, bosses will take current life as damage instead of max Heath point and empower his next attack as 
@@ -25,13 +35,13 @@ damage 8% 12% 16% 20% of max life as magic damage
 damage for bosses 3% 5% 7% 9% of current life as magic damage
 number of attack empower 1 2 3 4
 bonus damage from empower 20% 35% 50% 65%
-bonus attack speed 15 20 25 30
-ignore armor for the empower attack
+bonus attack speed 15 20 25 30 When in Normal Form
+ignore armor for the empower attack When in Normal Form
 cooldown 20 19 18 17
 mana cost 25 50 75 100 plus 3% of max mana
 
 talent level 10 upgrade Slice of Death
-increase damage of max heath by 10%
+increase damage of max heath by 5%
 increase number of attack by 2
 reduce cooldown by 2
 reduce mana cost by 1% of max mana
@@ -45,12 +55,12 @@ SPELL W Reflection
 TerrorBlade makes perfect Shade of the enemy that attack it-self dealing damage and also dealing low damage upon casting and for every
 enemy that die durring Perfect Shade will increase terrorblade movementspeed
 
-damage 7 9 11 13 plus 20% of agility
-Shade damage 50% 65% 70% 85%
-for every 5 agility increase the Image damage by 1%
+damage 7 9 11 13 plus 20% of agility magical damage
+Shade damage 50% 65% 70% 85% physical damage
+for every 3 agility increase the Image damage by 1% in True Form
 Shade duration 3 4 5 6 half for bosses
 radius 1000
-movementspeed bonus 3% 6% 9% 12%
+movementspeed bonus 5% 9% 13% 17% in True Form
 cooldown 25
 mana cost 50 70 90 110 plus 1% of max mana
 
@@ -67,30 +77,68 @@ after killing ther target and increasing the time limit of ther life by 4 also i
 
 
 SPELL E Blast AND Sunder
-Terroblade can use Blast in True from and Sunder in normal from, Blast will dealing insane damage to the target and Pushing them also
+Terroblade can use Blast in True form and Sunder in normal form, Blast will dealing insane damage to the target and Pushing them also
 increasing terrorBlade attack range and for Sunder terrorBlade Steal life from the target dealing damage and restoring his life
 also making them fear
 
 BLAST
-damage 20 34 48 62 plus 70% of agility
+damage 20 34 48 62 plus 70% of agility Physical damage
 Push distence 250 300 350 400
 attack range bonus 100 150 200 250
 attack range bonus duration 4 second
 SUNDER
-damage 10 15 20 25 plus 25% of agility
+damage 10 15 20 25 plus 15% of agility Pure damage
 life restored 50% 100% 150% 200% of the damage dealt by sunder
 Fear duration 0.7 1.0 1.3 1.6
-cooldown for both 12
+cooldown 12
 mana cost 10 20 30 40 plus 10% of max mana
 
 talent level 15 upgrade Blast AND Sunder
 BLAST
-increase damage by 18
-Increase attack range duration by 2
+increase damage by 28
+Increase attack range duration by 3
 SUNDER
 increase damage by 5
-increase fear duration by 0.5
+increase fear duration by 0.7
+reduce cooldown by 4
+cost no mana
 
 add a new modifier Shadow Being
-Blast will Create a Shadow of TerroBlade Dealing 60% of the damage and last for 8 second AND Sunder will create a shadow of the target
-that will bond them taking Increasing damage from both by 30% and last 8 second
+Blast will Create a Shadow of TerroBlade Dealing 70% of the damage and last for 8 second AND Sunder will create a shadow of the target
+that will bond them the shadow will take 150% more damage and return 100% of that damage to the target bond with the shadow last 8 second
+
+
+PASSIVE SPELL D OR F True from AND Normal From
+terrorblade will alway start with a level into this spell Normal from reduce TerrorBlade damage but reduce damage taken,increasing life,
+Movementspeed and Increasing Slice of Death Power and in True Form Terrorblade will take increase damage but Increasing attack range,
+damage,attack speed and Reflection Power
+
+NORMAL FORM BONUS
+reduce base damage by 10% 20% 30% 40%
+reduce damage taken by 6% 10% 14% 18%
+life bonus 5% 8% 11% 14%
+movement speed bonus 25 40 55 70
+Empower Slice of Death
+TRUE FORM BONUS
+increase damage taken by 20% 30% 40% 50%
+increase attack range by 100 200 300 400
+increase base damage by 10 20 30 40
+increase attack speed by 12 24 36 48
+Empower Reflection
+cooldown 25
+
+talent level 15 Upgrade True from AND Normal From
+NORMAL FORM
+increase reduce damage taken by 2%
+increase life bonus by 6%
+increase movement speed by 30
+TRUE FORM
+increase base damage by 15
+increase attack range by 50
+increase attack speed by 6
+
+add a new modifier Demonic Soul
+going into Normal Form terroblade will take 70% reduce damage for 3 second and going into True Form will make TerrorBlade get max attack
+speed for 3 second this can only proc every 80 second and enemy that die in Normal Form of Terrorblade will restore is life by 2%
+and enemy that die in True Form of terrorblade will increase his damage by 4% up to 40% that last 5 second refresh on kill
+
