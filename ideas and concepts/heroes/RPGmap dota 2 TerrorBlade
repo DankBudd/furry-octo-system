@@ -121,8 +121,8 @@ movement speed bonus 25 40 55 70
 Empower Slice of Death
 TRUE FORM BONUS
 increase damage taken by 20% 30% 40% 50%
-increase attack range by 100 200 300 400
-increase base damage by 10 20 30 40
+increase attack range by 250 300 350 400
+increase base damage by 12 23 34 45
 increase attack speed by 12 24 36 48
 Empower Reflection
 cooldown 25
@@ -134,7 +134,7 @@ increase life bonus by 6%
 increase movement speed by 30
 TRUE FORM
 increase base damage by 15
-increase attack range by 50
+increase attack range by 100
 increase attack speed by 6
 
 add a new modifier Demonic Soul
