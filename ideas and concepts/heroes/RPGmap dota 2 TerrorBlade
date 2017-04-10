@@ -87,10 +87,10 @@ Push distence 250 300 350 400
 attack range bonus 100 150 200 250
 attack range bonus duration 4 second
 SUNDER
-damage 10 15 20 25 plus 15% of agility Pure damage
+damage 10 15 20 25 plus 20% of agility Pure damage
 life restored 50% 100% 150% 200% of the damage dealt by sunder
 Fear duration 0.7 1.0 1.3 1.6
-cooldown 12
+cooldown 14
 mana cost 10 20 30 40 plus 10% of max mana
 
 talent level 15 upgrade Blast AND Sunder
@@ -100,6 +100,7 @@ Increase attack range duration by 3
 SUNDER
 increase damage by 5
 increase fear duration by 0.7
+FOR BOTH
 reduce cooldown by 4
 cost no mana
 
@@ -122,10 +123,10 @@ Empower Slice of Death
 TRUE FORM BONUS
 increase damage taken by 20% 30% 40% 50%
 increase attack range by 250 300 350 400
-increase base damage by 12 23 34 45
+increase base damage by 10 20 30 40
 increase attack speed by 12 24 36 48
 Empower Reflection
-cooldown 25
+cooldown 10
 
 talent level 15 Upgrade True from AND Normal From
 NORMAL FORM
@@ -138,7 +139,44 @@ increase attack range by 100
 increase attack speed by 6
 
 add a new modifier Demonic Soul
-going into Normal Form terroblade will take 70% reduce damage for 3 second and going into True Form will make TerrorBlade get max attack
-speed for 3 second this can only proc every 80 second and enemy that die in Normal Form of Terrorblade will restore is life by 2%
-and enemy that die in True Form of terrorblade will increase his damage by 4% up to 40% that last 5 second refresh on kill
+going into Normal Form terroblade will take 70% reduce damage for 4 second and going into True Form will make TerrorBlade get max attack
+speed for 4 second this can only proc every 70 second and enemy that die in Normal Form of Terrorblade will restore is life by 2%
+and enemy that die in True Form of terrorblade will increase his damage by 4% up to 40% that last 5 second refresh on kill, boss will
+give 40% for 12 second
 
+
+ULTIMATE R Zeal
+in Normal Form Terrorblade will throw his blade to the target Zealing Them unable to attack or cast spell dealing medium damage
+after the blade hit the target they will come back dealing less damage and Zealing them as well for the full duration. in True Form
+TerrorBlade channel up a beam of Zeal Energy after 4 second of channel it will deal insane amount of damage in a line making the enemy
+blind
+
+Normal Form
+damage 26 52 78 plus 50% of agility pure damage
+Returning blade damage 13 26 39 plus 25% of agility pure damage
+Zeal duration 2 3 4 second
+True Form
+damage per second 30 60 90 plus 80% of agility magical damage
+blind duration 3 5 7 half on bosses
+channel 4 second
+Zeal Beam duration 6 second
+FOR BOTH
+cooldown 120 115 110
+mana cost 100 150 200 plus 7% of max mana
+
+
+talent level 25 upgrade Zeal
+Normal Form
+increase agility scaling by 20% -NOTE- 50% of this goes to the returning blade
+increase zeal duration by 3
+True Form
+increase damage per second by 10
+increase blind duration by 3
+FOR BOTH
+cooldown reduction 60
+mana cost reduce by 3% of max mana
+
+add a new modifier Chaos Zeal
+Normal Form now throw 6 more blade that deal full damage and for every enemy hit reduce the cooldown by 0.5
+True Form now create 2 more Beam that deal only 50% of the damage and are smaller and for every enemy hit increase the damage they
+take by 10% per tick of damage of the Beam
