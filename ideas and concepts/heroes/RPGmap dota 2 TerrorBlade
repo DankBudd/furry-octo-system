@@ -30,7 +30,7 @@ all enemy near terrorblade 900 radius get -5 armor reduction and -15% magic resi
 4% for every enemy in the radius
 
 SPELL Q Slice of Death
-deal damage base on the enemy lifes, bosses will take current life as damage instead of max Heath point and empower his next attack as 
+deal damage base on the enemy lifes, bosses will take current life as damage instead of max Heath point and empower his next attack 
 damage 8% 12% 16% 20% of max life as magic damage
 damage for bosses 3% 5% 7% 9% of current life as magic damage
 number of attack empower 1 2 3 4
