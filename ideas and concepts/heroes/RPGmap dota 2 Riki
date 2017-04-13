@@ -1,4 +1,4 @@
-Riki -- High-DPS, starting stats 4 int, 10 agi, 2 str, base speed 280, base damage 4, Stats Gain per level 0.10 int, 0.20 str, 0.40 agi, starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.30
+Riki -- High-DPS, starting stats 4 int, 10 agi, 3 str, base speed 280, base damage 4, Stats Gain per level 0.10 int, 0.20 str, 0.40 agi, starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.30
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -19,10 +19,10 @@ talent 2
 PASSIVE F OR D Thief Soul
 increase overall stats and give a positive and negative buff
 
-BUFF riki will gain 1 life per agility point he also get 4% increase agility for a total of his intelligence and strenght
-DEBUFF riki only gain 2 life per strenght and he take 30% more damage from pure,magical,physical also he can only use dagger weapons type
-damage 3 5 7 9
-attackspeed 4 8 12 16
+BUFF riki will gain 4 life per agility point he also get 6% increase agility for a total of his intelligence and strenght
+DEBUFF riki only gain 2 life per strenght and he take 50% more damage from pure,magical,physical also he can only use dagger weapons type
+damage 3 6 9 12
+attackspeed 6 10 14 18
 allstats 2 3 4 5
 magic resist 3% 5% 7% 9%
 spellvamp 4% 8% 12% 16%
@@ -30,8 +30,8 @@ spellvamp 4% 8% 12% 16%
 talent level 25 upgrade Thief Soul
 Double all stats
 add a new modifier Deadly
-if riki attack the same target 5 time in a row the next attack will deal 2% of the target current life as damage
-this effect only deal 0.5% of boss current life
+if riki attack the same target 4 time in a row the next attack will deal 3% of the target current life as damage
+this effect only deal 1% of boss current life
 
 
 
@@ -39,20 +39,20 @@ SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on
 deal damage and reducing the enemy damage and attack speed for a short duration and after dealing the damage, the dagger
 will bounce up to 4 target doing less damage and also reducing damage but not attackspeed
 
-Attack damage 120% 130% 140% 150%
+Attack damage 120% 130% 140% 150% damage type physical
 damage reduction 10% 12% 14% 16%
 attack speed lost 10 15 20 25
-bouncing dagger damage 50% 60% 70% 80%
-bouncing dagger damage reduction 4% 5% 6% 7%
+bouncing dagger damage 60% 65% 70% 75%
+bouncing dagger damage reduction 5% 6% 7% 8%
 debuff duration 3 second
 mana cost 90 plus 2% of max mana
-cooldown 8
+cooldown 11
 
 talent level 10 upgrade Dagger Strike
-increase damage by 10%
-increase damage reduction by 6%
-reduce mana cost by 30
-reduce cooldown by 1
+increase damage by 20% -Note- 50% of this goes to the  lesser damage bounce dagger
+increase damage reduction by 6% -Note- 50% of this goes to the  lesser damage bounce dagger
+reduce mana cost by 20
+reduce cooldown by 4
 
 add a new modifier Poison Dagger
 after striking the enemy, he will get poison dealing 8 pure damage per second and disabling regeneration for 3 second
@@ -62,7 +62,7 @@ also increase the damage he take by anything by 15%
 SPELL W Blink Stab
 jump behind the enemy stunning them and dealing damage, after the stun the target get silence.
 
-Attack damage 110% 140% 170% 200%
+Attack damage 110% 140% 170% 200% damage type physical
 stun 0.40 0.45 0.50 0.55
 stun increase by 0.01 per agility point
 silence 1.30 1.40 1.50 1.60
@@ -71,22 +71,22 @@ mana cost 150 plus 1% of max mana
 cooldown 26 24 22 20
 
 talent level 10 upgrade Blink Stab
-increase damage by 20%
+increase damage by 40%
 increase stun by 0.15
 increase silence by 0.40
-cost no mana
+reduce mana cost by 20
 
 add a new modifier Stab Feast
-after blinking on the target riki get 25% increase damage and 15% of is damage become pure for 3 second, if any
-enemy die by blink stab riki will get heal for 10% of is max life
+after blinking on the target riki get 25% increase damage and 15% of is damage become pure for 2.5 second, if any
+enemy die by blink stab riki will get heal for 15% of is max life
 
 
 SPELL E Smoke Grenade
 Throw a smoke at the target location dealing small amount of damage and causing enemy to miss and get slow
 also increase ally magic resist
 
-Attack damage 50% 60% 70% 80%
-miss chance 15% 20% 25% 30%
+Attack damage 30% 40% 50% 60% damage type magical
+miss chance 5% 10% 15% 20%
 movementspeed slow 15%
 magic resist bonus 4% 7% 10% 13%
 radius 250
@@ -97,36 +97,36 @@ mana cost 100 130 160 190 plus 4% of max mana
 cooldown 20 19 18 17
 
 talent level 15 upgrade Smoke Grenade
-increase miss chance by 15%
-increase slow by 10%
+increase miss chance by 10%
+increase slow by 15%
 increase magic resist by 17%
 increase radius by 50
 
 add a new modifier Toxic Smoke
-deal 15% of riki attack damage per second and the enemy got 10% chance to be stun for 0.70 second every
+deal 15% of riki attack damage as magic per second and the enemy got 8% chance to be stun for 0.60 second every
 tick of damage
 
 
 PASSIVE D OR F BackStab -NOTE- this affect only work behind that mean if riki attack from the front once the target lose all stack
 increase riki agility, riki attack will do 100% crit damage behind the target and lowering the armor of the target as well
-if the target get 8 stack of Stab he will take increase damage
+if the target get 6 stack of Stab he will take increase damage
 
-agility bonus 5 7 9 11
+base agility bonus 5 7 9 11
 damage multiplier behind the target 110% 120% 130% 140%
 armor lost per stack 1
 damage increase 10% 13% 16% 19%
-damage increase duration 2.5 second
-armor lost duration 2.5 second
+damage increase duration 2 second
+armor lost duration 2 second
 -NOTE- has no cooldown to regive the stack again meaning that with alot of attack speed the increase damage can stay for infinit time
 
 talent level 15 upgrade BackStab
 increase damage multiplier by 10%
-increase armor lost per stack by 0.5
-increase agility bonus by 4
+increase armor lost per stack by 0.4
+increase agility bonus by 9
 
 add a new modifier DeepStab
-riki got 15% chance to deal 250% of the normal damage behind and giving 3 stack instead of 1, riki also
-get 20% life steal on proc
+riki got 25% chance to deal 250% of the normal damage behind and giving 3 stack instead of 1, riki also
+get 15% life steal on proc
 
 
 ULTMATE R Assasin Parry PASSIVE
@@ -135,14 +135,15 @@ a stack of Parry increasing armor by 1 up to a max of 5, after 5 stack next parr
 increase riki damage
 
 bonus damage 10% 20% 30%
-Attack damage to parry 180% 240% 300%
+Attack damage to parry 180% 240% 300% damage type pure
 parry chance 10% 11% 12%
-damage reduction upon parrying 15%
+damage reduction upon parrying 15% 16% 17% 18%
 max stack parry damage 4% 8% 12% of max life as damage of the enemy
-parry stack duration 6 second
+parry stack duration 10 second
 armor per stack 1
 
 talent level 25 upgrade Assasin Parry
+increase bonus damage by 20%
 increase attack damage by 20%
 increase parry chance by 2%
 increase the damage of max life by 3%
@@ -150,7 +151,7 @@ increase the duration of stack by 2
 
 add a new modifier Death Strike
 riki basic attack will alway deal 10% pure damage and parry will steal life from the target
-gaining 0.5% of the stolen life for 9 second can stack up to 4 and also increase movement speed limit to 900
+gaining 1% of the stolen life for 9 second can stack up to 4 and also increase movement speed limit to 900
 and agility increase movement speed by 2
 
 
