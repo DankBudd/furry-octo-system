@@ -89,11 +89,11 @@ mana regen 2
 mana 100
 
 
-Anti-Magic Bar GREEN 500 gold
+Anti-Magic Bar GREEN 400 gold
 increase user magic resist and damage can also be use to be magic immune for a short time
 
 Active item use
-become magic immune for 1.5 second cooldown 22
+become magic immune for 1.6 second cooldown 21
 
 magic resist 12%
 damage 6
@@ -117,3 +117,24 @@ mana per second 7 plus 2% of the user Attributes
 amounts of kill for a charge 7
 boss will always give 4 charges
 spell amp bonus for the duration 2%
+
+
+Book of Lores gold 350
+increase the user stats also giving bonus XP and movement speed
+
+3 all stats
+10% movement speed
+10% increase XP gain
+
+
+Magical Orb
+increase the user intelligence and mana also all MAGIC spell will slow and deal bonus damage
+
+Passive item use
+all MAGIC spell will slow for 6% and deal 1 pure damage extra
+
+Inteillgence 7
+mana 5%
+
+
+
