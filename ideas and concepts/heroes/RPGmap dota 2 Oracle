@@ -3,10 +3,10 @@ Starting item Broken Orb give 2 damage and 4 int base attack time 3.00 Support-l
 LEVEL 20 TALENT
 
 Talent 1
-10% life,4 armor,15% magic resist
+12% life,5 armor,15% magic resist
 
 Talent 2
-16 intelligence,4% spell amp,200 cast range
+18 intelligence,4% spell amp,210 cast range
 
 
 PASSIVE D OR F Prophet
@@ -35,14 +35,13 @@ life restore 10% 14% 18% 22% of the damage taken NOTE heal amp dont affect this
 Mana restore 5% 7% 9% 11% of the damage
 damage from explosion 8 10 12 14 plus 15% of int damage type pure
 cooldown 25 23 21 19
-mana cost 100 200 300 400 plus 2% of max mana
+mana cost 100 200 300 400
 
 talent level 10 upgrade Shield of Fate
 increase duration of Shield of Fate by 0.4
 increase healing restore by 3%
 increase mana rrestore by 4%
 reduce cooldown by 3
-remove the max mana cost
 
 add a new modifier Your Fate is Sealed
 after the duration of Shield of Fate the ally will gain a buff that will reduce damage by 20% that last for 5 second and blinding enemy
@@ -53,11 +52,11 @@ SPELL W Mind Blast
 deal small damage to a unit and fearing them, if cast on a ally increase their spell amp and damage and if cast on self heal for alot
 but double the cooldown
 
-damage 8 12 16 20 plus 20% of int damage type magical
+damage 8 12 16 20 plus 14% of int damage type magical
 fear duration 1.2 1.4 1.6 1.8
 spell amp bonus 3% 7% 11% 15%
 damage bonus 6 10 14 18
-self healing 25% 40% 55% 70% of max health
+self healing 25% 40% 55% 70% of max health 
 cooldown 12 11 10 9
 mana cost 60 120 180 240
 
@@ -68,6 +67,22 @@ increase spell amp by 7%
 increase damage by 10
 reduce cooldown by 2
 
-add a new modifier 
+add a new modifier Knowledge Mind
+if cast on hero they will gain a 5 mim buff that increase XP gain by 15% and give them as well 10% damage reduction and become a Radius
+of 700 casting it on all ally and enemy also the enemy will take 1% of their max health as damage 0.5% for boss and no longer affect
+oracle losing the healing buff for himself
 
 
+SPELL E Ancient Healing
+Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well, some of the healing
+done will increase damage for the target but doenst give any for secondary target
+
+Heal 30 40 50 60 plus 40% of int
+Heal reduction per jump 10%
+mana restore 10 20 30 40 plus 20% of int
+mana restore reduction per jump 10%
+max jump 2 5 8 11
+Healing done into bonus damage 5% only for primary target
+duration of bonus damage 6 second
+cooldown 6 5 4 3
+mana cost 100 140 180 220
