@@ -68,21 +68,48 @@ increase damage by 10
 reduce cooldown by 2
 
 add a new modifier Knowledge Mind
-if cast on hero they will gain a 5 mim buff that increase XP gain by 15% and give them as well 10% damage reduction and become a Radius
+if cast on hero they will gain a 5 mim buff that increase XP gain by 10% and give them as well 10% damage reduction and become a Radius
 of 700 casting it on all ally and enemy also the enemy will take 1% of their max health as damage 0.5% for boss and no longer affect
 oracle losing the healing buff for himself
 
 
 SPELL E Ancient Healing
-Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well, some of the healing
-done will increase damage for the target but doenst give any for secondary target
+Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well
 
 Heal 30 40 50 60 plus 40% of int
-Heal reduction per jump 10%
-mana restore 10 20 30 40 plus 20% of int
-mana restore reduction per jump 10%
-max jump 2 5 8 11
-Healing done into bonus damage 5% only for primary target
-duration of bonus damage 6 second
+Heal reduction per jump 7%
+mana restore 10 20 30 40 plus 10% of int
+mana restore reduction per jump 7%
+jump distence 500
+max jump 2 3 4 5
+increase max jump by 1 for every 26 intelligence points
+jump delay per heal 0.5 second
 cooldown 6 5 4 3
 mana cost 100 140 180 220
+
+talent level 15 upgrade Ancient Healing
+increase heal by 30
+increase heal scaling int by 20%
+increase max jump by 5
+remove heal and mana reduction per jump
+increase mana cost by 110
+reduce cooldown by 1
+
+add a new modifier Ancestral Power
+healing jump turn global casting it on oracle will not make it global and never stop jumping until here is no jump remaing,
+meaning that it will affect the target multiple time with no limit but it will alway target people with the least health
+
+
+PASSIVE D OR F 
+
+
+
+
+
+
+
+
+
+
+
+
