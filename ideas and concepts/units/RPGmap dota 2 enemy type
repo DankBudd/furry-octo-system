@@ -1,1 +1,52 @@
-here are 8 TYPE of enemy
+here are 11 TYPE of enemy, all info of their stats they get -NOTE- those are idea for counter of damage and such making some enemy strong
+vs other stuff
+
+
+Fire type enemy
+
+those enemy only take 50% of fire damage and deal 30% more damage
+
+Ice Type enemy
+
+those enemy only take 50% of ice damage and take 15% reduce damage from anything but Void and Chaos
+
+Earth Type enemy
+
+those enemy only take 50% of earth damage and reduce the effect of Crowd Control by 50%
+
+Air type Enemy
+
+those enemy only take 50% of air damage and got 25% chance to evade basic attack
+
+Demonic type Enemy
+
+those enemy take 70% damage from all type but Chaos and Void they also return 10% of the damage they take to all nearby Hero 1000 radius
+
+Chaos Type enemy
+
+those enemy take 30% damage from all type but not pure damage and 30% of their basic attack and spell are pure damage
+
+Undead Type Enemy
+
+those enemy take only take 30% of physical damage, they also lifesteal and spellvamp for 15% of the damage done but take 50% more damage
+from Holy
+
+Holy Type Enemy
+
+those enemy take 80% damage from all type as well pure damage but take 100% more damage From Chaos
+
+Death type enemy
+
+those enemy only take 40% damage from fire,ice,earth,air and undead but take 100% more damage from Holy
+
+Void Type enemy
+
+those enemy take 20% damage from all type but pure and are immune to Crowd Control effect and debuff last 50% of thier duration
+
+Boss Type enemy
+
+Boss only take 70% from all damage type but not pure damage if they lose 15% of their max health in 12 second they will become Enrage
+reducing all Crowd controll by 50% and debuff by 60% and getting a bonus of 25% damage reduction as well this can only happen every
+12 second and last for 6 second
+
+
