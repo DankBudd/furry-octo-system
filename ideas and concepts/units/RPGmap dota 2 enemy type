@@ -4,19 +4,20 @@ vs other stuff
 
 Fire type enemy
 
-those enemy only take 50% of fire damage and deal 30% more damage
+those enemy only take 50% of fire damage and deal 30% more damage and take 20% more damage from chaos and void
 
 Ice Type enemy
 
-those enemy only take 50% of ice damage and take 15% reduce damage from anything but Void and Chaos
+those enemy only take 50% of ice damage and take 15% reduce damage from anything but Void and Chaos also take 20% more damage from
+Void and Chaos
 
 Earth Type enemy
 
-those enemy only take 50% of earth damage and reduce the effect of Crowd Control by 50%
+those enemy only take 50% of earth damage and reduce the effect of Crowd Control by 50% and take 20% more damage from chaos and void
 
 Air type Enemy
 
-those enemy only take 50% of air damage and got 25% chance to evade basic attack
+those enemy only take 50% of air damage and got 25% chance to evade basic attack and take 20% more damage from chaos and void
 
 Demonic type Enemy
 
@@ -33,7 +34,7 @@ from Holy
 
 Holy Type Enemy
 
-those enemy take 90% damage from all type as well pure damage but take 100% more damage From Chaos
+those enemy take 90% damage from all type as well pure damage but take 100% more damage From Chaos and 50% more from void
 
 Death type enemy
 
@@ -41,7 +42,7 @@ those enemy only take 30% damage from fire,ice,earth,air and undead but take 150
 
 Void Type enemy
 
-those enemy take 20% damage from all type but pure damage and are immune to Crowd Control effect and debuff last 40% of thier duration
+those enemy take 20% damage from all type but pure damage and are immune to Crowd Control effect and debuff last 50% of thier duration
 
 Boss Type enemy
 
