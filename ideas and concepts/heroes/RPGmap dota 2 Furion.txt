@@ -40,9 +40,9 @@ heal or damage a target increaseing or reducing armor and magic resist, also aft
 Nature Wrath will do a explosion doing again nature Wrath but doenst regive the debuff and heal and damage for less
 
 Heal 30 50 70 90 plus 50% of int
-Damage 14 18 22 26 plus 40% of int in magical damage
+Damage 14 18 22 26 plus 40% of int type Holy
 Heal explosion 15 25 35 45 plus 25% of int
-Damage explosion 7 9 11 13 plus 20% of int in magical damage
+Damage explosion 7 9 11 13 plus 20% of int type Holy
 bonus armor 1 2 3 4
 armor reduction 0.5 1 1.5 2
 magic resist 5% 7% 9% 11%
