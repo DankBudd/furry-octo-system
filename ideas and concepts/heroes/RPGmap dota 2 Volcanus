@@ -33,7 +33,7 @@ SPELL Q
 Soul Burn
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
 
-damage per second 7 14 21 28 type Magical plus 25% of intelligence
+damage per second 7 14 21 28 type Fire plus 25% of intelligence
 damage reduction 55% 60% 65% 70%
 slow 6% 8% 10% 12%
 Silence Target
@@ -54,7 +54,7 @@ after the duration of soul burn it will explode dealing 200% of the damage of so
 SPELL W Lava Wave
 send out a wave that deal heavy damage to the enemy that get hit by the wave and burning them and lowering magic resist
 
-damage 15 30 45 60 type magical plus 20% of intelligence
+damage 15 30 45 60 type Fire plus 20% of intelligence
 burn damage 3 4 5 6 per second type magical plus 4% of intelligence
 magic resist lost 3% 6% 9% 12%
 duration of burn and magic resist lost 3 second
@@ -78,7 +78,7 @@ SPELL E Volcano
 channel a volcano that deal damage every 3 second stuning the enemy every time the enemy gets damage again by volcano
 they will take increase damage from it
 
-damage 12 18 24 30 type magical plus 35% of intelligence
+damage 12 18 24 30 type Fire plus 35% of intelligence
 damage increase by 2 4 6 8 every the enemy gets damage again by volcano
 duration of channel 12 second
 stun duration 1 1.1 1.2 1.3
@@ -104,7 +104,7 @@ increase Volcanus spell amp and make is auto-attack burn the target dealing low 
 it will explode dealing high damage
 
 spell amp 3% 5% 7% 9%
-burn damage 3% 4% 5% 6% of intelligence type magical
+burn damage 3% 4% 5% 6% of intelligence type Fire
 explosion damage 15 20 25 30 type pure plus 15% of intelligence
 radius of Incinerate explosion 250
 Incinerate duration 3 second
@@ -131,7 +131,7 @@ Incinerate explosion radius increase 40 80 120
 Lava Wave damage increase 20 40 60
 Lava Wave Radius 400
 Lava Pool radius 300
-Lava Pool damage 7 10 13 plus 22% 44% 66% of intelligence type magical damage every 1 second
+Lava Pool damage 7 10 13 plus 22% 44% 66% of intelligence type Fire damage every 1 second
 Lava Pool duration 5 second
 Duration of Hells Power 12 14 16
 cooldown 320 290 260
@@ -147,7 +147,7 @@ Increase cooldown by 40
 
 add a new modifier King of Hell
 when casting Hells Power Volcanus Triple in Size increase is life by 200% is damage by 50% and is spell amp by 25%
-and he cannot move he also Summon a Giant Lava Wave 1000 radius behind him dealing 100 200 300 magical damage plus 80% of intelligence
+and he cannot move he also Summon a Giant Lava Wave 1000 radius behind him dealing 100 200 300 Fire damage plus 80% of intelligence
 he also get Incinerate on himself exploding every second of the duration of Hells Power but only deal 20% of the damage.
 
 
