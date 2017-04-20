@@ -20,11 +20,11 @@ those enemy only take 50% of air damage and got 25% chance to evade basic attack
 
 Demonic type Enemy
 
-those enemy take 70% damage from all type but Chaos and Void they also return 10% of the damage they take to all nearby Hero 1000 radius
+those enemy take 70% damage from all type but Chaos and Void they also return 5% of the damage they take to all nearby Hero 1000 radius
 
 Chaos Type enemy
 
-those enemy take 30% damage from all type but not pure damage and 30% of their basic attack and spell are pure damage
+those enemy take 40% damage from all type but not pure damage and 40% of their basic attack and spell are pure damage
 
 Undead Type Enemy
 
@@ -33,15 +33,15 @@ from Holy
 
 Holy Type Enemy
 
-those enemy take 80% damage from all type as well pure damage but take 100% more damage From Chaos
+those enemy take 90% damage from all type as well pure damage but take 100% more damage From Chaos
 
 Death type enemy
 
-those enemy only take 40% damage from fire,ice,earth,air and undead but take 100% more damage from Holy
+those enemy only take 30% damage from fire,ice,earth,air and undead but take 150% more damage from Holy
 
 Void Type enemy
 
-those enemy take 20% damage from all type but pure and are immune to Crowd Control effect and debuff last 50% of thier duration
+those enemy take 20% damage from all type but pure and are immune to Crowd Control effect and debuff last 40% of thier duration
 
 Boss Type enemy
 
