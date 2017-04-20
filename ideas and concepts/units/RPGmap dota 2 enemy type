@@ -24,7 +24,7 @@ those enemy take 70% damage from all type but Chaos and Void they also return 5%
 
 Chaos Type enemy
 
-those enemy take 40% damage from all type but not pure damage and 40% of their basic attack and spell are pure damage
+those enemy take 40% damage from all type but pure damage and 40% of their basic attack and spell are pure damage
 
 Undead Type Enemy
 
@@ -41,11 +41,11 @@ those enemy only take 30% damage from fire,ice,earth,air and undead but take 150
 
 Void Type enemy
 
-those enemy take 20% damage from all type but pure and are immune to Crowd Control effect and debuff last 40% of thier duration
+those enemy take 20% damage from all type but pure damage and are immune to Crowd Control effect and debuff last 40% of thier duration
 
 Boss Type enemy
 
-Boss only take 70% from all damage type but not pure damage if they lose 15% of their max health in 12 second they will become Enrage
+Boss only take 70% from all damage type but pure damage if they lose 15% of their max health in 12 second they will become Enrage
 reducing all Crowd controll by 50% and debuff by 60% and getting a bonus of 25% damage reduction as well this can only happen every
 12 second and last for 6 second
 
