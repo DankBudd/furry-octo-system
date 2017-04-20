@@ -46,7 +46,7 @@ SPELL Q level needed 1 4 9 15
 Void Curse
 
 Deal damage over time to a target lowering the armor and magic resist for the duration
-Damage 14 16 18 20 magic damage plus 5% of intelligence
+Damage 14 16 18 20 type Void plus 5% of intelligence
 cast range 700
 Duration 5 6 7 8 second damage every 1 second
 Armor lost 0.4 per tick of damage
@@ -70,7 +70,7 @@ SPELL W level needed 1 4 9 15
 Gravity Well
 Infest the ground with pure energy of gravity dealing damage overtime and slowing attack and movement speed
 
-Damage 10 15 20 25 magic damage per second
+Damage 10 15 20 25 type Void per second
 cast range 700
 duration 7 second
 Attack slow 3 per damage
@@ -98,7 +98,7 @@ SPELL E level needed 1 4 9 15
 Gravity Bolt
 Cast a bolt made of pure gravity dealing magical damage and healing engima
 
-Base damage 15 20 25 30 magic damage
+Base damage 15 20 25 30 type Void
 intelligence scaling 15% 25% 35% 45%
 cast range 700
 healing recive from gravity bolt damage 10% 20% 30% 40%
