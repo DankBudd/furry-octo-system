@@ -3,18 +3,18 @@ Starting item Broken Orb give 2 damage and 4 int base attack time 3.00 Support-l
 LEVEL 20 TALENT
 
 Talent 1
-12% life,5 armor,15% magic resist
+15% life,5 life regenration,50% pure damage resist
 
 Talent 2
-18 intelligence,4% spell amp,210 cast range
+18 intelligence,6% spell amp,110 cast range
 
 
 PASSIVE D OR F Prophet
 
-BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 8 intelligence he also start with 300 bonus mana and immune to stun he also
+BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 12 intelligence he also start with 200 bonus mana and immune to Roots he also
 gain a shield every 15 second cannot regain shield in combat, equal to 15% of his mana that last until he take the amount of damage needed
-DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 20 intelligence instead of
-5 he also lose -7 armor at the start and -10% magic resist he can only use ORB type weapons
+DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 30 intelligence instead of
+5 he also lose -10 armor at the start and -30% magic resist he can only use ORB type weapons
 mana bonus 3% 6% 9% 12%
 healing amp 3% 4% 6% 7%
 spell amp 4% 6% 8% 10%
@@ -24,7 +24,7 @@ mana regeneration 0.15% 0.30% 0.45% 0.60%
 talent level 25 upgrade Prophet
 double all stats
 add a new modifier Life Explosion
-40% of oracle spell mana cost will heal nearby ally and him 400 AoR and he his immune to roots
+40% of oracle spell mana cost will heal nearby ally and him 400 AoR and he his immune to Stun
 
 
 SPELL Q Time Shield
@@ -80,10 +80,11 @@ deal 1% of the target max life as damage 0.50% for bosses
 SPELL E Ancient Healing
 Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well
 
-Heal 30 40 50 60 plus 40% of int
-Heal reduction per jump 7%
+Heal 20 30 40 50 plus 15% of int
+Heal reduction per jump 8%
 mana restore 10 20 30 40 plus 10% of int
-mana restore reduction per jump 7%
+mana restore reduction per jump 8%
+max reductions 80%
 jump distence 500
 max jump 2 3 4 5
 increase max jump by 1 for every 26 intelligence points
@@ -92,10 +93,10 @@ cooldown 6 5 4 3
 mana cost 100 140 180 220
 
 talent level 15 upgrade Ancient Healing
-increase heal by 30
-increase heal scaling int by 20%
+increase heal by 50
+increase heal scaling int by 15%
 increase max jump by 5
-remove heal and mana reduction per jump
+reduce the heal and mana reduction by 4%
 increase mana cost by 110
 reduce cooldown by 1
 
@@ -106,14 +107,15 @@ meaning that it will affect the target multiple time with no limit but it will a
 
 PASSIVE D OR F Fate Aura
 increase armor,magic resist and life regeneration for nearby ally and for the enemy they will take more damage from anything
-and increasing stun,root and blind duration as well
+and taking increase stun,root and blind duration as well
 
 armor bonus 1 2 3 4
-magic resist bonus 10% 14% 18% 22%
-life regeneration 2 3 4 5 plus 1% of int
-enemy damage taken bonus 4% 8% 12% 16%
-enemy increase Stun,Root,Blind 10% 20% 30% 40%
-
+magic resist bonus 4% 10% 16% 22%
+life regeneration 2 3 4 5 plus 2% of int
+enemy damage taken bonus 5% 10% 15% 20%
+increase the duration of Stun,Root,Blind by 10% 20% 30% 40% on enemys
+radius of aura 500
+increase the radius by 5 per inteillgence point
 
 
 
