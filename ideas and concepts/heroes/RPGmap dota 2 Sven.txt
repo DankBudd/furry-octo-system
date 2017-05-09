@@ -19,18 +19,19 @@ Mighty Warrior level needed 1 5 15 25 PASSIVE D OR F
 
 increase overall stats and give a positive and negative buff
 
-BUFF sven will gain 1 damage per 3 Strenght instead of 5 he also gain 1% lifesteal per 15 Strenght
-DEBUFF sven lose 25 attack speed,20% max life and 30% mana, he can only use Two-Handed Sword type
+BUFF sven will gain 1 damage per 3 Strenght instead of 5 he also gain 1% lifesteal per 15 Strenght he also reduce stun,root and blind by
+40% he also start witn 2 armor and 5% magic resist
+DEBUFF sven lose 35 attack speed,30% max life and 60% mana, he can only use Two-Handed Sword type
 attack speed 8 10 12 14
-life 2% 4% 8% 10%
+life regeneration 0.10% 0.15% 0.20% 0.25%
 armor 1 2 3 4
 movement speed 4% 8% 12% 16%
-magic resist 5% 10% 15% 20%
+magic resist 3% 5% 7% 9%
 
 level 25 talent upgrade Mighty Warrior
 double all bonus
 add a new modifier Great Cleave
-sven cleave for 30% of the damage done the cleave damage is pure he also deal 0.5% of the target max life as damage
+sven cleave for 35% of the damage done the cleave damage is pure he also deal 0.5% of the target max life as damage
 
 
 SPELL Q level needed 1 4 9 15
@@ -42,18 +43,18 @@ attack speed 15 25 35 45
 flat movement speed 15 30 45 60
 damage bonus 6 10 14 18
 duration 3 3.5 4 4.5
-increase duration by 0.01 per strenght points
+increase duration by 0.02 per strenght points
 cooldown 18 17 16 15
 mana cost 40 60 80 100
 
 talent level 10 upgrade Bloodlust
 increase attack speed by 10
-increase damage by 5
+increase damage by 8
 increase duration by 1
-increase mana cost by 20
+increase mana cost by 50
 
 add a new modifier Frenzy
-every hit on the target will increase the damage it take by 3% up to 15%, went it reach
+every hit on the target will increase the damage it take by 3% up to 15%, when it reach
 the max stack of 5 the next attack of sven will do pure instead of physical damage for the duration of BloodLust
 
 
@@ -66,19 +67,20 @@ bonus damage base on the current life of the enemy NOTE if use on a boss the coo
 damage 10 16 22 28 pysical damage plus 24% 36% 48% 60% of sven strenght
 spellvamp 10% 15% 20% 25%
 current life as bonus damage 6% 8% 10% 12%
-coldown 20
+coldown 10
 mana 100 130 160 190 plus 1% of max mana
 
 talent level 10 upgrade Death Blow
 increase damage by 10
 increase strenght scaling by 20%
 increase current life damage by 4%
-reduce cooldown by 6
+reduce cooldown by 2
 reduce mana cost by 70
 
 add a new modifier Colossus Sword
-sven will instanly kill enemy who are below 25% of their max life and reduce it cooldown by 7
-doenst work on bosses
+sven will instanly kill enemy who are below 25% of their max life and reduce it cooldown by 6
+and increasing Death Blow damage by 10% for every kill under 25% of their health up to 100% last 5 second
+doesnt work on boss
 
 
 SPEED E level needed 1 4 9 15
@@ -95,38 +97,40 @@ cooldown 21 20 19 18
 mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 upgrade Blood Lost
-increase damage by 2
-strenght scaling increase by 10%
-cost no mana
+increase damage by 6
+strenght scaling increase by 5%
+reduce mana cost by 40
 
 add a new modifier Critical Wound
-sven basic attack deal 20% pure damage on target affected by Blood Lost. if the target die
-under Blood lost he will drop a Globe of Life restoring anyone life by 5% bosses will drop a
-Greater Globe of life restoring 35% instead
+sven basic attack and spell will deal 10% pure damage on target affected by Blood Lost. if the target die
+under Blood lost he will drop a Globe of Life restoring anyone life by 10% bosses will drop a
+Greater Globe of life restoring 65% instead and reducing the cooldown of Blood Lost by 6 second
 
 
 PASSIVE D OR F Level needed 3 7 11 15
 
 
 War Gladiator
-sven got a chance to deal a critical hit and blocking any attack dealt to him
+sven can block both magic and physical spell also blocking basic attack but he cannot block damage over time spell
+he also got a chance to deal a critical hit for more damage increase NOTE getting any critical item will make them not work
+for basic attack crit
 
-Critical damage 135% 145% 155% 165%
+Critical damage 125% 135% 145% 155%
 increase critical damage by 1% for every 5 point of strenght
 Critical chance 12% 13% 14% 15%
-block damage 7 12 18 26
+block damage 4 11 18 25
 increase block damage by 1 for every 10 strenght point
 block chance 15% 20% 25% 30%
 
 talent level 15 upgrade War Gladiator
-increase critical damage by 25%
-increase critical chance by 2%
-increase block damage by 7
+increase critical damage by 15%
+increase critical chance by 5%
+increase block damage by 5
 increase block chance by 10%
 
 add a new modifier Legend Gladiator
 for every block and critical hit sven do he will gain 0.5 armor and 1 damage for 4 second refresh every block and crit
-up to 20 stack, upon reaching 20 stack sven will perma-increase is strenght by 1
+up to 20 stack, upon reaching 20 stack sven will get 10 life regeneration and 20 attack speed until he lose all the stack
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
@@ -134,7 +138,7 @@ ULTIMATE R LEVEL NEEDED 8 16 24
 God Strenght
 
 increase sven damage and life but reduce speed attack speed for a short duration and reducing cooldown upon killing enemy
-went God Strenght is active
+when God Strenght is active
 
 damage 30 50 70
 base damage 30% 50% 70%
@@ -155,8 +159,8 @@ reduce cooldown by 5
 
 add a new modifier God Will
 now give the base damage bonus to any ally near sven 900 radius and make sven attack cleave for 50% of the damage
-also went activating God Streght any enemy near sven 300 radius will be stun for 2 second and lose 5 armor for the
-duration
+also when activating God Streght any enemy near sven 300 radius will be stun for 2 second and lose 10 armor for 5 second
+
 
 
 
