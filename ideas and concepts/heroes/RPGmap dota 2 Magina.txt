@@ -17,7 +17,7 @@ PASSIVE D OR F
 Anti-Magic
 Increase overall stats and give a positive and negative buff
 
-BUFF Magina gain 4 mana per agility point and for every 200 mana, Magina gain 1 damage and he start with 2 armor and 10% magic resist
+BUFF Magina gain 4 mana per agility point and for every 200 mana, Magina gain 1 damage and 30% of his inteillgence will be agility bonus
 DEBUFF Magina will take 50% increase damage from PURE,MAGICAL,PHYSICAL damage, Magina will only gain 4 mana per intelligence
 damage bonus 5% 10% 15% 20%
 attack speed bonus 7 14 21 28
@@ -29,7 +29,8 @@ bonus mana 7%% 14% 21% 28%
 talent level 25 upgrade Anti-Magic
 double all bonus
 give a new modifier Fool Mana
-Magina basic attack will deal 2% of the target max mana as bonus damage to them
+Magina basic attack will deal 4% of the target max mana as bonus damage to them and killing them will give magina 10% of thier
+max mana for him that last 20 second killing a new enemy will change it and refresh it
 
 SPELL Q
 
