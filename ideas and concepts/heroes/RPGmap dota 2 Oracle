@@ -118,10 +118,38 @@ radius of aura 500
 increase the radius by 5 per inteillgence point
 
 
+talent level 15 upgrade Fate Aura
+increase inteillgence scaling of life regeneration by 1%
+increase enemy damage taken by 10%
+increase magic resist by 3%
+
+add a new modifier Fate Armor
+increase the armor bonus by 1 for every 50 inteillgence oracle he got, oracle also gain 1% cooldown reduction for every 20 inteillgence
+that only work for him and not giving that to near ally, any enemy that die inside of the radius of fate aura will give oracle and is
+ally 1% life back 10% for bosses
 
 
+ULTIMATE r Fate's Edict
+give a ally a premanent that boost life,damage,cast range,spell amp,armor,magic resist and mana if oracle change target, remove the buff
+on the previous target and give the buff to that ally instead it can also be stack up to 3 time giving lesser boosting cannot be cast
+on ally summon. 10% of your ally damage done will heal you and restore 2% mana as well on the ally affected by the buff
 
-
+FIRST BUFF
+life bonus 10% 15% 20%
+damage 10 18 26
+cast range 100 200 300
+spell amp 10% 14% 18%
+armor 2 4 6
+magic resist 4% 8% 12%
+mana 15% 25% 35%
+STACKING BUFF
+life bonus 2% 4% 6%
+damage 3 6 9
+cast range 40 60 80
+spell amp 2% 3% 4%
+armor 0.5 1 1.5
+magic resist 1% 2% 3%
+mana 4% 7% 10%
 
 
 
