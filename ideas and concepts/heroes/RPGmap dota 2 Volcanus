@@ -1,4 +1,4 @@
-Volcanus Starting stats 5 Int, 3 Agi, 3 Str, base speed 290, base damage 3, Stats Gain per level 0.80 int, 0.40 str, 0.40 agi
+Volcanus Starting stats 5 Int, 3 Agi, 3 Str, base speed 290, base damage 3, Stats Gain per level 0.70 int, 0.30 str, 0.30 agi
 Starting item Fire Hand give 3 damage and 2 int base attack time 1.90 High-DSP - Nuker
 
 LEVEL 20 TALENT
@@ -14,13 +14,14 @@ PASSIVE D OR F Fire God
 Increase overall stats and give a positive and negative buff
 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 2% spellamp per 10 int instead of 1% and he can use 2 glove
-Intead of 1 he also gain 2 life per inteillgence point
-DEBUFF Volcanus lose 25% magic resist with -6 armor and he cannot use any weapons type he also take 200% more damage from PURE damage type
+Intead of 1 he also gain 2 life per inteillgence point he can also use Sulfuras and get More bonus from it
+DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
+he also lose 50% base attack damage
 mana 4% 8% 12% 16%
 int 4 6 8 10
 attack range 25 50 75 100
 spell-vamp 2% 3% 4% 5%
-spell-amp 2% 5% 8% 11%
+Fire damage spell increase 4% 6% 8% 10%
 
 talent level 25 upgrade Fire God
 double all stats
