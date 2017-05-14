@@ -56,7 +56,7 @@ SPELL W Lava Wave
 send out a wave that deal heavy damage to the enemy that get hit by the wave and burning them and lowering magic resist
 
 damage 15 30 45 60 type Fire plus 20% of intelligence
-burn damage 3 4 5 6 per second type magical plus 2% of intelligence
+burn damage 3 4 5 6 per second type magical plus 5% of intelligence
 magic resist lost 3% 6% 9% 12%
 duration of burn and magic resist lost 3 second
 radius of the wave 400
@@ -85,7 +85,7 @@ duration of channel 12 second
 stun duration 0.8 0.9 1.0 1.1
 stun duration increase by 0.1 every time the enemy gets damage again by volcano
 radius of volcano 300 350 400 450
-radius of volcano increase by 1 for every point of intelligence
+radius of volcano increase by 3 for every point of intelligence
 cooldown 50 45 40 35
 mana cost 100 170 240 310 plus 2% of max mana
 
@@ -97,7 +97,8 @@ increase radius by 100
 
 add a new modfier Lava Spawn
 if the volcano kill any unit it will spawn a Lava Spawn that has 120% of volcanus life and 70% of the damage of volcanus as well
-if the lava spawn deal at least 60 plus x20 of hero level as damage it will spawn a new lava spawn with only 40% of volcanus life and damage
+if the lava spawn deal at least 60 plus x20 of hero level as damage it will spawn a new lava spawn with only 40% of volcanus life and
+damage both of them will last 35 second and spawning new one will refresh the duration of the current lava spawn can only happen 1 time
 
 
 PASSIVE D OR F Incinerate
