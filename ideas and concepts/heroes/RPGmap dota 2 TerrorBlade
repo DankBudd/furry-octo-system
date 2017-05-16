@@ -25,8 +25,8 @@ attack speed 6 12 18 24
 
 talent level 25 upgrade True Demon
 double all bonus
-add a new modifier The Demon Betrayer
-all enemy near terrorblade 900 radius get -9 armor reduction and -18% magic resist reduction also increase terrorblade movementspeed by
+add a new modifier Speed Demon
+all enemy near terrorblade 900 radius get -7 armor reduction and -9% magic resist reduction also increase terrorblade movementspeed by
 7% for every enemy in the radius
 
 SPELL Q Slice of Death
@@ -34,7 +34,7 @@ deal damage base on the enemy lifes, bosses will take current life as damage ins
 damage 8% 12% 16% 20% of max life as magic damage
 damage for bosses 3% 5% 7% 9% of current life as magic damage
 number of attack empower 3
-bonus damage from empower 20% 35% 50% 65%
+bonus damage from empower 10% 25% 40% 55%
 bonus attack speed 15 20 25 30 When in Normal Form
 ignore armor for the empower attack When in Normal Form
 cooldown 20 19 18 17
@@ -55,24 +55,24 @@ SPELL W Reflection
 TerrorBlade makes perfect Shade of the enemy that attack it-self dealing damage and also dealing low damage upon casting and for every
 enemy that die durring Perfect Shade will increase terrorblade movementspeed
 
-damage 7 9 11 13 plus 20% of agility magical damage
+damage 7 9 11 13 plus 10% of agility magical damage
 Shade damage 50% 65% 70% 85% physical damage
-for every 3 agility increase the Image damage by 1% in True Form
+for every 6 agility increase the Image damage by 1% in True Form
 Shade duration 3 4 5 6 half for bosses
 radius 1000
-movementspeed bonus 5% 9% 13% 17% in True Form
-cooldown 25
-mana cost 50 70 90 110 plus 1% of max mana
+movementspeed bonus 5% 8% 11% 14% in True Form
+cooldown 18
+mana cost 50 70 90 110 plus 4% of max mana
 
 talent level 10 upgrade Reflection
-increase damage of Shade by 20%
-increase damage by 5
+increase damage of Shade by 10%
+increase damage by 7
 increase shade duration by 4
 reduce mana cost by 20
 
 add a new modifier Hunger for Soul
-after the Shade kill ther target they will still find new one to attack until the death timer run out, they also get 50% increase damage
-after killing ther target and increasing the time limit of ther life by 4 also increase terrorblade attackspeed by 3 for every shade
+after the Shade kill ther target they will still find new one to attack until the death timer run out, they also get 30% increase damage
+after killing ther target and increasing the time limit of their life by 4 also increase terrorblade attackspeed by 4 for every shade
 20 for bosses
 
 
@@ -82,31 +82,30 @@ increasing terrorBlade attack range and for Sunder terrorBlade Steal life from t
 also making them fear
 
 BLAST
-damage 20 34 48 62 plus 70% of agility Physical damage
-Push distence 250 300 350 400
+damage 14 26 38 50 plus 70% of agility Physical damage
+Push distence 100 150 200 250
 attack range bonus 100 150 200 250
 attack range bonus duration 3 second
 SUNDER
-damage 10 15 20 25 plus 30% of agility Pure damage
+damage 10 15 20 25 plus 15% of agility Pure damage
 life restored 50% 100% 150% 200% of the damage dealt by sunder
 Fear duration 0.7 1.0 1.3 1.6
 cooldown 14
-mana cost 10 20 30 40 plus 10% of max mana
+mana cost 10 30 50 70 plus 1% of max mana
 
 talent level 15 upgrade Blast AND Sunder
 BLAST
-increase damage by 28
+increase damage by 30
 Increase attack range duration by 3
 SUNDER
-increase damage by 10
+increase damage by 15
 increase fear duration by 0.6
 FOR BOTH
-reduce cooldown by 4
-cost no mana
+reduce cooldown by 2
 
 add a new modifier Shadow Being
-Blast will Create a Shadow of TerroBlade Dealing 70% of the damage and last for 8 second AND Sunder will create a shadow of the target
-that will bond them the shadow will take 150% more damage and return 100% of that damage to the target bond with the shadow last 8 second
+Blast will Create a Shadow of TerroBlade Dealing 40% of the damage and last for 6 second AND Sunder will create a shadow of the target
+that will bond them the shadow will take 150% more damage and return 100% of that damage to the target bond with the shadow last 6 second
 
 
 PASSIVE SPELL D OR F True from AND Normal From
@@ -121,10 +120,10 @@ life bonus 6% 12% 18% 24%
 movement speed bonus 30 50 70 90
 Empower Slice of Death
 TRUE FORM BONUS
-increase damage taken by 20% 30% 40% 50%
+increase damage taken by 25% 35% 45% 55%
 increase attack range by 250 300 350 400
 increase base damage by 10 20 30 40
-increase attack speed by 12 24 36 48
+increase attack speed by 12 16 20 24
 Empower Reflection
 cooldown 10
 
@@ -136,11 +135,11 @@ increase movement speed by 30
 TRUE FORM
 increase base damage by 15
 increase attack range by 100
-increase attack speed by 12
+increase attack speed by 16
 
 add a new modifier Demonic Soul
 enemy that die in Normal Form of Terrorblade will restore is life by 2% and enemy that die in True Form of terrorblade
-will increase his damage by 3% up to 30% that last 5 second refresh on kill, boss will give 50% for 12 second
+will increase his damage by 2% up to 20% that last 5 second refresh on kill, boss will give 50% for 12 second
 
 
 ULTIMATE R Zeal
@@ -154,8 +153,8 @@ damage 26 52 78 plus 50% of agility pure damage
 Returning blade damage 13 26 39 plus 25% of agility pure damage
 Zeal duration 2 3 4 second
 True Form
-damage per second 30 60 90 plus 80% of agility magical damage
-blind duration 3 5 7 half on bosses
+damage per second 10 20 30 plus 60% of agility magical damage
+blind duration 2 4 6 half on bosses
 channel 4 second
 Zeal Beam duration 6 second
 FOR BOTH
@@ -166,15 +165,15 @@ mana cost 100 150 200 plus 7% of max mana
 talent level 25 upgrade Zeal
 Normal Form
 increase agility scaling by 20% -NOTE- 50% of this goes to the returning blade
-increase zeal duration by 3
+increase zeal duration by 2
 True Form
-increase damage per second by 10
-increase blind duration by 3
+increase damage per second by 20
+increase blind duration by 1
 FOR BOTH
 cooldown reduction 60
 mana cost reduce by 3% of max mana
 
 add a new modifier Chaos Zeal
-Normal Form now throw 6 more blade that deal full damage and for every enemy hit reduce the cooldown by 0.5
+Normal Form now throw 2 more blade that deal full damage and for every enemy hit reduce the cooldown by 1
 True Form now create 2 more Beam that deal only 50% of the damage and are smaller and for every enemy hit increase the damage they
-take by 10% per tick of damage of the Beam
+take by 25% per tick of damage of the Beam
