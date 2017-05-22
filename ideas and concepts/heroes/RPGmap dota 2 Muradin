@@ -18,8 +18,8 @@ PASSIVE D OR F
 Dwarft Might
 increase overall stats and give a positive and negative buff
 
-BUFF Muradin start with 2 armor and he gain 1 armor per 30 strenght and for each armor point Muradin got he gain 1 damage
-DEBUFF Muradin got 25% less magic resist with a 35% life penalty and he can only use hammer type weapons
+BUFF Muradin start with 2 armor and he gain 1 armor per 40 strenght and for each armor point Muradin got he gain 2 damage
+DEBUFF Muradin got 35% less magic resist with a 45% life penalty and he can only use hammer type weapons
 life bonus 2% 4% 6% 8%
 life regen 1 1.5 2 2.5
 spell amp 4% 5% 6% 7%
@@ -28,8 +28,8 @@ magic resist 3% 6% 9% 12%
 
 Talent level 25 Upgrade Dwarft Might
 double all stats
-add a new modifier Thunder Hammer
-every basic attack, Muradin Release a Chain Lightning dealing 3 physical damage plus 7% of strenght
+add a new modifier infused Hammer
+every basic attack, Muradin Release a Chain Lightning dealing 3 physical damage plus 5% of strenght and 10% of attack damage
 that jump up to 7 target
 
 
@@ -40,7 +40,7 @@ deal Heavy damage to a target stunning them and reducing magic resist and armor 
 damage 10 25 40 55 plus 30% of strenght -damage type MAGICAL-
 cast range 700
 push force 200
-magic resist lost 7% 9% 11% 13%
+magic resist lost 9% 11% 13% 15%
 armor lost 1 2 3 4
 stun duration 2 3 4 5 last half on bosses
 cooldown 16 15 14 13
@@ -55,8 +55,8 @@ stun duration last full on bosses as well
 
 add a new modifier Violent Bolt
 after hiting the target it will send other storm bolt to near enemy in a radius of 350
-of the explosion of the first one and dealing full damage to the other target as well
-if there is no one around storm bolt damage change to pure and deal 2% of the target max life
+of the explosion of the first one and dealing 50% of the damage to the other target as well
+if there is no one around storm bolt damage change to pure and deal 4% of the target max life
 as damage
 
 
@@ -65,7 +65,7 @@ Thunder Clap
 Muradin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
 by this spell the more damage it deal
 
-damage 9 12 15 18 plus 10% of strenght -damage type PURE-
+damage 9 12 15 18 plus 15% of strenght -damage type PURE-
 radius 260 270 280 290
 radius increase by 1 for every point of strenght
 attack speed lost 15 20 25 30
@@ -79,11 +79,11 @@ talent level 10 Upgrade Thunder Clap
 increase damage by 6
 increase strenght scaling by 20%
 increase radius by 60
-increase bonus damage per enemy at all level to 5 -NOTE- the way i mean that, it get 5 damage for level 1 2 3 and 4
+increase bonus damage per enemy by 2
 
 add a new mofidier Hammer of Thunder
-went Muradin do Thunder Clap for every enemy hit he will get 3 bonus damage for 5 second
-and Thunder Clap deal 2% of the current life of the enemy as bonus damage he also heal for 1% of is
+when Muradin do Thunder Clap for every enemy hit he will get 2 bonus damage for 5 second
+and Thunder Clap deal 2% of the current life of the enemy as bonus damage he also heal for 0.75% of is
 max life per enemy hit
 
 
@@ -92,14 +92,14 @@ Strenght of the Mountain
 Muradin next attack will deal bonus damage and increase attack speed as well, The last hit will deal increase damage and do cleave
 attack
 
-damage bonus 9 10 11 12
+damage bonus 7 10 13 16
 attack speed bonus 25
 number of attack 2 3 4 5
 last hit damage increase 20 28 34 42
 last hit cleave damage 30% 60% 90% 120%
-radius of cleave 310
+radius of cleave 300
 no mana cost
-cooldown 70 65 60 55
+cooldown 60 55 50 45
 
 talent level 15 upgrade Strenght of the Mountain
 increase damage by 4
@@ -107,11 +107,9 @@ increase attack speed by 15
 increase last hit damage by 10
 increase cleave radius by 50
 
-add a new modifier Mountain of Fire
-went landing the last hit, Muradin will Create a Mountain that deal 20 pure damage per second in a 420 radius around it
-the mountain last 3 second, any enemy that die during Strenght of the Mountain will reduce the cooldown Strenght of the Mountain
-by 4
-
+add a new modifier Lightning Zone
+after landing the last hit create a lightning zone of 600 radius that deal 10 pure damage plus 20% of strenght to nearvy enemy
+and for ally and Muradin, they gain 15% increase base damage and 8% spell amp while inside of it the zone last 15 second
 
 PASSIVE D OR F
 Dwarft Mastery
