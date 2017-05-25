@@ -1,4 +1,4 @@
-Pudge, the Butcher Starting stats 6 str, 3 agi, 0 int, base speed 260, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi, Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
+Pudge, the Butcher Starting stats 2 str, 3 agi, 0 int, base speed 260, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi, Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,11 +8,11 @@ LEVEL 20 TALENT
 
 talent 1
 
-12% life with 4 armor and 4 life regen
+12% life with 3 armor and 6 life regen
 
 talent 2
 
-12 damage with 8 attack speed and 15% spell amp
+cast range 150 with agility 15 and 20% spell amp
 
 
 PASSIVE D OR F
@@ -21,20 +21,20 @@ Wierd Meat
  
 Increase overall stats and give a positive and negative buff
 
-BUFF Butcher will gain 3 life bonus per strenght and block 8 physical damage and 20 magical damage as well -note- this effect of block
+BUFF Butcher will gain 5 life bonus per strenght and block 5 physical damage and 15 magical damage as well -note- this effect of block
 stack with other block type
-DEBUFF Butcher lose 90% base damage and he does not gain any intelligence, spell will use life instead, he can only use Axe type weapons
+DEBUFF Butcher lose 85% base damage and he does not gain any intelligence, spell will use life instead, he can only use Axe type weapons
 and cleavers.
 life 2% 4% 6% 8%
-life regen 2 3.5 5 6.5
+life regen 3 4 5 6
 magic resist 3% 6% 9% 12%
-damage taken reduction 3% 5% 7% 9%
-spell amp 4% 5% 6% 7%
+damage taken reduction 4% 6% 8% 10%
+spell amp 7% 8% 9% 10%
 
 Talent level 25 Upgrade Wierd Meat
 double all stats bonus
 add a new modifier Meat Eater
-Butcher basic attack now deal 4% of the target current life in damage, this effect get a cooldown of 5 second
+Butcher basic attack now deal 7% of the target current life in damage, this effect get a cooldown of 10 second
 if attacking a boss
 
 
@@ -42,70 +42,71 @@ SPELL Q Glory Hook
 hook multiple enemy and dealing damage with reducing the armor of enemy hook 
 
 damage 14 26 38 50 physical damage and 50% of pudge strenght
-Range 800
+Range 400
 increase range by 2 per strenght point
 max hook target 2 3 4 5
 armor reduction 3 5 7 9
 life cost 5% 7% 9% 11%
-cooldown 17 15 13 11
+cooldown 15 14 13 12
 
 talent level 10 Upgrade Glory Hook
-increase damage by 15 and strenght scaling by 10%
-increase range by 200
+increase damage by 15
+increase range by 350
 remove the limit of max targeted hook
 increase the armor reduction by 3
 reduce life cost by 4%
 
 add a new modifier Titan Killer
-deal 4% of the target max life in damage, Butcher also heal for 40% of the damage done by Glory Hook
+deal 4% of the target max life in damage, Butcher also heal for 30% of the damage done by Glory Hook
 if the target die under Glory Hook it reduce the cooldown by 2, boss refresh the cooldown
 
 
 SPELL Q Rotting Flesh
-rot enemy dealing damage to them and reducing magic resist and movement speed also affect Butcher
+rot enemy dealing damage to them and reducing magic resist and movement speed also affect Butcher for double the damage
 
-damage 2 3 4 5 magical damage per second and 12% of pudge strenght
+damage 3 5 7 9 magical damage per second and 15% of pudge strenght
 movement speed reduction 8% 14% 18% 24%
 magic resist reduction 2% 6% 10% 14%
-radius 250
+radius 200
+increase radius by 10% of life
 no cooldown
 
 Talent level 10 Upgrade Rotting Flesh
-increase damage by 4 and strenght scaling by 4%
+increase damage by 4 and strenght scaling by 5%
 movement speed reduction increase by 8%
-increase radius by 100
-magic resist reduction increase by 3%
-Rotting Flesh will no longer affect pudge with slow and magic resist lost but still damage him
+magic resist reduction increase by 6%
+Rotting Flesh will no longer affect pudge with slow and magic resist lost but still damage him for normal damage
 
 add a new modifier Bad Rot
 enemy will take 1% extra damage from pudge spell for every tick of damage up to 30 max stack, upon getting 30 stack all pudge
-spell will do pure damage instead for 4 second and this effect can only proc every 50 second but the enemy can still get stack
+spell will do pure damage instead for 4 second and this effect can only proc every 40 second but the enemy can still get stack
 but will not proc the effect until the cooldown is done and enemy that die near pudge 300 radius will make small pool of Bad Rot
-dealing 20% of Rotting Flesh damage
+dealing 30% of Rotting Flesh damage
 
 
 SPELL E Freah Meat!
-Pudge empower this next attack dealing damage and healing him and also disarming the enemy on hit and taking increase damage from
-Glory Hook
+Pudge empower this next attack dealing damage and droping a meat peice and also disarming the enemy on hit and taking increase damage 
+from Glory Hook
 
 bonus damage 8% 10% 12% 14% of pudge max life 
-lifesteal 10% 14% 18% 22%
+amount of meat peice drop 1 2 3 4
+meat healing amount 10 20 30 40 plus 100% of pudge strenght
 disarm duration 1 1.2 1.4 1.6
 increase damage taken from Glory Hook by 10% 15% 20% 25%
 debuff duration 4
 Number of attack 1
-cost no life or mana
-cooldown 16
+life cost 12% 11% 10% 9%
+cooldown 14
 
 Talent level 15 Upgrade Fresh Meat!
 increase max life damage by 6%
-increase lifesteal by 10%
+increase meat drop by 2
 increase disarm duration by 0.7
 cooldown reduce by 2
 
 add a new modifier Pure Meat
-killing a enemy with Fresh Meat! will restore Butcher max life by 6% and reducing Feash Meat! cooldown
-by 1.5 and also making Fresh Meat! cleave for 100% of the damage
+killing a enemy with Fresh Meat! will restore Butcher max life by 3% and reducing Feash Meat! cooldown
+by 1 and also making Fresh Meat! cleave for 100% of the damage
 
 PASSIVE F OR D Flesh Heap
 
