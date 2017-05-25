@@ -122,15 +122,15 @@ increase enemy damage taken by 10%
 increase magic resist by 3%
 
 add a new modifier Fate Armor
-increase the armor bonus by 1 for every 50 inteillgence oracle he got, oracle also gain 1% cooldown reduction for every 20 inteillgence
+increase the armor bonus by 1 for every 60 inteillgence oracle he got, oracle also gain 1% cooldown reduction for every 24 inteillgence
 that only work for him and not giving that to near ally, any enemy that die inside of the radius of fate aura will give oracle and is
-ally 1% life back 10% for bosses
+ally 1% life back 10% for bosses and also giving them 3 damage and 1% spell amp that last 10 second
 
 
 ULTIMATE r Fate's Edict
 give a ally a premanent that boost life,damage,cast range,spell amp,armor,magic resist and mana if oracle change target, remove the buff
 on the previous target and give the buff to that ally instead it can also be stack up to 3 time giving lesser boosting cannot be cast
-on ally summon. 10% of your ally damage done will heal you and restore 2% mana as well on the ally affected by the buff
+on ally summon or oracle. 10% of your ally damage done will heal you and restore mana as well on the ally affected by the buff
 
 FIRST BUFF
 life bonus 10% 15% 20%
@@ -148,6 +148,26 @@ spell amp 2% 3% 4%
 armor 0.5 1 1.5
 magic resist 1% 2% 3%
 mana 4% 7% 10%
+cooldown 300
+mana cost 50% of max mana
+
+
+talent level 25 upgrade Fate's Edict
+increase max stack by 1
+increase life bonus on first buff by 10%
+increase mana bonus on first buff by 15%
+
+add a new modifier Seal Fate
+giving a Fate's Edict to any ally, will give one small stack to all party member but oracle they cannot have more than 2 stack on them
+and also reduce the cooldown by 2 of Fate's Edict every time your first buff ally deal any kind of damage, if the target reach max stack
+oracle will gain 25% cooldown reduction until is ally die and lose all stack or change to a new one stacking again
+
+
+
+
+
+
+
 
 
 
