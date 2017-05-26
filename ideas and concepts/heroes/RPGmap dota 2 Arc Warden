@@ -12,10 +12,10 @@ Talent 2
 PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
 
-BUFF Zet get 50% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
+BUFF Zet get 40% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
 give 1 damage per 15 into that one and he his immune to slows
-DEBUFF Zet takes 50% more damage from pure,magical,physical he also cannot gain any armor staying at 0 and any item with any stats that
-are not strenght,agility,inteillgence or all stats will have 50% reduce effect
+DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
+are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
 
 talent level 25 upgrade Balance Soul
 double all stats
@@ -63,4 +63,59 @@ mana cost 40 60 80 100 plus 4% of max mana
 cooldown 10 9 8 7
 
 talent level 10 upgrade Surge
+increase inteillgence scaling by 50%
+increase further healing by 15%
+increase movement speed buff by 2 second
+increase cooldown by 4
 
+add a new modifier Volting Surge
+if cast on Zet it double Surge Stats but if cast on any ally they will get 50% of Surge insteads of 100%
+also gain 10% cooldown reduction upon casting on Zet ally will gain 5%
+
+
+SPELL E Volt Shield
+increase Zet armor and magic resist base on his strenght, he also gain some life for every enemy or ally near him
+
+bonus armor 7% 9% 11% 13% of strenght
+max bonus armor 6 10 14 18
+bonus magic resist 10% 14% 18% 22% of strenght
+max bonus magic resist 12% 20% 28% 36%
+bonus life per enemy or ally 25 40 55 60
+radius 350
+duration of buff 6 8 10 12
+mana cost 200 190 180 170 plus 2% of max mana
+cooldown 30 27 24 21
+
+talent level 15 upgrade Volt Shield
+increase max bonus armor by 12
+increase max magic resist by 24%
+increase life bonus per enemy or ally 20
+increase duration by 2
+
+add a new modifier Unstable Lightning
+also gain damage reduction for PURE damage by 50% of Zet Strenght up to 200% max Pure damage reduction and the Shield also explode
+dealing 20% 30% 40% 50% Strenght plus 3% 4% 5% 6% of Zet life as well, radius of 350 for the explosion
+
+
+PASSIVE D OR F Lightning Body
+increase Zet Stats for every enemy kill with Lightning Arc and Heal from Surge, Zet also block magic damage and physical damage for a 
+% of his Strenght
+
+agility bonus for every kill 2 3 4 5
+duration of Agility gain 10 20 30 40
+Inteillgence bonus for every healed teamates 2 4 6 8
+duration of inteillgence gain 15 20 25 30
+gain 1 physical block for every 35 30 25 20 strenght
+gain 2 magical block for every 35 30 25 20 strenght
+
+talent level 15 upgrade Lightning Body
+increase duration of agility bonus by 20
+increase the duration of inteillgence bonus by 30
+reduce how much strenght is needed for both magical and physical block by 2
+
+add a new modifier Charge Body
+enemy that damage Zet will take 5 plus 10% of Zet Attributes as pure damage if zet take more than 25% of his max Health increase
+the damage to 20 plus 50% of Zet Attributes instead also reduce Stun,Blind and Roots by 30% of their duration
+
+
+ULTIMATE R
