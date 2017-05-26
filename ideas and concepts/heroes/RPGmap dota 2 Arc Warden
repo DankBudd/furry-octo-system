@@ -111,11 +111,11 @@ gain 2 magical block for every 35 30 25 20 strenght
 talent level 15 upgrade Lightning Body
 increase duration of agility bonus by 20
 increase the duration of inteillgence bonus by 30
-reduce how much strenght is needed for both magical and physical block by 2
+reduce how much strenght is needed for both magical and physical block by 4
 
 add a new modifier Charge Body
 enemy that damage Zet will take 5 plus 10% of Zet Attributes as pure damage if zet take more than 25% of his max Health increase
-the damage to 20 plus 50% of Zet Attributes instead also reduce Stun,Blind and Roots by 30% of their duration
+the damage to 30 plus 100% of Zet Attributes instead also reduce Stun,Blind and Roots by 35% of their duration
 
 
 ULTIMATE R
