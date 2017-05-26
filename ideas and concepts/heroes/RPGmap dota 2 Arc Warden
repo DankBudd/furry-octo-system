@@ -4,12 +4,12 @@ Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80
 LEVEL 20 TALENT
 
 Talent 1
-400 life 200 mana and 2 armor with 5% magic resist
+400 life 200 mana and 5% damage reduction with 10% magic resist
 
 Talent 2
 15 damage 10% spell amp and 100 attack range and cast range
 
-PASSIVE D OR F Balance Soul
+PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
 
 BUFF Zet get 50% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
@@ -19,7 +19,7 @@ are not strenght,agility,inteillgence or all stats will have 50% reduce effect
 
 talent level 25 upgrade Balance Soul
 double all stats
-add a new modifier Pure Soul
+add a new modifier Pure Lightning
 all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back
 they also give him 15% movement speed that stack up to 60% last 15 second refresh every time Zet cast a spell
 
@@ -45,10 +45,22 @@ increase mana cost by 75
 
 add a new modifier Piercing Lightning
 now become pure damage and deal 1% of the enemy max health, it can bounce on Zet increasing his base damage by 25% up to 100% bonus
-damage that last 10 second and refresh it every time it bounce again on Zet
+damage that last 5 second and refresh it every time it bounce again on Zet
 
 
-SPELL W
+SPELL W Surge
+Zet Heal any ally or himself and increasing further healing also giving increase damage and spell amp, if cast again on the same
+that is affected by the healing bonus increase the target movement speed for a short duration
 
+heal 25 30 35 40 plus 25% 50% 75% 100% of inteillgence
+further increase of heals 15% 25% 35% 45%
+bonus damage 4 8 12 16
+bonus spell amp 3% 6% 9% 12%
+duration of buff 10 second
+movement speed bonus if cast again on same target 10% 25% 40% 55%
+movement speed bonus duration 3 second
+mana cost 40 60 80 100 plus 4% of max mana
+cooldown 10 9 8 7
 
+talent level 10 upgrade Surge
 
