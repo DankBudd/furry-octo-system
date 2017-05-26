@@ -16,8 +16,13 @@ BUFF Zet get 40% more increase stats from agility,inteillgence,strenght and all 
 give 1 damage per 15 into that one and he his immune to slows
 DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
 are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
+all stats 2 4 6 8
+cooldown reduction 3% 4% 5% 6%
+attack range 25 50 75 100
+cast range 30 60 90 120
+mana and life 3% 6% 9% 12%
 
-talent level 25 upgrade Balance Soul
+talent level 25 upgrade Pure Lightning
 double all stats
 add a new modifier Pure Lightning
 all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back
@@ -56,21 +61,21 @@ heal 25 30 35 40 plus 25% 50% 75% 100% of inteillgence
 further increase of heals 15% 25% 35% 45%
 bonus damage 4 8 12 16
 bonus spell amp 3% 6% 9% 12%
-duration of buff 10 second
+duration of buff 11 second
 movement speed bonus if cast again on same target 10% 25% 40% 55%
 movement speed bonus duration 3 second
 mana cost 40 60 80 100 plus 4% of max mana
-cooldown 10 9 8 7
+cooldown 10
 
 talent level 10 upgrade Surge
 increase inteillgence scaling by 50%
 increase further healing by 15%
 increase movement speed buff by 2 second
-increase cooldown by 4
+increase mana cost by 100
 
 add a new modifier Volting Surge
 if cast on Zet it double Surge Stats but if cast on any ally they will get 50% of Surge insteads of 100%
-also gain 10% cooldown reduction upon casting on Zet ally will gain 5%
+also gain 100 cast range and attack range 50 for ally
 
 
 SPELL E Volt Shield
@@ -88,7 +93,7 @@ cooldown 30 27 24 21
 
 talent level 15 upgrade Volt Shield
 increase max bonus armor by 12
-increase max magic resist by 24%
+increase max magic resist by 14%
 increase life bonus per enemy or ally 20
 increase duration by 2
 
@@ -118,4 +123,30 @@ enemy that damage Zet will take 5 plus 10% of Zet Attributes as pure damage if z
 the damage to 30 plus 100% of Zet Attributes instead also reduce Stun,Blind and Roots by 35% of their duration
 
 
-ULTIMATE R
+ULTIMATE R Pure Energy
+Zet empower the next spell he cast making it more powerfull and giving it new modifier but gets a increase mana cost
+
+LIGHTNING ARC
+increase the damage by 15 30 40
+increase max jump by 4 5 6
+now jump untill here is no more jump left meaing that it will jump between other enemy or Zet himself
+SURGE
+increase healing by 30 60 90
+increase buff duration by 10 15 20
+increase the cooldown of surge by 60 second but double the stats on Zet or ally-if surge talent is pick ally will get normal stats
+instead of having double Surge Stats, Zet will get triple stats instead
+VOLT SHIELD
+increase strenght scaling by 20% 30% 40% for armor and magic resist
+double the max stack of armor and magic resist -if Volt Shield talent is pick, the armor cap is 60 and magic resist cap is 100%
+increase the cooldown by 20 but now taunt all enemy in a 500 radius of Zet and they take 20% 30% 40% more damage from anything
+mana cost increase for casting any of the empower spell 150 300 450
+cooldown 250
+
+talent level 25 upgrade Pure Energy
+increase cooldown by 50
+reduce mana cost by 100
+
+add a new modifier Unstable Being
+LIGHTNING ARC will do explosion every time it jump dealing 150% of agility as pure damage in a 400 radius
+SURGE will be cast on all party member and have no penalty meaning that the talent of surge level 10 will not have any reduction on ally
+VOLT SHIELD now gain 30% damage reduction for magic and physical also incresing max pure damage reduction by 50% to be totaly immune to it
