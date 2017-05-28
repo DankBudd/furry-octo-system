@@ -33,7 +33,7 @@ SPELL Q
 Lightning Arc
 deal high damage jumping to target increasing the damage they take and slowing them
 
-damage 10 20 30 40 plus 50% of agility type magical
+damage 10 20 30 40 plus 40% of agility type magical
 max jump 3 4 5 6
 damage increase 10% 15% 20% 25%
 slow amount 10% 12% 14% 16%
@@ -43,7 +43,7 @@ mana cost 100 125 150 175 plus 2% of max mana
 coldown 7 6 5 4
 
 talent level 10 upgrade lightning arc
-increase agility scaling by 50%
+increase agility scaling by 35%
 increase max jump by 2
 increase debuff duration by 1 second
 increase mana cost by 75
@@ -58,7 +58,7 @@ Zet Heal any ally or himself and increasing further healing also giving increase
 that is affected by the healing bonus increase the target movement speed for a short duration
 
 heal 25 30 35 40 plus 25% 50% 75% 100% of inteillgence
-further increase of heals 15% 25% 35% 45%
+further increase of heals 10% 15% 20% 25%
 bonus damage 4 8 12 16
 bonus spell amp 3% 6% 9% 12%
 duration of buff 11 second
@@ -71,7 +71,7 @@ talent level 10 upgrade Surge
 increase inteillgence scaling by 50%
 increase further healing by 15%
 increase movement speed buff by 2 second
-increase mana cost by 100
+increase mana cost by 200
 
 add a new modifier Volting Surge
 if cast on Zet it double Surge Stats but if cast on any ally they will get 50% of Surge insteads of 100%
@@ -81,12 +81,12 @@ also gain 100 cast range and attack range 50 for ally
 SPELL E Volt Shield
 increase Zet armor and magic resist base on his strenght, he also gain some life for every enemy or ally near him
 
-bonus armor 7% 9% 11% 13% of strenght
+bonus armor 8% 10% 12% 14% of strenght
 max bonus armor 6 10 14 18
 bonus magic resist 10% 14% 18% 22% of strenght
 max bonus magic resist 12% 20% 28% 36%
-bonus life per enemy or ally 25 40 55 60
-radius 350
+bonus life per enemy or ally 20 30 40 50
+radius 400
 duration of buff 6 8 10 12
 mana cost 200 190 180 170 plus 2% of max mana
 cooldown 30 27 24 21
@@ -98,8 +98,8 @@ increase life bonus per enemy or ally 20
 increase duration by 2
 
 add a new modifier Unstable Lightning
-also gain damage reduction for PURE damage by 50% of Zet Strenght up to 200% max Pure damage reduction and the Shield also explode
-dealing 20% 30% 40% 50% Strenght plus 3% 4% 5% 6% of Zet life as well, radius of 350 for the explosion
+also gain damage reduction for PURE damage by 60% of Zet Strenght up to 200% max Pure damage reduction and the Shield also explode
+dealing 20% 30% 40% 50% Strenght plus 3% 4% 5% 6% of Zet life as well, radius of 400 for the explosion
 
 
 PASSIVE D OR F Lightning Body
@@ -119,7 +119,7 @@ increase the duration of inteillgence bonus by 30
 reduce how much strenght is needed for both magical and physical block by 4
 
 add a new modifier Charge Body
-enemy that damage Zet will take 5 plus 10% of Zet Attributes as pure damage if zet take more than 25% of his max Health increase
+enemy that damage Zet will take 5 plus 10% of Zet Attributes as pure damage if zet take more than 35% of his max Health increase
 the damage to 30 plus 100% of Zet Attributes instead also reduce Stun,Blind and Roots by 35% of their duration
 
 
@@ -127,18 +127,19 @@ ULTIMATE R Pure Energy
 Zet empower the next spell he cast making it more powerfull and giving it new modifier but gets a increase mana cost
 
 LIGHTNING ARC
-increase the damage by 15 30 40
-increase max jump by 4 5 6
+increase the damage by 20 30 40
+increase max jump by 3 4 5
 now jump untill here is no more jump left meaing that it will jump between other enemy or Zet himself
 SURGE
-increase healing by 30 60 90
-increase buff duration by 10 15 20
-increase the cooldown of surge by 60 second but double the stats on Zet or ally-if surge talent is pick ally will get normal stats
+increase healing by 20 40 60
+increase buff duration by 8 12 16
+increase the cooldown of surge by 70 second but double the stats on Zet or ally-if surge talent is pick ally will get normal stats
 instead of having double Surge Stats, Zet will get triple stats instead
 VOLT SHIELD
 increase strenght scaling by 20% 30% 40% for armor and magic resist
 double the max stack of armor and magic resist -if Volt Shield talent is pick, the armor cap is 60 and magic resist cap is 100%
 increase the cooldown by 20 but now taunt all enemy in a 500 radius of Zet and they take 20% 30% 40% more damage from anything
+
 mana cost increase for casting any of the empower spell 150 300 450
 cooldown 250
 
@@ -147,6 +148,6 @@ increase cooldown by 50
 reduce mana cost by 100
 
 add a new modifier Unstable Being
-LIGHTNING ARC will do explosion every time it jump dealing 150% of agility as pure damage in a 400 radius
+LIGHTNING ARC will do explosion every time it jump dealing 70% of agility as pure damage in a 400 radius
 SURGE will be cast on all party member and have no penalty meaning that the talent of surge level 10 will not have any reduction on ally
 VOLT SHIELD now gain 30% damage reduction for magic and physical also incresing max pure damage reduction by 50% to be totaly immune to it
