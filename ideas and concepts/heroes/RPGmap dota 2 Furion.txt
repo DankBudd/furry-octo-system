@@ -84,14 +84,15 @@ enemy that get close to the seed will take 2 damage pure per second, can stack w
 talent level 10 upgrade Treant Guard
 
 reduce cooldown by 5
-increase Treant life by 10% of int scaling
+increase Treant life by 15% of int scaling
+increase max treant by 1
 reduce the base attack time by 0.25
-increase magic resis by 4%
+increase magic resist by 7%
 increase armor by 1
-cost no mana
+reduce mana cost by 150
 
 also give a new passive to the treant Spliting Nightmare
-went a Treant die they will spawn 2 lesser Treant with 20% of the attributes of the Treant
+went a Treant die they will spawn 2 lesser Treant with 30% of the attributes of the Treant
 meaning that it will get the current life damage and armor that the Treant had before, those small treant last 15 second
 
 
@@ -129,33 +130,30 @@ and do 20% of the damage of it and plant a seed that will deal 4 pure damage per
 
 PASSIVE D OR F
 Nature Mastery
-increase life damage attackspeed of summon in a radius around furion and upgrade some of is spell as well, doesnt affect Furion
+increase life,damage,attackspeed and number of Treant guard with duration and the Ancient of War gain increase
+damage,life and attack speed as well
 
-Increase Treant life by 4% 8% 12% 16%
-Increase Ancient of War life by 5% 6% 7% 8%
-Increase non-summon life of furion by 30 60 90 120
-increase non-summon damage of furion by 5% 6% 7% 8%
+Increase Treant life by 5% 10% 15% 20%
+Increase Ancient of War life by 3% 6% 9% 12%
 Increase the damage of treant by 3 5 7 9
 Increase the damage of Ancient of War by 14 18 22 26
-Increase attack speed by 8 12 16 20
+Increase attack speed by 10 14 18 22
 increase the number of Treant by 1 1 2 3
 increase the duration of Treant by 5 10 15 20
-increase life-regen of summon by 2 3 4
-radius for aura 900
+radius global
 
 talent level 15 upgrade Nature Mastery
 
-increase Treant life by 14%
-Increase Ancient of War life by 4%
-Increase non-summon life by 40
-Increase the damage of Treant by 2
-Increase the damage Ancient of War by 8
-increase the duration of Treant by 5
-Increase radius of aura by 400
+increase Treant life by 15%
+Increase Ancient of War life by 8%
+Increase the damage of Treant by 4
+Increase the damage Ancient of War by 14
+increase the duration of Treant by 10
 
 give a new modifier Go Green
-increase the damage of all summon by 10% and increasing the movementspeed by 25%
-also make summon lifesteal for 5% of the damage dealt
+increase the damage of Furion summon by 15% and increasing the movementspeed by 25%
+also make summon lifesteal for 10% of the damage dealt if they die they reduce the cooldown of furion by 1
+dont work with smaller treant Guard
 
 ULTIMATE R
 Gift of Verodicia
