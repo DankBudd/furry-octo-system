@@ -56,13 +56,13 @@ remove the limit of max targeted hook
 increase the armor reduction by 3
 reduce life cost by 4%
 
-add a new modifier Titan Killer
-deal 4% of the target max life in damage, Butcher also heal for 30% of the damage done by Glory Hook
-if the target die under Glory Hook it reduce the cooldown by 2, boss refresh the cooldown
-
+add a new modifier Homing Hook
+deal 3% of the target max health and he now throw 2 more hook, those 2 hook will only do 50% of the damage and they will seek out
+enemy brining them back to Butcher, the hooks cannot be evade and will seek until it hit the target its chasing if there is no enemy
+but one increase the normal hook damage by 50%
 
 SPELL Q Rotting Flesh
-rot enemy dealing damage to them and reducing magic resist and movement speed also affect Butcher for double the damage
+rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher for double the damage
 
 damage 3 5 7 9 magical damage per second and 15% of pudge strenght
 movement speed reduction 8% 14% 18% 24%
