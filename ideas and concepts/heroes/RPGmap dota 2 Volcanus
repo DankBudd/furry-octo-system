@@ -4,10 +4,10 @@ Starting item Fire Hand give 3 damage and 2 int base attack time 1.90 High-DSP -
 LEVEL 20 TALENT
 
 Talent 1
-170 life,3 armor,13% magic resist
+220 life,2 armor,10% magic resist
 
 Talent 2
-11 damage,9 intelligence,22 attackspeed
+8 damage,12 intelligence,15 attackspeed
 
 
 PASSIVE D OR F Fire God
@@ -16,8 +16,8 @@ Increase overall stats and give a positive and negative buff
 BUFF Volcanus attack will do magic damage instead of physical and he gain 2% spellamp per 10 int instead of 1% and he can use 2 glove
 Intead of 1 he also gain 2 life per inteillgence point he can also use Sulfuras and get More bonus from it
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
-PASSIVE BONUS if Zet and Volcanus are in the same game they will both gain 5% life with 5% mana and 10% movement speed
 he also lose 50% base attack damage
+PASSIVE BONUS if Zet and Volcanus are in the same game they will both gain 5% life with 5% mana and 10% movement speed
 mana 4% 8% 12% 16%
 int 4 6 8 10
 attack range 25 50 75 100
@@ -80,7 +80,7 @@ SPELL E Volcano
 channel a volcano that deal damage every 3 second stuning the enemy every time the enemy gets damage again by volcano
 they will take increase damage from it and stun duration
 
-damage 12 18 24 30 type Fire plus 35% of intelligence
+damage 12 18 24 30 type Fire plus 40% of intelligence
 damage increase by 2 4 6 8 every time the enemy gets damage again by volcano
 duration of channel 12 second
 stun duration 0.8 0.9 1.0 1.1
@@ -91,10 +91,10 @@ cooldown 50 45 40 35
 mana cost 100 170 240 310 plus 2% of max mana
 
 talent level 15 upgrade Volcano
-increase damage by 4
+increase damage by 5
 increase intelligence scaling by 10%
 reduce the damage per second to 2 instead of 3
-increase radius by 100
+increase radius by 50
 
 add a new modfier Lava Spawn
 if the volcano kill any unit it will spawn a Lava Spawn that has 40% of volcanus life and 80% of the damage of volcanus as well
