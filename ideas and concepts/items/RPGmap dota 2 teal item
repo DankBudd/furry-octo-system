@@ -38,26 +38,26 @@ Sulfuras
 increase damage and strenght but remove attack speed attack will burn the target for high damage can be use for swing dealing insane
 damage in a large area, Volcanus will get increase bonus from this item and the only weapon he can wield
 
-active item use
-Swing Sulfuras dealing 60 fire damage plus 100% of the user strenght in a 500 radius in front of the caster stuning for 2 second
-any enemy that die upon Sulfuras Swing will give a charge that will empower Sulfuras after getting the right amount, cooldown 25
+Active item use
+Swing Sulfuras dealing 50 fire damage plus 70% of the user strenght in a 500 radius in front of the caster stuning for 2 second
+any enemy that die upon Sulfuras Swing will give a charge that will empower Sulfuras after getting the right amount, cooldown 30
 
 Passive item use
-auto-attack will burn the target for 5 fire damage plus 25% of strenght per second lasting 5 second, enemy that die of Sulfuras burn
-will give a charge that will empower Sulfuras after getting the right amount
+auto-attack will burn the target for 5 fire damage plus 30% of strenght per second lasting 3 second, enemy that die during Sulfuras burn
+will give a charge that will empower Sulfuras after getting the right amount and for every 100 charge increase life by 1% up to 10%
 
 Passive item use 2
 after getting 1000 charge, change the item to Sulfuras Might, increasing the bonus damage of Sulfuras Swing by 100 and Sulfuras Burn by
-10 also increase the user size by 50%, increasing attack range by 130 and cleave for 30% of the damage dealt, range unit will deal splash
-damage instead for 15% of the damage dealt
+10 also increase the user size by 50%, increasing attack range by 130 and cleave for 40% of the damage dealt, range unit will deal splash
+damage instead for 20% of the damage dealt
 
 damage 30
-strenght 45
+strenght 40
 attack speed lost -60
 Volcanus stats bonus
 increase fire damage by 25%
-increase inteillgence by 25
-reduce attack speed lost by 30
+increase inteillgence by 20
+reduce attack speed lost by 10
 Switch the strenght scaling to inteillgence scaling
 
 LORE--Sulfuras is the mighty weapon of Ragnaros the Firelord. The weapon never leaves his grasp. across the weapon's surface.
