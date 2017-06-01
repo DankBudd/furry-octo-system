@@ -85,12 +85,12 @@ Radiant Stone
 give the user true sight abd give near ally bonus life regeneration and mana regeneration also inrease heal amp as well
 
 Passive item use
-give true sight in a 800 radius any enemy that is invisible will take 8% increase damage last 8 second after leaving invis
+give true sight in a 800 radius any enemy that is invisible will take 7% increase damage last 12 second after leaving invis
 
 Passive item use 2
-give 2.5 life regeneration and 3.5 mana regeneration to near ally in a 800 radius
+give 3 life regeneration and 4 mana regeneration to near ally in a 800 radius
 
-heal amp 5%
+heal amp 8%
 
 
 Dire Stone
@@ -99,25 +99,38 @@ aura as well increasing stats for the user
 
 passive item use
 all ally near you will go invisble 800 radius for 4 second, if they break the invis aura they will do 10% extra damage with spell and
-basic attack and cannot go invis again for 10 second
+basic attack and cannot go invis again for 6 second
 
 passive item use 2
-give 7 damage and 4% spell amp to near ally 800 radius
+give 6 damage and 4% spell amp to near ally 800 radius
 
-4 stats
+5 all stats
 
 
 Holy Book
-increase the user heal amp and Holy damage type skill also increase mana and life can also be use to deal holy damage or heal allys
+increase the user heal amp and spell amp type skill also increase mana and life can also be use to deal holy damage or heal allys
 
 active use item 1
-deal 12 plus 10% of inteillgence as holy damage or heal any ally for 3% of their max health
+deal 10 plus 15% of inteillgence as magical damage or heal any ally for 30% of inteillgence
 
-heal amp 5%
-increase holy damage by 14%
-mana 50
+heal amp 7%
+increase spell amp 7%
+mana 70
 life 70
 
+
+Pure Orb need magical orb with physical orb
+increase all stats and all spell will blind and slow dealing extra damage as well
+
+Passive item use 1
+Spell will slow for 7% and blind for 2 second giving 8% to miss and also dealing 4 pure damage
+
+Active item use 1
+deal 14% of total attributes as damage to a target all of that damage will be 50% magical and physical
+
+all stats 6
+mana 6%
+cooldown reduction 3%
 
 
 
