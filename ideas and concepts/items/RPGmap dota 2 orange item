@@ -13,11 +13,11 @@ Rad Stone ORANGE needed Magic Stone 600 gold and Recipe 1000 gold
 increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
 
 Active item use
-deal 40 magic damage plus 30% of user int to the target slowing movement by 15% and attack speed by 10 last 4 second cooldown 20
-mana cost 240
+deal 30 magic damage plus 25% of user int to the target slowing movement by 15% and attack speed by 20 last 4 second cooldown 10
+mana cost 200
 
 Passive item use
-deal 6 magical damage per 3 second plus 10% of user intelligence also slow enemy by 5%
+deal 2 magical damage per 1 second plus 3% of user intelligence also slow enemy by 10%
 
 intelligence 12
 spell amp 6%
@@ -57,3 +57,18 @@ for use again and stacking
 attack speed 25
 damage 10
 fire damage increase 10%
+
+
+Time Shard
+reduce cooldown and increase agility and inteillgence can also use the item to reduce the next spell coldown and also
+give cooldown reduction to near ally
+
+Active use item
+reduce the next spell cooldown by 30% on use cooldown 200 no mana cost
+
+Passive item use
+give 5% cooldown reduction to near ally double on the user
+
+agility 15
+inteillgence 15
+cooldown reduction 10%
