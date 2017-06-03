@@ -20,34 +20,29 @@ increase overall stats and give a positive and negative buff
 
 BUFF Muradin start with 2 armor and he gain 1 armor per 40 strenght and for each armor point Muradin got he gain 2 damage
 DEBUFF Muradin got 35% less magic resist with a 45% life penalty and he can only use hammer type weapons
-life bonus 2% 4% 6% 8%
-life regen 1 1.5 2 2.5
-spell amp 4% 5% 6% 7%
-Strenght 6 7 8 9
-magic resist 3% 6% 9% 12%
 
 Talent level 25 Upgrade Dwarft Might
 double all stats
 add a new modifier infused Hammer
-every basic attack, Muradin Release a Chain Lightning dealing 3 physical damage plus 5% of strenght and 10% of attack damage
-that jump up to 7 target
+every basic attack, Muradin Release a Chain Lightning dealing 4 physical damage plus 10% of strenght and 5% of attack damage
+that jump up to 4 target
 
 
 SPELL Q
 Storm Bolt
 deal Heavy damage to a target stunning them and reducing magic resist and armor also pushing the target back
 
-damage 10 25 40 55 plus 30% of strenght -damage type MAGICAL-
+damage 10 25 40 55 plus 40% of strenght -damage type MAGICAL-
 cast range 700
 push force 200
 magic resist lost 9% 11% 13% 15%
 armor lost 1 2 3 4
 stun duration 2 3 4 5 last half on bosses
 cooldown 16 15 14 13
-mana cost 75 plus 2% 3% 4% 5% of max mana
+mana cost 75 plus 2% 4% 6% 8% of max mana
 
 talent level 10 upgrade Storm Bolt
-increase strenght scaling by 30%
+increase strenght scaling by 40%
 increase cast range by 300
 increase push force by 100
 increase the magic resist lost by 5%
@@ -89,26 +84,26 @@ max life per enemy hit
 
 SPELL E
 Strenght of the Mountain
-Muradin next attack will deal bonus damage and increase attack speed as well, The last hit will deal increase damage and do cleave
+Muradin next attack will deal bonus damage and increase attack speed as well, The last hit will deal triple the damage and do cleave
 attack
 
 damage bonus 7 10 13 16
 attack speed bonus 25
 number of attack 2 3 4 5
-last hit damage increase 20 28 34 42
-last hit cleave damage 30% 60% 90% 120%
+last hit damage increase 21 30 39 48
+last hit cleave damage 20% 40% 60% 80%
 radius of cleave 300
 no mana cost
-cooldown 60 55 50 45
+cooldown 40 35 30 25
 
 talent level 15 upgrade Strenght of the Mountain
 increase damage by 4
 increase attack speed by 15
-increase last hit damage by 10
-increase cleave radius by 50
+increase last hit damage by 12
+increase cleave radius by 100
 
 add a new modifier Lightning Zone
-after landing the last hit create a lightning zone of 600 radius that deal 10 pure damage plus 20% of strenght to nearvy enemy
+after landing the last hit create a lightning zone of 600 radius that deal 5 magical damage plus 5% of strenght to nearby enemy
 and for ally and Muradin, they gain 15% increase base damage and 8% spell amp while inside of it the zone last 15 second
 
 PASSIVE D OR F
@@ -117,7 +112,7 @@ increase Muradin damage and attack speed also give a chance to bash the target d
 take damage per second if they get hit by Storm Bolt or Thunder Clap
 
 damage per second by Storm Bolt and Thunder Clap 3% 4% 5% 6% of strenght as damage -damage type PURE- last 3 second
-bonus damage 3 5 7 9
+bonus base damage 2 5 8 11
 bonus attack speed 5 8 11 14
 bash chance 12% 13% 14% 15%
 bash damage 15 -damage type PHYSICAL-
@@ -126,33 +121,35 @@ bash duration 0.3 0.4 0.5 0.6 last half on bosses
 
 talent level 15 upgrade Dwarft Mastery
 increase stun duration by 0.4
-increase bonus attack speed by 6
-increase bash damage by 5
+increase bonus attack speed by 11
+increase bash damage by 15
 increase strenght scaling by 35%
 
 add a new modifier Mountain Hammer
-every time Muradin bash the next bash get 5 increase damage, the buff last 6 second after 4 stack of Mountain Hammer
-the next bash will do pure damage and increase muradin attack speed by 50 for 5 second, this effect got 14 second cooldown
+every time Muradin bash the next bash get 5 increase damage, the buff last 7 second after 4 stack of Mountain Hammer
+the next bash will do pure damage and increase muradin attack speed by 30 for 5 second, this effect got 14 second cooldown
 
 
 ULTIMATE R
 Avatar
-increase Muradin armor,damage,life and give spell immunity for the duration and increase the bash chance of Dwarft Mastery
+increase Muradin armor,damage,life and giving spell immunity for the duration and increase the bash chance of Dwarft Mastery
 
-bonus damage 20 30 40
+bonus base damage 20 30 40
 bonus armor 4 8 12
 life bonus 15% 35% 55%
 bash chance increase by 3% 4% 5%
 duration 40 50 60
+increase size 20% 40% 60%
 no mana cost
 cooldown 240 235 230
 
 talent level 25 upgrade Avatar
-increase bonus damage by 15
-increase bonus armor by 2
-increase bonus life by 10%
-reduce the duration by 30 second
+increase bonus damage by 20
+increase bonus armor by 6
+increase bonus life by 15%
+reduce the duration by 40 second
+reduce cooldown by 110
 
 add a new modifier Titan Might
-Upon casting Avatar deal 150 pure damage around Muradin 300 radius and stuning for 1 second also
+Upon casting Avatar deal 150 pure damage plus 50% of strenght around Muradin 300 radius and stuning for 4 second also
 change muradin attack to PURE DAMAGE for the duration
