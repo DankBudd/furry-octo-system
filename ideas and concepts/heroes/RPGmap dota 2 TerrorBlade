@@ -1,4 +1,4 @@
-Terrorblade Starting stats 3 Int, 7 Agi, 5 Str, base speed 250, base damage 2, Stats Gain per level 0.90 int, 0.50 str, 1.20 agi
+Terrorblade Starting stats 3 Int, 5 Agi, 5 Str, base speed 200, base damage 2, Stats Gain per level 0.60 int, 0.30 str, 1.00 agi
 Starting item Broken Demon Blade give 2 damage and 2 agility BAT 1.55
 
 LEVEL 20 TALENT
@@ -14,41 +14,35 @@ PASSIVE D OR F True Demon
 Increase overall stats and give a positive and negative buff
 
 BUFF Terrorblade gain 1 damage per 4 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
-he also gain 1 damage per 50 movementspeed
+he also gain 1 base damage per 50 movementspeed
 DEBUFF terrorblade cannot have any magic resist and he got -25% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -60% max mana.
-damage bonus 5% 10% 15% 20%
-agility 3 5 7 9
-cast range 25 50 75 100
-spellvamp 2% 3% 4% 5%
-attack speed 6 12 18 24
 
 talent level 25 upgrade True Demon
-double all bonus
 add a new modifier Speed Demon
-all enemy near terrorblade 900 radius get -7 armor reduction and -9% magic resist reduction also increase terrorblade movementspeed by
-7% for every enemy in the radius
+all enemy near terrorblade 900 radius get -6 armor reduction and -10% magic resist reduction also increase terrorblade movementspeed by
+8% for every enemy in the radius
 
 SPELL Q Slice of Death
 deal damage base on the enemy lifes, bosses will take current life as damage instead of max Heath point and empower his next attack 
-damage 8% 12% 16% 20% of max life as magic damage
+damage 10% 15% 20% 25% of max life as magic damage
 damage for bosses 3% 5% 7% 9% of current life as magic damage
-number of attack empower 3
+number of attack empower 2
 bonus damage from empower 10% 25% 40% 55%
 bonus attack speed 15 20 25 30 When in Normal Form
 ignore armor for the empower attack When in Normal Form
-cooldown 20 19 18 17
-mana cost 25 50 75 100 plus 3% of max mana
+cooldown 24 22 20 18
+mana cost 25 50 75 100 plus 5% of max mana
 
 talent level 10 upgrade Slice of Death
-increase damage of max heath by 5%
+increase damage of max heath by 15%
 increase number of attack by 2
 reduce cooldown by 2
 reduce mana cost by 1% of max mana
 
 add a new modifier Demon Slice
 now lifesteal for 15% of the damage done and 10% of all that lifesteal will be bonus damage to empower attack as well and also
-give 10% damage reduction to terroblade for 6 second
+give 10% damage reduction to terrorblade for 6 second
 
 
 SPELL W Reflection
@@ -60,8 +54,8 @@ Shade damage 50% 65% 70% 85% physical damage
 for every 6 agility increase the Image damage by 1% in True Form
 Shade duration 3 4 5 6 half for bosses
 radius 1000
-movementspeed bonus 5% 8% 11% 14% in True Form
-cooldown 18
+movementspeed bonus 6% 10% 14% 18% in True Form
+cooldown 19
 mana cost 50 70 90 110 plus 4% of max mana
 
 talent level 10 upgrade Reflection
@@ -71,9 +65,9 @@ increase shade duration by 4
 reduce mana cost by 20
 
 add a new modifier Hunger for Soul
-after the Shade kill ther target they will still find new one to attack until the death timer run out, they also get 30% increase damage
-after killing ther target and increasing the time limit of their life by 4 also increase terrorblade attackspeed by 4 for every shade
-20 for bosses
+after the Shade kill ther target they will still find new one to attack until the death timer run out, they also get 20% increase damage
+after killing ther target and increasing the time limit of their life by 4 also increase terrorblade attackspeed by 6 for every shade
+30 for bosses
 
 
 SPELL E Blast AND Sunder
@@ -139,7 +133,7 @@ increase attack speed by 16
 
 add a new modifier Demonic Soul
 enemy that die in Normal Form of Terrorblade will restore is life by 2% and enemy that die in True Form of terrorblade
-will increase his damage by 2% up to 20% that last 5 second refresh on kill, boss will give 50% for 12 second
+will increase his damage by 2% up to 20% that last 6 second refresh on kill, boss will give 50% for 12 second
 
 
 ULTIMATE R Zeal
@@ -149,8 +143,8 @@ TerrorBlade channel up a beam of Zeal Energy after 4 second of channel it will d
 blind
 
 Normal Form
-damage 26 52 78 plus 50% of agility pure damage
-Returning blade damage 13 26 39 plus 25% of agility pure damage
+damage 26 52 78 plus 80% of agility pure damage
+Returning blade damage 13 26 39 plus 40% of agility pure damage
 Zeal duration 2 3 4 second
 True Form
 damage per second 10 20 30 plus 60% of agility magical damage
