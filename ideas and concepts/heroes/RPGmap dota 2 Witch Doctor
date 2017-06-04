@@ -16,4 +16,27 @@ DEBUFF strenght doesnt give any life regeneration and he take 100% more damage f
 1% life and mana. he can only use staff weapons type
 
 talent level 25 upgrade Bad Doctor
-give a new modifier
+give a new modifier -wating to make all spell and passive-
+
+
+
+
+SPELL Q Skull Dance
+throw a skull that bounce to ally or enemy if cast on ally it will bounce for ally only or if cast on enemy it will bounce for them only.
+the skull heal ally and giving them a damage bonus,for the enemy they will get damage,stun and a small chance
+to be Paralyze. Paralyze enemy will suffer from damage over time and ally will deal flat bonus damage to them for basic attack
+
+Heal 8 16 24 32 plus 10% 20% 30% 40% of int
+damage bonus 10% 15% 20% 25%
+buff duration 20 second
+damage 3 9 15 21 plus 10% 20% 30% 40% of int as magical
+stun duration 0.3 0.5 0.7 0.9
+paralyze chance 8% 9% 10% 11%
+paralyze damage every second 4 6 8 10 plus 5% of int as pure
+damage bonus taken 3 5 7 9 plus 15% of int as magical
+debuff duration 6 second
+amount of bounce 4 6 8 10
+cooldown 14 second
+mana cost 100 140 180 220 plus 3% of max mana
+
+talent level 10 Upgrade Skull Dance
