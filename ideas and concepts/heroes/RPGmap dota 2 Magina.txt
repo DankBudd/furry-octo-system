@@ -19,40 +19,32 @@ Increase overall stats and give a positive and negative buff
 
 BUFF Magina gain 6 mana per agility point and for every 200 mana, Magina gain 1 damage and 30% of his inteillgence will be agility bonus
 DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 4 mana per intelligence
-damage bonus 5% 10% 15% 20%
-attack speed bonus 7 14 21 28
-life bonus 35 70 105 140
-lifesteal 4% 8% 12% 16%
-bonus mana 7%% 14% 21% 28%
-
 
 talent level 25 upgrade Anti-Magic
 double all bonus
 give a new modifier Fool Mana
-Magina basic attack will deal 4% of the target max mana as bonus damage to them and killing them will give magina 10% of thier
-max mana for him that last 20 second killing a new enemy will change it and refresh it
+Magina basic attack will deal 10% of the target current mana as bonus damage to them and burning 3% of all the damage done also
+killing them will give magina 20% of thier max mana for him that last 20 second killing a new enemy will change it and refresh it
 
 SPELL Q
 
 Mana Break
-
-Mana Break
 Magina deal damage base on the enemy mana also deal double damage for enemy without mana
 
-base damage 20 physical damage plus 10% 20% 30% 40% of Magina agility
+base damage 25 physical damage plus 10% 20% 30% 40% of Magina agility
 bonus damage per mana of the enemy 0.1 NOTE to say this clear if a enemy got 100 mana it will deal 10 bonus damage
-mana removal 40% of the damage done
+mana removal 30% of the damage done
 if the enemy got no mana deal double damage with Mana Break base damage
 cooldown 22 20 18 16
-mana cost 100 150 200 250 plus 2% of max mana
+mana cost 100 150 200 250 plus 1% of max mana
 
 talent level 10 upgrade Mana Break
-increase base damage by 10
-increase agility scaling by 20%
+increase base damage by 15
+increase agility scaling by 10%
 increase bonus damage per mana 0.1
 make the double damage with no mana deal pure damage instead
-cooldown reduce by 2
-mana cost reduce by 70
+cooldown reduce by 4
+mana cost reduce by 80
 
 add a new modifier Mage Bane
 if the enemy got more mana than Magina deal pure damage instead and reduce the cooldown by 7
@@ -65,7 +57,7 @@ SPELL W
 Blink
 deal damage on blinking and silencing them as well
 
-damage 15 20 25 30 pure damage plus 30% of Magina agility
+damage 10 15 20 25 pure damage plus 35% of Magina agility
 silence duration 1 1.5 2 2.5
 area of effect 250 275 300 325
 increase area of effect by 1 for every point of agility
@@ -91,18 +83,18 @@ Unstable Spell Shield
 Magina will deal damage around him stuning all target, if Magina take magical damage he will store that damage and make the
 spell do even more damage on next use
 
-base damage 10 15 20 25 Magical damage
+base damage 30 35 40 45 Magical damage
 magical damage Store 20% 30% 40% 50% of the damage taken
-max damage store 20 40 60 80
+max damage store 20 30 40 50
 increase max damage store by 1 for every 2 point of agility
 radius 340 360 380 400
 stun duration 1 1.4 1.8 2.2
-mana cost 100 plus 1% 3% 5% 7% of max mana
-cooldown 35 33 31 29
+mana cost 100 plus 2% 5% 8% 11% of max mana
+cooldown 41 39 37 35
 
 talent level 15 Upgrade Unstable Spell Shield
-increase base damage by 10
-increase max damage store by 80
+increase base damage by 25
+increase max damage store by 50
 increase radius by 110
 increase stun by 0.4
 cost no mana
