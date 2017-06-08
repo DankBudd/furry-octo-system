@@ -22,7 +22,7 @@ PASSIVE D OR F level needed 1 5 15 25
 Gravity Lord
 Increase overall stats and give a positive and negative buff
 
-BUFF enigma spell will do 1 pure damage per 10 int he also gain 1 intelligence for every 200 mana
+BUFF enigma spell will do 1 pure damage for every 12 inteillgence and he gain 1 inteillgence for every 200 mana
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he take 35% damage from pure,magical,physical
 and he lose 75% base damage
 mana bonus 4% 8% 12% 16%
