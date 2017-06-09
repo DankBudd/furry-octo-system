@@ -16,17 +16,11 @@ BUFF Zet get 40% more increase stats from agility,inteillgence,strenght and all 
 give 1 damage per 15 into that one and he his immune to slows
 DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
 are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
-all stats 2 4 6 8
-cooldown reduction 3% 4% 5% 6%
-attack range 25 50 75 100
-cast range 30 60 90 120
-mana and life 3% 6% 9% 12%
 
-talent level 25 upgrade Pure Lightning
-double all stats
+talent level 25 upgrade Lightning God
 add a new modifier Pure Lightning
 all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back
-they also give him 15% movement speed that stack up to 60% last 15 second refresh every time Zet cast a spell
+they also give him 5 base damage that stack up to 40 last 10 second refresh every time Zet cast a spell
 
 
 SPELL Q
@@ -36,9 +30,9 @@ deal high damage jumping to target increasing the damage they take from Zet Ligh
 damage 10 20 30 40 plus 30% of agility type magical
 max jump 3 4 5 6
 damage increase 10% 15% 20% 25%
-slow amount 10% 12% 14% 16%
+slow amount 10% 15% 20% 25%
 debuff duration 4 second
-increase debuff duration by 0.02 per inteillgence point
+increase debuff duration by 0.01 per agility point
 mana cost 100 125 150 175 plus 2% of max mana
 coldown 7 6 5 4
 
