@@ -1,5 +1,5 @@
-Enigma,Gravity lord Starting stats 10 Int, 3 Agi, 5 Str, base speed 280, base damage 4, Stats Gain per level 1.00 int, 0.80 str, 0.40 agi, starting item gravity wand reduce coldown by 3% and give 1.1 mana regen base attack time 1.80
-
+Enigma,Gravity lord Starting stats 10 Int,3 Agi,5 Str, base speed 280, base damage 4, Stats Gain per level 1.00 int,0.80 str,0.40 agi
+starting item gravity wand reduce coldown by 3% and give 1.1 mana regen base attack time 1.80
 
 LEVEL 20 TALENT
 
