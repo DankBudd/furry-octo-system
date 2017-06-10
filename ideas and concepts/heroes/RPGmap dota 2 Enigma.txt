@@ -1,18 +1,14 @@
-Enigma,Gravity lord Starting stats 13 Int, 3 Agi, 5 Str, base speed 280, base damage 4, Stats Gain per level 1.10 int, 0.80 str, 0.40 agi, starting item gravity wand reduce coldown by 3% and give 1 mana regen base attack time 1.60
-
-Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
-
-max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+Enigma,Gravity lord Starting stats 10 Int, 3 Agi, 5 Str, base speed 280, base damage 4, Stats Gain per level 1.00 int, 0.80 str, 0.40 agi, starting item gravity wand reduce coldown by 3% and give 1.1 mana regen base attack time 1.80
 
 
 LEVEL 20 TALENT
 
 talent 1
-give 3 life-regen 12% magic resist with 150 life
+give 4 life-regen 12% magic resist with 150 life
 
 
 talent 2
-give 7% spell amp 4 mana regen with 11 int
+give 7% spell amp 4 mana regen with 15 int
 
 
 
@@ -22,235 +18,158 @@ PASSIVE D OR F level needed 1 5 15 25
 Gravity Lord
 Increase overall stats and give a positive and negative buff
 
-BUFF enigma spell will do 1 pure damage for every 12 inteillgence and he gain 1 inteillgence for every 200 mana
-DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he take 35% damage from pure,magical,physical
-and he lose 75% base damage
-mana bonus 4% 8% 12% 16%
-Mana regen 2 3 4 5
-Spell amp 2% 4% 6% 8%
-cast range 70 140 210 280
-Spell vamp 2% 4% 6% 8%
+BUFF enigma spell will do 1 pure damage for every 12 inteillgence and he gain 1% spell amp for every 200 mana and any slows engima
+take will grant him a speed boost instead of slowing him he also gain 1% life per level gaining 1% size as well
+DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he take 40% damage from pure and physical
+and he lose 70% base damage strenght only give 3 life instead of 5 and agility only give 0.25 attack speed instead of 0.50
 
 
 talent level 25 upgrade Gravity Lord
-double all stats
 give a new modifier Pure Gravity
 empower next enigma spell
-VOID CURSE deal 6 more damage and lower the cooldown by 3
-GRAVITY WELL increase duration by 1 and lower the cooldown by 5
-GRAVITY BOLT deal pure damage instead
-cooldown for this empower 30 second
+VOID CURSE deal 10 more damage and lower the cooldown by 5
+GRAVITY WELL increase duration by 2 and lower the cooldown by 3
+GRAVITY BOLT deal pure damage instead and increase damage by 25
+cooldown for this empower 40 second
 
 SPELL Q level needed 1 4 9 15
 
 Void Curse
 
-Deal damage over time to a target lowering the armor and magic resist for the duration
-Damage 14 16 18 20 type Void plus 5% of intelligence
-cast range 700
+Curse the enemy dealing damage over time to a target lowering magic resist and reducing life regeneration for the duration
+
+Damage 6 9 12 15 type magical plus 10% of intelligence
 Duration 5 6 7 8 second damage every 1 second
-Armor lost 0.4 per tick of damage
-Magic resist lost 2% per tick of damage
-Cooldown 30 28 26 24
+life regeneration lost -0.2 -0.3 -0.4 -0.5 per tick of damage
+Magic resist lost 0.50% 1% 1.50% 2% per tick of damage
+debuff duration 2 second
+Cooldown 32 29 26 23
 Mana cost 100 130 160 190 plus 1% of max mana
 
 
 Talent level 10 Upgrade Void Curse
 increase damage by 10% of enigma intelligence
 increase duration by 2
-magic resist lost by 1%
-mana cost increase by 60
+increase life regeneration lost by 0.3
+increase magic resist lost by 1%
+mana cost increase by 120
 
 add a new modifier Void Corruption
-enemy will take 20% more damage from Gravity bolt and make Void cuse do a VACUUM pulling enemy at a speed of 100 into the target
-affected by void curse dealing 40% of the damage and giving 50% of void curse debuff
+now damage enemys in a 300 area of effect of the main target only dealing 60% of the damage to them and pulling them to the target
+for 100 speed unit and also increase all stun and roots on the main target by 100%
 
 SPELL W level needed 1 4 9 15
 
 Gravity Well
-Infest the ground with pure energy of gravity dealing damage overtime and slowing attack and movement speed
+Infest the ground with pure energy of gravity dealing damage overtime and slowing attackspeed and movement speed also having
+a small chance of stuning the target as well or rooting them
 
-Damage 10 15 20 25 type Void per second
-cast range 700
-duration 7 second
-Attack slow 3 per damage
-Movement slow 2% per damage
+Damage 12 18 24 30 type magical per second
+duration 6 second
+increase duration by 1 for every 40 inteillgence
+Attack slow 2 per damage
+Movement slow 1% per damage
+chance for roots or stuns 10%
+root duration 0.4 0.6 0.8 1
+stun duration 0.2 0.3 0.4 0.5
 Radius 400
 radius increase by 1 for every point of int
-Cooldown 33 32 31 30
+Cooldown 38 34 30 26
 Mana cost 160 200 240 280 plus 1% of max mana
 
 talent level 10 Upgrade Gravity Well
-increase damage by 5
-increase duration by 2
-increase the radius by 100
+increase damage by 10
+increase the radius by 200
 reduce cooldown by 6
-mana cost reduce by 140
+increase chance for roots and stuns by 5%
+mana cost reduce by 100
 
-add a new modifier Gravity Wound
-enemy inside of Gravity well will take 20% more damage from enigma spell
-as well spawning 2 Eidolons, those get 70% of enigma damage, 35% of enigma life and they have
-3 armor and 20% magic resist, last 13 second
-
+add a new modifier Void Gate
+now spawn 3 Eidolons they have 50% of engima life and 100% of engima damage with 2.40 BAT they last
+60 second, only 6 Eidolons can be alive if here is more than 6 the others will die replacing them
+and any enemys inside of Gravity Well will take 15% more damage from enigma spell, Gravity Well gets 30% instead
 
 SPELL E level needed 1 4 9 15
 
 Gravity Bolt
-Cast a bolt made of pure gravity dealing magical damage and healing engima
+Cast a bolt made of pure gravity dealing magical damage and increasing enigma max life for a short duration after the duration end
+it will heal enigma
 
 Base damage 15 20 25 30 type Void
 intelligence scaling 15% 25% 35% 45%
-cast range 700
-healing recive from gravity bolt damage 10% 20% 30% 40%
-cooldown 8 7 6 5
-Mana cost 100 110 120 130 plus 1% of max mana
+damage from Gravity bolt into bonus life 20% 30% 40% 50%
+gain 50% of the bonus life into a heal after the duration
+buff duration 4 second
+cooldown 7 6 5 4
+Mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 Upgrade Gravity Bolt
-increase intelligence scaling by 25%
-increase cast range by 200
-increase healing recive by 30%
-reduce cooldown by 2
-mana cost reduce by 60
+increase intelligence scaling by 35%
+increase bonus life gain 30%
+reduce cooldown by 1
+mana cost reduce by 50
 
-add a new modifier Void Fissure
-every cast of Gravity Bolt will increase enigma intelligence by 4 and is magic resist by 1%. if enigma
-reach 5 stack of Void Fissure next cast of Gravity Bolt will have 2 cooldown reducion and have 15 damage increase
-consuming all stack, this can only happen every 12 second meaning that he cant get anystack for 12 second
+add a new modifier Gravity Wound
+enemys will get a debuff of Gravity Wound taking 10% more damage from Gravity Bolt after 6 stack on the same target he will explode
+casting Gravity Bolt to all near enemys 500 radius for 160% of the damage and giving 3 stack to the other also increase engima magic
+resist by 15% after the enemy explode for 10 second the debuff of Gravity Wound last 5 second, the explosion stack last until death.
 
 
 PASSIVE D OR F level needed 3 7 11 15
 
 Galaxy
-reduce enigma cooldown and increasing is mana pool as well he also deal damage base on his mana also increase
-gravity well damage by enigma Intelligence and all enemy near him lose magic resist
+reduce engima cooldown and increasing his mana he also deal bonus damage base on his mana also all ally near enigma
+will gain roots resist double on engima also increase enigma Gravity Well damage
 
-Reduce cooldown by 6% 8% 10% 12%
-Increase enigma mana by 75 150 225 300
-every 12 11 10 9 second enigma next basic attack will deal 0.4% 0.8% 1.2% 1.6% of is max mana as damage
-increase damage of Gravity well by 6% 9% 12% 15% of enigma intelligence
-make all enemy near enigma lose 4% 6% 8% 10% magic resist, 500 radius
-also increase enigma size by 20% 25% 30% 35%
+Reduce cooldown by 3% 6% 9% 12%
+Increase enigma mana by 5% 10% 15% 20%
+every 10 second engima will deal 0.4% 0.6% 0.8% 1% of his max mana as magical damage
+increase resist for roots by 10% 15% 20% 25%
+Gravity Well Bonus damage 4% 6% 8% 10% of enigma Inteillgence
+also increase enigma size by 5% 10% 15% 20%
 
 Talent level 15 Upgrade Galaxy
 increase cooldown reduction by 3%
-increase mana by 100
-increase the damage of max mana by 0.4%
-increase the intelligence scaling of Gravity Well by 5%
-also further increase enigma size by 35%
+increase mana by 10%
+reduce the cooldown by 5 second of damage by mana
+also further increase enigma size by 10%
 
-add a new modifier Planet
-all enemy around enigma will suffer 0.2%, 1000 range away of their max health as damage up to 0.9% 300 radius near
-and enemy who got more life than enigma will take 100% of enigma base damage as pure damage
-
+add a new modifier Nebula
+all enemys around enigma will lose 0.1% life per second 1000 radius and if they attack him they will lose 2% life every time 5 second
+on bosses and when enigma die he will explode dealing 5% of the enemy max life plus 10% 15% 20% 25% of engima life and mana as well
+and after 7 second enigma will reborn here with 50% life and 30% mana cooldown of 150 second for the explosion and revive
 
 
 ULTIMATE R level needed 8 16 24
 
-black star
+Void Star
 summon a star infested with void and gravity stuning and damaging all enemy, A blackhole will appear dealing damage per second and doing 
 even more damage the closer you get into the center of the blackhole
 
 Damage 60 80 100 Pure damage with 30% 60% 90% of enigma int
-Stun duration 2 second
+Stun duration 1 second
 radius 400 500 600 of the explosion damage
 cast range 700
-mana cost 200 400 600 plus 1% of max mana
+mana cost 200 400 600 plus 5% of max mana
 cooldown 200 190 180
 radius of the black hole 600
-after the damage a black star will appear staying here for 6 second dealing 10 20 30 pure damage plus 50% of enigma int
-if the enemy are in the center of it they will take double the damage instead 150 radius needed. the enemy will get pull
-into the black hole at a spell of 150
+after 2 second a black star will appear staying here for 6 second dealing 10 20 30 pure damage plus 50% of enigma int
+if the enemy are in the center of it they will take double the damage instead 200 radius needed. the enemy will get pull
+into the black hole at 150 unit speed
 
 NOTE use the immortal black hole
 
-talent level 25 upgrade Black Star
+talent level 25 upgrade Void Star
 increase damage by 50
-increase the int scaling by 10%
+increase the int scaling by 60%
 mana cost reduce by 100
-cooldown reduce by 15
-black hole radius increase by 100
-black hole pull speed increase by 30
+cooldown reduce by 10
+black hole radius increase by 300
+black hole double damage radius increase by 100
+black hole pull speed increase by 50
 
-add a new modifier Void Nightmare
-aplie Void Curse to all enemy hit by Black Star and enigma lifesteal for 100% of the damage done
-by void curse as well, enigma take 50% reduce damage for 10 second went Black star is cast
-
-
-
-///////////////////
-level 10 talents
-///////////////////
--- void curse upgrade --
-change damage to pure
-increase damage by 5
-increase the duration by 4
-4 5 6 7 more armor lost
-8% 10% 12% 14% more magic resist lost
-
--- gravity well upgrade --
-increase the duration by 15 second
-change the tick rate to 1 instead of 2
-15 25 35 45 total attack slow
-10% 15% 20% 25% total movement slow
-add a new modifier on tick that make enemy take increase damage by 5% per slow stack
-
-///////////////////
-level 15 talents
-///////////////////
--- gravity bolt upgrade --
-increase int bonus damage by 12%
-increase healing by 10%
-add a new modifier that increase int by 8 for every cast of gravity bolt last 8 second, does not refresh stack on cast
-talent will lower the cooldown by 2
-talent increase mana cost by 2%
-
--- galaxy upgrade --
-increase the reduce cooldown by 2% total
-increase the mana reduce by 40
-increase how much life and mana restore by 2%
-increase the int damage to 7% and the radius by 50
-
-///////////////////
-level 20 talents
-///////////////////
--- defensive stats --
-
--- offensive stats --
-
-///////////////////
-level 25 talents
-///////////////////
--- black star upgrade --
-increase damage by 20
-increase int damage by 100% of enigmas int
-increase stun duration by 0.01 per int
-apply void curse to all units hit by black star
-decrease cooldown by 20 seconds
-
--- gravity lord --
-double all the bonus
-new stacking modifer applied by all of enigmas spells: void fissure;
- making the enemy take 10% more damage from all sources
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add a new modifier Might of the Galaxy Lord
+casting Void Star will give all enemy Void Curse with 50% less duration -5 second with talent upgrade- dealing pure damage instead of
+magical and changing magic resist lost to damage taken increase and when the black hole appear a Gravity Well will be cast as well
+for the duration of the black hole having 100% increase damage and after the black hole end it will explode for 200% of engima
+inteillgence as pure damage 1000 radius and removing all debuff on ally and giving enigma 70% magic resist for 15 second
