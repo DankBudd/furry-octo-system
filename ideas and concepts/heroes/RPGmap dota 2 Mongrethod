@@ -16,17 +16,12 @@ BUFF Mongrethod will gain 2 life per intelligence points and he gets 10% damage 
 by 15% of is intelligence
 DEBUFF Mongrethod lose 85 attack speed and lose 50% of mana and he take 180% more damage from pure type,he cannot pass 350 basespeed and
 he cannot use any-other weapons but Cleaver
-life 2% 4% 6% 8%
-mana 75 100 125 150
-life-regen 1 1.7 2.4 3.1
-mana-regen 2.2 3.4 4.6 5.8
-damage 6 10 14 18
 
 talent level 25 upgrade PitLord
 double all bonus
 add a new modifier Chaos Lord
-Mongrethod gain 25% spell amp with 10% armor increase he also gain 10% cooldown reduction and he now summon a permanent chaos Infernal
-that got 80% of life and 120% damage of Mongrethod respawn every 30 second up to 3 max if they die, they will respawn after 80 second
+Mongrethod gain 20% spell amp with 10% armor increase he also gain 10% cooldown reduction and he now summon a permanent chaos Infernal
+that got 70% of life and 120% damage of Mongrethod respawn every 20 second up to 2 max if they die, they will respawn after 50 second
 
 
 SPELL Q Rain of Fire
@@ -47,13 +42,13 @@ manacost 100 115 130 145 plus 2% of max mana
 
 talent level 10 Upgrade Rain of Fire
 Increase strenght scaling by 15%
-increase current life as damage by 0.3%
-reduce cooldown by 8
-reduce mana cost by 20
+increase current life as damage by 0.2%
+reduce cooldown by 6
+reduce mana cost by 40
 no longer a channel
 
 add a new modifier Rain of Chaos
-every wave of Rain of fire will summon a Chaos Infernal, this summon will have 35% life,70% damage of Mongrethod
+every wave of Rain of fire will summon a Chaos Infernal, this summon will have 35% life,50% damage of Mongrethod
 they also have 2 armor and 5% magicresist this bonus increase by 1 armor and 2% magic resist every 10 level of Mongrethod
 they last 12 second up to 6 max
 
@@ -76,11 +71,12 @@ increase radius by 300
 increase damage reduction by 12%
 increase damage lost flat amount by 5
 increase the duration of damage reduction by 1
+reduce cooldown by 8
 cost no mana
 
 add a new modifier Abyssal Howl
 now affect Mongrethod and ally giving them 50% of the damage reduction of % and flat as bonus damage, enemy that die
-under the effect of Howl of Terror will give Mongrethod 4 health and 0.05 life regeneration last 120 second
+under the effect of Howl of Terror will give Mongrethod 4 health and 0.05 life regeneration last 180 second
 
 
 SPELL E Pit of Hatred
@@ -100,14 +96,14 @@ cooldown 40 37 34 31
 mana cost 100 200 300 400
 
 talent level 15 upgrade Pit of Chaos
-increase life bonus by 15%
-increase magic resist bonus by 5%
+increase life bonus by 5%
+increase magic resist bonus by 12%
 increase duration by 1
 reduce cooldown by 6
 
 add a new modifier King of the Pit
-any ally that gets into Pit of Chaos will be invisible and take 35% less damage enemy will still cast spell on them but do less damage
-in return, and enemy damage by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 400% of Mongrethod
+any ally that gets into Pit of Chaos will take 35% less damage enemy will still cast spell on them but do less damage
+in return, and enemy damage by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 300% of Mongrethod
 strenght in magical damage
 
 
@@ -119,8 +115,8 @@ Strenght 7 11 15 19
 lifesteal 7% 9% 11% 13%
 cleave damage 10% 30% 50% 70%
 cleave radius 270
-increase cleave radius by 1 for every point of strenght
-bonus damage per enemy death 1 2 3 4
+increase cleave radius by 1 for every 3 point of strenght
+bonus damage per enemy death 2
 duration of bonus 15 20 25 30
 bonus damage of boss death 25 40 55 70
 duration of bonus boss 50 60 70 80
@@ -141,7 +137,7 @@ ULTIMATE Demonic Blood
 curse any unit dealing damage per second, if the enemy die during the effect of Demonic Blood it will summon a doom Guard that 
 deal Physical damage per attack and last for a while, the doom guard will have stats base on the enemy life,armor,damage and magic resist
 
-damage per second 20 30 40 plus 50% of strenght type magical
+damage per second 20 30 40 plus 20% of strenght type magical
 duration 20 22 24 last half on boss
 Doom Guard attack damage 50% 90% 130% of the enemy damage half on bosses
 Doom Guard life 100% 200% 300% of the enemy life half on bosses
@@ -153,14 +149,14 @@ cooldown 250 240 230
 mana cost 150 300 450 plus 6% of max mana
 
 talent level 25 upgrade Demonic Blood
-increase damage by 15
-increase Doom Guard attack damage from the enemy by 40%
-increase Doom Guard life from the enemy by 70%
-Increase Doom Guard armor from the enemy by 40%
-increase Doom Guard magic resist from the enemy by 80%
+increase damage by 25
+increase Doom Guard attack damage from the enemy by 30%
+increase Doom Guard life from the enemy by 50%
+Increase Doom Guard armor from the enemy by 20%
+increase Doom Guard magic resist from the enemy by 70%
 increase duration of Doom Guard by 60
 
 add a new modfier Demon Master
-now summon 1 more Doom Guard and any enemy that the Doom Guard kill will increase his damage by 2, life by 10 and attack speed by 2
-and if the Doom Guard die it will return to Mongrethod increase his strenght by 35%, damage by 40% and life regeneration by 1.5%
-that last for 35 second max stack of 2
+now summon 1 more Doom Guard and any enemy that the Doom Guard kill will increase his damage by 2, life by 10 and attack speed by 1
+and if the Doom Guard die it will return to Mongrethod increase his strenght by 35%, damage by 40% and life regeneration by 1%
+that last for 40 second max stack of 2
