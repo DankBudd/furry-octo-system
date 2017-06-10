@@ -24,17 +24,11 @@ BUFF Necro has 15% base magic resist at start and his skeleton regen 1% of their
 skeleton alive and for every 5 level Necro gain 1% magic resist
 DEBUFF Necro will take 80% more damage from physical and he doesnt gain any agility per level he also need 20 int to gain 1% spell amp
 and strenght only gain 4 life instead of 5
-int 7 9 11 13
-mana regen 1.5 2 2.5 3
-mana bonus 4% 8% 12% 16%
-cast range 100 150 200 250
-life bonus 3% 6% 9% 12%
 
 talent level 25, upgrade Corrupted Flesh
-Double all bonus
 give a new modfier Death Walks Among Us
-any enemy that die near Necro 400 radius will be reanimated as a skeleton
-that last for 15 second with 100% of the normal skeleton stats as well
+any enemy that die near Necro 900 radius will be reanimated as a skeleton
+that last for 25 second with 100% of the normal Skeleton Warrior stats as well
 
 
 SPELL Q
@@ -43,9 +37,9 @@ Summon a Skeleton Warrior to fight for you, they are really weak to area of effe
 have a chance to deal more damage and lifestealing and attacking faster
 
 Skeleton life 35 40 45 50 plus 40% of int
-Skeleton damage 3-4 4-5 5-6 6-7 plus 2% of int
+Skeleton damage 3-4 4-5 5-6 6-7 plus 3% of int
 Skeleton armor 1, every 40 int it will give the skeleton 1 armor
-Skeleton magic resist 5% plus 10% of int
+Skeleton magic resist 5% plus 15% of int
 Skeleton base attack time 2.3 2.2 2.1 2.0
 Max skeleton 3 5 7 9
 Mana cost 100 120 140 160 plus 3% of max mana
