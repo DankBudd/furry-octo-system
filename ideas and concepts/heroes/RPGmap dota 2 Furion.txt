@@ -20,29 +20,25 @@ PASSIVE D OR F Nature Way
 
 increase overall stats and give a positive and negative buff
 
-BUFF Furion will get 3 life bonus and 2 mana bonus per intelligence also gaining 0.1 armor per level
-DEBUFF Furion cannot have any Armor-Chest-Peice 
-mana bonus 4% 8% 12% 16%
-healing amp 3% 6% 9% 12%
-life bonus 30 60 90 120
-life-regen 1.1 2.2 3.3 4.4
-intelligence bonus 4 6 8 10
+BUFF Furion will gain 2 life per inteillgence and 5 mana per strenght he also gain 0.1 armor and 0.2% magic resist per level he also
+start with 5% spell amp with 10% heal amp as well any summmon that die will restore Furion life by 1%
+DEBUFF Furion cannot have any Armor-Chest-Peice and he take 100% more damage from physical and 50% more from pure he also lose
+2 movement speed per level with 0.50 attack speed as well he also lose 40% base damage
 
 talent 25 modifer
-double all stats
 give a new modifier Guardian of the Forest
-any trees around Furion will have 6% chance per second near them to turn into a Treant, these Treant
-will have only 50% of the current normal Treant stats but can last until kill, max of 4
+any trees around Furion will have 10% chance per 3 second near him to turn into a Treant, these Treant
+will have only 50% of the current normal Treant stats but can last until death, max of 6
 
 SPELL Q
 Nature Wrath
-heal or damage a target increaseing or reducing armor and magic resist, also after 5 second the target affect by the debuff
+heal or damage a target increasing or reducing armor and magic resist, also after 5 second the target affect by the debuff
 Nature Wrath will do a explosion doing again nature Wrath but doenst regive the debuff and heal and damage for less
 
 Heal 30 50 70 90 plus 50% of int
-Damage 14 18 22 26 plus 40% of int type Holy
+Damage 14 18 22 26 plus 40% of int type magical
 Heal explosion 15 25 35 45 plus 25% of int
-Damage explosion 7 9 11 13 plus 20% of int type Holy
+Damage explosion 7 9 11 13 plus 20% of int type magical
 bonus armor 1 2 3 4
 armor reduction 0.5 1 1.5 2
 magic resist 5% 7% 9% 11%
