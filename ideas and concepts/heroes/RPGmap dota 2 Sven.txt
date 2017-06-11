@@ -1,4 +1,4 @@
-Sven The Angry Swordman Starting Stats 6 str, 2 agi, 5 int base speed 240, base damage 14, Stats gain 1.70 str, 0.90 int, 0.10 agi, starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
+Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 14, Stats gain 1.50 str, 0.80 int, 0.10 agi, starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -22,11 +22,6 @@ increase overall stats and give a positive and negative buff
 BUFF sven will gain 1 damage per 3 Strenght instead of 5 he also gain 1% lifesteal per 15 Strenght he also reduce stun,root and blind by
 30% he also start with 2 armor and 5% magic resist
 DEBUFF sven lose 25% attack speed,30% max life and 60% mana, he can only use Two-Handed Sword type
-attack speed 8 10 12 14
-life regeneration 0.10% 0.15% 0.20% 0.25%
-armor 1 2 3 4
-movement speed 4% 8% 12% 16%
-magic resist 3% 5% 7% 9%
 
 level 25 talent upgrade Mighty Warrior
 double all bonus
