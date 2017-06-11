@@ -21,32 +21,32 @@ increase overall stats and give a positive and negative buff
 
 BUFF sven will gain 1 damage per 3 Strenght instead of 5 he also gain 1% lifesteal per 15 Strenght he also reduce stun,root and blind by
 30% he also start with 2 armor and 5% magic resist
-DEBUFF sven lose 25% attack speed,30% max life and 60% mana, he can only use Two-Handed Sword type
+DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
+type
 
 level 25 talent upgrade Mighty Warrior
 double all bonus
 add a new modifier Great Cleave
-sven cleave for 60% of the damage done the cleave damage is pure and he also gain 200 attack range bonus and become immune to slow
-and roots
-
+Sven cleave for 100% of the damage in a 500 radius in front of him and his attack remove 0.50% of the target current life he also
+gain 150 attack range with 15% damage
 
 SPELL Q level needed 1 4 9 15
 
 Bloodlust
 make sven go crazy increasing is attack damage, attack speed and movement speed for a short time
 
-attack speed 15 25 35 45
-flat movement speed 25 50 75 100
+attack speed 20 30 40 50
+flat movement speed 30 50 70 90
 damage bonus 6 10 14 18
-duration 3.5 4 4.5 5
-increase duration by 0.01 per strenght points
+duration 3 4 5 6
+increase duration by 1 for every 60 strenght
 cooldown 18 17 16 15
-mana cost 60 plus 1% of max mana
+mana cost 40 plus 1% of max mana
 
 talent level 10 upgrade Bloodlust
-increase attack speed by 15
+increase attack speed by 20
 increase damage by 12
-increase duration by 1
+increase falt movement speed by 60
 increase mana cost by 40
 
 add a new modifier Frenzy
