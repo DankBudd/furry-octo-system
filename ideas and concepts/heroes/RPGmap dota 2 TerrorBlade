@@ -13,9 +13,9 @@ Talent 2
 PASSIVE D OR F True Demon
 Increase overall stats and give a positive and negative buff
 
-BUFF Terrorblade gain 1 damage per 4 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
+BUFF Terrorblade gain 1 damage per 6 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
 he also gain 1 base damage per 50 movementspeed
-DEBUFF terrorblade cannot have any magic resist and he got -25% magic resist as well and slowing effect will be double on him he cannot
+DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -60% max mana.
 
 talent level 25 upgrade True Demon
@@ -107,17 +107,19 @@ terrorblade will alway start with a level into this spell Normal from reduce Ter
 Movementspeed and Increasing Slice of Death Power and in True Form Terrorblade will take increase damage but Increasing attack range,
 damage,attack speed and Reflection Power
 
+Small note for this passive toggle first level will be weak after that it will be normal
+
 NORMAL FORM BONUS
-reduce base damage by 25% 35% 45% 55%
-reduce damage taken by 5% 10% 15% 20%
-life bonus 6% 12% 18% 24%
-movement speed bonus 30 50 70 90
+reduce base damage by 10% 40% 55% 70%
+reduce damage taken by 5% 15% 20% 25%
+life bonus 5% 14% 21% 28%
+movement speed bonus 15 50 70 90
 Empower Slice of Death
 TRUE FORM BONUS
-increase damage taken by 25% 35% 45% 55%
-increase attack range by 250 300 350 400
-increase base damage by 10 20 30 40
-increase attack speed by 12 16 20 24
+increase damage taken by 20% 40% 50% 60%
+increase attack range by 150 300 350 400
+increase base damage by 5 20 30 40
+increase attack speed by 6 16 20 24
 Empower Reflection
 cooldown 10
 
