@@ -29,6 +29,7 @@ deal high damage jumping to target increasing the damage they take from Zet Ligh
 
 damage 10 20 30 40 plus 30% of agility type magical
 max jump 3 4 5 6
+increase max jump for every 15 agility points
 damage increase 10% 15% 20% 25%
 slow amount 10% 15% 20% 25%
 debuff duration 4 second
@@ -122,7 +123,7 @@ Zet empower the next spell he cast making it more powerfull and giving it new mo
 
 LIGHTNING ARC
 increase the damage by 10 30 50
-increase max jump by 3 4 5
+increase max jump by 3 5 7
 now jump untill here is no more jump left meaing that it will jump between other enemy or Zet himself
 SURGE
 increase healing by 30 60 90
@@ -135,11 +136,11 @@ double the max stack of armor and magic resist -if Volt Shield talent is pick, t
 increase the cooldown by 20 but now taunt all enemy in a 500 radius of Zet and they take 20% 30% 40% more damage from anything
 
 mana cost increase for casting any of the empower spell 150 300 450
-cooldown 250
+cooldown 200
 
 talent level 25 upgrade Pure Energy
-increase cooldown by 50
-reduce mana cost by 100
+reduce cooldown by 30
+reduce mana cost by 50
 
 add a new modifier Unstable Being
 LIGHTNING ARC will do explosion every time it jump dealing 60% of agility as pure damage in a 400 radius
