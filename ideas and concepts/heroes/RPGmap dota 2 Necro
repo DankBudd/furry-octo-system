@@ -120,28 +120,28 @@ SPELL E
 Death Coil
 heal ally skeleton or damage enemy, also reduce the enemy regen and increase skeleton damage and attack speed
 
-damage 10 20 30 40 magical plus 30% of int
-heal 15 25 35 45 can only affect skeleton of necro
-bonus heal 2% 4% 6% 8% of max health
-enemy regen reduction -1 -2 -3 -4 last 8 second
-skeleton increase damage 3 5 7 9 last 4 second
-skeleton attack speed increase 4 8 12 16 last 4 second
+damage 10 20 30 40 magical plus 50% of int
+heal 20 40 60 80 can only affect skeleton of necro
+bonus heal 3% 5% 7% 9% of max health
+enemy regen reduction -3 -5 -7 -9 last 8 second
+skeleton increase damage 4 8 12 16 last 6 second
+skeleton attack speed increase 7 14 21 28 last 6 second
 mana cost 150 plus 2% 3% 4% 5% of max mana
 cooldown 12
 
 
 talent level 15 upgrade Death Coil
 increase the damage of Death Coil by 10
-increase int scaling by 15%
-increase heal by 25
+increase int scaling by 20%
+increase heal by 40
 increase bonus heal by 6%
-increase enemy regen reduction by -2
-skeleton damage increase by 3
-skeleton attack speed increase by 9
-cooldown reduction 2
+increase enemy regen reduction by -4
+skeleton damage increase by 8
+skeleton attack speed increase by 12
+cooldown reduction 4
 
 add a new modifier Bouncing Coil
-now the death coil will bounce 7 time each bounce will deal 10% less damage and heal per bounce
+now the death coil will bounce 7 time each bounce will deal 10% more damage and heal per bounce
 if cast on enemy it will only try to bounce on enemy if there is no enemy left it will start bouncing on skeleton
 if cast on skeletons it will only try to bounce on skeletons if there is no skeleton left it will start bouncing on enemy
 
@@ -151,10 +151,10 @@ Necro Mastery
 increase all skeleton life, damage, regen, armor, magic resist, attackspeed and movement speed
 
 Skeleton damage increase by 15% 20% 25% 30%
-Skeleton life increase by 2% 5% 8% 11%
-Skeleton regeneration increase by 1 2 3 4
-Skeleton armor increase by 0.5 1 1.5 2
-Skeleton magic resist 4% 6% 8% 10%
+Skeleton life increase by 3% 7% 11% 15%
+Skeleton regeneration increase by 1 3 5 7
+Skeleton armor increase by 1 2 3 4
+Skeleton magic resist 7% 10% 13% 16%
 Skeleton attack speed 6 12 18 24
 SKeleton movement speed 10% 12% 14% 16%
 radius global
@@ -162,12 +162,12 @@ radius global
 talent level 15 upgrade Necro Mastery
 
 Skeleton damage increase by 10%
-Skeleton life increase by 4%
-Skeleton regeneration increase by 1.5
-Skeleton armor increase by 1
+Skeleton life increase by 5%
+Skeleton regeneration increase by 4
+Skeleton armor increase by 2
 Skeleton magic resist 5%
-Skeleton attack speed 8
-Skeleton movement speed 9%
+Skeleton attack speed 12
+Skeleton movement speed 11%
 
 add a new modifier Undead Master
 any skeleton that die will come back to life after 2 second with 30% of thier max life
