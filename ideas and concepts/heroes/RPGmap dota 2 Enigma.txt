@@ -1,6 +1,8 @@
 Enigma,Gravity lord Starting stats 10 Int,3 Agi,5 Str, base speed 280, base damage 4, Stats Gain per level 1.00 int,0.80 str,0.40 agi
 starting item gravity wand reduce coldown by 3% and give 1.1 mana regen base attack time 1.80
 
+SCROLL DOWN FOR TIP AND COMBO
+
 LEVEL 20 TALENT
 
 talent 1
@@ -27,10 +29,11 @@ and he lose 70% base damage strenght only give 3 life instead of 5 and agility o
 talent level 25 upgrade Gravity Lord
 give a new modifier Pure Gravity
 empower next enigma spell
-VOID CURSE deal 10 more damage and lower the cooldown by 5
-GRAVITY WELL increase duration by 2 and lower the cooldown by 3
+VOID CURSE deal 10 more damage and lower the cooldown by 13
+GRAVITY WELL increase duration by 2 and lower the cooldown by 8
 GRAVITY BOLT deal pure damage instead and increase damage by 25
-cooldown for this empower 40 second
+also make those 3 spell of enigma deal 1% of the enemy current life as damage -dont work for bosses-
+cooldown for this empower 50 second
 
 SPELL Q level needed 1 4 9 15
 
@@ -40,8 +43,8 @@ Curse the enemy dealing damage over time to a target lowering magic resist and r
 
 Damage 6 9 12 15 type magical plus 10% of intelligence
 Duration 5 6 7 8 second damage every 1 second
-life regeneration lost -0.2 -0.3 -0.4 -0.5 per tick of damage
-Magic resist lost 0.50% 1% 1.50% 2% per tick of damage
+life regeneration lost -0.2 -0.4 -0.6 -0.8 per tick of damage
+Magic resist lost 1% per tick of damage
 debuff duration 2 second
 Cooldown 32 29 26 23
 Mana cost 100 130 160 190 plus 1% of max mana
@@ -50,8 +53,8 @@ Mana cost 100 130 160 190 plus 1% of max mana
 Talent level 10 Upgrade Void Curse
 increase damage by 10% of enigma intelligence
 increase duration by 2
-increase life regeneration lost by 0.3
-increase magic resist lost by 1%
+increase life regeneration lost by 0.5
+increase magic resist lost by 2%
 mana cost increase by 120
 
 add a new modifier Void Corruption
@@ -135,7 +138,7 @@ reduce the cooldown by 5 second of damage by mana
 also further increase enigma size by 10%
 
 add a new modifier Nebula
-all enemys around enigma will lose 0.1% life per second 1000 radius and if they attack him they will lose 2% life every time 5 second
+all enemys around enigma will lose 0.2% life per second 1000 radius and if they attack him they will lose 2% life every time 5 second
 on bosses and when enigma die he will explode dealing 5% of the enemy max life plus 10% 15% 20% 25% of engima life and mana as well
 and after 7 second enigma will reborn here with 50% life and 30% mana cooldown of 150 second for the explosion and revive
 
@@ -173,3 +176,28 @@ casting Void Star will give all enemy Void Curse with 50% less duration -5 secon
 magical and changing magic resist lost to damage taken increase and when the black hole appear a Gravity Well will be cast as well
 for the duration of the black hole having 100% increase damage and after the black hole end it will explode for 200% of engima
 inteillgence as pure damage 1000 radius and removing all debuff on ally and giving enigma 70% magic resist for 15 second
+
+
+
+TIPS
+Enigma is really weak to physical and any close up but really good against slows because it will buff him for full without penaltys
+he also really good at mid range spell making him have the best damage over time with his Void Curse and Gravity Well
+
+VOID CURSE TIPS AND COMBOS
+Void Curse works very well with Gravity Well when having its talent level 10 that increase stun and roots duration making Gravity Well
+even more effective and if enemys has alot of Health or magic resist the life regeneration they lose from Void Curse can help out deal
+damage to them. Having the talent level 10 of Void Curse with Void Star talent level 25 can make up the most deadly combos enigma can
+have!
+
+GRAVITY BOLT TIPS AND COMBOS
+Gravity Bolt is Enigma Most high damage basic spell making it having a low cooldown as well taking its talent level 15 will make it
+even more powerfull in terms of damage and having Gravity well talent at level 10 with Talent level 25 of Gravity Lord making it having
+the most insane damage spell in 1 shot up to 100 damage and more
+
+GALAXY TIPS AND COMBOS
+Enigma passive give great utility for it giving out cooldown reduction and bonus mana also giving allys roots resist having double
+effect on enigma making him really good against any time of roots and the bonus damage for Gravity Well taking the talent level 10 of
+Gravity well with it and Void Star talent level 25 making it deal high damage over time, also not to forget Enigma basic attack will
+deal bonus damage base on his mana dealing bonus damage in magical and for the talent level 15 of Galaxy making Enigma a living bomb
+that deal insane damage if hitting enemys with the life regeneration of Nebula aura of 0.2% stoping most life regen on high health
+enemys
