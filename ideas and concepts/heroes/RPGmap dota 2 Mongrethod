@@ -1,4 +1,4 @@
-Mongrethod Starting stats 4 Int, 2 Agi, 6 Str, base speed 310, base damage 6, Stats Gain per level 0.70 int, 1.40 str, 0.40 agi
+Mongrethod Starting stats 4 Int, 3 Agi, 9 Str, base speed 320, base damage 6, Stats Gain per level 0.70 int, 1.30 str, 0.40 agi
 Starting item Gaint Cleaver give 7 damage and 4% lifesteal base attack time 2.20 Auto-Attack,Tank,Mage
 
 LEVEL 20 TALENT
@@ -14,11 +14,10 @@ Increase overall stats and give a positive and negative buff
 
 BUFF Mongrethod will gain 2 life per intelligence points and he gets 10% damage reduction he also increase is strenght
 by 15% of is intelligence
-DEBUFF Mongrethod lose 85 attack speed and lose 50% of mana and he take 180% more damage from pure type,he cannot pass 350 basespeed and
+DEBUFF Mongrethod lose 90 attack speed and lose 50% of mana and he take 180% more damage from pure type,he cannot pass 350 basespeed and
 he cannot use any-other weapons but Cleaver
 
 talent level 25 upgrade PitLord
-double all bonus
 add a new modifier Chaos Lord
 Mongrethod gain 20% spell amp with 10% armor increase he also gain 10% cooldown reduction and he now summon a permanent chaos Infernal
 that got 70% of life and 120% damage of Mongrethod respawn every 20 second up to 2 max if they die, they will respawn after 50 second
@@ -69,7 +68,7 @@ talent level 10 upgrade Howl of Terror
 increase damage by 5
 increase radius by 300
 increase damage reduction by 12%
-increase damage lost flat amount by 5
+increase damage lost flat amount by 10
 increase the duration of damage reduction by 1
 reduce cooldown by 8
 cost no mana
