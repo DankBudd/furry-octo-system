@@ -18,11 +18,12 @@ PASSIVE D OR F
 Dwarft Might
 increase overall stats and give a positive and negative buff
 
-BUFF Muradin start with 2 armor and he gain 1 armor per 40 strenght and for each armor point Muradin got he gain 2 damage
-DEBUFF Muradin got 35% less magic resist with a 45% life penalty and he can only use hammer type weapons
+BUFF Muradin Start with 1 armor and any armor lost will be bonus armor for muradin instead of losing it he also gain 1 damage per armor
+and 50% of his armor will be Strenght and muradin spell will do 10% bonus pure damage
+DEBUFF Muradin lose 15% magic resist and he take 50% more damage from pure and magic resist any magic resist lost takent will be double
+instead of normal he also can only use hammer type weapons
 
 Talent level 25 Upgrade Dwarft Might
-double all stats
 add a new modifier infused Hammer
 every basic attack, Muradin Release a Chain Lightning dealing 4 physical damage plus 10% of strenght and 5% of attack damage
 that jump up to 4 target
@@ -33,7 +34,7 @@ Storm Bolt
 deal Heavy damage to a target stunning them and reducing magic resist and armor also pushing the target back
 
 damage 10 25 40 55 plus 40% of strenght -damage type MAGICAL-
-cast range 700
+bonus damage 10% pure
 push force 200
 magic resist lost 9% 11% 13% 15%
 armor lost 1 2 3 4
@@ -61,6 +62,7 @@ Muradin Smash the ground, dealing damage and slowing attack speed and movement s
 by this spell the more damage it deal
 
 damage 9 12 15 18 plus 15% of strenght -damage type PURE-
+bonus damage 10% pure
 radius 260 270 280 290
 radius increase by 1 for every point of strenght
 attack speed lost 15 20 25 30
@@ -88,6 +90,7 @@ Muradin next attack will deal bonus damage and increase attack speed as well, Th
 attack
 
 damage bonus 7 10 13 16
+damage bonus 10% pure
 attack speed bonus 25
 number of attack 2 3 4 5
 last hit damage increase 21 30 39 48
