@@ -41,9 +41,10 @@ mana cost 100 140 180 220 plus 3% of max mana
 
 talent level 10 Upgrade Skull Dance
 increase heal by 12
-increase damage by 4
+increase damage by 3
+increase chance of paralyzeby 7%
 increase stun duration by 0.1
-increase bounce amount by 3
+increase bounce amount by 4
 
 add a new modifier The Bone Zone
 after the skull land on any ally or enemy here is 15% chance to summon a Bone Zone of a 350 radius enemy that enter this zone they will
@@ -68,12 +69,26 @@ mana cost 100 plus 5%
 
 
 talent level 10 upgrade Spiritual Voodoo
-reduce missing life needed for bonus damage by 6%
-increase base heal by 20
-increase base damage by 30
-reduce cooldown by 2
+reduce missing life needed for bonus damage by 5%
+increase base heal by 30
+increase base damage by 10
+reduce cooldown by 7
 
 add a new modifier Horror Voodoo
 casting Spiritual Voodoo on enemys below 40% fear them for 3 second after the fear end 50% of Spiritual Voodoo will do pure damage and
 the other part 50% magical and for ally make them immune to magic for 3 second after the that they will get 100 attack speed for 2 second
+
+
+SPELL E Spirit Curse
+curse enemys dealing damage every second after a short duration it will deal burst damage base on the amount of damage taken durring
+the Spirit Curse. every time they die under Spirit Curse they will explode for Short damage and giving Spirit curse to other target
+
+base damage 7 9 11 13 magical every 0.5 second
+burst damge amount 15% 20% 25% 30% of total damage taken
+radius 400
+duration 4 second
+Explosion damage 25% 50% 75% 100% of inteillgence
+
+
+
 
