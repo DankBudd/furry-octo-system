@@ -25,7 +25,6 @@ DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more d
 type
 
 level 25 talent upgrade Mighty Warrior
-double all bonus
 add a new modifier Great Cleave
 Sven cleave for 100% of the damage in a 500 radius in front of him and his attack remove 0.50% of the target current life he also
 gain 150 attack range with 15% damage
@@ -38,20 +37,20 @@ make sven go crazy increasing is attack damage, attack speed and movement speed 
 attack speed 20 30 40 50
 flat movement speed 30 50 70 90
 damage bonus 6 10 14 18
-duration 3 4 5 6
-increase duration by 1 for every 60 strenght
+duration 4 5 6 7
+increase duration by 1 for every 40 strenght
 cooldown 18 17 16 15
 mana cost 40 plus 1% of max mana
 
 talent level 10 upgrade Bloodlust
 increase attack speed by 20
-increase damage by 12
+increase damage by 8
 increase falt movement speed by 60
 increase mana cost by 40
 
 add a new modifier Frenzy
-every hit on the target will increase the damage it take by 3% up to 15%, when it reach
-the max stack of 5 the next attack of sven will do pure instead of physical damage for the duration of BloodLust
+every hit on the target will increase the damage it take by 5% up to 30%, when it reach
+the max stack of 6, Sven attack will do pure for the remaining duration of bloodLust
 
 
 SPELL W level needed 1 4 9 15
@@ -61,28 +60,26 @@ hit the enemy with a deadly blow dealing high damage and lifestealing for that a
 bonus damage base on the current life of the enemy NOTE if use on a boss the cooldown is double
 
 damage 10 16 22 28 pysical damage plus 24% 36% 48% 60% of sven strenght
-lifesteal base on the damage done 15% 20% 25% 30% -spell vamp dont work on this spell-
-current life as bonus damage 4% 8% 12% 16% -half on boss
-coldown 25
+lifesteal base on the damage done 10% 20% 30% 40% -spell vamp dont work on this spell-
+current life as bonus damage 5% 10% 15% 20%
+max life as bonus damage for boss 1% 2% 3% 4%
+cooldown 25
 mana 100 130 160 190 plus 1% of max mana
 
 talent level 10 upgrade Death Blow
-increase damage by 12
-increase strenght scaling by 20%
-increase current life damage by 4%
+increase damage by 4
+increase strenght scaling by 40%
 reduce cooldown by 5
 reduce mana cost by 70
 
 add a new modifier Colossus Sword
-sven will instanly kill enemy who are below 40% of their max life and reduce it cooldown by 15
-and increasing Death Blow current life as damage by 10% for every kill under 40% of their health up to 30% last until next
-Death Blow is use, boss will alway take 10% of thier max life as damage instead
-
+sven will instanly kill enemy who are below 30% of their max life and reduce it cooldown by 10
+and increasing Death Blow current life as damage by 10% bosses will give 30% if kill with Death Blow
 
 
 SPEED E level needed 1 4 9 15
 
-Blood lost
+Blood Wound
 Sven sharpen is sword making it have a more clean cut dealing damage per second and lowering armor
 
 damage 3 5 7 9 physical damage per tick plus 20% of sven strenght
@@ -93,16 +90,16 @@ spellvamp of Blood Lost 8% 12% 16% 20%
 cooldown 24 23 22 21
 mana cost 70 80 90 100 plus 1% of max mana
 
-talent level 15 upgrade Blood Lost
+talent level 15 upgrade Blood Wound
 increase damage by 6
 increase spell vamp by 10%
 reduce cooldown by 2
 reduce mana cost by 40
 
 add a new modifier Critical Wound
-sven basic attack and spell will deal 20% pure damage on target affected by Blood Lost. if the target die
-under Blood lost he will drop a Globe of Life restoring anyone life by 10% and reducing the cooldown of blood lust by 6, bosses will
-drop a Greater Globe of life restoring 65% instead and reducing the cooldown of Blood Lost by 15 second
+sven basic attack and spell will deal 20% pure damage on target affected by Blood Wound. if the target die
+under Blood Wound he will drop a Globe of Life restoring anyone life by 10% and reducing the cooldown of blood Wound by 7, bosses will
+drop a Greater Globe of life restoring 80% instead and reducing the cooldown of Blood Wound by 50% for the next use
 
 
 PASSIVE D OR F Level needed 3 7 11 15
@@ -117,7 +114,7 @@ Critical damage 125% 135% 145% 155%
 increase critical damage by 1% for every 5 point of strenght
 Critical chance 12% 13% 14% 15%
 block damage 4 11 18 25
-increase block damage by 1 for every 25 strenght point
+increase block damage by 1 for every 20 strenght point
 block chance 15% 20% 25% 30%
 
 talent level 15 upgrade War Gladiator
