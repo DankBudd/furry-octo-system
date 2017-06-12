@@ -17,24 +17,18 @@ BUFF Volcanus attack will do magic damage instead of physical and he gain 2% spe
 Intead of 1 he also gain 2 life per inteillgence point he can also use Sulfuras and get More bonus from it
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
 he also lose 50% base attack damage
-mana 4% 8% 12% 16%
-int 4 6 8 10
-attack range 25 50 75 100
-spell-vamp 2% 3% 4% 5%
-Fire damage spell increase 3% 6% 9% 12%
 
 talent level 25 upgrade Fire God
-double all stats
-add a new modfier Demonic Power
-Double Soul Burn damage and Volcanus Spell and Attack deal 40% more damage on target affected by Soul Burn
-Volcano will deal 7% of the target current life as damage 3.5% for bosses and it will alway spawn 3 Lava Spawn that stay until death
-those Lava Spawn cannot recreate Lava Spawn after doing the damage needed
+add a new modfier Sun Power
+increase Soul Burn damage by 100% and Volcanus Attack deal 60% more damage on target affected by Soul Burn and
+Volcano will deal 6% of the target current life as damage 3% for bosses and it will alway spawn 3 Lava Spawn that stay until death
+those Lava Spawn cannot recreate Lava Spawn after doing the damage needed max of 3 Lava Spawn
 
 SPELL Q
 Soul Burn
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
 
-damage per second 6 11 16 21 type Magical plus 35% of intelligence
+damage per second 12 16 20 24 type Magical plus 15% of intelligence
 damage reduction 25% 40% 55% 70%
 slow 6% 8% 10% 12%
 Silence Target
@@ -43,37 +37,35 @@ cooldown 35 34 33 32
 mana cost 70 110 150 190 plus 5% of max mana
 
 Talent level 10 upgrade Soul Burn
-increase damage by 11
+increase damage by 10
 increase intelligence scaling by 25%
-increase the duration by 3
+increase the duration by 2
 
-add a new modfier Molten Flame
-every second of soul burn it will damage nearby enemy 400 radius for 50% of the damage of soul burn and doesnt affect the target itself
-after the duration of soul burn it will explode dealing 200% of the damage of soul burn into pure damage to nearby unit 400 radius
-
+add a new modfier Sun Burn
+Soul Burn silence all enemy near the main target 300 radius and Soul Burn got 15% chance to deal 50% more damage and turning it to
+pure damage after Soul Burn duration end it will explode for 300% of Soul Burn total damage to all near enemys 300 radius
 
 SPELL W Lava Wave
-send out a wave that deal heavy damage to the enemy that get hit by the wave and burning them and lowering magic resist
+Send out a wave of Molten lava dealing high damage and burning enemys and reducing their magic resist
 
 damage 20 30 40 50 type Magical plus 30% of intelligence
 burn damage 3 4 5 6 per second type magical plus 5% of intelligence
 magic resist lost 3% 6% 9% 12%
 duration of burn and magic resist lost 3 second
 radius of the wave 300
-max travel distance 400 500 600 700
+max travel distance 500 700 900 1100
 cooldown 19
 mana cost 100 150 200 250 plus 5% of max mana
 
 talent level 10 upgrade Lava Wave
 increase damage by 20
 increase intelligence scaling by 10%
-increase the duration of burn and magic resist lost by 1
-increase max travel distance by 500
+increase magic resist lost by 8%
+increase max travel distance by 400
 
-add a new modfier Gift of Hell
-now send 8 more lava Wave that deal the same amount of damage and change the burn damage to pure
-and also change the magic resist lost to be damage taken increase
-
+add a new modfier Molten Hearth
+lava wave deal 2% of the target max life as damage and sending 2 new lava wave and make lava wave roots enemys in Molten Lava for
+3 second and turning the burn to pure damage and making magic resist lost to be damage taken increase instead
 
 SPELL E Volcano
 channel a volcano that deal damage every 3 second stuning the enemy every time the enemy gets damage again by volcano
