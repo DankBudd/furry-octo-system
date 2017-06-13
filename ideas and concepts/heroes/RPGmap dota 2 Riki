@@ -31,24 +31,24 @@ SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on
 deal damage and reducing the enemy damage and attack speed for a short duration and after dealing the damage, the dagger
 will bounce up to 4 target doing less damage and also reducing damage but not attackspeed
 
-Attack damage 125% 135% 145% 155% damage type physical
+Attack damage 120% 130% 140% 150% damage type physical
 damage reduction 6% 10% 14% 18%
 attack speed lost 10 15 20 25
-bouncing dagger damage 50% 60% 70% 80%
+bouncing dagger damage 60% 65% 70% 75%
 bouncing dagger damage reduction 3% 5% 7% 9%
-debuff duration 3 second
+debuff duration 7 second
 mana cost 90 plus 2% of max mana
-cooldown 11
+cooldown 15
 
 talent level 10 upgrade Dagger Strike
-increase damage by 20% -Note- 50% of this goes to the  lesser damage bounce dagger
-increase damage reduction by 6% -Note- 50% of this goes to the  lesser damage bounce dagger
-reduce mana cost by 20
-reduce cooldown by 4
+increase damage by 30% -Note- 50% of this goes to the  lesser damage bounce dagger
+increase damage reduction by 12% -Note- 50% of this goes to the  lesser damage bounce dagger
+reduce mana cost by 30
+reduce cooldown by 5
 
 add a new modifier Poison Dagger
 after striking the enemy,they will get poison dealing 7 plus 8% of agility pure damage per second and disabling regeneration
-for 3, also increase the damage they take by riki spell by 20%
+for 4, also increase the damage they take by riki spell by 20%
 
 
 SPELL W Blink Stab
@@ -63,7 +63,7 @@ mana cost 150 plus 1% of max mana
 cooldown 28 26 24 22
 
 talent level 10 upgrade Blink Stab
-increase damage by 40%
+increase damage by 50%
 increase stun by 0.15
 increase silence by 0.40
 reduce mana cost by 80
