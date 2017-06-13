@@ -1,4 +1,4 @@
-Riki -- High-DPS, starting stats 4 int, 10 agi, 3 str, base speed 280, base damage 5, Stats Gain per level 0.20 int, 0.10 str, 0.40 agi
+Riki -- High-DPS, starting stats 2 int, 10 agi, 3 str, base speed 280, base damage 8, Stats Gain per level 0.10 int, 0.20 str, 0.40 agi
 starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.30
 
 LEVEL 20 TALENT
@@ -69,7 +69,7 @@ increase silence by 0.40
 reduce mana cost by 80
 
 add a new modifier Stab Feast
-after blinking on the target riki get 25% increase damage and 20% of his damage become pure for 3 second, if any
+after blinking on the target riki gets 25% increase damage and 20% of his damage become pure for 4 second, if any
 enemy die by blink stab riki will get heal for 35% of is max life and increase the next blink stab damage by 20% this can chain
 up to 100% more damage, this bonus is lost if the target dont die by blink stab
 
@@ -84,7 +84,7 @@ movementspeed slow 15%
 magic resist bonus 4% 7% 10% 13%
 radius 250
 radius increase by 2 per agility point
-the smoke last 6.5 7 7.5 8 second
+the smoke last 5 6 7 8 second
 the smoke duration increase by 0.02 per agility point
 mana cost 100 130 160 190 plus 4% of max mana
 cooldown 22 21 20 19
@@ -96,8 +96,8 @@ increase magic resist by 7%
 increase radius by 150
 
 add a new modifier Toxic Smoke
-deal 15% of riki attack damage as magic per second and the enemy got 6% chance to be stun for 0.80 second every
-tick of damage
+deal 15% of riki attack damage as magic per second and the enemy got 15% chance to be stun for 0.60 second every
+tick of damage also give allys and riki 15 flat base damage while inside of it
 
 
 PASSIVE D OR F BackStab -NOTE- this affect only work behind that mean if riki attack from the front once the target lose all stack
@@ -107,30 +107,30 @@ if the target get 6 stack of Stab he will take increase damage
 base agility bonus 5 7 9 11
 damage multiplier behind the target 110% 120% 130% 140%
 armor lost per stack 1
-damage increase 10% 13% 16% 19%
-damage increase duration 2 second
+damage increase 9% 11% 13% 15%
+damage increase duration 3 second
 armor lost duration 2 second
 -NOTE- has no cooldown to regive the stack again meaning that with alot of attack speed the increase damage can stay for infinit time
 
 talent level 15 upgrade BackStab
 increase damage multiplier by 20%
-increase armor lost per stack by 0.5
+increase damage taken by 15%
 increase agility bonus by 9
 
 add a new modifier DeepStab
 riki got 30% chance to deal 250% of the normal damage behind and giving 3 stack instead of 1, riki also
-get 5% lifesteal on proc
+get 15% lifesteal on proc and he also give 40% of his agility to near ally 900 radius
 
 
 ULTMATE R Assasin Parry PASSIVE
 riki can parry any melee attack dealing bonus damage to them and reducing damage he take as well, riki will gain
-a stack of Parry increasing armor by 2 up to a max of 10, after 5 stack next parry will do maxlife% damage also
+a stack of Parry increasing armor by 2 up to a max of 10, after 5 stack next parry will do max life damage also
 increase riki damage
 
-bonus damage 15% 25% 35%
-Attack damage to parry 180% 240% 300% damage type pure
+bonus damage 10% 15% 20%
+Attack damage to parry 200% 300% 400% damage type pure
 parry chance 11% 13% 15%
-damage reduction upon parrying 15% 25% 35%
+damage reduction upon parrying 10% 20% 30%
 max stack parry damage 5% 10% 15% of max life as damage of the enemy
 parry stack duration 10 second
 armor per stack 2
@@ -139,12 +139,12 @@ talent level 25 upgrade Assasin Parry
 increase bonus damage by 15%
 increase attack damage by 40%
 increase parry chance by 1%
-increase the damage of max life by 5%
+increase the damage of max life by 10%
 increase the duration of stack by 5
 
 add a new modifier Death Strike
 riki basic attack will alway deal 10% pure damage and 30% of the damage done by parry will be life bonus for riki that last 11 second
-refresh the by 2 second upon parrying again, riki also gain 0.50 more attack speed from agility and 2 movement speed as well and
+refreshing by 2 second upon parrying again, riki also gain 0.50 more attack speed from agility and 2 movement speed as well and
 increasing is speed limit to 750
 
 
