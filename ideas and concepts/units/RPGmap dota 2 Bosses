@@ -1,10 +1,32 @@
-BOSS Wasuro
+BOSS Wasuro Level 5 -xp gain x1.5 of level 5
 STATS
-life 2000/2000
+range Melee
+life 1200/1200
 mana 500/500
 damage 10-30
-armor 10
-magic resist 20%
+armor 5
+magic resist 10%
+life regeneration 4
+mana regeneration 4
 
-still wating on idea
+SPELL 1 Sword Slash
+Wasuro Swipes his sword delay of 1.3 second dealing 35 magical damage plus 2% of the heroes health disabling life regeneration for 3 second
+after the duration end it explode for 10 pure damage and stuning for 1.2 second radius of 300
 
+SPELL 2 Wild Charge
+after 1.5 second of channel, Wasuro start running at 450 speed in front of him dealing 60 magical damage plus 1% of heroes max health and
+stunning them for 2 second after he reach his destination he will blink on a random hero dealing 7 magical damage per second for 7 second
+
+SPELL 3 ULTIMATE Duel arena
+Wasuro makes a area of 800 radius traping all heroes dealing 0.5% of their max life per second for 20 second, while Wasuro is inside of
+his Duel Arena he will gain 50% more damage with 50% crowd control resist he also gain 10% lifesteal as well and all of his spell will
+do 30% increase damage, Heroes will get a debuff that reduce their magic resist by 5% and armor by 2 also reducing spell amp by 4%
+and reducing damage by 15%
+
+PASSIVE 1 Blade cut
+Wasuro cuts the enemy armor reducing it by 1 if the heroes reach 6 stack of Blade Cut they will take pure damage instead of physical
+from Wasuro attacks he also attack faster every time he attack the same person increasing attack speed by 10 every time.
+
+BOSS PASSIVE Unbroken Will
+if Wasuro lose 25% hp in 10 second he will become magic immune for 3 second purging all debuff and going crazy as well gaining 100 attack
+speed with max movement speed.
