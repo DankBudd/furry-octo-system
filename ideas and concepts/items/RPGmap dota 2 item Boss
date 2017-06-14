@@ -6,13 +6,13 @@ taking more damage
 
 Passive item use
 Blade cut
-reduce enemys armor by 1 up to 4 after reaching 4 stack they will take 20% of your basic attack damge into pure
+reduce enemys armor by 1 up to 4 after reaching 4 stack they will take 20% of your basic attack damge into pure last 2.5 second
 
 Active item use
 Unbroken Will
-increase attack speed by 50 but take 15% more damage from magical and physical.
+increase attack speed by 40 but take 15% more damage from magical and physical.
 
-attack speed 15
-damage 6
-agility 5
-BAT modifier 1.6
+attack speed 10
+damage 4
+agility 8
+BAT modifier 1.5
