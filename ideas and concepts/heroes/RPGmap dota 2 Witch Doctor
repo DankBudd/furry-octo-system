@@ -1,4 +1,4 @@
-Zul'Nu Starting stats 5 Int, 4 Agi, 4 Str, base speed 300, base damage 5, Stats Gain per level 1.10 int, 0.80 str, 0.50 agi
+Zul'Nu Starting stats 10 Int, 7 Agi, 5 Str, base speed 300, base damage 5, Stats Gain per level 1.10 int, 0.60 str, 0.40 agi
 Starting item Broken Staff give 1 damage and 3% heal amp base attack time 2.20 High-Support Small-Nuker
 LEVEL 20 TALENT
 
@@ -10,15 +10,14 @@ Talent 2
 
 
 PASSIVE D OR F Bad Doctor
-BUFF Zul'Nu gain 10% increase inteillgence he also start with 10% heal amp with 5% spell amp, his basic attack turn magic instead of
-physical and he also reduce roots and slows by 50%
+BUFF Zul'Nu gain 15% increase inteillgence he also start with 10% heal amp with 5% spell amp, his basic attack turn magic instead of
+physical and if he gets rooted instead it will give him 2% heal amp increase every level of Zulnu and removing the root that last 3
+second he also gain 0.2% spell amp per level and 0.3% healing amp per level
 DEBUFF strenght doesnt give any life regeneration and he take 100% more damage from physical,magic,pure and every level witch doctor lose
 1% life and mana. he can only use staff weapons type
 
 talent level 25 upgrade Bad Doctor
 give a new modifier -wating to make all spell and passive-
-
-
 
 
 SPELL Q Skull Dance
@@ -85,15 +84,15 @@ curse enemys dealing damage every second after a short duration it will deal bur
 the Spirit Curse. every time they die under Spirit Curse they will explode for high damage and giving Spirit curse to other target
 dealing max health damage to enemys and healing ally for max health as well.
 
-base damage 7 9 11 13 magical every 0.5 second
+base damage 30 60 90 120 over 16 second
 burst damge amount 15% 20% 25% 30% of total damage taken
-duration 4 second
+duration of burst damage 3 4 5 6 second
 radius 350
 increase radius by 5 for every level ZulNu got
 explosion damage 3% 5% 7% 9% of health
 explosion damage on boss 1% 1.5% 2% 2.5%
 explosion heal 4% 8% 12% 16% of Health
-cooldown 16
+cooldown 26
 mana cost 50 100 150 200 plus 2% of max mana
 
 talent level 15 upgrade Spirit Curse
@@ -104,7 +103,7 @@ increase explosion heal by 16%
 reduce cooldown by 4
 
 add a new modifier Mad Spirit
-after the duration ends if the target is alive it will spawn a lesser Voodoo Spirit with 70% of ZulNu life and damage and if the target
+after the duration ends if the target is alive it will spawn a lesser Voodoo Spirit with 125% of ZulNu life and damage and if the target
 die during Spirit Curse they will summon a Greater Voodoo Spirit with 250% of ZulNu life and damage they both last 8 second
 after death, they will return to Zulnu healing him for 6% max health and mana Greater Voodoo spirit will give 12% instead
 
