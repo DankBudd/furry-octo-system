@@ -72,3 +72,18 @@ give 5% cooldown reduction to near ally double on the user
 agility 15
 inteillgence 15
 cooldown reduction 10%
+
+
+Star Fragment
+increase the user primary Attributes also increasing cast range and attack range also increasing life regeneration bonus
+can also be use to create a small Star that deal damage over time and stuns enemys after it ends, while enemys are stun they take 
+super increase damage
+
+Active item use
+Create a Star that deal 8 pure damage plus 20% of primary Attributes every 0.5 second lasting 6 second, after the star end
+it will stuns enemys by 2.2 second increasing damage they take by 350% cooldown, 35 second, mana cost 15% of max mana.
+
+increase Primary Attributes by 30%
+cast range 250
+attack range 120
+increase life regeneration bonus by 20%
