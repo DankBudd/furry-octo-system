@@ -4,34 +4,34 @@ list of blue item
 Greater Soul BLUE cant buy
 give bonus damage, stats, lifesteal, spellamp and spellvamp with cast range
 
-damage 7
-spell amp 5%
-all stats 4
-lifesteal 4%
-spell vamp 2%
-cast range 80
+damage 6
+spell amp 4%
+all stats 5
+lifesteal 5%
+spell vamp 4%
+cast range 60
 
 
 Skull of Death BLUE gold 850
 Increase agility and strenght of the user, also have a chance to deal bonus damage with physical damage crit on spell
 
 spell crit, physical spell only
-chance 10%
+chance 12%
 damage 140%
 
-agility 9
-strenght 7
+agility 10
+strenght 6
 
 
 Magic Stone BLUE gold 600
 increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
 
 Active item use
-deal 25 magic damage plus 25% of user int to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
+deal 30 magic damage plus 20% of user int to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
 
-intelligence 8
-spell amp 4%
-mana 90
+intelligence 6
+spell amp 6%
+mana 140
 
 Infernal Stone BLUE, needed lesser infernal stone 1000 gold with recipe 1500 gold
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
@@ -62,12 +62,12 @@ give strenght and agility with lifesteal for near ally, can also be use to throw
 
 Active item use
 deal 9 physical damage plus 15% of user strenght and agility, bounce up to 7 time reducing armor by 1 and silencing for 0.25 second
-the debuff of silence and disarmor last 3 second, cooldown 15 mana cost 150
+the debuff of silence and disarmor last 3 second, cooldown 25 mana cost 150
 
 Passive 1 Aura that give agility, strenght and lifesteal 700 radius
-Strenght 6
-agility 6
-lifesteal 8%
+Strenght 5
+agility 5
+lifesteal 10%
 
 
 WarCry BLUE needed Orger Club 1000 gold, Quaterstaff 875 gold and recipe 50 gold
@@ -79,6 +79,9 @@ cooldown 18 manacost 80
 
 Passive item use
 cleave for 15% of the damage dealt
+
+strenght 12
+attack speed 5
 
 
 Radiant Stone
@@ -111,10 +114,10 @@ Holy Book
 increase the user heal amp and spell amp type skill also increase mana and life can also be use to deal holy damage or heal allys
 
 active use item 1
-deal 10 plus 15% of inteillgence as magical damage or heal any ally for 30% of inteillgence
+deal 10 plus 15% of inteillgence as magical damage or heal any ally for 20 heal plus 40% of inteillgence
 
-heal amp 7%
-increase spell amp 7%
+heal amp 6%
+increase spell amp 6%
 mana 70
 life 70
 
@@ -128,8 +131,8 @@ Spell will slow for 7% and blind for 2 second giving 8% to miss and also dealing
 Active item use 1
 deal 14% of total attributes as damage to a target all of that damage will be 50% magical and physical
 
-all stats 6
-mana 6%
+all stats 5
+mana 10%
 cooldown reduction 3%
 
 
