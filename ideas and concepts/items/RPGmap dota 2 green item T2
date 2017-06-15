@@ -8,9 +8,9 @@ item needed Iron Brach, Leaf Branch, Wisdom Branch and recipe 50 gold
 increase all stats with life and mana regeneration and movement speed
 
 3 to all stats
-0.8 life-regen
-0.8 mana-regen
-8 attackspeed
+0.6 life-regen
+0.6 mana-regen
+5 attackspeed
 
 
 Earth Ring gold 400
@@ -23,7 +23,7 @@ armor enemy 2
 Water Ring 400 gold
 increase regeneration of ally and reduce the regeneration of enemy
 
-ally regen 0.7 life and 1.6 mana
+ally regen 0.5 life and 0.7 mana
 enemy regen -0.4 life and -0.5 mana
 
 
@@ -31,16 +31,16 @@ Fire Ring 400 gold
 increase the damage of ally and reduce damage of enemy
 
 damage increase ally 3% and 2 damage
-damage reduction enemy 5% and 1 damage
+damage reduction enemy 2% and 1 damage
 
 
 Air Ring 400 gold
 increase attack speed and movement spell of ally and reduce enemy attack speed and movement speed
 
 attack speed ally 8
-movement speed ally 5%
-attack speed enemy -5
-movement speed enemy -8%
+movement speed ally 4%
+attack speed enemy -4
+movement speed enemy -2%
 
 
 Soul GREEN cant buy
@@ -85,18 +85,18 @@ heal the target for 30 plus 1% of his max health, other in the radius of 300 wil
 cooldown 20 mana cost 30 plus 2% of user max mana
 
 heal amp 5%
-mana regen 2
-mana 100
+mana regen 1.4
+mana 50
 
 
-Anti-Magic Bar GREEN 400 gold
+Anti-Magic Bar GREEN 300 gold
 increase user magic resist and damage can also be use to be magic immune for a short time
 
 Active item use
-become magic immune for 1.6 second cooldown 21
+become magic immune for 1.2 second cooldown 18
 
-magic resist 12%
-damage 6
+magic resist 7%
+damage 4
 
 
 Bottle of Health gold 250 plus lesser bottle of Health 50 gold
@@ -119,12 +119,12 @@ boss will always give 4 charges
 spell amp bonus for the duration 2%
 
 
-Book of Lores gold 300
+Book of Lores gold 200
 increase the user stats also giving bonus XP and movement speed
 
 2 all stats
-5% movement speed
-10% increase XP gain
+3% movement speed
+5% increase XP gain
 
 
 Magical Orb 200
@@ -134,15 +134,23 @@ Passive item use
 all MAGIC spell will slow for 4% and deal 2 pure damage bonus
 
 Inteillgence 6
-mana 4%
+mana 3%
 
 
 Physycal Orb 200
 increase user agility and strenght also all PHYSICAL spell will blind and deal bonus damage
 
 Passive item use
-all PHYSICAL spell will blind for 1.5 second giving 5% chance to miss and deal 2 pure damage bonus
+all PHYSICAL spell will blind for 1.2 second giving 5% chance to miss and deal 2 pure damage bonus
 
-agility 4
-strenght 4
+agility 3
+strenght 3
 
+
+Gold Rock need Lucky Rock plus recipe 200 gold
+increase the user stats with xp, gold and cast range
+
+all stats 1
+xp gain on kill 4
+gold gain on kill 4
+cast range 50
