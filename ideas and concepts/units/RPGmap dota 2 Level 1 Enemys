@@ -7,4 +7,31 @@ mana 0
 damage 2-6
 armor 1
 magic resist 0%
-no passive or spell
+
+Passive Hard Skin
+cannot deal more than 60% of the Boar life in one hit meaning that any spell that do 60% more damage will only do
+60% of its health points
+
+
+Dumb Orger
+range melee
+life 80/90
+mana 50/50
+damage 1-10
+armor 2
+magic resist 2%
+
+Passive Dumb luck
+the orger got 50% to hit the target dealing pure damage and 50% chance to miss and deal 100% more damage to him-self
+
+
+Skeleton
+range melee
+life 55/55
+mana 0
+damage 3-7
+armor 0
+magic resist 5%
+
+Passive Weak Bone
+reduce damage by 2 from magic and physical but take 100% more from pure damage
