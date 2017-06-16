@@ -1,0 +1,17 @@
+List of level 2 enemys
+
+
+Earth Elemental
+range melee
+life 70/70
+mana 60/60
+damage 3-11
+Armor 4
+Magic resist 10%
+
+Passive Rock Hard
+reduce all damage taken by 20% not pure, and returning 30% of the damage taken to the heroes
+
+Spell Rolling Stone
+roll up to 600 unit dealing 20 pure damage stuning heroes for 1.5 second and reducing attack speed by 20 for 4 second mana cost 30
+cooldown 9
