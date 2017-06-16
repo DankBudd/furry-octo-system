@@ -30,7 +30,7 @@ SPELL Q
 Mana Break
 Magina deal damage base on the enemy mana also deal double damage for enemys without mana
 
-base damage 25 physical damage plus 10% 20% 30% 40% of Magina agility
+base damage 10 physical damage plus 10% 20% 30% 40% of Magina agility
 bonus damage per mana of the enemy 0.1 NOTE to say this clear if a enemy got 100 mana it will deal 10 bonus damage
 mana removal 30% of the damage done
 if the enemy got no mana deal double damage with Mana Break base damage
