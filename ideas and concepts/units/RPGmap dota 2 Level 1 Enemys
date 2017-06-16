@@ -27,7 +27,7 @@ the orger got 50% to hit the target dealing pure damage and 50% chance to miss a
 
 Skeleton
 range melee
-life 55/55
+life 45/55
 mana 0
 damage 3-7
 armor 1
@@ -39,7 +39,7 @@ reduce damage by 3 from magic and physical but take 40% more from pure damage
 
 Water Slug
 range 275
-life 40/40
+life 35/35
 mana 100/100
 damage 2-8
 armor -1
