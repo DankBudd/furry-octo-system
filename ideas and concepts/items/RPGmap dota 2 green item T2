@@ -154,3 +154,14 @@ all stats 1
 xp gain on kill 4
 gold gain on kill 4
 cast range 50
+
+
+Vemon Orb
+Deal damage over time, slowing the target attack speed and movement speed
+
+Damage 4 magical per second
+attack spell slow 5
+Movement spell slow 3%
+duration 10 second
+
+
