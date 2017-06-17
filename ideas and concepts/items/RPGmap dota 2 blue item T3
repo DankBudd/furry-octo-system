@@ -136,4 +136,20 @@ mana 10%
 cooldown reduction 3%
 
 
+Blood Sword
+make the target bleed and lifestealing for medium amount of damage done with bleeding can also be use to do Uber Bleed also increase
+the user life, damage, strenght and attack range
 
+Passive item use
+Bleed the target for 8 physical damage plus 15% of Attack and lifesteal for 40% plus 3% of strenght, of the damage dealt by bleed, last
+4 second and damage every second
+
+Active item use Uber Bleed
+bleed all target near the caster 250 radius for 14 physical damage plus 25% of Attack and lifestealing for 50% of the damage dealt
+last 3 second, any target that die durring the Uber Bleed will restore 5% of the user health
+
+damage 10
+Strenght 8
+Life 5%
+attack range 40
+BAT Modifier 1.90
