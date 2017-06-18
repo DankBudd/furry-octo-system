@@ -1,4 +1,4 @@
-Pudge, the Butcher Starting stats 2 str, 3 agi, 0 int, base speed 300, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi, Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
+Pudge, the Butcher Starting stats 1 str, 3 agi, 0 int, base speed 300, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi, Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -12,7 +12,7 @@ talent 1
 
 talent 2
 
-cast range 150 with agility 15 and 20% spell amp
+cast range 160 with 20 attack speed and 15% spell amp
 
 
 PASSIVE D OR F
@@ -60,7 +60,7 @@ but one increase the normal hook damage by 50%
 SPELL Q Rotting Flesh
 rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher for double the damage
 
-damage 3 5 7 9 magical damage per second and 10% of pudge strenght
+damage 3 5 7 9 magical damage per second and 5% of pudge strenght
 bonus damage from max life 1%
 movement speed reduction 8% 14% 18% 24%
 magic resist reduction 2% 6% 10% 14%
@@ -98,6 +98,7 @@ cooldown 14
 
 Talent level 15 Upgrade Fresh Meat!
 increase max life damage by 6%
+increase damage taken from Glory Hook by 15%
 increase meat drop by 2
 increase disarm duration by 0.4
 cooldown reduce by 2
@@ -109,31 +110,31 @@ by 1 and also making Fresh Meat! cleave for 100% of the damage
 PASSIVE F OR D Flesh Heap
 
 Increase Butcher Strenght and magic resist he also gain perma life bonus upon killing enemy and bosses
-and he also gain heap stack that increase spell amp and life regen that stay for a duration
+and he also gain heap stack that increase spell amp and life regen that stay for a duration Butcher will lose all stack upon death
 
 bonus strenght 6 8 10 12
 magic resist 3% 6% 9% 12%
 bonus life per normal enemy 2 3 4 5
-bonus life per boss enemy 15 30 45 60
+bonus life per boss enemy 20 30 40 50
 max life bonus 200 300 400 500
 increase max life bonus by 2 for every point of strenght
 life regeneration per stack 0.1 0.2 0.3 0.4
-spell amp per stack 0.1% 0.3% 0.5% 0.7%
-max stack of heap 15 20 25 30
-duration of stacks 15 18 21 24
+spell amp per stack 0.2% 0.3% 0.4% 0.5%
+max stack of heap 12 18 24 30
+duration of stacks 16 24 32 40
 
 Talent level 15 Upgrade Flesh Heap
 increase bonus strenght by 3
 increase bonus magic resist by 3%
 increase life bonus for normal enemy by 1
-increase life bonus for boss enemy by 40
-increase max stack by 10
-incease life regen by 0.3
-increase duration of stack by 1
+increase life bonus for boss enemy by 50
+increase max stack by 5
+incease life regen by 0.1
+increase duration of stack by 5
 
 add a new modifier Global Flesh
 remove how far needed to gain life and stack -GLOBAL- and Butcher gain stack for every enemy
-in a radius of 1200 of him and those stack will only go away if the enemy die and if they die ally will gain stack as well and
+in a radius of 800 of him and those stack will only go away if the enemy die and if they die ally will gain stack as well and
 can only have 10 stacks of heap for ally
 
 
@@ -145,13 +146,14 @@ deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing a
 damage 20 40 60 plus 50% 70% 90% of pudge strenght per second -damage type PURE-
 bonus damage from max life 1%
 meat drop 1-2 1-3 1-4 per second of damage
-meat healing 10 15 20 plus 1% 2% 3% of max health
+meat healing 10 30 50 plus 3% 6% 9% of max health
 meat bonus damage 8 12 16
-meat buff duration 4 second -NOTE- every pickup of meat increase the duration by 2 and refresh it
-duration 4 5 6
+meat buff duration 4 second
+every pickup of meat increase the duration by 2 and giving 1 more damage also refresh it
+duration 6 7 8
 duration on bosses 2 3 4
 meat last 8 second on the ground
-life cost 10% 12% 14%
+life cost 10% 20% 30%
 cooldown 90 80 70
 
 talent level 25 upgrade Dismenber
@@ -159,10 +161,11 @@ increase damage by 10
 increase strenght scaling by 20%
 increase meat drop to 2-3 2-4 2-5
 increase meat healing by 30
-increase meat bonus damage by 5
+increase meat bonus damage by 6
 increase duration by 1 -NOTE- this increase duration for both
 reduce coldown by 40
 
 add a new modifier CLEAN CLEAVER!
-dismenber now deal 50% damage in a radius of 350 of the target being dismenber and those unit damage by the radius of dismenber
-have 40% chance to drop 1 meat as well and meat will also restore 4% of max mana
+dismenber now deal 50% damage in a radius of 400 of the target being dismenber and those unit damage by the radius of dismenber
+have 40% chance to drop 1 meat as well and meat will also restore 4% of max mana. there is a small chance for a Giant Meat to drop
+those will restore any heroes life by 50% and increasing damage by 30 they only got 5% chance to drop
