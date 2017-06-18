@@ -1,4 +1,4 @@
-Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 14, Stats gain 1.50 str, 0.80 int, 0.10 agi, starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
+Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 14, Stats gain 1.20 str, 0.80 int, 0.10 agi, starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
 
 Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
 
@@ -8,7 +8,7 @@ TALENT LEVEL 20
 
 talent 1 
 
-10% life 13% magic resist and 5% damage reduction
+10% life 12% magic resist and 5% damage reduction
 
 talent 2
 
@@ -25,9 +25,9 @@ DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more d
 type
 
 level 25 talent upgrade Mighty Warrior
-add a new modifier Great Cleave
-Sven cleave for 100% of the damage in a 500 radius in front of him and his attack remove 0.50% of the target current life he also
-gain 150 attack range with 15% damage
+add a new modifier Warrior Code
+Sven cleave for 100% of the damage in a 500 radius in front of him and his attack remove 4% of the target current life 1% for bosses
+he also gain 120 attack range with 20% increase base damage and Strenght will give Sven 0.50 attack speed
 
 SPELL Q level needed 1 4 9 15
 
@@ -50,7 +50,8 @@ increase mana cost by 40
 
 add a new modifier Frenzy
 every hit on the target will increase the damage it take by 5% up to 30%, when it reach
-the max stack of 6, Sven attack will do pure for the remaining duration of bloodLust
+the max stack of 6, Sven attack will do pure for the remaining duration of bloodLust after the duration end the target explode in blood
+healing sven for 10% of max health and damaging enemys for 3% of max health, 500 radius
 
 
 SPELL W level needed 1 4 9 15
@@ -67,20 +68,22 @@ cooldown 25
 mana 100 130 160 190 plus 1% of max mana
 
 talent level 10 upgrade Death Blow
-increase damage by 4
+increase damage by 8
 increase strenght scaling by 40%
 reduce cooldown by 5
 reduce mana cost by 70
 
 add a new modifier Colossus Sword
-sven will instanly kill enemy who are below 30% of their max life and reduce it cooldown by 10
-and increasing Death Blow current life as damage by 10% bosses will give 30% if kill with Death Blow
+sven will instanly kill enemy who are below 30% of their max life and reduce it cooldown by 15
+and reducing other spell cooldown by 1, if the doesnt kill the enemys instanly Death Blow will hit all enemys around sven 250 radius
+dealing the same amount of damage but cannot trigger the 30% life kill
 
 
 SPEED E level needed 1 4 9 15
 
 Blood Wound
-Sven sharpen is sword making it have a more clean cut dealing damage per second and lowering armor
+Sven sharpen is sword making it have a more clean cut making enemys lose blood to death dealing damage per second and lowering armor. 
+Sven also lifesteal for a small amount done by Blood Wound
 
 damage 3 5 7 9 physical damage per tick plus 20% of sven strenght
 armor loss 2 3 4 5
@@ -111,19 +114,19 @@ he also got a chance to deal a critical hit for more damage increase NOTE gettin
 for basic attack crit
 
 Critical damage 125% 135% 145% 155%
-increase critical damage by 1% for every 5 point of strenght
+increase critical damage by 1% for every 4 point of strenght
 Critical chance 12% 13% 14% 15%
-block damage 4 11 18 25
+block damage 4 10 16 22
 increase block damage by 1 for every 20 strenght point
-block chance 15% 20% 25% 30%
+block chance 20% 30% 40% 50%
 
 talent level 15 upgrade War Gladiator
-increase critical damage by 15%
+increase critical damage by 25%
 increase critical chance by 5%
-increase block damage by 5
-increase block chance by 20%
+increase block damage by 8
+increase block chance by 10%
 
-add a new modifier Legend Gladiator
+add a new modifier Legendary Gladiator
 for every block and critical hit sven do he will gain 0.5 armor and 1 damage for 4 second refresh every block and crit
 up to 20 stack, upon reaching 20 stack sven will get 10 life regeneration and 30 attack speed until he lose all the stack
 
@@ -135,26 +138,27 @@ God Strenght
 increase sven damage and life but reduce speed attack speed for a short duration and reducing cooldown upon killing enemy
 when God Strenght is active
 
-damage 30 50 70
+base damage 20 40 60
 base damage 30% 50% 70%
 attack speed lost 20 40 60
 duration 12 14 16
-life bonus 300 450 600
+life bonus 300 600 900
 cooldown reduction upon killing 0.30 0.40 0.50
-cooldown 160 150 140
+cooldown 160 140 120
 no mana cost
 
 talent level 25 upgrade God Strenght
 
-increase damage by 30
+increase damage by 10
 increase base damage by 30%
-increase attack speed lost by 15
-increase duration by 4
-reduce cooldown by 40
+increase attack speed lost by 30
+increase duration by 8
+reduce cooldown by 60
 
-add a new modifier God Will
-now give the base damage bonus to any ally near sven 900 radius and make sven and his ally attack cleave for 40% of the damage
-20% for range, also when activating God Streght any enemy near sven 300 radius will be stun for 2 second and lose 10 armor for 5 second
+add a new modifier Strenght Lord
+now Give 50% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.5 second for
+every kill sven do bosses will give 15 seconds he also Scream Louder stuning enemys for 4 second and dealing 150 pure damage plus 5%
+of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 25% increase Strenght when God Strenght is not Active
 
 
 
