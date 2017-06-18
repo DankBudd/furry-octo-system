@@ -87,3 +87,20 @@ increase Primary Attributes by 30%
 cast range 250
 attack range 120
 increase life regeneration bonus by 20%
+
+
+Icy Cleaver
+increase the user damage,mana and movementspeed every attack will Blood Frost enemys, making them get lifesteals by others and having
+reduce attack speed and movement speed. useing the Icy Cleaver will throw it dealing massive damage and giving enemys Frost Bite
+
+Passive item use Blood Frost
+enemys will lose 15 attack speed with 11% movement speed, any ally that attack a Blood Frost enemy will lifesteal for 15% of the damage
+dealt by spell and basic attack last 2 second
+
+Active item use Frost Bite
+throw the cleaver dealing 50 plus 5% of the target max health in pure damage. Frost Bite will reduce enemys attack speed by 50 and
+reducing all healing recive by 35% for 5 second. cooldown of 60, mana cost of 180
+
+damage 25
+mana 250
+movement speed 10%
