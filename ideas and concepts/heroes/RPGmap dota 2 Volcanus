@@ -14,7 +14,8 @@ PASSIVE D OR F Fire God
 Increase overall stats and give a positive and negative buff
 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 2% spellamp per 10 int instead of 1% and he can use 2 glove
-Intead of 1 he also gain 2 life per inteillgence point he can also use Sulfuras and get More bonus from it
+Intead of 1 he also gain 2 life per inteillgence point any damage per second spell will only have 60% duration on Volcanus,
+he can also use Sulfuras, getting even more power from it
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
 he also lose 50% base attack damage
 
@@ -94,56 +95,52 @@ damage both of them will last 35 second and spawning new one will refresh the du
 
 
 PASSIVE D OR F Incinerate
-increase Volcanus spell amp and make is auto-attack burn the target dealing low damage if the target dies under Incinerate
-it will explode dealing high damage
+increase Volcanus spell amp and make is auto-attack burn the target dealing low damage and reducing healing effect as well.
+If the target dies under Incinerate it will explode dealing high damage
 
 spell amp 4% 6% 8% 10%
-burn damage 4% 6% 8% 10% of intelligence type Magical
-explosion damage 15 20 25 30 type pure plus 25% of intelligence
-radius of Incinerate explosion 250
+burn damage 6% 9% 12% 15% of intelligence type Magical
+healing reduction 21% 25% 29% 33%
+explosion damage 10 20 30 40 type pure plus 50% of intelligence
+radius of Incinerate explosion 300
 Incinerate duration 3 second
 
 talent level 15 upgrade Incinerate
 increase spell amp by 5%
 increase Incinerate duration by 1
-increase radius by 250
+increase radius by 100
 
 add a new modfier Fire Blast
-Incinerate now do a much bigger explosion and slow the attackspeed of every enemy hit by Fire Blast by 25
-and Fire Blast will deal 4% of the current life of the enemy as bonus damage 1% for bosses.
+Incinerate will explode after the duration end even if the target is still alive but if he dies, he will Spread Incinerate to other
+target dealing full damage as well and Volcanus attack will bounce to 1 target giving them Incinerate as well and dealing only 50%
+of basic attack to that target instead of 100%
 
 
 ULTIMATE R
 Hells Power
-Volcanus increase Incinerate and Lava Wave for a short duration making them even more powerfull and reducing cooldown for the duration
-give all target Incinerate 900 radius and after the duration expires it will explode instead of waiting for the target to die for the duration of
-Hells Power. Lava Wave gets even bigger in size, increasing its damage and creating lava pool that damage enemy that stand inside of them
+Volcanus increase his Incinerate and Lava Wave Greatly and reducing the cooldown of his spell for the duration
+Lava Wave gets even more damage bigger in size and will follow the target untill it touch them. If the Lava Wave talent is pick the other
+Lava wave will also find target to chase, if there is only 1 target, all 3 wave will chase him dealing full damage.
+Incinerate will alway do explosion damage for the duration only dealing small amount of damage and increasing the burn damage as well
+if the target dies under Incinerate they will spawn small lava Pool that deal damage over time and stay here for a long time
 
-Incinerate damage increase 20 30 40 
-Incinerate burn damage increase 8% 14% 20% intelligence scaling
-Incinerate explosion radius increase 40 80 120
-Lava Wave damage increase 10 30 50
-Lava Wave Radius 200 300 400
-Lava Pool radius 300
-Lava Pool damage 5 8 11 plus 22% 44% 66% of intelligence type Fire damage every 1 second
-Lava Pool duration 5 second
-Duration of Hells Power 14 18 22
-cooldown reduce for Lava wave,Volcano and Soul burn 4 6 8 second
-cooldown 300 250 200
+Lava Wave bonus damage 40 70 100
+Increase Lava Wave radius by 200 300 400
+Lava Wave cooldown reduction 9 11 13
+Incinerate explosion per second damage 20% 30% 40% of Incinerate total damage
+increase Incinerate Burn damage by 10% 25% 40% of Inteillgence
+Lava Pool damage 10 plus 40% 80% 120% of inteillgence damage type Pure every second
+Lava Pool duration 10 16 22
+cooldown reduction of Soul Burn 14 18 22
+cooldown reduction of Volcano 10 15 20
+Duration of Hells Power 15 20 25
+cooldown 200 180 160
 mana cost 100 200 300 plus 15% 20% 25% of max mana
 
 talent level 25 Upgrade Hells Power
-Increase Incinerate damage by 10
-increase Incinerate radius by 120
-Increase Lava Wave damage by 30
-Increase Lava Pool radus by 80
-Increase lava Pool duration by 3
-increase the duration of hells Power by 2
-increase cooldown by 40
 
 add a new modifier King of Hell
-when casting Hells Power Volcanus Triple in Size increase is life by 250% is damage by 60% and is spell amp by 35%
-and he cannot move he also Summon a Giant Lava Wave 1000 radius behind him dealing 100 200 300 Fire damage plus 70% of intelligence
-he also get Incinerate on himself exploding every second of the duration of Hells Power but only deal 20% of the damage.
-
-
+when casting Hells Power Volcanus Triple in Size increase is life by 250% is damage by 100% and is spell amp by 30%
+and he cannot move he also Summon a Giant Lava Wave 800 radius behind him dealing 400 Magical damage plus 100% of intelligence
+he also get Incinerate on himself exploding every second of the duration of Hells Power but only deal 40% of the damage and having
+200 radius bonus on him.
