@@ -129,20 +129,20 @@ every enemys that die near ZulNu they will drop a Abutalabashuneba after gatheri
 random allys. the enemys only got 10% chance to drop a Abutalabashuneba boss will drop one for 100%, duration of those buff last
 10 second, bosses 50 second
 BUFF 1 increase damage by 25% and spell amp by 10%
-BUFF 2 increase cast range by 300 and 200 attack range
-BUFF 3 increase Healing amp by 25% and mana regeneration by 3% of max mana
-BUFF 4 increase armor by 8 and magic resist by 20%
-BUFF 5 reduce all Crowd Control by 30% and reduce debuff duration by 50%
+BUFF 2 increase cast range by 200 and 100 attack range
+BUFF 3 increase Healing amp by 20% and mana regeneration by 2% of max mana
+BUFF 4 increase armor by 5 and magic resist by 12%
+BUFF 5 reduce all Crowd Control by 20% and reduce debuff duration by 40%
 
 
 ULTIMATE R Voodoo Flask
 ZulNu take a random potion he got and throw it at the target ally or enemy always dealing damage or healing, flask can debuff enemys
 with high curse and for allys buffing them increasing some stats.
 
-Base damage 5% 10% 15% of max health
+Base damage 5% 10% 15% of max health -deal current health on bosses instead-
 Base healing 10% 20% 30% of max health
 FLASK 1
-ENEMYS take 4% 8% 12% of their max life in 6 second after it end they get stun for 1 2 3 second
+ENEMYS take 3% 7% 11% of their max life in 6 second after it end they get stun for 1 2 3 second
 ALLYS will get heal for 6% 12% 18% max life in 4 second after it end they will heal all other ally for 50% of the base healing 500 radius
 FLASK 2
 ENEMYS lose 20% 35% 50% damage and deal 10% 20% 30% less damage with spell for 5 second after it end give it to all near enemy for half
@@ -153,7 +153,7 @@ ENEMYS will not attack Agility or Inteillgence heroes for 10 second and will onl
 to them
 ALLYS will gain 20% 40% 60% increase primary Attributes for 6 9 12 seconds and killing enemys will increase the duration by 0.2 0.4 0.6
 second more and 50% of those kill will increase the Attributes gain by 2% 4% 6%
-cooldown 80 70 60
+cooldown 90 70 50
 mana cost 125 250 375 plus 3% of max mana
 
 talent level 25 upgrade Voodoo Flask
