@@ -122,25 +122,25 @@ ally 1% life back 10% for bosses and also giving them 3 damage and 1% spell amp 
 
 
 ULTIMATE r Fate's Edict
-give a ally a premanent that boost life,damage,cast range,spell amp,armor,magic resist and mana if oracle change target, remove the buff
+give a ally a premanent buff that boost life,damage,cast range,spell amp,armor,magic resist and mana if oracle change target,remove the buff
 on the previous target and give the buff to that ally instead it can also be stack up to 3 time giving lesser boosting cannot be cast
 on ally summon or oracle. 10% of your ally damage done will heal you and restore mana as well on the ally affected by the buff
 
 FIRST BUFF
-life bonus 10% 15% 20%
-damage 10 18 26
-cast range 100 200 300
-spell amp 10% 14% 18%
-armor 2 4 6
+life bonus 6% 12% 18%
+base damage 8 14 20
+cast range 80 160 240
+spell amp 7% 14% 21%
+armor 1 3 5
 magic resist 4% 8% 12%
-mana 15% 25% 35%
+mana 5% 15% 25%
 STACKING BUFF
-life bonus 2% 4% 6%
-damage 3 6 9
-cast range 40 60 80
-spell amp 2% 3% 4%
-armor 0.5 1 1.5
-magic resist 1% 2% 3%
+life bonus 1% 3% 5%
+base damage 2 5 8
+cast range 30 60 90
+spell amp 5% 7% 9%
+armor 1 2 3
+magic resist 2% 4% 6%
 mana 4% 7% 10%
 cooldown 300
 mana cost 50% of max mana
@@ -148,20 +148,10 @@ mana cost 50% of max mana
 
 talent level 25 upgrade Fate's Edict
 increase max stack by 1
-increase life bonus on first buff by 10%
-increase mana bonus on first buff by 15%
+increase life bonus on first buff by 12%
+increase mana bonus on first buff by 25%
 
 add a new modifier Seal Fate
 giving a Fate's Edict to any ally, will give one small stack to all party member but oracle they cannot have more than 2 stack on them
 and also reduce the cooldown by 2 of Fate's Edict every time your first buff ally deal any kind of damage, if the target reach max stack
-oracle will gain 25% cooldown reduction until is ally die and lose all stack or change to a new one stacking again
-
-
-
-
-
-
-
-
-
-
+oracle will gain 35% cooldown reduction until is ally die and lose all stack or change to a new one stacking again
