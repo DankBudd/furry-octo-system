@@ -138,6 +138,10 @@ cooldown 200 180 160
 mana cost 100 200 300 plus 15% 20% 25% of max mana
 
 talent level 25 Upgrade Hells Power
+increase the duration of Hells power by 5
+Increase the duration of Lava Pool by 8
+increase the Burn damage by 20%
+Increase lava wave radius by 200
 
 add a new modifier King of Hell
 when casting Hells Power Volcanus Triple in Size increase is life by 250% is damage by 100% and is spell amp by 30%
