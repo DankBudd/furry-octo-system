@@ -1,5 +1,5 @@
-Terrorblade Starting stats 3 Int, 5 Agi, 5 Str, base speed 200, base damage 2, Stats Gain per level 0.60 int, 0.30 str, 1.00 agi
-Starting item Broken Demon Blade give 2 damage and 2 agility BAT 1.55
+Terrorblade Starting stats 8 Int, 8 Agi, 4 Str, base speed 200, base damage 2, Stats Gain per level 0.60 int, 0.30 str, 1.00 agi
+Starting item Broken Demon Blade give 2 damage and 2 agility BAT 1.7
 
 LEVEL 20 TALENT
 
@@ -13,37 +13,41 @@ Talent 2
 PASSIVE D OR F True Demon
 Increase overall stats and give a positive and negative buff
 
-BUFF Terrorblade gain 1 damage per 6 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
+BUFF Terrorblade gain 1 damage per 8 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
 he also gain 1 base damage per 50 movementspeed
 DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -60% max mana.
 
 talent level 25 upgrade True Demon
 add a new modifier Speed Demon
-all enemy near terrorblade 900 radius get -6 armor reduction and -10% magic resist reduction also increase terrorblade movementspeed by
+all enemy near terrorblade 900 radius get -6 armor reduction and -13% magic resist reduction also increase terrorblade movementspeed by
 8% for every enemy in the radius
 
-SPELL Q Slice of Death
-deal damage base on the enemy lifes, bosses will take current life as damage instead of max Heath point and empower his next attack 
-damage 10% 15% 20% 25% of max life as magic damage
-damage for bosses 3% 5% 7% 9% of current life as magic damage
-number of attack empower 2
-bonus damage from empower 10% 25% 40% 55%
-bonus attack speed 15 20 25 30 When in Normal Form
-ignore armor for the empower attack When in Normal Form
-cooldown 24 22 20 18
-mana cost 25 50 75 100 plus 5% of max mana
+SPELL Q Terror Wave
+Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of TerrorBlade, while enemys Sleep
+they have a Small chance to take insane damage and waking up, running in fear from TerrorBlade. bosses will take Triple damage from
+the wave, they cannot be Sleep. the wave will deal double damage while in True Form and the Sleep duration will be increase by 2 second
 
-talent level 10 upgrade Slice of Death
-increase damage of max heath by 15%
-increase number of attack by 2
-reduce cooldown by 2
-reduce mana cost by 1% of max mana
+damage 14 20 26 32 plus 25% of agility Physical damage
+radius of the wave 200
+Wave max distance 450 500 550 600
+Sleep duration 5 second
+Nightmare chance to Trigger every second 6% 9% 12% 15%
+Nightmare damage 20 40 60 80 plus 50% of agility Pure damage
+Nightmare Fear duration 4 second
+cooldown 15 14 13 12
+mana cost 60 70 80 90 plus 3% of max mana
 
-add a new modifier Demon Slice
-now lifesteal for 15% of the damage done and 10% of all that lifesteal will be bonus damage to empower attack as well and also
-give 10% damage reduction to terrorblade for 6 second
+talent level 10 upgrade Terror Wave
+increase damage by 8
+increase agility scaling by 15%
+increase radius of the wave by 200
+increase nightmare damage by 40
 
+add a new modifier True Nightmare
+After the enemys wake up, A image of TerrorBlade will chase them for the duration of Fear, the Image deals 60% 90% 120% 150% of
+terrorBlade damage. If the Image Kill their Victims, It will return to TerrorBlade giving him 2% movement speed up to 30%
+if TerrorBlade dies he will lose all of this bonus and if he gets to 30% he will gain 10% increase damage with 5% spell amp
 
 SPELL W Reflection
 TerrorBlade makes perfect Shade of the enemy that attack it-self dealing damage and also dealing low damage upon casting and for every
