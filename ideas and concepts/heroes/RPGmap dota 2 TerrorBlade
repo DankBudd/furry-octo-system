@@ -10,16 +10,17 @@ Talent 2
 12 agility 15 attackspeed and 8% lifesteal
 
 
-PASSIVE D OR F True Demon
+PASSIVE D OR F Speed Demon
 Increase overall stats and give a positive and negative buff
 
 BUFF Terrorblade gain 1 damage per 8 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
 he also gain 1 base damage per 50 movementspeed
 DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
-have any Helm type armor and he got -60% max mana.
+have any Helm type armor and he got -60% max mana and increasing stun and roots duration on him by 1.5 second and all other stun below
+0.7 second will have 0.2 second duration bonus
 
-talent level 25 upgrade True Demon
-add a new modifier Speed Demon
+talent level 25 upgrade Speed Demon
+add a new modifier Speed Terror
 all enemy near terrorblade 900 radius get -6 armor reduction and -13% magic resist reduction also increase terrorblade movementspeed by
 8% for every enemy in the radius
 
@@ -49,29 +50,33 @@ After the enemys wake up, A image of TerrorBlade will chase them for the duratio
 terrorBlade damage. If the Image Kill their Victims, It will return to TerrorBlade giving him 2% movement speed up to 30%
 if TerrorBlade dies he will lose all of this bonus and if he gets to 30% he will gain 10% increase damage with 5% spell amp
 
-SPELL W Reflection
-TerrorBlade makes perfect Shade of the enemy that attack it-self dealing damage and also dealing low damage upon casting and for every
-enemy that die durring Perfect Shade will increase terrorblade movementspeed
+SPELL W Sunder
+Steal the life from the target dealing Max health damage to them and giving their own life to TerroBlade. For every Life TerrorBlade
+Steal he will gain bonus Armor and Magic Resist with Movement Speed and if he kill his Target he will gain Life Bonus from his Target
+with no Duration but if he goes into True Form he will lose that life bonus. While in Normal Form increase the max life damage by 7%
+for normal units and bosses by 2% and reducing the cooldown by 50%
 
-damage 7 9 11 13 plus 10% of agility magical damage
-Shade damage 50% 65% 70% 85% physical damage
-for every 6 agility increase the Image damage by 1% in True Form
-Shade duration 3 4 5 6 half for bosses
-radius 1000
-movementspeed bonus 6% 10% 14% 18% in True Form
-cooldown 19
-mana cost 50 70 90 110 plus 4% of max mana
+damage 6% 10% 14% 18% of Max health
+bosses Damage 1% 2% 3% 4% of Max Health
+life needed for bonus 40 50 60 70
+magic resist per life Stolen 1% 2% 3% 4%
+Armor per life Stolen 0.3 0.7 1.1 1.5
+movement speed per life Stolen 4 8 12 16 FLAT
+Duration of Life Stolen Buff 8 second
+Life Bonus from the target 10% 15% 20% 25% of the target total max Health
+cooldown 30 28 26 24
+mana cost 80 100 120 140 plus 2% of max mana
 
-talent level 10 upgrade Reflection
-increase damage of Shade by 10%
-increase damage by 7
-increase shade duration by 4
-reduce mana cost by 20
+Talent level 10 upgrade Sunder
+reduce life needed for bonus by 20
+increase movement speed bonus by 4
+increase life bonus from enemys by 15%
 
-add a new modifier Hunger for Soul
-after the Shade kill ther target they will still find new one to attack until the death timer run out, they also get 20% increase damage
-after killing ther target and increasing the time limit of their life by 4 also increase terrorblade attackspeed by 6 for every shade
-30 for bosses
+add a new modifier Soul Breaker
+After Casting Sunder on a, they will start to lose 1% of their max life per second 0.2% on bosses, for 10 second and TerrorBlade will
+gain that life they lose. If the target dies under Soul Breaker he will Explode healing TerrorBlade for 5% of his Max health and he
+will Spread Suol Breaker on other Target for the Same amount of duration but dealing 0.5% more Life damage on them, Bosses are
+immune to the Spreads. enemys affected by Soul Breaker will have 25% healing reduction
 
 
 SPELL E Blast AND Sunder
