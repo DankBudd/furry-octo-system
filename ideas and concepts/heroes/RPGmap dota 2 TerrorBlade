@@ -11,9 +11,9 @@ Talent 2
 
 
 PASSIVE D OR F Speed Demon
-Increase overall stats and give a positive and negative buff
+give a positive and negative buff
 
-BUFF Terrorblade gain 1 damage per 8 agility instead of 5 he also gain 1% movementspeed per 5 agility and he got no max speed limit
+BUFF Terrorblade gain 1 damage per 8 agility instead of 5 he also gain 1% movementspeed per 7 agility and he got no max speed limit
 he also gain 1 base damage per 50 movementspeed
 DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -60% max mana and increasing stun and roots duration on him by 1.5 second and all other stun below
@@ -79,106 +79,75 @@ will Spread Suol Breaker on other Target for the Same amount of duration but dea
 immune to the Spreads. enemys affected by Soul Breaker will have 25% healing reduction
 
 
-SPELL E Blast AND Sunder
-Terroblade can use Blast in True form and Sunder in normal form, Blast will dealing insane damage to the target and Pushing them also
-increasing terrorBlade attack range and for Sunder terrorBlade Steal life from the target dealing damage and restoring his life
-also making them fear
+SPELL E Speed Blast and Zeal
+TerroBlade will have 2 spell, While TerrorBlade is in True form he will gain Speed Blast dealing high damage base on his speed, rooting
+the target and making them lose attack speed and in Normal Form he will gain Zeal dealing small amount of damage but disarming them
+with reducing armor and reducing mana regeneration as well
 
-BLAST
-damage 14 26 38 50 plus 70% of agility Physical damage
-Push distence 100 150 200 250
-attack range bonus 100 150 200 250
-attack range bonus duration 3 second
-SUNDER
-damage 10 15 20 25 plus 15% of agility Pure damage
-life restored 50% 100% 150% 200% of the damage dealt by sunder
-Fear duration 0.7 1.0 1.3 1.6
-cooldown 14
-mana cost 10 30 50 70 plus 1% of max mana
+SPEED BLAST
+base damage 10
+Speed into damage 8% 12% 16% 20% of total Speed
+duration of root 0.6 0.8 1.0 1.2
+attack speed lost 50 70 90 110 while affected by root
+cooldown 6 5 4 3
+ZEAL
+damage 6 10 14 18 plus 15% of agility physical damage
+duration of disarm 0.5 1 1.5 2
+Armor reduction 2 4 6 8
+increase armor reduction by 1 for every 40 agility
+mana regeneration lost 4 8 12 16
+duration of debuff 5 second
+cooldown 12 11 10 9
+mana cost for both 50 55 60 65 plus 2% of max mana
 
-talent level 15 upgrade Blast AND Sunder
-BLAST
-increase damage by 30
-Increase attack range duration by 3
-SUNDER
-increase damage by 15
-increase fear duration by 0.6
-FOR BOTH
-reduce cooldown by 2
+talent level 15 upgrade Speed Blast AND Zeal
+increase base damage of speed blast by 10
+increase Speed Blast root by 0.4
+Increase Zeal agility scaling by 10%
+increase Zeal Mana regeneration lost by 8
 
-add a new modifier Shadow Being
-Blast will Create a Shadow of TerroBlade Dealing 40% of the damage and last for 6 second AND Sunder will create a shadow of the target
-that will bond them the shadow will take 150% more damage and return 100% of that damage to the target bond with the shadow last 6 second
+add a new modifier Demonic Vessel
+Speed Blast now become a 400 AoE instead of Single target dealing 1% of the enemys health and for every kill done by Speed Blast reduce
+its cooldown by 0.5 and refund 1% mana to TerrorBlade and for Zeal it Become a 250 Aoe Around him dealing pure damage instead of physical
+and for every enemys affected by Zeal increase the next Zeal debuff by 0.4 second and disarm by 0.1.
 
+PASSIVE TOGGLE D OR F Metamorphosis
+TerrorBlade will alway start with a level im Metamorphosis giving him a positive bonus and a negative Bonus
+For Normal Form TerrorBlade will lose Base damage with attack speed but gain Damage reduction,Health,Stun resist,roots resist and
+making Sunder Stronger and for True Form he will take more damage from pure,physical and magic but gain base damage,attack range,
+attack speed, movement speed and making Terror Wave stronger
 
-PASSIVE SPELL D OR F True from AND Normal From
-terrorblade will alway start with a level into this spell Normal from reduce TerrorBlade damage but reduce damage taken,increasing life,
-Movementspeed and Increasing Slice of Death Power and in True Form Terrorblade will take increase damage but Increasing attack range,
-damage,attack speed and Reflection Power
-
-Small note for this passive toggle first level will be weak after that it will be normal
-
-NORMAL FORM BONUS
-reduce base damage by 10% 40% 55% 70%
-reduce damage taken by 5% 15% 20% 25%
-life bonus 5% 14% 21% 28%
-movement speed bonus 15 50 70 90
-Empower Slice of Death
-TRUE FORM BONUS
-increase damage taken by 20% 40% 50% 60%
-increase attack range by 150 300 350 400
-increase base damage by 5 20 30 40
-increase attack speed by 6 16 20 24
-Empower Reflection
-cooldown 10
-
-talent level 15 Upgrade True from AND Normal From
-NORMAL FORM
-increase reduce damage taken by 10%
-increase life bonus by 12%
-increase movement speed by 30
 TRUE FORM
-increase base damage by 15
+damage taken increase by 25% 50% 75% 100%
+base damage bonus 5 10 15 20
+attack range 250 300 350 400
+attack speed 7 14 21 28
+movement speed 4% 10% 16% 22%
+NORMAL FORM
+base damage reduce by 25% 40% 55% 70%
+attack speed reduce by 15 30 45 60
+damage reduction bonus 5% 10% 15% 20%
+Life bonus 8% 16% 24% 32%
+Stun resist 15% 20% 25% 30%
+Roots resist 30% 40% 50% 60%
+cooldown to change form 20 second
+
+talent level 15 Upgrade Metamorphosis
+TRUE FORM
+increase base damage by 10
 increase attack range by 100
-increase attack speed by 16
+increase attack speed by 12
+NORMAL FORM
+increase life bonus by 18%
+increase Stun resist by 10%
+increase Roots resist by 20%
 
-add a new modifier Demonic Soul
-enemy that die in Normal Form of Terrorblade will restore is life by 2% and enemy that die in True Form of terrorblade
-will increase his damage by 2% up to 20% that last 6 second refresh on kill, boss will give 50% for 12 second
-
-
-ULTIMATE R Zeal
-in Normal Form Terrorblade will throw his blade to the target Zealing Them unable to attack or cast spell dealing medium damage
-after the blade hit the target they will come back dealing less damage and Zealing them as well for the full duration. in True Form
-TerrorBlade channel up a beam of Zeal Energy after 4 second of channel it will deal insane amount of damage in a line making the enemy
-blind
-
-Normal Form
-damage 26 52 78 plus 80% of agility pure damage
-Returning blade damage 13 26 39 plus 40% of agility pure damage
-Zeal duration 2 3 4 second
-True Form
-damage per second 10 20 30 plus 60% of agility magical damage
-blind duration 2 4 6 half on bosses
-channel 4 second
-Zeal Beam duration 6 second
-FOR BOTH
-cooldown 120 115 110
-mana cost 100 150 200 plus 7% of max mana
+add a new modifier Unstable Form
+every time TerrorBlade Change form he will explode for 10% 20% 30% 40% of his Movement Speed and Purging all debuff affected on him.
+when in True Form TerrorBlade attack will bounce up to 4 target dealing only 60% of his damage and enemys that die while in True Form
+will give him 1% increase damage and 0.5% spell amp up to 40 stack refresh every time something dies by TerrorBlade last 6 second
+and for Normal Form, TerrorBlade will Block any spell cast at him cooldown of 25 second and giving him self 15% more damage reduction
+that last 6 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
 
 
-talent level 25 upgrade Zeal
-Normal Form
-increase agility scaling by 20% -NOTE- 50% of this goes to the returning blade
-increase zeal duration by 2
-True Form
-increase damage per second by 20
-increase blind duration by 1
-FOR BOTH
-cooldown reduction 60
-mana cost reduce by 3% of max mana
-
-add a new modifier Chaos Zeal
-Normal Form now throw 2 more blade that deal full damage and for every enemy hit reduce the cooldown by 1
-True Form now create 2 more Beam that deal only 50% of the damage and are smaller and for every enemy hit increase the damage they
-take by 25% per tick of damage of the Beam
+ULTIMATE R wating on ideas
