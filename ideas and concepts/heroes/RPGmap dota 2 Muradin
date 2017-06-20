@@ -1,9 +1,6 @@
-Muradin,Mountain King Nuker-DSP Starting stats 1 Int, 4 Agi, 6 Str, base speed 280, base damage 5, Stats Gain per level 1.00 int, 1.60 str, 0.00 agi, starting item Rusty Hammer increase damage by 4 and reduce coldown by 4% base attack time 2.10
-
-Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
-
-max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
-
+Muradin,Mountain King Nuker-DSP Starting stats 1 Int, 4 Agi, 6 Str, base speed 280, base damage 5
+Stats Gain per level 1.00 int, 1.30 str, 0.30 agi
+starting item Rusty Hammer increase damage by 4 and reduce coldown by 4% base attack time 2.10
 
 LEVEL 20 TALENT
 
