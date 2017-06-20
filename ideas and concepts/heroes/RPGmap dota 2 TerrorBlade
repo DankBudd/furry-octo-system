@@ -16,8 +16,7 @@ give a positive and negative buff
 BUFF TerrorBlade will gain 1 base damage for every 60 movementspeed he got and he also gain 1% movement speed for every 8 Agility, he
 start with 2 armor and 50 life bonus as well, he got a special Helm that scale every level of TerrorBlade
 DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
-have any Helm type armor and he got -60% max mana and increasing stun and roots duration on him by 1 second and all other stun below
-0.7 second will have 0.2 second duration bonus
+have any Helm type armor and he got -60% max mana and increasing Blinds and damage reduction debuff by 3 more second on him
 
 Speed Horn Helm SPECIAL
 life bonus 15 increase by 3 every level
@@ -60,7 +59,7 @@ SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to TerroBlade. For every Life TerrorBlade
 Steal he will gain bonus Armor and Magic Resist with Movement Speed and if he kill his Target he will gain Life Bonus from his Target
 with no Duration but if he goes into True Form he will lose that life bonus. While in Normal Form increase the max life damage by 7%
-for normal units and bosses by 2% and reducing the cooldown by 50%
+for normal units and bosses by 1% and reducing the cooldown by 50%
 
 damage 6% 10% 14% 18% of Max health
 bosses Damage 1% 2% 3% 4% of Max Health
