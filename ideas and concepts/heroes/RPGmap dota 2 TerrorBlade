@@ -1,27 +1,33 @@
-Terrorblade Starting stats 8 Int, 8 Agi, 4 Str, base speed 200, base damage 2, Stats Gain per level 0.60 int, 0.30 str, 1.00 agi
+Terrorblade Starting stats 8 Int, 8 Agi, 4 Str, base speed 240, base damage 1, Stats Gain per level 0.60 int, 0.40 str, 1.00 agi
 Starting item Broken Demon Blade give 2 damage and 2 agility BAT 1.7
 
 LEVEL 20 TALENT
 
 Talent 1
-100 life 5% damage reduction and 4 life regeneration
+160 life, 5% damage reduction and 3 life regeneration
 
 Talent 2
-12 agility 15 attackspeed and 8% lifesteal
+15 attackspeed with 10% spellvamp and 10% lifesteal
 
 
 PASSIVE D OR F Speed Demon
 give a positive and negative buff
 
-BUFF Terrorblade gain 1 damage per 8 agility instead of 5 he also gain 1% movementspeed per 7 agility and he got no max speed limit
-he also gain 1 base damage per 50 movementspeed
+BUFF TerrorBlade will gain 1 base damage for every 60 movementspeed he got and he also gain 1% movement speed for every 8 Agility, he
+start with 2 armor and 50 life bonus as well, he got a special Helm that scale every level of TerrorBlade
 DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
-have any Helm type armor and he got -60% max mana and increasing stun and roots duration on him by 1.5 second and all other stun below
+have any Helm type armor and he got -60% max mana and increasing stun and roots duration on him by 1 second and all other stun below
 0.7 second will have 0.2 second duration bonus
+
+Speed Horn Helm SPECIAL
+life bonus 15 increase by 3 every level
+mana bonus 30 increase by 2 every level
+movement speed bonus 10 incease by 1 every level
+TerrorBlade can use the Speed Horn to remove any Debuff that slow him cooldown of 50 second
 
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
-all enemy near terrorblade 900 radius get -6 armor reduction and -13% magic resist reduction also increase terrorblade movementspeed by
+all enemy near terrorblade 900 radius get -7 armor reduction and -13% magic resist reduction also increase terrorblade movementspeed by
 8% for every enemy in the radius
 
 SPELL Q Terror Wave
