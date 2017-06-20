@@ -13,9 +13,15 @@ PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
 
 BUFF Mongrethod will gain 2 life per intelligence points and he gets 10% damage reduction he also increase is strenght
-by 15% of is intelligence
+by 15% of is intelligence he also start with a Special Ring Item that scale with evert level. he can have 2 other Ring with this one
 DEBUFF Mongrethod lose 90 attack speed and lose 50% of mana and he take 180% more damage from pure type,he cannot pass 350 basespeed and
 he cannot use any-other weapons but Cleaver
+
+UnderWorld Ring Special Item
+increase spell amp by 2% increase by 0.2% every level
+increase mana regeneration by 1 increase by 0.2 every level
+increase life regeneration by 0.5 increase by 0.1 every level
+can also be use to double the effect of the Ring for 10 second, cooldown of 80 second
 
 talent level 25 upgrade PitLord
 add a new modifier Chaos Lord
@@ -27,7 +33,7 @@ SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max life
 it also reduce the enemy movement speed every they get damage by Rain of Fire
 
-damage 4 8 12 16 plus 20% of strenght per wave, damage type pure
+damage 4 9 13 17 plus 20% of strenght per wave, damage type pure
 burn damage 0.1% 0.2% 0.3% 0.4% of current life, damage type magical per second
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
@@ -75,7 +81,7 @@ cost no mana
 
 add a new modifier Abyssal Howl
 now affect Mongrethod and ally giving them 50% of the damage reduction of % and flat as bonus damage, enemy that die
-under the effect of Howl of Terror will give Mongrethod 4 health and 0.05 life regeneration last 180 second
+under the effect of Howl of Terror will give Mongrethod 4 health and 0.03 life regeneration last 300 second
 
 
 SPELL E Pit of Hatred
@@ -95,29 +101,31 @@ cooldown 40 37 34 31
 mana cost 100 200 300 400
 
 talent level 15 upgrade Pit of Chaos
-increase life bonus by 5%
-increase magic resist bonus by 12%
+increase life bonus by 10%
+increase armor bonus by 4
+increase magic resist bonus by 8%
 increase duration by 1
-reduce cooldown by 6
+reduce cooldown by 11
 
 add a new modifier King of the Pit
-any ally that gets into Pit of Chaos will take 35% less damage enemy will still cast spell on them but do less damage
-in return, and enemy damage by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 300% of Mongrethod
-strenght in magical damage
+any ally that gets into Pit of Chaos will take 35% less damage from enemys, they will still cast spell on them but do less damage
+in return, and enemys damaged by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 300% of Mongrethod
+Mongrethod strenght in magical damage
 
 
 PASSIVE D OR F Chaos Cleave
-Mongrethod cleave for a % of the damage dealt he also gain bonus strenght and lifesteal and any enemy that die near Mongrethod
-will empower him
+Mongrethod cleave for a % of the damage dealt he also gain bonus strenght and lifesteal with spellvamp and any enemy that die near
+Mongrethod will empower him
 
 Strenght 7 11 15 19
 lifesteal 7% 9% 11% 13%
+Spell vamp 8% 12% 16% 20%
 cleave damage 10% 30% 50% 70%
-cleave radius 270
-increase cleave radius by 1 for every 3 point of strenght
+cleave radius 370
+increase cleave radius by 1 for every 2 point of strenght
 bonus damage per enemy death 2
 duration of bonus 15 20 25 30
-bonus damage of boss death 25 40 55 70
+bonus damage of boss death 15 30 45 60
 duration of bonus boss 50 60 70 80
 radius 1200
 
