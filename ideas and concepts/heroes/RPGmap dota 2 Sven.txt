@@ -1,8 +1,5 @@
-Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 14, Stats gain 1.20 str, 0.80 int, 0.10 agi, starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
-
-Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
-
-max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 
+Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 13, Stats gain 1.20 str, 0.80 int, 0.30 agi,
+starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
 
 TALENT LEVEL 20
 
@@ -32,13 +29,16 @@ he also gain 120 attack range with 20% increase base damage and Strenght will gi
 SPELL Q level needed 1 4 9 15
 
 Bloodlust
-make sven go crazy increasing is attack damage, attack speed and movement speed for a short time
+make sven go crazy increasing is attack damage, attack speed and movement speed for a short time he also debuff the enemy reducing
+thier spell damage and exploding in health damage
 
 attack speed 20 30 40 50
 flat movement speed 30 50 70 90
 damage bonus 6 10 14 18
 duration 4 5 6 7
-increase duration by 1 for every 40 strenght
+spell damage reduce 10% 15% 20% 25%
+explosion damage 1% 1.6% 2.2% 2.8% of max Health
+debuff duration 3 second refresh on hit
 cooldown 18 17 16 15
 mana cost 40 plus 1% of max mana
 
@@ -50,8 +50,8 @@ increase mana cost by 40
 
 add a new modifier Frenzy
 every hit on the target will increase the damage it take by 5% up to 30%, when it reach
-the max stack of 6, Sven attack will do pure for the remaining duration of bloodLust after the duration end the target explode in blood
-healing sven for 10% of max health and damaging enemys for 3% of max health, 500 radius
+the max stack of 6, Sven attack will do pure for the remaining duration of bloodLust, after the debuff end the explosion will spread the
+removal spell damage to other neaby enemys for double the amount and reducing their movement speed by 8%
 
 
 SPELL W level needed 1 4 9 15
