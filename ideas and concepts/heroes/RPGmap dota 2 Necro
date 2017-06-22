@@ -1,8 +1,5 @@
-Necro -- Summoner, starting stats 6 int, 0 agi, 4 str, base speed 290, base damage 3, Stats Gain per level 1.30 int, 1.00 str, 0.00 agi, starting item Skeletal Wand increase intelligence by 2 and give 1.5 mana regen base attack time 1.65
-
-Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
-
-max level 50 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+Necro -- Summoner, starting stats 6 int, 0 agi, 4 str, base speed 290, base damage 3, Stats Gain per level 1.30 int, 1.00 str, 0.00 agi
+starting item Skeletal Wand increase intelligence by 2 and give 1.5 mana regen base attack time 1.65
 
 LEVEL 20 TALENT
 
@@ -95,9 +92,6 @@ deal 4 5 6 7 magical damage per attack plus 30% of the archer damage as well and
 
 talent level 10 upgrade Skeleton archer
 
-Skeleton archer life increase by 10
-Skeleton archer armor increase by 2
-Skeleton archer magic resist increase by 5%
 base attack time reduce by 0.30
 max skeleton archer increase by 2
 POISON ARCHER damage per second increase by 2
@@ -109,11 +103,11 @@ add 2 new skeleton archer
 
 VOID ARCHER
 the void archer has 9% 10% 11% 12% to stun for 0.4 second and dealing 15 25 35 45 physical damage plus 10% of the
-archer damage and silencing them for 1.2 second
+archer damage and silencing them for 1.2 second after the stun
 
 DARK ARCHER
 the dark archer has 15% 20% 25% 30% to blind the target and causing them to miss for 9% 12% 15% 18% last 2.5 second
-also making the dark archer get 15 attack speed for 1.2 second
+also making the dark archer get 15% attack speed for 2.5 second
 
  
 SPELL E
@@ -123,7 +117,7 @@ heal ally skeleton or damage enemy, also reduce the enemy regen and increase ske
 damage 10 20 30 40 magical plus 50% of int
 heal 20 40 60 80 can only affect skeleton of necro
 bonus heal 3% 5% 7% 9% of max health
-enemy regen reduction -3 -5 -7 -9 last 8 second
+enemy regen reduction -7 -14 -21 -28 last 4 second
 skeleton increase damage 4 8 12 16 last 6 second
 skeleton attack speed increase 7 14 21 28 last 6 second
 mana cost 150 plus 2% 3% 4% 5% of max mana
@@ -131,14 +125,13 @@ cooldown 12
 
 
 talent level 15 upgrade Death Coil
-increase the damage of Death Coil by 10
-increase int scaling by 20%
+increase the damage of Death Coil by 15
+increase int scaling by 30%
 increase heal by 40
-increase bonus heal by 6%
-increase enemy regen reduction by -4
+increase bonus heal by 11%
+increase enemy regen reduction by -12
 skeleton damage increase by 8
 skeleton attack speed increase by 12
-cooldown reduction 4
 
 add a new modifier Bouncing Coil
 now the death coil will bounce 7 time each bounce will deal 10% more damage and heal per bounce
@@ -188,11 +181,11 @@ enemy damage lost 20% 35% 50%
 duration 5
 
 IF CAST ON SKELETONS
-bonus damage 10 20 30
-bonus attack speed 10 30 50
-bonus armor 3 6 9
+bonus damage 15 30 45
+bonus attack speed 10 40 70
+bonus armor 4 8 12
 bonus magic resist 20% 40% 60%
-last 10 second
+last 15 second
 
 mana cost 150 plus 30% of max mana
 cooldown 85
@@ -206,14 +199,6 @@ increase attack speed bonus 20
 increase armor bonus by 6
 
 add a new modifier Bless by the Death God
-can be cast on ally for double the bonus, if cast on enemy all enemy around that target
-800 radius afftected by Death Touch will get damage by 50% of the spell OR if cast on ally
+can be cast on ally for 25% more bonus, if cast on enemy all enemy around that target
+800 radius afftected by Death Touch will get damage by 800% of the spell OR if cast on ally
 all skeleton in a 800 radius of the ally buff will get 50% of the damage
-
-
-
-
-
-
-
-
