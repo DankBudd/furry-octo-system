@@ -105,3 +105,17 @@ damage 25
 mana 250
 movement speed 10%
 BAT Modifier 2.20
+
+
+Hyper Stone
+increase attack speed gain from agility and also giving armor for agility point as well, can be use to increase base agility for a short
+duration also increase agility and health
+
+Active item use
+increase the user Base Agility by 100% for 5 second cooldown of 35 second
+
+Passive item use
+increase attack speed gain from agility by 0.30 and increase armor by 1 for every 35 agility
+
+agility 15
+health 200
