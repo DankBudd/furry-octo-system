@@ -1,11 +1,11 @@
 Riki -- High-DPS, starting stats 2 int, 10 agi, 3 str, base speed 280, base damage 8, Stats Gain per level 0.10 int, 0.20 str, 0.40 agi
-starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.30
+starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.40
 
 LEVEL 20 TALENT
 
 talent 1
 
-5 armor 90 movement and 300 life
+5 armor 70 movement and 200 life
 
 talent 2
 
@@ -23,8 +23,8 @@ he also lose 35% of his max mana with 20 attack speed lost
 talent level 25 upgrade Thief Soul
 add a new modifier Deadly
 if riki attack the same target 3 time in a row the next attack will deal 4% of the target current life as damage
-this effect only deal 1% of boss current life
-
+this effect only deal 1% of boss current life and also make casting Dagger Strike and Blinks Strike on unit below 35% life will take
+70% pure damage and 30% physical damage instead of 100% physical damage
 
 
 SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on this total basic attack damage
@@ -42,12 +42,12 @@ cooldown 15
 
 talent level 10 upgrade Dagger Strike
 increase damage by 30% -Note- 50% of this goes to the  lesser damage bounce dagger
-increase damage reduction by 12% -Note- 50% of this goes to the  lesser damage bounce dagger
+increase damage reduction by 8% -Note- 50% of this goes to the  lesser damage bounce dagger
 reduce mana cost by 30
-reduce cooldown by 5
+reduce cooldown by 3
 
 add a new modifier Poison Dagger
-after striking the enemy,they will get poison dealing 7 plus 8% of agility pure damage per second and disabling regeneration
+after striking the enemy,they will get poison dealing 7 plus 11% of agility pure damage per second and disabling regeneration
 for 4, also increase the damage they take by riki spell by 20%
 
 
