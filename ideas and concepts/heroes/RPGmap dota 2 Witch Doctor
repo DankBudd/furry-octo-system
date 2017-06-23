@@ -1,4 +1,4 @@
-Zul'Nu Starting stats 10 Int, 7 Agi, 5 Str, base speed 300, base damage 5, Stats Gain per level 1.10 int, 0.60 str, 0.40 agi
+Zul'Nu Starting stats 9 Int, 7 Agi, 5 Str, base speed 300, base damage 4, Stats Gain per level 1.10 int, 0.50 str, 0.20 agi
 Starting item Broken Staff give 1 damage and 3% heal amp base attack time 2.20 High-Support Small-Nuker
 LEVEL 20 TALENT
 
@@ -10,15 +10,15 @@ Talent 2
 
 
 PASSIVE D OR F Bad Doctor
-BUFF Zul'Nu gain 15% increase inteillgence he also start with 10% heal amp with 5% spell amp, his basic attack turn magic instead of
-physical and if he gets rooted instead it will give him 2% heal amp increase every level of Zulnu and removing the root that last 3
-second he also gain 0.2% spell amp per level and 0.3% healing amp per level
+BUFF Zul'Nu gain 20% increase inteillgence he also start with 6% heal amp with 4% spell amp, his basic attack turn magic instead of
+physical and if he gets rooted instead it will give him 0.6% heal amp increase every level of Zulnu and removing the root that last 2.5
+second he also gain 0.1% spell amp per level and 0.2% healing amp per level
 DEBUFF strenght doesnt give any life regeneration and he take 100% more damage from physical,magic,pure and every level witch doctor lose
 1% life and mana. he can only use staff weapons type
 
 talent level 25 upgrade Bad Doctor
 give a new modifier Good Doctor
-ZulNu will heal all Ally near him by 10 plus 15% of inteillgence every 2 second and if Allys are full health they will gain a shield
+ZulNu will heal all Ally near him by 15 plus 5% of inteillgence every 1 second and if Allys are full health they will gain a shield
 instead up to x10 of the hero level max of 500 at max level the shield will last permanent.
 
 
@@ -49,36 +49,36 @@ increase bounce amount by 4
 
 add a new modifier The Bone Zone
 after the skull land on any ally or enemy here is 20% chance to summon a Bone Zone of a 400 radius enemy that enter this zone they will
-take more damage from Skull Dance by 200% and ally will get 300% more healing and if the skull kill any enemy the cooldown get reduce by
-3, the Bone Zone last 5 second
-
+take more damage from Skull Dance by 200% and ally will get 330% more healing from Skull Dance after the Bone Zone duration ends it will
+inprison all enemys inside of it rooting them for 3 second and increasing the chance of spawning a new Bone Zone on death by 35%, also
+the Bone Zone last 4 second
 
 SPELL W Spiritual Voodoo
-Zul'Nu deal damage to the enemy base on missing life and ally get heal base on missing life as well, Spiritual Voodoo got a small chance
-to double the effect becoming even more strong in power deal damage after 0.5 second delay
+Zul'Nu deal damage to the enemy base on missing life and ally gets heal base on missing life as well, Spiritual Voodoo got a small chance
+to double the effect becoming even more strong in power, Spiritual Voodoo will deal damage after 2 second
 
 base damage 20 magical
 missing life needed for bonus 16% 14% 12% 10%
-damage bonus for missing life 15% 25% 35% 45%
+damage bonus for every missing life 15% 25% 35% 45%
 increase bonus damage by 1% for every 4 inteillgence
 base healing 30
 missing life needed for bonus 12% 10% 8% 6%
-healing bonus for missing life 10% 40% 70% 100%
+healing bonus for every missing life 10% 40% 70% 100%
 increase bonus heal by 3% for every 6 inteillgence
-Double power chance 10%
+Double power chance 14%
 cooldown 20
 mana cost 100 plus 5% of max mana
 
 
 talent level 10 upgrade Spiritual Voodoo
-reduce missing life needed for bonus damage by 4%
+reduce missing life needed for bonus damage by 3%
 reduce missing life needed for bonus healing by 2%
-increase base heal by 10
-reduce cooldown by 7
+increase base heal by 20
+reduce cooldown by 3
 
 add a new modifier Horror Voodoo
-casting Spiritual Voodoo on enemys below 40% fear them for 3 second after the fear end 50% of Spiritual Voodoo will do pure damage and
-the other part 50% magical and for ally make them immune to magic for 3 second after that they will get 110 attack speed for 2 second
+casting Spiritual Voodoo on enemys below 60% fear them for 2 second after the fear end, 40% of Spiritual Voodoo will do pure damage and
+the other part 60% magical and for ally make them immune to magic for 2 second after that they will get 110 attack speed for 2 second
 
 
 SPELL E Spirit Curse
@@ -86,7 +86,7 @@ curse enemys dealing damage every second after a short duration it will deal bur
 the Spirit Curse. every time they die under Spirit Curse they will explode for high damage and giving Spirit curse to other target
 dealing max health damage to enemys and healing ally for max health as well.
 
-base damage 4 8 12 16 every 0.5 second
+base damage 6 7 8 9 plus 5% of inteillgence every 0.5 second
 burst damge amount 15% 20% 25% 30% of total damage taken
 duration 3 4 5 6 second
 radius 350
