@@ -23,8 +23,9 @@ give a positive and negative buff
 BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 14 strenght and all of his spell will do 1% of his max health
 as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block
 DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 25% more damage from
-pure and physical damage and he cannot have more than 300 movement speed slows are double on him he only use clever and swords type
-weapons
+pure and physical damage and he cannot have more than 300 movement speed slows are double on him and slowing effect will damage him by
+1% of his max health for every second of the duration of slows and he only use clever and swords type weapons
+
 
 Talent level 25 Upgrade Fat Body
 add a new modifier Meat Eater
