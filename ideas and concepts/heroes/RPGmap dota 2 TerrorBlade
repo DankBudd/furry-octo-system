@@ -38,7 +38,7 @@ damage 14 20 26 32 plus 25% of agility Physical damage
 radius of the wave 200
 Wave max distance 450 500 550 600
 Sleep duration 5 second
-Nightmare chance to Trigger every second 6% 9% 12% 15%
+Nightmare chance to Trigger every second 7% 8% 9% 10%
 Nightmare damage 20 40 60 80 plus 50% of agility Pure damage
 Nightmare Fear duration 4 second
 cooldown 15 14 13 12
@@ -48,6 +48,7 @@ talent level 10 upgrade Terror Wave
 increase damage by 8
 increase agility scaling by 15%
 increase radius of the wave by 200
+increase the chance of Nightmare trigger by 2%
 increase nightmare damage by 40
 
 add a new modifier True Nightmare
