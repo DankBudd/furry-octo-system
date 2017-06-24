@@ -1,4 +1,4 @@
-Magina, starting stats, 8 agi, 2 str, 7 int, base movement speed 285, base damage 9, Stats Gain per level 1.10 agi, 0.30 str 0.60 int
+Magina, starting stats, 8 agi, 2 str, 5 int, base movement speed 285, base damage 7, Stats Gain per level 1.10 agi, 0.30 str 0.60 int
 starting item weak blade 4 damage and 5 attack speed
 
 LEVEL 20 TALENT
@@ -14,13 +14,14 @@ talent 2
 
 PASSIVE D OR F
 
-Anti-Magic
+Monk Spirit
 Increase overall stats and give a positive and negative buff
 
 BUFF Magina gain 6 mana per agility point and for every 200 mana, Magina gain 1 damage and 30% of his inteillgence will be agility bonus
-DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 4 mana per intelligence
+DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 6 mana per intelligence and any Pure type
+damage will alway stun Magina for 0.4 second and deal 1% of his max health as bonus damage 
 
-talent level 25 upgrade Anti-Magic
+talent level 25 upgrade Monk Spirit
 give a new modifier Fool Mana
 Magina basic attack will deal 10% of the target current mana as bonus damage to them and burning 3% of all the damage done also
 killing them will give magina 20% of thier max mana for him that last 20 second killing a new enemy will change it and refresh it
@@ -54,14 +55,17 @@ to the other target primary get full damage and reducing cooldown by 4
 SPELL W
 
 Blink
-deal damage on blinking and silencing them as well
+deal damage on blinking and silencing them as well and any enemys that attack him after he blink, they will get blind for a short
+duration
 
 damage 10 15 20 25 pure damage plus 35% of Magina agility
 silence duration 1 1.5 2 2.5
 area of effect 250 275 300 325
 increase area of effect by 1 for every point of agility
 range 500 700 900 1100
-increase range by 4 for every point of agility
+Blinding Skin duration 1.4 1.5 1.6 1.7
+blind duration on enemys 1 1.4 1.8 2.2
+miss chance from blind 15% 25% 35% 45%
 mana cost 100 110 120 130 plus 3% of his mana
 cooldown 37 34 31 28
 
@@ -69,12 +73,13 @@ talent level 10 upgrade Blink
 increase damage by 20
 increase agility scaling by 30%
 increase silence duration by 1.5
+increase cast range by 4 for every point of agility
 increase area of effect by 75
 reduce cooldown by 8
 
 add a new modifier Hard Skin
 Upon Blinking in Magina will gain 70% damage reduction for 5 second and for every hit he take, he will
-reduce the cooldown of blink by 0.5 for the duration of Hard Skin
+reduce the cooldown of blink by 0.5 for the duration of Hard Skin and empowering Blink damage by 1 up to 70 max damage bonus
 
 SPELL E
 
@@ -82,25 +87,25 @@ Unstable Spell Shield
 Magina will deal damage around him stuning all target, if Magina take magical damage he will store that damage and make the
 spell do even more damage on next cast
 
-base damage 30 35 40 45 Magical damage
-magical damage Store 20% 30% 40% 50% of the damage taken
+base damage 20 25 30 35 Magical damage
+magical damage Store 40% 50% 60% 70% of the damage taken
 max damage store 20 30 40 50
 increase max damage store by 1 for every 2 point of agility
-radius 340 360 380 400
-stun duration 1 1.4 1.8 2.2
+radius 320 360 400 440
+stun duration 1 1.3 1.7 2.1
 mana cost 100 plus 2% 5% 8% 11% of max mana
-cooldown 41 39 37 35
+cooldown 38 34 30 26
 
 talent level 15 Upgrade Unstable Spell Shield
 increase base damage by 25
 increase max damage store by 50
 increase radius by 110
-increase stun by 0.4
-cost no mana
+increase stun by 0.3
+remove the max mana cost
 
 add a new modfier Burning Explosion
 Unstable Spell Shield will burn the enemy for 30% of its base damage for 4 second, dealing damage every 1 tick of second
-if the enemy die under this effect reduce the cooldown of Unstable Spell Shield by 3 and give Magina 4% mana back
+if the enemy die under this effect reduce the cooldown of Unstable Spell Shield by 3 and give Magina 6% mana back
 
 PASSIVE D OF F
 Mage-Hunter
@@ -116,17 +121,17 @@ full power armor bonus 3 5 7 9
 full power life regeneration 6 8 10 12
 full power duration 5 6 7 8
 Magina Cannot gain any stack for the duration of Full Power
-stack last 3 second and can be refresh if gaining a new stack
+stack last 4 second and can be refresh if gaining a new stack
 
 talent level 15 Upgrade Mage-Hunter
 increase magic resist by 10%
 increase agility by 5
 increase duration of full power by 1
-increase stack duration by 2
+increase stack duration by 8
 
 add a new modifier Unstable Power
 Magina will give 50% of Full power to near ally 500 radius for the duration and Magina attack do 40% pure 30% physical and 30% magical
-and he got max speed limit and he cannot be slow as well
+and he got max speed limit and he cannot be slow as well or stun
 
 
 ULTIMATE R
@@ -137,18 +142,20 @@ he also stun longer the more mana he use
 base damage 20 60 100 type Magical
 bonus damage 10% 20% 30% of total mana use
 target max mana as damage bonus 5% 10% 15%
-base stun 0.5 1 1.5
-increase stun duration by 0.5 for every 600 mana
+base stun 0.6 1 1.4
+increase stun duration by 0.4 for every 500 mana
 mana cost 100% of current mana
 cooldown 300 210 120
 
 talent level 25 Upgrade mana Void
 increase bonus by 20% of total mana use
-increase target mana as damage by 5%
-increase stun duration by 0.5 second
-reduce cooldown by 60
+increase target mana as damage by 10%
+increase stun duration by 0.8 second
+reduce cooldown by 20
 
 add a new modfier Mana Steal
-after casting Mana Void Magina gain a buff of Mana Steal that last 10 second, any enemy near Magina 700 radius
+after casting Mana Void Magina gain a buff of Mana Steal that last 30 second, any enemy near Magina 700 radius
 will lose 1% of their mana per second and magina will gain that mana, also damage the enemy for all that mana lost for the duration
+and if they get to 0% mana they will take pure damage from all spell of Magina and take 40% extra damage as well
+
 
