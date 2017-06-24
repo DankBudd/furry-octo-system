@@ -17,19 +17,20 @@ BUFF Volcanus attack will do magic damage instead of physical and he gain 2% spe
 Intead of 1 he also gain 2 life per inteillgence point any damage per second spell will only have 60% duration on Volcanus,
 he can also use Sulfuras, getting even more power from it
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
-he also lose 50% base attack damage
+he also lose 50% base attack damage and all Source of Physical damage will deal 1.5% of Volcanus life as damage bonus to him and
+magical Source of damage will do 0.4% bonus damage as well
 
 talent level 25 upgrade Fire God
 add a new modfier Sun Power
 increase Soul Burn damage by 100% and Volcanus Attack deal 60% more damage on target affected by Soul Burn and
-Volcano will deal 6% of the target current life as damage 3% for bosses and it will alway spawn 3 Lava Spawn that stay until death
+Volcano will deal 6% of the target current life as damage 1% for bosses and it will alway spawn 3 Lava Spawn that stay until death
 those Lava Spawn cannot recreate Lava Spawn after doing the damage needed max of 3 Lava Spawn
 
 SPELL Q
 Soul Burn
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
 
-damage per second 12 16 20 24 type Magical plus 15% of intelligence
+damage per second 10 14 18 22 type Magical plus 15% of intelligence
 damage reduction 25% 40% 55% 70%
 slow 6% 8% 10% 12%
 Silence Target
@@ -38,7 +39,7 @@ cooldown 35 34 33 32
 mana cost 70 110 150 190 plus 5% of max mana
 
 Talent level 10 upgrade Soul Burn
-increase damage by 10
+increase damage by 6
 increase intelligence scaling by 25%
 increase the duration by 2
 
