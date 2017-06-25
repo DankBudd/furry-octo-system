@@ -62,39 +62,41 @@ reduce cooldown by 3
 
 SPELL W
 Treant Guard
-Summon Treant to fight for your side
+Summon Treant to fight for your side and last until Deaths and those Treants will Absorb damage that Furion take
 
-Number of Treant 1 2 2 3
-Treant Duration 25 35 45 55
-Treant life 60 70 80 90 plus 10% of int
+Number of Max Treant 1 2 3 4
+Treant Duration 30 40 50 60
+Treant life 40 60 80 100 plus 40% of int
 Treant damage 4-7 5-8 6-9 7-10 plus 5% of int
 Treant Magic resis 4% 7% 10% 13%
-Treant armor 2
+Treant armor 2 3 4 5
 Treant base attack time 2.00 1.95 1.90 1.85
-cooldown 15 20 25 30
+Damage Absorb by treant 10% 15% 20% 25% of damage taken
+cooldown 25
 mana cost 200 225 250 275 plus 2% of max mana
 
 Treant passive Seed of Life
-went the treant die they will do Nature Wrath that will deal only 10% of the damage and heal and also plant a seed
-enemy that get close to the seed will take 2 damage pure per second, can stack with the other seed last 7 second
+when the treant die they will do Nature Wrath that will deal only 25% of the damage and heal and also plant a seed
+enemy that get close to the seed will take 3 damage pure per second, can stack with the other seed last 10 second
 
 talent level 10 upgrade Treant Guard
 
 reduce cooldown by 5
-increase Treant life by 15% of int scaling
-increase max treant by 1
+increase Treant life by 30% of int scaling
+increase max treant by 2
 reduce the base attack time by 0.25
 reduce mana cost by 150
 
 also give a new passive to the treant Spliting Nightmare
 went a Treant die they will spawn 2 lesser Treant with 30% of the attributes of the Treant
-meaning that it will get the current life damage and armor that the Treant had before, those small treant last 20 second
+meaning that it will get the current life damage and armor that the Treant had before, those small treant last 30 second
+and Absord 10% damage for Furion that he take
 
 
 SPELL E
 Pure Nature
 Make a garden at the location buffing ally and treant also healing them and as a small chance of spawning a Treant
-the Treant scale off by Gift of Verodicia but only last 15 second and dont spawn any small Treant, furion is not affect by Pure Nature
+the Treant scale off by Treant Guard but only last 15 second and dont spawn any small Treant, furion is not affect by Pure Nature
 
 Heal per second 5 7 9 11 plus 10% of int
 duration 5 6 7 8
@@ -113,13 +115,13 @@ increase Treant spawn chance by 3%
 increase radius by 300
 increase attack speed by 10
 increase damage bonus by 8%
-reduce coldown by 1
+reduce coldown by 2
 reduce life cost by 8%
 
-Give a new modifier Greater Treant
-spawn a Greater Treant every time Pure nature is cast this Treant will last 10 second and got
-triple the scaling of Treant Guard and went he die he will do the explosion of Nature Wrath
-and do 20% of the damage of it and plant a seed that will deal 4 pure damage per second last 10 second as well
+Give a new modifier Garden
+Pure Nature will always spawn 5 Flowers that got 150% of the damage that Furion got and having 450 attack range they also got
+250 life with 7 armor and 25% magic resist they got Poison Nature that reduce healing effect on enemys by 15% and reduce their
+life regeneration by -5 for 3 second total and if any flowers dies they will heal all nearby allys 400 radius by 5% of thiers health
 
 
 PASSIVE D OR F
