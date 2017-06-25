@@ -1,21 +1,28 @@
-Zet Starting stats 4 Int, 4 Agi, 4 Str, base speed 340, base damage 5, Stats Gain per level 0.50 int, 0.50 str, 0.50 agi
+Zet Starting stats 4 Int, 4 Agi, 4 Str, base speed 300, base damage 5, Stats Gain per level 0.60 int, 0.60 str, 0.60 agi
 Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80 Support-DSP-Tank
 
 LEVEL 20 TALENT
 
 Talent 1
-400 life 200 mana and 5% damage reduction with 10% magic resist
+200 life 200 mana and 5% damage reduction with 10% magic resist
 
 Talent 2
-15 damage 10% spell amp and 100 attack range and cast range
+15 damage 10% spell amp and 80 attack range and cast range
 
 PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
 
-BUFF Zet get 40% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
-give 1 damage per 15 into that one and he his immune to slows
+BUFF Zet get 50% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
+give 1 damage per 14 into that one and he his immune to slows he also got a special Boots item that scale per level
 DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
 are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
+
+Boots of Balence Special
+increase all stats by 2 increase by 1 every 5 level
+increase life gain from strenght by 1
+increase mana gain from inteillgence by 2
+increase movement speed by 25 FLAT increase by 2 every level
+also make agility and inteillgence give 1 life per points and strenght giving 3 mana
 
 talent level 25 upgrade Lightning God
 add a new modifier Pure Lightning
@@ -25,14 +32,14 @@ they also give him 5 base damage that stack up to 40 last 10 second refresh ever
 
 SPELL Q
 Lightning Arc
-deal high damage jumping to target increasing the damage they take from Zet Lightning Arc and slowing them
+deal high damage jumping to target increasing the damage they take from Zet Lightning Arc and slowing them for a duration
 
 damage 10 20 30 40 plus 30% of agility type magical
 max jump 3 4 5 6
 increase max jump for every 15 agility points
 damage increase 10% 15% 20% 25%
 slow amount 10% 15% 20% 25%
-debuff duration 4 second
+debuff duration 6 second
 increase debuff duration by 0.01 per agility point
 mana cost 100 125 150 175 plus 2% of max mana
 coldown 7 6 5 4
@@ -56,7 +63,7 @@ heal 15 20 25 30 plus 20% 35% 50% 65% of inteillgence
 further increase of heals 13% 18% 22% 28%
 bonus damage 3 7 11 15
 bonus spell amp 2% 5% 8% 11%
-duration of buff 11 second
+duration of buff 13 second
 movement speed bonus if cast again on same target 10% 25% 40% 55%
 movement speed bonus duration 3 second
 mana cost 40 60 80 100 plus 4% of max mana
@@ -64,13 +71,13 @@ cooldown 10
 
 talent level 10 upgrade Surge
 increase inteillgence scaling by 35%
-increase further healing by 15%
-increase movement speed buff by 2 second
+increase further healing by 16%
+increase movement speed buff by 1 second
 increase mana cost by 200
 
 add a new modifier Volting Surge
 if cast on Zet it double Surge Stats but if cast on any ally they will get 50% of Surge insteads of 100%
-also gain 100 cast range and attack range 50 for ally
+also gain 300 cast range and attack range 150 for ally
 
 
 SPELL E Volt Shield
@@ -80,7 +87,8 @@ bonus armor 10% 12% 14% 16% of strenght
 max bonus armor 6 10 14 18
 bonus magic resist 10% 14% 18% 22% of strenght
 max bonus magic resist 12% 20% 28% 36%
-bonus life per enemy or ally 20 30 40 50
+bonus life per ally 20 50 80 110
+bonus life per enemys 8 16 24 32
 radius 400
 duration of buff 6 8 10 12
 mana cost 200 190 180 170 plus 2% of max mana
@@ -89,12 +97,13 @@ cooldown 30 27 24 21
 talent level 15 upgrade Volt Shield
 increase max bonus armor by 12
 increase max magic resist by 14%
-increase life bonus per enemy or ally 15
-increase duration by 2
+increase life bonus per ally 70
+increase life bonus per enemys 18
+increase duration by 3
 
 add a new modifier Unstable Lightning
 also gain damage reduction for PURE damage by 70% of Zet Strenght up to 200% max Pure damage reduction and the Shield also explode
-dealing 20% 30% 40% 50% Strenght plus 3% 4% 5% 6% of Zet life as well, radius of 400 for the explosion
+dealing 20% 23% 26% 29% Strenght plus 1.5% 2% 2.5% 3% of Zet life as well, radius of 400 for the explosion
 
 
 PASSIVE D OR F Lightning Body
