@@ -29,8 +29,8 @@ pure and physical damage and he cannot have more than 300 movement speed slows a
 
 Talent level 25 Upgrade Fat Body
 add a new modifier Meat Eater
-Butcher basic attack now deal 7% of the target current life in damage and healing him for 200% of the damage done, this effect get a
-cooldown of 12 second if attacking a boss
+Butcher basic attack now deal 4% of the target current life in damage and healing him for 150% of the damage done, this effect get a
+cooldown of 16 second if attacking a boss also make all spell of pudge deal 1.1% of the target max health doesnt work for Rotting Flesh
 
 
 SPELL Q Glory Hook
