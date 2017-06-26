@@ -38,6 +38,7 @@ damage bonus 6 10 14 18
 duration 4 5 6 7
 spell damage reduce 10% 15% 20% 25%
 explosion damage 1% 1.6% 2.2% 2.8% of max Health
+explosion damage 0.1% 0.2% 0.3% 0.4% of max health for bosses
 debuff duration 3 second refresh on hit
 cooldown 18 17 16 15
 mana cost 40 plus 1% of max mana
@@ -63,7 +64,7 @@ bonus damage base on the current life of the enemy NOTE if use on a boss the coo
 damage 10 16 22 28 pysical damage plus 24% 36% 48% 60% of sven strenght
 lifesteal base on the damage done 10% 20% 30% 40% -spell vamp dont work on this spell-
 current life as bonus damage 5% 10% 15% 20%
-max life as bonus damage for boss 1% 2% 3% 4%
+max life as bonus damage for boss 0.3% 0.5% 0.7% 0.9%
 cooldown 25
 mana 100 130 160 190 plus 1% of max mana
 
@@ -156,8 +157,8 @@ increase duration by 8
 reduce cooldown by 60
 
 add a new modifier Strenght Lord
-now Give 50% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.5 second for
-every kill sven do bosses will give 15 seconds he also Scream Louder stuning enemys for 4 second and dealing 150 pure damage plus 5%
+now Give 50% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.3 second for
+every kill sven do bosses will give 11 seconds he also Scream Louder stuning enemys for 4 second and dealing 150 pure damage plus 5%
 of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 25% increase Strenght when God Strenght is not Active
 
 
