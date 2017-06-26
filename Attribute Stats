@@ -11,14 +11,16 @@ life 1% for every 10 point of str
 
 Agility
 attack speed 0.50
+movement speed 1
 damage 1% for every 10 point of agility
+
 
 Intelligence
 mana 10
 mana-regeneration 0.08
 spell amp 1% for every 10 point of intelligence
 
-DIVINE STATS after one stats got at least 10,15,20,25,30 base agi,int,str you can spend a Divine Stats into it gaining new bonus
+DIVINE STATS after one stats got at least 10,14,18,22,26 base agi,int,str you can spend a Divine Stats into it gaining new bonus
 these divine stats can be only be gain every level 10,20,30,40,50 of base stats having a total of 5 to spend.
 
 DIVINE Strenght
