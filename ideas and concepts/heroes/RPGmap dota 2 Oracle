@@ -11,14 +11,17 @@ Talent 2
 
 PASSIVE D OR F Prophet
 
-BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 14 intelligence he also start with 200 bonus mana and immune to Roots he also
-gain a shield every 15 second cannot regain shield in combat, equal to 10% of his mana that last until he take the amount of damage needed
-DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 30 intelligence instead of
+BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 14 intelligence he also start with 90 bonus mana and immune to Roots he also
+gain a shield every 15 second cannot regain shield in combat, equal to 12% of his mana that last until he take the amount of damage needed
+DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 35 intelligence instead of
 5 he also lose -10 armor at the start and -30% magic resist he can only use ORB type weapons
 
 talent level 25 upgrade Prophet
 add a new modifier Life Explosion
-70% of oracle spell mana cost will heal nearby ally and him 600 AoE and he his immune to Stun
+40% of oracle spell mana cost will heal nearby ally and him 500 AoE and he got 40% resist to Stuns and upgrade Oracle Spell as well
+Time Shield Now become a 350 Radius area of Effect instead of single target
+Mind Blast If affecting Oracle increase his spell amp by 12% and healing amp by 16%
+Ancient Healing reduce the Jump delay by 0.3 and increase healing on the target by 25% for 4 second
 
 
 SPELL Q Time Shield
@@ -48,18 +51,18 @@ SPELL W Mind Blast
 deal small damage to a unit and fearing them, if cast on ally the next attack or spell will do increase damage and if cast on oracle
 heal him but double the cooldown
 
-damage 8 12 16 20 plus 14% of int damage type magical
+damage 6 11 16 21 plus 14% of int damage type magical
 fear duration 0.2 0.3 0.4 0.5
-next basic attack or spell increase damage 15% 20% 25% 30%
+next basic attack or spell increase damage 10% 20% 30% 40%
 self healing 15% 30% 45% 60% of max health 
 cooldown 11 10 9 8
 mana cost 70 130 190 250
 
 talent level 10 upgrade Mind blast
 increase damage by 5
-increase int scalling by 6%
-increase fear duration by 0.2
-increase next basic attack or spell damage by 30%
+increase int scalling by 9%
+increase fear duration by 0.1
+increase next basic attack or spell damage by 40%
 increase mana cost by 100
 reduce cooldown by 3
 
@@ -70,17 +73,18 @@ deal 1% of the target current life as damage
 
 
 SPELL E Ancient Healing
-Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well
+Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well and not restoring any
+mana to Oracle
 
-Heal 20 30 40 50 plus 15% of int
+Heal 20 30 40 50 plus 15% 20% 25% 30% of int
 Heal reduction per jump 6%
-mana restore 10 20 30 40 plus 10% of int
+mana restore 10 20 30 40 plus 10% 12% 14% 16% of int
 mana restore reduction per jump 6%
 max reductions 60%
 jump distence 500
-max jump 2 3 4 5
+max jump 3 4 5 6
 increase max jump by 1 for every 26 intelligence points
-jump delay per heal 0.5 second
+jump delay 0.5 second
 cooldown 6 5 4 3
 mana cost 100 140 180 220
 
