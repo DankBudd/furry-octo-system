@@ -19,7 +19,7 @@ DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as 
 have any Helm type armor and he got -60% max mana and increasing Blinds and damage reduction debuff by 3 more second on him
 
 Speed Horn Helm SPECIAL
-increase life by 1 for every 4 movement speed
+increase life by 1 for every 3 movement speed
 increase mana by 1 for every 2 movement speed
 movement speed bonus 10 incease by 1 every level
 TerrorBlade can use the Speed Horn to remove any Debuff that slow him cooldown of 50 second
@@ -92,8 +92,9 @@ with reducing armor and reducing mana regeneration as well
 
 SPEED BLAST
 base damage 10
-Speed into damage 11% 14% 17% 20% of total Speed
+MoveSpeed into damage 9% 13% 17% 21% of total MoveSpeed
 duration of root 0.6 0.8 1.0 1.2
+increase duration of root by 0.1 for every 200 movement speed
 attack speed lost 50 70 90 110 while affected by root
 cooldown 6 5 4 3
 ZEAL
@@ -107,8 +108,8 @@ cooldown 12 11 10 9
 mana cost for both 50 55 60 65 plus 2% of max mana
 
 talent level 15 upgrade Speed Blast AND Zeal
-increase base damage of speed blast by 20
-increase Speed Blast root by 0.1
+increase Speed Blade damage by 4% of movement speed
+increase Speed Blast root by 0.3
 Increase Zeal agility scaling by 10%
 increase Zeal Mana regeneration lost by 8
 
@@ -134,23 +135,23 @@ base damage reduce by 25% 40% 55% 70%
 attack speed reduce by 15 30 45 60
 damage reduction bonus 5% 10% 15% 20%
 Life bonus 8% 16% 24% 32%
-Stun resist 15% 20% 25% 30%
-Roots resist 30% 40% 50% 60%
+Stun resist 8% 11% 14% 17%
+Roots resist 13% 17% 21% 25%
 cooldown to change form 20 second
 
 talent level 15 Upgrade Metamorphosis
 TRUE FORM
 increase base damage by 10
-increase attack range by 200
-increase attack speed by 12
+increase attack range by 220
+increase attack speed by 14
 NORMAL FORM
-increase life bonus by 18%
-increase Stun resist by 10%
-increase Roots resist by 20%
+increase life bonus by 20%
+increase Stun resist by 18%
+increase Roots resist by 25%
 
 add a new modifier Unstable Form
-every time TerrorBlade Change form he will explode for 15% 25% 35% 45% of his Movement Speed and Purging all debuff affected on him.
-when in True Form TerrorBlade attack will bounce up to 4 target dealing only 60% of his damage and enemys that die while in True Form
+every time TerrorBlade Change form he will explode for 11% 14% 18% 22% of his Movement Speed and Purging all debuff affected on him.
+when in True Form TerrorBlade attack will bounce up to 4 target dealing only 40% of his damage and enemys that die while in True Form
 will give him 1% increase damage and 0.5% spell amp up to 40 stack refresh every time something dies by TerrorBlade last 6 second
 and for Normal Form, TerrorBlade will Block any spell cast at him cooldown of 25 second and giving him self 15% more damage reduction
 that last 6 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
@@ -162,17 +163,19 @@ For Normal Form the wall will stay longer and having more life, if any walls die
 damage and last longer. for True Form it will have increase damage and making it prison all enemys around TerrorBlade and for every
 enemys in a prison it will have even more damage
 
-base damage 25% 30% 35% of Movement speed every second
+base damage 15% 25% 35% of Movement speed every second
 Wall Health 250 400 550 plus 50% of TerroBlade Health
 durations of Wall 3 4 5
-True Form increase Speed damage 5% 10% 15% 20%
+True Form increase Speed damage 9% 18% 27%
 True Form Radius of Prison 500 700 900
 True Form increase Speed damage per enemys in Prison 2% 4% 6%
-Normal Form walls Health bonus 30% 50% 70% of terrorBlade Health
+Normal Form walls Health bonus 30% 90% 150% of terrorBlade Health
 Normal Form duration increase 1 2 3
 Normal Form Amount of Smaller Walls upon death 1 2 3
-Smaller Wall damage 5% 8% 11% of speed
-Smaller Wall duration 4 8 12
+Smaller Wall damage 2% 5% 8% of speed
+Smaller Wall duration 6 10 14
+mana cost 25% 40% 55% of max mana
+cooldown 90 70 50
 
 Talent level 25 upgrade Demonic Prison
 
