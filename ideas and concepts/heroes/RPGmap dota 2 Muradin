@@ -74,9 +74,9 @@ increase radius by 80
 increase bonus damage per enemy by 2
 
 add a new mofidier Hammer of Thunder
-when Muradin do Thunder Clap for every enemy hit he will get 2 bonus base damage for 8 second
-and Thunder Clap deal 2% of the current life of the enemy as bonus damage he also heal for 0.80% of his max life per enemy hit
-
+Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 plus 50% of Muradin Strenght in pure damage
+and enemys that are below 40% will lose 3% of their Max health 0.6% for bosses and any enemys kill under Lightning Bolt or
+Thunder Clap will restore Muradin Life by 0.8% of his max Health
 
 SPELL E
 Strenght of the Mountain
