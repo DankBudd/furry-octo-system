@@ -9,7 +9,7 @@ give 6.5 life-regen, 250 life and 25% magic resist
 
 talent 2
 
-give 11 mana regen, 15 int and 200 cast range
+give 9 mana regen, 15 int and 200 cast range
 
 
 
@@ -17,10 +17,17 @@ PASSIVE CORE D OR F
 Corrupted Flesh
 increase all stats and give a positive and negative buff
 
-BUFF Necro has 15% base magic resist at start and his skeleton regen 1% of their life per second he also gain 2% movement speed per
-skeleton alive and for every 5 level Necro gain 1% magic resist
-DEBUFF Necro will take 80% more damage from physical and he doesnt gain any agility per level he also need 20 int to gain 1% spell amp
-and strenght only gain 4 life instead of 5
+BUFF Necro has 15% base magic resist at start and his skeleton regen 1% of their life per second he also gain 3% movement speed per
+skeleton alive and for every 5 level Necro gain 1% magic resist he also gain 50% of his strenght as inteillgence bonus and he start
+with a special Chest Peice item that can be change
+DEBUFF Necro will take 80% more damage from physical and he doesnt gain any agility per level he also need 16 int to gain 1% spell amp
+and strenght only gain 4 life instead of 5 and he also need 10 inteillgence to gain 1 damage instead of 5 inteillgence
+
+Bone Armor Special item
+increase armor by 2
+increase armor by 10%
+reduce pure damage by 12%
+can also be use to give this bonus to skeleton only for 50% of the bonus
 
 talent level 25, upgrade Corrupted Flesh
 give a new modfier Death Walks Among Us
@@ -56,9 +63,10 @@ Skeleton base attack time reduce by 0.40
 Max skeleton increase by 6
 Swing of the dead plus 1 instance and pure damage increase by 10%
 
-add a new modifier Bone Explosion
-deal 10% of the skeleton max life in magic damage when they die in a radius of 300 they also restore necro mana and life by 2%
-
+add a new modifier Bone Wave
+every time the Skeleton warrior attack they will make a Bone Wave in front of them that travel only 350 far and 200 radius
+that deal 25% of the skeleton damage to the enemys and those enemys hit by the Bone Wave will have 10% chance to be rooted for 0.3 second
+and after the root end it will damage them by 0.5% of their max health 0.1% for bosses
 
 SPELL W
 Skeleton Archer
