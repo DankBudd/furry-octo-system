@@ -41,7 +41,7 @@ Summon a Skeleton Warrior to fight for you, they are really weak to area of effe
 have a chance to deal more damage and lifestealing and attacking faster
 
 Skeleton life 35 40 45 50 plus 40% of int
-Skeleton damage 3-4 4-5 5-6 6-7 plus 3% of int
+Skeleton damage 3-4 4-5 5-6 6-7 plus 6% of int
 Skeleton armor 1, every 40 int it will give the skeleton 1 armor
 Skeleton magic resist 5% plus 15% of int
 Skeleton base attack time 2.3 2.2 2.1 2.0
@@ -51,17 +51,17 @@ cooldown 1
 
 Skeleton passive
 Swing of the dead
-they get 10% chance to deal 135% damage after that they get 5 instance of 15% lifesteal and 15 attack speed, the final
-hit will deal 10 pure damage plus 10% of the skeleton damage into pure, cooldown 4 second
+they get 12% chance to deal 140% damage after that they get 4 instance of 20% lifesteal and 15 attack speed, the final
+hit will deal 10 pure damage plus 25% of the skeleton damage into pure, cooldown 3 second
 
 talent level 10 upgrade Skeleton warrior
 
 Skeleton life Increase by 30
-SKeleton armor increase by 1
+Skeleton damage increase by 1-3
+Skeleton armor increase by 1
 Skeleton magic resist increase by 5%
 Skeleton base attack time reduce by 0.40
 Max skeleton increase by 6
-Swing of the dead plus 1 instance and pure damage increase by 10%
 
 add a new modifier Bone Wave
 every time the Skeleton warrior attack they will make a Bone Wave in front of them that travel only 350 far and 200 radius
