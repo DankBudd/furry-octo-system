@@ -1,4 +1,5 @@
-Furion -- Summoner-Support , starting stats 9 int, 2 agi, 4 str, base speed 280, base damage 3, Stats Gain per level 1.00 int, 0.50 str, 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 30 mana base attack time 1.65
+Furion -- Summoner-Support , starting stats 9 int, 2 agi, 4 str, base speed 280, base damage 3, Stats Gain per level 1.00 int, 0.50 str,
+0.40 agi, starting item Nature Gift increase intelligence by 3 and give 30 mana base attack time 1.65
 
 LEVEL 20 TALENT
 
@@ -58,6 +59,8 @@ increase magic resist by 4%
 increase armor reduction by 1
 magic resist reduction increase by 4%
 reduce cooldown by 3
+
+add a new modifier wating on idea
 
 
 SPELL W
