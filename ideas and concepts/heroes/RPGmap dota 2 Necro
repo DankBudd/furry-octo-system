@@ -40,7 +40,7 @@ Skeleton Warrior
 Summon a Skeleton Warrior to fight for you, they are really weak to area of effect and can die very fast to high damage they also
 have a chance to deal more damage and lifestealing and attacking faster
 
-Skeleton life 35 40 45 50 plus 40% of int
+Skeleton life 30 40 50 60 plus 80% of int
 Skeleton damage 3-4 4-5 5-6 6-7 plus 6% of int
 Skeleton armor 1, every 40 int it will give the skeleton 1 armor
 Skeleton magic resist 5% plus 15% of int
@@ -73,8 +73,8 @@ Skeleton Archer
 Summon Skeleton Archer To fight against your foes, those skeleton will come with a element that will help and deal
 great damage to the enemy
 
-Skeleton Archer life 15 20 25 30 plus 20% of int
-Skeleton Archer damage 5-8 6-9 7-10 8-11 plus 10% of int
+Skeleton Archer life 16 24 32 40 plus 50% of int
+Skeleton Archer damage 5-10 6-12 7-14 8-16 plus 15% of int
 Skeleton Archer armor 0, every 60 int will give the skeleton archer 1 armor
 Skeleton Archer magic resist 0% plus 10% of int
 Skeleton Archer base attack time 2.1 2.0 1.9 1.8
@@ -151,22 +151,22 @@ PASSIVE D OR F
 Necro Mastery
 increase all skeleton life, damage, regen, armor, magic resist, attackspeed and movement speed
 
-Skeleton damage increase by 15% 20% 25% 30%
-Skeleton life increase by 3% 7% 11% 15%
-Skeleton regeneration increase by 1 3 5 7
+Skeleton damage increase by 13% 20% 27% 34%
+Skeleton life increase by 7% 15% 23% 31%
+Skeleton regeneration increase by 1 2.5 4 5.5
 Skeleton armor increase by 1 2 3 4
-Skeleton magic resist 7% 10% 13% 16%
+Skeleton magic resist 9% 12% 15% 18%
 Skeleton attack speed 6 12 18 24
-SKeleton movement speed 10% 12% 14% 16%
+SKeleton movement speed 10% 14% 18% 22%
 radius global
 
 talent level 15 upgrade Necro Mastery
 
-Skeleton damage increase by 10%
-Skeleton life increase by 5%
-Skeleton regeneration increase by 4
+Skeleton damage increase by 18%
+Skeleton life increase by 11%
+Skeleton regeneration increase by 2.5
 Skeleton armor increase by 2
-Skeleton magic resist 5%
+Skeleton magic resist 14%
 Skeleton attack speed 12
 Skeleton movement speed 11%
 
