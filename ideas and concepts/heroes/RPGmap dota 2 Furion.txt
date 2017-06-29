@@ -1,4 +1,4 @@
-Furion -- Summoner-Support , starting stats 9 int, 2 agi, 4 str, base speed 280, base damage 3, Stats Gain per level 1.00 int, 0.50 str,
+Furion -- Summoner-Support , starting stats 9 int, 2 agi, 4 str, base speed 290, base damage 3, Stats Gain per level 1.00 int, 0.50 str,
 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 30 mana base attack time 1.65
 
 LEVEL 20 TALENT
@@ -58,9 +58,13 @@ increase armor bonus by 2
 increase magic resist by 4%
 increase armor reduction by 1
 magic resist reduction increase by 4%
-reduce cooldown by 3
+reduce cooldown by 1
 
-add a new modifier wating on idea
+add a new modifier Green Flame
+after the buff duration end, it will make a green flame on allys healing them by 7 12 17 22 plus 16% of inteillgence every 1 second
+and increasing healing effect by 25% and for the enemys they will lose 3 6 9 12 plus 32% of inteillgence health every 1 second and
+reducing healing effect by 35%, any allys that kill enemys affected by the green flames will gain 30 45 60 plus 60% of inteillgence
+as health to them. the green flame will last 4 second
 
 
 SPELL W
@@ -131,23 +135,22 @@ PASSIVE D OR F
 Nature Mastery
 Increase the stats of Ancient of War and Treant Guard, passively give Furion movement speed
 
-Increase Treant life by 5% 10% 15% 20%
-Increase Ancient of War life by 3% 6% 9% 12%
-Increase the damage of treant by 3 5 7 9
-Increase the damage of Ancient of War by 14 18 22 26
+Increase Treant life by 11% 22% 33% 44%
+Increase Ancient of War life by 7% 11% 15% 19%
+Increase the base damage of treant by 1 3 5 7
+Increase the base damage of Ancient of War by 7 14 21 28
 Increase attack speed by 10 14 18 22
 increase the number of Treant by 1 1 2 3
 increase the duration of Treant by 5 10 15 20
-increase Furion movement speed by 6% 12% 18% 24%
+increase Furion movement speed by 2% 5% 8% 11%
 radius global
 
 talent level 15 upgrade Nature Mastery
 
-increase Treant life by 15%
+increase Treant life by 22%
 Increase Ancient of War life by 8%
 Increase the damage of Treant by 4
-Increase the damage Ancient of War by 14
-increase the duration of Treant by 10
+Increase the damage Ancient of War by 8
 
 give a new modifier Go Green
 increase the damage of Furion summon by 15% and increasing the movementspeed by 25%
