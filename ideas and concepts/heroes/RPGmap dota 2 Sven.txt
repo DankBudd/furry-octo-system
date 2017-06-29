@@ -76,14 +76,14 @@ reduce mana cost by 70
 
 add a new modifier Colossus Sword
 sven will instanly kill enemy who are below 30% of their max life and reduce it cooldown by 15
-and reducing other spell cooldown by 1, if the doesnt kill the enemys instanly Death Blow will hit all enemys around sven 250 radius
-dealing the same amount of damage but cannot trigger the 30% life kill
+and reducing other spell cooldown by 1, if he doesnt kill the enemys instanly, Death Blow will hit all enemys around sven 340 radius
+dealing the same amount of damage but cannot kill them instanly
 
 
 SPEED E level needed 1 4 9 15
 
 Blood Wound
-Sven sharpen is sword making it have a more clean cut making enemys lose blood to death dealing damage per second and lowering armor. 
+Sven sharpen his sword making it have a more clean cut making enemys lose blood to death dealing damage per second and lowering armor. 
 Sven also lifesteal for a small amount done by Blood Wound
 
 damage 3 5 7 9 physical damage per tick plus 20% of sven strenght
@@ -96,18 +96,18 @@ mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 upgrade Blood Wound
 increase damage by 6
-increase spell vamp by 10%
+increase spell vamp by 15%
 reduce cooldown by 2
 reduce mana cost by 40
 
 add a new modifier Critical Wound
 sven basic attack and spell will deal 20% pure damage on target affected by Blood Wound. if the target die
 under Blood Wound he will drop a Globe of Life restoring anyone life by 10% and reducing the cooldown of blood Wound by 7, bosses will
-drop a Greater Globe of life restoring 80% instead and reducing the cooldown of Blood Wound by 50% for the next use
+drop a Greater Globe of life restoring 80% instead and reducing the cooldown of Blood Wound by 50% for the next use and also make
+Death Blow deal 50% more damage on unit affected by Blood Wound
 
 
 PASSIVE D OR F Level needed 3 7 11 15
-
 
 War Gladiator
 sven can block both magic and physical spell also blocking basic attack but he cannot block damage over time spell
@@ -128,8 +128,8 @@ increase block damage by 8
 increase block chance by 10%
 
 add a new modifier Legendary Gladiator
-for every block and critical hit sven do he will gain 0.5 armor and 1 damage for 4 second refresh every block and crit
-up to 20 stack, upon reaching 20 stack sven will get 10 life regeneration and 30 attack speed until he lose all the stack
+for every block and critical hit sven do he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
+up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 20 attack speed until he lose all the stack
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
@@ -140,11 +140,11 @@ increase sven damage and life but reduce speed attack speed for a short duration
 when God Strenght is active
 
 base damage 20 40 60
-base damage 30% 50% 70%
+bonus damage 30% 50% 70%
 attack speed lost 20 40 60
-duration 12 14 16
+duration 12 15 18
 life bonus 300 600 900
-cooldown reduction upon killing 0.30 0.40 0.50
+cooldown reduction upon killing 0.30 0.50 0.70
 cooldown 160 140 120
 no mana cost
 
@@ -152,14 +152,14 @@ talent level 25 upgrade God Strenght
 
 increase damage by 10
 increase base damage by 30%
-increase attack speed lost by 30
-increase duration by 8
-reduce cooldown by 60
+increase attack speed lost by 25
+increase duration by 7
+reduce cooldown by 30
 
 add a new modifier Strenght Lord
 now Give 50% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.3 second for
-every kill sven do bosses will give 11 seconds he also Scream Louder stuning enemys for 4 second and dealing 150 pure damage plus 5%
-of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 25% increase Strenght when God Strenght is not Active
+every kill sven do bosses will give 11 seconds he also Scream Louder stuning enemys for 4 second and dealing 150 pure damage plus 10%
+of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 40% increase Strenght when God Strenght is not Active
 
 
 
