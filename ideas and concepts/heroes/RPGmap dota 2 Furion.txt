@@ -38,14 +38,14 @@ Nature Wrath
 heal or damage a target increasing or reducing armor and magic resist, also after 5 second the target affect by the debuff
 Nature Wrath will do a explosion doing again nature Wrath but doenst regive the debuff and heal and damage for less
 
-Heal 30 50 70 90 plus 50% of int
-Damage 14 18 22 26 plus 40% of int type magical
-Heal explosion 15 25 35 45 plus 25% of int
-Damage explosion 7 9 11 13 plus 20% of int type magical
+Heal 26 46 66 86 plus 40% of int
+Damage 14 18 22 26 plus 30% of int type magical
+Heal explosion 13 23 33 43 plus 20% of int
+Damage explosion 7 9 11 13 plus 15% of int type magical
 bonus armor 1 2 3 4
-armor reduction 0.5 1 1.5 2
+armor reduction 2 3 4 5
 magic resist 5% 7% 9% 11%
-magic resist reduction 3% 4% 5% 6%
+magic resist reduction 3% 7% 11% 15%
 buff debuff duration 5, after the duration expire the explosion will go off
 cooldown 10
 mana cost 70 110 150 190 plus 1% of max mana
