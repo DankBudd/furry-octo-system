@@ -48,7 +48,7 @@ Soul Burn silence all enemy near the main target 300 radius and Soul Burn got 15
 pure damage after Soul Burn duration end it will explode for 300% of Soul Burn total damage to all near enemys 300 radius
 
 SPELL W Lava Wave
-Send out a wave of Molten lava dealing high damage and burning enemys and reducing their magic resist
+Send out a wave of Molten lava dealing high damage and burning enemys also reducing their magic resist
 
 damage 20 30 40 50 type Magical plus 30% of intelligence
 burn damage 3 4 5 6 per second type magical plus 5% of intelligence
@@ -73,13 +73,13 @@ SPELL E Volcano
 channel a volcano that deal damage every 3 second stuning the enemy every time the enemy gets damage again by volcano
 they will take increase damage from it and stun duration
 
-damage 14 20 26 32 type Magical plus 40% of intelligence
-damage increase by 2 4 6 8 every time the enemy gets damage again by volcano
+damage 14 20 26 32 type Magical plus 40% 45% 50% 55% of intelligence
+damage increase by 3 5 7 9 every time the enemy gets damage again by volcano
 duration of channel 12 second
-stun duration 0.8 0.9 1.0 1.1
+stun duration 0.6 0.7 0.8 0.9
 stun duration increase by 0.1 every time the enemy gets damage again by volcano
 radius of volcano 300 350 400 450
-radius of volcano increase by 2 for every point of intelligence
+radius of volcano increase by 1 for every point of intelligence
 cooldown 45 40 35 30
 mana cost 100 170 240 310 plus 2% of max mana
 
@@ -87,7 +87,7 @@ talent level 15 upgrade Volcano
 increase damage by 5
 increase intelligence scaling by 10%
 reduce the damage per second to 2 instead of 3
-increase radius by 150
+increase radius by 50
 
 add a new modfier Lava Spawn
 if the volcano kill any unit it will spawn a Lava Spawn that has 40% of volcanus life and 80% of the damage of volcanus as well
@@ -125,8 +125,8 @@ Lava wave will also find target to chase, if there is only 1 target, all 3 wave 
 Incinerate will alway do explosion damage for the duration only dealing small amount of damage and increasing the burn damage as well
 if the target dies under Incinerate they will spawn small lava Pool that deal damage over time and stay here for a long time
 
-Lava Wave bonus damage 40 70 100
-Increase Lava Wave radius by 200 300 400
+Lava Wave bonus damage 20 40 60
+Increase Lava Wave radius by 100 150 200
 Lava Wave cooldown reduction 9 11 13
 Incinerate explosion per second damage 20% 30% 40% of Incinerate total damage
 increase Incinerate Burn damage by 10% 25% 40% of Inteillgence
