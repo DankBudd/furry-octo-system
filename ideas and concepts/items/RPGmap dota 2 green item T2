@@ -151,15 +151,15 @@ Gold Rock need Lucky Rock plus recipe 200 gold
 increase the user stats with xp, gold and cast range
 
 all stats 1
-xp gain on kill 4
-gold gain on kill 4
-cast range 50
+xp gain 4%
+Gold Gain 6%
+cast range 40
 
 
 Vemon Orb
 Deal damage over time, slowing the target attack speed and movement speed
 
-Damage 4 magical per second
+Damage 3 magical per second
 attack spell slow 5
 Movement spell slow 3%
 duration 10 second
