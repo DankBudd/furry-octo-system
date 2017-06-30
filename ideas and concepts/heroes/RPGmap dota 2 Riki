@@ -1,5 +1,5 @@
-Riki -- High-DPS, starting stats 2 int, 10 agi, 3 str, base speed 280, base damage 8, Stats Gain per level 0.10 int, 0.20 str, 0.40 agi
-starting item Weak Dagger increase damage by 2 and give 5 attackspeed base attack time 1.40
+Riki -- High-DPS, starting stats 2 int, 11 agi, 4 str, base speed 280, base damage 7, Stats Gain per level 0.20 int, 0.20 str, 0.30 agi
+starting item Weak Dagger increase damage by 2 and give 3 attackspeed base attack time 1.40
 
 LEVEL 20 TALENT
 
@@ -9,16 +9,25 @@ talent 1
 
 talent 2
 
-12 damage 20 attackspeed and 300 cast range
+8 base damage 20 attackspeed and 240 cast range
 
 
 
 PASSIVE F OR D Thief Soul
 increase overall stats and give a positive and negative buff
 
-BUFF riki will gain 3 life per agility point he also get 10% increase agility for a total of his intelligence and strenght
-DEBUFF riki only gain 2 life per strenght and he take 50% more damage from pure,magical,physical also he can only use dagger weapons type
+BUFF riki will gain 3 life per agility point he also get 70% increase agility for a total of his intelligence and strenght he also got
+a special dagger that cannot be change at all and he can use 1 more other dagger with it and he got 5% chance to evade any type of damage
+DEBUFF riki only gain 2 life per strenght and he take 70% more damage from pure,magical,physical also he can only use dagger weapons type
 he also lose 35% of his max mana with 20 attack speed lost
+
+Roktoru Dagger Special
+increase base damage by 2 increase by 1 for every 4 level
+increase attack speed by 5 increase by 1 for every 2 level
+Physical spell crit chance 10% increase by 1% for every 10 level
+Physical spell crit damage 110% increase by 1% for every level
+can also be use to deal 100% crit for a 1 time use with any spell of riki spell having 30% more crit damage as well
+cooldown of 70 second
 
 talent level 25 upgrade Thief Soul
 add a new modifier Deadly
