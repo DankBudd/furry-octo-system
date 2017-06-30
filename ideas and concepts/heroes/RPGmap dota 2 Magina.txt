@@ -5,7 +5,7 @@ LEVEL 20 TALENT
 
 talent 1
 
-4 armor 12% magic resist and 8 life regen
+4 armor 15% magic resist and 6 life regen
 
 talent 2
 
@@ -18,13 +18,15 @@ Monk Spirit
 Increase overall stats and give a positive and negative buff
 
 BUFF Magina gain 6 mana per agility point and for every 200 mana, Magina gain 1 damage and 30% of his inteillgence will be agility bonus
+and any spell that remove mana, magina instead will get that amount restore to him instead of losing mana.
 DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 6 mana per intelligence and any Pure type
-damage will alway stun Magina for 0.4 second and deal 1% of his max health as bonus damage 
+damage will alway stun Magina for 0.5 second and deal 3% of his max health as bonus damage and health removal will double on him
 
 talent level 25 upgrade Monk Spirit
 give a new modifier Fool Mana
 Magina basic attack will deal 10% of the target current mana as bonus damage to them and burning 3% of all the damage done also
 killing them will give magina 20% of thier max mana for him that last 20 second killing a new enemy will change it and refresh it
+and also increase magina Agility by 15%
 
 SPELL Q
 
