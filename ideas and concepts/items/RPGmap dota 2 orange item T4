@@ -112,10 +112,20 @@ increase attack speed gain from agility and also giving armor for agility point 
 duration also increase agility and health
 
 Active item use
-increase the user Base Agility by 100% for 5 second cooldown of 35 second
+increase the user Base Agility by 100% for 5 second cooldown of 45 second
 
 Passive item use
-increase attack speed gain from agility by 0.30 and increase armor by 1 for every 35 agility
+increase attack speed gain from agility by 0.20 and increase armor by 1 for every 35 agility
 
 agility 15
 health 200
+
+
+Holylight Stone
+increase the user inteillgence and healing amp and give a new modifier for every heal done on allys or summons
+
+Passive item use
+all healing spell will give the target 8% damage reduction,10% damage,0.7% life regeneration and 60 FLAT movement speed
+
+Inteillgence 10
+healing amp 16%
