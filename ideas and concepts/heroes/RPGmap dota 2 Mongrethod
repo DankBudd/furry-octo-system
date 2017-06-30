@@ -25,28 +25,28 @@ can also be use to double the effect of the Ring for 10 second, cooldown of 80 s
 
 talent level 25 upgrade PitLord
 add a new modifier Chaos Lord
-Mongrethod gain 20% spell amp with 10% armor increase he also gain 10% cooldown reduction and he now summon a permanent chaos Infernal
-that got 70% of life and 120% damage of Mongrethod respawn every 20 second up to 2 max if they die, they will respawn after 50 second
+Mongrethod gain 30% spell amp with 10% armor increase he also gain 6% cooldown reduction and he now summon a permanent chaos Infernal
+that got 80% of life and 100% damage of Mongrethod respawn every 20 second up to 2 max if they die, they will respawn after 20 second
 
 
 SPELL Q Rain of Fire
-Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max life
-it also reduce the enemy movement speed every they get damage by Rain of Fire
+Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max health and current health for bosses
+it also reduce the enemy movement speed every time they get damage by Rain of Fire
 
 damage 4 9 13 17 plus 20% of strenght per wave, damage type pure
-burn damage 0.1% 0.2% 0.3% 0.4% of current life, damage type magical per second
+burn damage 0.2% 0.3% 0.4% 0.5% of max Health, damage type magical per second
+burn damage 0.2% 0.3% 0.4% 0.5% of current Health, damage type magical per second for bosses
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 2 second
-base movement speed reduction 4% 9% 14% 19%
 movement speed lost per damage 2% 3% 4% 5%
 radius 200 240 280 320
-radius increase by 2 for every point of strenght
+radius increase by 1 for every point of strenght
 cooldown 20
 manacost 100 115 130 145 plus 2% of max mana
 
 talent level 10 Upgrade Rain of Fire
-Increase strenght scaling by 15%
+Increase strenght scaling by 30%
 increase current life as damage by 0.2%
 reduce cooldown by 6
 reduce mana cost by 40
