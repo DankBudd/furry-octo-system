@@ -1,8 +1,5 @@
-Pudge, the Butcher Starting stats 1 str, 3 agi, 0 int, base speed 300, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi, Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
-
-Stats of the game --- 0.20 damage primary stats --- int give 10 mana --- 10 int will give 1% mana --- 10 int will 1% spell amp --- agi give 1 attack speed --- 10 agi will give 1% bonus damage --- str will give 5 life --- 10 str will give 1% life
-
-max level 40 skill total point for max out 29 level needed for point 1 2 3 4 6 8 10 12 14 16 18 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+Pudge, the Butcher Starting stats 10 str, 5 agi, 0 int, base speed 300, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi
+Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
 
 LEVEL 20 TALENT
 
@@ -30,7 +27,8 @@ pure and physical damage and he cannot have more than 300 movement speed slows a
 Talent level 25 Upgrade Fat Body
 add a new modifier Meat Eater
 Butcher basic attack now deal 4% of the target current life in damage and healing him for 150% of the damage done, this effect get a
-cooldown of 16 second if attacking a boss also make all spell of pudge deal 1.1% of the target max health doesnt work for Rotting Flesh
+cooldown of 16 second if attacking a boss also make all spell of pudge deal 1.2% of the target max health doesnt work for Rotting Flesh
+also give pudge 1% magic resist for every 150 health he currently got up to 70% max 
 
 
 SPELL Q Glory Hook
