@@ -1,5 +1,5 @@
-Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 13, Stats gain 1.20 str, 0.80 int, 0.30 agi,
-starting item Great Sword 6 damage 4% lifesteal base attack time 2.20
+Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 13, Stats gain 1.20 str, 0.80 int, 0.30 agi
+
 
 TALENT LEVEL 20
 
@@ -17,9 +17,17 @@ Mighty Warrior level needed 1 5 15 25 PASSIVE D OR F
 increase overall stats and give a positive and negative buff
 
 BUFF sven will gain 1 damage per 3 Strenght instead of 5 he also gain 1% lifesteal per 15 Strenght he also reduce stun,root and blind by
-30% he also start with 2 armor and 5% magic resist
+30% he also start with 1 armor and 5% magic resist he start with a special Sword that can be change
 DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
 type
+
+Sven old Sword Special
+increase damage by 15%
+reduce attack speed by 10
+lifesteal for 15% of the damage done with spell and basic attack
+cleave for 30% of the damage done in front of sven by 320
+can also be use to increase sven attack speed by 40 cooldown of 30 second and last 4 second
+
 
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
