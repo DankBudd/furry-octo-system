@@ -99,7 +99,7 @@ PASSIVE D OR F Incinerate
 increase Volcanus spell amp and make is auto-attack burn the target dealing low damage and reducing healing effect as well.
 If the target dies under Incinerate it will explode dealing high damage
 
-spell amp 4% 6% 8% 10%
+spell amp 4% 7% 10% 13%
 burn damage 6% 9% 12% 15% of intelligence type Magical
 healing reduction 21% 25% 29% 33%
 explosion damage 10 20 30 40 type pure plus 50% of intelligence
@@ -107,7 +107,7 @@ radius of Incinerate explosion 300
 Incinerate duration 3 second
 
 talent level 15 upgrade Incinerate
-increase spell amp by 5%
+increase spell amp by 7%
 increase Incinerate duration by 1
 increase radius by 100
 
@@ -127,13 +127,13 @@ if the target dies under Incinerate they will spawn small lava Pool that deal da
 
 Lava Wave bonus damage 20 40 60
 Increase Lava Wave radius by 100 150 200
-Lava Wave cooldown reduction 9 11 13
-Incinerate explosion per second damage 20% 30% 40% of Incinerate total damage
+Lava Wave cooldown reduction 7 10 13
+Incinerate explosion per second damage 25% 40% 55% of Incinerate total damage
 increase Incinerate Burn damage by 10% 25% 40% of Inteillgence
-Lava Pool damage 10 plus 40% 80% 120% of inteillgence damage type Pure every second
-Lava Pool duration 10 16 22
-cooldown reduction of Soul Burn 14 18 22
-cooldown reduction of Volcano 10 15 20
+Lava Pool damage 6 10 14 plus 50% 100% 150% of inteillgence damage type Pure every second
+Lava Pool duration 10 13 16
+cooldown reduction of Soul Burn 25% 45% 65%
+cooldown reduction of Volcano 15% 40% 75%
 Duration of Hells Power 15 20 25
 cooldown 200 180 160
 mana cost 100 200 300 plus 15% 20% 25% of max mana
@@ -145,7 +145,7 @@ increase the Burn damage by 20%
 Increase lava wave radius by 200
 
 add a new modifier King of Hell
-when casting Hells Power Volcanus Triple in Size increase is life by 250% is damage by 100% and is spell amp by 30%
-and he cannot move he also Summon a Giant Lava Wave 800 radius behind him dealing 400 Magical damage plus 100% of intelligence
-he also get Incinerate on himself exploding every second of the duration of Hells Power but only deal 40% of the damage and having
+when casting Hells Power Volcanus Triple in Size increase his life by 250% is damage by 100% and is spell amp by 30%
+and he cannot move he also Summon a Giant Lava Wave 600 radius behind him dealing 250 Magical damage plus 100% of intelligence
+he also get Incinerate on himself exploding every second of the duration of Hells Power but only deal 50% of the damage and having
 200 radius bonus on him.
