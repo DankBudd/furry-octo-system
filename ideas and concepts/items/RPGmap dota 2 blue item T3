@@ -145,11 +145,16 @@ Bleed the target for 8 physical damage plus 15% of Attack and lifesteal for 40% 
 4 second and damage every second
 
 Active item use Uber Bleed
-bleed all target near the caster 250 radius for 14 physical damage plus 25% of Attack and lifestealing for 50% of the damage dealt
-last 3 second, any target that die durring the Uber Bleed will restore 5% of the user health
+bleed all target near the caster 250 radius for 11 physical damage plus 20% of Attack and lifestealing for 80% of the damage dealt
+last 3 second, any target that die durring the Uber Bleed will restore 3% of the user health
 
-damage 10
-Strenght 8
+damage 6
+Strenght 10
 Life 5%
-attack range 40
+attack range 30
 BAT Modifier 1.90
+
+
+Death Stabber
+
+
