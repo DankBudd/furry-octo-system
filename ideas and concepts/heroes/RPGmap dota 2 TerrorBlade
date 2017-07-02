@@ -158,28 +158,33 @@ and for Normal Form, TerrorBlade will Block any spell cast at him cooldown of 25
 that last 6 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
 
 
-ULTIMATE R Demonic Prison
-Summon Wall of Demonic Speed Being that deal insane damage base on speed and blocking them in place also having new effect base on Forms
-For Normal Form the wall will stay longer and having more life, if any walls dies they will explode into smaller one that deal less
-damage and last longer. for True Form it will have increase damage and making it prison all enemys around TerrorBlade and for every
-enemys in a prison it will have even more damage
+ULTIMATE R Demonic Mirror
+TerrorBlade Summon a wall on each enemys, they will get taunt by the wall for a duration if they kill that wall, a Image of them will
+appear and start to kill them dealing insane damage and having a medium duration and if they die by their own Image, Terroblade will
+feed upon that Image of them Empowering him Base on the form he his
 
-base damage 15% 25% 35% of Movement speed every second
-Wall Health 250 400 550 plus 50% of TerroBlade Health
-durations of Wall 3 4 5
-True Form increase Speed damage 9% 18% 27%
-True Form Radius of Prison 500 700 900
-True Form increase Speed damage per enemys in Prison 2% 4% 6%
-Normal Form walls Health bonus 30% 90% 150% of terrorBlade Health
-Normal Form duration increase 1 2 3
-Normal Form Amount of Smaller Walls upon death 1 2 3
-Smaller Wall damage 2% 5% 8% of speed
-Smaller Wall duration 6 10 14
-mana cost 25% 40% 55% of max mana
-cooldown 90 70 50
+Radius for Mirror 400 550 700
+Wall Health 50% 35% 20% of the target max Health
+Wall duration and taunt 3 3.5 4 second
+Image damage 100% 150% 200% of the target damage
+Image duration 4 5 6 second
+Normal Form bonus life regeneration 6% 9% 12% per second
+Normal Form bonus damage reduction 15% 30% 45%
+True Form bonus damage 45% 90% 135%
+True Form bonus spell amp 20% 40% 60%
+Both Form duration bonus 5 8 11 second
+Cooldown 90 85 80
+mana cost 10% 16% 22% of Max mana 
 
-Talent level 25 upgrade Demonic Prison
+talent level 25 Upgrade Demonic Mirror
+Increase wall and taunt duration by 1
+increase Image damage by 30%
+increase Normal Form Damage reduction by 10%
+increase True Form damage bonus by 25%
+reduce cooldown by 10
 
-Waiting on idea
-
-
+Add a new modifier Foul Mirror
+for every enemys that are affected by the Demonic Mirror, Terroblade will do 2% of the target Max health in damage up to 10%
+for bosses deal Current Health instead and if terroblade is in True Form and Casting Demonic Mirror,he will Proc Nightmare From
+Terror Wave dealing 100% increase damage and stuning them for 1.5 second and for Normal Form he will Sunder every enemys affected by
+Demonic Mirror and dealing 10% more Max Health damage bonus to them 2% for bosses.
