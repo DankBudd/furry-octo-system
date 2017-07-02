@@ -30,7 +30,7 @@ SPELL Q
 Storm Bolt
 deal Heavy damage to a target stunning them and reducing magic resist and armor also pushing the target back
 
-damage 10 25 40 55 plus 70% of strenght -damage type MAGICAL-
+damage 10 25 40 55 plus 40% 50% 60% 70% of strenght -damage type MAGICAL-
 bonus damage 10% pure
 push force 250
 magic resist lost 9% 13% 17% 21%
@@ -54,29 +54,32 @@ if there is no one around storm bolt damage will deal 50% magical and Pure and a
 SPELL W
 Thunder Clap
 Muradin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
-by this spell the more damage it deal
+by this spell the more damage it deal and reducing cooldown
 
-damage 9 12 15 18 plus 15% of strenght -damage type Magical-
+damage 7 11 15 19 plus 8% 12% 16% 20% of strenght -damage type Magical-
 bonus damage 10% pure
 radius 260 270 280 290
 radius increase by 1 for every point of strenght
 attack speed lost 15 20 25 30
 movement speed lost 10% 16% 22% 28%
-bonus damage per enemy hit with thunderclap 1 2 3 4
-debuff duration 3 4 5 6
-cooldown 10
+bonus damage per enemy hit 1 2 3 4
+cooldown reduction per enemy hit 0.10 0.20 0.30 0.40 second
+debuff duration 3.2 3.8 4.4 5
+cooldown 12
 mana cost 70 110 140 170 plus 1% of max mana
 
 talent level 10 Upgrade Thunder Clap
 increase damage by 6
-increase strenght scaling by 10%
-increase radius by 80
+increase strenght scaling by 12%
+increase radius by 40
+increase attack speed lost by 5
+increase movement speed lost by 4%
 increase bonus damage per enemy by 2
 
 add a new mofidier Hammer of Thunder
-Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 plus 50% of Muradin Strenght in pure damage
-and enemys that are below 40% will lose 3% of their Max health 0.6% for bosses and any enemys kill under Lightning Bolt or
-Thunder Clap will restore Muradin Life by 0.8% of his max Health
+Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 30 35 40 plus 80% of Muradin Strenght in pure damage
+and enemys that are below 40% will lose 3% of their Max health 0.4% for bosses and any enemys kill under Lightning Bolt will heal
+Muradin for 1.4% of his max health and for Thunder Clap it will restore Muradin Life by 0.8% of his max Health
 
 SPELL E
 Strenght of the Mountain
@@ -88,43 +91,45 @@ damage bonus 7 10 13 16
 attack speed bonus 25
 number of attack 2 3 4 5
 last hit damage increase 21 30 39 48
-last hit cleave damage 20% 40% 60% 80%
-radius of cleave 300 in front of Muradin
+last hit cleave damage 25% 45% 65% 85%
+radius of cleave 370 in front of Muradin
 no mana cost
 cooldown 38 32 26 20
 
 talent level 15 upgrade Strenght of the Mountain
 increase damage by 4
-increase attack speed by 25
+increase attack speed by 15
 increase last hit damage by 12
 increase cleave radius by 100
 
 add a new modifier Lightning Zone
-after landing the last hit create a lightning zone of 600 radius that deal 11 magical damage plus 10% of strenght to nearby enemy
-and for ally and Muradin, they gain 15% increase base damage and 8% spell amp while inside of it the zone last 10 second
+after landing the last hit create a lightning zone of 600 radius that deal 7 magical damage plus 10% of strenght to nearby enemy
+and for ally and Muradin, they gain 20% increase base damage and 9% spell amp while inside of it the zone last 10 second
 
 PASSIVE D OR F
 Dwarft Mastery
 increase Muradin damage and attack speed also giving him a chance to bash the target dealing damage and stunning them also make enemys
 take damage per second if they get hit by Storm Bolt or Thunder Clap
 
-damage per second by Storm Bolt and Thunder Clap 2% 5% 8% 11% of strenght as damage -damage type Magical- last 3 second
+damage per second by Storm Bolt and Thunder Clap 11% 13% 15% 17% of strenght as damage -damage type Magical- last 3 second
 bonus base damage 2 6 10 14
 bonus attack speed 3% 6% 9% 12%
 bash chance 12% 13% 14% 15%
-bash damage 15 -damage type PHYSICAL-
+bash damage 8 10 12 14 -damage type PHYSICAL-
 Strenght scaling 30% 50% 70% 90%
 bash duration 0.3 0.4 0.5 0.6 last half on bosses
 
 talent level 15 upgrade Dwarft Mastery
-increase stun duration by 0.3
+increase stun duration by 0.2
 increase bonus attack speed by 4%
-increase bash damage by 10
+increase bash damage by 11
 increase strenght scaling by 30%
 
 add a new modifier Mountain Hammer
-every time Muradin bash, the next bash will get 5 increase damage, the buff last 7 second after 4 stack of Mountain Hammer
-the next bash will do pure damage and increase muradin attack speed by 30 for 5 second, this effect got 14 second cooldown
+every time Muradin Bash he will do a Small Thunder Clap that deal 50% of Bash damage and Stun duration to other Target
+of 250 radius and every time he bash the target he will gain 4 attack speed and the next bash will deal 3 more damage max of 5 stacks
+at max stack, the bash damage turn PURE and deal 100% Area of effect damage instead of 50%. the stack duration last 4 second refresh
+every new stacks
 
 
 ULTIMATE R
@@ -134,20 +139,20 @@ increase Muradin armor,damage,life and giving him spell immunity for the duratio
 bonus base damage 20 30 40
 bonus armor 4 8 12
 life bonus 15% 35% 55%
-bash chance increase by 3% 5% 7%
-duration 40 50 60
+bash chance increase by 4% 7% 10%
+duration 25 30 35
 increase size 20% 40% 60%
 no mana cost
-cooldown 240 235 230
+cooldown 150 125 100
 
 talent level 25 upgrade Avatar
 increase bonus damage by 20
 increase bonus armor by 6
 increase bonus life by 15%
-reduce the duration by 40 second
-reduce cooldown by 150
+reduce the duration by 20 second
+reduce cooldown by 40
 
 add a new modifier Titan Might
-Upon casting Avatar deal 150 pure damage plus 50% of strenght around Muradin 300 radius and stuning for 4 second also
+Upon casting Avatar deal 150 pure damage plus 150% of strenght around Muradin 300 radius and stuning for 3 second also
 change muradin attack to PURE DAMAGE for the duration and enemys that get bash durring Avatar will get Stone instead of Stun
-increasing all physical damage by 50% and pure damage by 25% and also stunning for 2.1 second instead
+increasing all physical damage by 40% and pure damage by 75% and also stunning for 1.8 second instead
