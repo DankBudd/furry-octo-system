@@ -1,4 +1,4 @@
-Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 5, Stats Gain per level 3.50 int, 0.00 str, 0.00 agi
+Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 9, Stats Gain per level 3.00 int, 0.00 str, 0.00 agi
 Starting item Broken Orb give 2 damage and 4 int base attack time 3.00 Support-low DSP
 LEVEL 20 TALENT
 
@@ -11,10 +11,10 @@ Talent 2
 
 PASSIVE D OR F Prophet
 
-BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 14 intelligence he also start with 90 bonus mana and immune to Roots he also
-gain a shield every 15 second cannot regain shield in combat, equal to 12% of his mana that last until he take the amount of damage needed
-DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 35 intelligence instead of
-5 he also lose -10 armor at the start and -30% magic resist he can only use ORB type weapons
+BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 15 intelligence he also start with 80 bonus mana and immune to Roots he also
+gain a shield every 5 second cannot regain shield in combat, equal to 20% of his mana that last until he take the amount of damage needed
+DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 32 intelligence instead of
+5 he also lose -8 armor at the start and -20% magic resist he can only use ORB type weapons
 
 talent level 25 upgrade Prophet
 add a new modifier Life Explosion
@@ -43,9 +43,9 @@ increase mana cost by 150
 reduce cooldown by 4
 
 add a new modifier Shield of Might
-after the duration of Shield of Fate the ally will gain a buff that will reduce damage by 25% that last for 6 second and blinding enemy
-for 2.5 second, if cast on self reduce the mana cost by 70% and the cooldown by 50% and double the duration as well
-
+after the shield end, all of the damage the target affected by Time Shield will gain 5% of all that damage taken in life regeneration
+and bonus damage, also any enemys that attack a unit affected by Time Shield will get stun by 0.4 second and take 80% of its damage
+40% for spell
 
 SPELL W Mind Blast
 deal small damage to a unit and fearing them, if cast on ally the next attack or spell will do increase damage and if cast on oracle
@@ -54,12 +54,12 @@ heal him but double the cooldown
 damage 6 11 16 21 plus 14% of int damage type magical
 fear duration 0.2 0.3 0.4 0.5
 next basic attack or spell increase damage 10% 20% 30% 40%
-self healing 15% 30% 45% 60% of max health 
+self healing 12% 20% 28% 36% of max health 
 cooldown 11 10 9 8
 mana cost 70 130 190 250
 
 talent level 10 upgrade Mind blast
-increase damage by 5
+increase damage by 9
 increase int scalling by 9%
 increase fear duration by 0.1
 increase next basic attack or spell damage by 40%
@@ -67,38 +67,40 @@ increase mana cost by 100
 reduce cooldown by 3
 
 add a new modifier Vitality Mind
-now become a 500 Area of Effect that still buff,damage but reduce the healing on oracle to 10% of max health also give a new buff
+now become a 500 Area of Effect that still buff,damage but reduce the healing on oracle to 6% of max health also giving a new buff
 that last 15 second increasing the target life regeneration by 0.50% of their max health 0.25% on oracle, and Mind Blast will also
-deal 1% of the target current life as damage
+deal 1% of the target current life as damage and increasing total health by 4% every time up to 20% refreshing every cast of Mind Blast
 
 
 SPELL E Ancient Healing
-Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well and not restoring any
-mana to Oracle
+Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well and Oracle will not gain
+mana but get heal by the amount of mana restore instead
 
-Heal 20 30 40 50 plus 15% 20% 25% 30% of int
-Heal reduction per jump 6%
+Heal 20 30 40 50 plus 22% 28% 34% 40% of int
+Heal reduction per jump 5%
 mana restore 10 20 30 40 plus 10% 12% 14% 16% of int
-mana restore reduction per jump 6%
-max reductions 60%
+mana restore reduction per jump 5%
+max reductions 50%
 jump distence 500
 max jump 3 4 5 6
 increase max jump by 1 for every 26 intelligence points
 jump delay 0.5 second
-cooldown 6 5 4 3
+cooldown 5.5 5 4.5 4
 mana cost 100 140 180 220
 
 talent level 15 upgrade Ancient Healing
 increase heal by 50
 increase heal scaling int by 15%
 increase max jump by 5
-reduce the heal and mana reduction by 4%
-increase mana cost by 110
+reduce the heal and mana reduction by 3%
+increase mana cost by 80
 reduce cooldown by 1
 
 add a new modifier Ancestral Power
 healing jump turn global casting it on oracle will not make it global and never stop jumping until here is no jump remaing,
 meaning that it will affect the target multiple time with no limit but it will alway target people with the least health
+Ancient Healing also got 25% chance to double the Amount of healing instead of normal and increasing that target movement speed by
+15% for 5 second
 
 
 PASSIVE D OR F Fate Aura
@@ -120,9 +122,9 @@ increase enemy damage taken by 10%
 increase magic resist by 3%
 
 add a new modifier Fate Armor
-increase the armor bonus by 1 for every 60 inteillgence oracle he got, oracle also gain 1% cooldown reduction for every 24 inteillgence
-that only work for him and not giving that to near ally, any enemy that die inside of the radius of fate aura will give oracle and is
-ally 1% life back 10% for bosses and also giving them 3 damage and 1% spell amp that last 10 second
+increase the armor bonus by 1 for every 55 inteillgence oracle he got, oracle also gain 1% cooldown reduction for every 15 inteillgence
+that only work for him and not giving that to near ally, any enemy that die inside of the radius of fate aura will give oracle and his
+allys 2% life back and full health for bosses and also giving them 2 damage and 1% spell amp that last 10 second that stack up to 10 max
 
 
 ULTIMATE r Fate's Edict
@@ -131,31 +133,32 @@ on the previous target and give the buff to that ally instead it can also be sta
 on ally summon or oracle. 10% of your ally damage done will heal you and restore mana as well on the ally affected by the buff
 
 FIRST BUFF
-life bonus 6% 12% 18%
-base damage 8 14 20
-cast range 80 160 240
-spell amp 7% 14% 21%
-armor 1 3 5
-magic resist 4% 8% 12%
-mana 5% 15% 25%
+life bonus 7% 14% 21%
+base damage 5 15 25
+cast range 60 140 220
+spell amp 5% 10% 15%
+armor 2 3 4
+magic resist 6% 12% 18%
+mana 10% 20% 30%
 STACKING BUFF
 life bonus 1% 3% 5%
-base damage 2 5 8
-cast range 30 60 90
-spell amp 5% 7% 9%
+mana bonus 4% 7% 10%
+base damage 1 3 5
+cast range 20 50 80
+spell amp 1% 4% 7%
 armor 1 2 3
 magic resist 2% 4% 6%
 mana 4% 7% 10%
-cooldown 300
-mana cost 50% of max mana
+cooldown 280
+mana cost 65% of max mana
 
 
 talent level 25 upgrade Fate's Edict
 increase max stack by 1
-increase life bonus on first buff by 12%
-increase mana bonus on first buff by 25%
+increase life bonus on first buff by 11%
+increase mana bonus on first buff by 20%
 
 add a new modifier Seal Fate
 giving a Fate's Edict to any ally, will give one small stack to all party member but oracle they cannot have more than 2 stack on them
-and also reduce the cooldown by 2 of Fate's Edict every time your first buff ally deal any kind of damage, if the target reach max stack
+and also reduce the cooldown by 0.80 of Fate's Edict every time your first buff ally deal any kind of damage, if the target reach max stack
 oracle will gain 35% cooldown reduction until is ally die and lose all stack or change to a new one stacking again
