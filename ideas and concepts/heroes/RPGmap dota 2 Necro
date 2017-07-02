@@ -32,7 +32,7 @@ can also be use to give this bonus to skeleton only for 50% of the bonus
 talent level 25, upgrade Corrupted Flesh
 give a new modfier Death Walks Among Us
 any enemy that die near Necro 900 radius will be reanimated as a skeleton
-that last for 25 second with 100% of the normal Skeleton Warrior stats as well
+that last for 25 second with 100% of the normal Skeleton Warrior stats as well they got 6% chance to have 200% instead
 
 
 SPELL Q
@@ -65,8 +65,8 @@ Max skeleton increase by 6
 
 add a new modifier Bone Wave
 every time the Skeleton warrior attack they will make a Bone Wave in front of them that travel only 350 far and 200 radius
-that deal 25% of the skeleton damage to the enemys and those enemys hit by the Bone Wave will have 10% chance to be rooted for 0.3 second
-and after the root end it will damage them by 0.5% of their max health 0.1% for bosses
+that deal 70% of the skeleton damage to the enemys and those enemys hit by the Bone Wave will have 10% chance to be rooted for 0.3 second
+and after the root end it will damage them by 0.3% of their max health 0.1% current life for bosses
 
 SPELL W
 Skeleton Archer
@@ -125,7 +125,7 @@ heal ally skeleton or damage enemy, also reduce the enemy regen and increase ske
 damage 10 20 30 40 magical plus 50% of int
 heal 20 40 60 80 can only affect skeleton of necro
 bonus heal 3% 5% 7% 9% of max health
-enemy regen reduction -7 -14 -21 -28 last 4 second
+enemy regen reduction -4 -7 -10 -13 last 4 second
 skeleton increase damage 4 8 12 16 last 6 second
 skeleton attack speed increase 7 14 21 28 last 6 second
 mana cost 150 plus 2% 3% 4% 5% of max mana
@@ -133,11 +133,11 @@ cooldown 12
 
 
 talent level 15 upgrade Death Coil
-increase the damage of Death Coil by 15
-increase int scaling by 30%
+increase the damage of Death Coil by 5
+increase int scaling by 20%
 increase heal by 40
-increase bonus heal by 11%
-increase enemy regen reduction by -12
+increase bonus heal by 7%
+increase enemy regen reduction by -9
 skeleton damage increase by 8
 skeleton attack speed increase by 12
 
@@ -145,6 +145,7 @@ add a new modifier Bouncing Coil
 now the death coil will bounce 7 time each bounce will deal 10% more damage and heal per bounce
 if cast on enemy it will only try to bounce on enemy if there is no enemy left it will start bouncing on skeleton
 if cast on skeletons it will only try to bounce on skeletons if there is no skeleton left it will start bouncing on enemy
+if any enemys die by Death Coil it will Summon a new one for only 50% of the damage and still get increase damage per bounce
 
 
 PASSIVE D OR F
@@ -171,42 +172,42 @@ Skeleton attack speed 12
 Skeleton movement speed 11%
 
 add a new modifier Undead Master
-any skeleton that die will come back to life after 2 second with 30% of thier max life
-cooldown of 90 second and if they die again they will release a lesser version of Death Coil
-that deal only 35% of the heal and damage to a random target in a 600 radius, only affect skeleton or the enemy
+Skeleton that die will come back to life only once with 50% of their health and have 15% increase damage and 10 attack speed as well
+until death and when they die, they will explode for 50% of their max health as damage to nearby units, cursing them as well reducing
+heal recive by 10% for 7 second
 
 
 ULTIMATE R
 Death Touch
-empower skeletons or deal high damage to a enemy, summons will get increase in a radius, for enemys they will suffer
-great damage over time debuffing them for a short duration
+casting Death Touch on any Summon will give it to all of them increasing damage,attack speed,armor and magic resist or if casted on 
+enemys they will suffer insane damage per second losing magic resist,attack speed and reducing all type of damage they do
 
 IF CAST ON ENEMY
-damage per second 35 50 65 plus 20% of int -damage type magical-
+damage per second 25 50 75 plus 30% 40% 50% of int -damage type magical-
 enemy magic resist lost 10% 18% 26%
 enemy attack speed lost 25 35 45
-enemy damage lost 20% 35% 50%
-duration 5
+enemy damage reduction 20% 30% 40%
+duration 6
 
-IF CAST ON SKELETONS
-bonus damage 15 30 45
-bonus attack speed 10 40 70
-bonus armor 4 8 12
+IF CASTED ON SKELETON
+bonus base damage 11 22 33
+bonus attack speed 25 40 55
+bonus armor 3 7 11
 bonus magic resist 20% 40% 60%
-last 15 second
+last 10 11 12 second
 
 mana cost 150 plus 30% of max mana
-cooldown 85
+cooldown 95 90 85
 
 talent level 25 upgrade Death Touch
 increase damage by 10
 increase int scaling by 30%
 increase magic resist lost by 10%
-increase bonus damage by 15
-increase attack speed bonus 20
-increase armor bonus by 6
+increase damage lost by 5%
+increase bonus damage by 11
+increase attack speed bonus 10
 
 add a new modifier Bless by the Death God
-can be cast on ally for 25% more bonus, if cast on enemy all enemy around that target
-800 radius afftected by Death Touch will get damage by 800% of the spell OR if cast on ally
-all skeleton in a 800 radius of the ally buff will get 50% of the damage
+Enemys that die under Death Touch will Spread it to other target for 80% of the damage and for 4 second duration, Necro also get Heal by
+35% of the damage dealt by Death Touch. Death Touch can also be cast on allys for 50% of its bonus with 25% more duration on them
+and for Skeleton every time they kill something under Death Touch, they will gain 1% life bonus up to 40% and it will last until they die
