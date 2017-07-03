@@ -34,7 +34,7 @@ Send a wave of Terror Force dealing damage and making enemys sleep making them h
 they have a Small chance to take insane damage and waking up, running in fear from TerrorBlade. bosses will take Triple damage from
 the wave, they cannot be Sleep. the wave will deal double damage while in True Form and the Sleep duration will be increase by 2 second
 
-damage 14 20 26 32 plus 25% of agility Physical damage
+damage 14 20 26 32 plus 10% 15% 20% 25% of agility Physical damage
 radius of the wave 200
 Wave max distance 450 500 550 600
 Sleep duration 5 second
@@ -92,14 +92,14 @@ with reducing armor and reducing mana regeneration as well
 
 SPEED BLAST
 base damage 10
-MoveSpeed into damage 9% 13% 17% 21% of total MoveSpeed
+MoveSpeed into damage 8% 12% 16% 22% of total MoveSpeed
 duration of root 0.5 0.7 0.9 1.1
 increase duration of root by 0.1 for every 200 movement speed
 attack speed lost 50 70 90 110 while affected by root
 increase attack speed lost by 1 for every point of agility
 cooldown 17 14 11 9
 ZEAL
-damage 6 10 14 18 plus 15% of agility physical damage
+damage 6 10 14 18 plus 16% 20% 24% 28% of agility physical damage
 duration of disarm 0.5 1 1.5 2
 Armor reduction 2 4 6 8
 increase armor reduction by 1 for every 40 agility
@@ -110,8 +110,8 @@ mana cost for both 50 55 60 65 plus 2% of max mana
 
 talent level 15 upgrade Speed Blast AND Zeal
 increase Speed Blast damage by 4% of movement speed
-increase Speed Blast root by 0.3
-Increase Zeal agility scaling by 10%
+increase Speed Blast root by 0.2
+Increase Zeal agility scaling by 12%
 increase Zeal Mana regeneration lost by 8
 
 add a new modifier Demonic Vessel
@@ -126,32 +126,32 @@ making Sunder Stronger and for True Form he will take more damage from pure,phys
 attack speed, movement speed and making Terror Wave stronger
 
 TRUE FORM
-damage taken increase by 25% 50% 75% 100%
-base damage bonus 5 10 15 20
+damage taken increase by 50% 70% 90% 110%
+base damage bonus 6 12 18 24
 attack range 250 300 350 400
-attack speed 7 14 21 28
-movement speed 4% 10% 16% 22%
+attack speed 8 16 24 32
+movement speed 4% 8% 12% 16%
 NORMAL FORM
 base damage reduce by 20% 40% 60% 80%
 attack speed reduce by 20 35 50 65
 damage reduction bonus 6% 10% 14% 18%
-Life bonus 8% 16% 24% 32%
+Life bonus 10% 18% 26% 34%
 Stun resist 9% 11% 13% 15%
 Roots resist 13% 17% 21% 25%
 cooldown to change form 20 second
 
 talent level 15 Upgrade Metamorphosis
 TRUE FORM
-increase base damage by 10
-increase attack range by 220
-increase attack speed by 14
+increase base damage by 12
+increase attack range by 190
+increase attack speed by 16
 NORMAL FORM
-increase life bonus by 20%
+increase life bonus by 18%
 increase Stun resist by 8%
 increase Roots resist by 15%
 
 add a new modifier Unstable Form
-every time TerrorBlade Change form he will explode for 11% 14% 18% 22% of his Movement Speed and Purging all debuff affected on him.
+every time TerrorBlade Change form he will explode for 12% 16% 20% 24% of his Movement Speed and Purging all debuff affected on him.
 when in True Form TerrorBlade attack will bounce up to 4 target dealing only 40% of his damage and enemys that die while in True Form
 will give him 1% increase damage and 0.5% spell amp up to 40 stack refresh every time something dies by TerrorBlade last 6 second
 and for Normal Form, TerrorBlade will Block any spell cast at him cooldown of 25 second and giving him self 15% more damage reduction
@@ -172,7 +172,7 @@ Normal Form bonus life regeneration 6% 9% 12% per second
 Normal Form bonus damage reduction 15% 30% 45%
 True Form bonus damage 45% 90% 135%
 True Form bonus spell amp 20% 40% 60%
-Both Form duration bonus 5 8 11 second
+Both Form duration bonus 4 5 6 second
 Cooldown 90 85 80
 mana cost 10% 16% 22% of Max mana 
 
