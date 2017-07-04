@@ -96,11 +96,13 @@ damage both of them will last 35 second and spawning new one will refresh the du
 
 
 PASSIVE D OR F Incinerate
-increase Volcanus spell amp and make is auto-attack burn the target dealing low damage and reducing healing effect as well.
-If the target dies under Incinerate it will explode dealing high damage
+increase Volcanus spell amp and make is auto-attack burn the target dealing low damage but increasing the burn damage every attack
+and reducing healing effect as well. If the target dies under Incinerate it will explode dealing high damage
 
 spell amp 4% 7% 10% 13%
-burn damage 6% 9% 12% 15% of intelligence type Magical
+burn damage 10% 15% 20% 25% of intelligence type Magical
+increase burn damage 1% 2% 3% 4% of inteillgence every attack
+max stack 4 6 8 10 of increase burn damage
 healing reduction 21% 25% 29% 33%
 explosion damage 10 20 30 40 type pure plus 50% of intelligence
 radius of Incinerate explosion 300
@@ -108,6 +110,7 @@ Incinerate duration 3 second
 
 talent level 15 upgrade Incinerate
 increase spell amp by 7%
+increase max stack by 5
 increase Incinerate duration by 1
 increase radius by 100
 
@@ -127,13 +130,13 @@ if the target dies under Incinerate they will spawn small lava Pool that deal da
 
 Lava Wave bonus damage 20 40 60
 Increase Lava Wave radius by 100 150 200
-Lava Wave cooldown reduction 7 10 13
+Lava Wave cooldown reduction 7 9 11
 Incinerate explosion per second damage 25% 40% 55% of Incinerate total damage
-increase Incinerate Burn damage by 10% 25% 40% of Inteillgence
-Lava Pool damage 6 10 14 plus 50% 100% 150% of inteillgence damage type Pure every second
+increase Incinerate Burn damage by 10% 40% 70% of Inteillgence
+Lava Pool damage 6 10 14 plus 50% 100% 150% of inteillgence damage type magical every second
 Lava Pool duration 10 13 16
 cooldown reduction of Soul Burn 25% 45% 65%
-cooldown reduction of Volcano 15% 40% 75%
+cooldown reduction of Volcano 30% 40% 50%
 Duration of Hells Power 15 20 25
 cooldown 200 180 160
 mana cost 100 200 300 plus 15% 20% 25% of max mana
