@@ -41,7 +41,7 @@ Void Curse
 
 Curse the enemy dealing damage over time to a target lowering magic resist and reducing life regeneration for the duration
 
-Damage 6 9 12 15 type magical plus 10% of intelligence
+Damage 6 9 12 15 type magical plus 10% 11% 12% 13% of intelligence
 Duration 5 6 7 8 second damage every 1 second
 life regeneration lost -0.2 -0.4 -0.6 -0.8 per tick of damage
 Magic resist lost 1% per tick of damage
@@ -51,6 +51,7 @@ Mana cost 100 130 160 190 plus 1% of max mana
 
 
 Talent level 10 Upgrade Void Curse
+increase damage by 6
 increase damage by 10% of enigma intelligence
 increase duration by 2
 increase life regeneration lost by 0.5
