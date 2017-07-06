@@ -1,4 +1,4 @@
-Zet Starting stats 4 Int, 4 Agi, 4 Str, base speed 300, base damage 5, Stats Gain per level 0.60 int, 0.60 str, 0.60 agi
+Zet Starting stats 4 Int, 4 Agi, 4 Str, base speed 300, base damage 3, Stats Gain per level 0.60 int, 0.60 str, 0.60 agi
 Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80 Support-DSP-Tank
 
 LEVEL 20 TALENT
@@ -13,7 +13,7 @@ PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
 
 BUFF Zet get 50% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
-give 1 damage per 14 into that one and he his immune to slows he also got a special Boots item that scale per level
+give 1 damage per 18 into that one and he his immune to slows he also got a special Boots item that scale per level
 DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
 are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
 
@@ -22,12 +22,12 @@ increase all stats by 2 increase by 1 every 5 level
 increase life gain from strenght by 1
 increase mana gain from inteillgence by 2
 increase movement speed by 25 FLAT increase by 2 every level
-also make agility and inteillgence give 1 life per points and strenght giving 3 mana
+also make agility and inteillgence give 1 life per points and strenght giving 2 mana
 
 talent level 25 upgrade Lightning God
 add a new modifier Pure Lightning
 all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back
-they also give him 5 base damage that stack up to 40 last 10 second refresh every time Zet cast a spell
+they also give him 5 base damage that stack up to 30 last 10 second refresh every time Zet cast a spell
 
 
 SPELL Q
@@ -107,20 +107,20 @@ dealing 20% 25% 30% 35% Strenght plus 2% 3% 4% 5% of Zet life as well, radius of
 
 
 PASSIVE D OR F Lightning Body
-increase Zet Stats for every enemy kill with Lightning Arc and Heal from Surge, Zet also block magic damage and physical damage for a 
-% of his Strenght
-
+increase Zet Stats for every enemy kill with Lightning Arc and Heal from Surge, Zet also increase his agility and inteillgence by a %
+of his Strenght, and also Increase Strenght as well
 agility bonus for every kill 1 2 3 4
 duration of Agility gain 18 20 22 24
 Inteillgence bonus for every healed teamates 1 3 5 7
 duration of inteillgence gain 10 14 18 22
-gain 1 physical block for every 42 38 34 30 strenght
-gain 2 magical block for every 42 38 34 30 strenght
+Strenght Bonus 5% 10% 15% 20%
+increase agility by 1% for every 38 34 30 26 Strenght
+Increase Inteillgence by 1% for every 38 34 30 26 Strenght
 
 talent level 15 upgrade Lightning Body
 increase duration of agility bonus by 8
 increase the duration of inteillgence bonus by 16
-reduce how much strenght is needed for both magical and physical block by 6
+reduce how much Strenght is needed for Agility and Inteillgence by 8
 
 add a new modifier Charge Body
 enemy that damage Zet will take 5 plus 12% of Zet Attributes as pure damage if zet take more than 35% of his max Health increase
