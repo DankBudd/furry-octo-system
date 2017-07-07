@@ -1,5 +1,5 @@
-Zul'Nu Starting stats 9 Int, 7 Agi, 5 Str, base speed 300, base damage 4, Stats Gain per level 1.10 int, 0.50 str, 0.20 agi
-Starting item Broken Staff give 1 damage and 3% heal amp base attack time 2.20 High-Support Small-Nuker
+Zul'Nu Starting stats 8 Int, 6 Agi, 7 Str, base speed 300, base damage 4, Stats Gain per level 1.10 int, 0.50 str, 0.20 agi
+Starting item Broken Staff give 1 damage and 3% heal amp base attack time 2.20 High-Support Medium-Nuker
 LEVEL 20 TALENT
 
 Talent 1
@@ -27,22 +27,23 @@ throw a skull that bounce to ally or enemy if cast on ally it will bounce for al
 the skull heal ally and giving them a damage bonus,for the enemy they will get damage,stun and a small chance
 to be Paralyze. Paralyze enemy will suffer from damage over time and ally will deal flat bonus damage to them for basic attack
 
-Heal 12 25 38 51 plus 13% 24% 35% 46% of int
+Heal 12 25 38 51 plus 20% 30% 40% 50% of int
 damage bonus 8% 14% 18% 22%
-buff duration 12 second
+increase damage bonus by 1% for every 20 inteillgence
+buff duration 8 9 10 11 second
 damage 3 9 15 21 plus 10% 20% 30% 40% of int as magical
 stun duration 0.3 0.4 0.5 0.6
-paralyze chance 8% 9% 10% 11%
+paralyze chance 10% 11% 12% 13%
 paralyze damage every second 1 3 5 7 plus 3% of int as pure
 damage bonus taken 3 6 9 12 plus 15% of int as magical
 debuff duration 6 second
-amount of bounce 4 6 8 10
+amount of bounce 3 6 9 12
 cooldown 14 second
 mana cost 100 140 180 220 plus 3% of max mana
 
 talent level 10 Upgrade Skull Dance
-increase heal by 22
-increase damage bonus by 9%
+increase heal by 25
+increase damage bonus by 10%
 increase damage by 7
 increase chance of paralyzeby 7%
 increase stun duration by 0.1
@@ -50,8 +51,8 @@ increase bounce amount by 4
 
 add a new modifier The Bone Zone
 after the skull land on any ally or enemy here is 20% chance to summon a Bone Zone of a 400 radius enemy that enter this zone they will
-take more damage from Skull Dance by 200% and ally will get 330% more healing from Skull Dance after the Bone Zone duration ends it will
-inprison all enemys inside of it rooting them for 3 second and increasing the chance of spawning a new Bone Zone on death by 35%, also
+take more damage from Skull Dance by 200% and ally will get 280% more healing from Skull Dance after the Bone Zone duration ends it will
+inprison all enemys inside of it rooting them for 3 second and increasing the chance of spawning a new Bone Zone on death by 25%, also
 the Bone Zone last 4 second
 
 SPELL W Spiritual Voodoo
@@ -60,7 +61,7 @@ to double the effect becoming even more strong in power, Spiritual Voodoo will d
 
 base damage 22 24 26 28 magical
 missing life needed for bonus 16% 14% 12% 10%
-damage bonus for every missing life 15% 30% 45% 60%
+damage bonus for every missing life 20% 30% 40% 50%
 increase bonus damage by 1% for every 4 inteillgence
 base healing 30 33 36 39
 missing life needed for bonus 12% 10% 8% 6%
@@ -72,15 +73,16 @@ mana cost 100 plus 5% of max mana
 
 
 talent level 10 upgrade Spiritual Voodoo
-reduce missing life needed for bonus damage by 3%
-reduce missing life needed for bonus healing by 2%
-increase base damage by 3
-increase base heal by 22
+reduce missing life needed for bonus damage by 2%
+reduce missing life needed for bonus healing by 1%
+increase base damage by 6
+increase base heal by 11
 reduce cooldown by 3
 
 add a new modifier Horror Voodoo
 casting Spiritual Voodoo on enemys below 60% fear them for 2 second after the fear end, 40% of Spiritual Voodoo will do pure damage and
-the other part 60% magical and for ally make them immune to magic for 2 second after that they will get 110 attack speed for 2 second
+the other part 60% magical and for ally make them immune to magic for 2 second after that they will get 110 attack speed for 2 second.
+if any enemys die or allys get fully heal reduce the cooldown of Spiritual Voodoo by 5 and refund 70% of the mana cost
 
 
 SPELL E Spirit Curse
@@ -88,27 +90,27 @@ curse enemys dealing damage every second after a short duration it will deal bur
 the Spirit Curse. every time they die under Spirit Curse they will explode for high damage and giving Spirit curse to other target
 dealing max health damage to enemys and healing ally for max health as well.
 
-base damage 6 7 8 9 plus 4% of inteillgence every 0.5 second
-burst damge amount 12% 20% 28% 36% of total damage taken
+base damage 6 7 8 9 plus 5% of inteillgence every 0.5 second
+burst damge amount 16% 24% 32% 40% of total damage taken
 duration 3 4 5 6 second
 radius 370
 increase radius by 5 for every level ZulNu got
 explosion damage 3% 5% 7% 9% of health
 explosion damage on boss 1% 1.5% 2% 2.5%
-explosion heal 4% 8% 12% 16% of Health
-cooldown 26
+explosion heal 9% 12% 15% 18% of Health
+cooldown 24
 mana cost 50 100 150 200 plus 2% of max mana
 
 talent level 15 upgrade Spirit Curse
-increase base damage by 11
-increase Burst damage amount by 10%
-increase explosion damage by 9%
-increase explosion heal by 16%
-reduce cooldown by 4
+increase base damage by 4
+increase Burst damage amount by 20%
+increase explosion damage by 3%
+increase explosion heal by 11%
+reduce cooldown by 1
 
 add a new modifier Mad Spirit
-after the duration ends if the target is alive it will spawn a lesser Voodoo Spirit with 125% of ZulNu life and damage and if the target
-die during Spirit Curse they will summon a Greater Voodoo Spirit with 250% of ZulNu life and damage they both last 8 second
+after the duration ends if the target is alive it will spawn a lesser Voodoo Spirit with 130% of ZulNu life and damage and if the target
+die during Spirit Curse they will summon a Greater Voodoo Spirit with 260% of ZulNu life and damage they both last 8 second
 after death, they will return to Zulnu healing him for 6% max health and mana Greater Voodoo spirit will give 12% instead
 
 
@@ -116,16 +118,18 @@ PASSIVE D OR F Ritual Aura
 allys will lifesteal for a flat amount on basic attack and having spell lifesteal as well also increase inteillgence of ally with
 increasing Health and Mana Regenerations Bonus also ZulNu will only get 50% of the flat lifesteal
 
-Flat lifesteal 3 6 9 12 plus 7% of inteillgence
+Flat lifesteal 3 6 9 12 plus 8% of inteillgence
 spell lifesteal 9% 12% 15% 18%
 bonus inteillgence 4 8 12 16
 life regeneration bonus 30% 40% 50% 60%
 mana regeneration bonus 10% 20% 30% 40%
+radius of aura 1200
 
 talent level 15 upgrade Ritual Aura
-increase Flat lifesteal inteillgence scaling by 6%
+increase Flat lifesteal inteillgence scaling by 7%
 increase spell lifesteal by 12%
 increase bonus inteillgence by 9
+increase radius aura by 400
 
 
 add a new modifier Abutalabashuneba
@@ -147,15 +151,15 @@ Base damage 5% 10% 15% of max health -deal current health on bosses instead-
 Base healing 10% 20% 30% of max health
 FLASK 1
 ENEMYS take 3% 7% 11% of their max life in 6 second after it end they get stun for 1 2 3 second
-ALLYS will get heal for 6% 12% 18% max life in 4 second after it end they will heal all other ally for 50% of the base healing 500 radius
+ALLYS will get heal for 6% 12% 18% max life in 4 second after it end they will heal all other ally for 150% of the base healing 500 radius
 FLASK 2
 ENEMYS lose 20% 35% 50% damage and deal 10% 20% 30% less damage with spell for 5 second after it end give it to all near enemy for half
 ALLYS get 15% 30% 45% increase damage and gain 10% 20% 30% spell amp as well for 5 second after it end give that bonus to Zulnu for
 double.
 FLASK 3
-ENEMYS will not attack Agility or Inteillgence heroes for 10 second and will only attack strenght Heroes dealing 15% 20% 25% less damage
+ENEMYS will not attack Agility or Inteillgence heroes for 10 second and will only attack strenght Heroes dealing 15% 25% 35% less damage
 to them
-ALLYS will gain 20% 40% 60% increase primary Attributes for 6 9 12 seconds and killing enemys will increase the duration by 0.2 0.4 0.6
+ALLYS will gain 20% 40% 60% increase primary Attributes for 6 9 12 seconds and killing enemys will increase the duration by 0.3 0.6 0.9
 second more and 50% of those kill will increase the Attributes gain by 2% 4% 6%
 cooldown 90 70 50
 mana cost 125 250 375 plus 3% of max mana
