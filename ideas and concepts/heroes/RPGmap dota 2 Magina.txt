@@ -41,8 +41,8 @@ cooldown 22 20 18 16
 mana cost 100 150 200 250 plus 1% of max mana
 
 talent level 10 upgrade Mana Break
-increase base damage by 15
-increase agility scaling by 10%
+increase base damage by 14
+increase agility scaling by 25%
 increase bonus damage per mana 0.1
 increase damage bonus by 75% when enemys have no mana pool
 cooldown reduce by 4
@@ -64,8 +64,8 @@ silence duration 1 1.5 2 2.5
 area of effect 250 275 300 325
 increase area of effect by 1 for every point of agility
 range 500 700 900 1100
-Blinding Skin duration 1.4 1.5 1.6 1.7
-blind duration on enemys 1 1.4 1.8 2.2
+Blinding Skin duration 1.7 2.1 2.5 2.9
+blind duration on enemys 1 1.3 1.6 1.9
 miss chance from blind 15% 25% 35% 45%
 mana cost 100 110 120 130 plus 3% of his mana
 cooldown 37 34 31 28
@@ -73,14 +73,16 @@ cooldown 37 34 31 28
 talent level 10 upgrade Blink
 increase damage by 20
 increase agility scaling by 30%
+increase Blinding Skin duration by 1.2
 increase silence duration by 1.5
 increase cast range by 4 for every point of agility
 increase area of effect by 75
 reduce cooldown by 8
 
 add a new modifier Hard Skin
-Upon Blinking in Magina will gain 70% damage reduction for 5 second and for every hit he take, he will
+Upon Blinking in Magina will gain 70% damage reduction for 4 second and for every hit he take, he will
 reduce the cooldown of blink by 0.5 for the duration of Hard Skin and empowering Blink damage by 1 up to 70 max damage bonus
+and any enemys that cast a spell on Magina for the duration of Hard Skin will get a Anti-magic Blink that deal only 50% of blink damage
 
 SPELL E
 
@@ -88,25 +90,25 @@ Unstable Spell Shield
 Magina will deal damage around him stuning all target, if Magina take magical damage he will store that damage and make the
 spell do even more damage on next cast
 
-base damage 20 25 30 35 Magical damage
+base damage 5 10 15 20 Magical damage
 magical damage Store 40% 50% 60% 70% of the damage taken
-max damage store 20 30 40 50
-increase max damage store by 1 for every 2 point of agility
+max damage store 20 40 60 80
+increase max damage store by 1 for every point of agility
 radius 320 360 400 440
-stun duration 1 1.3 1.7 2.1
+stun duration 1 1.4 1.8 2.2
 mana cost 100 plus 2% 5% 8% 11% of max mana
 cooldown 38 34 30 26
 
 talent level 15 Upgrade Unstable Spell Shield
-increase base damage by 25
-increase max damage store by 50
+increase base damage by 15% of agility
+increase max damage store by 30
 increase radius by 110
 increase stun by 0.3
 remove the max mana cost
 
 add a new modfier Burning Explosion
 Unstable Spell Shield will burn the enemy for 30% of its base damage for 4 second, dealing damage every 1 tick of second
-if the enemy die under this effect reduce the cooldown of Unstable Spell Shield by 3 and give Magina 6% mana back
+if the enemy die under this effect reduce the cooldown of Unstable Spell Shield by 4 and give Magina 6% mana back
 
 PASSIVE D OF F
 Mage-Hunter
@@ -114,9 +116,9 @@ increase Magina Magic resist and agility if any enemy or ally near him cast spel
 if Magina reach the amount of stack needed he will get increase power
 
 Magic resist 5% 10% 15% 20%
-agility 4 7 10 13
+agility 4 6 8 10
 bonus agility and attack speed from enemy 1 for every stack
-stack needed for full power 15
+stack needed for full power 9 11 13 15
 full power bonus damage 10 15 20 25
 full power armor bonus 3 5 7 9
 full power life regeneration 6 8 10 12
@@ -141,18 +143,18 @@ Magina use all of is mana to deal heavy damage to one target and also around the
 he also stun longer the more mana he use
 
 base damage 20 60 100 type Magical
-bonus damage 10% 20% 30% of total mana use
+bonus damage 10% 25% 40% of total mana use
 target max mana as damage bonus 5% 10% 15%
 base stun 0.6 1 1.4
-increase stun duration by 0.4 for every 500 mana
+increase stun duration by 0.2 for every 400 mana
 mana cost 100% of current mana
 cooldown 300 210 120
 
 talent level 25 Upgrade mana Void
-increase bonus by 20% of total mana use
+increase bonus by 10% of total mana use
 increase target mana as damage by 10%
-increase stun duration by 0.8 second
-reduce cooldown by 20
+increase stun duration by 0.6 second
+reduce cooldown by 30
 
 add a new modfier Mana Steal
 after casting Mana Void Magina gain a buff of Mana Steal that last 30 second, any enemy near Magina 700 radius
