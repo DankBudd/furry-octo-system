@@ -2,33 +2,36 @@ BOSS Wasuro Level 5 -xp gain 40% bonus
 STATS
 range Melee
 BAT 1.80
-life 1200/1200
+life 1300/1300
 mana 500/500
-damage 15-25
-armor 4
-magic resist 12%
-life regeneration 1.4
+damage 11-25
+armor 3
+magic resist 15%
+life regeneration 1.7
 mana regeneration 2
 
 SPELL 1 Sword Slash
-Wasuro Swipes his sword delay of 1.4 second dealing 35 magical damage plus 1% of the heroes health disabling life regeneration for 3 second
+Wasuro Swipes his sword delay of 1.4 second dealing 35 physical damage plus 1% of the heroes health disabling life regeneration for 3 second
 after the duration end it explode for 10 pure damage and stuning for 1.2 second radius of 300
+mana cost 70, coldown 5
 
 SPELL 2 Wild Charge
-after 1.5 second of channel, Wasuro start running at 450 speed in front of him dealing 60 magical damage plus 1% of heroes max health and
-stunning them for 2 second after he reach his destination he will blink on a random hero dealing 7 magical damage per second for 7 second
+after 1.5 second of channel, Wasuro start running at 500 speed in front of him dealing 60 physical damage plus 1% of heroes max health and
+stunning them for 2 second after he reach his destination he will blink on a random hero dealing 10 physical damage per second for 3 second
+mana cost 100, coldown 12
 
 SPELL 3 ULTIMATE Duel arena
-Wasuro makes a area of 800 radius traping all heroes dealing 0.6% of their max life per second for 20 second, while Wasuro is inside of
+Wasuro makes a area of 800 radius traping all heroes dealing 0.6% of their max life per second for 13 second, while Wasuro is inside of
 his Duel Arena he will gain 50% more damage with 50% crowd control resist he also gain 10% lifesteal as well and all of his spell will
 do 30% increase damage, Heroes will get a debuff that reduce their magic resist by 5% and armor by 2 also reducing spell amp by 3%
 and reducing damage by 10%
+no mana cost no coldown only trigger at 40% life lost every time
 
 PASSIVE 1 Blade cut
 Wasuro cuts the enemy armor reducing it by 1 if the heroes reach 6 stack of Blade Cut they will take pure damage instead of physical
 from Wasuro attacks he also attack faster every time he attack the same person increasing attack speed by 10 every time, Sword Slash
-give 2 stacks of Blade cut
+give 3 stacks of Blade cut
 
 BOSS PASSIVE Unbroken Will
-if Wasuro lose 25% hp in 10 second he will become magic immune for 3 second purging all debuff and going crazy as well gaining 100 attack
+if Wasuro lose 20% hp in 8 second he will become magic immune for 3.5 second purging all debuff and going crazy as well gaining 100 attack
 speed with max movement speed for 4 second.
