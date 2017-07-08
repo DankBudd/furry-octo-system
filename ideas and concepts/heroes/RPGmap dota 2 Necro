@@ -40,10 +40,10 @@ Skeleton Warrior
 Summon a Skeleton Warrior to fight for you, they are really weak to area of effect and can die very fast to high damage they also
 have a chance to deal more damage and lifestealing and attacking faster
 
-Skeleton life 30 40 50 60 plus 80% of int
+Skeleton life 25 40 75 100 plus 65% of int
 Skeleton damage 3-4 4-5 5-6 6-7 plus 6% of int
 Skeleton armor 1, every 40 int it will give the skeleton 1 armor
-Skeleton magic resist 5% plus 15% of int
+Skeleton magic resist 5% plus 5% 6% 7% 8% of int
 Skeleton base attack time 2.3 2.2 2.1 2.0
 Max skeleton 3 5 7 9
 Mana cost 100 120 140 160 plus 3% of max mana
@@ -73,30 +73,31 @@ Skeleton Archer
 Summon Skeleton Archer To fight against your foes, those skeleton will come with a element that will help and deal
 great damage to the enemy
 
-Skeleton Archer life 16 24 32 40 plus 50% of int
-Skeleton Archer damage 5-10 6-12 7-14 8-16 plus 15% of int
+Skeleton Archer life 16 24 32 40 plus 40% of int
+Skeleton Archer damage 5-10 6-12 7-14 8-16 plus 12% of int
 Skeleton Archer armor 0, every 60 int will give the skeleton archer 1 armor
 Skeleton Archer magic resist 0% plus 10% of int
-Skeleton Archer base attack time 2.1 2.0 1.9 1.8
+Skeleton Archer base attack time 2.3 2.1 1.9 1.7
 Max skeleton archer 1 2 3 4
 mana cost 150 190 230 270 plus 3% of max mana
+cooldown 1
 
 Skeleton Archer passive 1 OF EACH MAX
 Elemental being
 
 POISON ARCHER
-every attack poison the target dealing 3 4 5 6 pure damage per second plus 5% of the Skeleton Archer damage last 3 second
-also 25% of the poison archer damage is pure
+every attack poison the target dealing 2 4 6 8 pure damage per second plus 5% of the Skeleton Archer damage and reducing healing effect
+by 10% and last 3 second, also 50% 55% 60% 65% of the poison archer damage is Pure
 
 ICE ARCHER
-every attack Slow the target movementspeed by 6% and attackspeed by 4 6 8 10 also dealing 3 6 9 12 physical damage per second
+every attack Slow the target movementspeed by 6% 7% 8% 9% and attackspeed by 4 6 8 10 also dealing 3 6 9 12 physical damage per second
 plus 10% of the Skeleton Archer damage last 3 second
 
 FIRE ARCHER
-the fire archer has 14% 16% 18% 20% chance to deal 140% 160% 180% 200%, melting the armor and reducing it by 1 2 3 4 last 2.5 second
+the fire archer has 14% 16% 18% 20% chance to deal 140% 160% 180% 200%, melting the armor and reducing it by 1 2 3 4 last 6 second
 
 LIGHTNING ARCHER
-deal 4 5 6 7 magical damage per attack plus 30% of the archer damage as well and reducing magic resist by 2% 3% 4% 5% last 2 second
+deal 4 5 6 7 magical damage per attack plus 30% of the archer damage as well and reducing magic resist by 2% 6% 10% 14% last 2.5 second
 
 talent level 10 upgrade Skeleton archer
 
@@ -104,8 +105,8 @@ base attack time reduce by 0.30
 max skeleton archer increase by 2
 POISON ARCHER damage per second increase by 2
 ICE ARCHER movementspeed slow increase by 8%
-FIRE ARCHER armor reduction increase by 1
-LIGHTNING ARCHER magic resist reduction increase by 2%
+FIRE ARCHER armor reduction increase by 3
+LIGHTNING ARCHER magic resist reduction increase by 11%
 
 add 2 new skeleton archer
 
@@ -114,8 +115,8 @@ the void archer has 9% 10% 11% 12% to stun for 0.4 second and dealing 15 25 35 4
 archer damage and silencing them for 1.2 second after the stun
 
 DARK ARCHER
-the dark archer has 15% 20% 25% 30% to blind the target and causing them to miss for 9% 12% 15% 18% last 2.5 second
-also making the dark archer get 15% attack speed for 2.5 second
+the dark archer has 15% 20% 25% 30% to blind the target and causing them to miss for 13% 17% 21% 25% last 3 second
+also making the dark archer get 15 25 35 45 attack speed for 1.5 1.7 1.9 2.1 second
 
  
 SPELL E
@@ -124,12 +125,12 @@ heal ally skeleton or damage enemy, also reduce the enemy regen and increase ske
 
 damage 10 20 30 40 magical plus 50% of int
 heal 20 40 60 80 can only affect skeleton of necro
-bonus heal 3% 5% 7% 9% of max health
+bonus heal 8% 12% 16% 20% of max health
 enemy regen reduction -4 -7 -10 -13 last 4 second
 skeleton increase damage 4 8 12 16 last 6 second
 skeleton attack speed increase 7 14 21 28 last 6 second
 mana cost 150 plus 2% 3% 4% 5% of max mana
-cooldown 12
+cooldown 14
 
 
 talent level 15 upgrade Death Coil
