@@ -28,7 +28,7 @@ BUFF invoker will gain 1% spell amp for every 8 inteillgence instead of 10 he al
 from inteillgence and silence will only last 50% of their duration on Invoker and after the silence end he will gain magic immune for 1.5
 second and 1% of his mana will be damage for Exort Quas Wex and he also start with a Special Orb weapons that cant be change
 DEBUFF invoker cannot attack and he doenst gain any agility per level he also take 150% more damage from physical and 60% from pure
-any roots on him will last 0.5 second longer and damage him for 1.5% of his Health for every 0.5 second, Strenght doesnt give any Regen
+any roots on him will last 0.5 second longer and damage him for 2% of his Health for every 0.5 second, Strenght doesnt give any Regen
 and mana as well, items also get 50% reduce stats on Invoker but not the Elemental Orb
 
 
@@ -44,7 +44,7 @@ SPELL Q Exort
 Invoker cast a fire Blast on the enemys dealing low damage on impact and burning for a short duration they also lose magic resist.
 give 1 stack of Exort
 
-damage 8-12 10-16 12-20 14-24 plus 30% of inteillgence magical damage
+damage 2-6 6-10 10-14 14-18 plus 35% of inteillgence magical damage
 burn damage 4 7 10 13 plus 40% of inteillgence magical damage per second
 magic resist lost 4% 6% 8% 10%
 debuff duration 3 second
@@ -66,7 +66,7 @@ SPELL W Quas
 Invoker cast a Icy Cone of pure ice freezing the enemys slowing their attack speed and movement speed also dealing medium damage to them.
 give 1 stack of Quas
 
-damage 2-5 5-8 8-11 11-14 plus 40% of inteillgence magical damage
+damage 2-5 3-6 4-7 5-8 plus 20% of inteillgence magical damage
 attack speed lost 5 10 15 20
 movement speed lost 4% 10% 16% 22%
 debuff duration 3 second
@@ -85,10 +85,10 @@ Quas debuff will take 40% more damage from QUAS type spell
 
 
 SPELL E WEX
-Invoker Cast a Lightning Bolt on the Target taking Insane damage or Small Damage making them blind and reducing their armor as well.
+Invoker Cast a Lightning Bolt on the Target taking high damage or Small Damage making them blind and reducing their armor as well.
 give 1 stack of Wex
 
-damage 1-10 2-20 3-30 4-40 plus 60% of inteillgence physical damage
+damage 1-7 2-14 3-21 4-28 plus 50% of inteillgence physical damage
 blind miss 10% 12% 14% 16%
 armor lost 3 4 5 6
 debuff duration 3 second
@@ -130,7 +130,7 @@ and having 30% movement speed that last 3 second
 
 
 ULTIMATE R Invoke Spell
-Invoker will Invoker a spell passively every time he get 3 Orbs floating around him having 10 Spell combo with each of them having their
+Invoker will Invoke a spell passively every time he gets 3 Orbs floating around him having 10 Spell combo with each of them having their
 own cooldown and mana cost with their effect, his ULTIMATE got 4 level alway having a first level into it, to level it up again invoker
 must be 10 25 40
 
@@ -155,7 +155,7 @@ ICE FLOOR
 deal small damage per second slowing attack speed and movement speed with reducing their turn rate with cast time increase the Ice Floor
 will increase in size the longer its channel up to double its size
 
-damage per second 10 15 20 25 plus 15% inteillgence Pure damage
+damage per second 6 8 10 12 plus 10% inteillgence Pure damage
 attack speed lost 2 3 4 5 every time they get damage
 max attack speed lost 20 30 40 50
 movement speed lost 3 6 9 12 FLAT
@@ -165,21 +165,21 @@ increase cast time 20% 40% 60% 80%
 radius 300 400 500 600
 every 1 second of channel increase the size by 10% up to 100%
 Channel time last until stop or silence and stun 
-mana cost 10 20 30 40 per second of channel
+mana cost 10 30 50 70 per second of channel
 cooldown 70 60 50 40
 
 INVOKE SPELL 3
 WEX WEX WEX
 ELECTRIC WAVE
 send out a wave of pure Lightning stuning all enemys and damaging them with reducing their physical armor as well Electric Wave also
-got a small chance to do Unstable Shock casting a Wex on the enemys that deal increase damage, it only get 25% increase duration on the
+got a small chance to do Unstable Shock casting a Wex on the enemys that deal increase damage, it only get 40% increase duration on the
 stun from Elemental Mastery
 
-damage 1-40 2-80 3-120 4-160 plus 30% of inteillgence physical damage
+damage 1-20 2-60 3-100 4-140 plus 60% of inteillgence physical damage
 stun duration 0.5 1 1.5 2
 armor reduction 7 9 11 13
-chance for Unstable Shock 20% 25% 30% 35%
-Wex increase damage 15% 30% 45% 60% on Unstable Shock
+chance for Unstable Shock 30% 40% 50% 60%
+Wex increase damage 10% 30% 50% 70% on Unstable Shock
 radius of the wave 600 630 660 690
 wave max travel 900 950 1000 1050
 mana cost 200 300 400 500
@@ -205,15 +205,16 @@ INVOKE 5
 EXORT EXORT WEX
 LIGHTNING BREATH
 Channel a Breath of Lightning that last for a while dealing magical and physical damage per second reducing magic resist and physical
-armor enemys that take a certain amount of damage will get root for a short duration. the debuff duration will only get 50% of Elemental
-Mastery bonus and the root will get 15% bonus
+armor enemys that take a certain amount of damage will get root for a short duration. the debuff duration will only get 70% of Elemental
+Mastery bonus and the root will get 30% bonus
 
-damage 6 12 18 24 plus 20% of inteillgence 35% physical damage 65% magical damage
+damage 18 22 26 30 plus 20% of inteillgence 35% physical damage 65% magical damage per second
 magic resist lost 5% 10% 15% 20%
 armor lost 2 3 4 5
 debuff duration 0.6 0.7 0.8 0.9
 damage needed for root 150 140 130 120
 root duration 0.2 0.3 0.4 0.5
+channel duration 3 4 5 6
 mana cost 100 150 200 250
 mana cost per second of channel 5 10 15 20
 cooldown 30 27 24 21
