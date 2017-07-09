@@ -1,16 +1,17 @@
-Invoker Starting stats 10 Int,0 Agi,10 Str, base speed 310, base damage 0, Stats Gain per level 1.00 int,1.00 str,0.00 agi
+Invoker Starting stats 7 Int,0 Agi,6 Str, base speed 310, base damage 0, Stats Gain per level 0.90 int, 0.80 str, 0.00 agi
 starting item Orb of Element Special item
 
 LEVEL 10 TALENT
 give modifier to all Orbs of invoker
-reduce the cooldown of Exort Quas and Wex by 1 and removing mana cost as well also make them ingnore Magic immune dealing damage
-and affecting them with the debuff as well work for the ULTIMATES as well also increase spell amp by 30% and mana by 15% for invoker
+reduce the cooldown of Exort Quas and Wex by 1.5 and removing mana cost as well also make them ingnore Magic immune dealing damage
+and affecting them with the debuff as well work for the ULTIMATES spell as well also increase spell amp by 30% and mana by 15% for
+invoker
 
 LEVEL 15 TALENT
-give 50% mana, 4% mana regeneration and 50% stun and roots resist
+give 50% mana, 2% mana regeneration and 40% stun and roots resist
 
 LEVEL 20 TALENT
-give 100% life, 12 life regeneration and 25% damage reduction
+give 50% life, 9 life regeneration and 15% damage reduction
 
 LEVEL 20 TALENT
 give modifier to all Orbs of invoker
@@ -33,7 +34,7 @@ and mana as well, items also get 50% reduce stats on Invoker but not the Element
 
 
 Elemental Orb Special item
-increase spell amp by 5% increase by 0.3% every level
+increase spell amp by 7% increase by 0.1% every level
 increase mana regeneration by 1.5 increase by 0.2 every level
 increase magic resist by 10% increase by 1% for every 5 level
 increase cast range by 150 increase by 2 every level
@@ -119,17 +120,17 @@ increase Wex spell debuff duration by 0.2 0.5 0.8 1.1 for every Stacks
 orb stack will last 90 120 150 180 seconds
 
 Talent level 15 upgrade Element Mastery
-increase all damage bonus from Exort Quas and Wex by 15%
-increase all duration bonus from Exort Quas and Wex by 1 second
+increase all damage bonus from Exort Quas and Wex by 5%
+increase all duration bonus from Exort Quas and Wex by 0.7 second
 
 add a new modifer Unlimited Power
 Orbs will not go away after getting 3 of them until he cast his ULTIMATE and Every cast of Exort will increase the damage of his
-ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 15%, and for every cast of
+ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 6%, and for every cast of
 Wex he will Gain Phase Movement and Lightning Rush dealing 10% of the enemys max health every time he pass inside of them, 1% for bosses
 and having 30% movement speed that last 3 second
 
 
-ULTIMATE R Invoke Spell
+ULTIMATE R Invoke Element
 Invoker will Invoke a spell passively every time he gets 3 Orbs floating around him having 10 Spell combo with each of them having their
 own cooldown and mana cost with their effect, his ULTIMATE got 4 level alway having a first level into it, to level it up again invoker
 must be 10 25 40
@@ -146,6 +147,7 @@ root duration 0.5 0.9 1.3 1.7
 extra damage from Exort spell 20% 30% 40% 50%
 debuff duration for burn and extra damage 1.5
 radius 250 300 350 400
+delay for impact 1.7 1.6 1.5 1.4
 mana cost 100 250 400 550
 cooldown 40 35 30 25
 
@@ -248,3 +250,36 @@ second needed for spreading 3 2.8 2.6 2.4
 can spread again on the same target refreshing the duration
 mana cost 150 200 250 300
 cooldown 50 40 30 20
+
+INVOKE 8
+WEX WEX EXORT
+FLAME LIGHTNING
+deal physical and magical damage to multiple target increasing the damage they take from Wex and Exort Spell also reduce thier damage
+and magical damage output
+
+damage 15 20 25 30 plus 40% of inteillgence 65% physical damage and 35% magical damage
+increase damage from Wex spell 15% 30% 45% 60%
+increase damage from Exort spell 10% 15% 20% 25%
+damage reduction 10% 20% 30% 40%
+magic damage reduction 5% 15% 25% 35%
+debuff duration 0.8 1 1.2 1.4
+mana cost 90 180 270 360
+cooldown 25 22 19 16
+
+INVOKE 9
+WEX WEX QUAS
+ICY-ELETRIC PILLAR
+summon a pillar that slow attack speed and movement speed with increase damage from Wex and Quas spell for those inside of the radius
+of the pillar the radius increase every second having 40% increase radius bonus
+
+attack speed lost 3% 7% 11% 15%
+movement speed lost 5% 8% 11% 14%
+increase damage from Wex 10% 30% 50% 70%
+increase damage from Quas Spell 20% 24% 28% 32%
+duration of pillar 2 2.5 3 3.5
+radius 400 450 500 550
+increase radius by 5% every 0.5 second
+mana cost 50 70 90 110
+cooldown 60 55 50 45
+
+INVOKE 10
