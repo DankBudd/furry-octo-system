@@ -113,18 +113,18 @@ after getting 3 Stack of any Orbs he will gain a random ULTIMATE loseing them an
 increase the damage from Exort spell by 18% 22% 26% 30% for every Stacks
 increase the damage from Quas spell by 11% 14% 17% 20% for every Stacks
 increase the damage from Wex spell by 22% 28% 34% 40% for every Stacks
-increase Exort spell debuff duration by 0.3 0.6 0.9 1.2 for every Stacks
-increase Quas spell debuff duration by 0.2 0.6 1 1.4 for every Stacks
-increase Wex spell debuff duration by 0.1 0.4 0.7 1 for every Stacks
+increase Exort spell debuff duration by 0.4 0.7 1 1.3 for every Stacks
+increase Quas spell debuff duration by 0.3 0.7 1.1 1.5 for every Stacks
+increase Wex spell debuff duration by 0.2 0.5 0.8 1.1 for every Stacks
 orb stack will last 90 120 150 180 seconds
 
 Talent level 15 upgrade Element Mastery
-increase all damage bonus from Exort Quas and Wex by 10%
-increase all duration bonus from Exort Quas and Wex by 0.6 second
+increase all damage bonus from Exort Quas and Wex by 15%
+increase all duration bonus from Exort Quas and Wex by 1 second
 
 add a new modifer Unlimited Power
 Orbs will not go away after getting 3 of them until he cast his ULTIMATE and Every cast of Exort will increase the damage of his
-ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 30%, and for every cast of
+ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 15%, and for every cast of
 Wex he will Gain Phase Movement and Lightning Rush dealing 10% of the enemys max health every time he pass inside of them, 1% for bosses
 and having 30% movement speed that last 3 second
 
@@ -155,7 +155,7 @@ ICE FLOOR
 deal small damage per second slowing attack speed and movement speed with reducing their turn rate with cast time increase the Ice Floor
 will increase in size the longer its channel up to double its size
 
-damage per second 10 14 18 22 plus 15% inteillgence Pure damage
+damage per second 10 15 20 25 plus 15% inteillgence Pure damage
 attack speed lost 2 3 4 5 every time they get damage
 max attack speed lost 20 30 40 50
 movement speed lost 3 6 9 12 FLAT
@@ -163,10 +163,59 @@ max movement speed lost 30 60 90 120
 turn rate reduction 20% 35% 50% 65%
 increase cast time 20% 40% 60% 80%
 radius 300 400 500 600
-every 1 second of channel increase the size by 5% up to 100%
+every 1 second of channel increase the size by 10% up to 100%
 Channel time last until stop or silence and stun 
 mana cost 10 20 30 40 per second of channel
 cooldown 70 60 50 40
 
+INVOKE SPELL 3
+WEX WEX WEX
+ELECTRIC WAVE
+send out a wave of pure Lightning stuning all enemys and damaging them with reducing their physical armor as well Electric Wave also
+got a small chance to do Unstable Shock casting a Wex on the enemys that deal increase damage, it only get 25% increase duration on the
+stun from Elemental Mastery
+
+damage 1-40 2-80 3-120 4-160 plus 30% of inteillgence physical damage
+stun duration 0.5 1 1.5 2
+armor reduction 7 9 11 13
+chance for Unstable Shock 20% 25% 30% 35%
+Wex increase damage 15% 30% 45% 60% on Unstable Shock
+radius of the wave 600 630 660 690
+wave max travel 900 950 1000 1050
+mana cost 200 300 400 500
+cooldown 75 70 65 60
+
+INVOKE 4
+EXORT EXORT QUAS
+FLAMING SMOKE
+create a Flaming Smoke at the target location that deal damage per second and blinding the enemys that enter it as well slowing their
+attack speed after the Flaming Smoke duration ends it will burn all enemys with Smoking Goo slowing their movement speed as well
+
+damage 5 8 11 14 plus 15% of inteillgence magical damage per second
+blind miss chance 15% 18% 21% 24%
+attack speed lost 10 18 26 34
+duration 2.5 2.7 2.9 3.1 second
+burn damage 4 5 6 7 plus 9% of inteillgence magical damage per second
+movement speed lost 5% 10% 15% 20%
+debuff duration 1 1.4 1.8 1.2
+mana cost 150 175 200 225
+cooldown 28 26 24 22
+
+INVOKE 5
+EXORT EXORT WEX
+LIGHTNING BREATH
+Channel a Breath of Lightning that last for a while dealing magical and physical damage per second reducing magic resist and physical
+armor enemys that take a certain amount of damage will get root for a short duration. the debuff duration will only get 50% of Elemental
+Mastery bonus and the root will get 15% bonus
+
+damage 6 12 18 24 plus 20% of inteillgence 35% physical damage 65% magical damage
+magic resist lost 5% 10% 15% 20%
+armor lost 2 3 4 5
+debuff duration 0.6 0.7 0.8 0.9
+damage needed for root 150 140 130 120
+root duration 0.2 0.3 0.4 0.5
+mana cost 100 150 200 250
+mana cost per second of channel 5 10 15 20
+cooldown 30 27 24 21
 
 
