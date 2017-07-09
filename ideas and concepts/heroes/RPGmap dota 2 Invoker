@@ -1,0 +1,135 @@
+Invoker Starting stats 10 Int,0 Agi,10 Str, base speed 310, base damage 0, Stats Gain per level 1.00 int,1.00 str,0.00 agi
+starting item Orb of Element Special item
+
+LEVEL 10 TALENT
+give 60% mana,5% mana regeneration and 50% spell amp
+
+LEVEL 15 TALENT
+give 30% magic resist, 8 armor and 50% resist to stun and roots
+
+LEVEL 20 TALENT
+give 40% life, 11 life regeneration and 25% damage reduction
+
+LEVEL 20 TALENT
+give modifier to all Orbs of invoker
+reduce the cooldown of Exort Quas Wex by 3 second and give them 250 area of effect and also deal 3% of the enemys health in damage
+0.4% for bosses. Exort will stun enemys for 0.6 second, Quas will reduce healing effect by 15% and Wex will increase the damage they
+take by 20%
+
+
+PASSIVE D OR F
+
+Elemental Mage
+give a positive and negative buff
+
+BUFF invoker will gain 1% spell amp for every 6 inteillgence instead of 10 he also gain 1 more life from strenght and gain 5 more mana
+from inteillgence and silence will only last 50% of their duration on Invoker and after the silence end he will gain magic immune for 1.5
+second and 1% of his mana will be damage for Exort Quas Wex and he also start with a Special Orb weapons that cant be change
+DEBUFF invoker cannot attack and he doenst gain any agility per level he also take 150% more damage from physical and 60% from pure
+any roots on him will last 0.5 second longer and damage him for 1.5% of his Health for every 0.5 second, Strenght doesnt give any Regen
+and mana as well, items also get 50% reduce stats on Invoker
+
+
+Elemental Orb Special item
+increase spell amp by 5% increase by 0.3% every level
+increase mana regeneration by 1.5 increase by 0.2 every level
+increase magic resist by 10% increase by 1% for every 5 level
+increase cast range by 150 increase by 2 every level
+can also be active to make Exort Quas and Wex cooldown be reduce by 2 second and have free mana cost for 5 second cooldown 80
+
+
+SPELL Q Exort
+Invoker cast a fire Blast on the enemys dealing low damage on impact and burning for a short duration they also lose magic resist.
+give 1 stack of Exort
+
+damage 8-12 10-16 12-20 14-24 plus 35% of inteillgence magical damage
+burn damage 4 7 10 13 plus 50% of inteillgence magical damage per second
+magic resist lost 4% 6% 8% 10%
+debuff duration 3 second
+mana cost 25 50 75 100
+cooldown 6
+
+talent level 10 upgrade Exort
+increase damage by 3-6
+increase burn damage inteillgence scaling by 15%
+increase magic resist lost by 5%
+
+add a new modifer Pure Fire
+Exort burn will always do 60% magical damage and 40% pure damage and enemys affected by the burn will take more damage from EXORT spell
+type by 40% and enemys will do 30% less damage to Invoker while affected by the burn and casting Exort on enemys affected by the burn
+still, it will take 100% more damage from Exort
+
+
+SPELL W Quas
+Invoker cast a Icy Cone of pure ice freezing the enemys slowing their attack speed and movement speed also dealing medium damage to them.
+give 1 stack of Quas
+
+damage 2-5 5-8 8-11 11-14 plus 40% of inteillgence magical damage
+attack speed lost 5 10 15 20
+movement speed lost 4% 10% 16% 22%
+debuff duration 3 second
+mana cost 25 50 75 100
+cooldown 6
+
+talent level 10 Upgrade Quas
+increase damage by 4-6
+increase attack speed lost by 10
+increase the debuff duration by 1
+
+add a new modifier Pure Ice
+reduce the enemys turn rate by 40% and increase their cast time for spell by 50% and enemys that die while affected by Quas Debuff will
+explode for 50% of the damage of Quas spreading its effect to other target making them explode as well if they die. enemys affected by
+Quas debuff will take 40% more damage from QUAS type spell
+
+
+SPELL E WEX
+Invoker Cast a Lightning Bolt on the Target taking Insane damage or Small Damage making them blind and reducing their armor as well.
+give 1 stack of Wex
+
+damage 1-10 2-30 3-50 4-70 plus 70% of inteillgence physical damage
+blind miss 10% 12% 14% 16%
+armor lost 3 4 5 6
+debuff duration 3 second
+mana cost 25 50 75 100
+cooldown 6
+
+talent level 10 upgrade Wex
+increase damage by 1-10
+increase blind miss by 4%
+increase armor lost by 2
+
+add a new modifier Pure Lightning
+now become a Chain Lightning jumping up to a max of 3 target dealing full damage still and enemys got 50% chance to be Shock taking
+60% more damage from Wex Spell and having double Blind miss chance and armor lost for the duration of the debuff, it also got 20%
+chance to cast a new Lightning Bolt if they die dealing only 50% of its damage and can also Shock them but for 25% chance
+
+
+PASSIVE D OR F Element Mastery
+Invoker will alway start with a level inside of this passive, increase invoker Exort, Quas and Wex power for every stack of them
+after getting 3 Stack of any Orbs he will gain a random ULTIMATE loseing them and not gaining any new one before he cast his ult
+
+increase the damage from Exort spell by 18% 22% 26% 30% for every Stacks
+increase the damage from Quas spell by 11% 14% 17% 20% for every Stacks
+increase the damage from Wex spell by 22% 28% 34% 40% for every Stacks
+increase Exort spell debuff duration by 0.3 0.6 0.9 1.2 for every Stacks
+increase Quas spell debuff duration by 0.2 0.6 1 1.4 for every Stacks
+increase Wex spell debuff duration by 0.1 0.4 0.7 1 for every Stacks
+orb stack will last 90 120 150 180 seconds
+
+Talent level 15 upgrade Element Mastery
+increase all damage bonus from Exort Quas and Wex by 10%
+increase all duration bonus from Exort Quas and Wex by 0.3 second
+
+add a new modifer Unlimited Power
+Orbs will not go away after getting 3 of them until he cast his ULTIMATE and Every cast of Exort will increase the damage of his
+ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 30%, and for every cast of
+Wex he will Gain Phase Movement and Lightning Rush dealing 10% of the enemys max health every time he pass inside of them, 1% for bosses
+and having 30% movement speed that last 3 second
+
+
+ULTIMATE R Invoke Spell
+Invoker will Invoker a spell passively every time he get 3 Orbs floating around him having 9 Spell combo with each of them having their
+own cooldown and mana cost with their effect.
+
+wating on Ideas
+
