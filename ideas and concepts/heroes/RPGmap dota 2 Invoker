@@ -219,4 +219,32 @@ mana cost 100 150 200 250
 mana cost per second of channel 5 10 15 20
 cooldown 30 27 24 21
 
+INVOKE 6
+QUAS QUAS EXORT
+MOLTEN WATER
+throw a molten water bolt at the target increasing the damage it take from any source of damage and increasing Quas and Exort spell
+damage as well also reduce their movement speed. the debuff duration will get 150% increase bonus from Elemental Mastery
 
+damage 12 20 28 36 plus 50% of inteillgence Pure damage
+damage taken increase 10% 15% 20% 25%
+damage taken increase from Quas and Exort spell 10% 20% 30% 40%
+movement speed lost 20 35 50 65 FLAT
+debuff duration 1 1.4 1.8 2.2
+mana cost 75 150 225 300
+cooldown 17 16 15 14
+
+INVOKE 7
+QUAS QUAS WEX
+ELECTRIC ICE
+debuff the enemys by reducing their attack speed and cast point also increase the damage they take from pure damage source, they will
+also spread the Eletric Ice to other target if they stand too close for a while and can last for a infinit time with 2 target or more
+
+attack speed reduction 10 20 30 40
+cast point increase 10% 30% 50% 70%
+increase damage taken from pure by 25% 50% 75% 100%
+debuff duration 2 3 4 5
+radius needed for spreading 300
+second needed for spreading 3 2.8 2.6 2.4
+can spread again on the same target refreshing the duration
+mana cost 150 200 250 300
+cooldown 50 40 30 20
