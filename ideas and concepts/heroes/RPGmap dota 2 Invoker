@@ -88,7 +88,7 @@ SPELL E WEX
 Invoker Cast a Lightning Bolt on the Target taking Insane damage or Small Damage making them blind and reducing their armor as well.
 give 1 stack of Wex
 
-damage 1-10 2-30 3-50 4-70 plus 70% of inteillgence physical damage
+damage 1-10 2-20 3-30 4-40 plus 60% of inteillgence physical damage
 blind miss 10% 12% 14% 16%
 armor lost 3 4 5 6
 debuff duration 3 second
@@ -96,7 +96,7 @@ mana cost 25 50 75 100
 cooldown 6
 
 talent level 10 upgrade Wex
-increase damage by 1-10
+increase damage by 2-20
 increase blind miss by 4%
 increase armor lost by 2
 
@@ -131,20 +131,42 @@ and having 30% movement speed that last 3 second
 
 ULTIMATE R Invoke Spell
 Invoker will Invoker a spell passively every time he get 3 Orbs floating around him having 10 Spell combo with each of them having their
-own cooldown and mana cost with their effect his ULTIMATE got 4 level alway having a first level into it, to level it up again invoker
+own cooldown and mana cost with their effect, his ULTIMATE got 4 level alway having a first level into it, to level it up again invoker
 must be 10 25 40
 
 INVOKE SPELL 1
 EXORT EXORT EXORT
 SUN BLAST
 deal insane pure damage and rooting with burning them taking extra damage from Exort spell after the short delay of impact
+it only get 50% increase duration on the root from Elemental Mastery
 
-damage 50 100 150 200 plus 50% of inteillgence Pure damage
-burn damage 5 8 11 14 plus 20% of inteillgence magical damage
-root duration 0.5 0.9 1.3 1.7
+damage 50 75 100 125 plus 50% of inteillgence Pure damage
+burn damage 5 8 11 14 plus 20% of inteillgence magical damage every second
+root duration 0.5 0.9 1.3 1.7 
 extra damage from Exort spell 20% 30% 40% 50%
-debuff duration for burn and extra damage 3 4 5 6
+debuff duration for burn and extra damage 1.5
+radius 250 300 350 400
 mana cost 100 250 400 550
-cooldown 60 50 40 30
+cooldown 40 35 30 25
 
 INVOKE SPELL 2
+QUAS QUAS QUAS
+ICE FLOOR
+deal small damage per second slowing attack speed and movement speed with reducing their turn rate with cast time increase the Ice Floor
+will increase in size the longer its channel up to double its size
+
+damage per second 10 14 18 22 plus 15% inteillgence Pure damage
+attack speed lost 2 3 4 5 every time they get damage
+max attack speed lost 20 30 40 50
+movement speed lost 3 6 9 12 FLAT
+max movement speed lost 30 60 90 120
+turn rate reduction 20% 35% 50% 65%
+increase cast time 20% 40% 60% 80%
+radius 300 400 500 600
+every 1 second of channel increase the size by 5% up to 100%
+Channel time last until stop or silence and stun 
+mana cost 10 20 30 40 per second of channel
+cooldown 70 60 50 40
+
+
+
