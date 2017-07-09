@@ -2,19 +2,21 @@ Invoker Starting stats 10 Int,0 Agi,10 Str, base speed 310, base damage 0, Stats
 starting item Orb of Element Special item
 
 LEVEL 10 TALENT
-give 60% mana,5% mana regeneration and 50% spell amp
+give modifier to all Orbs of invoker
+reduce the cooldown of Exort Quas and Wex by 2 and removing mana cost as well also make them ingnore Magic immune dealing damage
+and affecting them with the debuff as well work for the ULTIMATES as well also increase spell amp by 30% and mana by 15% for invoker
 
 LEVEL 15 TALENT
-give 30% magic resist, 8 armor and 50% resist to stun and roots
+give 50% mana, 4% mana regeneration and 50% stun and roots resist
 
 LEVEL 20 TALENT
-give 40% life, 11 life regeneration and 25% damage reduction
+give 100% life, 12 life regeneration and 25% damage reduction
 
 LEVEL 20 TALENT
 give modifier to all Orbs of invoker
-reduce the cooldown of Exort Quas Wex by 3 second and give them 250 area of effect and also deal 3% of the enemys health in damage
-0.4% for bosses. Exort will stun enemys for 0.6 second, Quas will reduce healing effect by 15% and Wex will increase the damage they
-take by 20%
+reduce the cooldown of Exort Quas Wex by 2 second and giving them 250 area of effect and also deal 1% of the enemys health in damage
+0.3% for bosses. Exort will stun enemys for 0.4 second, Quas will reduce healing effect by 10% and Wex will increase the damage they
+take by 15%
 
 
 PASSIVE D OR F
@@ -22,12 +24,12 @@ PASSIVE D OR F
 Elemental Mage
 give a positive and negative buff
 
-BUFF invoker will gain 1% spell amp for every 6 inteillgence instead of 10 he also gain 1 more life from strenght and gain 5 more mana
+BUFF invoker will gain 1% spell amp for every 8 inteillgence instead of 10 he also gain 1 more life from strenght and gain 5 more mana
 from inteillgence and silence will only last 50% of their duration on Invoker and after the silence end he will gain magic immune for 1.5
 second and 1% of his mana will be damage for Exort Quas Wex and he also start with a Special Orb weapons that cant be change
 DEBUFF invoker cannot attack and he doenst gain any agility per level he also take 150% more damage from physical and 60% from pure
 any roots on him will last 0.5 second longer and damage him for 1.5% of his Health for every 0.5 second, Strenght doesnt give any Regen
-and mana as well, items also get 50% reduce stats on Invoker
+and mana as well, items also get 50% reduce stats on Invoker but not the Elemental Orb
 
 
 Elemental Orb Special item
@@ -42,8 +44,8 @@ SPELL Q Exort
 Invoker cast a fire Blast on the enemys dealing low damage on impact and burning for a short duration they also lose magic resist.
 give 1 stack of Exort
 
-damage 8-12 10-16 12-20 14-24 plus 35% of inteillgence magical damage
-burn damage 4 7 10 13 plus 50% of inteillgence magical damage per second
+damage 8-12 10-16 12-20 14-24 plus 30% of inteillgence magical damage
+burn damage 4 7 10 13 plus 40% of inteillgence magical damage per second
 magic resist lost 4% 6% 8% 10%
 debuff duration 3 second
 mana cost 25 50 75 100
@@ -51,13 +53,13 @@ cooldown 6
 
 talent level 10 upgrade Exort
 increase damage by 3-6
-increase burn damage inteillgence scaling by 15%
+increase burn damage inteillgence scaling by 5%
 increase magic resist lost by 5%
 
 add a new modifer Pure Fire
 Exort burn will always do 60% magical damage and 40% pure damage and enemys affected by the burn will take more damage from EXORT spell
-type by 40% and enemys will do 30% less damage to Invoker while affected by the burn and casting Exort on enemys affected by the burn
-still, it will take 100% more damage from Exort
+type by 40% and enemys will do 20% less damage to Invoker while affected by the burn and casting Exort on enemys affected by the burn,
+they will take 30% more damage from Exort damage impact and Burn
 
 
 SPELL W Quas
@@ -118,7 +120,7 @@ orb stack will last 90 120 150 180 seconds
 
 Talent level 15 upgrade Element Mastery
 increase all damage bonus from Exort Quas and Wex by 10%
-increase all duration bonus from Exort Quas and Wex by 0.3 second
+increase all duration bonus from Exort Quas and Wex by 0.6 second
 
 add a new modifer Unlimited Power
 Orbs will not go away after getting 3 of them until he cast his ULTIMATE and Every cast of Exort will increase the damage of his
@@ -128,8 +130,21 @@ and having 30% movement speed that last 3 second
 
 
 ULTIMATE R Invoke Spell
-Invoker will Invoker a spell passively every time he get 3 Orbs floating around him having 9 Spell combo with each of them having their
-own cooldown and mana cost with their effect.
+Invoker will Invoker a spell passively every time he get 3 Orbs floating around him having 10 Spell combo with each of them having their
+own cooldown and mana cost with their effect his ULTIMATE got 4 level alway having a first level into it, to level it up again invoker
+must be 10 25 40
 
-wating on Ideas
+INVOKE SPELL 1
+EXORT EXORT EXORT
+SUN BLAST
+deal insane pure damage and rooting with burning them taking extra damage from Exort spell after the short delay of impact
 
+damage 50 100 150 200 plus 50% of inteillgence Pure damage
+burn damage 5 8 11 14 plus 20% of inteillgence magical damage
+root duration 0.5 0.9 1.3 1.7
+extra damage from Exort spell 20% 30% 40% 50%
+debuff duration for burn and extra damage 3 4 5 6
+mana cost 100 250 400 550
+cooldown 60 50 40 30
+
+INVOKE SPELL 2
