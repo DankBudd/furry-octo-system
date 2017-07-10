@@ -110,6 +110,7 @@ chance to cast a new Lightning Bolt if they die dealing only 50% of its damage a
 PASSIVE D OR F Element Mastery
 Invoker will alway start with a level inside of this passive, increase invoker Exort, Quas and Wex power for every stack of them
 after getting 3 Stack of any Orbs he will gain a random ULTIMATE loseing them and not gaining any new one before he cast his ult
+his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery
 
 increase the damage from Exort spell by 18% 22% 26% 30% for every Stacks
 increase the damage from Quas spell by 11% 14% 17% 20% for every Stacks
@@ -262,7 +263,8 @@ increase damage from Wex spell 15% 30% 45% 60%
 increase damage from Exort spell 10% 15% 20% 25%
 damage reduction 10% 20% 30% 40%
 magic damage reduction 5% 15% 25% 35%
-debuff duration 0.8 1 1.2 1.4
+debuff duration 0.9 1.1 1.3 1.5
+multiple target 2 3 4 5
 mana cost 90 180 270 360
 cooldown 25 22 19 16
 
@@ -283,3 +285,25 @@ mana cost 50 70 90 110
 cooldown 60 55 50 45
 
 INVOKE 10
+EXORT QUAS WEX
+ELEMENTAL BLAST
+deal Pure, Magical and physical damage to the enemys increasing the damage they take from Exort, Quas and Wex spell, Exort will burn
+and reduce magic resist, Quas will reduce attack speed and increase damage taken from pure damage and Wex will reduce armor and disarm
+them. Elemental Blast does Area of Effect in a target Location
+
+damage 25 40 55 70 plus 100% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
+increase damage from Quas,Exort,Wex 30% 60% 90% 120%
+Burn damage 5 10 15 20 plus 30% of inteillgence per second magical damage
+magic resist lost 7% 14% 21% 28%
+attack speed lost 10 20 30 40
+increase damage taken from Pure 20% 40% 60% 80%
+armor lost 3 7 11 15
+Disarm Target
+debuff duration 3 4 5 6
+area of effect 600 700 800 900
+mana cost 25% 40% 55% 70% of max mana
+cooldown 170 150 130 110
+
+
+
+
