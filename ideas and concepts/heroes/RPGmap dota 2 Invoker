@@ -8,10 +8,15 @@ and affecting them with the debuff as well work for the ULTIMATES spell as well 
 invoker
 
 LEVEL 15 TALENT
-give 50% mana, 2% mana regeneration and 40% stun and roots resist
+give a new modifer to Element Mastery
+Invoker will only lose 2 orb instead of 3 when getting his ULTIMATE spell and that Orb will have Double the bonus and reducing
+mana cost of the next spell use with it by 50% and having 75% spell vamp
 
 LEVEL 20 TALENT
-give 50% life, 9 life regeneration and 15% damage reduction
+give modifer to all Invoker ULTIMATE spell
+all of Invoker ULTIMATE will have 30% mana cost reduction with 20% cooldown reduction and making them do 0.5% of the enemys max health
+0.1% for bosses and he got 10% chance to refresh the duration of that spell after he cast it and having 30% increase damage on the next
+spell ULTIMATE use
 
 LEVEL 20 TALENT
 give modifier to all Orbs of invoker
@@ -34,7 +39,7 @@ and mana as well, items also get 50% reduce stats on Invoker but not the Element
 
 
 Elemental Orb Special item
-increase spell amp by 7% increase by 0.1% every level
+increase spell amp by 10% increase by 0.3% every level
 increase mana regeneration by 1.5 increase by 0.2 every level
 increase magic resist by 10% increase by 1% for every 5 level
 increase cast range by 150 increase by 2 every level
@@ -46,7 +51,7 @@ Invoker cast a fire Blast on the enemys dealing low damage on impact and burning
 give 1 stack of Exort
 
 damage 2-6 6-10 10-14 14-18 plus 35% of inteillgence magical damage
-burn damage 4 7 10 13 plus 40% of inteillgence magical damage per second
+burn damage 4 7 10 13 plus 20% of inteillgence magical damage per second
 magic resist lost 4% 6% 8% 10%
 debuff duration 3 second
 mana cost 25 50 75 100
@@ -110,7 +115,7 @@ chance to cast a new Lightning Bolt if they die dealing only 50% of its damage a
 PASSIVE D OR F Element Mastery
 Invoker will alway start with a level inside of this passive, increase invoker Exort, Quas and Wex power for every stack of them
 after getting 3 Stack of any Orbs he will gain a random ULTIMATE loseing them and not gaining any new one before he cast his ult
-his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery
+his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery to level this passive again he must be 5 12 21
 
 increase the damage from Exort spell by 18% 22% 26% 30% for every Stacks
 increase the damage from Quas spell by 11% 14% 17% 20% for every Stacks
