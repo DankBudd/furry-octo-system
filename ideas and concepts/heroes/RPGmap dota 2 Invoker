@@ -1,4 +1,4 @@
-Invoker Starting stats 7 Int,0 Agi,6 Str, base speed 310, base damage 0, Stats Gain per level 0.90 int, 0.80 str, 0.00 agi
+Invoker Starting stats 7 Int,0 Agi,6 Str, base speed 310, base damage 0, Stats Gain per level 0.90 int, 0.70 str, 0.00 agi
 starting item Orb of Element Special item
 
 LEVEL 10 TALENT
@@ -16,7 +16,7 @@ LEVEL 20 TALENT
 give modifer to all Invoker ULTIMATE spell
 all of Invoker ULTIMATE will have 30% mana cost reduction with 20% cooldown reduction and making them do 0.5% of the enemys max health
 0.1% for bosses and he got 10% chance to refresh the duration of that spell after he cast it and having 30% increase damage on the next
-spell ULTIMATE use
+spell ULTIMATE he use
 
 LEVEL 20 TALENT
 give modifier to all Orbs of invoker
@@ -39,11 +39,11 @@ and mana as well, items also get 50% reduce stats on Invoker but not the Element
 
 
 Elemental Orb Special item
-increase spell amp by 10% increase by 0.3% every level
+increase spell amp by 5% increase by 0.3% every level
 increase mana regeneration by 1.5 increase by 0.2 every level
 increase magic resist by 10% increase by 1% for every 5 level
-increase cast range by 150 increase by 2 every level
-can also be active to make Exort Quas and Wex cooldown be reduce by 2 second and have free mana cost for 5 second cooldown 80
+increase cast range by 150 increase by 3 every level
+can also be active to make Exort Quas and Wex cooldown be reduce by 0.5 second and have 20% mana cost reduction for 20 second cooldown 80
 
 
 SPELL Q Exort
@@ -51,7 +51,7 @@ Invoker cast a fire Blast on the enemys dealing low damage on impact and burning
 give 1 stack of Exort
 
 damage 2-6 6-10 10-14 14-18 plus 35% of inteillgence magical damage
-burn damage 4 7 10 13 plus 20% of inteillgence magical damage per second
+burn damage 3 4 5 6 plus 20% of inteillgence magical damage per second
 magic resist lost 4% 6% 8% 10%
 debuff duration 3 second
 mana cost 25 50 75 100
