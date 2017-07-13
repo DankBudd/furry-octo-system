@@ -63,24 +63,24 @@ for 3, also increase the damage they take by riki spell by 40%
 SPELL W Blink Stab
 jump behind the enemy stunning them and dealing damage, after the stun the target get silence.
 
-Attack damage 120% 180% 260% 320% damage type physical
+Attack damage 150% 190% 230% 270% damage type physical
 stun 0.40 0.45 0.50 0.55
 stun increase by 0.01 per agility point
-silence 1.30 1.40 1.50 1.60
+silence 0.60 0.90 1.20 1.50
 silence increase by 0.02 per agility point
 mana cost 150 plus 1% of max mana
 cooldown 28 26 24 22
 
 talent level 10 upgrade Blink Stab
-increase damage by 80%
+increase damage by 60%
 increase stun by 0.15
-increase silence by 0.40
-reduce mana cost by 80
+increase silence by 0.30
+reduce mana cost by 60
 
 add a new modifier Stab Feast
-after blinking on the target riki gets 25% increase damage and 20% of his damage become pure for 4 second, if any
-enemy die by blink stab riki will get heal for 35% of is max life and increase the next blink stab damage by 20% this can chain
-up to 100% more damage, this bonus is lost if the target dont die by blink stab
+after blinking on the target riki gets 30% increase damage and 15% of his damage become pure for 4 second, if any
+enemy die by blink stab riki will get heal for 20% of his max health and increase the next blink stab damage by 15% this can chain
+up to 60% more damage, this bonus is lost if the target doesnt die by blink stab
 
 
 SPELL E Smoke Grenade
@@ -113,7 +113,7 @@ PASSIVE D OR F BackStab -NOTE- this affect only work behind that mean if riki at
 increase riki agility, riki attack will do 100% crit damage behind the target and lowering the armor of the target as well
 if the target get 6 stack of Stab he will take increase damage
 
-base agility bonus 5 7 9 11
+base agility bonus 4 10 16 22
 damage multiplier behind the target 110% 130% 150% 170%
 armor lost per stack 1
 damage increase 9% 12% 15% 18%
