@@ -120,24 +120,25 @@ PASSIVE D OR F Level needed 3 7 11 15
 War Gladiator
 sven can block both magic and physical spell also blocking basic attack but he cannot block damage over time spell
 he also got a chance to deal a critical hit for more damage increase NOTE getting any critical item will make them not work
-for basic attack crit
+for basic attack crit, it will give 50% of its bonus Critical and Crit chance to War Gladiator
 
-Base Critical damage 125% 135% 145% 155%
-increase critical damage by 1% for every 4 point of strenght
+Base Critical damage 115% 130% 145% 160%
+increase critical damage by 1% for every 3 point of strenght
 Critical chance 12% 13% 14% 15%
 Base block damage 4 7 10 13
-increase block damage by 1 for every 14 strenght point
+increase block damage by 1 for every 10 strenght point
 block chance 20% 30% 40% 50%
 
 talent level 15 upgrade War Gladiator
 increase critical damage by 25%
 increase critical chance by 5%
 increase block damage by 2
-increase block chance by 20%
+increase block chance by 15%
 
 add a new modifier Legendary Gladiator
 for every block and critical hit sven do he will gain 0.5 armor and 0.5 base damage for 4 second refresh for every block and crit
-up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 20 attack speed until he lose all the stack
+up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 20 attack speed until he lose all the stack and Upon
+death he will give his allys 50% of his damage and Strenght to them for 25 second
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
