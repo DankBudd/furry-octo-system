@@ -3,7 +3,7 @@ starting item Orb of Element Special item
 
 LEVEL 10 TALENT
 give modifier to all Orbs of invoker
-reduce the cooldown of Exort Quas and Wex by 1.5 and removing mana cost as well also make them ingnore Magic immune dealing damage
+reduce the cooldown of Exort Quas and Wex by 1 and removing mana cost as well also make them ingnore Magic immune dealing damage
 and affecting them with the debuff as well work for the ULTIMATES spell as well also increase spell amp by 30% and mana by 15% for
 invoker
 
@@ -20,7 +20,7 @@ spell ULTIMATE he use
 
 LEVEL 20 TALENT
 give modifier to all Orbs of invoker
-reduce the cooldown of Exort Quas Wex by 3 second and giving them 250 area of effect and also deal 1% of the enemys health in damage
+reduce the cooldown of Exort Quas Wex by 2 second and giving them 250 area of effect and also deal 1% of the enemys health in damage
 0.3% for bosses. Exort will stun enemys for 0.4 second, Quas will reduce healing effect by 10% and Wex will increase the damage they
 take by 15%
 
@@ -32,7 +32,8 @@ give a positive and negative buff
 
 BUFF invoker will gain 1% spell amp for every 8 inteillgence instead of 10 he also gain 1 more life from strenght and gain 5 more mana
 from inteillgence and silence will only last 50% of their duration on Invoker and after the silence end he will gain magic immune for 1.5
-second and 1% of his mana will be damage for Exort Quas Wex and he also start with a Special Orb weapons that cant be change
+second. Invoker also make his Exort Quas and Wex deal 1% of his mana as bonus damage for them and he also start with a Elemental Orb that
+cant be change
 DEBUFF invoker cannot attack and he doenst gain any agility per level he also take 150% more damage from physical and 60% from pure
 any roots on him will last 0.5 second longer and damage him for 2% of his Health for every 0.5 second, Strenght doesnt give any Regen
 and mana as well, items also get 50% reduce stats on Invoker but not the Elemental Orb
@@ -85,7 +86,7 @@ increase attack speed lost by 10
 increase the debuff duration by 1
 
 add a new modifier Pure Ice
-reduce the enemys turn rate by 40% and increase their cast time for spell by 50% and enemys that die while affected by Quas Debuff will
+reduce the enemys turn rate by 30% and increase their cast time for spell by 20% and enemys that die while affected by Quas Debuff will
 explode for 50% of the damage of Quas spreading its effect to other target making them explode as well if they die. enemys affected by
 Quas debuff will take 40% more damage from QUAS type spell
 
@@ -95,27 +96,27 @@ Invoker Cast a Lightning Bolt on the Target taking high damage or Small Damage m
 give 1 stack of Wex
 
 damage 1-7 2-14 3-21 4-28 plus 50% of inteillgence physical damage
-blind miss 10% 12% 14% 16%
+blind miss 8% 10% 12% 14%
 armor lost 3 4 5 6
 debuff duration 3 second
 mana cost 25 50 75 100
 cooldown 6
 
 talent level 10 upgrade Wex
-increase damage by 2-20
+increase damage by 2-24
 increase blind miss by 4%
 increase armor lost by 2
 
 add a new modifier Pure Lightning
-now become a Chain Lightning jumping up to a max of 3 target dealing full damage still and enemys got 50% chance to be Shock taking
-60% more damage from Wex Spell and having double Blind miss chance and armor lost for the duration of the debuff, it also got 20%
+now become a Chain Lightning jumping up to a max of 3 target dealing 80% of the damage and enemys got 50% chance to be Shock taking
+60% more damage from Wex Spell and having 6% more Blind miss chance and 3 more armor lost for the duration of the debuff, it also got 30%
 chance to cast a new Lightning Bolt if they die dealing only 50% of its damage and can also Shock them but for 25% chance
 
 
 PASSIVE D OR F Element Mastery
 Invoker will alway start with a level inside of this passive, increase invoker Exort, Quas and Wex power for every stack of them
 after getting 3 Stack of any Orbs he will gain a random ULTIMATE loseing them and not gaining any new one before he cast his ult
-his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery to level this passive again he must be 5 12 21
+his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery. to level this passive again he must be 5 12 21
 
 increase the damage from Exort spell by 18% 22% 26% 30% for every Stacks
 increase the damage from Quas spell by 11% 14% 17% 20% for every Stacks
@@ -127,13 +128,13 @@ orb stack will last 90 120 150 180 seconds
 
 Talent level 15 upgrade Element Mastery
 increase all damage bonus from Exort Quas and Wex by 5%
-increase all duration bonus from Exort Quas and Wex by 0.7 second
+increase all duration bonus from Exort Quas and Wex by 0.5 second
 
 add a new modifer Unlimited Power
 Orbs will not go away after getting 3 of them until he cast his ULTIMATE and Every cast of Exort will increase the damage of his
-ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 6%, and for every cast of
-Wex he will Gain Phase Movement and Lightning Rush dealing 10% of the enemys max health every time he pass inside of them, 1% for bosses
-and having 30% movement speed that last 3 second
+ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 9%, and for every cast of
+Wex he will Gain Phase Movement and Lightning Rush dealing 18% of the enemys max health every time he pass inside of them, 2% for bosses
+and having 30% movement speed that last 3 second, the Lightning Rush can only be done once per enemys
 
 
 ULTIMATE R Invoke Element
@@ -151,7 +152,7 @@ damage 50 75 100 125 plus 50% of inteillgence Pure damage
 burn damage 5 8 11 14 plus 20% of inteillgence magical damage every second
 root duration 0.5 0.9 1.3 1.7 
 extra damage from Exort spell 20% 30% 40% 50%
-debuff duration for burn and extra damage 1.5
+debuff duration for burn and extra damage 2.4
 radius 250 300 350 400
 delay for impact 1.7 1.6 1.5 1.4
 mana cost 100 250 400 550
@@ -202,10 +203,10 @@ attack speed after the Flaming Smoke duration ends it will burn all enemys with 
 damage 5 8 11 14 plus 15% of inteillgence magical damage per second
 blind miss chance 15% 18% 21% 24%
 attack speed lost 10 18 26 34
-duration 2.5 2.7 2.9 3.1 second
+duration 3 3.5 4 4.5 second
 burn damage 4 5 6 7 plus 9% of inteillgence magical damage per second
 movement speed lost 5% 10% 15% 20%
-debuff duration 1 1.4 1.8 1.2
+debuff duration 1.7 2 2.3 2.6
 mana cost 150 175 200 225
 cooldown 28 26 24 22
 
