@@ -278,15 +278,17 @@ INVOKE 9
 WEX WEX QUAS
 ICY-ELETRIC PILLAR
 summon a pillar that slow attack speed and movement speed with increase damage from Wex and Quas spell for those inside of the radius
-of the pillar the radius increase every second having 40% increase radius bonus
+of the pillar, the radius and the attack speed with movement speed lost increase every second having no limit increase
 
-attack speed lost 3% 7% 11% 15%
+attack speed lost 4 8 12 16
+increase attack speed lost by 2 for every 0.2 second
 movement speed lost 5% 8% 11% 14%
+increase movement speed lost by 1% for every 0.3 second
 increase damage from Wex 10% 30% 50% 70%
 increase damage from Quas Spell 20% 24% 28% 32%
 duration of pillar 2 2.5 3 3.5
 radius 400 450 500 550
-increase radius by 5% every 0.5 second
+increase radius by 5% every 0.2 second
 mana cost 50 70 90 110
 cooldown 60 55 50 45
 
@@ -302,7 +304,7 @@ increase damage from Quas,Exort,Wex 30% 60% 90% 120%
 Burn damage 5 10 15 20 plus 30% of inteillgence per second magical damage
 magic resist lost 7% 14% 21% 28%
 attack speed lost 10 20 30 40
-increase damage taken from Pure 20% 40% 60% 80%
+increase damage taken from Pure by 20% 40% 60% 80%
 armor lost 3 7 11 15
 Disarm Target
 debuff duration 3 4 5 6
