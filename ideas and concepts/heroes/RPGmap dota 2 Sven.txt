@@ -124,9 +124,9 @@ Death Blow deal 30% more damage on unit affected by Blood Wound
 PASSIVE D OR F Level needed 3 7 11 15
 
 War Gladiator
-sven can block both magic and physical spell also blocking basic attack but he cannot block damage over time spell
-he also got a chance to deal a critical hit for more damage increase NOTE getting any critical item will make them not work
-for basic attack crit, it will give 50% of its bonus Critical and Crit chance to War Gladiator
+sven can block both magic and physical spell also blocking basic attack he cannot block pure damage and he will block 50% of overtime
+damage per second he also got a chance to deal a critical hit for more damage increase NOTE getting any critical item will make them not
+work for basic attack crit, instead it will give 50% of its bonus from Critical damage and Critical chance to War Gladiator
 
 Base Critical damage 115% 130% 145% 160%
 increase critical damage by 1% for every 3 point of strenght
@@ -142,25 +142,27 @@ increase block damage by 2
 increase block chance by 15%
 
 add a new modifier Legendary Gladiator
-for every block and critical hit sven do he will gain 0.5 armor and 0.5 base damage for 4 second refresh for every block and crit
-up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 20 attack speed until he lose all the stack and Upon
-death he will give his allys 25% of his damage and 50% Strenght to them for 25 second
+for every block and critical hit sven do he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
+up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 15 attack speed until he lose all the stack and Upon
+death he will give his allys 25% of his damage and 50% Strenght to them for 25 second and if sven reach 20 stack and holding them for
+12 second he will gain 10 attack speed, 5% strenght and 5% bonus damage until death
 
 
 ULTIMATE R LEVEL NEEDED 8 16 24
 
 God Strenght
 
-increase sven damage and life but reduce speed attack speed for a short duration and reducing cooldown upon killing enemy
-when God Strenght is active
+increase sven damage and life but reduce attack speed for a short duration and reducing cooldown of all sven spell upon killing enemys
+when God Strenght is active, bosses will reduce the cooldown even more
 
 base damage bonus 10 30 50
 bonus damage 30% 50% 70%
 attack speed lost 20 40 60
 duration 12 15 18
 life bonus 300 600 900
-cooldown reduction upon killing 0.30 0.50 0.70
-cooldown 160 140 120
+coldown reduction upon killing 0.30 0.50 0.70
+coldown reduction upon killing bosses 10 15 20
+coldown 160 140 120
 no mana cost
 
 talent level 25 upgrade God Strenght
@@ -172,8 +174,8 @@ reduce cooldown by 30
 
 add a new modifier Strenght Lord
 now Give 40% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.3 second for
-every kill sven do bosses will give 11 seconds he also Scream Louder stuning enemys for 4 second and dealing 150 pure damage plus 10%
-of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 40% increase Strenght when God Strenght is not Active
+every kill sven do bosses will give 11 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
+of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 35% increase Strenght when God Strenght is not Active
 
 
 
