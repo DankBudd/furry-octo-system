@@ -1,4 +1,4 @@
-Furion -- Summoner-Support , starting stats 9 int, 2 agi, 4 str, base speed 290, base damage 3, Stats Gain per level 1.00 int, 0.50 str,
+Furion -- Summoner-Support , starting stats 9 int, 3 agi, 4 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 0.50 str,
 0.40 agi, starting item Nature Gift increase intelligence by 3 and give 30 mana base attack time 1.65
 
 LEVEL 20 TALENT
@@ -23,47 +23,47 @@ DEBUFF Furion cannot have any Armor-Chest-Peice and he take 120% more damage fro
 2 movement speed per level with 0.50 attack speed as well he also lose 50% base damage
 
 Pure Grass Armor Special
-increase life by 5% increase by 0.2% per level
-increase healing amp by 5% increase by 0.1% every level
-increase roots resist by 10% increase by 0.1% every level
-can also be use to heal Furion by 35% of his max health cooldown of 50 second
+increase life by 5% increase by 0.5% per level
+increase healing amp by 5% increase by 0.3% every level
+increase roots resist by 10% increase by 0.2% every level
+can also be use to heal Furion by 40% of his max health cooldown of 40 second
 
 talent 25 modifer
 give a new modifier Guardian of the Forest
-any trees around Furion will have 10% chance per 3 second near him to turn into a Treant, these Treant
-will have only 50% of the current normal Treant stats but can last until death, max of 6
+any trees around Furion will have 5% chance per 0.5 second near him to turn into a Treant, these Treant
+will have 150% of the current normal Treant stats and can last until death, max of 4
 
 SPELL Q
 Nature Wrath
 heal or damage a target increasing or reducing armor and magic resist, also after 5 second the target affect by the debuff
-Nature Wrath will do a explosion doing again nature Wrath but doenst regive the debuff and heal and damage for less
+Nature Wrath will do a explosion doing again nature Wrath giving 50% of the debuff to other target but cannot spread again
 
-Heal 30 50 70 90 plus 60% of int
+Heal 40 70 100 130 plus 60% of int
 Damage 10 16 22 28 plus 40% of int type magical
-Heal explosion 15 25 35 45 plus 30% of int
+Heal explosion 20 35 50 65 plus 30% of int
 Damage explosion 5 8 11 14 plus 20% of int type magical
-bonus armor 1 2 3 4
-armor reduction 2 3 4 5
-magic resist 5% 7% 9% 11%
+bonus armor 2 4 6 8
+armor reduction 2 4 6 8
+magic resist 4%  8% 12% 16%
 magic resist reduction 3% 7% 11% 15%
 buff debuff duration 5, after the duration expire the explosion will go off
 cooldown 10
-mana cost 70 110 150 190 plus 1% of max mana
+mana cost 120 170 220 270 plus 1% of max mana
 
 talent level 10 upgrade Nature Wrath
 
-increase heal by 30 and int scaling by 30% -- 50% of this goes to the explosion heal
-increase damage by 8 and int scaling by 20% -- 50% of this goes to the explosion damage
-increase armor bonus by 2
+increase heal by 70 and int scaling by 20% -- 50% of this goes to the explosion heal
+increase damage by 12 and int scaling by 20% -- 50% of this goes to the explosion damage
+increase armor bonus by 4
 increase magic resist by 4%
-increase armor reduction by 1
-magic resist reduction increase by 4%
+increase armor reduction by 2
+magic resist reduction increase by 8%
 reduce cooldown by 1
 
 add a new modifier Green Flame
-after the buff duration end, it will make a green flame on allys healing them by 7 12 17 22 plus 16% of inteillgence every 1 second
+after the buff duration end, it will make a green flame on allys healing them by 4 8 12 16 plus 16% of inteillgence every 1 second
 and increasing healing effect by 25% and for the enemys they will lose 3 6 9 12 plus 32% of inteillgence health every 1 second and
-reducing healing effect by 35%, any allys that kill enemys affected by the green flames will gain 30 45 60 plus 60% of inteillgence
+reducing healing effect by 30%, any allys that kill enemys affected by the green flames will gain 30 45 60 75 plus 60% of inteillgence
 as health to them. the green flame will last 4 second
 
 
@@ -88,24 +88,26 @@ enemy that get close to the seed will take 3 damage pure per second, can stack w
 
 talent level 10 upgrade Treant Guard
 
-reduce cooldown by 5
-increase Treant life by 30% of int scaling
+reduce cooldown by 15
+increase Treant life by 60% of int scaling
 increase max treant by 2
-reduce the base attack time by 0.25
+reduce the base attack time by 0.35
 reduce mana cost by 150
 
-also give a new passive to the treant Spliting Nightmare
-went a Treant die they will spawn 2 lesser Treant with 30% of the attributes of the Treant
-meaning that it will get the current life damage and armor that the Treant had before, those small treant last 30 second
-and Absord 10% damage for Furion that he take
+also give a new modifier to the treant Spliting Nightmare
+went a Treant die they will spawn 2 lesser Treant with 50% of the attributes of the Treant
+meaning that it will get the max life, damage and armor that the Treant had before, those small treant last 30 second
+and Absord 10% damage for Furion that he take and if their is at least 10 Lesser Treant they will form into a Greater Treant
+having 300% of the Normal Treant stats
 
 
 SPELL E
 Pure Nature
 Make a garden at the location buffing ally and treant also healing them and as a small chance of spawning a Treant
-the Treant scale off by Treant Guard but only last 15 second and dont spawn any small Treant, furion is not affect by Pure Nature
+the Treant scale off by Treant Guard but only last 15 second and dont spawn any small Treant if the talent level 15 is taken, furion may
+not be affect by Pure Nature
 
-Heal per second 5 7 9 11 plus 10% of int
+Heal per second 10 15 20 25 plus 25% of int
 duration 5 6 7 8
 Treant Spawn chance per second 11% 12% 13% 14%
 radius 600
@@ -153,18 +155,19 @@ Increase the damage of Treant by 4
 Increase the damage Ancient of War by 8
 
 give a new modifier Go Green
-increase the damage of Furion summon by 15% and increasing the movementspeed by 25%
-also make summon lifesteal for 10% of the damage dealt if they die they reduce the cooldown of furion by 1
-only the normal Treant Guard will reduce cooldown
+increase the damage of Furion summon by 15% and increasing thier movementspeed by 25%
+also make summons lifesteal for 10% of the damage dealt if they die they reduce the cooldown of furion spell by 1
+only the normal Treant Guard will reduce cooldown, the ULTIMATE will refresh the coldown of all of his spell but not the ULTIMATE it-
+self
 
 ULTIMATE R
 Gift of Verodicia
 summon the mighty Ancient of War to fight for your side and destroy any foes that are in your way that scale
 with your intelligence for damage,life and mana also come with 2 spell and passive
 
-Life 150 300 450 plus 50% of int
-mana 200 300 400 plus 100% of int
-damage 13-20 23-30 33-40 plus 10% of int
+Life 150 300 450 plus 200% of int
+mana 200 300 400 plus 150% of int
+damage 13-20 23-30 33-40 plus 15% of int
 base attack time 2.30 2.20 2.10
 armor 3 5 7
 magic resist 10% 20% 30%
@@ -191,7 +194,7 @@ and stuning for 0.3 0.5 0.7 second the primary target get 50% more damage and ge
 
 talent level 25 upgrade Gift of Verodicia
 
-increase life of Ancient of War by 100 and int scaling by 30%
+increase life of Ancient of War by 100 and int scaling by 100%
 increase mana of Ancient of War by 200 and int scaling by 50%
 reduce base attack time by 0.20
 increase SPELL 2 instances by 1
