@@ -1,4 +1,4 @@
-Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 13, Stats gain 1.20 str, 0.80 int, 0.30 agi
+Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 12, Stats gain 1.10 str, 0.70 int, 0.30 agi
 
 
 TALENT LEVEL 20
@@ -19,7 +19,7 @@ BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifeste
 30% he also start with 1 armor and 5% magic resist he start with a special Sword that can be change and if sven get stun for more than
 3 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 2.5 second
 DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
-type he also lose 0.8% of his max health for any type of magical damage and attack slow debuff will have 50% more effect on him
+type he also lose 0.8% of his max health for any type of magical damage and attack slow, debuff will have 50% more effect on him
 
 Sven old Sword Special
 increase damage by 9%
@@ -32,8 +32,8 @@ can also be use to increase sven attack speed by 20 cooldown of 30 second and la
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
 Sven cleave for 100% of the damage in a 450 radius in front of him and his attack remove 1% of the target current life 0.3% for bosses
-he also gain 120 attack range with 20% increase base damage and Strenght will give Sven 0.50 attack speed and he also reduce blind
-duration effect by 15%
+he also gain 120 attack range with 25% bonus damage and Strenght will give Sven 0.50 attack speed and he also reduce blind
+duration effect by 20%
 
 SPELL Q level needed 1 4 9 15
 
@@ -100,10 +100,10 @@ Sven also lifesteal for a small amount done by Blood Wound
 
 damage 3 5 7 9 physical damage per tick plus 19% 22% 25% 28% of sven strenght
 armor loss 2 3 4 5
-increase armor lost by 2% of sven Strenght
+increase armor lost by 1% of sven Strenght
 duration 3 4 5 6 second
 increase duration by 1 for every 10 current level of Sven himself
-spellvamp of Blood Lost 12% 18% 24% 30%
+spellvamp of Blood Wound 12% 18% 24% 30%
 cooldown 25 23 21 19
 mana cost 140 160 180 200 plus 1% of max mana
 
@@ -114,11 +114,12 @@ increase armor lost by 2
 reduce cooldown by 3
 reduce mana cost by 70
 
-add a new modifier Critical Wound
-sven basic attack and spell will deal 20% pure damage on target affected by Blood Wound. if the target die
-under Blood Wound he will drop a Globe of Life restoring anyone life by 6% and reducing the cooldown of blood Wound by 7, bosses will
-drop a Greater Globe of life restoring 80% instead and reducing the cooldown of Blood Wound by 50% for the next use, also make
-Death Blow deal 30% more damage on unit affected by Blood Wound
+add a new modifier Deep Wound
+every time Sven cast Blood Wound, he will give it to other target in a 350 radius around him that deal 50% of the damage and if the
+enemys lose at least 30% of their max health under Deep Wound, they will have 50% reduce healing and taking 100% more damage from
+Blood Wound and if they die under Blood Wound they will drop a Health Globe that restore any ally health by 5% and giving them
+15% lifesteal and spellvamp to them, sven will have 5% increase damage every time he pick one up stacking to 6 max and having 30%
+bonus damage that last 11 second and refresh every time sven pick one up, allys will not be able to pick one up for 2.5 seconds
 
 
 PASSIVE D OR F Level needed 3 7 11 15
@@ -131,15 +132,15 @@ work for basic attack crit, instead it will give 50% of its bonus from Critical 
 Base Critical damage 115% 130% 145% 160%
 increase critical damage by 1% for every 3 point of strenght
 Critical chance 12% 13% 14% 15%
-Base block damage 4 7 10 13
+Base block damage 3 7 11 15
 increase block damage by 1 for every 10 strenght point
-block chance 20% 30% 40% 50%
+block chance 40% 45% 50% 55%
 
 talent level 15 upgrade War Gladiator
 increase critical damage by 25%
 increase critical chance by 5%
-increase block damage by 2
-increase block chance by 15%
+increase block damage by 3
+increase block chance by 10%
 
 add a new modifier Legendary Gladiator
 for every block and critical hit sven do he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
@@ -167,9 +168,9 @@ no mana cost
 
 talent level 25 upgrade God Strenght
 
-increase base damage by 30%
-increase attack speed lost by 25
-increase duration by 7
+increase base damage by 40%
+increase attack speed lost by 30
+increase duration by 9
 reduce cooldown by 30
 
 add a new modifier Strenght Lord
