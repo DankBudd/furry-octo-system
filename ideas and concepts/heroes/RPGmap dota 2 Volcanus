@@ -30,11 +30,11 @@ SPELL Q
 Soul Burn
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
 
-damage per second 10 14 18 22 type Magical plus 15% of intelligence
+damage per second 10 14 18 22 type Magical plus 25% of intelligence
 damage reduction 25% 40% 55% 70%
 slow 6% 8% 10% 12%
 Silence Target
-duration 3 4 5 6
+duration 5
 cooldown 35 34 33 32
 mana cost 70 110 150 190 plus 5% of max mana
 
@@ -51,8 +51,8 @@ SPELL W Lava Wave
 Send out a wave of Molten lava dealing high damage and burning enemys also reducing their magic resist
 
 damage 20 30 40 50 type Magical plus 30% of intelligence
-burn damage 3 4 5 6 per second type magical plus 5% of intelligence
-magic resist lost 3% 6% 9% 12%
+burn damage 3 4 5 6 per second type magical plus 10% of intelligence
+magic resist lost 4% 8% 12% 16%
 duration of burn and magic resist lost 3 second
 radius of the wave 300
 max travel distance 500 700 900 1100
@@ -61,9 +61,9 @@ mana cost 100 150 200 250 plus 5% of max mana
 
 talent level 10 upgrade Lava Wave
 increase damage by 20
-increase intelligence scaling by 10%
+increase intelligence scaling by 10% for burn damage
 increase magic resist lost by 8%
-increase max travel distance by 400
+increase max travel distance by 300
 
 add a new modfier Molten Hearth
 lava wave deal 2% of the target max life as damage and sending 2 new lava wave and make lava wave roots enemys in Molten Lava for
@@ -74,9 +74,9 @@ channel a volcano that deal damage every 3 second stuning the enemy every time t
 they will take increase damage from it and stun duration
 
 damage 14 20 26 32 type Magical plus 40% 45% 50% 55% of intelligence
-damage increase by 3 5 7 9 every time the enemy gets damage again by volcano
+damage increase by 5 7 9 11 every time the enemy gets damage again by volcano
 duration of channel 12 second
-stun duration 0.6 0.7 0.8 0.9
+stun duration 0.3 0.4 0.5 0.6
 stun duration increase by 0.1 every time the enemy gets damage again by volcano
 radius of volcano 300 350 400 450
 radius of volcano increase by 1 for every point of intelligence
@@ -84,13 +84,13 @@ cooldown 45 40 35 30
 mana cost 100 170 240 310 plus 2% of max mana
 
 talent level 15 upgrade Volcano
-increase damage by 5
+increase damage by 8
 increase intelligence scaling by 10%
 reduce the damage per second to 2 instead of 3
 increase radius by 50
 
 add a new modfier Lava Spawn
-if the volcano kill any unit it will spawn a Lava Spawn that has 40% of volcanus life and 80% of the damage of volcanus as well
+if the volcano kill any unit it will spawn a Lava Spawn that has 80% of volcanus life and 70% of the damage of volcanus as well
 if the lava spawn deal at least 60 plus x20 of hero level as damage it will spawn a new lava spawn with only 20% of volcanus life and
 damage both of them will last 35 second and spawning new one will refresh the duration of the current lava spawn can only happen 1 time
 
@@ -101,8 +101,8 @@ and reducing healing effect as well. If the target dies under Incinerate it will
 
 spell amp 4% 7% 10% 13%
 burn damage 10% 15% 20% 25% of intelligence type Magical
-increase burn damage 1% 2% 3% 4% of inteillgence every attack
-max stack 4 6 8 10 of increase burn damage
+increase burn damage 2% 3% 4% 5% of inteillgence every attack
+max stack 5 of increase burn damage
 healing reduction 21% 25% 29% 33%
 explosion damage 10 20 30 40 type pure plus 50% of intelligence
 radius of Incinerate explosion 300
@@ -111,13 +111,13 @@ Incinerate duration 3 second
 talent level 15 upgrade Incinerate
 increase spell amp by 7%
 increase max stack by 5
-increase Incinerate duration by 1
+increase explosion scaling by 25%
 increase radius by 100
 
 add a new modfier Fire Blast
 Incinerate will explode after the duration end even if the target is still alive but if he dies, he will Spread Incinerate to other
 target dealing full damage as well and Volcanus attack will bounce to 1 target giving them Incinerate as well and dealing only 50%
-of basic attack to that target instead of 100%
+of basic attack to that target instead of 100% and also increase Incinerate damage by 50% if they die will affected by Incinerate
 
 
 ULTIMATE R
@@ -130,7 +130,7 @@ if the target dies under Incinerate they will spawn small lava Pool that deal da
 
 Lava Wave bonus damage 20 40 60
 Increase Lava Wave radius by 100 150 200
-Lava Wave cooldown reduction 7 9 11
+Lava Wave cooldown reduction 8 10 12
 Incinerate explosion per second damage 25% 40% 55% of Incinerate total damage
 increase Incinerate Burn damage by 10% 40% 70% of Inteillgence
 Lava Pool damage 6 10 14 plus 50% 100% 150% of inteillgence damage type magical every second
@@ -144,8 +144,8 @@ mana cost 100 200 300 plus 15% 20% 25% of max mana
 talent level 25 Upgrade Hells Power
 increase the duration of Hells power by 5
 Increase the duration of Lava Pool by 8
-increase the Burn damage by 20%
-Increase lava wave radius by 200
+increase the Burn damage by 20% increase scaling
+Increase lava wave radius by 100
 
 add a new modifier King of Hell
 when casting Hells Power Volcanus Triple in Size increase his life by 250% is damage by 100% and is spell amp by 30%
