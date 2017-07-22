@@ -114,8 +114,8 @@ PASSIVE D OR F BackStab -NOTE- this affect only work behind that mean if riki at
 increase riki agility, riki attack will do 100% crit damage behind the target and lowering the armor of the target as well
 if the target get 6 stack of Stab he will take increase damage
 
-base agility bonus 4 10 16 22
-damage multiplier behind the target 110% 130% 150% 170%
+base agility bonus 4% 10% 16% 22%
+damage multiplier behind the target 110% 125% 140% 165%
 armor lost per stack 1
 damage increase 9% 12% 15% 18%
 damage increase duration 3 second
