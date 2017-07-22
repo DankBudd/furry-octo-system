@@ -29,11 +29,11 @@ and he lose 70% base damage strenght only give 3 life instead of 5 and agility o
 talent level 25 upgrade Gravity Lord
 give a new modifier Pure Gravity
 empower next enigma spell
-VOID CURSE deal 10 more damage and lower the cooldown by 13
-GRAVITY WELL increase duration by 2 and lower the cooldown by 8
-GRAVITY BOLT deal pure damage instead and increase damage by 25
-also make those 3 spell of enigma deal 1% of the enemy current life as damage -dont work for bosses-
-cooldown for this empower 50 second
+VOID CURSE deal 50% more damage and lower the cooldown by 13
+GRAVITY WELL increase duration by 3 and lower the cooldown by 8
+GRAVITY BOLT deal pure damage instead and increase damage by 100%
+also make those 3 spell of enigma deal 1% of the enemy max life as damage -dont work for bosses-
+cooldown for this empower 40 second
 
 SPELL Q level needed 1 4 9 15
 
