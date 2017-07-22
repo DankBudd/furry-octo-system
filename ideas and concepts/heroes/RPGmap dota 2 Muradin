@@ -112,7 +112,7 @@ increase Muradin damage and attack speed also giving him a chance to bash the ta
 take damage per second if they get hit by Storm Bolt or Thunder Clap
 
 damage per second by Storm Bolt and Thunder Clap 11% 13% 15% 17% of strenght as damage -damage type Magical- last 3 second
-bonus base damage 2 6 10 14
+bonus damage 5% 10% 15% 20%
 bonus attack speed 3% 6% 9% 12%
 bash chance 12% 13% 14% 15%
 bash damage 8 10 12 14 -damage type PHYSICAL-
