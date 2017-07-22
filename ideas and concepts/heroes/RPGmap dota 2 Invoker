@@ -3,8 +3,8 @@ starting item Orb of Element Special item
 
 LEVEL 10 TALENT
 give modifier to all Orbs of invoker
-reduce the cooldown of Exort Quas and Wex by 1 and removing mana cost as well also make them ingnore Magic immune dealing damage
-and affecting them with the debuff as well work for the ULTIMATES spell as well also increase spell amp by 30% and mana by 15% for
+reduce the cooldown of Exort Quas and Wex by 2 and removing mana cost as well also make them ingnore Magic immune dealing damage
+and affecting them with the debuff as well work for the ULTIMATES spell as well also increase spell amp by 20% and mana by 15% for
 invoker
 
 LEVEL 15 TALENT
@@ -14,15 +14,15 @@ mana cost of the next spell use with it by 50% and having 75% spell vamp
 
 LEVEL 20 TALENT
 give modifer to all Invoker ULTIMATE spell
-all of Invoker ULTIMATE will have 30% mana cost reduction with 20% cooldown reduction and making them do 0.5% of the enemys max health
-0.1% for bosses and he got 10% chance to refresh the duration of that spell after he cast it and having 30% increase damage on the next
+all of Invoker ULTIMATE will have 50% mana cost reduction with 30% cooldown reduction and making them do 0.5% of the enemys max health
+0.1% for bosses and he got 15% chance to refresh the duration of that spell after he cast it and having 40% increase damage on the next
 spell ULTIMATE he use
 
 LEVEL 20 TALENT
 give modifier to all Orbs of invoker
-reduce the cooldown of Exort Quas Wex by 2 second and giving them 250 area of effect and also deal 1% of the enemys health in damage
-0.3% for bosses. Exort will stun enemys for 0.4 second, Quas will reduce healing effect by 10% and Wex will increase the damage they
-take by 15%
+reduce the cooldown of Exort Quas Wex by 1 second and giving them 250 area of effect and also deal 2% of the enemys health in damage
+0.5% for bosses. Exort will stun enemys for 0.2 second, Quas will reduce healing effect by 10% and Wex will increase the damage they
+take by 15% and also work for the ULTIMATES as well
 
 
 PASSIVE D OR F
@@ -32,11 +32,11 @@ give a positive and negative buff
 
 BUFF invoker will gain 1% spell amp for every 8 inteillgence instead of 10 he also gain 1 more life from strenght and gain 5 more mana
 from inteillgence and silence will only last 50% of their duration on Invoker and after the silence end he will gain magic immune for 1.5
-second. Invoker also make his Exort Quas and Wex deal 1% of his mana as bonus damage for them and he also start with a Elemental Orb that
-cant be change
+second. Invoker also make his Exort Quas and Wex deal 1% bonus damage base of his max mana he got and he also start with a Elemental Orb
+that cant be change
 DEBUFF invoker cannot attack and he doenst gain any agility per level he also take 150% more damage from physical and 60% from pure
-any roots on him will last 0.5 second longer and damage him for 2% of his Health for every 0.5 second, Strenght doesnt give any Regen
-and mana as well, items also get 50% reduce stats on Invoker but not the Elemental Orb
+any roots on him will last 0.5 second longer and damage him for 2% of his Health for every 0.5 second, Strenght doesnt give any
+Regeneration and inteillgence doesnt give mana regeneration as well, items also get 50% reduce stats on Invoker but not the Elemental Orb
 
 
 Elemental Orb Special item
@@ -299,7 +299,7 @@ deal Pure, Magical and physical damage to the enemys increasing the damage they 
 and reduce magic resist, Quas will reduce attack speed and increase damage taken from pure damage and Wex will reduce armor and disarm
 them. Elemental Blast does Area of Effect in a target Location
 
-damage 25 40 55 70 plus 100% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
+damage 50 80 110 140 plus 100% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
 increase damage from Quas,Exort,Wex 30% 60% 90% 120%
 Burn damage 5 10 15 20 plus 30% of inteillgence per second magical damage
 magic resist lost 7% 14% 21% 28%
@@ -308,10 +308,10 @@ increase damage taken from Pure by 20% 40% 60% 80%
 armor lost 3 7 11 15
 Disarm Target
 debuff duration 3 4 5 6
-area of effect 600 700 800 900
-mana cost 25% 40% 55% 70% of max mana
+area of effect 350 500 650 800
+mana cost 25% 30% 35% 40% of max mana
 cooldown 170 150 130 110
 
 
-
+talent level 25 Upgrade Invoke Element
 
