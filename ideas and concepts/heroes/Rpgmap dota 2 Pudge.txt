@@ -78,29 +78,29 @@ Rotting Flesh will no longer affect pudge with slow and magic resist lost but st
 
 add a new modifier Bad Rot
 enemy will take 1% extra damage from pudge spell for every tick of damage up to 30 max stack, upon getting 30 stack all pudge
-spell will do pure damage on that unit for 5 second and this effect can only proc every 8 second but the enemy can still get stack
-but will not proc the effect until the cooldown is done and enemy that die near pudge 300 radius will make small pool of Bad Rot
-dealing 70% of Rotting Flesh damage and getting root for 0.5 second if they enter Bad Root cooldown of 2.5 second for root again
+spell will do 50% more damage on that unit for 5 second and this effect can only proc every 10 second but the enemy can still get stack
+but will not proc the effect until the cooldown is done and enemy that die near pudge 350 radius will make small pool of Bad Rot
+dealing 50% of Rotting Flesh damage and getting root for 1.5 second if they enter Bad Root cooldown of 4 second for root again
 
 
 SPELL E Freah Meat!
 Pudge empower this next attack dealing damage and droping a meat peice and also disarming the enemy on hit and taking increase damage 
 from Glory Hook
 
-bonus damage 9% 12% 15% 18% of pudge max life -doesnt gain damage from BUFF passive of 1% life max as damage
-amount of meat peice drop 1 2 3 4
+bonus damage 8% 12% 16% 20% of pudge max life -doesnt gain damage from BUFF passive of 1% life max as damage
+amount of meat peice drop 1-1 1-2 1-3 1-4
 meat healing amount 10 15 20 25 plus 50% of pudge strenght
 disarm duration 1 1.2 1.4 1.6
-increase damage taken from Glory Hook by 10% 15% 20% 25%
-debuff duration 4
+increase damage taken from Glory Hook by 15% 20% 25% 30%
+debuff duration 4 of glory hook damage bonus
 Number of attack 1
 life cost 12% 11% 10% 9%
 cooldown 14
 
 Talent level 15 Upgrade Fresh Meat!
-increase max life damage by 7%
-increase damage taken from Glory Hook by 15%
-increase meat drop by 1
+increase max life damage by 5%
+increase damage taken from Glory Hook by 20%
+increase meat drop by 1-1
 increase disarm duration by 0.4
 cooldown reduce by 2
 
@@ -115,12 +115,12 @@ Increase Butcher Strenght and magic resist he also gain life bonus upon killing 
 and he also gain heap stack that increase spell amp and life regen that stay for a duration. Butcher will lose all stack upon death
 of health bonus
 
-bonus strenght 6 8 10 12
+bonus strenght 4% 8% 12% 16%
 magic resist 3% 7% 11% 15%
 bonus life per normal enemy 1 3 5 7
 bonus life per boss enemy 20 40 60 80
 max life bonus 200 300 400 500
-increase max life bonus by 2 for every point of strenght
+increase max life bonus by 10 for every level of Butcher
 life regeneration per stack 0.1 0.2 0.3 0.4
 spell amp per stack 0.2% 0.3% 0.4% 0.5%
 max stack of heap 12 18 24 30
@@ -128,12 +128,12 @@ duration of stacks 16 24 32 40
 radius for bonus and stacks 350 380 410 440
 
 Talent level 15 Upgrade Flesh Heap
-increase bonus strenght by 8
+increase bonus strenght by 6%
 increase bonus magic resist by 10%
 increase life bonus for normal enemy by 1
 increase life bonus for boss enemy by 40
 increase max stack by 5
-incease life regen by 0.1
+incease life regen by 0.2
 increase duration of stack by 15
 
 add a new modifier Global Flesh
