@@ -153,34 +153,34 @@ Void Star
 summon a star infested with void and gravity stuning and damaging all enemy, A blackhole will appear dealing damage per second and doing 
 even more damage the closer you get into the center of the blackhole
 
-Damage 30 80 130 Magical damage with 20% 40% 60% of enigma int
+Damage 60 110 160 Magical damage with 40% 80% 120% of enigma int
 Stun duration 1 second
 radius 400 500 600 of the explosion damage
 cast range 700
 mana cost 200 400 600 plus 5% of max mana
 cooldown 200 190 180
 radius of the black hole 700 800 900
-Black Hole damage 10 30 50 plus 30% of inteillgence as pure damage per second
+Black Hole damage 15 35 55 plus 50% of inteillgence as pure damage per second
 Double Damage if enemys are in the Center 180 240 300 radius every second
 duration of the Blade Hole 6 second
-Speed Pull of the Black Hole 90 110 130
+Speed Pull of the Black Hole 100 120 140
 
 NOTE use the immortal black hole
 
 talent level 25 upgrade Void Star
 increase damage by 90 for explosion
-increase the int scaling by 60% for explosion
-mana cost reduce by 100
+increase the int scaling by 40% for explosion
 cooldown reduce by 15
+black hole inteillgence scaling bonus 25%
 black hole radius increase by 200
-black hole double damage radius increase by 50
-black hole pull speed increase by 30
+black hole double damage radius increase by 100
+black hole pull speed increase by 40
 
 add a new modifier Might of the Galaxy Lord
 casting Void Star will give all enemy Void Curse with 50% less duration -5 second with talent upgrade- dealing pure damage instead of
 magical and changing magic resist lost to damage taken increase and when the black hole appear a Gravity Well will be cast as well
 for the duration of the black hole having 100% increase damage and after the black hole end it will explode for 200% of engima
-inteillgence as pure damage 1000 radius and removing all debuff on ally and giving enigma 70% magic resist for 15 second
+inteillgence as pure damage 700 radius and removing all debuff on ally and giving enigma 70% magic resist for 12 second
 
 
 TIPS
