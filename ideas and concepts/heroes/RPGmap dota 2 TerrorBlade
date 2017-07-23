@@ -15,7 +15,7 @@ give a positive and negative buff
 
 BUFF TerrorBlade will gain 1 base damage for every 60 movementspeed he got and he also gain 1% movement speed for every 8 Agility, he
 start with 2 armor and 50 life bonus as well, he got a special Helm that scale every level of TerrorBlade
-DEBUFF terrorblade cannot have any magic resist and he got -20% magic resist as well and slowing effect will be double on him he cannot
+DEBUFF terrorblade cannot have any magic resist and he got -10% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -60% max mana and increasing Blinds and damage reduction debuff by 3 more second on him
 
 Speed Horn Helm SPECIAL
@@ -26,8 +26,9 @@ TerrorBlade can use the Speed Horn to remove any Debuff that slow him cooldown o
 
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
-all enemy near terrorblade 900 radius get -7 armor reduction and -13% magic resist reduction also increase terrorblade movementspeed by
-8% for every enemy in the radius
+all enemy near terrorblade 900 radius get -7 armor reduction and -14% magic resist reduction also increase terrorblade movementspeed by
+6% for every enemy in the radius and some of TerrorBlade Spell will do 5% of his Move speed as bonus damage, following spell getting
+this bonus are -- Terror Wave, Zeal and Demonic Prison
 
 SPELL Q Terror Wave
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of TerrorBlade, while enemys Sleep
@@ -40,7 +41,7 @@ radius of the wave 200
 Wave max distance 450 500 550 600
 Sleep duration 5 second
 Nightmare chance to Trigger every second 7% 8% 9% 10%
-Nightmare damage 20 40 60 80 plus 40% of agility Pure damage
+Nightmare damage 20 40 60 80 plus 30% of agility Pure damage
 Nightmare Fear duration 4 second
 cooldown 14
 mana cost 60 70 80 90 plus 3% of max mana
