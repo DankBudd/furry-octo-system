@@ -153,24 +153,24 @@ PASSIVE D OR F
 Necro Mastery
 increase all skeleton life, damage, regen, armor, magic resist, attackspeed and movement speed
 
-Skeleton damage increase by 13% 20% 27% 34%
-Skeleton life increase by 7% 15% 23% 31%
+Skeleton damage increase by 10% 20% 30% 40%
+Skeleton life increase by 10% 25% 40% 55%
 Skeleton regeneration increase by 1 2.5 4 5.5
 Skeleton armor increase by 1 2 3 4
 Skeleton magic resist 9% 12% 15% 18%
 Skeleton attack speed 6 12 18 24
-SKeleton movement speed 10% 14% 18% 22%
+SKeleton movement speed 30 50 70 90 FLAT
 radius global
 
 talent level 15 upgrade Necro Mastery
 
 Skeleton damage increase by 18%
-Skeleton life increase by 11%
+Skeleton life increase by 12%
 Skeleton regeneration increase by 2.5
 Skeleton armor increase by 2
 Skeleton magic resist 14%
 Skeleton attack speed 12
-Skeleton movement speed 11%
+Skeleton movement speed by 30 FLAT
 
 add a new modifier Undead Master
 Skeleton that die will come back to life only once with 50% of their health and have 15% increase damage and 10 attack speed as well
