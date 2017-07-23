@@ -41,11 +41,11 @@ Void Curse
 
 Curse the enemy dealing damage over time to a target lowering magic resist and reducing life regeneration for the duration
 
-Damage 6 9 12 15 type magical plus 10% 11% 12% 13% of intelligence
+Damage 6 9 12 15 type magical plus 10% 16% 22% 28% of intelligence
 Duration 5 6 7 8 second damage every 1 second
-life regeneration lost -0.2 -0.4 -0.6 -0.8 per tick of damage
-Magic resist lost 1% per tick of damage
-debuff duration 2 second
+life regeneration lost -0.3 -0.5 -0.7 -0.9 per tick of damage
+Magic resist lost 1.25% 1.50% 1.75% 2% per tick of damage
+debuff duration 3 second
 Cooldown 32 29 26 23
 Mana cost 100 130 160 190 plus 1% of max mana
 
@@ -54,13 +54,13 @@ Talent level 10 Upgrade Void Curse
 increase damage by 6
 increase damage by 10% of enigma intelligence
 increase duration by 2
-increase life regeneration lost by 0.5
-increase magic resist lost by 2%
-mana cost increase by 120
+increase life regeneration lost by 0.3
+increase magic resist lost by 1%
+mana cost increase by 90
 
 add a new modifier Void Corruption
-now damage enemys in a 300 area of effect of the main target only dealing 60% of the damage to them and pulling them to the target
-for 100 speed unit and also increase all stun and roots on the main target by 100%
+now damage enemys in a 300 area of effect of the main target only dealing 80% of the damage to them and pulling them to the target
+for 100 speed unit and also increase all stun and roots on the main target by 100% and for the other getting affected by 50%
 
 SPELL W level needed 1 4 9 15
 
@@ -71,7 +71,7 @@ a small chance of stuning the target as well or rooting them
 Damage 12 18 24 30 type magical per second
 duration 6 second
 increase duration by 1 for every 50 inteillgence
-Attack slow 2 per damage
+Attack slow 3 per damage
 Movement slow 1% per damage
 debuff duration 3 second
 chance for roots or stuns 10%
@@ -101,23 +101,23 @@ Cast a bolt made of pure gravity dealing magical damage and increasing enigma ma
 it will heal enigma
 
 Base damage 8 14 20 26 type Magical
-intelligence scaling 20% 30% 40% 50%
+intelligence scaling 20% 40% 60% 80%
 damage from Gravity bolt into bonus life 20% 30% 40% 50%
-gain 50% of the bonus life into a heal after the duration
-buff duration 4 second
+gain 50% 55% 60% 65% of the bonus life into a heal after the duration
+buff duration 4 4.5 5 5.5 second
 cooldown 8 7 6 5
-Mana cost 70 80 90 100 plus 2% of max mana
+Mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 Upgrade Gravity Bolt
 increase base damage by 8
 increase intelligence scaling by 20%
-increase bonus life gain 20%
+increase bonus life gain 25%
 reduce cooldown by 2
-mana cost reduce by 50
+mana cost increase by 50
 
 add a new modifier Gravity Wound
 enemys will get a debuff of Gravity Wound taking 10% more damage from Gravity Bolt after 6 stack on the same target he will explode
-casting Gravity Bolt to all near enemys 500 radius for 190% of the damage and giving 3 stack to the other also increase engima magic
+casting Gravity Bolt to all near enemys 500 radius for 200% of the damage and giving 3 stack to the other also increase engima magic
 resist by 15% after the enemy explode for 10 second the debuff of Gravity Wound last 5 second, the explosion stack last until death.
 
 
@@ -128,16 +128,16 @@ reduce engima cooldown and increasing his mana he also deal bonus damage base on
 will gain roots resist double on engima also increase enigma Gravity Well damage
 
 Reduce cooldown by 3% 6% 9% 12%
-Increase enigma mana by 5% 10% 15% 20%
-every 10 second engima will deal 0.4% 0.6% 0.8% 1% of his max mana as magical damage
+Increase enigma mana by 4% 11% 18% 25%
+every 10 second engima will deal 0.5% 1% 1.5% 2% of his max mana as magical damage
 increase resist for roots by 9% 13% 17% 21%
-Gravity Well Bonus damage 4% 6% 8% 10% of enigma Inteillgence
+Gravity Well Bonus damage 6% 14% 22% 30% of enigma Inteillgence
 also increase enigma size by 5% 10% 15% 20%
 
 Talent level 15 Upgrade Galaxy
 increase cooldown reduction by 3%
 increase mana by 10%
-reduce the cooldown by 5 second of damage by mana
+reduce the cooldown by 3 second of damage by mana
 increase Gravity Well Bonus damage by 5% of Enigma Inteillgence
 also further increase enigma size by 10%
 
