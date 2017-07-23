@@ -118,14 +118,13 @@ agility bonus for every kill 1 2 3 4
 duration of Agility gain 18 24 28 32
 Inteillgence bonus 2 4 6 8 for every require health restore
 Heath restore needed for bonus 140 120 100 80
-duration of inteillgence gain 10 18 18 22
+duration of inteillgence gain 10 18 26 34
 Increase strenght by 1% for every 46 41 36 31 Agility and Inteillgence
 increase agility by 1% for every 40 34 28 22 Strenght
 Increase Inteillgence by 1% for every 40 34 28 22 Strenght
 
 talent level 15 upgrade Lightning Body
-increase duration of agility bonus by 8
-increase the duration of inteillgence bonus by 16
+increase duration of agility bonus and inteillgence bonus by 4
 reduce how much Agility and Inteillgence is needed for Strenght bonus by 3
 reduce how much Strenght is needed for Agility and Inteillgence bonus by 6
 
