@@ -38,6 +38,14 @@
     GameUI.CustomUIConfig().team_colors[DOTATeam_t.DOTA_TEAM_CUSTOM_7] = "#c7e40d;";
     GameUI.CustomUIConfig().team_colors[DOTATeam_t.DOTA_TEAM_CUSTOM_8] = "#8c2af4;";
 
+	GameEvents.Subscribe("dotaHudErrorMessage", function(data) {
+		GameEvents.SendEventClientSide("dota_hud_error_message", {
+			"splitscreenplayer": 0,
+			"reason": data.reason || 80,
+			"message": data.message
+		})
+	})
+	
   </script> 
 
   <Panel>
@@ -49,10 +57,6 @@
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/containers/container_base.xml" />
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/modmaker/modmaker.xml" />
     <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/selection.xml" />
-<!--
-	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/quest/quest.xml" />
--->	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/talent_tree/talent_tree.xml" />
-	<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/spell_craft/spell_craft.xml" />
 	
 	
     <!-- From Overthrow.
