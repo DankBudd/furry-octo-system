@@ -1,17 +1,236 @@
+function CDOTA_Item:IsConsumable()
+  local kv = LoadKeyValues("scripts/npc/kv/shops.kv")
+  if kv then
+    for k,v in pairs(kv) do
+      if k == "consumables" then
+        if v then
+          for name,_ in pairs(v) do
+            if self:GetName() == name then
+              return true
+            end
+          end
+        end
+      end
+    end
+  end
+  return false
+end
+
+function CDOTA_BaseNPC:GetItems()
+  local items = {}
+  for i=0,DOTA_ITEM_MAX-1 do
+    local item = self:GetItemInSlot(i)
+    if item then
+      items[i+1] = item
+    end
+  end
+  return items
+end
+
+function CreateDummy( pos, team, func )
+  if pos and team then
+    local dummy = CreateUnitByNameAsync("npc_dummy_unit", pos, false, nil, nil, team, func or function(unit) end)
+    return dummy
+  end
+  print("CreateDummy | requires vector, team and optional function inputs")
+end
+
+function DisplayError( pid, message )
+  if pid then
+    if type(pid) == "userdata" then
+      pid = pid:GetPlayerID()
+    end
+    local player = PlayerResource:GetPlayer(pid)
+    if player then
+      CustomGameEventManager:Send_ServerToPlayer(player, "dotaHudErrorMessage", {message=(message or "error")})
+      return
+    end
+  end
+  print("DisplayError | requires (player or playerID) and optional string inputs")
+end
+
+function CDOTA_BaseNPC:RemoveAbilityAndModifiers( abilityName )
+  if self and abilityName then
+    if type(abilityName) == "string" then
+      local ability = self:FindAbilityByName(abilityName)
+      if ability then
+        local mods = self:FindAllModifiers()
+        for _,mod in pairs(mods) do
+          if mod then
+            if mod:GetAbility() == ability then
+              self:RemoveModifierByNameAndCaster(mod:GetName(), mod:GetCaster())
+             end
+          end
+        end
+        self:RemoveAbility(abilityName)
+      end
+      return
+    end
+  end
+  print("RemoveAbilityAndModifiers | requires hero_entity class and ability name input")
+end
+
+function CDOTA_BaseNPC:ClearModifiers( bClearIntrinsicMods )
+  local mods = self:FindAllModifiers()
+  local shouldRemove = false
+  for _,mod in pairs(mods) do
+    if mod then
+      if not string.find(mod:GetName(), "special_bonus") then
+        local intrinsic = mod:GetAbility():GetIntrinsicModifierName()
+        if not intrinsic then
+          shouldRemove = true
+        else
+          if not bClearIntrinsicMods or mod:GetName() ~= intrinsic then
+            shouldRemove = true
+          elseif bClearIntrinsicMods and mod:GetName() == intrinsic then
+            shouldRemove = true
+          else
+            shouldRemove = false
+          end
+        end
+        if shouldRemove then
+          self:RemoveModifierByNameAndCaster(mod:GetName(), mod:GetCaster())
+        end
+      end
+    end
+  end
+end
+
+function CDOTA_BaseNPC:ReplaceAbility( oldName, newName )
+  if self and oldName and newName then
+    if type(oldName) == "string" and type(newName) == "string" then
+      local oldAb = self:FindAbilityByName(oldName)
+      if oldAb then
+        local index = oldAb:GetAbilityIndex()
+        local level = oldAb:GetLevel()
+        if level > 0 then
+          self:SetAbilityPoints(self:GetAbilityPoints()+level)
+        end
+        self:RemoveAbilityAndModifiers(oldName)
+        local newAb = self:AddAbility(newName)
+        if newAb then
+          newAb:SetAbilityIndex(index)
+          return newAb
+        end
+        print("ReplaceAbility | "..newName.." is not a valid ability name")
+        return
+      end
+      print("ReplaceAbility | "..oldName.." is not a valid ability name")
+      return
+    end
+  end
+  print("ReplaceAbility | requires hero_entity class and two ability name inputs")
+end
+
+--should probably change this to a dummy unit w/ a vision modifier
+function AttachFOWViewer( nTeamID, hUnit, flRadius, flDuration, bObstructedVision )
+  local time = 0
+  Timers:CreateTimer(0.03, function()
+    AddFOWViewer(nTeamID, hUnit:GetAbsOrigin(), flRadius, 0.03, bObstructedVision)
+    time = time + 0.03
+    if time < flDuration then
+      return 0.03
+    end
+    return nil
+  end)
+end
+
+function BoolToString(b)
+  if b == true or b == 1 then return "true" end
+  if b == false or b == 0 then return "false" end
+end
+
+function TableCount(t)
+  local count = 0
+  if type(t) == "table" then
+    for k,v in pairs(t) do
+      count = count+1
+    end
+  end
+  return count
+end
+
+function CDOTA_BaseNPC:GetSlot(item)
+  if item then
+    if item:IsItem() then
+      for i = 0,DOTA_ITEM_MAX-1 do
+        local itemInSlot = self:GetItemInSlot(i)
+        if item == itemInSlot then
+          return i
+        end
+      end
+      return nil
+    end
+  end
+end
+
+--from SWAT:REBORN
+function FindItemsInRadius( point, radius )
+  local found = {}
+  for _,item in pairs(Entities:FindAllInSphere(point, radius)) do
+    if item.GetContainedItem then
+      table.insert(found, item)
+    end       
+  end
+  return found
+end
+
+function DoAnyUnitsHaveModifier( modifier, unitTable )
+  for _,unit in pairs(unitTable) do
+    if unit:HasModifier(modifier) then
+      return true
+    end
+  end
+  return false
+end
+
+function FindCentralUnit( unitTable )
+  local positions = {}
+  local lengths = {}
+  local lowest = {}
+  if #unitTable == 1 then return unitTable[1] end
+  if #unitTable < 2 then return end
+  -- gather positions of units
+  for pos, unit in pairs(unitTable) do
+    positions[pos] = unit:GetAbsOrigin()
+  end
+  -- determine distances between each unit
+  for pos, unit in pairs(unitTable) do
+    local i = 1
+    while i <= #unitTable do
+      if not lengths[pos] then lengths[pos] = 0 end
+      lengths[pos] = lengths[pos] + (positions[pos] - positions[i]):Length2D()
+      i=i+1
+    end
+  end
+  -- compare distances and find central unit
+  for pos, lengthTotal in pairs(lengths) do
+    if not lowest[1] then
+      lowest[1] = lengthTotal
+      lowest[2] = pos
+    elseif lengthTotal < lowest[1] then
+      lowest[1] = lengthTotal
+      lowest[2] = pos
+    end
+  end
+  -- return central unit
+  return unitTable[lowest[2]]
+end
+
 function CDOTA_BaseNPC:GetBackwardVector()
-  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetForwardVector() * 2)):Normalized()
+  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetForwardVector()*2)):Normalized()
 end
 
 function CDOTA_BaseNPC:GetLeftVector()
-  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetRightVector() * 2)):Normalized()
+  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetRightVector()*2)):Normalized()
 end
 
 function CDOTA_BaseNPC:GetDownVector()
-  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetUpVector() * 2)):Normalized()
+  return (self:GetAbsOrigin() - (self:GetAbsOrigin() + self:GetUpVector()*2)):Normalized()
 end
 
 function CDOTA_BaseNPC:IsJuggernautIllusion()
-  if self:HasModifier("modifier_juggernaut_r_illusion") or self:HasModifier("modifier_juggernaut_r_vulnerable") then
+  if self:HasModifier("modifier_juggernaut_r_illusion") or self:HasModifier("modifier_juggernaut_d_vulnerable") then
     return true
   end
   return false
@@ -24,6 +243,7 @@ function CDOTA_BaseNPC:HandleUnitHealth( desiredHealth )
   self:SetHealth(desiredHealth * relativeHealth)
 end
 
+--currently unused
 function CDOTA_BaseNPC:HasSpecialScepter()
   local scepters = {
       ["npc_dota_hero_pudge"] = "special_scepter_name",
@@ -116,10 +336,10 @@ function CDOTA_BaseNPC:FindTalentValues( talentName )
     for k,v in pairs(kv) do
       if k == "AbilitySpecial" then
         for num,tab in pairs(v) do
-          for key,value in pairs(tab) do
+          for key,val in pairs(tab) do
             if key ~= "var_type" then
-              values[tonumber(num)] = value
-              values[key] = value
+              values[tonumber(num)] = val
+              values[key] = val
             end
           end
         end
@@ -129,6 +349,7 @@ function CDOTA_BaseNPC:FindTalentValues( talentName )
   end
   return nil
 end
+
 ------------------------------------------------------------------
 -- Debug
 ------------------------------------------------------------------
