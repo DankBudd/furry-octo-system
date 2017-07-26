@@ -51,14 +51,19 @@ after getting 1000 charge, change the item to Sulfuras Might, increasing the bon
 10 also increase the user size by 50%, increasing attack range by 130 and cleave for 40% of the damage dealt, range unit will deal splash
 damage instead for 20% of the damage dealt
 
-damage 30
-strenght 40
-attack speed lost -60
-Volcanus stats bonus
-increase fire damage by 25%
-increase inteillgence by 20
-reduce attack speed lost by 10
-Switch the strenght scaling to inteillgence scaling
+damage 35
+strenght 50
+attack speed lost -20
+BAT 2.7
+
+if use by Volcanus Stats will be
+25 inteillgence
+40 damage
+15% health bonus
+15% mana bonus
+30% spell amp
+Change attack to be Melee
+BAT 2.00
 
 LORE--Sulfuras is the mighty weapon of Ragnaros the Firelord. The weapon never leaves his grasp. across the weapon's surface.
 and etched from end to end with intricate runes that seem to move like flowing lava It is composed of flaming red elementium
