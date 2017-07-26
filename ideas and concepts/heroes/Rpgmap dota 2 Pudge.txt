@@ -1,48 +1,46 @@
-Pudge, the Butcher Starting stats 8 str, 5 agi, 0 int, base speed 300, base damage 3, stats gain per level 1.60 str, 0.00 int, 0.50 agi
+Pudge, the Butcher Starting stats 4 str, 5 agi, 0 int, base speed 300, base damage 3, stats gain per level 2.00 str, 0.00 int, 0.50 agi
 Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
 
 LEVEL 20 TALENT
 
 talent 1
-
-15% life with 4 armor and 4 life regen
+increase Butcher magic resist by 5% and his armor by 3
+Butcher will gain bonus heath by 600% of his armor and 300% of his magic resist as well
 
 talent 2
-
-cast range 150 with 25 attack speed and 11% spell amp
-
+increase Butcher spell amp by 10% and his attack speed by 20
+Butcher will gain 1 damage for 50% of his armor and 30% of his magic resist as well and 75% of his spell amp will be attack speed
 
 PASSIVE D OR F
 
 Fat Body
-give a positive and negative buff
+give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
 
-BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 1% of his max health
-as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block
-DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 25% more damage from
+BUFF Butcher gain 2 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 1% of his max health
+as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block- and for every 30 strenght
+Butcher got, he will gain 1 armor and 4 attack speed
+DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 35% more damage from
 pure and physical damage and he cannot have more than 300 movement speed slows are double on him and slowing effect will damage him by
 1% of his max health for every second of the duration of slows and he only use clever and swords type weapons
-
 
 Talent level 25 Upgrade Fat Body
 add a new modifier Meat Eater
 Butcher basic attack now deal 4% of the target current life in damage and healing him for 150% of the damage done, this effect get a
 cooldown of 16 second if attacking a boss also make all spell of pudge deal 1.2% of the target max health doesnt work for Rotting Flesh
-also give pudge 1% magic resist for every 150 health he currently got up to 70% max 
-
+also give pudge 1% magic resist for every 50 health he currently got up to 80% max bonus
 
 SPELL Q Glory Hook
 throw a hook that can grab multiple enemys in one single hook and reducing armor as well if hooking any ally will reduce the cooldown 
 but cannot grab more than one person they also get stun after getting to Butcher
 
-damage 14 26 38 50 physical damage and 30% of pudge strenght
+damage 14 26 38 50 physical damage and 30% 35% 40% 45% of pudge strenght
 bonus damage from max life 1%
 Range 400 450 500 550
-increase range by 2 per strenght point
+increase range by 100% 200% 300% 400% of Butcher Strenght
 Stun duration 0.5 0.6 0.7 0.8
 max hook target 4 5 6 7
 armor reduction 3 5 7 9
-increase armor reduction by 1 for every 80 strenght
+increase armor reduction by 1 for every 65 strenght
 life cost 5% 8% 11% 14%
 cooldown 15 14 13 12
 
@@ -54,18 +52,19 @@ increase the armor reduction by 3
 reduce life cost by 2%
 
 add a new modifier Homing Hook
-deal 3% of the target max health and he now throw 2 more hook, those 2 hook will only do 50% of the damage and they will seek out
+deal 1% of the target max health and he now throw 2 more hook, those 2 hook will only do 50% of the damage and they will seek out
 enemy brining them back to Butcher, the hooks cannot be evade and they will seek until it hit the target its chasing if there is no
-enemys but one increase the normal hook damage by 50% also increase Glory Hook damage by 10% for every Meat pickup up to 200% max
+enemys but one increase the normal hook damage by 50% also increase Glory Hook damage by 10% for every Meat pickup up to 100% max
+that last without limit and only losing stack upon stacking Glory Hook
 
 SPELL Q Rotting Flesh
 rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher for double the damage
 
-damage 3 5 7 9 magical damage per second and 6% of pudge strenght
+damage 6 8 10 12 magical damage per second and 10% 11% 12% 13% of pudge strenght
 bonus damage from max life 1%
 movement speed reduction 8% 14% 18% 24%
 magic resist reduction 2% 6% 10% 14%
-radius 200
+radius 200 235 270 305
 increase radius by 10% of life
 no cooldown
 
@@ -80,7 +79,7 @@ add a new modifier Bad Rot
 enemy will take 1% extra damage from pudge spell for every tick of damage up to 30 max stack, upon getting 30 stack all pudge
 spell will do 50% more damage on that unit for 5 second and this effect can only proc every 10 second but the enemy can still get stack
 but will not proc the effect until the cooldown is done and enemy that die near pudge 350 radius will make small pool of Bad Rot
-dealing 50% of Rotting Flesh damage and getting root for 1.5 second if they enter Bad Root cooldown of 4 second for root again
+dealing 150% of Rotting Flesh damage and getting root for 1.5 second if they enter Bad Root cooldown of 4 second for root again
 
 
 SPELL E Freah Meat!
@@ -106,8 +105,9 @@ cooldown reduce by 2
 
 add a new modifier Infested Clever
 Fresh Meat! cleave for 100% of the damage and for every units dead by Fresh Meat!, they will explode in blood baths
-giving near enemys 450 radius stack of Infested Blood that reduce overall damage done by 1% and take 3% increase damage from Glory Hook
+giving near enemys 550 radius stack of Infested Blood that reduce overall damage done by 2% and take 8% increase damage from Glory Hook
 that stack without limit and Butcher next Fresh Meat! will have 5 more damage per every kill done with Glory Hook up to 100 max damage
+the damage bonus last until death and the overall damage reduction last 6 second and increasing by 3 second for every stack added
 
 PASSIVE F OR D Flesh Heap
 
