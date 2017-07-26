@@ -20,9 +20,9 @@ DEBUFF Oracle does not gain any strenght or agility per level and strenght give 
 talent level 25 upgrade Prophet
 add a new modifier Life Explosion
 40% of oracle spell mana cost will heal nearby ally and him 500 AoE and he got 40% resist to Stuns and upgrade Oracle Spell as well
-Time Shield, Now become a 350 Radius area of Effect instead of single target
+Time Shield, Now become a 400 Radius area of Effect instead of single target
 Mind Blast, If affecting Oracle increase his spell amp by 12% and healing amp by 16% fot 7 second
-Ancient Healing, reduce the Jump delay by 0.3 and increase healing on the target by 25% and damage reduction by 10% for 4 second
+Ancient Healing, reduce the Jump delay by 0.2 and increase healing on the target by 25% and damage reduction by 10% for 4 second
 
 
 SPELL Q Time Shield
@@ -68,20 +68,20 @@ increase mana cost by 100
 reduce cooldown by 3
 
 add a new modifier Vitality Mind
-now become a 400 Area of Effect that still buff,damage but reduce the healing on oracle to 6% of max health also giving a new buff
+now become a 300 Area of Effect that still buff,damage but reduce the healing on oracle to 6% of max health also giving a new buff
 that last 15 second increasing the target life regeneration by 0.50% of their max health 0.25% on oracle, and Mind Blast will also
 deal 1% of the target current life as damage and increasing total health by 4% every time up to 20% refreshing every cast of Mind Blast
 
 
 SPELL E Ancient Healing
 Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well and Oracle will not gain
-mana but get heal by the amount of mana restore instead
+any mana but get heal by the amount of mana restore instead
 
 Heal 30 50 70 90 plus 35% 40% 55% 70% of int
-Heal reduction per jump 5%
+Heal reduction per jump 7%
 mana restore 10 20 30 40 plus 8% 12% 16% 20% of int
-mana restore reduction per jump 5%
-max reductions 50%
+mana restore reduction per jump 7%
+max reductions 70%
 jump distence 500
 max jump 3 4 5 6
 increase max jump by 1 for every 26 intelligence points
@@ -93,8 +93,8 @@ talent level 15 upgrade Ancient Healing
 increase heal by 50
 increase heal scaling int by 15%
 increase max jump by 5
-reduce the heal and mana reduction by 2%
-reduce max reductions by 20%
+reduce the heal and mana reduction by 3%
+reduce max reductions by 30%
 increase mana cost by 80
 reduce cooldown by 1
 
@@ -102,7 +102,7 @@ add a new modifier Ancestral Power
 healing jump turn global casting it on oracle will not make it global, it will never stop jumping until here is no jump remaing,
 meaning that it will affect the target multiple time with no limit but it will alway target people with the least health
 Ancient Healing also got 25% chance to double the Amount of healing instead of normal and increasing that target movement speed by
-15% for 10 second
+15% for 10 second. It also got 5% chance to triple the healing and create a new Ancient Healing with only 50% effect.
 
 
 PASSIVE D OR F Fate Aura
