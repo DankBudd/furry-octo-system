@@ -11,8 +11,6 @@ talent 2
 
 give 12 int 3 mana regen and 15% healing amp
 
-
-
 PASSIVE D OR F Nature Way
 give a positive and negative buff
 
@@ -31,14 +29,15 @@ can also be use to heal Furion by 40% of his max health cooldown of 40 second
 talent 25 modifer
 give a new modifier Guardian of the Forest
 any trees around Furion will have 5% chance per 0.5 second near him to turn into a Treant, these Treant
-will have 150% of the current normal Treant stats and can last until death, max of 4
+will have 200% of the current normal Treant stats and can last until death, max of 3 and for every Treant alive will give
+1% damage reduction to Furion
 
 SPELL Q
 Nature Wrath
 heal or damage a target increasing or reducing armor and magic resist, also after 5 second the target affect by the debuff
 Nature Wrath will do a explosion doing again nature Wrath giving 50% of the debuff to other target but cannot spread again
 
-Heal 40 70 100 130 plus 60% of int
+Heal 40 70 100 130 plus 40% of int
 Damage 10 16 22 28 plus 40% of int type magical
 Heal explosion 20 35 50 65 plus 30% of int
 Damage explosion 5 8 11 14 plus 20% of int type magical
@@ -52,7 +51,7 @@ mana cost 120 170 220 270 plus 1% of max mana
 
 talent level 10 upgrade Nature Wrath
 
-increase heal by 70 and int scaling by 20% -- 50% of this goes to the explosion heal
+increase heal by 40 and int scaling by 20% -- 50% of this goes to the explosion heal
 increase damage by 12 and int scaling by 20% -- 50% of this goes to the explosion damage
 increase armor bonus by 4
 increase magic resist by 4%
@@ -66,40 +65,39 @@ and increasing healing effect by 25% and for the enemys they will lose 3 6 9 12 
 reducing healing effect by 30%, any allys that kill enemys affected by the green flames will gain 30 45 60 75 plus 60% of inteillgence
 as health to them. the green flame will last 4 second
 
-
 SPELL W
 Treant Guard
-Summon Treant to fight for your side and last until Deaths and those Treants will Absorb damage that Furion take
+Summon Treant to fight for your side and last for 30 40 50 60 second and those Treants will Absorb damage that Furion take and only
+1 Treant will Absorb the damage Furion take
 
-Number of Max Treant 1 2 3 4
+Number of Max Treant 1 1 2 2
 Treant Duration 30 40 50 60
-Treant life 40 60 80 100 plus 60% of int
-Treant damage 4-7 5-8 6-9 7-10 plus 8% of int
+Treant life 40 60 80 100 plus 60% 80% 100% 120% of int
+Treant damage 4-7 5-8 6-9 7-10 plus 12% of int
 Treant Magic resis 4% 7% 10% 13%
 Treant armor 2 3 4 5
 Treant base attack time 2.00 1.95 1.90 1.85
-Damage Absorb by treant 10% 15% 20% 25% of damage taken
-cooldown 25
+Damage Absorb by 1 treant 10% 20% 30% 40% of damage taken
+cooldown 15
 mana cost 200 225 250 275 plus 2% of max mana
 
 Treant passive Seed of Life
-when the treant die they will do Nature Wrath that will deal only 25% of the damage and heal and also plant a seed
+when the treant die they will do Nature Wrath that will deal only 20% of the damage and heal and also plant a seed
 enemy that get close to the seed will take 3 damage pure per second, can stack with the other seed last 10 second
 
 talent level 10 upgrade Treant Guard
 
-reduce cooldown by 15
+reduce cooldown by 10
 increase Treant life by 60% of int scaling
 increase max treant by 2
-reduce the base attack time by 0.35
+reduce the base attack time by 0.25
 reduce mana cost by 150
 
 also give a new modifier to the treant Spliting Nightmare
 went a Treant die they will spawn 2 lesser Treant with 50% of the attributes of the Treant
-meaning that it will get the max life, damage and armor that the Treant had before, those small treant last 30 second
+meaning that it will get the max life, damage and armor that the Treant had before, those small treant last 20 second
 and Absord 10% damage for Furion that he take and if their is at least 10 Lesser Treant they will form into a Greater Treant
 having 300% of the Normal Treant stats
-
 
 SPELL E
 Pure Nature
@@ -132,7 +130,6 @@ Pure Nature will always spawn 5 Flowers that got 150% of the damage that Furion 
 250 life with 7 armor and 25% magic resist they got Poison Nature that reduce healing effect on enemys by 15% and reduce their
 life regeneration by -5 for 3 second total and if any flowers dies they will heal all nearby allys 400 radius by 5% of thiers health
 
-
 PASSIVE D OR F
 Nature Mastery
 Increase the stats of Ancient of War and Treant Guard, passively give Furion movement speed
@@ -142,13 +139,12 @@ Increase Ancient of War life by 7% 11% 15% 19%
 Increase the base damage of treant by 1 3 5 7
 Increase the base damage of Ancient of War by 7 14 21 28
 Increase attack speed by 10 14 18 22
-increase the number of Treant by 1 1 2 3
+increase the number of Treant by 1 2 3 4
 increase the duration of Treant by 5 10 15 20
 increase Furion movement speed by 2% 5% 8% 11%
 radius global
 
 talent level 15 upgrade Nature Mastery
-
 increase Treant life by 22%
 Increase Ancient of War life by 8%
 Increase the damage of Treant by 4
