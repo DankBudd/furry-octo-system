@@ -1,16 +1,14 @@
 Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 12, Stats gain 1.10 str, 0.70 int, 0.30 agi
 
-
 TALENT LEVEL 20
 
 talent 1 
-
-15% life 4.5 life regeneration and 8% damage reduction
+increase sven max health by 15% and his armor by 3
+Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max
 
 talent 2
-
-15 damage 15 attack speed and 7% spell amp
-
+increase Sven damage by 10% and agility by 14
+Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 15% of his Strenght
 
 Mighty Warrior
 increase overall stats and give a positive and negative buff
@@ -18,8 +16,9 @@ increase overall stats and give a positive and negative buff
 BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 12 Strenght he also reduce stun,root and blind by
 30% he also start with 1 armor and 5% magic resist he start with a special Sword that can be change and if sven get stun for more than
 3 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 2.5 second
-DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
-type he also lose 0.8% of his max health for any type of magical damage and attack slow, debuff will have 50% more effect on him
+DEBUFF sven lose 20% attack speed,30% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
+type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by 15% and
+his attack speed by 20 for 3 second
 
 Sven old Sword Special
 increase damage 3
@@ -62,13 +61,13 @@ add a new modifier Pain Without End
 for the duration of BloodLust sven will have 15% bonus damage and having True Strike and reducing all stun by 40% on him
 and every time he hit the same enemy up to 7 time, he will Gut-him-out making them lose 25% max health permanently, they will not take 
 any damage if they are under 75% health however they will not be able to gain that Health they lost making them stuck at 75% health 
-until death, bosses will only lose 15% max health and having 85% max health
+until death, bosses will only lose 10% max health and having 90% max health
 
 SPELL W level
 
 Death Blow
 Hit the enemys with a Deadly Blow Dealing insane damage base on Sven Strenght and the enemy Current Health, Max Health for bosses
-and he also lifesteal for all that amount of damage done as well, he also reduce Lifesteal and Spellvamp done for the enemys
+and he also lifesteal for all that amount of damage done as well, he also makes enemys not being able to lifesteal or spellvamp as well
 
 damage 15 20 25 30 pysical damage
 Strenght Scaling 30% 50% 70% 90%
@@ -76,7 +75,8 @@ Increase Strenght Scaling by 1% for every 3 damage Sven got
 lifesteal base on the damage done 25% 40% 55% 70% -spell vamp dont work on this spell-
 current life as bonus damage 7% 9% 11% 13%
 max life as bonus damage for boss 0.5% 0.6% 0.7% 0.8%
-Lifesteal and Spellvamp reduction 15% 30% 45% 60%
+cannot lifesteal or Spellvamp for enemys
+debuff duration 3 second
 cooldown 15
 mana 100 130 160 190 plus 1% of max mana
 
@@ -90,7 +90,7 @@ add a new modifier Colossus Sword
 now hit all enemys around Sven 300 radius dealing only 70% of the Base damage and Strenght scaling damage but still dealing Normal
 damage with the Current health as damage he also Instant-Kill anything that is below 15% Health reducing the cooldown of Death Blow by
 3 second and refunding 50% of its mana cost to Sven and he also got 40% chance on Instant-Kill to Heal all allys near Sven 600 radius
-by 10% of their Max health
+by 10% of their Max health and increase the next Death Blow by 10% up to 30% max that last until next use
 
 SPELL E
 
@@ -103,32 +103,31 @@ armor loss 2 3 4 5
 increase armor lost by 1% of sven Strenght
 duration 3 4 5 6 second
 increase duration by 1 for every 10 current level of Sven himself
-Attack speed bonus for every hit 2
-Attack speed Cap 10 14 18 22
+Attack speed bonus for every hit 4
+Attack speed Cap 12 16 20 24
 cooldown 25 23 21 19
 mana cost 140 160 180 200 plus 1% of max mana
 
 talent level 15 upgrade Blood Wound
 increase damage by 4
-increase attack speed cap by 8
+increase attack speed cap by 6
 increase armor lost by 2
 reduce cooldown by 3
 reduce mana cost by 70
 
 add a new modifier Deep Wound
-every time Sven cast Blood Wound, he will give it to other target in a 350 radius around him that deal 50% of the damage and if the
-enemys lose at least 25% of their max health under Deep Wound, they will have 50% reduce healing and taking 100% more damage from
-Blood Wound and if they die under Blood Wound they will drop a Health Globe that restore any ally health by 5% and giving them
-15% lifesteal and spellvamp to them, sven will have 5% increase damage every time he pick one up stacking to 6 max and having 30%
+every time Sven cast Blood Wound, he will give it to other target in a 350 radius around him up to 3 target max that deal 50% of the
+damage and if the enemys lose at least 25% of their max health under Deep Wound, they will have 50% reduce healing and taking 100% more 
+damage from Blood Wound and if they die under Blood Wound they will drop a Health Globe that restore any ally health by 5% and giving
+them 15% lifesteal and spellvamp to them, sven will have 5% increase damage every time he pick one up stacking to 6 max and having 30%
 bonus damage that last 11 second and refresh every time sven pick one up, allys will not be able to pick one up for 2.5 seconds
-
 
 PASSIVE D OR F
 
 War Gladiator
-sven can block both magic and physical spell also blocking basic attack he cannot block pure damage and he will block 50% of overtime
-damage per second he also got a chance to deal a critical hit for more damage increase NOTE getting any critical item will make them not
-work for basic attack crit, instead it will give 50% of its bonus from Critical damage and Critical chance to War Gladiator
+Sven can block both magic and physical spell also blocking basic attack he cannot block pure damage and he will block 50% of the damage 
+per second spells he also got a chance to deal a critical hit for more damage increase NOTE getting any critical item will make them not
+work for basic attack crit, instead it will give 50% of its bonus from Critical damage and 10% of the Critical chance to War Gladiator
 
 Base Critical damage 115% 130% 145% 160%
 increase critical damage by 1% for every 4 point of strenght
@@ -147,13 +146,14 @@ add a new modifier Legendary Gladiator
 for every block and critical hit sven do he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
 up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 15 attack speed until he lose all the stack and Upon
 death he will give his allys 25% of his damage and 50% Strenght to them for 25 second and if sven reach 20 stack and holding them for
-12 second he will gain 10 attack speed, 5% strenght and 5% bonus damage until death
+16 second he will gain 10 attack speed, 5% strenght and 5% bonus damage until death
 
 ULTIMATE R
 
 God Strenght
 increase sven damage and life but reduce attack speed for a short duration and reducing cooldown of all sven spell upon killing enemys
-when God Strenght is active, bosses will reduce the cooldown even more
+when God Strenght is active, bosses will reduce the cooldown even more and after the duration ends sven will purge all debuff on him
+and make him immnue to magic and debuff for 4 second
 
 base damage bonus 10 30 50
 bonus damage 30% 50% 70%
@@ -177,6 +177,3 @@ now Give 40% of God Strenght damage and base damage bonus to near allys 900 radi
 every kill sven do bosses will give 18 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
 of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 35% increase Strenght when God Strenght is not Active
 also God Strenght will be lock at 35 cooldown if still Active for a while so it cant be reuse again
-
-
-
