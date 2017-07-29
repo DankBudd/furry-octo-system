@@ -22,11 +22,11 @@ DEBUFF sven lose 30% attack speed,30% max life and 60% mana, he take 100% more d
 type he also lose 0.8% of his max health for any type of magical damage and attack slow, debuff will have 50% more effect on him
 
 Sven old Sword Special
-increase damage by 9%
-reduce attack speed by 5
-lifesteal for 8% of the damage done with spell and basic attack
-cleave for 15% of the damage done in front of sven by 320
-can also be use to increase sven attack speed by 20 cooldown of 30 second and last 4 second
+increase damage 3
+reduce attack speed by 8
+lifesteal for 7% of the damage done with spell and basic attack
+cleave for 10% of the damage done in front of sven by 320
+can also be use to increase sven attack speed by 16 cooldown of 30 second and last 4 second
 
 
 level 25 talent upgrade Mighty Warrior
@@ -35,45 +35,45 @@ Sven cleave for 100% of the damage in a 450 radius in front of him and his attac
 he also gain 120 attack range with 25% bonus damage and Strenght will give Sven 0.50 attack speed and he also reduce blind
 duration effect by 20%
 
-SPELL Q level needed 1 4 9 15
+SPELL Q level
 
 Bloodlust
-make sven go crazy increasing is attack damage, attack speed and movement speed for a short time he also debuff the enemy reducing
+make sven go into a Rage increasing is attack damage, attack speed and movement speed for a short time he also debuff the enemy reducing
 thier spell damage and exploding in health damage, the explosion does not damage other unit only the target affected by it
 
-attack speed 20 30 40 50
+attack speed 25 35 45 55
 flat movement speed 30 50 70 90
 damage bonus 6 10 14 18
-duration 4 5 6 7
+duration 6 7 8 9
 spell damage reduce 12% 20% 28% 36%
 explosion damage 1% 3% 5% 7% of max Health
 explosion damage 0.1% 0.2% 0.3% 0.4% of max health for bosses
 debuff duration 3 second refresh on hit
-cooldown 20 19 18 17
-mana cost 70 plus 1% of max mana
+cooldown 21 20 19 18
+mana cost 70 90 110 130 plus 1% of max mana
 
 talent level 10 upgrade Bloodlust
-increase attack speed by 20
+increase attack speed by 10
 increase damage by 8
 increase falt movement speed by 60
 increase mana cost by 40
 
 add a new modifier Pain Without End
 for the duration of BloodLust sven will have 15% bonus damage and having True Strike and reducing all stun by 40% on him
-and every time he hit the same enemy up to 8 time, he will Gut-him-out making them lose 25% max health permanently, they will not take 
+and every time he hit the same enemy up to 7 time, he will Gut-him-out making them lose 25% max health permanently, they will not take 
 any damage if they are under 75% health however they will not be able to gain that Health they lost making them stuck at 75% health 
 until death, bosses will only lose 15% max health and having 85% max health
 
-SPELL W level needed 1 4 9 15
+SPELL W level
 
 Death Blow
 Hit the enemys with a Deadly Blow Dealing insane damage base on Sven Strenght and the enemy Current Health, Max Health for bosses
-and he also lifesteal for all that amount of damage done as well, he also reduce Lifesteal and Spellvamp done by them
+and he also lifesteal for all that amount of damage done as well, he also reduce Lifesteal and Spellvamp done for the enemys
 
 damage 15 20 25 30 pysical damage
 Strenght Scaling 30% 50% 70% 90%
 Increase Strenght Scaling by 1% for every 3 damage Sven got
-lifesteal base on the damage done 25% 50% 75% 100% -spell vamp dont work on this spell-
+lifesteal base on the damage done 25% 40% 55% 70% -spell vamp dont work on this spell-
 current life as bonus damage 7% 9% 11% 13%
 max life as bonus damage for boss 0.5% 0.6% 0.7% 0.8%
 Lifesteal and Spellvamp reduction 15% 30% 45% 60%
@@ -82,8 +82,8 @@ mana 100 130 160 190 plus 1% of max mana
 
 talent level 10 upgrade Death Blow
 increase base damage by 10
-increase Strenght scaling by 25%
-increase current life as damage by 5%
+increase Strenght scaling by 15%
+increase current life as damage by 2%
 reduce cooldown by 3
 
 add a new modifier Colossus Sword
@@ -92,7 +92,7 @@ damage with the Current health as damage he also Instant-Kill anything that is b
 3 second and refunding 50% of its mana cost to Sven and he also got 40% chance on Instant-Kill to Heal all allys near Sven 600 radius
 by 10% of their Max health
 
-SPEED E level needed 1 4 9 15
+SPELL E
 
 Blood Wound
 Sven sharpen his sword making it have a more clean cut making enemys lose blood to death dealing damage per second and lowering armor. 
@@ -122,7 +122,7 @@ Blood Wound and if they die under Blood Wound they will drop a Health Globe that
 bonus damage that last 11 second and refresh every time sven pick one up, allys will not be able to pick one up for 2.5 seconds
 
 
-PASSIVE D OR F Level needed 3 7 11 15
+PASSIVE D OR F
 
 War Gladiator
 sven can block both magic and physical spell also blocking basic attack he cannot block pure damage and he will block 50% of overtime
@@ -148,11 +148,9 @@ up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 15 
 death he will give his allys 25% of his damage and 50% Strenght to them for 25 second and if sven reach 20 stack and holding them for
 12 second he will gain 10 attack speed, 5% strenght and 5% bonus damage until death
 
-
-ULTIMATE R LEVEL NEEDED 8 16 24
+ULTIMATE R
 
 God Strenght
-
 increase sven damage and life but reduce attack speed for a short duration and reducing cooldown of all sven spell upon killing enemys
 when God Strenght is active, bosses will reduce the cooldown even more
 
@@ -162,7 +160,7 @@ attack speed lost 20 40 60
 duration 12 15 18
 life bonus 300 600 900
 coldown reduction upon killing 0.30 0.50 0.70
-coldown reduction upon killing bosses 10 15 20
+coldown reduction upon killing bosses 15% 30% 45%
 coldown 160 140 120
 no mana cost
 
@@ -174,10 +172,10 @@ increase duration by 9
 reduce cooldown by 30
 
 add a new modifier Strenght Lord
-now Give 40% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.3 second for
-every kill sven do bosses will give 11 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
+now Give 40% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.6 second for
+every kill sven do bosses will give 18 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
 of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 35% increase Strenght when God Strenght is not Active
-
+also God Strenght will be lock at 35 cooldown if still Active for a while so it cant be reuse again
 
 
 
