@@ -96,27 +96,28 @@ SPELL E
 
 Blood Wound
 Sven sharpen his sword making it have a more clean cut making enemys lose blood to death dealing damage per second and lowering armor. 
-Sven also lifesteal for a small amount done by Blood Wound
+Sven also gain increase attack speed every hit on the target affected by Blood Wound
 
 damage 3 5 7 9 physical damage per tick plus 19% 22% 25% 28% of sven strenght
 armor loss 2 3 4 5
 increase armor lost by 1% of sven Strenght
 duration 3 4 5 6 second
 increase duration by 1 for every 10 current level of Sven himself
-spellvamp of Blood Wound 12% 18% 24% 30%
+Attack speed bonus for every hit 2
+Attack speed Cap 10 14 18 22
 cooldown 25 23 21 19
 mana cost 140 160 180 200 plus 1% of max mana
 
 talent level 15 upgrade Blood Wound
 increase damage by 4
-increase spell vamp by 10%
+increase attack speed cap by 8
 increase armor lost by 2
 reduce cooldown by 3
 reduce mana cost by 70
 
 add a new modifier Deep Wound
 every time Sven cast Blood Wound, he will give it to other target in a 350 radius around him that deal 50% of the damage and if the
-enemys lose at least 30% of their max health under Deep Wound, they will have 50% reduce healing and taking 100% more damage from
+enemys lose at least 25% of their max health under Deep Wound, they will have 50% reduce healing and taking 100% more damage from
 Blood Wound and if they die under Blood Wound they will drop a Health Globe that restore any ally health by 5% and giving them
 15% lifesteal and spellvamp to them, sven will have 5% increase damage every time he pick one up stacking to 6 max and having 30%
 bonus damage that last 11 second and refresh every time sven pick one up, allys will not be able to pick one up for 2.5 seconds
@@ -130,14 +131,14 @@ damage per second he also got a chance to deal a critical hit for more damage in
 work for basic attack crit, instead it will give 50% of its bonus from Critical damage and Critical chance to War Gladiator
 
 Base Critical damage 115% 130% 145% 160%
-increase critical damage by 1% for every 3 point of strenght
+increase critical damage by 1% for every 4 point of strenght
 Critical chance 12% 13% 14% 15%
 Base block damage 3 7 11 15
 increase block damage by 1 for every 10 strenght point
 block chance 40% 45% 50% 55%
 
 talent level 15 upgrade War Gladiator
-increase critical damage by 25%
+increase critical damage by 20%
 increase critical chance by 5%
 increase block damage by 3
 increase block chance by 10%
