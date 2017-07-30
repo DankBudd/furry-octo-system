@@ -1,24 +1,25 @@
-Furion -- Summoner-Support , starting stats 9 int, 3 agi, 4 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 0.50 str,
-0.40 agi, starting item Nature Gift increase intelligence by 3 and give 30 mana base attack time 1.65
+Furion -- Summoner-Support , starting stats 7 int, 2 agi, 7 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 1.00 str,
+0.50 agi, starting item Nature Gift increase intelligence by 2 and give 30 mana base attack time 1.65
 
 LEVEL 20 TALENT
 
 talent 1
-
-give 16% magic resist 5 armor and 55 movement speed
+increase Furion life regeneration by 5 and health by 10%
+Treant Guard and the Ancient of War will gain 10% of Furion health for them
 
 talent 2
-
-give 12 int 3 mana regen and 15% healing amp
+increase Furion spell amp by 10% and Healing amp by 10%
+Treant Guard and the Ancient of War will gain bonus attack speed by 30% of Furion Spell amp and Healing amp
 
 PASSIVE D OR F Nature Way
 give a positive and negative buff
 
 BUFF Furion will gain 2 life per inteillgence and 5 mana per strenght he also gain 0.1 armor and 0.2% magic resist per level he also
-start with 4% spell amp with 4% heal amp as well any summmon that die will restore Furion life by 1% he also get a special armor chest
-peice that scale per level.Furion also give 20% of his basic attack damage to his summons
+start with 4% spell amp and 4% heal amp as well any summmon that die will restore Furion life by 1% he also get a special armor chest
+peice that scale per level. Furion also give 15% of his basic attack damage to his summons
 DEBUFF Furion cannot have any Armor-Chest-Peice and he take 120% more damage from physical and 70% more from pure he also lose
-2 movement speed per level with 0.50 attack speed as well he also lose 50% base damage
+2 movement speed per level with 0.50 attack speed as well he also lose 50% base damage and every time Furion take physical damage he
+will lose 0.6% spell amp and 0.4% healing amp that stack up to 20 last 3 second and refresh for every physical damage taken
 
 Pure Grass Armor Special
 increase life by 5% increase by 0.5% per level
@@ -86,7 +87,6 @@ when the treant die they will do Nature Wrath that will deal only 20% of the dam
 enemy that get close to the seed will take 3 damage pure per second, can stack with the other seed last 10 second
 
 talent level 10 upgrade Treant Guard
-
 reduce cooldown by 10
 increase Treant life by 60% of int scaling
 increase max treant by 2
@@ -185,7 +185,6 @@ and stuning for 0.3 0.5 0.7 second the primary target get 50% more damage and ge
 	
 
 talent level 25 upgrade Gift of Verodicia
-
 increase life of Ancient of War by 100 and int scaling by 100%
 increase mana of Ancient of War by 200 and int scaling by 50%
 reduce base attack time by 0.20
@@ -193,5 +192,5 @@ increase SPELL 2 instances by 1
 increase PASSIVE 1 damage by 10 and healing by 5
 
 add a new modifier Nature Titans
-If the Ancient of War die he will come back to life after 3 second with 100% more stats for only 8 second after that he will die
-again spawning 10 treant guard that last 20 second with normal stats
+If the Ancient of War die he will come back to life after 3 second with 100% more stats for only 12 second after that he will die
+again spawning 10 treant guard with Phase that last 20 second with 150% of the treant stats
