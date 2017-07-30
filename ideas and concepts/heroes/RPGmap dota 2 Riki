@@ -4,22 +4,22 @@ starting item Weak Dagger increase damage by 2 and give 3 attackspeed base attac
 LEVEL 20 TALENT
 
 talent 1
-
-5 armor 70 movement and 200 life
+increase Riki Pure Evasion by 5% and his health by 25%
+Riki will gain 1% normal Evasion for every 4 agility up to 35% max
 
 talent 2
-
-8 base damage 20 attackspeed and 240 cast range
-
-
+Increase Riki agility by 10 and his damage by 8
+Any items use that deal damage, Riki will add 100% of his attack damage to that item and having 20% more damage with items use as well
 
 PASSIVE F OR D Thief Soul
 increase overall stats and give a positive and negative buff
 
 BUFF riki will gain 3 life per agility point he also gets 50% increase agility for a total of his intelligence and strenght he also got
-a special dagger that cannot be change at all and he can use 1 more other dagger with it and he got 5% chance to evade any type of damage
+a special dagger that cannot be change at all and he can use 1 more other dagger with it, he also got 5% Pure Evasion that can Evade
+basic attack and spell
 DEBUFF riki only gain 2 life per strenght and he take 90% more damage from pure,magical,physical also he can only use dagger weapons type
-he also lose 35% of his max mana with 20 attack speed lost and any pure damage type will do 2.5% of riki health as damage bonus
+he also lose 35% of his max mana with 20 attack speed lost and any pure damage type will do 2.5% of riki health as damage bonus and he
+cannot have any Critical chance and Critical damage at all only from Roktoru dagger
 
 Roktoru Dagger Special
 increase base damage by 2 increase by 1 for every 3 level
@@ -33,7 +33,7 @@ talent level 25 upgrade Thief Soul
 add a new modifier Deadly
 if riki attack the same target 3 time in a row the next attack will deal 2% of the target current life as damage and reduce their armor
 by 1 that stack up to 10 this effect only deal 1% of boss current life and also make casting Dagger Strike and Blinks Strike on unit
-below 40% life will take 45% increase damage from those spell
+below 40% life will take 50% increase damage from those spell
 
 
 SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on this total basic attack damage
@@ -56,8 +56,8 @@ reduce mana cost by 40
 reduce cooldown by 2
 
 add a new modifier Poison Dagger
-after striking the enemy,they will get poison dealing 6 plus 15% of agility pure damage per second and disabling regeneration
-for 3, also increase the damage they take by riki spell by 20% and if their die under the effect of the poison, they will spread it
+after striking the enemy,they will get poison dealing 11 plus 15% of agility pure damage per second and disabling regeneration
+for 2, also increase the damage they take by riki spell by 20% and if their die under the effect of the poison, they will spread it
 to other target for 50% increase damage and lasting 4 second instead and can also spread again
 
 
@@ -142,20 +142,19 @@ Attack damage to parry 300% 450% 600% damage type Physical
 parry chance 11% 13% 15%
 damage reduction upon parrying 10% 20% 30%
 max stack parry damage 5% 10% 15% of max life as damage of the enemy
+Max stack parry damage for bosses 1% 2% 3%
 parry stack duration 10 second
 armor per stack 2
 
 talent level 25 upgrade Assasin Parry
-increase bonus damage by 15%
-increase attack damage by 40%
+increase bonus damage by 10%
+increase parry attack damage by 50%
 increase parry chance by 1%
 increase the damage of max life by 10%
+increase the damage of max life for bosses by 1%
 increase the duration of stack by 5
 
 add a new modifier Death Strike
 riki basic attack will alway deal 10% pure damage and 30% of the damage done by parry will be life bonus for riki that last 11 second
 refreshing by 2 second upon parrying again, riki also gain 0.50 more attack speed from agility and 2 movement speed as well and
 increasing is speed limit to 750
-
-
-
