@@ -4,11 +4,12 @@ Starting item Fire Hand give 3 damage and 2 int base attack time 1.90 High-DSP -
 LEVEL 20 TALENT
 
 Talent 1
-220 life,2 armor,10% magic resist
+increase Volcanus life regeneration by 4 and his mana by 20%
+Volcanus will gain 25% of his max mana as health bonus and increasing mana his by 500% of his Mana regeneration
 
 Talent 2
-8 damage,12 intelligence,15 attackspeed
-
+Increase Volcanus attack damage by 15 and his spell amp by 4%
+Volcanus will gain 20% of his attack damage as Spell amp and 10% of his Agility and Strenght will be Spell amp bonus
 
 PASSIVE D OR F Fire God
 Increase overall stats and give a positive and negative buff
