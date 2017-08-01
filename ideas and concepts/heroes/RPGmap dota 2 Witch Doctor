@@ -3,11 +3,12 @@ Starting item Broken Staff give 1 damage and 3% heal amp base attack time 2.20 H
 LEVEL 20 TALENT
 
 Talent 1
-200 life and 15 life regeneration
+Increase Zul'Nu armor by 5 and his magic resist by 12%
+Zul'Nu Skull Dance and Spiritual Voodoo will give 4 armor and 8% magic resist to allys for 10 second, Zul'Nu only get 50% of this bonus
 
 Talent 2
-200 mana and 15 mana regeneration
-
+increase Zul'Nu healing amp by 8% and his mana regeneration by 4
+increase Zul'Nu spell amp by 30% of his mana regeneration and Increase Healing amp by 50% of Zul'nu Spell amp
 
 PASSIVE D OR F Bad Doctor
 BUFF Zul'Nu gain 10% increase inteillgence he also start with 6% heal amp with 4% spell amp, his basic attack turn magic instead of
@@ -19,8 +20,8 @@ DEBUFF strenght doesnt give any life regeneration and he take 100% more damage f
 talent level 25 upgrade Bad Doctor
 give a new modifier Good Doctor
 ZulNu will heal all Ally near him by 15 plus 20% of inteillgence every 1 second and if Allys are full health they will gain a shield
-instead up to x10 of the hero level max of 500 at max level the shield will last permanent. the shield cannot be gain in combat.
-
+instead up to x10 of the hero level max of 500 at max level the shield will last permanent. the shield can be gain in combat with 75%
+less amount of Shield gain
 
 SPELL Q Skull Dance
 throw a skull that bounce to ally or enemy if cast on ally it will bounce for ally only or if cast on enemy it will bounce for them only.
