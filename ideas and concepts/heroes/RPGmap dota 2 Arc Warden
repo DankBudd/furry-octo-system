@@ -4,10 +4,10 @@ Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80
 LEVEL 20 TALENT
 
 Talent 1
-200 life 200 mana and 5% damage reduction with 10% magic resist
+increase Zet armor by 12% of his magic resist and his health by 500% of his armor also make Volt Shield cost 60 less mana
 
 Talent 2
-15 damage 10% spell amp and 80 attack range and cast range
+Increase Zet agility by 35% of his Strenght and Inteillgence and also Increase Lightning Arc damage taken bonus by 10%
 
 PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
@@ -30,7 +30,6 @@ add a new modifier Pure Lightning
 all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back
 they also give him 5 base damage that stack up to 30 last 10 second refresh every time Zet cast a spell
 
-
 SPELL Q
 Lightning Arc
 deal high damage jumping to target increasing the damage they take from Zet Lightning Arc and slowing them for a duration
@@ -41,7 +40,7 @@ reduce damage by 6% for every jump max of 30% reduction
 increase max jump for every 25 agility points
 damage taken increase 10% 15% 20% 25%
 slow amount 4% 7% 10% 13%
-debuff duration 6 second
+debuff duration 4 second
 mana cost 100 125 150 175 plus 2% of max mana
 coldown 7 6 5 4
 
