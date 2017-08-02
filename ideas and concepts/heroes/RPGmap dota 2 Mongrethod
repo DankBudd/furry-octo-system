@@ -1,19 +1,22 @@
-Mongrethod Starting stats 4 Int, 5 Agi, 9 Str, base speed 320, base damage 9, Stats Gain per level 0.70 int, 1.30 str, 0.40 agi
+Mongrethod Starting stats 4 Int, 5 Agi, 9 Str, base speed 320, base damage 9, Stats Gain per level 1.00 int, 1.20 str, 0.80 agi
 Starting item Gaint Cleaver give 7 damage and 4% lifesteal base attack time 2.30 Auto-Attack,Tank,Mage
 
 LEVEL 20 TALENT
 
 Talent 1
-5 armor 250 life and 7% magic resist
+increase Mongrethod health by 400 and his life regeneration by 5
+increase Mongrethod armor by 1 for every 250 current life he got and his magic resist by 10% of his life renegeration
 
 Talent 2
-25 damage attack speed 10 and 8% spell amp
+increase Mongrethod attack damage by 20 and his attack speed by 35
+increase Mongrethod spell amp by 1% for every 10 current attack speed he got and increase his Rain of Fire Strenght scaling by 1% for
+every 4 current attack Mongrethod got
 
 PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
 
-BUFF Mongrethod will gain 2 life per intelligence points and he gets 10% damage reduction he also increase is strenght
-by 15% of is intelligence he also start with a Special Ring Item that scale with evert level. he can have 2 other Ring with this one
+BUFF Mongrethod will gain 5 life per intelligence points and he gets 10% damage reduction he also increase is strenght
+by 30% of is intelligence he also start with a Special Ring Item that scale with every level. he can have 2 other Ring with this one
 DEBUFF Mongrethod lose 90 attack speed and lose 50% of mana and he take 180% more damage from pure type,he cannot pass 350 basespeed and
 he cannot use any-other weapons but Cleaver
 
@@ -25,17 +28,16 @@ can also be use to double the effect of the Ring for 10 second, cooldown of 90 s
 
 talent level 25 upgrade PitLord
 add a new modifier Chaos Lord
-Mongrethod gain 30% spell amp with 10% armor increase he also gain 10% cooldown reduction and he now summon a permanent chaos Infernal
-that got 80% of life and 100% damage of Mongrethod respawn every 20 second up to 2 max if they die, they will respawn after 20 second
-
+Mongrethod gain 25% spell amp with 20% armor increase he also gain 15% cooldown reduction and he now summon a permanent chaos Infernal
+that got 100% of life and 150% damage of Mongrethod respawn every 60 second up to 2 max if they die, they will respawn after 60 second
 
 SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max health and current health for bosses
 it also reduce the enemy movement speed every time they get damage by Rain of Fire
 
-damage 5 8 11 14 plus 24% of strenght per wave, damage type pure
+damage 5 8 11 14 plus 25% of strenght per wave, damage type pure
 burn damage 0.1% 0.3% 0.5% 0.7% of max Health, damage type magical per second
-burn damage 0.1% 0.2% 0.3% 0.4% of current Health, damage type magical per second for bosses
+burn damage 0.1% 0.2% 0.3% 0.4% of current Health, damage type Pure per second for bosses
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 2 second
@@ -56,7 +58,6 @@ add a new modifier Rain of Chaos
 every wave of Rain of fire will summon a Chaos Infernal, this summon will have 40% life,70% damage of Mongrethod
 they also have 2 armor and 5% magicresist this bonus increase by 1 armor and 2% magic resist every 10 level of Mongrethod
 they last 11 second
-
 
 SPELL W Howl of Terror
 Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal damage to them as well
