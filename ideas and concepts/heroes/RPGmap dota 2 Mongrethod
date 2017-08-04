@@ -55,16 +55,16 @@ reduce mana cost by 40
 no longer a channel
 
 add a new modifier Rain of Chaos
-every wave of Rain of fire will summon a Chaos Infernal, this summon will have 40% life,70% damage of Mongrethod
+every wave of Rain of fire will summon a Chaos Infernal, this summon will have 50% life,75% damage of Mongrethod
 they also have 2 armor and 5% magicresist this bonus increase by 1 armor and 2% magic resist every 10 level of Mongrethod
-they last 11 second
+they last 11 second also when the Infernal land on Ground they will do 1.2% of the target max health in damage 0.2% for bosses
 
 SPELL W Howl of Terror
 Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal damage to them as well
 and after the fear end the enemys will get damage every time they attack or cast spell
 
 damage 5 10 15 20 plus 35% of strenght type Pure
-damage reduction FLAT amount 2 8 14 20
+damage reduction FLAT amount 2 6 10 14
 damage reduction 8% 12% 16% 22%
 damage reduction duration 4 second
 damage recive every attack or spell 4 8 12 16 plus 10% of strenght type Pure
@@ -78,15 +78,15 @@ talent level 10 upgrade Howl of Terror
 increase damage by 5
 increase radius by 200
 increase damage reduction by 12%
-increase damage lost flat amount by 10
+increase damage lost flat amount by 8
 increase the duration of damage reduction by 1
-reduce cooldown by 8
+reduce cooldown by 4
 cost no mana
 
 add a new modifier Abyssal Howl
 now affect Mongrethod and ally giving them 200% of the damage reduction of % and flat as bonus damage for 5 second, enemys that die
 under the effect of Howl of Terror will give Mongrethod 3 health and 0.02 life regeneration that last 300 second and any allys
-that kills enemys under the effect of Howl of Terror will restore Mongrethod health by 3%
+that kills enemys under the effect of Howl of Terror will restore Mongrethod health by 2.5%
 
 SPELL E Pit of Hatred
 infect the ground with Chaos giving Mongrethod bonus life,armor and magic resist also damage the enemy and force them to attack
@@ -98,52 +98,51 @@ armor 2 4 6 8
 magic resist 10% 14% 18% 22%
 Force to attack Mongrethod
 duration 4.5 5 5.5 6
-duration increase by 0.01 for every point of strenght
-radius 400 410 420 430
-radius increase by 1 for every point of strenght
+increase the duration by 0.1 for every 2 level of Mongrethod
+radius 400 415 430 445
+radius increase by 45% 90% 135% 170% of strenght
 cooldown 40 37 34 31
 mana cost 100 200 300 400
 
 talent level 15 upgrade Pit of Chaos
-increase life bonus by 10%
-increase armor bonus by 4
-increase magic resist bonus by 8%
-increase duration by 1
-reduce cooldown by 11
+increase life bonus by 15%
+increase armor bonus by 2
+increase magic resist bonus by 6%
+increase duration by 0.5
+reduce cooldown by 7
 
 add a new modifier King of the Pit
 any ally that gets into Pit of Chaos will take 35% less damage from enemys, they will still cast spell on them but do less damage
-in return, and enemys damaged by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 400% of
-Mongrethod strenght in magical damage
-
+in return, and enemys damaged by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 600% of
+Mongrethod strenght in magical damage and healing him by 10% of the damage dealt
 
 PASSIVE D OR F Chaos Cleave
 Mongrethod cleave for a % of the damage dealt he also gain bonus strenght and lifesteal with spellvamp and any enemy that die near
 Mongrethod will empower him gaining damage
 
-Strenght 5 10 15 20
+Strenght 12% 14% 16% 18%
 lifesteal 5% 10% 15% 20%
 Spell vamp 8% 12% 16% 20%
-cleave damage 10% 30% 50% 70%
-cleave radius 370
-increase cleave radius by 1 for every 2 point of strenght
-bonus damage per enemy death 2
-duration of bonus 15 20 25 30
-bonus damage of boss death 15 20 35 40
-duration of bonus bosses 50 60 70 80
-radius 1200
+cleave damage 15% 30% 45% 60%
+cleave radius 210 230 250 270
+increase cleave radius by 25% 40% 55% 70% of Strenght
+bonus damage per enemy death 1
+duration of bonus 25 30 35 40
+bonus damage of boss death 10 15 20 25
+duration of bonus bosses 20 30 40 50
+radius for bonus gain 1200 only Mongrethod
 
 Talent level 15 upgrade Chaos Cleave
-increase cleave damage by 30%
+increase cleave damage by 40%
 increase bonus damage per enemy death by 1
-increase the duration of both death by 10
-increase radius by 400
+increase bonus damage for bosses bonus by 15
+reduce the duration of bonus for both by 10
+radius increase by 300
 
 add a new modifier Infuse Cleaver
-Chaos cleave now deal 4% of the enemy current health as damage 0.5% for boss and Chaos Cleave will lifesteal on all unit hit instead
-of the primary target also increase Mongrethod attack range by 150 and cast range by 100 ,killing any boss will restore Mongrethod
-life to full
-
+Chaos cleave now deal 3% of the enemy current health as damage 0.5% for boss and Chaos Cleave will lifesteal on all unit hit instead
+of the primary target also increase Mongrethod attack range by 150 and cast range by 250 ,killing any boss will restore Mongrethod
+life to full and he also give 50% of his damage bonus gain to allys
 
 ULTIMATE Demonic Blood
 curse any unit dealing damage per second, if the enemy die during the effect of Demonic Blood it will summon a doom Guard that 
