@@ -19,7 +19,7 @@ LinkLuaModifier("modifier_wasuro_unbroken_will_buff", "bosses/wasuro.lua", LUA_M
 sword slash is currently not working
 
 
-wild charge currently moves enemies sporadicly
+wild charge currently moves enemies sporadicly -- potentially fixed, needs testing
 
 
 most of the abilities are missing particle effects and sounds
@@ -193,9 +193,11 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 		--find nearby enemies and pull them along
 		local units = FindUnitsInRadius(caster:GetTeam(), caster:GetAbsOrigin(), nil, 100, ability:GetAbilityTargetTeam(), ability:GetAbilityTargetType(), ability:GetAbilityTargetFlags(), FIND_ANY_ORDER, false)
 		for _,unit in pairs(units) do
-			if not hit[vlua.find(hit, unit)] then
+			if not hit[unit] then
 				unit:AddNewModifier(caster, ability, "modifier_wasuro_wild_charge_debuff", {})
-				table.insert(hit, unit)
+
+				--store random vec for consistant positioning during pull along
+				hit[unit] = RandomVector(75)
 			end
 		end
 
@@ -203,12 +205,11 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 		caster:SetAbsOrigin(caster:GetAbsOrigin() + vec * speed)
 
 		--pull enemies along, skewer style
-		for k,v in pairs(hit) do
-			if not v:IsNull() and v:IsAlive() then
-				--randomvec might need some fine tuning.. this way might make them spaz around
-				v:SetAbsOrigin((caster:GetAbsOrigin()+RandomVector(50)) + caster:GetForwardVector() * 150)
+		for unit,vec in pairs(hit) do
+			if not unit:IsNull() and unit:IsAlive() then
+				unit:SetAbsOrigin((caster:GetAbsOrigin()+vec) + caster:GetForwardVector() * 150)
 			else
-				table.remove(hit, k)
+				table.remove(hit, unit)
 			end
 		end
 
