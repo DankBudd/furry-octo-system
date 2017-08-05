@@ -1,3 +1,22 @@
+--does not account for reductions such as stout shield or dispersion
+function CDOTA_BaseNPC:Lifesteal(target, damage, pct, optReduction)
+  if target:IsNull() or self:IsNull() then return end
+
+  local reduction = 1
+  if not optReduction then
+    local armor = target:GetPhysicalArmorValue()
+    reduction = (0.06 * armor) / (1 + 0.06 * armor)
+  end
+  local lifesteal = (damage - damage * reduction) * pct * 0.01
+
+  self:Heal(lifesteal, self)
+  ParticleManager:ReleaseParticleIndex(ParticleManager:CreateParticle("particles/generic_gameplay/generic_lifesteal.vpcf", PATTACH_OVERHEAD_FOLLOW, self))
+end
+
+function RandomBool()
+  return (true and RandomInt(1,2) == 1) or false
+end
+
 function CDOTA_Item:IsConsumable()
   local kv = LoadKeyValues("scripts/npc/kv/shops.kv")
   if kv then
