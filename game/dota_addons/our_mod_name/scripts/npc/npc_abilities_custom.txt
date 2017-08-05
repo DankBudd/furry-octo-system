@@ -5197,21 +5197,52 @@
 		}
 	}
 
+	"custom_invoke"
+	{
+		"BaseClass"             		"ability_lua"
+		"ScriptFile"					"heroes/invoker.lua"
+		"AbilityTextureName"			"invoker_invoke"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel" 						"1"
+
+		"precache"
+		{
+			"particle"	"particles/units/heroes/hero_invoker/invoker_invoke.vpcf"
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_invoker.vsndevts"
+		}
+	}
+
 	"wasuro_sword_slash"
 	{
 		"BaseClass"             		"ability_lua"
+		"ScriptFile"					"bosses/wasuro.lua"
 		"AbilityTextureName"			"juggernaut_blade_dance"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
-		"MaxLevel" 						"4"
+
+		"SpellDispellableType" "SPELL_DISPELLABLE_YES"
+
+		"AbilityCastRange"				"700"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"5.0"
+		"AbilityManaCost"				"35"
+
+		"MaxLevel" 						"1"
+
+		"precache"
+		{
+			"particle"  "particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave.vpcf"
+			"particle"  "particles/units/heroes/hero_queenofpain/queen_screem_of_pain.vpcf"
+			"soundfile" "soundevents/game_sounds_heroes/game_sounds_sven.vsndevts"
+		}
 
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"			"FIELD_INTEGER"
+				"var_type"			"FIELD_FLOAT"
 				"damage"			"35"
 			}
 			"02"
@@ -5222,11 +5253,184 @@
 			"03"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"duration"			"3"
+				"duration"			"3.0"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"start_radius"		"75"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"end_radius"		"550"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"distance"			"550"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"tick"				"0.5"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"blade_cut_stacks"	"3"
+			}
+		}
+	}
+
+	"wasuro_wild_charge"
+	{
+		"BaseClass"             		"ability_lua"
+		"ScriptFile"					"bosses/wasuro.lua"
+		"AbilityTextureName"			"magnataur_skewer"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		
+		"AbilityCastRange"				"550"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+		"AbilityCooldown"				"14.0"
+		"AbilityManaCost"				"110"
+		"AbilityChannelTime"	"0.7"
+
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"charge_speed"		"850"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"damage"			"50"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"extended_distance"	"325"
+			}
+		}
+	}
+
+	"wasuro_duel_arena"
+	{
+		"BaseClass"             		"ability_lua"
+		"ScriptFile"					"bosses/wasuro.lua"
+		"AbilityTextureName"			"legion_commander_duel_alt1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+
+		"AbilityCooldown"				"18.0"
+		"AbilityCastRange"				"850"
+		"AbilityCastPoint"				"0.65"
+		"AbilityManaCost"				"0"
+
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"arena_radius"		"850"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"hp_drain"			"0.6"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"arena_duration"	"12.0"
+			}
+		}
+	}
+
+	"wasuro_blade_cut"
+	{
+		"BaseClass"             		"ability_lua"
+		"ScriptFile"					"bosses/wasuro.lua"
+		"AbilityTextureName"			"bloodseeker_bloodrage"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"SpellDispellableType" "SPELL_DISPELLABLE_YES"
+
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"armor_reduction"	"1"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"			"6.0"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"atkspeed_bonus"	"10"
+			}
+		}
+	}
+
+	"wasuro_unbroken_will"
+	{
+		"BaseClass"             		"ability_lua"
+		"ScriptFile"					"bosses/wasuro.lua"
+		"AbilityTextureName"			"legion_commander_press_the_attack"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"SpellDispellableType" "SPELL_DISPELLABLE_NO"
+		
+		"AbilityCooldown"				"25.0"
+		"MaxLevel" 						"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"pct_threshold"		"20"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"time_frame"		"8.0"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"duration"			"3.5"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"atkspeed_bonus"	"100"
 			}
 		}
 	}
 }
 
-//"CalculateSpellDamageTooltip" "1"
+//"CalculateSpellDamageTooltip" "1" -- 0
 //"LinkedSpecialBonus" "talent_name"
+
+//"SpellDispellableType" "SPELL_DISPELLABLE_NO" -- SPELL_DISPELLABLE_YES -- SPELL_DISPELLABLE_YES_STRONG
