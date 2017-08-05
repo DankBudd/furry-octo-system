@@ -23,3 +23,20 @@ and 25% more damage from Physical and Magical, any magical spell will deal 1% of
 deal 2% of Daisho health in bonus damage and if he lose 30% max health in one spell or attack he will get stun for 2.5 second 
 
 
+SPELL Q Wind Walk
+Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
+dealing bonus damage and having increase attack speed for a short duration and he also got a small chance to increase the damage bonus on
+striking and stuning as well this spell got a very low cooldown and casting it will have increase mana every time
+
+damage bonus on attack 10 30 50 70
+attack speed bonus after attack 15 25 35 45
+movement speed bonus when invisible 15% 20% 25% 30%
+True Strike chance 10% 15% 20% 25%
+Futher increase damage 20 30 40 50
+stun duration 1.5 2 2.5 3
+Wind Walk duration 15 20 25 30
+attack speed buff duration 3 3.5 4 4.5
+base mana cost 25 30 35 40
+increase mana cost by 15% 30% 45% 60% every cast
+mana cost increase duration 7 second
+cooldown 1 second
