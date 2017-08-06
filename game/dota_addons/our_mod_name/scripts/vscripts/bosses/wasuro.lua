@@ -1,4 +1,5 @@
 LinkLuaModifier("modifier_wasuro_sword_slash", "bosses/wasuro.lua", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_wasuro_sword_slash_autocast", "bosses/wasuro.lua", LUA_MODIFIER_MOTION_NONE)
 
 LinkLuaModifier("modifier_wasuro_wild_charge", "bosses/wasuro.lua", LUA_MODIFIER_MOTION_NONE)
 LinkLuaModifier("modifier_wasuro_wild_charge_debuff", "bosses/wasuro.lua", LUA_MODIFIER_MOTION_NONE)
@@ -16,17 +17,16 @@ LinkLuaModifier("modifier_wasuro_unbroken_will", "bosses/wasuro.lua", LUA_MODIFI
 LinkLuaModifier("modifier_wasuro_unbroken_will_buff", "bosses/wasuro.lua", LUA_MODIFIER_MOTION_NONE)
 
 --[[ TODO:
-sword slash is currently not working
+sword slash doesnt work -- FIXED
+arena warps ourside units to center instead of edge -- FIXED
+wild charge currently moves enemies sporadicly -- FIXED
 
-
-wild charge currently moves enemies sporadicly -- potentially fixed, needs testing
-
+arena auras do not work..
+	probably need to use dummys for the auras instead of thinkers
 
 most of the abilities are missing particle effects and sounds
 
-
 need to thoroughly test each ability 
-
 ]]
 
 
@@ -41,75 +41,51 @@ function wasuro_sword_slash:GetPlaybackRateOverride()
 end
 
 function wasuro_sword_slash:OnSpellStart()
+	if not IsServer() then return end
+	self:RefundManaCost()
+	self:EndCooldown()
+
 	local target = self:GetCursorTarget()
-	self.manualCast = true
+	if target then
+		self.manualCast = true
+		self.manualTarget = target
 
-	ExecuteOrderFromTable({
-		UnitIndex = self:GetCaster():entindex(),
-		OrderType = DOTA_UNIT_ORDER_ATTACK_TARGET,
-		TargetIndex = target:entindex(),
-	})
-end
-
-
-modifier_wasuro_sword_slash_autocast = class({
-	IsHidden = function(self) return true end,
-	IsPurgable = function(self) return false end,
-	OnRefresh = function(self, kv) self:OnCreated() end,
-
-	DeclareFunctions = function(self) return {MODIFIER_EVENT_ON_ATTACK_LANDED,} end,
-})
-
-function modifier_wasuro_sword_slash_autocast:OnCreated( kv )
-	self.damage = self:GetSpecialValueFor("damage")
-	self.hpPct = self:GetSpecialValueFor("damage_health_pct")
-	self.duration = self:GetSpecialValueFor("duration")
-	self.stacks = self:GetAbility():GetSpecialValueFor("blade_cut_stacks")
-end
-
-function modifier_wasuro_sword_slash_autocast:OnAttackLanded( keys )
-	local target = keys.target
-	if not target then return end
-
-	if not self:GetAbility():GetAutoCastState() and not self:GetAbility().manualCast then return end
-
-	self.manualCast = nil
-
-	--give 3 stacks of blade cut if it is skilled
-	if IsServer() then
-		if not self:GetCaster():PassivesDisabled() then
-			local mod = self:GetParent():FindModifierByNameAndCaster("modifier_wasuro_blade_cut", self:GetParent())
-			if mod then
-				for i = 1, self.stacks do
-					mod:IncrementStackCount()
-					mod:GetParent():AddNewModifier(mod:GetParent(),mod:GetAbility(), "modifier_wasuro_blade_cut_deductor", {duration = mod.duration})
-				end
-			end
-		end
+		ExecuteOrderFromTable({
+			UnitIndex = self:GetCaster():entindex(),
+			OrderType = DOTA_UNIT_ORDER_ATTACK_TARGET,
+			TargetIndex = target:entindex(),
+		})
 	end
+end
 
-	--particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave.vpcf
-	--particles/units/heroes/hero_queenofpain/queen_screem_of_pain.vpcf
+function wasuro_sword_slash:OnUpgrade()
+	if not self:GetCaster():HasModifier("modifier_wasuro_sword_slash_autocast") then
+		self:GetCaster():AddNewModifier(self:GetCaster(), self, "modifier_wasuro_sword_slash_autocast", {})
 
-	--this is super fucking weird
-	-- range of projectile seems to be undefineable, perhaps its based on start and end radius
-	-- might be missing some info in table
-	--TODO:fix it
+		self.damage = self:GetSpecialValueFor("damage")
+		self.duration = self:GetSpecialValueFor("duration")
 
-	local direction = target:GetAbsOrigin() - self:GetAbsOrigin()
+		self.startRadius = self:GetSpecialValueFor("start_radius")
+		self.endRadius = self:GetSpecialValueFor("end_radius")
+	end
+end
+
+function wasuro_sword_slash:FireProjectile( target )
+	local parent = self:GetCaster()
+	local direction = target:GetAbsOrigin() - parent:GetAbsOrigin()
 	direction.z = 0
-	direction = vec:Normalized()
+	direction = direction:Normalized()
 
 	--use linear proj for finding units in cone shaped area
 	local proj = ProjectileManager:CreateLinearProjectile({
 		EffectName = "particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave.vpcf",
 		Ability = self,
-		vSpawnOrigin = self:GetParent():GetAbsOrigin(), 
-		fStartRadius = self:GetSpecialValueFor("start_radius"),
-		fEndRadius = self:GetSpecialValueFor("end_radius"),
+		vSpawnOrigin = parent:GetAbsOrigin(), 
+		fStartRadius = self.startRadius,
+		fEndRadius = self.endRadius,
 		vVelocity = direction * 2000,
 		fDistance = 550, --self:GetSpecialValueFor("distance")
-		Source = self:GetParent(),
+		Source = parent,
 		iUnitTargetTeam = DOTA_UNIT_TARGET_TEAM_ENEMY,
 		iUnitTargetType = DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC,
 
@@ -118,15 +94,65 @@ function modifier_wasuro_sword_slash_autocast:OnAttackLanded( keys )
 	})
 end
 
---not entirely sure if i can do OnProjectileHit with a modifier
--- might resort to making my own cone shaped targeting thing
-function modifier_wasuro_sword_slash_autocast:OnProjectileHit(hTarget, vLocation)
+function wasuro_sword_slash:OnProjectileHit(hTarget, vLocation)
 	if not hTarget then return end
-	print(hTarget:GetName())
 
 	--damage and apply modifier to each unit hit
 	ApplyDamage({victim = hTarget, attacker = self:GetCaster(), ability = self, damage = self.damage, damage_type = self:GetAbilityDamageType()})
-	hTarget:AddNewModifier(self:GetCaster(), self, "modifier_wasuro_sword_slash", {duration = self:GetSpecialValueFor("duration")})
+	hTarget:AddNewModifier(self:GetCaster(), self, "modifier_wasuro_sword_slash", {duration = self.duration})
+end
+
+
+modifier_wasuro_sword_slash_autocast = class({
+	IsHidden = function(self) return true end,
+	IsPurgable = function(self) return false end,
+	OnRefresh = function(self, kv) self:OnCreated() end,
+	IsPermanent = function(self) return true end,
+	RemoveOnDeath = function(self) return false end,
+
+	DeclareFunctions = function(self) return {MODIFIER_EVENT_ON_ATTACK_LANDED, MODIFIER_EVENT_ON_ORDER,} end,
+})
+
+function modifier_wasuro_sword_slash_autocast:OnCreated( kv )
+	self.stacks = self:GetAbility():GetSpecialValueFor("blade_cut_stacks")
+end
+
+function modifier_wasuro_sword_slash_autocast:OnOrder( keys )
+	if not IsServer() then return end
+
+	if not keys.order_type == DOTA_UNIT_ORDER_ATTACK_TARGET then
+		if keys.target ~= self:GetAbility().manualTarget then
+			self:GetAbility().manualCast = false
+		end
+	end
+end
+
+function modifier_wasuro_sword_slash_autocast:OnAttackLanded( keys )
+	local parent = self:GetParent()
+	local ability = self:GetAbility()
+	local target = keys.target
+
+	if not IsServer() then return end
+	if not keys.attacker == parent then return end
+
+	if not ability:GetAutoCastState() and not ability.manualCast then return end
+	if not ability:IsFullyCastable() then return end
+
+	ability:UseResources(true, false, true)
+	ability.manualCast = nil
+
+	--give 3 stacks of blade cut if it is skilled
+	if not self:GetCaster():PassivesDisabled() then
+		local mod = parent:FindModifierByNameAndCaster("modifier_wasuro_blade_cut", parent)
+		if mod then
+			for i = 1, self.stacks do
+				mod:IncrementStackCount()
+				mod:GetParent():AddNewModifier(mod:GetParent(),mod:GetAbility(), "modifier_wasuro_blade_cut_deductor", {duration = mod.duration})
+			end
+		end
+	end
+
+	ability:FireProjectile(target)
 end
 
 
@@ -145,6 +171,8 @@ end
 --potential issues with non hero units? i dont think GetMaxHealth works on them.
 --fix with GetHealth() + GetHealthDeficit() ???
 function modifier_wasuro_sword_slash:OnIntervalThink()
+	if not IsServer() then return end
+
 	local damage = 1 + (self.pct*self:GetParent():GetMaxHealth()*0.01)
 	ApplyDamage({victim = self:GetParent(), attacker = self:GetCaster(), ability = self:GetAbility(), damage = damage, damage_type = self:GetAbility():GetAbilityDamageType()})
 end
@@ -176,6 +204,7 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 
 	local point = ability.point
 	if not point then return end
+	if not IsServer() then return end
 
 	local maxDistance = (point - caster:GetAbsOrigin()):Length2D() + ability:GetSpecialValueFor("extended_distance")
 	local vec = point - caster:GetAbsOrigin()
@@ -183,7 +212,8 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 	vec = vec:Normalized()
 
 	--double check if this is needed, i think the issue was fixed with MODIFIER_STATE_DISARMED
-	caster:SetForwardVector(vec)
+	--caster:SetForwardVector(vec)
+
 
 	local traveled = 0
 	local hit = {}
@@ -216,13 +246,11 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 		--end charge
 		traveled = traveled + speed
 		if traveled >= maxDistance then
-			for _,v in pairs(hit) do
-				v:RemoveModifierByNameAndCaster("modifier_wasuro_wild_charge_debuff", caster)
-				ApplyDamage({victim = v, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType()})
+			for unit,_ in pairs(hit) do
+				unit:RemoveModifierByNameAndCaster("modifier_wasuro_wild_charge_debuff", caster)
+				ApplyDamage({victim = unit, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType()})
 			end
-			--TODO: double check this is what i want
-			self:GetCaster():StartGesture(ACT_DOTA_CAST_ABILITY_3_END)
-
+			self:GetCaster():RemoveGesture(ACT_DOTA_CAST_ABILITY_3)
 			self:Destroy()
 			return
 		end
@@ -268,9 +296,10 @@ wasuro_duel_arena_aura_emitter = class({
 function wasuro_duel_arena_aura_emitter:OnCreated(kv)
 	local ability = self:GetAbility()
 	self.radius = ability:GetSpecialValueFor("arena_radius") 
+
 	self.flags = DOTA_UNIT_TARGET_FLAG_NONE
-	self.team = ability:GetAbilityTargetTeam()
-	self.type = ability:GetAbilityTargetType()
+	self.team = DOTA_UNIT_TARGET_TEAM_FRIENDLY
+	self.type = DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC
 end
 
 
@@ -278,7 +307,6 @@ wasuro_duel_arena_thinker = class({
 	IsPurgable = function(self) return false end,
 	IsHidden = function(self) return true end,
 
-	IsAuraActiveOnDeath = function(self) return false end,
 	GetAuraSearchFlags = function(self) return self.flags end,
 	GetAuraSearchTeam = function(self) return self.team end,
 	GetAuraSearchType = function(self) return self.type end,
@@ -294,38 +322,47 @@ function wasuro_duel_arena_thinker:OnCreated( kv )
 	self.duration = ability:GetSpecialValueFor("arena_duration")
 
 	self.flags = DOTA_UNIT_TARGET_FLAG_NONE
-	self.team = ability:GetAbilityTargetTeam()
-	self.type = ability:GetAbilityTargetType()
+	self.team = DOTA_UNIT_TARGET_TEAM_ENEMY
+	self.type = DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC
 
-	self:StartIntervalThink(0.5) -- 1/30
+	self:StartIntervalThink(1/30)
 end
 
 --ensure every unit who entered arena is still inside arena. 
---but if they move more than 1200 units away between thinks, dont re-trap them)
+--but if they move more than 1200 units away between thinks, dont re-trap them
 function wasuro_duel_arena_thinker:OnIntervalThink()
+	if not IsServer() then return end
 	local threshold = 1200 + self.radius
-	local units = FindUnitsInRadius(self:GetParent():GetTeam(), self:GetParent():GetAbsOrigin(), nil, self.radius, self.team, self.type, self.flags, FIND_ANY_ORDER, false)
+	local arena = self:GetParent()
+	local units = FindUnitsInRadius(arena:GetTeamNumber(), arena:GetAbsOrigin(), nil, self.radius, self.team, self.type, self.flags, FIND_ANY_ORDER, false)
 	self.units = self.units or units
 
+	--add all new units to self table
 	for _,v in pairs(units) do
-		--add all new units to self table
 		if not self.units[vlua.find(self.units, v)] then
 			table.insert(self.units, v)
 		end
 	end
 
-	for k,unit in pairs(self.units) do
-		--check distance between unit and arena
-		local distance = (self:GetParent():GetAbsOrigin() - unit:GetAbsOrigin()):Length2D()
-	--	print("unit: "..unit:GetName(), "distance: "..tostring(distance))
 
+	for k,unit in pairs(self.units) do
+		--get distance between unit and arena
+		local distance = (arena:GetAbsOrigin() - unit:GetAbsOrigin()):Length2D()
+
+		--retrap unit if they are not in arena and also not past threshold
 		if distance < threshold then
 			if distance > self.radius then
-				--retrap unit if they are not in arena
-				FindClearSpaceForUnit(unit, self:GetParent():GetAbsOrigin()+RandomVector(100), false)
+
+				--direction to border of arena
+				local dir = unit:GetAbsOrigin() - arena:GetAbsOrigin()
+				dir.z = 0
+				dir = dir:Normalized()
+
+				--move unit to arena border
+				unit:SetAbsOrigin(arena:GetAbsOrigin() + dir * self.radius)
 			end
 		else
-			--stop tracking unit
+			--otherwise stop tracking unit
 			table.remove(self.units, k)
 		end
 	end
@@ -335,63 +372,38 @@ end
 modifier_wasuro_duel_arena_buff = class({
 	IsPurgable = function(self) return false end,
 	IsHidden = function(self) return false end,
+	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE, MODIFIER_EVENT_ON_ATTACK_LANDED,} end,
+
+	OnCreated = function(self, kv)
+		self.dmgBuff = 100 + self:GetAbility():GetSpecialValueFor("dmg_buff")
+		self.lifesteal = self:GetAbility():GetSpecialValueFor("lifesteal")
+	end,
+
+	OnAttackLanded = function(self, keys )
+		if keys.attacker ~= self:GetParent() then return end
+		self:GetParent():Lifesteal(keys.victim, keys.dmg, self.lifesteal)
+	end,
+	
+	GetModifierDamageOutgoing_Percentage = function(self) return self.dmgBuff end,
 })
-
-function modifier_wasuro_duel_arena_buff:OnCreated( kv )
-	self.dmgBuff = 100 + self:GetAbility():GetSpecialValueFor("dmg_buff")
-	self.lifesteal = self:GetAbility():GetSpecialValueFor("lifesteal")
-end
-
-function modifier_wasuro_duel_arena_buff:DeclareFunctions()
-	local funcs = {
-		MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE,
-		MODIFIER_EVENT_ON_ATTACK_LANDED,
-	}
-	return funcs
-end
-
-function modifier_wasuro_duel_arena_buff:GetModifierDamageOutgoing_Percentage()
-	return self.dmgBuff
-end
-
-function modifier_wasuro_duel_arena_buff:OnAttackLanded( keys )
-	if keys.attacker ~= self:GetParent() then return end
-
-	self:GetParent():Lifesteal(keys.victim, keys.dmg, self.lifesteal)
-end
 
 
 modifier_wasuro_duel_arena_debuff = class({
 	IsPurgable = function(self) return false end,
 	IsHidden = function(self) return false end,
+
+	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS, MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS, MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE,} end,
+
+	OnCreated = function (self, kv)
+		self.resistDebuff = (-1) * self:GetAbility():GetSpecialValueFor("resist_debuff")
+		self.armorDebuff = (-1) * self:GetAbility():GetSpecialValueFor("armor_debuff")
+		self.dmgDebuff = 100 - self:GetAbility():GetSpecialValueFor("damage_debuff")
+	end,
+	
+	GetModifierDamageOutgoing_Percentage = function(self) return self.dmgDebuff end,
+	GetModifierPhysicalArmorBonus = function(self) return self.armorDebuff end,
+	GetModifierMagicalResistanceBonus = function(self) return self.resistDebuff end,
 })
-
-function modifier_wasuro_duel_arena_debuff:OnCreated( kv )
-	self.resistDebuff = (-1) * self:GetAbility():GetSpecialValueFor("resist_debuff")
-	self.armorDebuff = (-1) * self:GetAbility():GetSpecialValueFor("armor_debuff")
-	self.dmgDebuff = 100 - self:GetAbility():GetSpecialValueFor("damage_debuff")
-end
-
-function modifier_wasuro_duel_arena_debuff:DeclareFunctions()
-	local funcs = {
-		MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS,
-		MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS,
-		MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE,
-	}
-	return funcs
-end
-
-function modifier_wasuro_duel_arena_debuff:GetModifierDamageOutgoing_Percentage()
-	return self.dmgDebuff
-end
-
-function modifier_wasuro_duel_arena_debuff:GetModifierPhysicalArmorBonus()
-	return self.armorDebuff
-end
-
-function modifier_wasuro_duel_arena_debuff:GetModifierMagicalResistanceBonus()
-	return self.resistDebuff
-end
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -400,6 +412,7 @@ wasuro_blade_cut = class({})
 function wasuro_blade_cut:GetIntrinsicModifierName()
 	return "modifier_wasuro_blade_cut"
 end
+
 
 modifier_wasuro_blade_cut = class({
 	IsHidden = function(self) return (self:GetStackCount() == 0) end,
@@ -412,12 +425,18 @@ modifier_wasuro_blade_cut = class({
 	OnRefresh = function(self, kv) self:OnCreated() end,
 	GetAttributes = function(self) return MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE end,
 	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT, MODIFIER_EVENT_ON_ATTACK_LANDED} end,
-})
 
-function modifier_wasuro_blade_cut:OnCreated( kv )
-	self.atkSpd = self:GetAbility():GetSpecialValueFor("atkspeed_bonus")
-	self.duration = self:GetAbility():GetSpecialValueFor("duration")
-end
+	OnCreated = function(self)
+		self.atkSpd = self:GetAbility():GetSpecialValueFor("atkspeed_bonus")
+		self.duration = self:GetAbility():GetSpecialValueFor("duration")
+	end,
+
+	GetModifierAttackSpeedBonus_Constant = function(self)
+		if not self:GetCaster():PassivesDisabled() then
+			return self:GetStackCount() * self.atkSpd
+		end
+	end,
+})
 
 function modifier_wasuro_blade_cut:OnAttackLanded( keys )
 	if not keys.target then return end
@@ -437,12 +456,6 @@ function modifier_wasuro_blade_cut:OnAttackLanded( keys )
 		mod:IncrementStackCount()
 		mod:ForceRefresh()
 	end
-end
-
-function modifier_wasuro_blade_cut:GetModifierAttackSpeedBonus_Constant()
-	if self:GetCaster():PassivesDisabled() then return end
-
-	return self:GetStackCount() * self.atkSpd
 end
 
 
@@ -475,11 +488,10 @@ modifier_wasuro_blade_cut_debuff = class({
 		self.armorReduction = (-1) * self:GetAbility():GetSpecialValueFor("armor_reduction")
 	end,
 
-	GetModifierPhysicalArmorBonus = function(self)
-		return self:GetStackCount() * self.armorReduction
-	end,
+	GetModifierPhysicalArmorBonus = function(self) return self:GetStackCount() * self.armorReduction end,
 })
 
+---------------------------------------------------------------------------------------------------------
 
 wasuro_unbroken_will = class({})
 
@@ -509,22 +521,17 @@ end
 
 function modifier_wasuro_unbroken_will:OnIntervalThink()
 	if not IsServer() then return end
-	--calc threshold
+	if not self:GetAbility():IsCooldownReady() or self:GetParent():PassivesDisabled() then return end
+
 	local threshold = self:GetParent():GetMaxHealth() * self.thresholdPct
 
-	--insert current hp to table
-	local hp = self:GetParent():GetHealth()
-	table.insert(self.hpT, hp)
-
-	--remove oldest hp record
+	--update table
+	table.insert(self.hpT, self:GetParent():GetHealth())
 	if #self.hpT > self.time then
 		table.remove(self.hpT, 1)
 	end
 
-	if not self:GetAbility():IsCooldownReady() then return end
-	if self:GetParent():PassivesDisabled() then return end
-
-	--calculate how much damage has occured
+	--calculate how much damage has occured in the last self.time seconds
 	local diff = 0
 	local temp
 	for k,v in pairs(self.hpT) do
@@ -538,12 +545,9 @@ function modifier_wasuro_unbroken_will:OnIntervalThink()
 		diff = diff + temp
 	end
 
-	--BUFF parent if threshold has been broken
+	--BUFF wasuro if threshold has been broken
 	if diff >= threshold then
-		--cooldown
 		self:GetAbility():UseResources(true, false, true)
-
-		--buff
 		self:GetParent():AddNewModifier(self:GetCaster(), self:GetAbility(), "modifier_wasuro_unbroken_will_buff", {duration = self.duration})
 	end
 end
@@ -556,13 +560,10 @@ modifier_wasuro_unbroken_will_buff = class({
 
 	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT,} end,
 	CheckState = function(self) return {[MODIFIER_STATE_MAGIC_IMMUNE] = true,} end,
+
+	OnCreated = function(self, kv)
+		self.atkSpd = self:GetAbility():GetSpecialValueFor("atkspeed_bonus")
+	end,
+
+	GetModifierAttackSpeedBonus_Constant = function(self) return self.atkSpd end,
 })
-
-function modifier_wasuro_unbroken_will_buff:OnCreated( kv )
-	self.atkSpd = self:GetAbility():GetSpecialValueFor("atkspeed_bonus")
-
-end
-
-function modifier_wasuro_unbroken_will_buff:GetModifierAttackSpeedBonus_Constant()
-	return self.atkSpd
-end
