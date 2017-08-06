@@ -23,6 +23,7 @@ and 25% more damage from Physical and Magical, any magical spell will deal 1% of
 deal 2% of Daisho health in bonus damage and if he lose 30% max health in one spell or attack he will get stun for 2.5 second 
 
 
+
 SPELL Q Wind Walk
 Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
 dealing bonus damage and having increase attack speed for a short duration and he also got a small chance to increase the damage bonus on
@@ -43,6 +44,7 @@ mana cost increase duration 9 8 7 6 second
 cooldown 1 second
 
 
+
 SPELL W Mirror Image
 Daisho Summon Image of him self taking extra damage and dealing damage as well, they will also cast BladeStorm when Daisho cast it
 having reduce damage and stacking with other Image and Daisho after they die, They will return to Daisho refunding a small amount of
@@ -59,6 +61,7 @@ mana cost 50 75 100 125
 Increase mana cost by 30% 45% 60% 75% every cast
 Mana cost increase duration 12 10 8 6 second
 cooldown 1 second
+
 
 
 SPELL E BladeStorm
@@ -78,6 +81,18 @@ mana cost Increase duration 8 second
 cooldown 4 3.5 3 2.5
 
 
+
 PASSIVE D OR F Divine Strike
+Daisho will crit every time he reach the amount of hit needed after he get that hit he will get increase damage as well for a short time
+BladeStorm can also crit for full damage and same for Mirror Image and increase Daisho Agility and Attack speed as well. Daisho cannot
+have any effect from Critical items they will get muted
+
+Agility bonus 5% 8% 11% 14%
+Attack Speed bonus 10 20 30 40
+Critical after every 7 6 5 4 hit done
+Critical damage 130% 150% 170% 190%
+Increase Critical damage by 25% 30% 35% 40% of Daisho agility
 
 
+
+ULTIMATE
