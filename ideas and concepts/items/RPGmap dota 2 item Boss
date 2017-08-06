@@ -16,3 +16,22 @@ attack speed 10
 damage 4
 agility 8
 BAT modifier 1.6
+
+
+Zol Essence
+Increase the User Stats with spell amp and damage, it also give the player Chaos Bolt that deal damage and debuff enemys dealing less
+damage and with Chaotic Decaytion that deal current health damage on the current high health enemy around the User and also healing
+the user for a small amount of the damage dealt
+
+Active items Use Chaos Bolt
+deal 35 plus 1% of the target max health in Pure damage plus 10% of the user Attributes and also reducing their magical and physical
+damage by 12% for 4 second-- cooldown 16 mana cost 10% of max mana
+
+Passive items use Chaotic Decaytion
+deal 10% of the enemys Current health in damage it will only proc if the enemys are under 98% of their health, healing the user for 40%
+of the damage dealt
+
+all stats 12
+spell amp 10%
+damage 10
+
