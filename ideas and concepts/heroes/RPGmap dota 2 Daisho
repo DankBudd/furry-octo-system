@@ -26,7 +26,8 @@ deal 2% of Daisho health in bonus damage and if he lose 30% max health in one sp
 SPELL Q Wind Walk
 Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
 dealing bonus damage and having increase attack speed for a short duration and he also got a small chance to increase the damage bonus on
-striking and stuning as well this spell got a very low cooldown and casting it will have increase mana every time
+striking and stuning as well this spell got a very low cooldown and casting it will have increase mana every time. The mana increase
+will not go away when Daisho is invisible
 
 damage bonus on attack 10 30 50 70
 attack speed bonus after attack 15 25 35 45
@@ -34,9 +35,49 @@ movement speed bonus when invisible 15% 20% 25% 30%
 True Strike chance 10% 15% 20% 25%
 Futher increase damage 20 30 40 50
 stun duration 1.5 2 2.5 3
-Wind Walk duration 15 20 25 30
-attack speed buff duration 3 3.5 4 4.5
-base mana cost 25 30 35 40
-increase mana cost by 15% 30% 45% 60% every cast
-mana cost increase duration 7 second
+Wind Walk duration 6 8 10 12
+attack speed buff duration 2.8 3.2 3.6 4
+base mana cost 40 50 60 70
+increase mana cost by 70% 90% 110% 130% every cast
+mana cost increase duration 9 8 7 6 second
 cooldown 1 second
+
+
+SPELL W Mirror Image
+Daisho Summon Image of him self taking extra damage and dealing damage as well, they will also cast BladeStorm when Daisho cast it
+having reduce damage and stacking with other Image and Daisho after they die, They will return to Daisho refunding a small amount of
+mana to him, The refund mana only works if the Image dies from enemys and not affected by casting Mirror Image again and he can also
+dodge any type of damage while doing Mirror Image. This spell got a very Low cooldown getting Increase mana cost every time
+
+Image damage taken 400% 360% 320% 280%
+Image damage 20% 25% 30% 35%
+Image BladeStorm damage 10% 15% 20% 25%
+Amount of Image 1 2 3 4
+Image duration 20 30 40 50
+mana refund 0.6% 0.8% 1% 1.2% of Daisho max mana
+mana cost 50 75 100 125
+Increase mana cost by 30% 45% 60% 75% every cast
+Mana cost increase duration 12 10 8 6 second
+cooldown 1 second
+
+
+SPELL E BladeStorm
+Daisho Spin dealing Insane damage and reducing armor every tick of damage, Image will also Spin dealing reduce damage and not giving
+any Stack of armor Reduction, While Daisho spin he gain increase magic resist and Evasion as well, BladeStorm can also Crit with
+Divine Strike, BladeStorm will get Increase mana cost every cast 
+
+damage 8 10 12 14 plus 15% of Daisho Agility Phyisical damage
+damage every 0.3 tick of second
+duration 1.2 1.5 1.8 2.1
+armor reduction 0.1 0.2 0.3 0.4 every tick
+magic resist increase 25% 40% 55% 70%
+Evasion increase 20% 20% 30% 40%
+mana cost 35 45 55 65
+Increase mana cost 15% 20% 25% 30% every cast
+mana cost Increase duration 8 second
+cooldown 4 3.5 3 2.5
+
+
+PASSIVE D OR F Divine Strike
+
+
