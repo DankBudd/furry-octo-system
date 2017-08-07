@@ -1,6 +1,34 @@
+function EmitAura( infoTable )
+  if infoTable == {} or type(infoTable) ~= "table" then
+    print("EmitAura | proper table inputs are:")
+    PrintTable({caster, auraModifier, ability, duration, origin, radius, unit, team, type, flags,})
+    return
+  end
+
+  local caster = infoTable["caster"]
+  local auraModifier = infoTable["auraModifier"]
+  if not caster then
+    print("EmitAura | error, caster input is not optional") return
+  end
+  if not auraModifier then
+    print("EmitAura | error, auraModifier input is not optional") return
+  end
+
+  local ability = infoTable["ability"] or nil
+  local duration = infoTable["duration"] or -1
+  local origin = infoTable["origin"] or Vector(0,0,0)
+  local radius = infoTable["radius"] or 550
+  local unit = infoTable["unit"] or CreateDummy(origin, caster:GetTeamNumber(), nil, duration)
+  local team = infoTable["team"] or DOTA_UNIT_TARGET_TEAM_BOTH
+  local type = infoTable["type"] or DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC
+  local flags = infoTable["flags"] or DOTA_UNIT_TARGET_FLAG_NONE
+
+  unit:AddNewModifier(caster, ability, "modifier_custom_aura", {auraModifier = auraModifier, radius = radius, type = type, team = team, flags = flags,})
+end
+
 --does not account for reductions such as stout shield or dispersion
-function CDOTA_BaseNPC:Lifesteal(target, damage, pct, optReduction)
-  if target:IsNull() or self:IsNull() then return end
+function CDOTA_BaseNPC:Lifesteal( target, damage, pct, optReduction )
+  if not target or not damage or not pct then print("Lifesteal | incorrect inputs") return end
 
   local reduction = 1
   if not optReduction then
