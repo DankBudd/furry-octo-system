@@ -18,7 +18,7 @@ give a positive and negative buff, Pressing ALT will give INFO for Enigma level 
 BUFF Daisho will gain 35% more Agility from items and every items that give agility will increase his health by 4% max of 20%
 and give him 3% resist to stun as well max of 15%, he also start with 50 more health and with 10% evasion as well he also increase
 his damage by 5% for every cast of spell he does up to 30% max and healing spell or items will heal him for 15% more
-DEBUFF Daisho will lose 15% magic resist and he cannot have more than 30% magic resist as well and he will take 100% more damage from Pure
+DEBUFF Daisho will lose 15% magic resist and he cannot have more than 20% magic resist as well and he will take 100% more damage from Pure
 and 25% more damage from Physical and Magical, any magical spell will deal 1% of Daisho health in bonus damage and any pure damage will
 deal 2% of Daisho health in bonus damage and if he lose 30% max health in one spell or attack he will get stun for 2.5 second 
 
@@ -86,7 +86,8 @@ and after the last Image dies, It will buff Daisho increasing his damage by 25% 
 SPELL E BladeStorm
 Daisho Spin dealing Insane damage and reducing armor every tick of damage, Image will also Spin dealing reduce damage and not giving
 any Stack of armor Reduction, While Daisho spin he gain increase magic resist and Evasion as well, BladeStorm can also Crit with
-Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown
+Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown, BladeStorm will also increase the
+magic resist cap to 85%
 
 damage 8 11 14 17 plus 25% of Daisho Agility physical damage
 damage every 0.3 second
