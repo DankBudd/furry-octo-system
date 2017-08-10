@@ -1,3 +1,30 @@
+--WARNING: can return a variety of things
+function CDotaBaseAbility:GetKeyValue( string )
+  local kv = self:GetAbilityKeyValues()
+  --search for key
+  for k,v in pairs(kv) do
+    if k == string then
+      return v
+    end
+  end
+  --check ability special if string not found
+  for k,v in pairs(kv) do
+    if k == "AbilitySpecial" then
+      for l,m in pairs(v) do
+        if l == string then
+          return v
+        end
+        for key,val in pairs(m) do
+          if key == string then
+            return val
+          end
+        end
+      end
+    end
+  end
+  print("GetKeyValue | Error: string not found")
+end
+
 function EmitAura( infoTable )
   if infoTable == {} or type(infoTable) ~= "table" then
     print("EmitAura | proper table inputs are:")
@@ -74,12 +101,16 @@ function CDOTA_BaseNPC:GetItems()
   return items
 end
 
-function CreateDummy( pos, team, func )
+function CreateDummy( pos, team, func, duration )
   if pos and team then
     local dummy = CreateUnitByNameAsync("npc_dummy_unit", pos, false, nil, nil, team, func or function(unit) end)
+
+    if duration and not duration == -1 then
+      dummy:AddNewModifier(nil, nil, "modifier_kill", {duration = duration})
+    end
     return dummy
   end
-  print("CreateDummy | requires vector, team and optional function inputs")
+  print("CreateDummy | requires vector, team, optional function, and optional duration inputs")
 end
 
 function DisplayError( pid, message )
@@ -106,7 +137,7 @@ function CDOTA_BaseNPC:RemoveAbilityAndModifiers( abilityName )
           if mod then
             if mod:GetAbility() == ability then
               self:RemoveModifierByNameAndCaster(mod:GetName(), mod:GetCaster())
-             end
+            end
           end
         end
         self:RemoveAbility(abilityName)
@@ -173,6 +204,7 @@ end
 function AttachFOWViewer( nTeamID, hUnit, flRadius, flDuration, bObstructedVision )
   local time = 0
   Timers:CreateTimer(0.03, function()
+    if hUnit:IsNull() then return end
     AddFOWViewer(nTeamID, hUnit:GetAbsOrigin(), flRadius, 0.03, bObstructedVision)
     time = time + 0.03
     if time < flDuration then
