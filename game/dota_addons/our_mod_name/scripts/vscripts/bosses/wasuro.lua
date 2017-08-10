@@ -54,8 +54,8 @@ function wasuro_sword_slash:OnUpgrade()
 		self.damage = self:GetSpecialValueFor("damage")
 		self.duration = self:GetSpecialValueFor("duration")
 
-		self.startRadius = self:GetSpecialValueFor("start_radius")
-		self.endRadius = self:GetSpecialValueFor("end_radius")
+		self.startRadius = 75
+		self.endRadius = 550
 	end
 end
 
@@ -104,6 +104,14 @@ modifier_wasuro_sword_slash_autocast = class({
 
 function modifier_wasuro_sword_slash_autocast:OnCreated( kv )
 	self.stacks = self:GetAbility():GetSpecialValueFor("blade_cut_stacks")
+
+	--decrease count by 1 to account for the fact that this ability is an attack
+	--	which increases the stack count on its own
+	if self.stacks > 1 then
+		self.stacks = self.stacks - 1
+	elseif self.stacks <= 0 then
+		self.stacks = nil
+	end
 end
 
 function modifier_wasuro_sword_slash_autocast:OnOrder( keys )
@@ -131,13 +139,15 @@ function modifier_wasuro_sword_slash_autocast:OnAttackLanded( keys )
 	ability.manualCast = nil
 	ability.manualTarget = nil
 
-	--give 3 stacks of blade cut if it is skilled
+	--give self.stacks of blade cut if it is skilled
 	if not self:GetCaster():PassivesDisabled() then
-		local mod = parent:FindModifierByNameAndCaster("modifier_wasuro_blade_cut", parent)
-		if mod then
-			for i = 1, self.stacks do
-				mod:IncrementStackCount()
-				mod:GetParent():AddNewModifier(mod:GetParent(),mod:GetAbility(), "modifier_wasuro_blade_cut_deductor", {duration = mod.duration})
+		if self.stacks then
+			local mod = parent:FindModifierByNameAndCaster("modifier_wasuro_blade_cut", parent)
+			if mod then
+				for i = 1, self.stacks do
+					mod:IncrementStackCount()
+					mod:GetParent():AddNewModifier(mod:GetParent(), mod:GetAbility(), "modifier_wasuro_blade_cut_deductor", {duration = mod.duration})
+				end
 			end
 		end
 	end
@@ -195,9 +205,8 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 	local speed = ability:GetSpecialValueFor("charge_speed")*0.03
 	local damage = ability:GetSpecialValueFor("damage")
 	local duration = ability:GetSpecialValueFor("stun_duration")
-	local distanceExt = ability:GetSpecialValueFor("extended_distance")
 
-	local maxDistance = (point - caster:GetAbsOrigin()):Length2D()
+	local maxDistance = (point - caster:GetAbsOrigin()):Length2D() + ability:GetSpecialValueFor("extended_distance")
 	local vec = point - caster:GetAbsOrigin()
 	vec.z = 0
 	vec = vec:Normalized()
@@ -215,6 +224,11 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 
 				--TODO: 
 				--	improve below to be the offset between units location and search origin instead of random
+
+				local offset = (unit:GetAbsOrigin() - caster:GetAbsOrigin())
+				local offset2 = (unit:GetAbsOrigin() + caster:GetAbsOrigin())
+				print(offset, offset2, RandomVector(75))
+				
 				--store random vec for consistant positioning during pull along
 				hit[unit] = RandomVector(75)
 			end
@@ -235,22 +249,14 @@ function modifier_wasuro_wild_charge:OnCreated( kv )
 		--end charge
 		traveled = traveled + speed
 		if traveled >= maxDistance then
-			if traveled < maxDistance + distanceExt then
-				--TODO: make this smoother
-				local temp = speed - (speed*0.03)
-				if temp > 100 * 0.03 then
-					speed = temp
-				end
-			else
-				for unit,_ in pairs(hit) do
-					unit:RemoveModifierByNameAndCaster("modifier_wasuro_wild_charge_debuff", caster)
-					unit:AddNewModifier(caster, ability, "modifier_wasuro_wild_charge_debuff_stun", {duration = duration})
-					ApplyDamage({victim = unit, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType()})
-				end
-				self:GetCaster():RemoveGesture(ACT_DOTA_CAST_ABILITY_3)
-				self:Destroy()
-				return
+			for unit,_ in pairs(hit) do
+				unit:RemoveModifierByNameAndCaster("modifier_wasuro_wild_charge_debuff", caster)
+				unit:AddNewModifier(caster, ability, "modifier_wasuro_wild_charge_debuff_stun", {duration = duration})
+				ApplyDamage({victim = unit, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType()})
 			end
+			self:GetCaster():RemoveGesture(ACT_DOTA_CAST_ABILITY_3)
+			self:Destroy()
+			return
 		end
 		--continue charge
 		return 0.03
@@ -262,7 +268,6 @@ modifier_wasuro_wild_charge_debuff = class({
 	IsHidden = function(self) return false end,
 	IsPurgable = function(self) return false end,
 	IsDebuff = function(self) return true end,
-	RemoveOnDeath = function(self) return true end,
 	CheckState = function(self) return {[MODIFIER_STATE_COMMAND_RESTRICTED] = true, [MODIFIER_STATE_NO_UNIT_COLLISION] = true,} end,
 })
 
@@ -304,9 +309,10 @@ function modifier_wasuro_duel_arena_thinker:OnCreated( kv )
 	self.team = DOTA_UNIT_TARGET_TEAM_ENEMY
 	self.type = DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC
 
+	if not IsServer() then return end
+	
 	self:StartIntervalThink(1/30)
 
-	if not IsServer() then return end
 	--begin emitting buff aura
 	local info = {
 		caster = self:GetCaster(),
@@ -390,7 +396,6 @@ modifier_wasuro_duel_arena_buff = class({
 modifier_wasuro_duel_arena_debuff = class({
 	IsPurgable = function(self) return false end,
 	IsHidden = function(self) return false end,
-
 	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS, MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS, MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE,} end,
 
 	OnCreated = function (self, kv)
@@ -461,7 +466,6 @@ end
 modifier_wasuro_blade_cut_deductor = class({
 	IsHidden = function(self) return true end,
 	IsPurgable = function(self) return false end,
-	IsDebuff = function(self) return false end,
 	GetAttributes = function(self) return MODIFIER_ATTRIBUTE_MULTIPLE end,
 
 	OnDestroy = function(self)
@@ -514,7 +518,6 @@ function modifier_wasuro_unbroken_will:OnCreated( kv )
 	if not IsServer() then return end
 
 	self.hpT = {self:GetParent():GetHealth(),}
-	self.tick = 0
 	self:StartIntervalThink(0.5)
 end
 
@@ -547,6 +550,7 @@ function modifier_wasuro_unbroken_will:OnIntervalThink()
 	--BUFF wasuro if threshold has been broken
 	if diff >= threshold then
 		self:GetAbility():UseResources(true, false, true)
+		self:GetParent():Purge(false, true, false, true, false)
 		self:GetParent():AddNewModifier(self:GetCaster(), self:GetAbility(), "modifier_wasuro_unbroken_will_buff", {duration = self.duration})
 	end
 end
