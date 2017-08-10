@@ -1,16 +1,16 @@
-Magina, starting stats, 8 agi, 2 str, 5 int, base movement speed 285, base damage 7, Stats Gain per level 1.10 agi, 0.30 str 0.60 int
-starting item weak blade 4 damage and 5 attack speed
+Magina, starting stats, 9 agi, 2 str, 7 int, base movement speed 285, base damage 6, Stats Gain per level 1.00 agi, 0.30 str 0.80 int
+starting item weak blade 2 damage and 3 attack speed BAT 1.35
 
 LEVEL 20 TALENT
 
 talent 1
-
-4 armor 15% magic resist and 6 life regen
+Increase Magina Armor by 2 and increase his magic resist by 5%
+every 30 point of agility increase Magina armor by 1 and every 20 point of agility increase his magic resist by 1%
+and gain 700% of armor as bonus mana, and 400% of magic resist as bonus mana as well
 
 talent 2
-
-10 damage 15 attack speed and 8% spell amp
-
+increase Magina damage by 10% and spell amp by 12%
+Magina will gain 40% of his attack damage as bonus Spell amp and 60% of his spell amp will be attack speed bonus
 
 PASSIVE D OR F
 Monk Spirit
@@ -20,7 +20,8 @@ BUFF Magina gain 6 mana per agility point and for every 180 current mana Magina 
 will be agility bonus and any spell that remove mana, magina instead will get that amount restore to him instead of losing mana and
 having 12% increase magic resist as well for 7 second
 DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 6 mana per intelligence and any Pure type
-damage will alway stun Magina for 0.5 second and deal 3% of his max health as bonus damage and health removal will double on him
+damage will alway stun Magina for 0.5 second and deal 3% of his max health as bonus damage and health removal will double on him he
+also lose 0.8% of his max mana for every auto attack he does
 
 talent level 25 upgrade Monk Spirit
 give a new modifier Fool Mana
