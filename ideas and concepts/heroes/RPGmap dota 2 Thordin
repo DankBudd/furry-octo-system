@@ -1,4 +1,4 @@
-Muradin,Mountain King Nuker-DSP Starting stats 1 Int, 4 Agi, 6 Str, base speed 280, base damage 5
+Thordin,Mountain King Nuker-DSP Starting stats 1 Int, 4 Agi, 6 Str, base speed 280, base damage 5
 Stats Gain per level 0.90 int, 0.70 str, 0.60 agi
 starting item Rusty Hammer increase damage by 4 and reduce coldown by 4% base attack time 2.10
 
@@ -15,22 +15,23 @@ PASSIVE D OR F
 Dwarft Might
 increase overall stats and give a positive and negative buff
 
-BUFF Muradin Start with 1 armor and any armor lost will be bonus armor for muradin instead of losing it he also gain 1 damage per armor
-and 100% of his armor will be Strenght and muradin spell will do 10% bonus pure damage
-DEBUFF Muradin lose 15% magic resist and he take 50% more damage from pure and magic resist any magic resist lost takent will be double
+BUFF Thordin Start with 1 armor and any armor lost will be bonus armor for Thordin instead of losing it he also gain 1 damage per armor
+and 100% of his armor will be Strenght and Thordin spell will do 10% bonus pure damage
+DEBUFF Thordin lose 15% magic resist and he take 50% more damage from pure and magic resist any magic resist lost takent will be double
 instead of normal he also can only use hammer type weapons
 
 Talent level 25 Upgrade Dwarft Might
 add a new modifier infused Hammer
-every basic attack, Muradin Release a Chain Lightning dealing 30% of Muradin total attack with Strenght that jump up to 5 target 
-and restoring his mana by 10% of the damage done by the Chain Lightning
+every basic attack, Thordin Release a Chain Lightning dealing 40% of Thordin total attack with Strenght that jump up to 4 target 
+and restoring his mana by 15% of the damage done by the Chain Lightning. the Chain Lightning can also crit for 100% more effect
 
 
 SPELL Q
 Storm Bolt
-deal Heavy damage to a target stunning them and reducing magic resist and armor also pushing the target back
+Thordin throw a Heavy hammer to a target stunning them and dealing damage with reducing magic resist and armor also pushing the target
+back
 
-damage 10 25 40 55 plus 40% 50% 60% 70% of strenght -damage type MAGICAL-
+damage 10 25 40 55 plus 40% 60% 80% 100% of strenght -damage type MAGICAL-
 bonus damage 10% pure
 push force 250
 magic resist lost 9% 13% 17% 21%
@@ -40,7 +41,7 @@ cooldown 18 17 16 15
 mana cost 75 plus 2% 4% 6% 8% of max mana
 
 talent level 10 upgrade Storm Bolt
-increase strenght scaling by 50%
+increase strenght scaling by 35%
 increase cast range by 300
 increase push force by 100
 increase magic resist lost by 9%
@@ -53,7 +54,7 @@ if there is no one around storm bolt damage will deal 50% magical and Pure and a
 
 SPELL W
 Thunder Clap
-Muradin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
+Thordin Smash the ground, dealing damage and slowing attack speed and movement speed. The more enemy hit
 by this spell the more damage it deal and reducing cooldown
 
 damage 7 11 15 19 plus 8% 12% 16% 20% of strenght -damage type Magical-
@@ -77,13 +78,13 @@ increase movement speed lost by 4%
 increase bonus damage per enemy by 2
 
 add a new mofidier Hammer of Thunder
-Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 30 35 40 plus 80% of Muradin Strenght in pure damage
+Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 30 35 40 plus 80% of Thordin Strenght in pure damage
 and enemys that are below 40% will lose 3% of their Max health 0.4% for bosses and any enemys kill under Lightning Bolt will heal
-Muradin for 1.4% of his max health and for Thunder Clap it will restore Muradin Life by 0.8% of his max Health
+Thordin for 1.4% of his max health and for Thunder Clap it will restore Thordin Life by 0.8% of his max Health
 
 SPELL E
 Strenght of the Mountain
-Muradin next attack will deal bonus damage and increase attack speed as well, The last hit will deal triple the damage and do cleave
+Thordin next attack will deal bonus damage and increase attack speed as well, The last hit will deal triple the damage and do cleave
 attack
 
 cannot have 10% bonus pure damage
@@ -92,7 +93,7 @@ attack speed bonus 25
 number of attack 2 3 4 5
 last hit damage increase 21 30 39 48
 last hit cleave damage 25% 45% 65% 85%
-radius of cleave 370 in front of Muradin
+radius of cleave 370 in front of Thordin
 no mana cost
 cooldown 38 32 26 20
 
@@ -104,11 +105,11 @@ increase cleave radius by 100
 
 add a new modifier Lightning Zone
 after landing the last hit create a lightning zone of 600 radius that deal 7 magical damage plus 10% of strenght to nearby enemy
-and for ally and Muradin, they gain 20% increase base damage and 9% spell amp while inside of it the zone last 10 second
+and for ally and Thordin, they gain 20% increase base damage and 9% spell amp while inside of it the zone last 10 second
 
 PASSIVE D OR F
 Dwarft Mastery
-increase Muradin damage and attack speed also giving him a chance to bash the target dealing damage and stunning them also make enemys
+increase Thordin damage and attack speed also giving him a chance to bash the target dealing damage and stunning them also make enemys
 take damage per second if they get hit by Storm Bolt or Thunder Clap
 
 damage per second by Storm Bolt and Thunder Clap 11% 13% 15% 17% of strenght as damage -damage type Magical- last 3 second
@@ -126,7 +127,7 @@ increase bash damage by 11
 increase strenght scaling by 30%
 
 add a new modifier Mountain Hammer
-every time Muradin Bash he will do a Small Thunder Clap that deal 50% of Bash damage and Stun duration to other Target
+every time Thordin Bash he will do a Small Thunder Clap that deal 50% of Bash damage and Stun duration to other Target
 of 250 radius and every time he bash the target he will gain 4 attack speed and the next bash will deal 3 more damage max of 5 stacks
 at max stack, the bash damage turn PURE and deal 100% Area of effect damage instead of 50%. the stack duration last 4 second refresh
 every new stacks
@@ -134,7 +135,7 @@ every new stacks
 
 ULTIMATE R
 Avatar
-increase Muradin armor,damage,life and giving him spell immunity for the duration and increase the bash chance of Dwarft Mastery
+increase Thordin armor,damage,life and giving him spell immunity for the duration and increase the bash chance of Dwarft Mastery
 
 bonus base damage 20 30 40
 bonus armor 4 8 12
@@ -153,6 +154,6 @@ reduce the duration by 20 second
 reduce cooldown by 40
 
 add a new modifier Titan Might
-Upon casting Avatar deal 150 pure damage plus 150% of strenght around Muradin 300 radius and stuning for 3 second also
-change muradin attack to PURE DAMAGE for the duration and enemys that get bash durring Avatar will get Stone instead of Stun
+Upon casting Avatar deal 150 pure damage plus 150% of strenght around Thordin 300 radius and stuning for 3 second also
+change Thordin attack to PURE DAMAGE for the duration and enemys that get bash durring Avatar will get Stone instead of Stun
 increasing all physical damage by 40% and pure damage by 75% and also stunning for 1.8 second instead
