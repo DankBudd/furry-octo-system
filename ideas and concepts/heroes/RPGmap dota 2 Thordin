@@ -9,7 +9,7 @@ Increase Thordin armor by 10 but reduce his health by 35%
 Bonus Health from spell amp no longer give any Bonus and instead give 50% strenght and inteillgence bonus base on Thordin total Armor
 
 talent 2
-Increase Thordin spell amp by 16% but reduce his armor by 6
+Increase Thordin spell amp by 16% but reduce his armor by 10
 Thordin will lose armor instead of gaining it from debuff and other spell but, he will gain 7% spell amp for every debuff he got on him
 and 2.5% spell amp for every buff on him as well
 
@@ -60,58 +60,58 @@ a bleeding damage that last 3 second. The stun resist debuff last 5 second on th
 
 SPELL W
 Thunder Clap
-Thordin Smash the ground, dealing 
+Thordin Smash the ground, dealing damage base on how many enemys he hit with Thunder Clap and also slowing their attack speed and
+movement speed as well. He also reduce the cooldown of Thunder Clap for every unit hit by Thunder Clap hit self
 
-
-damage 7 11 15 19 plus 8% 12% 16% 20% of strenght -damage type Magical-
-bonus damage 10% pure
-radius 260 270 280 290
-radius increase by 1 for every point of strenght
+damage 7 11 15 19 plus 12% 18% 24% 30% of strenght Magical
+radius 280 310 340 370
+radius increase by 15% 30% 45% 60% of strenght
 attack speed lost 15 20 25 30
 movement speed lost 10% 16% 22% 28%
-bonus damage per enemy hit 1 2 3 4
-cooldown reduction per enemy hit 0.10 0.20 0.30 0.40 second
+bonus damage per enemy hit 2 3 4 5
+cooldown reduction per enemy hit 0.20 0.30 0.40 0.50 second
 debuff duration 3.2 3.8 4.4 5
-cooldown 12
-mana cost 70 110 140 170 plus 1% of max mana
+cooldown 14
+mana cost 70 110 150 190 plus 3% of max mana
 
 talent level 10 Upgrade Thunder Clap
-increase damage by 6
-increase strenght scaling by 12%
-increase radius by 40
-increase attack speed lost by 5
-increase movement speed lost by 4%
-increase bonus damage per enemy by 2
+increase strenght scaling by 15%
+increase radius by 70
+increase attack speed lost by 10
+increase movement speed lost by 8%
+increase bonus damage per enemy by 3
 
 add a new mofidier Hammer of Thunder
 Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 30 35 40 plus 80% of Thordin Strenght in pure damage
-and enemys that are below 40% will lose 3% of their Max health 0.4% for bosses and any enemys kill under Lightning Bolt will heal
-Thordin for 1.4% of his max health and for Thunder Clap it will restore Thordin Life by 0.8% of his max Health
+and enemys that are below 40% will lose 3% of their Max health 0.4% for bosses and any enemys that die from the Lightning Bolt will
+Heal Thordin by 4% of his max health and every Unit hit by Thunder Clap will restore Thordin health by 25% of the damage done with
+Thunder Clap
 
 SPELL E
 Strenght of the Mountain
 Thordin next attack will deal bonus damage and increase attack speed as well, The last hit will deal triple the damage and do cleave
-attack
+attack. this spell will only crit for 50% of the total Damage Crit
 
-cannot have 10% bonus pure damage
-damage bonus 7 10 13 16
-attack speed bonus 25
-number of attack 2 3 4 5
-last hit damage increase 21 30 39 48
-last hit cleave damage 25% 45% 65% 85%
-radius of cleave 370 in front of Thordin
+damage bonus 8 12 16 20 Physical
+attack speed bonus 35
+number of attack 3
+last hit damage increase 24 36 48 60 Physical
+last hit cleave damage 25% 50% 75% 100%
+radius of cleave 370 390 410 430 in front of Thordin
 no mana cost
 cooldown 38 32 26 20
 
 talent level 15 upgrade Strenght of the Mountain
 increase damage by 4
-increase attack speed by 15
+increase attack speed by 35
 increase last hit damage by 12
 increase cleave radius by 100
 
 add a new modifier Lightning Zone
-after landing the last hit create a lightning zone of 600 radius that deal 7 magical damage plus 10% of strenght to nearby enemy
-and for ally and Thordin, they gain 20% increase base damage and 9% spell amp while inside of it the zone last 10 second
+after landing the last hit create a lightning zone of 600 radius that deal 8 magical damage plus 15% of Thordin strenght to nearby enemy
+and for ally and Thordin, they gain 20% increase base damage and 12% spell amp while inside of it the zone last 10 second and after the
+Lightning Zone is gone, it will restore all allys and Thordin health by 5% plus 1% for every hero allys while inside of Lightning Zone
+when its gone
 
 PASSIVE D OR F
 Dwarft Mastery
