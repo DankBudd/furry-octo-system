@@ -133,7 +133,8 @@ max Stacks
 ULTIMATE R Fate's Edict
 Give any allys a bonus that last until they die or Oracle die, if the target Primary stats is Inteillgence, increase their INT, spell amp
 and Healing amp, if the target Primary stats is Agility, increase AGI, damage and attack speed, if the target Primary stats is Strenght,
-Increase STR, armor and Magic resist and every cast on the same target will increase their stats bonus they gain by a small amount
+Increase STR, armor and Magic resist and every cast on the same target will increase their stats bonus they gain by a small amount.
+if casting Fate's Edict on any other target, it will remove the buff and the stack on the last person who had it.
 
 bonus INT 4 8 12
 bonus spell amp 6% 10% 14%
