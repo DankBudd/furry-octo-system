@@ -61,15 +61,15 @@ having reduce damage and stacking with other Image and Daisho after they die, Th
 mana to him, The refund mana only works if the Image dies from enemys and not affected by casting Mirror Image again and he can also
 dodge any type of damage while doing Mirror Image. This spell got a very Low cooldown and having Increase mana cost every time
 
-Image damage taken 400% 360% 320% 280%
-Image damage done 20% 25% 30% 35%
-Image BladeStorm damage 10% 15% 20% 25%
+Image damage taken 400% 370% 340% 310%
+Image damage done 18% 22% 26% 30%
+Image BladeStorm damage 11% 14% 17% 20%
 Amount of Image 1 2 3 4
-Image duration 20 30 40 50
+Image duration 20 25 30 35
 mana refund 0.4% 0.6% 0.8% 1% of Daisho max mana
 mana cost 50 90 130 170
 Increase mana cost by 30% 45% 60% 75% every cast
-Mana cost increase duration 12 10 8 6 second
+Mana cost increase duration 12 11 10 9 second
 cooldown 1 second
 
 talent level 10 upgrade Mirror Image
@@ -89,25 +89,29 @@ any Stack of armor Reduction, While Daisho spin he gain increase magic resist an
 Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown, BladeStorm will also increase the
 magic resist cap to 85%
 
-damage 8 11 14 17 plus 25% of Daisho Agility physical damage
+damage 8 11 14 17 plus 20% of Daisho Agility physical damage
 damage every 0.3 second
 duration 1.5 1.8 2.1 2.4
 armor reduction 0.9 1.1 1.3 1.5 every tick
 magic resist increase 25% 40% 55% 70%
 Evasion increase 20% 20% 30% 40%
-mana cost 35 55 75 95
-Increase mana cost 15% 20% 25% 30% every cast
-mana cost Increase duration 8 second
-cooldown 5.5 5 4.5 4
+radius 270 310 350 390
+mana cost 135 175 215 255
+cooldown 14 13 12 11
 
-talent level 15 Upgrade Blade Storm
+talent level 15 Upgrade BladeStorm
 reduce the damage every second by 0.1
 increase the duration by 0.6
 increase magic resist bonus by 15%
 increase Evation bonus by 20%
-increase the mana cost every cast by 20%
+reduce the armor reduction by 0.3
+increase mana cost by 45
 
-waiting for ideas
+add a new modifier Wind Blade
+The radius of BladeStorm will increase by 5 every 0.1 second and increase its damage by 1% every 0.1 second as well, if Daisho kill
+any enemys durring BladeStorm the duration will increase by 0.4 second and also increasing the radius by 15 every kills done and
+any spell targeted spell cast at him will have 25% chance to be reflected at them, also increase Daisho movement speed by 15% when in
+BladeStorm
 
 PASSIVE D OR F Divine Strike
 Daisho will crit every time he reach the amount of hit needed after he get that hit he will get increase damage as well for a short time
@@ -117,9 +121,22 @@ have any effect from Critical items they will get muted
 Agility bonus 5% 8% 11% 14%
 Attack Speed bonus 10 20 30 40
 Critical after every 7 6 5 4 hit done
-Critical damage 135% 150% 165% 180%
+Base Critical damage 100% 110% 120% 130%
 Increase Critical damage by 15% 20% 25% 30% of Daisho agility
+bonus damage after crit 20% 28% 36% 44%
+buff duration 1.8 second
 
+talent level 15 Upgrade Divine Strike
+increase agility bonus by 6%
+reduce Critical after every hit done by 1
 
+add a new Modifier Weak Point Strike
+Every time Daisho crit any enemys, they will suffer from 1 random debuff out of 2 that will only affect Daisho him-self or his spells
+DEBUFF 1 Enemys will take 12% more damage from BladeStorm and will have reduce healing by 8%, if Daisho damage them with BladeStorm,
+it will have 65% chance to increase the duration of BladeStorm by 0.1 every time they get damage by it. DEBUFF 2 enemys will take 35%
+more damage from Wind Walk and if Daisho land a True Strike on them, they will take 70% more damage instead and get stun longer for 0.6
+second and bleed for 17 plus 0.4% of their max health in pure damage for 3 seconds. The Weak Point Strike debuff last 4 second and
+enemys that got Weak Point Strike cannot get it again for 13 seconds and a Symbol will spawn on their head Showing witch one of the
+Debuff they are affected by.
 
 ULTIMATE
