@@ -27,8 +27,9 @@ more damage
 
 Talent level 25 Upgrade Dwarft Might
 add a new modifier infused Hammer
-every basic attack, Thordin Release a Chain Lightning dealing 40% of Thordin total attack with Strenght that jump up to 4 target 
-and restoring his mana by 15% of the damage done by the Chain Lightning. the Chain Lightning can also crit for 100% more effect
+every basic attack, Thordin Release a Chain Lightning dealing 50% of Thordin total attack with Strenght that jump up to 4 target 
+and restoring his mana by 8% of the damage done by the Chain Lightning. the Chain Lightning got 15% chance to crit for 300% of the
+damage and Doesnt get any bonus from other Source of Crits
 
 
 SPELL Q
@@ -71,7 +72,7 @@ movement speed lost 10% 16% 22% 28%
 bonus damage per enemy hit 2 3 4 5
 cooldown reduction per enemy hit 0.20 0.30 0.40 0.50 second
 debuff duration 3.2 3.8 4.4 5
-cooldown 14
+cooldown 16
 mana cost 70 110 150 190 plus 3% of max mana
 
 talent level 10 Upgrade Thunder Clap
@@ -90,7 +91,7 @@ Thunder Clap
 SPELL E
 Strenght of the Mountain
 Thordin next attack will deal bonus damage and increase attack speed as well, The last hit will deal triple the damage and do cleave
-attack. this spell will only crit for 50% of the total Damage Crit
+attack. this spell Cannot crit from any other source but Avatar
 
 damage bonus 8 12 16 20 Physical
 attack speed bonus 35
@@ -115,51 +116,52 @@ when its gone
 
 PASSIVE D OR F
 Dwarft Mastery
-increase Thordin damage and attack speed also giving him a chance to bash the target dealing damage and stunning them also make enemys
-take damage per second if they get hit by Storm Bolt or Thunder Clap
+increase Thordin damage and also give him a chance to bash the target stuning them and dealing damage base on Thordin Strenght, also
+make Storm Bolt Spell Vamp and Thunder Clap will buff allys with attack speed and movement speed for a reduce amount for them Thordin
+will not gain any attack speed or Movement speed
 
-damage per second by Storm Bolt and Thunder Clap 11% 13% 15% 17% of strenght as damage -damage type Magical- last 3 second
 bonus damage 5% 10% 15% 20%
-bonus attack speed 3% 6% 9% 12%
+bonus attack speed 4% 8% 12% 16% of Thordin Strenght
 bash chance 12% 13% 14% 15%
-bash damage 8 10 12 14 -damage type PHYSICAL-
-Strenght scaling 30% 50% 70% 90%
-bash duration 0.3 0.4 0.5 0.6 last half on bosses
+bash damage 40% 80% 120% 160% of Thordin Strenght
+bash duration 0.4 0.6 0.8 1.0 last half on bosses
+Storm Bolt spell vamp 10% 15% 20% 25%
+Thunder Clap bonus 20% 30% 40% 50% of AS and MS
 
 talent level 15 upgrade Dwarft Mastery
-increase stun duration by 0.2
-increase bonus attack speed by 4%
-increase bash damage by 11
-increase strenght scaling by 30%
+Increase damage bonus by 5%
+increase bash Strenght Scaling by 40%
+increase Storm Bolt Spell Vamp by 10%
 
-add a new modifier Mountain Hammer
-every time Thordin Bash he will do a Small Thunder Clap that deal 50% of Bash damage and Stun duration to other Target
-of 250 radius and every time he bash the target he will gain 4 attack speed and the next bash will deal 3 more damage max of 5 stacks
-at max stack, the bash damage turn PURE and deal 100% Area of effect damage instead of 50%. the stack duration last 4 second refresh
-every new stacks
-
+add a new modifier Dwarft Knowledge
+If Thordin cast Storm Bolt or Thunder Clap on any Source of Stun they will do 30% more damage on them for Storm Bolt, it will Stun 1
+second longer 0.5 for bosses and Disable Life regeneration on that target and for Thunder Clap, it will reduce damage by 10% and spell
+damage by 15% and also increasing its debuff on them by 1.5 second longer
 
 ULTIMATE R
 Avatar
-increase Thordin armor,damage,life and giving him spell immunity for the duration and increase the bash chance of Dwarft Mastery
+Thordin Become a Mountain it-self gaining increase damage, armor, magic resist, health and increasing Dwarft Mastery Stun chance
+he also Improve his Strenght of the Mountain making hit cleave for normal amount for the first 2 hit and making the last one Cleave
+for double of the Normal Cleave damage and the last hit will also Crit
 
-bonus base damage 20 30 40
-bonus armor 4 8 12
-life bonus 15% 35% 55%
-bash chance increase by 4% 7% 10%
-duration 25 30 35
-increase size 20% 40% 60%
+bonus damage 15 20 25
+bonus armor 3 6 9
+Magic Resist bonus 30% 60% 90%
+Health bonus 200 450 700
+Dwarft Mastery bash chance increase 4% 7% 10%
+duration 30 35 40
+Size Increase 50%
+Last hit Critical damage 150% 200% 250%
 no mana cost
-cooldown 150 125 100
+cooldown 160 140 120
 
 talent level 25 upgrade Avatar
-increase bonus damage by 20
+increase bonus damage by 10
 increase bonus armor by 6
-increase bonus life by 15%
-reduce the duration by 20 second
-reduce cooldown by 40
+increase bonus Health by 300
+reduce the cooldown by 10
 
 add a new modifier Titan Might
-Upon casting Avatar deal 150 pure damage plus 150% of strenght around Thordin 300 radius and stuning for 3 second also
-change Thordin attack to PURE DAMAGE for the duration and enemys that get bash durring Avatar will get Stone instead of Stun
-increasing all physical damage by 40% and pure damage by 75% and also stunning for 1.8 second instead
+Upon Casting Avatar, all enemys nearby 450 radius of Thordin will take 500% of his Strenght in Pure damage and get stun for 2.5 second
+same for bosses, he will also double the attack speed from Strenght of the Mountain, 70 without talent and 140 with talent, after the
+duration of Avatar end, Thordin will gain 10% damage reduction and 15% bonus Attributes When Avatar is not Active.
