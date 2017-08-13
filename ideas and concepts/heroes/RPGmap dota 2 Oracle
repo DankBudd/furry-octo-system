@@ -1,15 +1,18 @@
-Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 9, Stats Gain per level 3.00 int, 0.00 str, 0.00 agi
+Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 9, Stats Gain per level 2.60 int, 0.00 str, 0.00 agi
 Starting item Broken Orb give 2 damage and 4 int base attack time 3.00 Support-low DSP
 LEVEL 20 TALENT
 
 Talent 1
-
+increase Oracle armor by 4 and magic reist by 10%
+Oracle will gain 450% of his armor and magic resist as health bonus
 
 Talent 2
-
+increase Oracle healing amp by 7% and spell amp by 4%
+Oracle will gain 250% of his healing amp and spell amp as bonus mana and every 850 max mana he got, he will gain 40 movement speed
 
 
 PASSIVE D OR F Prophet
+give a positive and negative buff, Pressing ALT will give INFO for Ocale level 20 talent and level 25 talent for this passive
 
 BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 18 intelligence he also start with 10% bonus mana and immune to Roots he 
 also gain a shield every 7 second cannot regain shield in combat, equal to 20% of his mana that last until he take the amount of damage
