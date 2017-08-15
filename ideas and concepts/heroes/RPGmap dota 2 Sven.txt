@@ -3,11 +3,11 @@ Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base 
 TALENT LEVEL 20
 
 talent 1 
-increase sven max health by 15% and his armor by 3
-Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max
+increase sven max health by 25% and his armor by 5
+Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max and increase his resist for pure damage by 80%
 
 talent 2
-increase Sven damage by 10% and agility by 14
+increase Sven damage by 20% and agility by 8
 Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 15% of his Strenght
 
 Mighty Warrior
