@@ -1,5 +1,5 @@
 Daisho, Starting stats 5 inteillgence, 3 strenght, 11 agility, Base Speed 315, Base damage 7
-Stats Gain per level 0.80 Inteillgence, 0.50 Strenght,1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.55
+Stats Gain per level 0.80 Inteillgence, 0.50 Strenght,1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
 
 TALENT LEVEL 20
 
@@ -22,7 +22,11 @@ DEBUFF Daisho will lose 15% magic resist and he cannot have more than 20% magic 
 and 25% more damage from Physical and Magical, any magical spell will deal 0.7% of Daisho health in bonus damage and any pure damage will
 deal 1.4% of Daisho health in bonus damage and if he lose 25% max health in one spell or attack he will get stun for 3.5 second 
 
-
+talent level 25 Upgrade BladeMaster
+add a new modifier Bleed Strike
+every critical strike done with Divine Strike he will make enemys bleed for 10 plus 15% of Daisho agility in Pure damage every second
+and reducing healing by 10% that last 3 second, every stack of Bleed Strike will refresh the duration and add 4 plus 1% of Daisho
+agility in Pure damage bonus with 1% healing reduction as well max of 15 stacks
 
 SPELL Q Wind Walk
 Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
@@ -157,15 +161,22 @@ Increase BladeStorm duration by 0.6 1.2 1.8
 Movement speed bonus 25% 50% 75%
 Reduce base damage by 25% 50% 75%
 Reduce Divine Strike Critical damage by 30% 50% 70%
-cooldown of Toggle 15 second
+cooldown of Toggle 25 second
 
 talent level 25 Upgrade Hard Strike and Swift Strike
 Increase Base damage bonus by 10%
 increase Wind Walk damage bonus by 15
 reduce Base attack time by another 0.10
-increase movement speed bonus by 15%
+reduce the Critical damage reduction by 20%
 
-add a new Modifier Waiting on ideas
+add a new Modifier Full Strike
+Make Hard Strike and Swift Strike ignore armor with basic attack of Daisho dealing normal damage to enemys and also give Daisho 10%
+chance while in Hard Strike to attack again in a quick successfull attack that cannot miss and deal 60% physical damage and 40% pure
+damage and for Swift Strike, increase daisho Divine Strike critical damage by 10% for every crit done with it while doing auto attack or
+BladeStorm that stack up to 20 max and last 2.5 second refresh on hit with auto attack or BladeStorm and if Daisho doesnt attack for 15
+he will get 80% increase damage for the next Auto attack when in Hard Strike and for Swift Strike, BladeStorm will have 1.2 second
+duration increase and deal 3% increase damage for every -1 armor the enemys lost
+
 
 
 
