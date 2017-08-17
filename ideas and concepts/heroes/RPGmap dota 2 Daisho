@@ -146,17 +146,17 @@ Critical damage but reduce his attack speed, losing damage with BladeStorm and f
 Buffing BladeStorm and also increasing his movement speed but reduce his base damage and Reduce Divine Strike Critical damage
 
 Hard Strike
-base damage increase 30% 45% 60%
-Wind Walk damage bonus 35 60 85
-Divine Strike Critical damage bonus 40% 80% 120%
-BladeStorm damage reduction 30% 40% 50%
+base damage increase 40% 55% 70%
+Wind Walk damage bonus 35 50 75
+Divine Strike Critical damage bonus 40% 70% 100%
+BladeStorm damage reduction 80% 70% 60%
 attack speed lost 50 90 130
 Swift Strike
-Base Attack Time Reduction 0.30 0.45 0.60
-Increase BladeStorm duration by 1.0 2.0 3.0
+Base Attack Time Reduction 0.20 0.35 0.50
+Increase BladeStorm duration by 0.6 1.2 1.8
 Movement speed bonus 25% 50% 75%
-Reduce base damage by 30% 50% 70%
-Reduce Divine Strike Critical damage by 25% 40% 55%
+Reduce base damage by 25% 50% 75%
+Reduce Divine Strike Critical damage by 30% 50% 70%
 cooldown of Toggle 15 second
 
 talent level 25 Upgrade Hard Strike and Swift Strike
