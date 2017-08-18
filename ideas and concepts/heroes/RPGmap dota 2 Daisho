@@ -1,14 +1,17 @@
-Daisho, Starting stats 5 inteillgence, 3 strenght, 11 agility, Base Speed 315, Base damage 7
+Daisho, Starting stats 5 inteillgence, 3 strenght, 4 agility, Base Speed 315, Base damage 5
 Stats Gain per level 0.80 Inteillgence, 0.50 Strenght,1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
 
 TALENT LEVEL 20
 
 talent 1
-wating on skills
+Increase Daisho Health by 625 but reduce his agility by 35% and his max mana by 50%
+Daisho will gain 4 armor for every Image alive with 3 mana regeneration as well and 20% of the damage dealt with Basic Attack,
+Wind Walk, BladeStorm and Critical strike will be mana gain for Daisho
 
 talent 2
-wating on skills
-
+increase Daisho Agility by 40 but reduce his Health by 50% and Reduce his armor to -12 and he cannot gain any armor or lose Armor
+Increase Daisho BladeStorm and Bleed Strike agility scaling by 25% and also make them spell vamp for 35% of the damage dealt
+and reduce Debuff time on Daisho by 50%
 
 PASSIVE D OR F
 
@@ -24,9 +27,9 @@ deal 1.4% of Daisho health in bonus damage and if he lose 25% max health in one 
 
 talent level 25 Upgrade BladeMaster
 add a new modifier Bleed Strike
-every critical strike done with Divine Strike he will make enemys bleed for 10 plus 15% of Daisho agility in Pure damage every second
-and reducing healing by 10% that last 3 second, every stack of Bleed Strike will refresh the duration and add 4 plus 1% of Daisho
-agility in Pure damage bonus with 1% healing reduction as well max of 15 stacks
+every critical strike done with Divine Strike he will make enemys bleed for 12 plus 10% of Daisho agility in Pure damage every second
+and reducing healing by 10% that last 3 second, every stack of Bleed Strike will refresh the duration and add 4 Pure damage
+bonus with 5% healing reduction as well max of 5 stacks
 
 SPELL Q Wind Walk
 Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
@@ -42,8 +45,8 @@ Futher increase damage 10 30 50 70
 stun duration 1 1.2 1.4 1.6
 Wind Walk duration 6 8 10 12
 attack speed buff duration 2.8 3.2 3.6 4
-base mana cost 40 50 60 70
-increase mana cost by 90% 120% 150% 180% every cast
+base mana cost 30 50 70 90
+increase mana cost by 100% 135% 170% 205% every cast
 mana cost increase duration 10 9 8 7 second
 cooldown 1 second
 
@@ -56,7 +59,7 @@ reduce mana cost increase by 60%
 add a new Modifier Wind Body
 reduce all damage taken by 30% while in Wind Walk and Daisho got 30% chance to evade any Spell cast at him and for every spell Evade
 he will gain 2% damage reduction until death up to 6% max and at max stack of Wind Body he will increase the chance of evading spell
-by another 10% chance. also give Wind Walk 16% chance to crit on hit for 200% of the damage done, not needed for 10% damage reduction
+by another 10% chance. also give Wind Walk 14% chance to crit on hit for 200% of the damage done, not needed for 6% damage reduction
 stacks
 
 SPELL W Mirror Image
@@ -72,7 +75,7 @@ Amount of Image 1 2 3 4
 Image duration 20 25 30 35
 mana refund 0.4% 0.6% 0.8% 1% of Daisho max mana
 mana cost 50 90 130 170
-Increase mana cost by 30% 45% 60% 75% every cast
+Increase mana cost by 50% 70% 90% 110% every cast
 Mana cost increase duration 12 11 10 9 second
 cooldown 1 second
 
@@ -94,10 +97,10 @@ any Stack of armor Reduction, While Daisho spin he gain increase magic resist an
 Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown, BladeStorm will also increase the
 magic resist cap to 85%
 
-damage 11 14 17 20 plus 20% of Daisho Agility physical damage
+damage 7 9 11 13 plus 10% of Daisho Agility physical damage
 damage every 0.3 second
 duration 1.5 1.8 2.1 2.4
-armor reduction 0.9 1.1 1.3 1.5 every tick
+armor reduction 0.5 0.6 0.7 0.8 every tick
 magic resist increase 25% 40% 55% 70%
 Evasion increase 20% 20% 30% 40%
 radius 260 290 320 350
@@ -109,19 +112,18 @@ reduce the damage every second by 0.1
 increase the duration by 0.6
 increase magic resist bonus by 15%
 increase Evation bonus by 20%
-reduce the armor reduction by 0.3
-increase mana cost by 45
+increase mana cost by 105
 
-add a new modifier Wind Blade
+add a new modifier Tornado
 The radius of BladeStorm will increase by 5 every 0.1 second and increase its damage by 1% every 0.2 second as well, if Daisho kill
-any enemys durring BladeStorm the duration will increase by 0.4 second and also increasing the radius by 15 every kills done and
-any spell targeted spell cast at him will have 25% chance to be reflected at them, also increase Daisho movement speed by 15% when in
-BladeStorm
+any enemys durring BladeStorm the duration will increase by 0.8 second and also increasing the radius by 15 every kills done and
+any spell targeted spell cast at him will have 35% chance to be reflected at them, also increase Daisho movement speed by 10% when in
+BladeStorm and increase by 1% every kill done while in BladeStorm
 
 PASSIVE D OR F Divine Strike
 Daisho will crit every time he reach the amount of hit needed after he get that hit he will get increase damage as well for a short time
 BladeStorm can also crit for full damage and same for Mirror Image and increase Daisho Agility and Attack speed as well. Daisho cannot
-have any effect from Critical items they will get muted
+have any effect from Critical items they will only give the stats on them but nothing from crits
 
 Agility bonus 5% 8% 11% 14%
 Attack Speed bonus 10 20 30 40
@@ -135,13 +137,13 @@ talent level 15 Upgrade Divine Strike
 increase agility bonus by 6%
 reduce Critical after every hit done by 1
 
-add a new Modifier Weak Point Strike
+add a new Modifier Weak Point
 Every time Daisho crit any enemys, they will suffer from 1 random debuff out of 2 that will only affect Daisho him-self or his spells
-DEBUFF 1 Enemys will take 12% more damage from BladeStorm and will have reduce healing by 8%, if Daisho damage them with BladeStorm,
-it will have 65% chance to increase the duration of BladeStorm by 0.1 every time they get damage by it. DEBUFF 2 enemys will take 35%
-more damage from Wind Walk and if Daisho land a True Strike on them, they will take 70% more damage instead and get stun longer for 0.6
-second and bleed for 17 plus 0.2% of their max health in pure damage for 3 seconds. The Weak Point Strike debuff last 4 second and
-enemys that got Weak Point Strike cannot get it again for 11 seconds and a Symbol will spawn on their head Showing witch one of the
+DEBUFF 1 Enemys will take 20% more damage from BladeStorm and will have reduce healing by 8%, if Daisho damage them with BladeStorm,
+it will have 40% chance to increase the duration of BladeStorm by 0.3 every time they get damage by it. DEBUFF 2 enemys will take 25%
+more damage from Wind Walk and if Daisho land a True Strike on them, they will take 40% more damage instead and get stun longer for 0.6
+second and bleed for 17 plus 0.2% of their max health in pure damage for 3 seconds. The Weak Point debuff last 4 second and
+enemys that got Weak Point cannot get it again for 11 seconds and a Symbol will spawn on their head Showing witch one of the
 Debuff they are affected by.
 
 ULTIMATE R TOGGLE Hard Strike and Swift Strike
@@ -151,14 +153,14 @@ Buffing BladeStorm and also increasing his movement speed but reduce his base da
 
 Hard Strike
 base damage increase 40% 55% 70%
-Wind Walk damage bonus 35 50 75
+Wind Walk damage bonus 25 40 55
 Divine Strike Critical damage bonus 40% 70% 100%
 BladeStorm damage reduction 80% 70% 60%
-attack speed lost 50 90 130
+attack speed lost 50 100 150
 Swift Strike
-Base Attack Time Reduction 0.20 0.35 0.50
+Base Attack Time Reduction 0.10 0.25 0.40
 Increase BladeStorm duration by 0.6 1.2 1.8
-Movement speed bonus 25% 50% 75%
+Movement speed bonus 25% 30% 35%
 Reduce base damage by 25% 50% 75%
 Reduce Divine Strike Critical damage by 30% 50% 70%
 cooldown of Toggle 25 second
@@ -166,7 +168,7 @@ cooldown of Toggle 25 second
 talent level 25 Upgrade Hard Strike and Swift Strike
 Increase Base damage bonus by 10%
 increase Wind Walk damage bonus by 15
-reduce Base attack time by another 0.10
+reduce Base attack time by another 0.15
 reduce the Critical damage reduction by 20%
 
 add a new Modifier Full Strike
