@@ -143,6 +143,12 @@ function Attachments:start()
 
   local src = debug.getinfo(1).source
   --print(src)
+  local iCallStack = 1
+  while not src:sub(2):find("dota_addons") do
+    iCallStack = iCallStack+1
+    src = debug.getinfo(iCallStack).source
+  end
+  print(src)
 
   self.gameDir = ""
   self.addonName = ""

@@ -1,8 +1,4 @@
--- This is the primary barebones gamemode script and should be used to assist in initializing your game mode
 BAREBONES_VERSION = "1.00"
-
--- Set this to true if you want to see a complete debug output of all events/processes done by barebones
--- You can also change the cvar 'barebones_spew' at any time to 1 or 0 for output/no output
 BAREBONES_DEBUG_SPEW = false 
 
 if GameMode == nil then
@@ -10,216 +6,256 @@ if GameMode == nil then
     _G.GameMode = class({})
 end
 
--- This library allow for easily delayed/timed actions
-require('libraries/timers')
--- This library can be used for advancted physics/motion/collision of units.  See PhysicsReadme.txt for more information.
-require('libraries/physics')
--- This library can be used for advanced 3D projectile systems.
-require('libraries/projectiles')
--- This library can be used for sending panorama notifications to the UIs of players/teams/everyone
-require('libraries/notifications')
--- This library can be used for starting customized animations on units from lua
-require('libraries/animations')
--- This library can be used for performing "Frankenstein" attachments on units
-require('libraries/attachments')
--- This library can be used to synchronize client-server data via player/client-specific nettables
-require('libraries/playertables')
--- This library can be used to create container inventories or container shops
-require('libraries/containers')
--- This library provides a searchable, automatically updating lua API in the tools-mode via "modmaker_api" console command
-require('libraries/modmaker')
--- This library provides an automatic graph construction of path_corner entities within the map
-require('libraries/pathgraph')
--- This library (by Noya) provides player selection inspection and management from server lua
-require('libraries/selection')
--- This library by Wouterz90 (originally by Perry) can be used for lua tracking projectiles
-require('libraries/tracking_projectiles')
--- This library makes use of PopupNumbers() for ez usage.
-require('libraries/popup')
--- Knockback functions
-require('libraries/misc/knockback')
--- some weird shit used for enigmas passive
-require('libraries/misc/mana_item_table_functions')
+--require Barebones stuff
+  require('libraries/timers')
+  require('libraries/physics')
+  require('libraries/projectiles')
+  require('libraries/notifications')
+  require('libraries/animations')
+  require('libraries/attachments')
+  require('libraries/playertables')
+  require('libraries/containers')
+  require('libraries/modmaker')
+  require('libraries/pathgraph')
+  require('libraries/selection')
+  require('internal/gamemode')
+  require('internal/events')
+  require('settings')
+  require('events')
 
--- These internal libraries set up barebones's events and processes.  Feel free to inspect them/change them if you need to.
-require('internal/gamemode')
-require('internal/events')
+--require misc stuff
+  require('libraries/tracking_projectiles')
+  require('libraries/popup')
+  require('libraries/misc/knockback')
+  require('libraries/misc/mana_item_table_functions')
+  require('heroes/hero_drow/frost_arrows_lua')
+  require('heroes/juggernaut')
+  require("items/item_special_combiner_test")
+  require("heroes/testing")
+  require("items/debug_items")
+  require('filters')
 
--- settings.lua is where you can specify many different properties for your game mode and is one of the core barebones files.
-require('settings')
--- events.lua is where you can specify the actions to be taken when any event occurs and is one of the core barebones files.
-require('events')
+--link global modifiers
+  LinkLuaModifier("modifier_custom_aura", "heroes/modifiers/modifier_custom_aura", LUA_MODIFIER_MOTION_NONE)
+  LinkLuaModifier("modifier_no_health_bar", "heroes/modifiers/modifier_no_health_bar", LUA_MODIFIER_MOTION_NONE)
+  LinkLuaModifier("modifier_info", "heroes/modifiers/modifier_info", LUA_MODIFIER_MOTION_NONE)
 
--- juggernauts lua script, used in order filter
-require('heroes/juggernaut')
---
-require("items/debug_items")
+--gamemode events
+  function GameMode:PostLoadPrecache()
+  end
 
--- This is a detailed example of many of the containers.lua possibilities, but only activates if you use the provided "playground" map
-if GetMapName() == "playground" then
-  require("examples/playground")
-end
+  function GameMode:OnFirstPlayerLoaded()
+  end
 
---require("examples/worldpanelsExample")
+  function GameMode:OnAllPlayersLoaded()
+  end
 
---[[
-  This function should be used to set up Async precache calls at the beginning of the gameplay.
-  In this function, place all of your PrecacheItemByNameAsync and PrecacheUnitByNameAsync.  These calls will be made
-  after all players have loaded in, but before they have selected their heroes. PrecacheItemByNameAsync can also
-  be used to precache dynamically-added datadriven abilities instead of items.  PrecacheUnitByNameAsync will 
-  precache the precache{} block statement of the unit and all precache{} block statements for every Ability# 
-  defined on the unit.
-  This function should only be called once.  If you want to/need to precache more items/abilities/units at a later
-  time, you can call the functions individually (for example if you want to precache units in a new wave of
-  holdout).
-  This function should generally only be used if the Precache() function in addon_game_mode.lua is not working.
-]]
-function GameMode:PostLoadPrecache()
-  DebugPrint("[BAREBONES] Performing Post-Load precache")    
-  --PrecacheItemByNameAsync("item_example_item", function(...) end)
-  --PrecacheItemByNameAsync("example_ability", function(...) end)
+  function GameMode:OnHeroInGame(hero)
+    if hero:GetName() == "npc_dota_hero_meepo" then
+      local prime = PlayerResource:GetSelectedHeroEntity(hero:GetPlayerID())
+      prime.firstMeepo = prime.firstMeepo or {}
+      if prime ~= hero then
+        prime.firstMeepo[#prime.firstMeepo+1] = hero
+      end
+    end
 
-  --PrecacheUnitByNameAsync("npc_dota_hero_viper", function(...) end)
-  --PrecacheUnitByNameAsync("npc_dota_hero_enigma", function(...) end)
-end
 
---[[
-  This function is called once and only once as soon as the first player (almost certain to be the server in local lobbies) loads in.
-  It can be used to initialize state that isn't initializeable in InitGameMode() but needs to be done before everyone loads in.
-]]
-function GameMode:OnFirstPlayerLoaded()
-  DebugPrint("[BAREBONES] First Player has loaded")
-end
+    local enableDebugMode = true
+    if not enableDebugMode then return end
 
---[[
-  This function is called once and only once after all players have loaded into the game, right as the hero selection time begins.
-  It can be used to initialize non-hero player state or adjust the hero selection (i.e. force random etc)
-]]
-function GameMode:OnAllPlayersLoaded()
-  DebugPrint("[BAREBONES] All Players have loaded into the game")
-end
+    local debugItems = {
+      "item_debug_hero_spawn",
+      "item_debug_creep_spawn",
+      "item_debug_level_up",
+      "item_debug_control_all_units",
+    }
 
---[[
-  This function is called once and only once for every player when they spawn into the game for the first time.  It is also called
-  if the player's hero is replaced with a new hero for any reason.  This function is useful for initializing heroes, such as adding
-  levels, changing the starting gold, removing/adding abilities, adding physics, etc.
-  The hero parameter is the hero entity that just spawned in
-]]
-function GameMode:OnHeroInGame(hero)
-  DebugPrint("[BAREBONES] Hero spawned in game for first time -- " .. hero:GetUnitName())
+    Timers:CreateTimer(1.0, function()
+      if not hero:IsNull() then
+        if hero:GetPlayerID() ~= -1 and not hero:IsJuggernautIllusion() then
+          for _,itemName in pairs(debugItems) do
+            local newItem = CreateItem(itemName, hero, hero)
+            hero:AddItem(newItem)
+          end
+        end
+      end
+    end)
+  end
 
-  -- This line for example will set the starting gold of every hero to 500 unreliable gold
-  --hero:SetGold(500, false)
+  function GameMode:OnGameInProgress()
+  end
 
---[[  -- These lines will create an item and add it to the player, effectively ensuring they start with the item
-  local item = CreateItem("item_example_item", hero, hero)
-  hero:AddItem(item)]]
+--init and gamemode functions
+  function GameMode:InitGameMode()
+    GameMode = self
 
-  --[[ --These lines if uncommented will replace the W ability of any hero that loads into the game
-    --with the "example_ability" ability
-  local abil = hero:GetAbilityByIndex(1)
-  hero:RemoveAbility(abil:GetAbilityName())
-  hero:AddAbility("example_ability")]]
+    --damage and healing
+    GameRules:GetGameModeEntity():SetDamageFilter(Dynamic_Wrap(GameMode, "DamageManager"), self)
+    GameRules:GetGameModeEntity():SetHealingFilter(Dynamic_Wrap(GameMode, "HealingManager"), self)
+    --gold and exp
+    GameRules:GetGameModeEntity():SetModifyGoldFilter(Dynamic_Wrap(GameMode, "GoldManager"), self)
+    GameRules:GetGameModeEntity():SetModifyExperienceFilter(Dynamic_Wrap(GameMode, "ExperienceManager"), self)
+    --runes
+    GameRules:GetGameModeEntity():SetRuneSpawnFilter(Dynamic_Wrap(GameMode, "RuneFilter"), self)
+    GameRules:GetGameModeEntity():SetBountyRunePickupFilter(Dynamic_Wrap(GameMode, "BountyRuneFilter"), self)
+    --other
+    GameRules:GetGameModeEntity():SetExecuteOrderFilter(Dynamic_Wrap(GameMode, "OrderManager"), self)
+    GameRules:GetGameModeEntity():SetModifierGainedFilter(Dynamic_Wrap(GameMode, "ModifierManager"), self)
+    GameRules:GetGameModeEntity():SetTrackingProjectileFilter(Dynamic_Wrap(GameMode, "TrackingProjectileManager"), self)
+    GameRules:GetGameModeEntity():SetAbilityTuningValueFilter(Dynamic_Wrap(GameMode, "AbilityTuningManager"), self)
+    GameRules:GetGameModeEntity():SetItemAddedToInventoryFilter(Dynamic_Wrap(GameMode, "ItemAddedFilter"), self)
+  end
 
-  local debugItems = {
-    "item_debug_hero_spawn",
-    "item_debug_creep_spawn",
-    "item_debug_level_up",
-    "item_debug_control_all_units",
-    "item_infernal_stone",
-  }
+  --filter managers
+  function GameMode:HealingManager( filterTable )
+    return true
+  end
 
-  Timers:CreateTimer(1.0, function()
- -- print(hero:GetPlayerID())
-    if not hero:IsNull() then
-      if hero:GetPlayerID() ~= -1 and not hero:HasModifier("modifier_juggernaut_temp_ult_illusion") then
-        -- give debug items and add them to table
-        for _,itemName in pairs(debugItems) do
-          local newItem = CreateItem(itemName, hero, hero)
-          hero:AddItem(newItem)
+  function GameMode:DamageManager( filterTable )
+    return true
+  end
+
+  function GameMode:GoldManager( filterTable )
+    return true
+  end
+
+  function GameMode:ExperienceManager( filterTable )
+    return true
+  end
+
+  function GameMode:ModifierManager( filterTable )
+    Timers:CreateTimer(function() TrackModifier(filterTable) end)
+
+    local parentIndex = filterTable["entindex_parent_const"]
+    local casterIndex = filterTable["entindex_caster_const"]
+    local abilityIndex = filterTable["entindex_ability_const"]
+
+    --------disable filter----------
+    if false then return true end
+    --------------------------------
+
+--[[if not parentIndex or not casterIndex or not abilityIndex then
+      return true
+    end
+    local parent = EntIndexToHScript( parentIndex )
+    local caster = EntIndexToHScript( casterIndex )
+    local ability = EntIndexToHScript( abilityIndex )
+    local modifierName = filterTable["name_const"]
+    local duration = filterTable["duration"]]]
+
+
+    if false then
+      alteredTable = BashModifierFilter(filterTable)
+    end
+
+    if alteredTable then
+      return alteredTable
+    end
+    return true 
+  end
+
+  function GameMode:OrderManager( filterTable )
+    local issuer = filterTable["issuer_player_id_const"]
+    local units = filterTable["units"]
+    local orderType = filterTable["order_type"]
+    local abilityIndex = filterTable["entindex_ability"]
+    local targetIndex = filterTable["entindex_target"]
+    local pos = Vector(filterTable["position_x"], filterTable["position_y"], filterTable["position_z"])
+    local queue = filterTable["queue"]
+    local sequenceNumber = filterTable["sequence_number_const"]
+
+    --  PrintRelevent(filterTable)
+
+    for _,unitIndex in pairs(units) do
+      local unit = EntIndexToHScript(unitIndex)
+      if unit then
+        if unit:GetUnitName() == "npc_dota_hero_juggernaut" and unit:IsRealHero() then
+          JuggernautIllusionLogic(filterTable)
+        end
+
+    --allows meepo to use custom boots
+    --[[if unit:GetUnitName() == "npc_dota_hero_meepo" then
+          UpdateMeepoBoots()
+        end]]
+      end
+    end
+
+    if orderType == DOTA_UNIT_ORDER_SELL_ITEM then
+      CombinerSellItemListener(filterTable)
+    end
+
+    return true
+  end
+
+  --static filters
+  function GameMode:RuneFilter( filterTable )
+    return true
+  end
+
+  function GameMode:BountyRuneFilter( filterTable )
+    return true
+  end
+
+
+
+  --orderfilter printer, prints only data relevant to ordertype passed in filterTable
+  function PrintRelevent(t)
+    local oT = {
+      [0] = "DOTA_UNIT_ORDER_NONE",
+      [1] = "DOTA_UNIT_ORDER_MOVE_TO_POSITION",
+      [2] = "DOTA_UNIT_ORDER_MOVE_TO_TARGET",
+      [3] = "DOTA_UNIT_ORDER_ATTACK_MOVE",
+      [4] = "DOTA_UNIT_ORDER_ATTACK_TARGET",
+      [5] = "DOTA_UNIT_ORDER_CAST_POSITION",
+      [6] = "DOTA_UNIT_ORDER_CAST_TARGET",
+      [7] = "DOTA_UNIT_ORDER_CAST_TARGET_TREE",
+      [8] = "DOTA_UNIT_ORDER_CAST_NO_TARGET", 
+      [9] = "DOTA_UNIT_ORDER_CAST_TOGGLE",
+     [10] = "DOTA_UNIT_ORDER_HOLD_POSITION",
+     [11] = "DOTA_UNIT_ORDER_TRAIN_ABILITY",
+     [12] = "DOTA_UNIT_ORDER_DROP_ITEM",
+     [13] = "DOTA_UNIT_ORDER_GIVE_ITEM",
+     [14] = "DOTA_UNIT_ORDER_PICKUP_ITEM",
+     [15] = "DOTA_UNIT_ORDER_PICKUP_RUNE",
+     [16] = "DOTA_UNIT_ORDER_PURCHASE_ITEM",
+     [17] = "DOTA_UNIT_ORDER_SELL_ITEM",
+     [18] = "DOTA_UNIT_ORDER_DISASSEMBLE_ITEM",
+     [19] = "DOTA_UNIT_ORDER_MOVE_ITEM",
+     [20] = "DOTA_UNIT_ORDER_CAST_TOGGLE_AUTO",
+     [21] = "DOTA_UNIT_ORDER_STOP",
+     [22] = "DOTA_UNIT_ORDER_TAUNT",
+     [23] = "DOTA_UNIT_ORDER_BUYBACK",
+     [24] = "DOTA_UNIT_ORDER_GLYPH",
+     [25] = "DOTA_UNIT_ORDER_EJECT_ITEM_FROM_STASH",
+     [26] = "DOTA_UNIT_ORDER_CAST_RUNE",
+
+     --below are not constants
+     [32] = "DOTA_UNIT_ORDER_TOGGLE_LOCK_COMBINING",
+     [33] = "DOTA_UNIT_ORDER_INTERRUPT?",
+    }
+    --print all non-zero values. does print ordertype if it's zero
+    local printed = false
+    print()
+    print("-------------")
+    if t["order_type"] then
+      for o,n in pairs(oT) do
+        if t["order_type"] == o then
+          print("order_type: "..n)
+          printed = true
         end
       end
     end
-  end)
-end
-
---[[
-  This function is called once and only once when the game completely begins (about 0:00 on the clock).  At this point,
-  gold will begin to go up in ticks if configured, creeps will spawn, towers will become damageable etc.  This function
-  is useful for starting any game logic timers/thinkers, beginning the first round, etc.
-]]
-function GameMode:OnGameInProgress()
-  DebugPrint("[BAREBONES] The game has officially begun")
-
-  Timers:CreateTimer(30, -- Start this timer 30 game-time seconds later
-    function()
-      DebugPrint("This function is called 30 seconds after the game begins, and every 30 seconds thereafter")
-      return 30.0 -- Rerun this timer every 30 game-time seconds 
-    end)
-end
-
-
-
--- This function initializes the game mode and is called before anyone loads into the game
--- It can be used to pre-initialize any values/tables that will be needed later
-function GameMode:InitGameMode()
-  GameMode = self
-  DebugPrint('[BAREBONES] Starting to load Barebones gamemode...')
-
-  --First set the filter to start catching events, usually this is in your init
-  GameRules:GetGameModeEntity():SetExecuteOrderFilter(Dynamic_Wrap(GameMode, "OrderFilter"), self)
-
-  -- Commands can be registered for debugging purposes or as functions that can be called by the custom Scaleform UI
-  Convars:RegisterCommand( "command_example", Dynamic_Wrap(GameMode, 'ExampleConsoleCommand'), "A console command example", FCVAR_CHEAT )
-
-  DebugPrint('[BAREBONES] Done loading Barebones gamemode!\n\n')
-end
-
--- This is an example console command
-function GameMode:ExampleConsoleCommand()
-  print( '******* Example Console Command ***************' )
-  local cmdPlayer = Convars:GetCommandClient()
-  if cmdPlayer then
-    local playerID = cmdPlayer:GetPlayerID()
-    if playerID ~= nil and playerID ~= -1 then
-      -- Do something here for the player who called this command
-      PlayerResource:ReplaceHeroWith(playerID, "npc_dota_hero_viper", 1000, 1000)
+    if not printed then
+      print("order_type: "..t["order_type"])
+    end
+    for k,v in pairs(t) do
+      if type(v)=="table" then
+        PrintTable({["units"]=v})
+      end
+      if k~="order_type" and type(v) ~= "table" and v ~= 0 then
+        print(k..": "..v)
+      end
     end
   end
-  print( '*********************************************' )
-end
 
-function GameMode:OrderFilter(filterTable)
-  local units = filterTable["units"]
-  local issuer = filterTable["issuer_player_id_const"]
-  --DeepPrintTable(filterTable)
-
-  for _,unitIndex in pairs(units) do
-    local unit = EntIndexToHScript(unitIndex)
-    if unit:GetUnitName() == "npc_dota_hero_juggernaut" and unit:IsRealHero() then
-      JuggernautIllusionLogic(filterTable)
-    end
-  end
-  --Return true by default to keep all other orders unchanged
-  return true
-end
-
-
-
---[[
-CustomGameEventManager:Send_ServerToAllClients("quests_create_quest", {name = "Survive", desc = "The Wolves Are Coming!", max = 60, id = 5, imagePath = "file://{resources}/images/custom_game/quest/holdout_guardian_angel.png"})
-CustomGameEventManager:Send_ServerToAllClients("quests_update_quest", {max = 60, current = 5, id = 5})
-
-
-local timeElapsed = 0
-Timers:CreateTimer(1, function()
-  timeElapsed = timeElapsed + 1
-  if timeElapsed >= 60 then
-    --remove quest
-    CustomGameEventManager:Send_ServerToAllClients("quests_remove_quest", {id = 5})
-  else
-    CustomGameEventManager:Send_ServerToAllClients("quests_update_quest", {max = 60, current = timeElapsed, id = 5})
-    return 1
-  end
-end)
-]]
+--end of script

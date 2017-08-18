@@ -1,4 +1,4 @@
---WARNING: can return a variety of things
+--[[--WARNING: can return a variety of things
 function CDotaBaseAbility:GetKeyValue( string )
   local kv = self:GetAbilityKeyValues()
   --search for key
@@ -23,7 +23,7 @@ function CDotaBaseAbility:GetKeyValue( string )
     end
   end
   print("GetKeyValue | Error: string not found")
-end
+end]]
 
 function EmitAura( infoTable )
   if infoTable == {} or type(infoTable) ~= "table" then
@@ -395,10 +395,13 @@ function GetCooldownReduction(unit)
 
   return reduction
 end
+--------------
+-- IMBA END --
+--------------
 
---------------------------------------------------------------------------------------------
--- Talent Stuff
---------------------------------------------------------------------------------------------
+------------------
+-- Talent Stuff --
+------------------
 function CDOTA_BaseNPC:HasTalent( talentName )
   if self:HasAbility(talentName) then
     if self:FindAbilityByName(talentName):GetLevel() > 0 then
@@ -429,9 +432,9 @@ function CDOTA_BaseNPC:FindTalentValues( talentName )
   return nil
 end
 
-------------------------------------------------------------------
--- Debug
-------------------------------------------------------------------
+-----------
+-- Debug --
+-----------
 function DebugPrint(...)
   local spew = Convars:GetInt('barebones_spew') or -1
   if spew == -1 and BAREBONES_DEBUG_SPEW then

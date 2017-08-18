@@ -1,7 +1,7 @@
 function SummonInfernal( keys )
 	local caster = keys.caster
 	local ability = keys.ability
-	local abLvl = ability:GetLevel()-1
+	local abLvl = ability:GetLevel()
 	local targetPoint = caster:GetAbsOrigin()
 
 	local golem = CreateUnitByName("npc_infernal_summon", targetPoint, true, caster, caster, caster:GetTeamNumber())

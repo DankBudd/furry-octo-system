@@ -295,7 +295,7 @@ function BlackStar( keys )
 	local radius = ability:GetSpecialValueFor("radius")
 	local stunDuration = ability:GetSpecialValueFor("stun_duration")
 	local intDamage = ability:GetSpecialValueFor("int_to_damage")
-	local duration = ability:GetSpecialValueFor("duration")
+	local maxDuration = ability:GetSpecialValueFor("duration")
 	local damage = ability:GetAbilityDamage()
 
 	local talent = "special_bonus_unique_gravity_lord_5"
@@ -314,25 +314,25 @@ function BlackStar( keys )
 	ParticleManager:SetParticleControl(pfx, 2, Vector(keys.target_points[1].x, keys.target_points[1].y, keys.target_points[1].z + 25))
 	ParticleManager:SetParticleControl(pfx, 9, Vector(keys.target_points[1].x, keys.target_points[1].y, keys.target_points[1].z + 25))
 
+	-- black hole info
+	local pullSpeed = 75
+	local rotateSpeed = 500
+	local rotateDirection = "counter-clockwise"
+	local shouldStun = false
+
+	local tickRate = 0.5
+	local curTick = 0
 	-- start blackhole
-	local tick = 0
 	Timers:CreateTimer(0, function()
-		tick = tick + 0.5
 		local units = FindUnitsInRadius(caster:GetTeamNumber(), keys.target_points[1], nil, radius, ability:GetAbilityTargetTeam(), ability:GetAbilityTargetType(), DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
 		for _,unit in pairs(units) do
-			--info for motion controller
-			ability.direction = (keys.target_points[1] - unit:GetAbsOrigin()):Normalized()
-			ability.speed = 3 --???
-			-- start pulling the unit in
-			if not unit:HasModifier("modifier_black_star_motion_controller") then
-				ability:ApplyDataDrivenModifier(caster, unit, "modifier_black_star_motion_controller", {})
-			end
+			unit.blackholePull = unit:RotationalPullUnit(keys.target_points[1], pullSpeed, rotateSpeed, rotateDirection, shouldStun, nil)
+			curTick = curTick + tickRate
 			-- stun if first tick
-			if tick == 0.5 then
+			if curTick == tickRate then
 				unit:AddNewModifier(caster, ability, "modifier_stunned", {duration = stunDuration})
-				damage = damage/2
+				damage = damage / (1 * tickRate)
 			end
-			-- deal damage per tick
 			ApplyDamage({victim = unit, attacker = caster, ability = ability, damage = damage, damage_type = ability:GetAbilityDamageType(), damage_flags = DOTA_DAMAGE_FLAG_NONE})
 			-- talent stuff
 			if caster:HasTalent(talent) then
@@ -341,28 +341,16 @@ function BlackStar( keys )
 			if caster:HasTalent(talent2) and caster:FindAbilityByName("gravity_lord"):GetLevel() > 0 then
 				VoidFissure(caster, unit)
 			end
-			--stop motion controllers if blackhole is ending
-			if tick >= duration then
-				if unit then
-					if unit:IsAlive() then
-						unit:InterruptMotionControllers(true)
-						unit:RemoveModifierByNameAndCaster("modifier_black_star_motion_controller", caster)
-					end
-				end
+			-- end timer
+			if curTick >= maxDuration then
+				unit:CancelKnockback(unit.blackholePull)
+				ParticleManager:DestroyParticle(pfx, false)
+				return nil
 			end
-		end	
-		-- end blackhole
-		if tick >= duration then
-			ParticleManager:DestroyParticle(pfx, false)
-			return nil
 		end
-		-- continue blackhole
-		return 0.5
+		-- continue timer
+		return tickRate
 	end)
-end
-
-function BlackStarMotion( keys )
-	keys.target:SetAbsOrigin(keys.target:GetAbsOrigin() + keys.ability.direction * keys.ability.speed)
 end
 
 function BlackStarVoidCurse( caster, ability, target )
@@ -438,8 +426,8 @@ function VoidFissure( caster, target )
 	local talent = "special_bonus_unique_gravity_lord_6"
 	local modifier = "modifier_gravity_lord_void_fissure"
 
-	if caster:HasTalent(talent) and gravityLord:GetLevel() > 0 then
-		if target ~= nil then
+	if caster and target then
+		if caster:HasTalent(talent) and gravityLord:GetLevel() > 0 then
 			if not target:HasModifier(modifier) then
 				gravityLord:ApplyDataDrivenModifier(caster, target, modifier, {})
 				target:SetModifierStackCount(modifier, caster, 1)

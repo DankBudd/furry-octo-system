@@ -1624,4 +1624,142 @@
 			}
 		}
 	}
+
+	"item_special_combiner_test"
+	{
+		"BaseClass"             "item_lua"
+		"ScriptFile"			"scripts/vscripts/items/item_special_combiner_test.lua"
+		"ID"					"123123"
+		"AbilityTextureName"	"ability_name"
+
+		//targets items if point, if using optional targeting it will target the next item you cast.
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET"
+		"AbilityUnitTargetType"		"DOTA_UNIT_TARGET_CUSTOM"
+
+		"AbilityCastRange"		"400"
+		"AbilityCastPoint"		"0.0"
+
+		"ItemCost"			"7000"
+		"ItemPurchasable"		"1"
+		"ItemShopTags"			"hard_to_tag;"
+		"ItemQuality"			"artifact"
+		"ItemShareability"		"ITEM_NOT_SHAREABLE"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"search_radius"		"20"
+			}
+		}
+	}
+
+	"item_special_scepter"
+	{
+		"BaseClass"             		"item_ultimate_scepter"
+		"AbilityTextureName"			"item_ultimate_scepter"
+
+		"ID" "999991"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"1"
+
+		//Shop stuff isnt taken from the base class, so we have to put it in
+		"ItemCost"						"4200"
+		"ItemShopTags"					"int;str;agi;mana_pool;health_pool;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"ultimate;aghanim's scepter"
+		//"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"  //Heroes for whom this is a problem (Ogre Magi, Meepo) should have it solved in their code.
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		
+		//these keys are the same names that the real scepter uses
+		//by using scepter as a base class we can overwrite its original keys and it will use these instead
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"150"
+			}
+		}
+	}
+
+	"item_special_scepter_2"
+	{
+		"BaseClass"             		"item_ultimate_scepter"
+		"AbilityTextureName"			"item_ultimate_scepter"
+		"IsScepter" "1"
+		
+		"ID" "999992"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"2"
+
+		//Shop stuff isnt taken from the base class, so we have to put it in
+		"ItemCost"						"4200"
+		"ItemShopTags"					"int;str;agi;mana_pool;health_pool;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"ultimate;aghanim's scepter"
+		//"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"  //Heroes for whom this is a problem (Ogre Magi, Meepo) should have it solved in their code.
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		
+		//these keys are the same names that the real scepter uses
+		//by using scepter as a base class we can overwrite its original keys and it will use these instead
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"150"
+			}
+		}
+	}
+
+	"item_special_scepter_3"
+	{
+		"BaseClass"             		"item_ultimate_scepter"
+		"AbilityTextureName"			"item_ultimate_scepter"
+
+		"ID" "999993"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"3"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"150"
+			}
+		}
+	}
 }

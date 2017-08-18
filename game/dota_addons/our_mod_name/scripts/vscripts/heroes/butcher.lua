@@ -351,7 +351,7 @@ function DismemberStart( keys )
 		ability.damage = ability:GetSpecialValueFor("dismember_damage")
 	end
 	if caster:HasTalent("special_bonus_unique_butcher_6") then
-		ability.damage = ability.damage * caster:FindTalentValues("special_bonus_unique_butcher_6")[2] * 0.01
+		ability.damage = ability.damage + ability.damage * caster:FindTalentValues("special_bonus_unique_butcher_6")[2] * 0.01
 	end
 
 --	target:EmitSound(keys.sound_name)
@@ -382,25 +382,10 @@ function DismemberDropMeat( keys )
 		local particle = ParticleManager:CreateParticle("particles/dismember_meat_blood_spray.vpcf", PATTACH_ABSORIGIN_FOLLOW, meat)
 		ability:ApplyDataDrivenModifier(caster, meat, "modifier_butcher_dismember_meat_thinker", {})
 		ability:ApplyDataDrivenModifier(caster, meat, "modifier_butcher_dismember_meat_dummy", {})
-
-		meat:AddNewModifier(caster, nil, "modifier_knockback", {should_stun = 0, knockback_distance = RandomInt(25, 165), knockback_height = RandomInt(80, 180), knockback_duration = RandomFloat(0.5, 1.2),
-			center_x = targetPos.x,
-			center_y = targetPos.y,
-			center_z = targetPos.z})
+		meat:KnockbackUnit(RandomInt(25, 165), (target:GetAbsOrigin() - targetPos):Normalized(), 100, RandomInt(80, 180), 0)
 		meatDropped = meatDropped + 1
 	end
 end
-
---[[
-CDOTA_Modifier_Knockback
-    Int: "should_stun"
-    Int: "knockback_distance"
-    Int: "knockback_height"
-    Float: "center_x"
-    Float: "center_y"
-    Float: "center_z"
-    Float: "knockback_duration"
-]]
 
 function DismemberMeatHeal( keys )
 	local caster = keys.caster
@@ -505,6 +490,8 @@ function WeirdMeatOnHit( keys )
 	local ability = keys.ability
 	local target = keys.target
 	if not caster or not target or caster:HasModifier("modifier_meat_eater_cooldown") then return end
+
+	local talentValues = caster:FindTalentValues("special_bonus_unique_butcher_5")
 
 	ApplyDamage({victim = target, attacker = caster, ability = ability, damage = target:GetMaxHealth() * talentValues["health_damage"]*0.01, damage_type = DAMAGE_TYPE_PURE})
 	caster:RemoveModifierByNameAndCaster("modifier_meat_eater", caster)

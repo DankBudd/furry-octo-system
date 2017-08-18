@@ -178,10 +178,19 @@ function CreateJuggernautIllusion(caster, owner)
 			end
 		end
 	end
-
+	local abilityD = owner:FindAbilityByName("juggernaut_d")
 	-- Set the unit as an a juggernaut illusion
 	illusion:AddNewModifier(owner, nil, "modifier_kill", {duration = ultimate:GetSpecialValueFor("illusion_duration")})
-	ultimate:ApplyDataDrivenModifier(owner, illusion, "modifier_juggernaut_r_illusion", nil)
+	if abilityD:GetLevel() > 0 then
+		if abilityD:GetToggleState() then
+			abilityD:ApplyDataDrivenModifier(owner, illusion, "modifier_juggernaut_d_vulnerable", {})
+			if #owner.illusionTable == 1 then
+				abilityD:ApplyDataDrivenModifier(owner, illusion, "modifier_juggernaut_d_central_illusion", {})
+			end
+			return
+		end
+	end
+	ultimate:ApplyDataDrivenModifier(owner, illusion, "modifier_juggernaut_r_illusion", {})
 end
 
 function JuggernautIllusionLogic( filterTable )
@@ -194,6 +203,7 @@ function JuggernautIllusionLogic( filterTable )
 			break
 		end
 	end
+	if not caster then return end
 
 	-- does the caster have any illusions to command?
 	caster.illusionTable = caster.illusionTable or {}
@@ -233,6 +243,7 @@ function JuggernautIllusionLogic( filterTable )
 					end
 				end
 			
+			--[[DISABLED ITEM CASTING
 			-- support for item casting
 				for itemSlot = 0, 5 do
 					local item = illusion:GetItemInSlot(itemSlot)
@@ -250,7 +261,7 @@ function JuggernautIllusionLogic( filterTable )
 							end
 						end
 					end
-				end
+				end]]
 			end
 			--orderType inputs are optional, set it up this way incase i plan on adding more orders that work more dynamically.
 			
@@ -432,29 +443,126 @@ function Disperse( keys )
 end
 
 
-
-
---[[
+--[[]]
 -- order your illusions to 'materialize', making them vulnerable
--- if cast by illusion 
-function JuggernautD( keys )
+function JuggernautD_On( keys )
 	local caster = keys.caster
 	local ability = keys.ability
-	caster.illusionTable = caster.illusionTable or {}
-	if #caster.illusionTable <= 0 then return end
-
+	FindCentralUnit( caster.illusionTable )
+	print("on, running")
 	if not caster:IsJuggernautIllusion() then
-		--caster script
-		for pos, illusion in pairs(caster.illusionTable) do
-			illusion:RemoveModifierByName("modifier_juggernaut_r_illusion")
-			ability:ApplyDataDrivenModifier(caster, illusion, "modifier_juggernaut_r_vulnerable", {})
+		caster.illusionTable = caster.illusionTable or {}
+		if #caster.illusionTable <= 0 then print("on, no illusions") ability:ToggleAbility() return end
+		-- if none are central illusion, add it to loop
+		if not DoAnyUnitsHaveModifier("modifier_juggernaut_d_central_illusion", caster.illusionTable) then
+			ability:ApplyDataDrivenModifier(caster, caster.illusionTable[1], "modifier_juggernaut_d_central_illusion", {})
 		end
-	else
-		--illusion script
-
+		for pos, illusion in pairs(caster.illusionTable) do
+			print("on, iterating through illusions")
+			illusion:RemoveModifierByName("modifier_juggernaut_r_illusion")
+			ability:ApplyDataDrivenModifier(caster, illusion, "modifier_juggernaut_d_vulnerable", {})
+		end
 	end
 end
 
---order your illusions to disperse
+function JuggernautD_Off( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+	print("off, running")
+	if not caster:IsJuggernautIllusion() then
+		caster.illusionTable = caster.illusionTable or {}
+		if #caster.illusionTable <= 0 then print("off, no illusions")return end
+		for pos, illusion in pairs(caster.illusionTable) do
+			print("off, iterating through illusions")
+			illusion:RemoveModifierByName("modifier_juggernaut_d_vulnerable")
+			illusion:RemoveModifierByName("modifier_juggernaut_d_central_illusion")
+			caster:FindAbilityByName("juggernaut_r"):ApplyDataDrivenModifier(caster, illusion, "modifier_juggernaut_r_illusion", {})
+		end
+	end
+end
+
+-- needs work, doesnt consitently update
+function JuggernautDUpdateCollective( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+	ability.positions = {}
+	ability.lengths = {}
+
+	if #caster.illusionTable == 0 then print("no illusions")
+		return
+	elseif #caster.illusionTable == 1 then print("only 1 illusion, applying modifier")
+		ability:ApplyDataDrivenModifier(caster, caster.illusionTable[1], "modifier_juggernaut_d_central_illusion", {})
+		return
+	end
+	for pos, illusion in pairs(caster.illusionTable) do
+		if illusion == FindCentralUnit(caster.illusionTable) then
+			print("illusion is central!, applying modifier")
+			ability:ApplyDataDrivenModifier(caster, illusion, "modifier_juggernaut_d_central_illusion", {})
+			if not caster.collectiveMaxHealth == 0 then
+				illusion:SetMaxHealth(caster.collectiveMaxHealth)
+				illusion:SetBaseMaxHealth(caster.collectiveMaxHealth)
+				illusion:SetHealth(caster.collectiveCurHealth)
+			end
+		else
+			illusion:RemoveModifierByName("modifier_juggernaut_d_central_illusion")
+		end
+	end
+end
+
+function UltCheck( keys )
+	local caster = keys.caster
+	local ability = keys.ability
+	local Q = caster:FindAbilityByName("juggernaut_q")
+	local R = caster:FindAbilityByName("juggernaut_r")
+
+	if Q:GetLevel() > 0 and R:GetLevel() > 0 then
+		return
+	elseif ability:GetLevel() ~= 0 then
+		EmitSoundOnClient("sounds/ui/magic_immune.vsnd", caster)
+		Notifications:Bottom(caster:GetPlayerID(), {text="#juggernaut_d_error_no_ult", duration=3, style={color="red"}, continue=false})
+		caster:SetAbilityPoints(caster:GetAbilityPoints() + ability:GetLevel())
+		ability:SetLevel(0)
+	end
+end
+
+function JuggernautDTakeDamage( keys )
+end
+--[[
+	local unit = keys.unit
+	local caster = keys.caster
+	local ability = keys.ability
+
+	print("take damage")
+
+	caster.collectiveCurHealth = 0
+	caster.collectiveMaxHealth = 0
+	local currentHealth = caster.collectiveCurHealth
+	local maxHealth = caster.collectiveMaxHealth
+
+	if #caster.illusionTable <= 0 then return end
+
+	for pos, illusion in pairs(caster.illusionTable) do
+		if illusion:HasModifier("modifier_juggernaut_d_central_illusion") then
+			currentHealth = currentHealth + illusion:GetHealth() / #caster.illusionTable
+			maxHealth = maxHealth + illusion:GetMaxHealth() / #caster.illusionTable
+		else
+			currentHealth = currentHealth + illusion:GetHealth()
+			maxHealth = maxHealth + illusion:GetMaxHealth()
+		end
+	end
+	for pos, illusion in pairs(caster.illusionTable) do
+		if illusion:HasModifier("modifier_juggernaut_d_central_illusion") then
+			illusion:SetMaxHealth(maxHealth * #caster.illusionTable)
+			illusion:SetBaseMaxHealth(maxHealth * #caster.illusionTable)
+			illusion:SetHealth(currentHealth * #caster.illusionTable)
+		else
+			illusion:SetMaxHealth(maxHealth)
+			illusion:SetBaseMaxHealth(maxHealth)
+			illusion:SetHealth(currentHealth)
+		end
+	end
+end
+]]
+
 function JuggernautF( keys )
-end]]
+end

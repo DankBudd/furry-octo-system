@@ -3,6 +3,8 @@
 require('internal/util')
 require("gamemode")
 
+--RegisterCustomAnimationScriptForModel( "models/heroes/invoker/invoker.vmdl", "animation/invoker_orbs" )
+
 function Precache( context )
 --[[
   This function is used to precache resources/units/items/abilities that will be needed

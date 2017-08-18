@@ -273,7 +273,7 @@ function modifier_zol_unbroken_will:OnCreated( kv )
 	self.thresholdPct = self:GetAbility():GetSpecialValueFor("pct_threshold") * 0.01
 	self.time = self:GetAbility():GetSpecialValueFor("time_frame")
 
-	self.radius = self:GetAbility():GetKeyValue("AbilityCastRange")
+	self.radius = 700 --self:GetAbility():GetKeyValue("AbilityCastRange")
 	self.duration = self:GetAbility():GetSpecialValueFor("duration")
 
 	self.hpT = {self:GetParent():GetHealth(),}
@@ -331,9 +331,16 @@ modifier_zol_unbroken_will_debuff = class({
 
 	OnIntervalThink = function(self)
 		if not IsServer() then return end
-		ApplyDamage({victim = self:GetParent(), attacker = self:GetCaster(), ability = self:GetAbility(), damage = self.damage, damage_type = self:GetAbility:GetAbilityDamageType()})
+		ApplyDamage({victim = self:GetParent(), attacker = self:GetCaster(), ability = self:GetAbility(), damage = self.damage, damage_type = self:GetAbility():GetAbilityDamageType(),})
 	end,
 })
+
+
+zol_rage_of_zol = class({})
+
+function zol_rage_of_zol:OnSpellStart()
+	
+end
 
 --TODO: Ult, particles, sounds
 --[[

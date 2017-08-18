@@ -1,5 +1,38 @@
---Modifier is currently bugged, doesnt properly play flail animation
+--Modifier is currently bugged, doesnt play flail animation
 LinkLuaModifier("modifier_knockback_func", "heroes/modifiers/modifier_knockback.lua", LUA_MODIFIER_MOTION_NONE)
+
+-- requires caster, target, distance, speed, optional direction, optional vertical, optional shouldStun
+function DataDrivenKnockback( keys )
+	local target = keys.target
+	local vertical = keys.vertical or 0
+	local distance = keys.distance or 500
+	local speed = keys.speed or 700
+	local shouldStun
+	local direction	
+
+	if keys.shouldStun == 0 then
+		shouldStun = false
+	else
+		shouldStun = true
+	end
+
+	if keys.direction == "from_caster" then
+		direction = (target:GetAbsOrigin() - keys.caster:GetAbsOrigin()):Normalized()
+	elseif keys.direction == "forward" then
+		direction = target:GetForwardVector()
+	elseif keys.direction == "backward" then
+		direction = target:GetBackwardVector()
+	elseif keys.direction == "left" then
+		direction = target:GetLeftVector()
+	elseif keys.direction == "right" then
+		direction = target:GetRightVector()
+	else
+		direction = nil
+	end
+
+	target:KnockbackUnit(distance, direction, speed, vertical, shouldStun)
+end
+
 --[[ throws a unit for some distance
 -------------------------
 	self       = Entity |
@@ -17,7 +50,7 @@ function CDOTA_BaseNPC:KnockbackUnit( distance, direction, speed, vertical, shou
 	end
 	-- remove any existing knockback
 	if self.knockback_unit then
-		self:CancelKnockback(false)
+		self:CancelKnockback(self.knockback_unit, false)
 	end
 	-- start knockback
 	local traveled = 0
@@ -53,7 +86,7 @@ function CDOTA_BaseNPC:KnockbackUnit( distance, direction, speed, vertical, shou
 		end
 		-- end timer
 		if traveled >= distance then
-			self:CancelKnockback(true)
+			self:CancelKnockback(self.knockback_unit, true)
 		end
 		-- continue timer
 		return 0.03
@@ -63,19 +96,16 @@ function CDOTA_BaseNPC:KnockbackUnit( distance, direction, speed, vertical, shou
 end
 
 --[[ e.g. black hole
---
- endOnArrival doesnt work quite how i want it to, ends too early
 -------------------------
 	self        = Entity |
 	point       = Vector |
 	pullSpeed   = Float  |
 	rotateSpeed = Float  |
-	rotateDirection = ?  | left or right
+	rotateDirection = String  | clockwise or counter-clockwise
 	shouldStun  = Bool   |
-	endOnArrival= Bool   | should the knockback end when the unit reaches the point?
 	duration    = Float  | if neither duration nor endOnArrival are given the timer will not end unless stopped by a third party calling CancelKnockback()
 ]]
-function CDOTA_BaseNPC:RotationalPullUnit( point, pullSpeed, rotateSpeed, rotateDirection, shouldStun, endOnArrival, duration )
+function CDOTA_BaseNPC:RotationalPullUnit( point, pullSpeed, rotateSpeed, rotateDirection, shouldStun, duration )
 	if not self or self:IsNull() or not point or not pullSpeed or not rotateSpeed then print("Knockback | invalid inputs") return end
 	-- remove any existing knockback
 	if self.knockback_rotate then
@@ -90,6 +120,7 @@ function CDOTA_BaseNPC:RotationalPullUnit( point, pullSpeed, rotateSpeed, rotate
 	end
 	self.knockback_rotate = Timers:CreateTimer(0, function()
 		if not self or self:IsNull() then print("Knockback | unit is null") return end
+		if not self:IsAlive() then print("Knockback | unit is dead") return end
 		--move unit towards point
 		local pointDirection = (point - self:GetAbsOrigin()):Normalized()
 		self:SetAbsOrigin(self:GetAbsOrigin() + pointDirection * pullSpeed * 1/30)
@@ -98,23 +129,27 @@ function CDOTA_BaseNPC:RotationalPullUnit( point, pullSpeed, rotateSpeed, rotate
 		-- determine rotation direction relative to point. defaults to right
 		self:SetForwardVector(pointDirection)
 		local direction
-		if rotateDirection == "left" then
+		if rotateDirection == "clockwise" then
 			direction = self:GetLeftVector()
 		else
 		 	direction = self:GetRightVector()
 		end
 		self:SetForwardVector(forward)
 		-- move unit in rotation direction
-		self:SetAbsOrigin(self:GetAbsOrigin() + direction * (rotateSpeed * 1/30 )/2)
+		local shouldRotate = true
+		for _,unit in pairs(FindUnitsInRadius(self:GetTeamNumber(), point, nil, 10, DOTA_UNIT_TARGET_TEAM_FRIENDLY, DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC, DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)) do
+			if unit:entindex() == self:entindex() then
+				shouldRotate = false
+				break
+			end
+		end
+		if shouldRotate then
+			self:SetAbsOrigin(self:GetAbsOrigin() + direction * (rotateSpeed * 1/30 )/2)
+		end
 		-- register distance moved for timer
 		traveled = traveled + (pullSpeed * 1/30)
 		curTick = curTick + 0.03
 		-- end timer
-		if endOnArrival then
-			if traveled >= distance then
-				self:CancelKnockback(self.knockback_rotate, true)
-			end
-		end
 		if duration then
 			if curTick >= duration then
 				self:CancelKnockback(self.knockback_rotate, true)
@@ -127,7 +162,6 @@ function CDOTA_BaseNPC:RotationalPullUnit( point, pullSpeed, rotateSpeed, rotate
 	return self.knockback_rotate
 end
 
--- might need to add RemoveMotionControllers()
 function CDOTA_BaseNPC:CancelKnockback( timer, bFindClearSpace )
 	Timers:RemoveTimer(timer)
 	timer = nil

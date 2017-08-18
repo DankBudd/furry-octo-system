@@ -269,6 +269,8 @@ modifier_wasuro_wild_charge_debuff = class({
 	IsPurgable = function(self) return false end,
 	IsDebuff = function(self) return true end,
 	CheckState = function(self) return {[MODIFIER_STATE_COMMAND_RESTRICTED] = true, [MODIFIER_STATE_NO_UNIT_COLLISION] = true,} end,
+	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_OVERRIDE_ANIMATION,} end,
+	GetOverrideAnimation = function(self) return ACT_DOTA_FLAIL end,
 })
 
 
@@ -277,6 +279,9 @@ modifier_wasuro_wild_charge_debuff_stun = class({
 	IsPurgable = function(self) return false end,
 	IsDebuff = function(self) return true end,
 	CheckState = function(self) return {[MODIFIER_STATE_STUNNED] = true,} end,
+	DeclareFunctions = function(self) return {MODIFIER_PROPERTY_OVERRIDE_ANIMATION,} end,
+
+	GetOverrideAnimation = function(self) return ACT_DOTA_DISABLED end,
 })
 ---------------------------------------------------------------------------------------------
 

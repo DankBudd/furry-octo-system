@@ -1,7 +1,7 @@
 modifier_knockback_func = class({})
 
 function modifier_knockback_func:IsHidden()
-	return true
+	return false
 end
 
 function modifier_knockback_func:IsPurgable()
@@ -9,12 +9,12 @@ function modifier_knockback_func:IsPurgable()
 end
 
 function modifier_knockback_func:CheckState()
-	local states = {
+	local state = {
 		[MODIFIER_STATE_STUNNED] = true,
 		[MODIFIER_STATE_NO_UNIT_COLLISION] = true,
-		[MODIFIER_STATE_ROOTED] = true,
+--		[MODIFIER_STATE_ROOTED] = true,
 	}
-	return states
+	return state
 end
 
 function modifier_knockback_func:DeclareFunctions()

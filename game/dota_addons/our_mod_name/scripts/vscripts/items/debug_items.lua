@@ -1,14 +1,14 @@
 local heroes = {
-	"lina",
 	"enigma",
 	"pudge",
-	"sven",
-	"ogre_magi",
-	"medusa",
-	"morphling",
 	"furion",
-	"enchantress",
+	"juggernaut",
 	"skeleton_king",
+	"bane",
+	"lina",
+	"medusa",
+	"omniknight",
+	"magnataur"
 }
 
 local creeps = {
@@ -98,9 +98,7 @@ end
 function ControlAllUnits( keys )
 	local units = FindUnitsInRadius(keys.caster:GetTeamNumber(), Vector(0,0,0), nil, 20000, DOTA_UNIT_TARGET_TEAM_BOTH, DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC, DOTA_UNIT_TARGET_FLAG_NONE, FIND_ANY_ORDER, false)
 	for _,unit in pairs(units) do
-		if unit:GetPlayerID() ~= 0 then
-			unit:SetControllableByPlayer(keys.caster:GetPlayerID(), true)
-		end
+		unit:SetControllableByPlayer(keys.caster:GetPlayerID(), true)
 	end
 end
 
@@ -125,7 +123,7 @@ function DebugScripts( keys, playerID )
 		[8] = "center",
 		[9] = "center all",
 		[10] = "newhero",
-	--	[11] = "",
+		[11] = "reset",
 	--	[12] = "",
 	}
 	local cheatDesc = {
@@ -139,12 +137,22 @@ function DebugScripts( keys, playerID )
 		["center"] = "moves yourself to the center of the map",
 		["center all"] = "moves all heroes to the center of the map",
 		["newhero"] = "give yourself a new hero",
-	--	[11] = "",
+		["reset"] = "reset your abilities back to level 1",
 	--	[12] = "",
 	}
 	
-	if text == d.."spawn" or text == d.."hero"then
+	if text == d.."spawn" or text == d.."hero" then
 		CreateHeroesNew(playerID, 1)
+	elseif text == d.."reset" then
+		local hero = PlayerResource:GetSelectedHeroEntity(playerID)
+		for i = 0,17 do
+			local ability = hero:GetAbilityByIndex(i)
+			if ability then
+				hero:SetAbilityPoints(hero:GetAbilityPoints() + ability:GetLevel())
+				ability:SetLevel(0)
+				hero:ClearModifiers(true)
+			end
+		end
 	elseif string.find(text, d.."heroes") then
 	 	local num = tonumber(string.match(text, "(%d+)"))
 		-- will eventually implement more options for this command
@@ -232,6 +240,7 @@ function DebugScripts( keys, playerID )
 	end
 end
 
+--outdated
 function CreateHeroes( playerID, num )
 	local units = FindUnitsInRadius(1, Vector(0,0,0), nil, 20000, DOTA_UNIT_TARGET_TEAM_BOTH, DOTA_UNIT_TARGET_HERO, DOTA_UNIT_TARGET_FLAG_NONE, FIND_UNITS_EVERYWHERE, false)
 	local playerHero
@@ -289,12 +298,11 @@ function CreateHeroesNew( playerID, num )
 	end
 end
 
---~goal~
 -- if at least 3 characters in a row match
 -- autocomplete heroname
 function AutoComplete( heroName )
 	for _,hero in pairs(heroes) do
 		local something = string.match(heroName, "("..hero..")")
 	end
-	return complete
+	return completed
 end

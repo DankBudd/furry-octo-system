@@ -11,9 +11,10 @@ LinkLuaModifier("custom_sun_strike_thinker", "heroes/invoker.lua", LUA_MODIFIER_
 
 
 --TODO: make orbs transferable to illusions, volvo doesnt do this but i want to
+-- i would have to move particle creation to the modifiers,
+-- 
 
 local function removeAllOrbs(c)
-	print("reset")
 	for k,v in pairs(c.oc) do
 		ParticleManager:DestroyParticle(v.p, false)
 		ParticleManager:ReleaseParticleIndex(v.p)
@@ -26,7 +27,7 @@ local function cycle(c) c.attachP=c.attachP+1 if c.attachP>3 then c.attachP=1 en
 
 --------------------------------------------------------------------------
 
---[[cast passed orb]]
+--cast passed orb
 local function castOrb(ability, name)
 	local caster = ability:GetCaster()
 
@@ -63,6 +64,8 @@ local function castOrb(ability, name)
 
 	--create new orb particle
 	local p = ParticleManager:CreateParticle("particles/units/heroes/hero_invoker/invoker_"..name.."_orb.vpcf", PATTACH_ROOTBONE_FOLLOW, caster)
+
+	--TODO: need a better way for below
 	--shitty solution for making orbs come from hands
 	ParticleManager:SetParticleControlEnt(p, 1, caster, PATTACH_POINT_FOLLOW, handAttach, caster:GetAbsOrigin(), false)
 	Timers:CreateTimer(0.4, function()
@@ -77,7 +80,7 @@ local function castOrb(ability, name)
 --	removeAllOrbs(caster)
 end
 
---[[called when quas wex or exort are upgraded]]
+--called when quas wex or exort are upgraded
 local function upgradeOrbs(ability, name)
 	for k,v in pairs(ability:GetCaster():FindAllModifiersByName("modifier_custom_"..name)) do
 		v:ForceRefresh()
@@ -115,12 +118,12 @@ function modifier_custom_quas:DeclareFunctions()
 end
 
 function modifier_custom_quas:OnCreated( kv )
-	self.p = kv.p
+	self.p = self.p or kv.p
 	self.regen = self:GetAbility():GetSpecialValueFor("hp_regen")
 end
 
 function modifier_custom_quas:OnRefresh( kv )
-	self.regen = self:GetAbility():GetSpecialValueFor("hp_regen")
+	self:OnCreated()
 end
 
 function modifier_custom_quas:GetModifierConstantHealthRegen()
@@ -150,14 +153,13 @@ modifier_custom_wex = class({
 })
 
 function modifier_custom_wex:OnCreated( kv )
-	self.p = kv.p
+	self.p = self.p or kv.p
 	self.atk_speed = self:GetAbility():GetSpecialValueFor("atk_speed")
 	self.move_speed = self:GetAbility():GetSpecialValueFor("move_speed")
 end
 
 function modifier_custom_wex:OnRefresh( kv )
-	self.atk_speed = self:GetAbility():GetSpecialValueFor("atk_speed")
-	self.move_speed = self:GetAbility():GetSpecialValueFor("move_speed")
+	self:OnCreated()
 end
 
 function modifier_custom_wex:DeclareFunctions()
@@ -199,12 +201,12 @@ modifier_custom_exort = class({
 })
 
 function modifier_custom_exort:OnCreated( kv )
-	self.p = kv.p
+	self.p = self.p or kv.p
 	self.damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
 end
 
 function modifier_custom_exort:OnRefresh( kv )
-	self.damage = self:GetAbility():GetSpecialValueFor("bonus_damage")
+	self:OnCreated()
 end
 
 function modifier_custom_exort:DeclareFunctions()
@@ -255,44 +257,72 @@ function custom_invoke:OnSpellStart()
 	end
 
 	--determine which spell held orbs should invoke
-	local spell
+	local newSpell
 	if quas == 3 then
-		spell = "cold_snap"
+		newSpell = "cold_snap"
 	elseif quas == 2 and wex == 1 then
-		spell = "ghost_walk"
+		newSpell = "ghost_walk"
 	elseif quas == 2 and exort == 1 then
-		spell = "ice_wall"
+		newSpell = "ice_wall"
 	elseif wex == 3 then
-		spell = "emp"
+		newSpell = "emp"
 	elseif wex == 2 and quas == 1 then
-		spell = "tornado"
+		newSpell = "tornado"
 	elseif wex == 2 and exort == 1 then
-		spell = "alacrity"
+		newSpell = "alacrity"
 	elseif exort == 3 then
-		spell = "sun_strike"
+		newSpell = "sun_strike"
 	elseif exort == 2 and quas == 1 then
-		spell = "forge_spirit"
+		newSpell = "forge_spirit"
 	elseif exort == 2 and wex == 1 then
-		spell = "chaos_meteor"
+		newSpell = "chaos_meteor"
 	elseif quas == 1 and wex == 1 and exort == 1 then
-		spell = "deafening_blast"
+		newSpell = "deafening_blast"
 	end
 	
-	if not spell then return end
+	if not newSpell then return end
+	newSpell = "custom_"..newSpell
 
 	local slot1 = 3
 	local slot2 = 4
 
-	-- if this doesnt work. store spell that becomes slot 2, swap both slots back to empty, and then swap new and second into place.
-	if caster:GetAbilityByIndex(slot1):GetName() == "invoker_empty1" then
-		--swap slot1 with new ability
-		caster:SwapAbilities("invoker_empty1", "custom_"..spell, false, true)
-	else
-		--swap slot1 with slot2, swap slot1 with new ability
-		caster:SwapAbilities(caster:GetAbilityByIndex(slot1):GetName(), caster:GetAbilityByIndex(slot2), true, false)
-		caster:SwapAbilities(caster:GetAbilityByIndex(slot1):GetName(), "custom_"..spell, false, true)
+	---TODO: test code, make swapToEmpty function if it doesnt work
+	
+	--if spell is already invoked, refund mana, reset cd, and potentially swap skill slots
+	if caster:GetAbilityByIndex(slot1):GetName() == newSpell then
+		self:RefundManaCost()
+		self:EndCooldown()
+		return
+	elseif caster:GetAbilityByIndex(slot2):GetName() == newSpell then
+		self:RefundManaCost()
+		self:EndCooldown()
+		--this probably wont work, need to swap to empty first
+		caster:SwapAbilities(caster:GetAbilityByIndex(slot1):GetName(), caster:GetAbilityByIndex(slot2):GetName(), true, true)
 	end
-	caster:FindAbilityByName("custom_"..spell):SetLevel(1)
+
+	--swap slots to empty
+	local oldSpell = caster:GetAbilityByIndex(slot1):GetName()
+	if oldSpell ~= "invoker_empty1" then
+		caster:SwapAbilities(oldSpell, "invoker_empty1", false, true)
+	else
+		oldSpell = nil
+	end
+	if caster:GetAbilityByIndex(slot2):GetName() ~= "invoker_empty2" then
+		caster:SwapAbilities(caster:GetAbilityByIndex(slot2):GetName(), "invoker_empty2", false, true)
+	end
+
+	--[[swap spells into appropriate slots. 
+	new spell moves to slot 1]]
+		caster:SwapAbilities("invoker_empty1", newSpell, false, true)
+
+	--old spell moves to slot 2.
+	if oldSpell then
+		caster:SwapAbilities("invoker_empty2", oldSpell, false, true)
+	end
+
+	--and oldest spell gets sent to another dimension Kappa
+
+	caster:FindAbilityByName(newSpell):SetLevel(1)
 end
 
 function custom_invoke:OnUpgrade()
@@ -340,6 +370,9 @@ end
 
 function modifier_custom_cold_snap:OnCreated( kv )
 	local quas = self:GetCaster():FindAbilityByName("custom_quas"):GetLevel()
+	if self:GetCaster():HasScepter() then
+		quas = quas + 1
+	end
 
 	self.duration = self:GetAbility():GetLevelSpecialValueFor("duration", quas)
 	self.interval = self:GetAbility():GetLevelSpecialValueFor("interval", quas)
@@ -420,7 +453,7 @@ function modifier_custom_cold_snap_stun:StatusEffectPriority()
 	return 10
 end
 
---[[ use this if state_frozen doesnt work
+--[[ use this if MODIFIER_STATE_FROZEN doesnt work
 function modifier_custom_cold_snap_stun:OnCreated( kv )
 	FreezeAnimation(self:GetParent(), kv.duration) --self:GetDuration()
 end
@@ -456,6 +489,10 @@ end
 function modifier_custom_alacrity:OnCreated( kv )
 	local wex = self:GetCaster():FindAbilityByName("custom_wex"):GetLevel()
 	local exort = self:GetCaster():FindAbilityByName("custom_exort"):GetLevel()
+	if self:GetCaster():HasScepter() then
+		wex = wex + 1
+		exort = exort + 1
+	end
 
 	self.atkSpeed = self:GetAbility():GetLevelSpecialValueFor("attack_speed", quas)
 	self.damage = self:GetAbility():GetLevelSpecialValueFor("damage", exort)
@@ -514,6 +551,9 @@ custom_sun_strike_thinker = class({})
 
 function custom_sun_strike_thinker:OnCreated( kv )
 	local exort = self:GetCaster():FindAbilityByName("custom_exort"):GetLevel()
+	if self:GetCaster():HasScepter() then
+		exort = exort + 1
+	end
 
 	self.radius = self:GetAbility():GetSpecialValueFor("radius")
 	self.damage = self:GetAbility():GetLevelSpecialValueFor("damage", exort)
