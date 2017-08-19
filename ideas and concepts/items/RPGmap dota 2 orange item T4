@@ -80,8 +80,8 @@ can also be use to create a small Star that deal damage over time and stuns enem
 super increase damage
 
 Active item use
-Create a Star that deal 8 pure damage plus 20% of primary Attributes every 0.5 second lasting 6 second, after the star end
-it will stuns enemys by 2.2 second increasing damage they take by 350% cooldown, 35 second, mana cost 15% of max mana.
+Create a Star that deal 12 pure damage plus 30% of primary Attributes every 0.5 second lasting 6 second, after the star end
+it will stuns enemys by 2.2 second increasing damage they take by 350% cooldown for 1.5 second, 35 second, mana cost 15% of max mana.
 
 increase Primary Attributes by 30%
 cast range 250
