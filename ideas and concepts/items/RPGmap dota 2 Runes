@@ -1,11 +1,36 @@
 Those are the type of runes that are found rarely on monster or bosses they have yellow color
 they also have random stats values when droping, they can be perfect or they have the minimun stats on them
 
-Those Runes will give bonus when keep in the Inventory
+Those Runes will give bonus when keep in the Inventory, some of them will have terrible bonus as well
+only 3 Runes can be active and are Unique and wont stack with other same Runes
 
 
 Rune Poz
 increase Primary stats by 1-4
-increase spell amp by 0.5%-1.6%
+increase Spell amp by 0.5%-1.6%
 increase Spell Q damage by 1%-3%
 
+Rune Alz
+increase Agility by 1-10
+increase Spell W damage by 5-15%
+reduce health by 1-8%
+reduce life regeneration by 3-5
+
+Rune Los
+Make Spell Q deal 0.1%-0.7% of current health in damage
+Increase damage by 3-6
+Increase attack speed by 3-9
+reduce Inteillgence by 5-11
+reduce Strenght by 2-5
+
+Rune Deg
+Make Ultimate Spell spell vamp by 5-10%
+increase Primary stat by 2%-4%
+increase spell amp by 0.5%-8%
+Reduce attack speed by 4-12
+
+Rune Zxl
+Make Hero Passive that got Primary stats bonus increase by 3%-6%
+increase damage by 1%-5%
+increase spell amp by 1%-3.5%
+reduce Base Attack time by 0.05-0.15 with all weapons
