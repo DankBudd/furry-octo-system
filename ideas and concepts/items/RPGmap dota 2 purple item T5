@@ -55,8 +55,8 @@ Scroll of Death
 activate to deal high damage base on the missing hp of the enemy also increase spell amp and intelligence
 
 active item use
-deal 20 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 10%
-to cast the spell you will need to kill at least 60 unit, after getting that amount needed the spell will be ready for use, mana cost 40%
+deal 30 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 10%
+to cast the spell you will need to kill at least 60 unit, after getting that amount needed the spell will be ready for use, mana cost 70%
 
 spell amp 10%
 inteillgence 25
@@ -72,7 +72,7 @@ attack speed limit bonus 50
 attack speed 100
 
 
-Thul Essence
+Thul Essence --will be a later boss item--
 Increase the user Agility and Strenght With damage, Also Empower SPELL E of any Hroes making it even Stronger
 
 Passive Item Use
@@ -82,3 +82,17 @@ SPELL E will deal 60% pure, 20% magical, 20% physical and increasing its damage 
 agility 15
 strenght 15
 damage 20
+
+
+Dark Reef Water
+increase the user Primary stats but lose health every seconds and can be use to deal 50% of all the health lost into damage for a single
+target
+
+Passive item use
+the user will lose 3.2% health per second cannot lose health per second when below 20% health
+
+Active item use
+deal 50% of the health taken away by Dark Reef Water into magic damage cap damage is 80% of the user max health
+
+Primary start increase by 35
+
