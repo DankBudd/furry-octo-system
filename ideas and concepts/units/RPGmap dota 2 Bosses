@@ -44,37 +44,37 @@ range 350
 BAT 1.95
 life 4700/4700
 mana 1000/1000
-damage 5-88
+damage 40-78
 armor 8
 magic resist 25%
 life regeneration 3.8
 mana regeneration 4.5
 
 SPELL 1 Demonic Bolt
-Zol will Throw 3 Demonic Bolt at random target dealing 115 plus 0.4% of the heroes health in pure damage, if there is 3 or less heroes
+Zol will Throw 3 Demonic Bolt at random target dealing 95 plus 0.8% of the heroes health in pure damage, if there is 3 or less heroes
 and get damage by 1 or more Demonic Bolt they will do 60% less damage, the Demonic Bolt will also give Heroes a debuff that reduce both
-physical and magical damage dealt by 35% that last 3.5 second
-mana cost 95 cooldown 11
+physical and magical damage dealt by 35% that last 2.5 second
+mana cost 95 cooldown 9
 
 SPELL 2 Chaos Will
-Zol will curse 1 or 2 heroes dealing 30 plus 1% of their max health for 50% magical and 50% physical damage and Zol will heal for 35%
+Zol will curse 1 or 2 heroes dealing 30 plus 0.4% of their max health for 50% magical and 50% physical damage and Zol will heal for 20%
 of the damage done with Chaos Will, the debuff last 5 second. Chaos Will also got 15% chance to deal 100% more damage and stun Heroes
 for 2 second and it will heal him for 70% instead of 35%
 mana cost 140 cooldown 15
 
 Passive 1 Chaotic Decaytion
-Zol will Target the Hero with the most current Health dealing 45% of it current health in damage and reducing all healing by 85%
-for 6 second, after the duration of the debuff end, it will spread to 2 random heroes 700 range dealing 15% of their max health in
-damage and reducing healing by 30% for 4 second
-proc every 20 second
+Zol will Target the Hero with the most current Health dealing 35% of it current health in damage and reducing all healing by 75%
+for 7 second, after the duration of the debuff end, it will spread to 2 random heroes 450 range dealing 10% of their max health in
+damage and reducing healing by 20% for 5 second
+proc every 26 second
 
 Passive 2 Unbroken Will (Zol)
-if Zol take more than 20% of is max health in 7 second he will Curse all enemys dealing 50 damage per second and silencing them for 
+if Zol take more than 22% of is max health in 9 second he will Curse all enemys dealing 60 damage per second and silencing them for 
 4 second and remove all stun and debuff with restoring is mana to full
 
 ULTIMATE Rage of Zol
 Zol will Become Enrage after reaching 70% health 40% and 10% Becoming immnunity to all damage for 10 second, he will start casting
-7 Chaos Bolt at random target Location at 400 speed unit heroes that touch those Chaos Bolt will suffer from 100 plus 15% of their max
+7 Chaos Bolt at random target Location at 400 speed unit heroes that touch those Chaos Bolt will suffer from 90 plus 8% of their max
 health in pure damage and slowing them by 60% for 1.5 second, if any heroes touch more than 3 Chaos Bolt durring Rage of Zol they will
 take 100% of their max health in damage killing them and not being able to be revive and for every allys dead durring Rage of Zol other
 Heroes will lose 6% max health until Zol dies meaning that they cannot regain more health than normal
