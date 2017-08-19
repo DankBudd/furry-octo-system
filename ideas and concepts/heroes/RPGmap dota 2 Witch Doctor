@@ -115,40 +115,41 @@ after death, they will return to Zulnu healing him for 6% max health and mana Gr
 
 PASSIVE D OR F Ritual Aura
 allys will lifesteal for a flat amount on basic attack and having spell lifesteal as well also increase inteillgence of ally with
-increasing Health and Mana Regenerations Bonus from Regeneration source and also ZulNu will only get 50% of the flat lifesteal
+increasing mana and health Regeneration resource and also ZulNu will only get 50% of the flat lifesteal
 
 Flat lifesteal 3 6 9 12 plus 8% of inteillgence
 spell lifesteal 9% 12% 15% 18%
-Increase inteillgence by 10% 15% 20% 25%
+Increase inteillgence by 10% 14% 18% 22%
 life regeneration bonus 30% 40% 50% 60%
 mana regeneration bonus 10% 20% 30% 40%
 radius of aura 1200
 
 talent level 15 upgrade Ritual Aura
 increase Flat lifesteal inteillgence scaling by 7%
-increase spell lifesteal by 12%
-increase bonus inteillgence by 5%
-increase radius aura by 400
+increase spell lifesteal by 8%
+increase bonus inteillgence by 3%
+increase radius aura by 600
 
 add a new modifier Abutalabashuneba
 every enemys that die near ZulNu they will drop a Abutalabashuneba after gathering it, Zulnu will get random buff for him and one
 random allys. the enemys only got 10% chance to drop a Abutalabashuneba boss will drop one for 100%, duration of those buff last
-7 second, bosses 40 second
-BUFF 1 increase damage by 20% and spell amp by 8%
+12 second, bosses 60 second
+BUFF 1 increase damage by 20% and spell amp by 12%
 BUFF 2 increase cast range by 220 and 125 attack range
-BUFF 3 increase Healing amp by 15% and mana regeneration by 1.5% of max mana
-BUFF 4 increase armor by 3 and magic resist by 9%
-BUFF 5 reduce all Crowd Control by 20% and reduce debuff duration by 30%
+BUFF 3 increase Healing recive by 25% and mana regeneration by 7
+BUFF 4 increase armor by 4 and magic resist by 11%
+BUFF 5 reduce all Crowd Control by 20% and take 50% less damage from DPS Source
 
 ULTIMATE R Voodoo Flask
 ZulNu take a random potion he got and throw it at the target ally or enemy always dealing damage or healing, flask can debuff enemys
 with high curse and for allys buffing them increasing some stats.
 
-Base damage 5% 10% 15% of max health -deal current health on bosses instead and dealing 50% of the damage as well-
+Base damage 5% 10% 15% of max health -deal current health on bosses instead and only dealing 50% of the damage as well-
 Base healing 10% 20% 30% of max health
 FLASK 1
-ENEMYS take 3% 7% 11% of their max life in 6 second after it end they get stun for 1 2 3 second
-ALLYS will get heal for 6% 12% 18% max life in 4 second after it end they will heal all other ally for 150% of the base healing 500 radius
+ENEMYS take 4% 8% 12% of their max life in 4 second after it end they get stun for 1 2 3 second -current health for bosses-
+ALLYS will get heal for 6% 12% 18% max life in 6 second after it end they will heal all other ally for 350% 500% 650% of Zulnu
+Inteillgence
 FLASK 2
 ENEMYS lose 20% 35% 50% damage and deal 10% 20% 30% less damage with spell for 5 second after it end give it to all near enemy for half
 ALLYS get 15% 30% 45% increase damage and gain 10% 20% 30% spell amp as well for 5 second after it end give that bonus to Zulnu for
