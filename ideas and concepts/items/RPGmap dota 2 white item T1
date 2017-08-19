@@ -89,10 +89,29 @@ spell amp 1%
 mana 30
 
 
-Lucky Rock gold 70
-increase the user gold gain and xp
+Lucky Hard Rock gold 55
+increase the user gold gain and xp and increase spell amp and damage as well
 
-gold gain per kill 2
+damage 3%
+spell amp 1.2%
+gold gain per kill 1
 xp gain per kill 2
 
 
+Quelling Blade gold 115
+MELEE HERO ONLY- increase melee hero damage if the enemys are melee or range also increase attack speed
+
+Passive item use
+Melee user will do 4% more damange on Melee enemys and 8% more damage on Range enemys
+
+attack speed 5
+BAT 1.75
+
+
+Stout Shield gold 95
+MELEE HERO ONLY- the user got a chance to block physical damage and increase armor
+
+Passive item use
+the user got 35% chance to block 4 physical damage
+
+armor 1
