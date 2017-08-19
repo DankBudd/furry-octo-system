@@ -24,14 +24,14 @@ damage and with Chaotic Decaytion that deal current health damage on the current
 the user for a small amount of the damage dealt
 
 Active items Use Chaos Bolt
-deal 35 plus 1% of the target max health in Pure damage plus 10% of the user Attributes and also reducing their magical and physical
+deal 35 plus 0.5% of the target max health in Pure damage plus 10% of the user Attributes and also reducing their magical and physical
 damage by 12% for 4 second-- cooldown 16 mana cost 10% of max mana
 
 Passive items use Chaotic Decaytion
 deal 10% of the enemys Current health in damage it will only proc if the enemys are under 98% of their health, healing the user for 40%
 of the damage dealt
 
-all stats 12
-spell amp 10%
-damage 10
+all stats 6
+spell amp 8.5%
+damage 9
 
