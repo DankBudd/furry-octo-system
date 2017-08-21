@@ -4,12 +4,12 @@ starting item Skeletal Wand increase intelligence by 2 and give 1.5 mana regen b
 LEVEL 20 TALENT
 
 talent 1
-
-give 6.5 life-regen, 250 life and 25% magic resist
+increase Necro armor by 3 and his magic resist by 8%
+Necro will give 100% of his magic resist to his Archers and give 40% of his armor to the Skeleton Warriors
 
 talent 2
-
-give 9 mana regen, 15 int and 200 cast range
+increase Necro mana regeneration by 7 and his spell amp by 25%
+Necro will gain 35% of his spell amp into bonus Strenght and 15% of Necro Strenght will be damage and attack speed for his Skeletons
 
 
 PASSIVE CORE D OR F
@@ -17,7 +17,7 @@ Corrupted Flesh
 give a positive and negative buff, Pressing ALT will give INFO for Necro level 20 talent and level 25 talent for this passive
 
 BUFF Necro has 10% base magic resist at start and his skeleton get 50% of his magic resist that necro got and necro will gain 1% move
-speed per skeleton alive and his Skeleton Archer and Skeletons will get 5% of Necro max health for them and every time any of his
+speed per skeleton alive and his Skeleton Archer and Skeletons will get 3% of Necro max health for them and every time any of his
 summons dies, they will heal other summon for 2% of their max health for them he also got a Bone armor starting item that can be change
 DEBUFF Necro will take 80% more damage from physical and he doesnt gain any agility per level he also need 16 int to gain 1% spell amp
 and strenght only gain 4 life instead of 5 and he also need 10 inteillgence to gain 1 damage instead of 5 inteillgence
@@ -155,32 +155,31 @@ reduce healing that bounce 5 time with no reduction per bounce and doesnt explod
 
 PASSIVE D OR F
 Necro Mastery
-increase all skeleton life, damage, regen, armor, magic resist, attackspeed and movement speed
+Increase the Stats of Skeleton Warrior and Skeleton Archer and also increasing Necro health and inteillgence and also make Skeleton
+lifesteal on attack and giving it to Necro
 
 Skeleton damage increase by 10% 20% 30% 40%
 Skeleton life increase by 10% 25% 40% 55%
-Skeleton regeneration increase by 1 2.5 4 5.5
 Skeleton armor increase by 1 2 3 4
-Skeleton magic resist 9% 12% 15% 18%
-Skeleton attack speed 6 12 18 24
-SKeleton movement speed 30 50 70 90 FLAT
+Skeleton magic resist bonus 9% 12% 15% 18%
+Skeleton movement speed bonus 4% 10% 16% 22%
+Skeleton lifesteal 8% 12% 16% 20%
+Necro will gain 30% 40% 50% 60% of the lifesteal done in healing for him
+Necro bonus health 4% 6% 8% 10%
+Necro bonus inteillgence 6% 9% 12% 15%
 radius global
 
 talent level 15 upgrade Necro Mastery
-
-Skeleton damage increase by 18%
-Skeleton life increase by 12%
-Skeleton regeneration increase by 2.5
+Skeleton damage increase by 15%
 Skeleton armor increase by 2
-Skeleton magic resist 14%
-Skeleton attack speed 12
-Skeleton movement speed by 30 FLAT
+movement speed increase by 8%
+Increase Necro bonus health by 5%
 
-add a new modifier Undead Master
-Skeleton that die will come back to life only once with 50% of their health and have 15% increase damage and 10 attack speed as well
-until death and when they die, they will explode for 50% of their max health as damage to nearby units, cursing them as well reducing
-heal recive by 10% for 7 second
-
+add a new modifier Undead Lord
+also give 7% of Necro mana into health for him and his Skeletons and make the Skeletons ManaLeach for 25% of the damage done giving it
+to Necro. If any Skeleton dies they have 50% chance to come back to life with 70% max health and losing 30% total max health but also
+increasing their attack speed by 25 and their life regeneration by 1% of their max health when they revived, if they die again, they
+will not revive but instead explode in a 350 radius dealing 10% of their max health in damage
 
 ULTIMATE R
 Death Touch
