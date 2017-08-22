@@ -9,13 +9,13 @@ Volcanus will gain 25% of his max mana as health bonus and increasing mana his b
 
 Talent 2
 Increase Volcanus attack damage by 15 and his spell amp by 4%
-Volcanus will gain 20% of his attack damage as Spell amp and 10% of his Agility and Strenght will be Spell amp bonus
+Volcanus will gain 20% of his attack damage as Spell amp and 5% of his Agility and Strenght will be Spell amp bonus
 
 PASSIVE D OR F Fire God
 Increase overall stats and give a positive and negative buff
 
-BUFF Volcanus attack will do magic damage instead of physical and he gain 2% spellamp per 10 int instead of 1% and he can use 2 glove
-Intead of 1 he also gain 2 life per inteillgence point any damage per second spell will only have 60% duration on Volcanus,
+BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 6 int instead of 10 and he can use 2 glove
+Intead of 1 he also gain 2 life per inteillgence point any damage per second spell will only have 20% duration on Volcanus,
 he can also use Sulfuras, getting even more power from it
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
 he also lose 50% base attack damage and all Source of Physical damage will deal 1.5% of Volcanus life as damage bonus to him and
@@ -32,7 +32,7 @@ Soul Burn
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
 
 damage per second 10 14 18 22 type Magical plus 25% of intelligence
-damage reduction 25% 40% 55% 70%
+damage reduction 10% 18% 26% 34%
 slow 6% 8% 10% 12%
 Silence Target
 duration 5
@@ -42,6 +42,7 @@ mana cost 70 110 150 190 plus 5% of max mana
 Talent level 10 upgrade Soul Burn
 increase damage by 6
 increase intelligence scaling by 25%
+increase damage reduction by 16%
 increase the duration by 2
 
 add a new modfier Sun Burn
@@ -51,8 +52,8 @@ pure damage after Soul Burn duration end it will explode for 300% of Soul Burn t
 SPELL W Lava Wave
 Send out a wave of Molten lava dealing high damage and burning enemys also reducing their magic resist
 
-damage 20 30 40 50 type Magical plus 60% of intelligence
-burn damage 3 4 5 6 per second type magical plus 12% of intelligence
+damage 36 44 52 60 type Magical plus 40% of intelligence
+burn damage 3 5 7 9 per second type magical plus 15% of intelligence
 magic resist lost 4% 8% 12% 16%
 duration of burn and magic resist lost 3 second
 radius of the wave 300
@@ -99,7 +100,7 @@ PASSIVE D OR F Incinerate
 increase Volcanus Agility, inteillgence and strenght and make is auto-attack burn the target dealing damage and increasing the
 burn damage every attack and reducing healing effect as well. If the target dies under Incinerate it will explode dealing high damage
 
-spell amp 4% 7% 10% 13%
+Attributes bonus 5% 7% 9% 11%
 burn damage 10% 15% 20% 25% of intelligence type Magical
 increase burn damage 2% 3% 4% 5% of inteillgence every attack
 max stack 5 6 7 8 of increase burn damage
@@ -110,8 +111,8 @@ Incinerate duration 3 second
 
 talent level 15 upgrade Incinerate
 increase spell amp by 7%
-increase max stack by 4
-increase explosion scaling by 25%
+increase max stack of burn by 4
+increase explosion inteillgence scaling by 30%
 increase radius by 100
 
 add a new modfier Fire Blast
@@ -131,14 +132,14 @@ if the target dies under Incinerate they will spawn small lava Pool that deal da
 Lava Wave bonus damage 20 40 60
 Increase Lava Wave radius by 100 150 200
 Lava Wave cooldown reduction 8 10 12
-Incinerate explosion per second damage 25% 40% 55% of Incinerate total damage
-increase Incinerate Burn damage by 10% 40% 70% of Inteillgence
-Lava Pool damage 6 10 14 plus 50% 70% 90% of inteillgence damage type magical every second
+Incinerate explosion per second damage 20% 35% 50% of Incinerate total damage
+increase Incinerate Burn damage scaling by 10% 30% 50% of Inteillgence
+Lava Pool damage 6 10 14 plus 50% 65% 80% of inteillgence damage type magical every second
 Lava Pool duration 10 13 16
 cooldown reduction of Soul Burn 25% 45% 65%
 cooldown reduction of Volcano 30% 40% 50%
 Duration of Hells Power 15 20 25
-cooldown 200 180 160
+cooldown 110 100 90
 mana cost 100 200 300 plus 15% 20% 25% of max mana
 
 talent level 25 Upgrade Hells Power
