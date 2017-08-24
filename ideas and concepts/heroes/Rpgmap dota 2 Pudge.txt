@@ -5,11 +5,11 @@ LEVEL 20 TALENT
 
 talent 1
 increase Butcher magic resist by 5% and his armor by 3
-Butcher will gain bonus heath by 600% of his armor and 300% of his magic resist as well
+Butcher will gain bonus heath by 600% of his armor and 400% of his magic resist as well
 
 talent 2
-increase Butcher spell amp by 10% and his attack speed by 20
-Butcher will gain 1 damage for 50% of his armor and 30% of his magic resist as well and 75% of his spell amp will be attack speed
+increase Butcher damage by 7% and his attack speed by 15
+Butcher will gain 150% bonus damage from his spell amp and 65% of his attack speed will be spell amp
 
 PASSIVE D OR F
 
@@ -26,14 +26,14 @@ pure and physical damage and he cannot have more than 300 movement speed slows a
 Talent level 25 Upgrade Fat Body
 add a new modifier Meat Eater
 Butcher basic attack now deal 4% of the target current life in damage and healing him for 150% of the damage done, this effect get a
-cooldown of 16 second if attacking a boss also make all spell of pudge deal 1.2% of the target max health doesnt work for Rotting Flesh
-also give pudge 1% magic resist for every 50 health he currently got up to 80% max bonus
+cooldown of 8 second if attacking a boss also make all spell of pudge deal 0.7% of the target max health doesnt work for Rotting Flesh
+also give pudge 1% magic resist for every 80 health he currently got up to 65% max bonus
 
 SPELL Q Glory Hook
 throw a hook that can grab multiple enemys in one single hook and reducing armor as well if hooking any ally will reduce the cooldown 
 but cannot grab more than one person they also get stun after getting to Butcher
 
-damage 14 26 38 50 physical damage and 30% 35% 40% 45% of pudge strenght
+damage 25 40 55 70 physical damage and 30% 35% 40% 45% of pudge strenght
 bonus damage from max life 1%
 Range 400 450 500 550
 increase range by 100% 200% 300% 400% of Butcher Strenght
@@ -45,7 +45,7 @@ life cost 5% 8% 11% 14%
 cooldown 15 14 13 12
 
 talent level 10 Upgrade Glory Hook
-increase damage by 10
+increase damage by 15
 increase range by 150
 remove the limit of max targeted hook
 increase the armor reduction by 3
@@ -65,7 +65,7 @@ bonus damage from max life 1%
 movement speed reduction 8% 14% 18% 24%
 magic resist reduction 2% 6% 10% 14%
 radius 200 235 270 305
-increase radius by 10% of life
+increase radius by 8% of life
 no cooldown
 
 Talent level 10 Upgrade Rotting Flesh
@@ -148,7 +148,7 @@ UILTMATE R
 Dismenber
 deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing anyone walking on it and buffing them
 
-Strenght as damage 220% 340% 460%
+Strenght as damage 400% 550% 700%
 bonus damage from max life 1%
 meat drop 1-2 1-3 1-4 per second of damage
 meat healing 10 30 50 plus 4% 8% 12% of pudge max health
@@ -162,7 +162,7 @@ life cost 10% 20% 30%
 cooldown 90 80 70
 
 talent level 25 upgrade Dismenber
-increase strenght scaling by 60%
+increase strenght scaling by 100%
 increase meat drop to 2-3 2-4 2-5
 increase meat healing by 30
 increase meat bonus damage by 6
