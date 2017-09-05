@@ -97,15 +97,15 @@ any Stack of armor Reduction, While Daisho spin he gain increase magic resist an
 Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown, BladeStorm will also increase the
 magic resist cap to 85%
 
-damage 9 11 13 15 plus 10% of Daisho Agility physical damage
+damage 11 13 15 17 plus 14% of Daisho Agility physical damage
 damage every 0.3 second
 duration 1.5 1.8 2.1 2.4
 armor reduction 0.5 0.6 0.7 0.8 every tick
-magic resist increase 25% 40% 55% 70%
-Evasion increase 20% 20% 30% 40%
+magic resist increase 15% 20% 25% 30%
+Evasion increase 20% 30% 40% 50%
 radius 260 290 320 350
 mana cost 95 125 155 185
-cooldown 7 6 5 4
+cooldown 4 the cooldown stay freeze while in BladeStorm
 
 talent level 15 Upgrade BladeStorm
 reduce the damage every second by 0.1
@@ -134,8 +134,10 @@ bonus damage after crit 20% 28% 36% 44%
 buff duration 1.4 second
 
 talent level 15 Upgrade Divine Strike
-increase agility bonus by 6%
+increase agility bonus by 16%
 reduce Critical after every hit done by 1
+increase base critical damage by 40%
+increase the duration of bonus damage by 2.6 second
 
 add a new Modifier Weak Point
 Every time Daisho crit any enemys, they will suffer from 1 random debuff out of 2 that will only affect Daisho him-self or his spells
@@ -153,7 +155,7 @@ buff base on the 3 Spell of Daisho, Wind Walk give Phase to Daisho and increase 
 Wind Walk have increase damage on the Next Strike if use again, Mirror Image will give daisho bonus evasion with damage reduction and
 summoning more Image on the next cast of Mirror Image durring the buff, BladeStorm will give Daisho increase damage and also increasing
 his Pure damage resist, Make BladeStorm deal some pure damage and making them take increasing damage they take from pure damage as well
-the duration of the buff will last 12 15 18 second and will make the passive go on cooldown meaning that only 1 buff can be active and
+the duration of the buff will last 13 15 17 second and will make the passive go on cooldown meaning that only 1 buff can be active and
 cannot have bonus from cooldown reduction as well
 
 Reduce base attack time by 0.10 0.15 0.20 double with sword type weapons
@@ -172,5 +174,7 @@ Pure damage resist 25% 50% 75%
 BladeStorm damage into Pure 30% 40% 50% of total Damage -Meaning that the other part of the damage will be 70% 60% 50% physical
 Increase damage taken from Pure by 25% 40% 55%
 -
-Cooldown of Passive 30 28 26
+Cooldown of Passive 30 27 24
+
+talent level 25 Upgrade Way of the Blade
 
