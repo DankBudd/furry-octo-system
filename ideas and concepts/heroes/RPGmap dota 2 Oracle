@@ -81,9 +81,9 @@ SPELL E Ancient Healing
 Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well and Oracle will not gain
 any mana but get heal by the amount of mana restore instead
 
-Heal 30 50 70 90 plus 35% 40% 55% 70% of int
+Heal 80 140 200 260 plus 60% 70% 80% 90% of inteillgence
 Heal reduction per jump 7%
-mana restore 10 20 30 40 plus 8% 12% 16% 20% of int
+mana restore 50 80 110 140 plus 25% 32% 39% 46% of inteillgence
 mana restore reduction per jump 7%
 max reductions 70%
 jump distence 500
@@ -94,9 +94,9 @@ cooldown 5.5 5 4.5 4
 mana cost 100 140 180 220
 
 talent level 15 upgrade Ancient Healing
-increase heal by 50
-increase heal scaling int by 15%
-increase max jump by 5
+increase heal by 70
+increase heal scaling int by 35%
+increase max jump by 3
 reduce the heal and mana reduction by 3%
 reduce max reductions by 30%
 increase mana cost by 80
