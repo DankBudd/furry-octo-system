@@ -1,7 +1,7 @@
 DOTA 2 Keeper of the light-- Mhadreno
 
 Stats inteillgence 8, agility 5, strenght 5, base damage 8, movespeed 315, starting item old staff give 0.7 mana regeneration and 1.4% healing amp
-
+1.90 BAT
 
 Passive D OR F Divine Entity
 give a positive and negative buff, pressing alt will show talent level 20 and level 25 talent for this passive
@@ -37,7 +37,7 @@ increase duration by 0.5
 remove max mana cost
 
 add a new modifier Divine Light
-now heal Mhadreno for double the amount and increasing the healing effect by 1% for every 2% of health missing
+now heal Mhadreno for double the amount and increasing the healing effect by 1% for every 2% of health missing,
 and enemys that take extra damage while affected by Light Beam will lose 2% damage and 1% spell damage every stack
 up to 20 max stacks for the remaing duration of Light beam blind and if they reach the max amount of stacks,
 they will refresh the duration of Divine Light and take 35% more damage from physical and magical and 60% more
@@ -49,12 +49,12 @@ Mhadreno will cast a ground of Light healing allys and dealing damage to enemys,
 any damage they take will grant them some damage reduction and for the enemys, they will take increase damage
 every time they stand inside of the Purifyd Grounds.
 
-healing on cast 6% 10% 14% 18% of max health
+healing on cast 6% 8% 10% 12% of max health
 healing every 0.5 second 18 22 26 30 plus 30% 34% 38% 42% of inteillgence
 damage reduction bonus to allys per damage taken 0.75% 0.90% 1.05% 1.20%
-damage on cast 3% 4% 5% 6% of max health, 50% reduction on bosses PURE
-damage every 0.5 second 11 13 15 17 plus 16% 18% 20% 22% of inteillgence PURE
-increase damage taken by 1.60% 1.90% 2.20% 2.50% every 0.5 second when inside Purifyd Grounds
+damage on cast 3% 4% 5% 6% of max health, 70% reduction on bosses PURE
+damage every 0.5 second 11 13 15 17 plus 16% 18% 20% 22% of inteillgence magical
+increase damage taken by 3% every 1 second when inside Purifyd Grounds
 duration 4 5 6 7 second
 base radius 300 400 500 600
 increase radius by 50% 75% 100% 125% of inteillgence
