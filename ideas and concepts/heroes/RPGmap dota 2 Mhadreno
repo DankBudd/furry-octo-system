@@ -113,6 +113,7 @@ reduce the enemy MoveSpeed by 4% 7% 10% 13%
 next spell bonus heal 16% 24% 32% 40%
 next spell cooldown reduction bonus 23% 27% 31% 35%
 cooldown of Holy Power 11 10 9 8 cannot be affected by cooldown reduction bonus
+radius of aura 1500 1550 1600 1650
 
 talent level 15 upgrade Holy Aura
 increase bonus damage by 8%
@@ -121,7 +122,19 @@ increase next spell cast heal bonus by 10%
 increase the MoveSpeed lost by 5%
 
 add a new modifier Holy Land
-allys close to Mhadreno 315 radius will have double the bonus and give Mhadreno 1% max health every time they kill something inside of
+allys close to Mhadreno 375 radius will have double the bonus and give Mhadreno 1% max health every time they kill something inside of
 Holy Aura up to 50% max bonus health, this bonus will be lost on death and Mhadreno will lose 10% max health when he respawn until he
-gain again 10% more life from Holy Land and when hes at 50% max health bonus his double bonus from Holy Land will have 400 more radius
+gain again 10% more life from Holy Land and when hes at 50% max health bonus his double bonus from Holy Land will have 375 more radius
 
+
+ULTIMATE R Divinity Call
+Mhadreno heal 1 allys for insane amount and giving them a buff that more health they have the more power they have and after the duration
+end it will heal all other allys global by 50% of the total healing from the primary target, having 100% current health will give the
+full power for the ally and for every 6% 5% 4% health they have, they will gain 1 bonus every time.
+
+heal 400 600 800 plus 225% 350% 475% of inteillgence
+bonus power for every 6% 5% 4% from 100% current health
+increase damage by 3% 5% 7% for every bonus from 100% current health
+increase spell amp by 2.5% 5% 7.5% for every bonus from 100% current health
+increase mana regeneration by 3 4 5 for every bonus from 100% current health
+reduce damage by 1% 2% 3% for every bonus from 100% current health
