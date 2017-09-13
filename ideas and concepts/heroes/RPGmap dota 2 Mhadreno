@@ -31,7 +31,7 @@ mana cost 110 130 150 170 plus 3% of max mana
 cooldown 11 10 9 8
 
 talent level 10 upgrade Light Beam
-increase heal by 100
+increase heal by 80
 increase both extra damage scaling by 7%
 increase duration by 0.5
 remove max mana cost
@@ -84,7 +84,7 @@ bonus regeneration 1.3 1.7 2.1 2.5 plus 4% of inteillgence
 damage 9 12 15 18 plus 20% 22% 24% 26% of inteillgence magical
 reduce regeneration by -0.7 -1.1 -1.5 -1.9 plus 7% of inteillgence
 max stack 3
-mana cost 25 40 55 70
+mana cost 25 40 55 70 plus 0.6% of max mana
 cast time 0.90 0.85 0.80 0.75
 
 talent level 15 upgrade Holy Bolt
@@ -115,9 +115,13 @@ next spell cooldown reduction bonus 23% 27% 31% 35%
 cooldown of Holy Power 11 10 9 8 cannot be affected by cooldown reduction bonus
 
 talent level 15 upgrade Holy Aura
-increase bonus damage by 5%
+increase bonus damage by 8%
 increase healing recive by 7%
 increase next spell cast heal bonus by 10%
 increase the MoveSpeed lost by 5%
 
+add a new modifier Holy Land
+allys close to Mhadreno 315 radius will have double the bonus and give Mhadreno 1% max health every time they kill something inside of
+Holy Aura up to 50% max bonus health, this bonus will be lost on death and Mhadreno will lose 10% max health when he respawn until he
+gain again 10% more life from Holy Land and when hes at 50% max health bonus his double bonus from Holy Land will have 400 more radius
 
