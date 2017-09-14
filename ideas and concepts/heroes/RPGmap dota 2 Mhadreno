@@ -1,14 +1,14 @@
 DOTA 2 Keeper of the light-- Mhadreno
 
 Stats inteillgence 8, agility 5, strenght 5, base damage 8, movespeed 315, starting item old staff give 0.7 mana regeneration and 1.4% healing amp
-1.90 BAT
+1.90 BAT--- INT 1.10 STR 0.70 AGI 0.20
 
 Passive D OR F Divine Entity
 give a positive and negative buff, pressing alt will show talent level 20 and level 25 talent for this passive
 
-BUFF, Mhadreno will gain 40% of his healing amp into bonus inteillgence he also heal target that are at 35% health for 30% more healing effect
+BUFF, Mhadreno will gain 50% of his Strenght into bonus inteillgence he also heal target that are at 35% health for 30% more healing effect
 and giving them 10% damage reduction for 5 second, and 100% of his spell amp that he gain will be healing amp as well and for every 150 max mana
-he will gain 1% healing amp bonus and gaining 0.5% stun resist and roots resist as well
+he will gain 0.6% healing amp bonus and gaining 0.3% stun resist and roots resist as well
 DEBUFF Mhadreno will lose 70% damage and he also lose 10% magic resist with -4 armor as well and taking 90% more damage from pure damage
 any damage per second spell will do 1.6% of Mhadreno health in pure damage every 0.5 second and mana burning him for 1% of his mana as well
 that deal 50% damage of the mana burn away and he doesnt gain any spell amp with his inteillgence
@@ -80,9 +80,10 @@ Mhadreno cast a Holy Bolt at the target ally healing them and also giving them a
 them and debuffing them as well and having no cooldown, both buff and debuff can stack up to 3, 4 with talent upgrade
 
 Heal 15 20 25 30 plus 15% 18% 21% 24% of inteillgence
-bonus regeneration 1.3 1.7 2.1 2.5 plus 4% of inteillgence
+bonus regeneration 2.2 2.7 3.1 3.5 plus 8% of inteillgence
 damage 9 12 15 18 plus 20% 22% 24% 26% of inteillgence magical
-reduce regeneration by -0.7 -1.1 -1.5 -1.9 plus 7% of inteillgence
+reduce regeneration by -0.8 -1.3 -1.8 -2.3 plus 4% of inteillgence
+duration of buff and debuff 2 second
 max stack 3
 mana cost 25 40 55 70 plus 0.6% of max mana
 cast time 0.90 0.85 0.80 0.75
@@ -130,10 +131,10 @@ gain again 10% more life from Holy Land and when hes at 50% max health bonus his
 ULTIMATE R Divinity Call
 Mhadreno heal 1 allys for insane amount and giving them a buff that more health they have the more power they have and after the duration
 end it will heal all other allys global by 50% of the total healing from the primary target, having 100% current health will give the
-full power for the ally and for every 6% 5% 4% health they have, they will gain 1 bonus every time.
+full power for the ally and for every 5% health they have, they will gain 1 bonus every time.
 
 heal 400 600 800 plus 225% 350% 475% of inteillgence
-bonus power for every 6% 5% 4% from 100% current health
+bonus power for every 5% from 100% current health
 increase damage by 3% 5% 7% for every bonus from 100% current health
 increase spell amp by 2.5% 5% 7.5% for every bonus from 100% current health
 increase mana regeneration by 3 4 5 for every bonus from 100% current health
