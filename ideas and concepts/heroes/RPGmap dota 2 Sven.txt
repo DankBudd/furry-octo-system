@@ -16,7 +16,7 @@ increase overall stats and give a positive and negative buff
 BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 12 Strenght he also reduce stun,root and blind by
 30% he also start with 1 armor and 5% magic resist he start with a special Sword that can be change and if sven get stun for more than
 3 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 2.5 second
-DEBUFF sven lose 20% attack speed,30% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
+DEBUFF sven lose 20% attack speed,10% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
 type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by 15% and
 his attack speed by 20 for 3 second
 
@@ -67,18 +67,19 @@ SPELL W level
 
 Death Blow
 Hit the enemys with a Deadly Blow Dealing insane damage base on Sven Strenght and the enemy Current Health, Max Health for bosses
-and he also lifesteal for all that amount of damage done as well, he also makes enemys not being able to lifesteal or spellvamp as well
+and he also lifesteal for all that amount of damage done as well, he also makes enemys not being able to lifesteal or spellvamp as well.
+This spell only gain only 50% of spell amp bonus and cannot benefit from any Spell Vamp bonus
 
 damage 15 20 25 30 physical damage
-Strenght Scaling 40% 70% 100% 130%
+base Strenght Scaling 40% 70% 100% 130%
 Increase Strenght Scaling by 50% of sven strenght
-lifesteal base on the damage done 25% 40% 55% 70% -spell vamp dont work on this spell-
+lifesteal base on the damage done 25% 40% 55% 70%
 current life as bonus damage 4% 7% 10% 13%
 max life as bonus damage for boss 0.2% 0.3% 0.4% 0.5%
 cannot lifesteal or Spellvamp for enemys
 debuff duration 3.5 second
-cooldown 15
-mana 100 130 160 190 plus 1% of max mana
+cooldown 14
+mana 40 100 160 220
 
 talent level 10 upgrade Death Blow
 increase base damage by 20
@@ -101,7 +102,7 @@ lose a certain amount of health while under the effect of Blood Wound
 
 damage 8 11 14 17 physical damage per tick plus 21% 25% 29% 33% of sven strenght
 armor loss 3 4 5 6
-increase armor lost by 1 for every 10% 9% 8% 7% health lost when affected by Blood Wound
+increase armor lost by 1 for every 9% 8% 7% 6% health lost when affected by Blood Wound
 duration 7 second
 Attack speed bonus for every hit 3
 Attack speed Cap 12 18 24 30
@@ -110,8 +111,8 @@ mana cost 140 160 180 200 plus 1% of max mana
 
 talent level 15 upgrade Blood Wound
 increase damage by 4
-increase the armor lost bonus when missing certain amount of health by 1
 increase the duration by 1
+reduce the health lost amount for armor lost by 2%
 reduce cooldown by 3
 reduce mana cost by 40
 
@@ -162,15 +163,15 @@ duration 12 15 18
 life bonus 300 600 900
 coldown reduction upon killing 0.30 0.50 0.70
 coldown reduction upon killing bosses 15% 30% 45%
-coldown 160 140 120
+coldown 80 70 60
 no mana cost
 
 talent level 25 upgrade God Strenght
 
 increase base damage by 40%
-increase attack speed lost by 30
-increase duration by 9
-reduce cooldown by 30
+increase attack speed lost by 20
+increase duration by 6
+reduce cooldown by 10
 
 add a new modifier Strenght Lord
 now Give 40% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.6 second for
