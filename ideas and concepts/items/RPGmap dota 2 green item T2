@@ -176,4 +176,34 @@ damage 4
 agility 4
 BAT 1.55
 
+Cloud Helm
+increase the user attack speed and agility, part of the Wind Lord set
+
+attack speed 12
+agility 5
+
+Alkator
+increase the user attack damage with increase evasion and give a small chance to deal bonus damage on attack and spell.
+part of the Wind Lord set
+
+Passive item use
+spell and basic attack will have 35% chance to deal 7 bonus damage
+
+attack damage 9
+evasion 5%
+
+Cloud Boots
+increase the user movespeed and armor. Part of the Wind Lord Set
+
+movespeed 35
+armor 2
+
+Cloud Chest Armor
+increase the user armor with magic resist and also give a small chance to block magical damage. Part of the Wind Lord Set
+
+Passive item use
+give 20% chance to block 8 plus 15% of the magical damage taken
+
+armor 3
+magic resist 7%
 
