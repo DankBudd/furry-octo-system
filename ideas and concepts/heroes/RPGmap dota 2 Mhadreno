@@ -22,22 +22,22 @@ suffer extra damage depending if its a physical attack and spell or magical atta
 heal 70 120 170 220 plus 60% 80% 100% 120% of inteillgence
 extra damage on physical 7 11 15 19 plus 12% 13% 14% 15% of inteillgence
 extra damage on magical 8 13 18 23 plus 19% 21% 23% 25% of inteillgence
-Blind miss chance 10% 12% 14% 16%
+Blind miss chance 11% 14% 17% 20%
 blind and extra damage duration 4 4.5 5 5.5
 base range 700 770 840 910
 increase range by 45% 50% 55% 60% of inteillgence
-Beam radius 240 250 260 270
+Beam radius 280 320 360 400
 mana cost 110 130 150 170 plus 3% of max mana
 cooldown 11 10 9 8
 
 talent level 10 upgrade Light Beam
-increase heal by 80
-increase both extra damage scaling by 7%
+increase heal by 60
+increase both extra damage scaling by 8%
 increase duration by 0.5
 remove max mana cost
 
 add a new modifier Divine Light
-now heal Mhadreno for double the amount and increasing the healing effect by 1% for every 2% of health missing,
+now heal Mhadreno for double the amount and increasing the healing effect by 1% for every 1.2% of health missing,
 and enemys that take extra damage while affected by Light Beam will lose 2% damage and 1% spell damage every stack
 up to 20 max stacks for the remaing duration of Light beam blind and if they reach the max amount of stacks,
 they will refresh the duration of Divine Light and take 35% more damage from physical and magical and 60% more
@@ -46,15 +46,15 @@ damage from PURE
 
 SPELL W Purifyd Grounds
 Mhadreno will cast a ground of Light healing allys and dealing damage to enemys, while allys are inside
-any damage they take will grant them some damage reduction and for the enemys, they will take increase damage
-every time they stand inside of the Purifyd Grounds.
+any damage they take will grant them some damage reduction up to 35% max damage reduction and for the enemys, they will take increase
+damage from Mhadreno spells every time they stand inside of the Purifyd Grounds.
 
 healing on cast 6% 8% 10% 12% of max health
-healing every 0.5 second 18 22 26 30 plus 30% 34% 38% 42% of inteillgence
-damage reduction bonus to allys per damage taken 0.75% 0.90% 1.05% 1.20%
+healing every 0.5 second 18 22 26 30 plus 30% 37% 44% 51% of inteillgence
+damage reduction bonus to allys per damage taken 0.95% 1.10% 1.25% 1.40%
 damage on cast 3% 4% 5% 6% of max health, 70% reduction on bosses PURE
-damage every 0.5 second 11 13 15 17 plus 16% 18% 20% 22% of inteillgence magical
-increase damage taken by 3% every 1 second when inside Purifyd Grounds
+damage every 0.5 second 7 9 11 13 plus 12% 15% 18% 21% of inteillgence magical
+increase damage taken by 2% 3% 4% 5% every 0.4 second when inside Purifyd Grounds
 duration 4 5 6 7 second
 base radius 300 400 500 600
 increase radius by 50% 75% 100% 125% of inteillgence
@@ -62,17 +62,17 @@ mana cost 7% 11% 15% 19% of max mana
 cooldown 13 second
 
 talent level 10 upgrade Purifyd Grounds
-increase healing per 0.5 second by 12
-increase damage per 0.5 second by 7
+increase healing per 0.5 second by 8
+increase damage per 0.5 second by 4
 increase base radius by 125
 reduce mana cost to 8% instead
 increase cooldown by 8
 
 add a new modifier Holy Guard
-now Summon Holy Guard for every allys inside of Purifyd Grounds they have 200% of Mhadreno health and 70% of his damage
-as well, they have a, Aura that makes Holy Guard take 12% of the damage that allys take for them instead -only heroes-
-and they have 5 armor and 20% magic resist as well, they last 12 second. also make Purifyd Grounds explode after the
-duration end redoing the damage and heal with 2% increase bonus 350 radius.
+now Summon Holy Guard for every allys inside of Purifyd Grounds they have 280% of Mhadreno health and 70% of his damage
+as well, they have a, Aura that makes Holy Guard take 40% of the damage that allys take for them instead -only heroes-
+and they have 5 armor and 20% magic resist as well, they last 11 second. also make Purifyd Grounds explode after the
+duration end redoing the heal with 3% increase heal bonus 450 radius.
 
 
 SPELL E Holy Bolt
@@ -89,7 +89,7 @@ mana cost 25 40 55 70 plus 0.6% of max mana
 cast time 0.90 0.85 0.80 0.75
 
 talent level 15 upgrade Holy Bolt
-increase heal by 25
+increase heal by 15
 increase bonus regeneration by 0.9
 increase damage by 10
 increase the inteillgence damage scaling by 24%
@@ -98,44 +98,44 @@ reduce cast time by 0.25
 
 add a new modifier Surging Light
 now alway thorw 1 to 2 bonus Holy Bolt on a random target enemy or ally dealing 25% more damage and having 10% more healing
-as well, for allys they will get 2% mana restore from Holy Bolt, 1% for Mhadreno and for the enemys, they will lose 12%
+as well, for allys they will get 2% mana restore from Holy Bolt, 0.7% for Mhadreno and for the enemys, they will lose 12%
 magic resist and 3 armor for 4 second. any enemys that die from Surging Light debuff will give it to allys into a bonus
-for them
+for them that last 5.2 second
 
 PASSIVE D OR F Holy Aura
 give nearby allys bonus damage and spell Amp with bonus healing from other source of heal and also reduce the enemys
 MoveSpeed, also buff the next spell cast by Mhadreno having more healing effect and reduce cooldown
 
-bonus damage 8% 12% 16% 20%
-bonus spell amp 7% 9% 11% 13%
-increase bonus spell amp by 0.1% for every 6 inteillgence
+bonus damage 8% 10% 12% 14%
+bonus base spell amp 11.5% 14% 16.5% 19%
+increase bonus spell amp by 0.1% for every 3 inteillgence
 increase healing recive by 15% 20% 25% 30%
 reduce the enemy MoveSpeed by 4% 7% 10% 13%
 next spell bonus heal 16% 24% 32% 40%
 next spell cooldown reduction bonus 23% 27% 31% 35%
-cooldown of Holy Power 11 10 9 8 cannot be affected by cooldown reduction bonus
-radius of aura 1500 1550 1600 1650
+cooldown of Holy Power 13 11 9 7 cannot be affected by cooldown reduction bonus
+radius of aura 1700
 
 talent level 15 upgrade Holy Aura
 increase bonus damage by 8%
 increase healing recive by 7%
-increase next spell cast heal bonus by 10%
-increase the MoveSpeed lost by 5%
+increase next spell cast heal bonus by 12%
+increase the MoveSpeed lost by 7%
 
 add a new modifier Holy Land
 allys close to Mhadreno 375 radius will have double the bonus and give Mhadreno 1% max health every time they kill something inside of
-Holy Aura up to 50% max bonus health, this bonus will be lost on death and Mhadreno will lose 10% max health when he respawn until he
-gain again 10% more life from Holy Land and when hes at 50% max health bonus his double bonus from Holy Land will have 375 more radius
+Holy Aura up to 50% max bonus health, this bonus will be lost on death and Mhadreno will lose 20% max health when he respawn until he
+gain again 20% more life from Holy Land and when hes at 50% max health bonus his double bonus from Holy Land will have 575 more radius
 
 
 ULTIMATE R Divinity Call
 Mhadreno heal 1 allys for insane amount and giving them a buff that more health they have the more power they have and after the duration
 end it will heal all other allys global by 50% of the total healing from the primary target, having 100% current health will give the
-full power for the ally and for every 5% health they have, they will gain 1 bonus every time.
+full power for the ally and for every 5% health they have, they will gain 1 bonus every time up to 20 bonus
 
 heal 400 600 800 plus 225% 350% 475% of inteillgence
 bonus power for every 5% from 100% current health
-increase damage by 3% 5% 7% for every bonus from 100% current health
-increase spell amp by 2.5% 5% 7.5% for every bonus from 100% current health
-increase mana regeneration by 3 4 5 for every bonus from 100% current health
-reduce damage by 1% 2% 3% for every bonus from 100% current health
+increase damage by 3% 4% 5% for every bonus from 100% current health
+increase spell amp by 4% 5.5% 7% for every bonus from 100% current health
+increase mana regeneration by 1.8 2.6 3.4 for every bonus from 100% current health
+reduce damage by 1% 1.25% 1.50% for every bonus from 100% current health
