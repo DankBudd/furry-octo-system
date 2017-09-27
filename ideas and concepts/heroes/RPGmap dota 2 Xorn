@@ -25,51 +25,51 @@ Speed Horn Helm SPECIAL
 increase life by 1 for every 3 movement speed
 increase mana by 1 for every 2 movement speed
 movement speed bonus 10 incease by 1 every level
-TerrorBlade can use the Speed Horn to remove any Debuff that slow him cooldown of 30 second
+TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 30% of his movespeed cooldown of 35 second
 
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
 all enemy near Xorn 900 radius get -7 armor reduction and -14% magic resist reduction also increase terrorblade movementspeed by
-6% for every enemy in the radius and some of TerrorBlade Spell will do 5% of his Move speed as bonus damage, following spell getting
+6% for every enemy in the radius and some of TerrorBlade Spell will do 7% of his Move speed as bonus damage, the following spell getting
 this bonus are -- Terror Wave, Zeal and Demonic Prison
 
 SPELL Q Terror Wave
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
 they have a Small chance to take insane damage and waking up, running in fear from Xorn. bosses will take Double damage from
 the wave, they cannot be Sleep. the wave will deal 50% increase damage while in True Form and the Sleep duration will be increase
-by 2 second
+by 1 second
 
-damage 14 20 26 32 plus 10% 15% 20% 25% of agility Physical damage
+damage 18 24 30 38 plus 65% of agility Physical damage
 radius of the wave 225
 Wave max distance 450 500 550 600
 Sleep duration 4 second
-Nightmare chance to Trigger every second 7% 8% 9% 10%
+Nightmare chance to Trigger every second 8% 9% 10% 11%
 Nightmare damage 20 40 60 80 plus 30% of agility Pure damage
 Nightmare Fear duration 4 second
-cooldown 14
+cooldown 12
 mana cost 60 70 80 90 plus 3% of max mana
 
 talent level 10 upgrade Terror Wave
-increase damage by 8
+increase damage by 10
 increase agility scaling by 15%
-increase radius of the wave by 225
-increase the chance of Nightmare trigger by 2%
+increase radius of the wave by 125
+increase the chance of Nightmare trigger by 4%
 increase nightmare damage by 30
 
 add a new modifier True Nightmare
-After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 60% 100% 140% 180% of
-Xorn damage. If the Image Kill their Victims, It will return to Xorn giving him 2% movement speed up to 20%
-if Xorn dies he will lose all of this bonus and if he gets to 30% he will gain 20 attack speed with 15% spell amp
+After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 80% 120% 160% 200% of
+Xorn damage. If the Image Kill their Victims, It will return to Xorn giving him 2% movement speed up to 10%
+if Xorn dies he will lose all of this bonus and if he gets to 10% he will gain 35 attack speed with 15% spell amp
 
 SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
 Steal he will gain bonus Armor and life regeneration with Movement Speed and if he kill his Target with Sunder he will gain Life Bonus
 from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
-Normal Form increase the max life damage by 6% for normal units and bosses by 1% and reducing the cooldown by 50%
+Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 55%
 
-damage 6% 10% 14% 18% of Max health
+damage 6% 10% 14% 18% of Max health increase by 0.1% every 35 agility
 bosses Damage 1% 2% 3% 4% of Max Health
-life needed for bonus 10 30 50 70
+life needed for bonus 10 25 40 55
 life regeneration per life Stolen 0.3 0.6 0.9 1.2
 Armor per life Stolen 0.3 0.5 0.7 0.9
 movement speed per life Stolen 3 5 7 9 FLAT
@@ -79,13 +79,13 @@ cooldown 30 28 26 24
 mana cost 80 100 120 140 plus 2% of max mana
 
 Talent level 10 upgrade Sunder
-reduce life needed for bonus to 40 at all level
-increase the bonus duration by 1
+reduce life needed for bonus to 35 at all level
+increase the bonus duration by 2
 increase life bonus from enemys by 25%
 
 add a new modifier Soul Breaker
-After Casting Sunder on them, they will start to lose 0.6% of their max life per second 0.1% on bosses, for 10 second and Xorn will
-gain that life they lose. If the target dies under Soul Breaker they will Explode healing Xorn for 3% of his Max health and he
+After Casting Sunder on them, they will start to lose 0.8% of their max life per second 0.1% on bosses, for 10 second and Xorn will
+heal that life they lose. If the target dies under Soul Breaker they will Explode healing Xorn for 3% of his Max health and he
 will Spread Soul Breaker on other Target for the Same amount of duration but dealing 1.4% increase Life damage per second on them,
 Bosses are immune to the Spreads. enemys affected by Soul Breaker will have 25% healing reduction and the explosion radius is 350 and
 the duration of the health bonus by 5 second gain by the Soul Breaker damage over time also refresh the duration every tick of damage
@@ -96,21 +96,21 @@ the target and making them lose attack speed and in Normal Form he will gain Zea
 with reducing armor and reducing mana regeneration as well
 
 SPEED BLAST
-base damage 5 10 15 20
-MoveSpeed into damage 8% 10% 12% 14% of total MoveSpeed
+base damage 10 16 22 28
+MoveSpeed into damage 9% 11% 13% 15% of total MoveSpeed
 duration of root 0.5 0.7 0.9 1.1
-increase duration of root by 0.1 for every 160 movement speed
+increase duration of root by 0.1 for every 220 movement speed
 attack speed lost 50 70 90 110 while affected by root
 increase attack speed lost by 20% 30% 40% 50% of Xorn Agility
-cooldown 21 17 13 9
+cooldown 13 12 10 9
 ZEAL
-damage 6 10 14 18 plus 16% 20% 24% 28% of agility physical damage
+damage 14 17 20 23 plus 26% 30% 34% 38% of agility physical damage
 duration of disarm 0.6 1.2 1.8 2.4
 Armor reduction 2 4 6 8
 increase armor reduction by 1 for every 40 agility
 mana regeneration lost 4 8 12 16
 duration of debuff 6 second
-cooldown 18 16 14 12
+cooldown 12
 mana cost for both 50 75 100 125 plus 3% of max mana
 
 talent level 15 upgrade Speed Blast AND Zeal
@@ -126,42 +126,42 @@ damage and 50% more damage for the primary target and for every enemys affected 
 second and disarm by 0.1 second
 
 PASSIVE TOGGLE D OR F Metamorphosis
-Xorn will alway start with a level in Metamorphosis giving him a positive bonus and a negative Bonus
+Xorn will alway start with a level in Metamorphosis giving him a positive bonus and a negative Bonus, this passive got 5 levels
 For Normal Form Xorn will lose Base damage with attack speed but gain Damage reduction,Health,Stun resist,roots resist and
 making Sunder Stronger and for True Form he will take more damage from pure,physical and magic but gain base damage,attack range,
 attack speed, movement speed and making Terror Wave stronger
 
 TRUE FORM
-damage taken increase by 50% 70% 90% 110%
-base damage bonus 6 12 18 24
-attack range 250 300 350 400
-attack speed 8 16 24 32
-movement speed 4% 8% 12% 16%
+damage taken increase by 30% 50% 70% 90% 110%
+base damage bonus 6 12 18 24 30
+attack range 250 300 350 400 450
+attack speed 8 16 24 32 40
+movement speed 4% 8% 12% 16% 20%
 NORMAL FORM
-base damage reduce by 20% 40% 60% 80%
-attack speed reduce by 20 45 70 95
-damage reduction bonus 6% 10% 14% 18%
-Life bonus 10% 18% 26% 34%
-Stun resist 9% 11% 13% 15%
-Roots resist 13% 17% 21% 25%
+base damage reduce by 20% 35% 50% 65% 80%
+attack speed reduce by 20 35 50 65 80
+damage reduction bonus 8% 10% 12% 14% 16%
+Life bonus 10% 18% 26% 34% 42%
+Stun resist 9% 11% 13% 15% 17%
+Roots resist 13% 17% 21% 25% 29%
 cooldown to change form 20 second
 
 talent level 15 Upgrade Metamorphosis
 TRUE FORM
-increase base damage by 11
-increase attack range by 80
-increase attack speed by 12
+increase base damage by 12
+increase attack range by 60
+increase attack speed by 10
 NORMAL FORM
-increase life bonus by 20%
-increase Stun resist by 6%
-increase Roots resist by 8%
+increase life bonus by 15%
+increase Stun resist by 4%
+increase Roots resist by 5%
 
 add a new modifier Unstable Form
-every time Xorn Change form he will explode for 9% 12% 15% 18% of his Movement Speed and Purging all debuff affected on him.
+every time Xorn Change form he will explode for 12% 15% 18% 21% of his Movement Speed and Purging all debuff affected on him.
 when in True Form Xorn attack will bounce up to 4 target dealing only 40% of his damage and enemys that die while in True Form
-will give him 1% increase damage and 0.5% spell amp up to 20 stack refresh every time something dies by Xorn last 10 second
+will give him 1% increase damage and 0.5% spell amp up to 20 stack refresh every time something dies by Xorn last 12 second
 and for Normal Form, Xorn will Block any spell cast at him cooldown of 25 second and giving him self 15% more damage reduction
-that last 6 second and for every enemys that attack him with spell or basic attack he will damage them by 2% of his movement speed.
+that last 6 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
 
 
 ULTIMATE R Demonic Mirror
@@ -179,7 +179,7 @@ Normal Form bonus damage reduction 10% 20% 30%
 True Form bonus damage 30% 65% 100%
 True Form bonus spell amp 15% 25% 35%
 Both Form duration bonus 5 6 7 second
-Cooldown 90 85 80
+Cooldown 80 75 70
 mana cost 5% 15% 25% of Max mana 
 
 talent level 25 Upgrade Demonic Mirror
