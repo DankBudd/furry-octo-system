@@ -59,3 +59,41 @@ level 20 talent
 upgrade spell E
 -
 upgrade passive
+-
+level 23 talent
+-
+increase SPELL R damage and healing by 35% and reduce its mana cost by 15%
+-
+increase SPELL Q, W, and E damage by 25% and reduce their cooldown by 12%
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 6% more spell
+amp bonus and 3% more health bonus
+-
+increase amor by 4 and attack damage by 11, this bonus increase when chosing the defensive talent at level 30 having 3 more armor and
+7 more damage bonus
+-
+increase the items Attributes bonus gain by 15% and reduce their cooldown active by 20%
+-
+level 26 talent
+-
+increase agility by 2% and attack speed by 3 for every items that give agility
+-
+increase Strenght by 2% and increase health by 35 for every items that give strenght
+-
+increase inteillgence by 2% and increase mana by 40 for every items that give inteillgence
+-
+level 29 talent
+-
+increase pure resist by 25% and reduce DPS spell duration by 10%
+-
+increase armor 2 and magic resist by 4% increase this bonus by 1 bonus armor and 2% bonus magic resist for every 5 level above level 30
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
