@@ -88,7 +88,7 @@ max stack 3
 mana cost 25 40 55 70 plus 0.6% of max mana
 cast time 0.90 0.85 0.80 0.75
 
-talent level 15 upgrade Holy Bolt
+talent level 20 upgrade Holy Bolt
 increase heal by 15
 increase bonus regeneration by 0.9
 increase damage by 10
@@ -116,7 +116,7 @@ next spell cooldown reduction bonus 23% 27% 31% 35%
 cooldown of Holy Power 13 11 9 7 cannot be affected by cooldown reduction bonus
 radius of aura 1700
 
-talent level 15 upgrade Holy Aura
+talent level 20 upgrade Holy Aura
 increase bonus damage by 8%
 increase healing recive by 7%
 increase next spell cast heal bonus by 12%
@@ -139,3 +139,14 @@ increase damage by 3% 4% 5% for every bonus from 100% current health
 increase spell amp by 4% 5.5% 7% for every bonus from 100% current health
 increase mana regeneration by 1.8 2.6 3.4 for every bonus from 100% current health
 reduce damage by 1% 1.25% 1.50% for every bonus from 100% current health
+mana cost 15% of max
+cooldown 70
+
+talent level 40 upgrade Divinity Call
+increase heal amount by 300
+increase cooldown by 10
+
+add a new modifier Divine Armor
+
+
+
