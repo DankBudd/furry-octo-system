@@ -4,10 +4,11 @@ Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80
 LEVEL 20 TALENT
 
 Talent 1
-increase Zet armor by 12% of his magic resist and his health by 500% of his armor also make Volt Shield cost 60 less mana
+increase Zet armor by 12% of his magic resist and his health by 800% of his armor also make Volt Shield cost 130 less mana and reduce its
+cooldown by 2
 
 Talent 2
-Increase Zet agility by 35% of his Strenght and Inteillgence and also Increase Lightning Arc damage taken bonus by 10%
+Increase Zet agility by 50% of his Strenght and Inteillgence and also Increase Lightning Arc damage by 40% and reduce its cooldown by 1
 
 PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
@@ -19,10 +20,10 @@ DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type i
 are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
 
 Boots of Balence Special
-increase all stats by 2 increase by 1 every 4 level
+increase all stats by 2 increase by 1 every 3 level
 increase life gain from strenght by 1
 increase mana gain from inteillgence by 2
-increase movement speed by 25 FLAT increase by 2 every level
+increase movement speed by 25 FLAT increase by 1 every level
 also make agility and inteillgence give 1 life per points and strenght with agility giving 1 mana
 
 talent level 25 upgrade Lightning God
@@ -34,7 +35,7 @@ SPELL Q
 Lightning Arc
 deal high damage jumping to target increasing the damage they take from Zet Lightning Arc and slowing them for a duration
 
-damage 13 20 27 34 plus 45% of agility type magical
+damage 13 20 27 34 plus 45% 55% 65% 75% of agility type magical
 max jump 3 5 7 9
 reduce damage by 6% for every jump max of 30% reduction
 increase max jump for every 25 agility points
@@ -45,7 +46,7 @@ mana cost 100 125 150 175 plus 2% of max mana
 coldown 7 6 5 4
 
 talent level 10 upgrade lightning arc
-increase base damage by 10
+increase base damage by 12
 increase agility scaling by 25%
 reduce the Damage reduction by 3% per jump
 reduce the Damage reduction max by 15%
@@ -53,9 +54,9 @@ increase debuff duration by 1 second
 increase mana cost by 75
 
 add a new modifier Piercing Lightning
-now become pure damage and deal 1% of the enemy max health 0.5% for bosses, it can bounce on Zet increasing his base damage by 25% up to
-100% bonus damage that last 5 second and refresh it every time it bounce again on Zet
-
+now become pure damage and deal 1% of the enemy max health 0.2% for bosses, if Lightning Arc doesnt bounce on the target it hit, it will
+deal 100% increase damage to that target and increase Zet attack damage by 8% every bounce that stack up to 160% bonus damage, if it
+doesnt bounce, increase the damage bonus by 24%, stack last 4 second and refresh every Lightning Arc is casted
 
 SPELL W Surge
 Zet Heal any ally or himself and increasing further healing also giving increase damage and spell amp, if cast again on the same
