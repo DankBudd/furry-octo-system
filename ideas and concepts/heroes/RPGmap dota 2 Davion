@@ -48,7 +48,7 @@ Davion strike the enemys dealing damage base on Davion max health and burning th
 extra damage from Holy Light, enemys doesnt take increase damage from Holy Fire talent level 10
 
 Max Health into damage 3% Physical damage
-burn damage 5 7 9 11 plus 8% 12% 16% 20% of Davion inteillgence and strenght every 0.5 second physical
+burn damage 3 5 7 9 plus 8% 10% 12% 14% of Davion inteillgence and strenght every 0.5 second physical
 armor lost 4 5 6 7
 extra damage from Holy Light 20% 30% 40% 50%
 debuff duration 3 4 5 6
@@ -56,7 +56,7 @@ mana cost 90 110 130 150 plus 1% of max mana
 cooldown 7
 
 talent level 10 upgrade Flaming Strike
-increase burn scaling by 10%
+increase burn scaling by 6%
 increase armor lost by 2
 remove mana cost
 
