@@ -119,9 +119,9 @@ all healing Spell of allys on Davion by 15% and make them refund 50% of their ma
 ULTIMATE R DEUS VULT
 Davion Scream out his Battle Cry fearing both enemys and allys around Davion, enemys will take insane damage and take extra damage,
 allys will only get fear and Davion will have insane Power from the gods, this spell got a very long cooldown and when Davion use
-any of his basic spell the cooldown will lower by 3, DEUS VULT INFIDEL.
+any of his basic spell the cooldown will lower by 2, DEUS VULT INFIDEL.
 
-damage 100 200 300 plus 150% of Davion inteillgence and strenght
+damage 145 185 225 plus 120% of Davion inteillgence and strenght
 extra damage 30% 50% 70%
 fear and extra damage duration for enemys 3 4 5 seconds half on bosses
 Fear duration for allys 2 2.5 3
@@ -144,6 +144,6 @@ add a new modifier HOLY LAND
 when Davion cast DEUS VULT he will create a HOLY LAND of 1500 radius damaging any enemys by 20% of DEUS VULT total damage every 3 second
 and any allys that enter the HOLY LAND will get heal by 3% of their max healt every 1.5 second, 5% for Davion and also increasing their
 spell amp and attack damage by 50% of DEUS VULT bonus that Davion gets, when on cooldown Davion will have 30% cooldown reduction for his
-basic spell and making DEUS VULT have no benefit from cooldown reduction source.
+basic spell and making DEUS VULT have no benefit from cooldown reduction source. the HOLY LAND last 15 second
 
 
