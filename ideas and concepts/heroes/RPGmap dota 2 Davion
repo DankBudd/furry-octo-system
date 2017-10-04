@@ -103,3 +103,47 @@ base armor bonus 12%
 armor bonus 1 3 5 7
 increase attack damage by 1 2 3 4 for every point of armor
 attack speed lost 15 25 35 45
+
+talent level 20 upgrade Holy Gear
+increase heal by 20
+increase chance by 5%
+increase bonus armor by 3
+
+add a new modifier In the Name of God
+all spell or attack that deal more than 15% of Davion max health, those enemys will suffer 8% of their max health in damage, 1% for
+bosses and Davion will become Ascended reducing all PURE damage by 50% and making his spell deal PURE damage with 25% increase damage
+and removing all debuff, the buff last 5 second and if proc again, refresh the duration and increase it by 2 second extra. Also increase
+all healing Spell of allys on Davion by 15% and make them refund 50% of their mana cost if casted on Davion.
+
+
+ULTIMATE R DEUS VULT
+Davion Scream out his Battle Cry fearing both enemys and allys around Davion, enemys will take insane damage and take extra damage,
+allys will only get fear and Davion will have insane Power from the gods, this spell got a very long cooldown and when Davion use
+any of his basic spell the cooldown will lower by 3, DEUS VULT INFIDEL.
+
+damage 100 200 300 plus 150% of Davion inteillgence and strenght
+extra damage 30% 50% 70%
+fear and extra damage duration for enemys 3 4 5 seconds half on bosses
+Fear duration for allys 2 2.5 3
+bonus attack damage 40% 80% 120%
+bonus spell amp 25% 50% 75%
+bonus health regeneration 30 60 90
+bonus damage reduction 10% 20% 30%
+buff duration 6 7 8
+radius 1000
+mana cost 30% 40% 50% of max mana
+cooldown 180 160 140
+
+talent level 40 upgrade DEUS VULT
+increase damage by 100
+increase fear duration for both by 1
+increase health renegeration by 60
+increase buff duration by 1
+
+add a new modifier HOLY LAND
+when Davion cast DEUS VULT he will create a HOLY LAND of 1500 radius damaging any enemys by 20% of DEUS VULT total damage every 3 second
+and any allys that enter the HOLY LAND will get heal by 3% of their max healt every 1.5 second, 5% for Davion and also increasing their
+spell amp and attack damage by 50% of DEUS VULT bonus that Davion gets, when on cooldown Davion will have 30% cooldown reduction for his
+basic spell and making DEUS VULT have no benefit from cooldown reduction source.
+
+
