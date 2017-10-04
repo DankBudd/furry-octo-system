@@ -1,11 +1,11 @@
 DOTA 2 -- dragon knight, Tank, medium damage dealer, self-healer
 
-Stats inteillgence 7, agility 1, strenght 9, base damage 11, movespeed 300, starting item Rusted sword gives 2 damage and 5 attack speed
-1.85 BAT --- INT 0.90 STR 1.20 AGI 0.50
+Stats inteillgence 7, agility 1, strenght 9, base damage 8, movespeed 300, starting item Rusted sword gives 2 damage and 5 attack speed
+1.85 BAT --- INT 1.00 STR 1.20 AGI 0.50
 
 Passive D OR F Crusader of Fire
 give a positive and negative buff, pressing alt will show talent level 20 and level 25 talent for this passive
-BUFF, Davion gets 20% increase inteillgence and strenght he also gets 10% PURE damage resist and every 5 attacks he does, he will heal
+BUFF, Davion gets 25% increase inteillgence and strenght he also gets 10% PURE damage resist and every 5 attacks he does, he will heal
 him self for 3% of his max health, can only happen every 4 seconds, he also start with 2 armor and 5% magic resist and he got a special
 shield that scale with is level, also agility will give 2 movement speed instead of giving 1.
 DEBUFF, Davion will do 20% less damage versus bosses and he lose 15% attack damage and agility will not give any attack speed, he takes
@@ -19,11 +19,11 @@ SPELL Q Holy Light
 Davion can heal himself or damage any enemys for medium amount of damage, Davion will get increase healing from others and more from
 Holy Light and enemys Smited by Holy light will take extra damage from Davion spells
 
-Heal 40 80 120 160 plus 35% 70% 105% 140% of Davion strenght magical
+Heal 40 80 120 160 plus 35% 70% 105% 140% of Davion inteillgence and strenght magical
 increase healing from other source 9% 16% 23% 30%
 increase healing from Holy Light 15% 30% 45% 60%
 buff duration 14 seconds
-damage 12 15 18 21 plus 15% 21% 27% 33% of Davion strenght
+damage 12 15 18 21 plus 15% 21% 27% 33% of Davion inteillgence and strenght
 extra damage taken from Davion spell 10% 15% 20% 25%
 increase extra damage taken by 1% for every 14 strenght and inteillgence
 debuff duration 5 second
