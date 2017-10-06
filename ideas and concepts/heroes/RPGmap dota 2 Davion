@@ -25,6 +25,11 @@ DEBUFF, Davion will do 20% less damage versus bosses and he lose 15% attack dama
 50% more damage from magical and 25% more damage from physical any health damage type will stun Davion for 0.4 second and deal 1% of his
 max health in extra damage to him and attack speed debuff will have 100% increase duration on him as well.
 
+Shield of God
+health bonus 160 increase by 16 every level
+Davion got 14% to block 20% plus 0.5% per level, of the damage he takes
+Davion got 12% chance to bash the target with his shield dealing 15 plus 1 damage per level and stun them for 0.7 second
+
 SPELL Q Holy Light
 Davion can heal himself or damage any enemys for medium amount of damage, Davion will get increase healing from others and more from
 Holy Light and enemys Smited by Holy light will take extra damage from Davion spells, refresh the duration of the buff if casted on
@@ -33,7 +38,7 @@ self again.
 Heal 50 70 90 110 plus 35% 70% 105% 140% of Davion inteillgence and strenght magical
 increase healing from other source 9% 16% 23% 30%
 increase healing from Holy Light 15% 30% 45% 60%
-buff duration 14 seconds
+buff duration 16 15 14 13 seconds
 damage 12 15 18 21 plus 15% 21% 27% 33% of Davion inteillgence and strenght
 extra damage taken from Davion spell 10% 15% 20% 25%
 increase extra damage taken by 1% for every 14 strenght and inteillgence
