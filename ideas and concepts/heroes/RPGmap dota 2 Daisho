@@ -40,7 +40,7 @@ will not go away when Daisho is invisible and Wind Walk cannot Crit with Divine 
 damage bonus on attack 10 25 40 55
 attack speed bonus after attack 25 40 55 70
 movement speed bonus when invisible 15% 20% 25% 30%
-True Strike chance 8% 12% 16% 20%
+True Strike chance 14% 16% 18% 20%
 Futher increase damage 10 30 50 70
 stun duration 1 1.2 1.4 1.6
 Wind Walk duration 6 8 10 12
@@ -68,7 +68,7 @@ having reduce damage and stacking with other Image and Daisho after they die, Th
 mana to him, The refund mana only works if the Image dies from enemys and not affected by casting Mirror Image again and he can also
 dodge any type of damage while doing Mirror Image. This spell got a very Low cooldown and having Increase mana cost every time
 
-Image damage taken 400% 370% 340% 310%
+Image damage taken 450% 420% 390% 360%
 Image damage done 12% 15% 18% 21%
 Image BladeStorm damage 10% 12% 14% 16%
 Amount of Image 2 2 3 3
@@ -80,7 +80,7 @@ Mana cost increase duration 11 second
 cooldown 2 second
 
 talent level 10 upgrade Mirror Image
-reduce Image damage taken by 50%
+reduce Image damage taken by 60%
 increase Image damage done by 5%
 increase base mana cost by 90
 remove the mana cost increase
@@ -108,7 +108,7 @@ mana cost 95 125 155 185
 cooldown 4 the cooldown stay freeze while in BladeStorm
 
 talent level 15 Upgrade BladeStorm
-increase agility scaling by 5%
+increase agility scaling by 8%
 reduce the damage every second by 0.1
 increase the duration by 0.6
 increase magic resist bonus by 15%
