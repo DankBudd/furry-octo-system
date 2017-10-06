@@ -27,9 +27,12 @@ increase movement speed by 25 FLAT increase by 1 every level
 also make agility and inteillgence give 1 life per points and strenght with agility giving 1 mana
 
 talent level 25 upgrade Lightning God
-add a new modifier Pure Lightning
-all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back
-they also give him 5 base damage that stack up to 30 last 10 second refresh every time Zet cast a spell
+add a new modifier Mana Lightning
+all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back his ultimate also make spell cost no mana
+they also give him 10 base damage that stack up to 60 last 5 second refresh every time Zet cast a spell and his mana will become a mana
+shield that absorb 100% of the damage into the mana, if zet run out of mana he will not be able to regenerate mana for 4 second and
+after the duration end of the debuff Zet will gain 15% mana back.
+
 
 SPELL Q
 Lightning Arc
