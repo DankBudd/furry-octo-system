@@ -32,11 +32,11 @@ give a positive and negative buff
 
 BUFF invoker will gain 1% spell amp for every 8 inteillgence instead of 10 he also gain 1 more life from strenght and gain 5 more mana
 from inteillgence and silence will only last 50% of their duration on Invoker and after the silence end he will gain magic immune for 1.5
-second. Invoker also make his Exort Quas and Wex deal 1% bonus damage base of his max mana he got and he also start with a Elemental Orb
+second. Invoker also make his Exort Quas and Wex deal 0.5% bonus damage base of his max mana he got and he also start with a Elemental Orb
 that cant be change
 DEBUFF invoker cannot attack and he doenst gain any agility per level he also take 150% more damage from physical and 60% from pure
 any roots on him will last 0.5 second longer and damage him for 2% of his Health for every 0.5 second, Strenght doesnt give any
-Regeneration and inteillgence doesnt give mana regeneration as well, items also get 50% reduce stats on Invoker but not the Elemental Orb
+Regeneration and inteillgence doesnt give mana regeneration as well, items also get 40% reduce stats on Invoker but not the Elemental Orb
 
 
 Elemental Orb Special item
@@ -116,15 +116,16 @@ chance to cast a new Lightning Bolt if they die dealing only 50% of its damage a
 PASSIVE D OR F Element Mastery
 Invoker will alway start with a level inside of this passive, increase invoker Exort, Quas and Wex power for every stack of them
 after getting 3 Stack of any Orbs he will gain a random ULTIMATE loseing them and not gaining any new one before he cast his ult
-his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery. to level this passive again he must be 5 12 21
+his ULTIMATE will still get the bonus from the 3 Orbs from Element Mastery. to level this passive again he must be 7 14 21,
+this skill can be use to remove the current orb invoker got around him.
 
 increase the damage from Exort spell by 8% 11% 14% 17% for every Stacks
 increase the damage from Quas spell by 5% 7% 9% 11% for every Stacks
 increase the damage from Wex spell by 13% 17% 21% 25% for every Stacks
-increase Exort spell debuff duration by 0.4 0.7 1 1.3 for every Stacks
-increase Quas spell debuff duration by 0.3 0.7 1.1 1.5 for every Stacks
-increase Wex spell debuff duration by 0.2 0.5 0.8 1.1 for every Stacks
-orb stack will last 90 120 150 180 seconds
+increase Exort spell buff, debuff duration by 0.4 0.7 1 1.3 for every Stacks
+increase Quas spell buff, debuff duration by 0.3 0.7 1.1 1.5 for every Stacks
+increase Wex spell buff, debuff duration by 0.2 0.5 0.8 1.1 for every Stacks
+orb will last 50 seconds each
 
 Talent level 15 upgrade Element Mastery
 increase all damage bonus from Exort Quas and Wex by 5%
@@ -133,14 +134,14 @@ increase all duration bonus from Exort Quas and Wex by 0.3 second
 add a new modifer Unlimited Power
 Orbs will not go away after getting 3 of them until he cast his ULTIMATE and Every cast of Exort will increase the damage of his
 ULTIMATE by 20% up to 60% max, and for every cast of Quas he will reduce the cooldown of his ULTIMATE by 9%, and for every cast of
-Wex he will Gain Phase Movement and Lightning Rush dealing 8% of the enemys max health every time he pass inside of them, 2% for bosses
-and having 30% movement speed that last 3 second, the Lightning Rush can only be done once per enemys
+Wex he will Gain Phase Movement and Lightning Rush dealing 4% of the enemys max health every time he pass inside of them, 1% for bosses
+and having 12% movement speed that last 4 second, the value increase by 100% per orb. the Lightning Rush can only be done once per enemys
 
 
 ULTIMATE R Invoke Element
 Invoker will Invoke a spell passively every time he gets 3 Orbs floating around him having 10 Spell combo with each of them having their
 own cooldown and mana cost with their effect, his ULTIMATE got 4 level alway having a first level into it, to level it up again invoker
-must be 10 25 40
+must be 6 19 30
 
 INVOKE SPELL 1
 EXORT EXORT EXORT
@@ -148,7 +149,7 @@ SUN BLAST
 deal insane pure damage and rooting with burning them taking extra damage from Exort spell after the short delay of impact
 it only get 50% increase duration on the root from Elemental Mastery
 
-damage 60 90 120 150 plus 60% of inteillgence Pure damage
+damage 60 90 120 150 plus 120% of inteillgence Pure damage
 burn damage 11 14 17 20 plus 25% of inteillgence magical damage every second
 root duration 0.5 0.9 1.3 1.7 
 extra damage from Exort spell 20% 30% 40% 50%
@@ -156,7 +157,7 @@ debuff duration for burn and extra damage 2.4
 radius 250 300 350 400
 delay for impact 1.7 1.6 1.5 1.4
 mana cost 100 250 400 550
-cooldown 40 35 30 25
+cooldown 20
 
 INVOKE SPELL 2
 QUAS QUAS QUAS
@@ -164,7 +165,7 @@ ICE FLOOR
 deal small damage per second slowing attack speed and movement speed with increase their turn rate with cast time increase the Ice Floor
 will increase in size the longer its channel up to double its size
 
-damage per 0.5 second 4 6 8 10 plus 7% inteillgence Pure damage
+damage per 0.5 second 4 6 8 10 plus 12% inteillgence Pure damage
 attack speed lost 2 3 4 5 every time they get damage
 max attack speed lost 20 30 40 50
 movement speed lost 3 6 9 12 FLAT
@@ -172,27 +173,27 @@ max movement speed lost 30 60 90 120
 turn rate increase 20% 35% 50% 65%
 increase cast time 20% 30% 40% 50%
 radius 300 400 500 600
-every 1 second of channel increase the size by 15% up to 120%
+every 1 second of channel increase the size by 15% up to 120% 150% 180% 210%
 Channel time last until stop or silence and stun 
 mana cost 10 30 50 70 per second of channel
-cooldown 70 60 50 40
+cooldown 25
 
 INVOKE SPELL 3
 WEX WEX WEX
 ELECTRIC WAVE
 send out a wave of pure Lightning stuning all enemys and damaging them with reducing their physical armor as well Electric Wave also
-got a small chance to do Unstable Shock casting a Wex on the enemys that deal increase damage, it only get 40% increase duration on the
+got a small chance to do Unstable Shock casting a Wex on the enemys that deal increase damage, it only get 25% increase duration on the
 stun from Elemental Mastery
 
-damage 1-20 2-60 3-100 4-140 plus 60% of inteillgence physical damage
+damage 10-30 40-60 70-90 100-120 plus 60% of inteillgence physical damage
 stun duration 0.5 1 1.5 2
 armor reduction 7 9 11 13
-chance for Unstable Shock 30% 40% 50% 60%
+chance for Unstable Shock 65%
 Wex increase damage 10% 30% 50% 70% on Unstable Shock
 radius of the wave 600 630 660 690
 wave max travel 900 950 1000 1050
 mana cost 200 300 400 500
-cooldown 75 70 65 60
+cooldown 35
 
 INVOKE 4
 EXORT EXORT QUAS
@@ -256,7 +257,7 @@ radius needed for spreading 300
 second needed for spreading 3 2.8 2.6 2.4
 can spread again on the same target refreshing the duration
 mana cost 150 200 250 300
-cooldown 50 40 30 20
+cooldown 44 40 36 32
 
 INVOKE 8
 WEX WEX EXORT
@@ -290,7 +291,7 @@ duration of pillar 2 2.5 3 3.5
 radius 400 450 500 550
 increase radius by 5% every 0.2 second
 mana cost 50 70 90 110
-cooldown 60 55 50 45
+cooldown 50 40 30 20
 
 INVOKE 10
 EXORT QUAS WEX
@@ -299,7 +300,7 @@ deal Pure, Magical and physical damage to the enemys increasing the damage they 
 and reduce magic resist, Quas will reduce attack speed and increase damage taken from pure damage and Wex will reduce armor and disarm
 them. Elemental Blast does Area of Effect in a target Location
 
-damage 50 110 160 210 plus 100% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
+damage 50 110 160 210 plus 180% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
 increase damage from Quas,Exort,Wex 30% 60% 90% 120%
 Burn damage 5 10 15 20 plus 30% of inteillgence per second magical damage
 magic resist lost 7% 14% 21% 28%
@@ -310,7 +311,7 @@ Disarm Target
 debuff duration 3 4 5 6
 area of effect 350 500 650 800
 mana cost 25% 30% 35% 40% of max mana
-cooldown 170 150 130 110
+cooldown 90 80 70 60
 
 
 talent level 25 Upgrade Invoke Element
