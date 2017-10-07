@@ -18,7 +18,7 @@ PASSIVE D OR F
 Gravity Lord
 give a positive and negative buff, Pressing ALT will give INFO for Enigma level 20 talent and level 25 talent for this passive
 
-BUFF enigma spell will do 1 pure bonus damage for every 16 inteillgence and he will gain 1% spell amp for every 150 current mana and any 
+BUFF enigma spell will do 1 pure bonus damage for every 10 inteillgence and he will gain 1% spell amp for every 120 current mana and any 
 slows Enigma takes will grant him a speed boost instead of slowing him and increasing their duration by 1 second he also gain 1% life
 per level gaining 1% size as well enigma will have a Special Gravity Wand that scale per level and he cannot change it
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
@@ -38,7 +38,7 @@ VOID CURSE deal 40% more damage and lower the cooldown by 9
 GRAVITY WELL increase duration by 3 and lower the cooldown by 8
 GRAVITY BOLT deal pure damage instead and increase damage by 150%
 also make those 3 spell of enigma deal 0.7% of the enemy max life as damage -dont work for bosses-
-cooldown for this empower 35 second cannot get bonus from cooldown reduction
+cooldown for this empower 25 second cannot get bonus from cooldown reduction
 
 SPELL Q level
 Void Curse
