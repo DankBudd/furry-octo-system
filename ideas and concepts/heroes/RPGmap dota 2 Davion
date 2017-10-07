@@ -16,7 +16,7 @@ make Davion Holy Heal deal 1.2% of the target max health 0.3% for bosses and red
 4 inteillgence, also increase his attack speed by 35.
 
 
-Passive D OR F Crusader of Fire
+Passive D OR F Volcanic Crusader
 give a positive and negative buff, pressing alt will show talent level 20 and level 25 talent for this passive
 BUFF, Davion gets 25% increase inteillgence and strenght he also gets 10% PURE damage resist and every 5 attacks he does, he will heal
 him self for 3% of his max health, can only happen every 4 seconds, he also start with 2 armor and 5% magic resist and he got a special
@@ -25,10 +25,20 @@ DEBUFF, Davion will do 20% less damage versus bosses and he lose 15% attack dama
 50% more damage from magical and 25% more damage from physical any health damage type will stun Davion for 0.4 second and deal 1% of his
 max health in extra damage to him and attack speed debuff will have 100% increase duration on him as well.
 
+talent level 40 upgrade Volcanic Crusader
+add a new modifer Champion of Light and Fire
+increase Davion health by 15% of his max mana, when Davion cast Holy Light and Divine Shield, he will gain 7 armor and 12% magic resist
+with 8% spell amp and reduce their cooldown by 25% with their mana cost by 40% and the buff last 7 seconds, when the buff ends, it will
+explode into a Ray of Light infront of Davion 300 radius and 700 range healing allys by 70 plus 8% of their max health, davion will get
+heal for 160 instead, and if he cast Flaming Strike he will reduce his Base attack time by 0.6 and gain 12% damage reduction, the buff
+last 4 second and after it ends, davion will get heal for 45% of the damage he dealt durring the buff duration
+
+
 Shield of God
-health bonus 160 increase by 16 every level
-Davion got 14% to block 20% plus 0.5% per level, of the damage he takes
-Davion got 12% chance to bash the target with his shield dealing 15 plus 1 damage per level and stun them for 0.7 second
+health bonus 160 increase by 16 every levels
+mana bonus 80 increase by 8 every levels
+Davion got 25% to block 20% plus 0.5% per level, of the damage he takes
+Davion got 14% chance to bash the target with his shield dealing 20 plus 1 damage per level and stun them for 0.7 second
 
 SPELL Q Holy Light
 Davion can heal himself or damage any enemys for medium amount of damage, Davion will get increase healing from others and more from
