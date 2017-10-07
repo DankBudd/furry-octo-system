@@ -1,4 +1,4 @@
-Sven The Angry Swordman Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 12, Stats gain 1.10 str, 0.70 int, 0.30 agi
+Sven Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 12, Stats gain 1.10 str, 0.70 int, 0.50 agi
 
 TALENT LEVEL 20
 
@@ -21,7 +21,7 @@ type he also lose 0.8% of his max health for any type of magical damage and atta
 his attack speed by 20 for 3 second
 
 Sven old Sword Special
-increase damage 3
+increase damage by 3
 reduce attack speed by 8
 lifesteal for 7% of the damage done with spell and basic attack
 cleave for 10% of the damage done in front of sven by 320
