@@ -7,12 +7,13 @@ all hero will have 100 life and 100 mana base start
 Strenght
 life 5
 life regeneration 0.04
-life 1% for every 10 point of str
+life 1% for every 20 point of str
 
 Agility
 attack speed 0.50
 movement speed 1
-damage 1% for every 10 point of agility
+damage 1% for every 15 point of agility
+reduce Base attack time by 0.01 for every 25 agility
 
 
 Intelligence
