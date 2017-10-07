@@ -27,11 +27,12 @@ max health in extra damage to him and attack speed debuff will have 100% increas
 
 talent level 40 upgrade Volcanic Crusader
 add a new modifer Champion of Light and Fire
-increase Davion health by 15% of his max mana, when Davion cast Holy Light and Divine Shield, he will gain 7 armor and 12% magic resist
-with 8% spell amp and reduce their cooldown by 25% with their mana cost by 40% and the buff last 7 seconds, when the buff ends, it will
+increase Davion health by 25% of his max mana, when Davion cast Holy Light and Divine Shield, he will gain 9 armor and 18% magic resist
+with 14% spell amp and reduce their cooldown by 25% with their mana cost by 40% and the buff last 5 seconds, when the buff ends, it will
 explode into a Ray of Light infront of Davion 300 radius and 700 range healing allys by 70 plus 8% of their max health, davion will get
-heal for 160 instead, and if he cast Flaming Strike he will reduce his Base attack time by 0.6 and gain 12% damage reduction, the buff
-last 4 second and after it ends, davion will get heal for 45% of the damage he dealt durring the buff duration
+heal for 160 instead, and if he cast Flaming Strike he will reduce his Base attack time by 0.65 and gain 12% damage reduction, the buff
+last 5 second and after it ends, davion will get heal for 45% of the damage he dealt durring the buff duration, this can only proc every
+15 second
 
 
 Shield of God
