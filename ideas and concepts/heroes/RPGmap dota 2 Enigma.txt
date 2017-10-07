@@ -78,7 +78,7 @@ debuff duration 3 second
 chance for roots or stuns 20%
 root duration 0.6 0.9 1.2 1.5
 stun duration 0.5 0.6 0.7 0.8
-Base Radius 400 425 450 475
+Base Radius 425 450 475 500
 Increase the radius by 50% 70% 90% 110% of Enigma Inteillgence
 Cooldown 28 25 22 19
 Mana cost 160 200 240 280 plus 2% of max mana
@@ -86,14 +86,29 @@ Mana cost 160 200 240 280 plus 2% of max mana
 talent level 10 Upgrade Gravity Well
 increase damage by 10
 increase the base radius by 200
-reduce cooldown by 2
+reduce cooldown by 1
 increase chance for roots and stuns by 5%
-mana cost reduce by 40
+mana cost reduce by 110
 
 add a new modifier Void Gate
-now spawn 3 Eidolons they have 50% of engima life and 100% of engima damage with 1.90 BAT they last
-60 second, only 6 Eidolons can be alive if here is more than 6 the others will die replacing them
-and any enemys inside of Gravity Well will take 15% more damage from enigma spell, Gravity Well gets 30% increase instead
+When enemys die under the effect of Gravity Well they will be turn into Eidolons that cannot be controll and follow enigma around
+they also have a small chance to create a smaller version of Gravity Well that got 40% of the total damage from it, also make enigma
+spell do 20% more damage to enemys affected by Gravity Well and when they die, enigma will regain 0.7% missing mana back, the eidolons
+last 18 seconds
+
+EIDOLONS STATS
+health 65% of enigma
+attack range 375
+Base attack time 1.80
+attack damage 12-20 plus 20% of enigma inteillgence
+increase their attack speed by 30% of enigma inteillgence
+movespeed 345
+
+PASSIVE Growing Void
+the Eidolons will increase their damage by 3% every second they live and their attack will have 20% chance to cast a smaller version
+of Gravity Well dealing 40% of the total damage from it with 35% of the radius as well, those will last 3 second and damaging every
+1.5 second, note that those smaller Gravity Well will not root or stun enemys.
+
 
 SPELL E level
 Gravity Bolt
