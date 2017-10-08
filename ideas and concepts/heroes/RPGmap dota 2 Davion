@@ -18,7 +18,7 @@ make Davion Holy Heal deal 1.2% of the target max health 0.3% for bosses and red
 
 Passive D OR F Volcanic Crusader
 give a positive and negative buff, pressing alt will show talent level 20 and level 25 talent for this passive
-BUFF, Davion gets 25% increase inteillgence and strenght he also gets 10% PURE damage resist and every 5 attacks he does, he will heal
+BUFF, Davion gets 15% increase inteillgence and strenght he also gets 10% PURE damage resist and every 5 attacks he does, he will heal
 him self for 3% of his max health, can only happen every 4 seconds, he also start with 2 armor and 5% magic resist and he got a special
 shield that scale with is level, also agility will give 2 movement speed instead of giving 1.
 DEBUFF, Davion will do 20% less damage versus bosses and he lose 15% attack damage and agility will not give any attack speed, he takes
@@ -30,9 +30,9 @@ add a new modifer Champion of Light and Fire
 increase Davion health by 25% of his max mana, when Davion cast Holy Light and Divine Shield, he will gain 9 armor and 18% magic resist
 with 14% spell amp and reduce their cooldown by 25% with their mana cost by 40% and the buff last 5 seconds, when the buff ends, it will
 explode into a Ray of Light infront of Davion 300 radius and 700 range healing allys by 70 plus 8% of their max health, davion will get
-heal for 160 instead, and if he cast Flaming Strike he will reduce his Base attack time by 0.65 and gain 12% damage reduction, the buff
+heal for 160 instead, and if he cast Flaming Strike he will reduce his Base attack time by 0.75 and gain 12% damage reduction, the buff
 last 5 second and after it ends, davion will get heal for 45% of the damage he dealt durring the buff duration, this can only proc every
-15 second
+10 second
 
 
 Shield of God
@@ -129,7 +129,8 @@ Heal chance 19% 21% 23% 25%
 base armor bonus 12%
 armor bonus 1 3 5 7
 increase attack damage by 1 2 3 4 for every point of armor
-attack speed lost 15 25 35 45
+max damage gain from armor 30 60 90 120
+attack speed lost 15 30 45 60
 
 talent level 20 upgrade Holy Gear
 increase heal by 20
@@ -137,8 +138,8 @@ increase chance by 5%
 increase bonus armor by 3
 
 add a new modifier In the Name of God
-all spell or attack that deal more than 14% of Davion max health, those enemys will suffer 8% of their max health in damage, 1% for
-bosses and Davion will become Ascended reducing all PURE damage by 50% and making his spell deal PURE damage with 25% increase damage
+all spell or attack that deal more than 10% of Davion max health, those enemys will suffer 5% of their max health in damage, 1% for
+bosses and Davion will become Ascended reducing all PURE damage by 50% and making his spell deal PURE damage with 40% increase damage
 and removing all debuff, the buff last 5 second and if proc again, refresh the duration and increase it by 1 second extra. Also increase
 all healing Spell of allys on Davion by 15% and make them refund 50% of their mana cost if casted on Davion.
 
@@ -159,7 +160,7 @@ bonus damage reduction 10% 20% 30%
 buff duration 6 7 8
 radius 1000
 mana cost 30% 40% 50% of max mana
-cooldown 180 160 140
+cooldown 170 150 130
 
 talent level 40 upgrade DEUS VULT
 increase damage by 100
