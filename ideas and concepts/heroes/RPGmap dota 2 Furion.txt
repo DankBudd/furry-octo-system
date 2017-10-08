@@ -129,7 +129,8 @@ life regeneration by -5 for 3 second total and if any flowers dies they will hea
 PASSIVE D OR F
 Nature Mastery
 Increase the stats of the Treant Guard and passively give Furion movement speed and also give him a chance to reduce the cooldown of
-his basic spell by 50% upon casting and having them cost 0 mana with heal, items also get the healing increase but 50% lower chance
+his basic spell by 50% upon casting and having them cost 35% less mana, Spell that heal will get increase healing effect when the
+empower Trigger, items will have 50% reduce chance to Trigger the empower.
 
 Increase Treant life by 11% 22% 33% 44%
 Increase the base damage of treant by 1 3 5 7
@@ -157,14 +158,12 @@ Gift of Verodicia
 summon the mighty Ancient of War to fight for your side and destroy any foes that are in your way that scale
 with your intelligence for damage,life and mana also come with 2 spell and passive
 
-Life 150 300 450 plus 200% of int
-mana 200 300 400 plus 150% of int
-damage 13-20 23-30 33-40 plus 15% of int
-base attack time 2.30 2.20 2.10
+Life 150 300 450 plus 200% 400% 600% of int
+mana 200 300 400 plus 150% 200% 250% of int
+damage 13-20 23-30 33-40 plus 15% 20% 25% of int
+base attack time 2.30 2.10 1.90
 armor 3 5 7
 magic resist 10% 20% 30%
-mana-regen 2 4 6
-life-regen 1 3 5
 
 SPELL 1
 Slam the Ground kocking enemy away and stuning them for 1 1.5 2 second dealing 40 70 100 pure damage plus 3% of is max life
