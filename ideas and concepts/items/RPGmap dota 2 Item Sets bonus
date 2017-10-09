@@ -19,12 +19,12 @@ increase evasion by 10%
 increase Pure resist by 15%
 increase movespeed by 20%
 increase attack speed by 30
-reduce cast time from spell by 20%
+reduce cast point time on spell by 25%
 
 also give modifier to the user
-Basic attack and Spell Q will do WIND DAMAGE, wind damage does 50% Physical and 50% Pure damage, spell and basic attack will have 10% chance
-to Tornado the target lifting them for 1.5 second when they land, they will take 40 plus 15% of the user Primary stats into 50% physical and 
-50% pure damage, Lifted units can still be damage but for 15% less damage from other people but the user of the set and others that have it
+Basic attack and Spell Q will do WIND DAMAGE, wind damage does 75% Physical and 25% Pure damage, spell and basic attack will have 10% chance
+to Tornado the target lifting them for 1.5 second when they land, they will take 22 plus 15% of the user Primary stats into 60% physical and 
+40% pure damage, Lifted units can still be damage but for 15% less damage from other people but the user of the set and others that have it
 
 
 
