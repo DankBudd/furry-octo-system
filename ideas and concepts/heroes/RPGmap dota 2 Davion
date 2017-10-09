@@ -72,19 +72,20 @@ become a Fire Crusade becoming immune to all slow and having 12% damage reductio
 
 SPELL W Flaming Strike
 Davion strike the enemys dealing damage base on Davion max health and burning them for small damage and reducing their armor and taking
-extra damage from Holy Light, enemys will take 12% 16% 20% 24% increase damage from Holy Fire talent level 10
+extra damage from Holy Light, enemys will take 12% 16% 20% 24% increase damage from Holy Fire talent level 10, reduce this spell cooldown
+by 0.2 every time davion attack or cast spells
 
 Max Health into damage 3% Physical damage
 burn damage 3 5 7 9 plus 8% 10% 12% 14% of Davion inteillgence and strenght every 0.5 second physical
 armor lost 4 5 6 7
 extra damage from Holy Light 20% 30% 40% 50%
 debuff duration 2.5 3 3.5 4
-mana cost 90 110 130 150 plus 1% of max mana
+mana cost 30 45 60 75 plus 1% of max mana
 cooldown 10
 
 talent level 10 upgrade Flaming Strike
 increase burn scaling by 6%
-increase armor lost by 2
+increase armor lost by 3
 remove mana cost
 
 add a new modifier Burning Light
