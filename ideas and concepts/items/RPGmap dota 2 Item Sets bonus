@@ -84,7 +84,8 @@ also give a modifier to the user
 all spell that you deal magical attack will have 50% reduce damage and all physical spell will deal bleeding bonus damage on the target,
 dealing 24 plus 15% of strenght and agility in damage every 0.5 second for 5 second, the bleed damage will have 8% reduce damage every
 tick of damage dealing less damage in return, and all magical attack taken will heal the user for 35% of the damage taken and allys
-near him of 500 radius will be heal for 10% of the damage he takes, the blood damage is physical,
+near him of 500 radius will be heal for 10% of the damage he takes, the blood damage is physical and the bleed damage cannot go lower
+than dealing 11 damage per second
 
 
 
