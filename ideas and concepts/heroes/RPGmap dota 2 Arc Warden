@@ -170,10 +170,10 @@ cooldown 90 70 50
 
 talent level 25 upgrade Pure Energy
 remove cooldown
-reduce mana cost by 75
+increase mana cost by 105
 
 add a new modifier Unstable Being
 LIGHTNING ARC will do explosion every time it jump dealing 60% of agility as pure damage in a 400 radius, also work on Surge Strike Proc
 SURGE will be cast on all party member and have no penalty meaning that the talent of surge level 10 will not have any reduction on ally
-VOLT SHIELD now gain 50% increase damage from all the armor and magic resist Zet got and also incresing Zet Pure damage reduction by 50%
+VOLT SHIELD now gain 65% increase damage from all the armor and magic resist Zet got and also incresing Zet Pure damage reduction by 50%
 
