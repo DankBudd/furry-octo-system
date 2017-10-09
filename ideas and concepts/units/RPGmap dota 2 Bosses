@@ -2,11 +2,11 @@ BOSS Wasuro Level 5 -xp gain 40% bonus
 STATS
 range Melee
 BAT 1.80
-life 1300/1300
+life 2500/2500
 mana 500/500
-damage 11-25
-armor 3
-magic resist 15%
+damage 11-45
+armor 5
+magic resist 20%
 life regeneration 1.7
 mana regeneration 2
 
@@ -42,10 +42,10 @@ BOSS Zol Level 16 -xp gain 70% bonus
 STATS
 range 350
 BAT 1.95
-life 4700/4700
+life 7700/7700
 mana 1000/1000
-damage 40-78
-armor 8
+damage 70-118
+armor 13
 magic resist 25%
 life regeneration 3.8
 mana regeneration 4.5
