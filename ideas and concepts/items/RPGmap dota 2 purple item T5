@@ -72,29 +72,17 @@ attack speed limit bonus 50
 attack speed 100
 
 
-Thul Essence --will be a later boss item--
-Increase the user Agility and Strenght With damage, Also Empower SPELL E of any Hroes making it even Stronger
-
-Passive Item Use
-SPELL E will deal 60% pure, 20% magical, 20% physical and increasing its damage by 25%, if the SPELL E deal only Pure damage it will get
-45% increase damage bonus again and will only do Pure damage and not physical and magical
-
-agility 15
-strenght 15
-damage 20
-
-
 Dark Reef Water
 increase the user Primary stats but lose health every seconds and can be use to deal 50% of all the health lost into damage for a single
 target
 
 Passive item use
-the user will lose 3.2% health per second cannot lose health per second when below 20% health
+the user will lose 3% health per second cannot lose health when below 50% health
 
 Active item use
 deal 50% of the health taken away by Dark Reef Water into magic damage cap damage is 80% of the user max health
 
-Primary start increase by 35
+Primary stat increase by 35
 
 
 Medieval Artillery
