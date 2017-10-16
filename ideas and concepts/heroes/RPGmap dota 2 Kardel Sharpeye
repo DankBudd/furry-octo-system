@@ -2,6 +2,10 @@ DOTA 2 -- Sniper, High DSP, High Damage, low CC -- Kardel Sharpeye
 
 Stats inteillgence 5, agility 8, strenght 1, base damage 10, movespeed 300, 1.90 BAT --- INT 0.90 STR 0.40 AGI 1.30
 
+quick note for this
+sniper will have more than 6 spell, he will his other spell by changing his mode of attack from his toggle passive 
+ALL of his spell will deal damage base on his total attack damage and they all deal PHYSICAL DAMAGE
+
 
 TALENT LEVEL 30
 
@@ -20,4 +24,31 @@ and will only give 3 health instead of 5, any armor-chest peice and helm will ha
 movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
 
 
-SPELL Q
+SPELL Q Nitro Shot AND Poison Trap
+
+NITRO
+Kardel fire a shot that deal high Area of effect damage, the first target will suffer from less damage and others will take increase
+damage, the primary target will get blind for a short duration.
+
+damage primary target 115% 125% 135% 145% of attack damage
+Area of effect damage 140% 170% 200% 230% of attack damage
+base Area of effect 325 400 475 550
+increase Area of effect by 40% of Kardel agility
+blind miss chance 35%
+blind duration 1.5 1.8 2.1 2.4
+mana cost 75 85 95 105 plus 1% of max mana
+cooldown 7
+
+POISON TRAP
+Kardel lay down a Trap made of poison, enemys that step too close to the trap will get rooted and get poison that deal medium damage,
+if they die under the effect of the poison, they will blow up making a pool of poison on the ground that deal less damage but remove
+armor while they stand inside of it, they can only be 3 trap up at the same time.
+
+Trap damage 165% of attack damage evey 0.4 seconds
+trap root duration 1.2 1.6 2 2.4 seconds
+trap trigger range 160 175 190 205
+pool damage 120% 125% 130% 135% of attack damage every 0.5 seconds
+armor reduction 2 4 6 8
+pool duration 3 4 5 6
+mana cost 150 180 210 140 plus 2% of max mana
+cooldown 2 second
