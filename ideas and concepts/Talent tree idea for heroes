@@ -43,18 +43,20 @@ level 16 talent
 increase healing amp by 15%, SPELL Q will have 6% increase healing effect for every 10% current mana up to 60% at 100% current mana.
 -
 increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
-resist by 2% for 4 second max of 14% magic resist lost.
+resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
 -
-increase damage by 12%, passive that give bonus attributes will give 4% more and every 5 kill done will increase the user damage by 2%
-and his primary stats by 1% for 4 second max of 4% bonus Attributes and 8% damage and also refresh every kill or hit
+increase damage by 12%, passive that give bonus attributes will give 4% more and every kills done will increase the user damage by 1%
+and his primary stats by 1 for 4 second max of 16 bonus Attributes and 16% damage and also refresh duration on every kill or hit.
 -
 level 19 talent
 -
-reduce all damage taken -not pure- by 10% and increase health by 300 but increase damage taken from pure damage by 35%
+reduce all damage taken -not pure- by 7% and increase health by 300 but increase damage taken from pure damage by 35%
 -
-increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 8%
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 8% and increasing attack speed
+limit by 45
 -
-increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 8%
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 8% and make magic attack spell
+vamp for 12% of the damage dealt
 -
 level 20 talent
 -
@@ -66,7 +68,7 @@ level 23 talent
 -
 increase SPELL R damage and healing by 35% and reduce its mana cost by 15%
 -
-increase SPELL Q, W, and E damage by 20% and reduce their cooldown by 8%
+increase SPELL Q, W, and E damage by 15% and reduce their cooldown by 12%
 -
 level 26 talent
 -
@@ -76,21 +78,23 @@ amp bonus and 4% more health bonus
 increase amor by 4 and attack damage by 11, this bonus increase when chosing the defensive talent at level 30 having 3 more armor and
 9 more damage bonus
 -
-increase the items Attributes bonus gain by 15% and reduce their cooldown active by 20%, also increase move speed by 8%
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75
 -
 level 26 talent
 -
-increase agility by 2% and attack speed by 3 for every items that give agility
+increase agility by 2% and attack speed by 4 for every items that give agility
 -
-increase Strenght by 2% and increase health by 50 for every items that give strenght
+increase Strenght by 2% and increase health by 30 for every items that give strenght
 -
-increase inteillgence by 2% and increase mana by 80 for every items that give inteillgence
+increase inteillgence by 2% and increase mana by 50 for every items that give inteillgence
 -
 level 29 talent
 -
-increase pure resist by 25% and reduce Damge Per Second spell duration by 15%, also reduce damage taken from non-boss units by 10%
+increase pure resist by 25% and reduce Damage Per Second spell duration by 20%, also reduce damage taken from non-boss units by 10%
 -
-increase armor 2 and magic resist by 4% increase this bonus by 1 bonus armor and 2% bonus magic resist for every 5 level above level 30
+increase armor by 2 and magic resist by 4% increase this bonus by 1 bonus armor and 2% bonus magic resist for every 5 level above level
+30
 -
 level 30 talent
 -
