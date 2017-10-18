@@ -3,9 +3,11 @@ DOTA 2 -- Sniper, High DSP, High Damage, low CC -- Kardel Sharpeye
 Stats inteillgence 5, agility 8, strenght 1, base damage 10, movespeed 300, 1.90 BAT --- INT 0.90 STR 0.40 AGI 1.30
 
 quick note for this
-sniper will have more than 6 spell, he will his other spell by changing his mode of attack from his toggle passive 
+sniper will have more than 6 spell, he will get his other spell by changing his mode of attack from his toggle passive 
 ALL of his spell will deal damage base on his total attack damage and they all deal PHYSICAL DAMAGE
 
+more note
+this talent will have smaller modifier to them instead of a big change to 1 spell
 
 TALENT LEVEL 30
 
@@ -24,31 +26,85 @@ and will only give 3 health instead of 5, any armor-chest peice and helm will ha
 movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
 
 
-SPELL Q Nitro Shot AND Poison Trap
+SPELL Q Nitro AND Poison Trap
 
 NITRO
 Kardel fire a shot that deal high Area of effect damage, the first target will suffer from less damage and others will take increase
 damage, the primary target will get blind for a short duration.
 
-damage primary target 115% 125% 135% 145% of attack damage
-Area of effect damage 140% 170% 200% 230% of attack damage
+damage primary target 125% 135% 145% 155% of attack damage
+Area of effect damage 160% 190% 220% 250% of attack damage
 base Area of effect 325 400 475 550
 increase Area of effect by 40% of Kardel agility
-blind miss chance 35%
+blind miss chance 65% 70% 75% 80%
 blind duration 1.5 1.8 2.1 2.4
 mana cost 75 85 95 105 plus 1% of max mana
-cooldown 7
+cooldown 6
 
 POISON TRAP
 Kardel lay down a Trap made of poison, enemys that step too close to the trap will get rooted and get poison that deal medium damage,
 if they die under the effect of the poison, they will blow up making a pool of poison on the ground that deal less damage but remove
-armor while they stand inside of it, they can only be 3 trap up at the same time.
+armor while they stand inside of it, they can only be 3 trap up at the same time and enemys will get 50% less root duration if they
+walk inside of another trap, this buff last 4.6 seconds
 
 Trap damage 165% of attack damage evey 0.4 seconds
 trap root duration 1.2 1.6 2 2.4 seconds
 trap trigger range 160 175 190 205
 pool damage 120% 125% 130% 135% of attack damage every 0.5 seconds
+base pool radius 125 150 175 200
+bonus pool radius 350% 500% 650% 800% of Kardel agility
 armor reduction 2 4 6 8
 pool duration 3 4 5 6
-mana cost 150 180 210 140 plus 2% of max mana
+mana cost 150 180 210 240 plus 2% of max mana
 cooldown 2 second
+
+talent level 10 upgrade NITRO and POISON TRAP
+NITRO
+increase single target damage by 35%
+increase Area of Effect damage by 50%
+reduce mana cost by 45
+POISON TRAP
+increase trap damage by 25%
+increase root duration by 0.8
+increase Pool duration by 4
+
+add a new modifier for NITRO - Black Smoke
+after Nitro land on the target it will create a Black Smoke that silence enemys that enter it and reduce thier lifesteal and spellvamp
+by 25% and also blinding them and making them have 30% chance to miss attacks, the smoke last 4 second with 625 area of effect
+
+add a new modifier for POISON TRAP - Snake Venom
+if the enemys lose more than 18% of their max health while rooted, they will get stun for 2.5 second and lose 38% base attack damage
+and also dealing 22% less damage with spells the debuff will last 6.5 second, and the Pool of Poison will become bigger every 0.1 second
+by 1% of its size up to 50% bonus size
+
+
+SPELL W Shrapnel and Metal Chains
+
+SHRAPNEL
+Kardel fire a Ball of bullets into the air and after 1.7 second of delay, random pellets will start to rain every 0.2 second dealing
+high amount of damage and mini-stuning target by 0.05 seconds for those who gets hit by them, when the 5 pellet fall it will deal
+increase damage and stun for 0.5 second and have increase Area of Effect upon landing.
+
+note: the duration is base on the amount of pellet falling
+
+damage per pellet 60% 75% 90% 105% of attack damage
+small pellets radius 90 100 110 120
+damage for the 5 pellet 130% 150% 170% 190% of attack damage
+bigger pellet radius 150 175 200 225
+amount of pellets 20 25 30 35
+Radius of Shrapnel 655
+mana cost 100 160 220 280 plus 1% of max mana
+cooldown 22 21 20 19
+
+METAL CHAINS
+Kardel put some chains made of metal into his gun after 1.3 second of putting them into the chamber, he will fire them off 2 2 3 3 random
+target in the Area of Effect around Kardel, dealing medium damage and slowing them and all of Kardel spell will have increase damage
+on target affected by the slow of Metal Chain.
+
+damage 80% 110% 140% 170% of attack damage
+slow amount 14% 20% 26% 32%
+Extra damage for Spells 25% 35% 45% 55%
+slow duration 4.5 4.9 5.3 5.7
+area of effect 400 450 500 550
+mana cost 55 60 65 70 plus 1% of max mana
+cooldown 14
