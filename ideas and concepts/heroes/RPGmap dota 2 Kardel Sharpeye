@@ -45,7 +45,7 @@ POISON TRAP
 Kardel lay down a Trap made of poison, enemys that step too close to the trap will get rooted and get poison that deal medium damage,
 if they die under the effect of the poison, they will blow up making a pool of poison on the ground that deal less damage but remove
 armor while they stand inside of it, they can only be 3 trap up at the same time and enemys will get 50% less root duration if they
-walk inside of another trap, this buff last 4.6 seconds
+walk inside of another trap, this buff last 5 seconds
 
 Trap damage 165% of attack damage evey 0.4 seconds
 trap root duration 1.2 1.6 2 2.4 seconds
@@ -56,7 +56,7 @@ bonus pool radius 350% 500% 650% 800% of Kardel agility
 armor reduction 2 4 6 8
 pool duration 3 4 5 6
 mana cost 150 180 210 240 plus 2% of max mana
-cooldown 2 second
+cooldown 11 second
 
 talent level 10 upgrade NITRO and POISON TRAP
 NITRO
@@ -69,11 +69,11 @@ increase root duration by 0.8
 increase Pool duration by 4
 
 add a new modifier for NITRO - Black Smoke
-after Nitro land on the target it will create a Black Smoke that silence enemys that enter it and reduce thier lifesteal and spellvamp
-by 25% and also blinding them and making them have 30% chance to miss attacks, the smoke last 4 second with 625 area of effect
+after Nitro land on the target it will create a Black Smoke, enemys that enter it will have reduce lifesteal and spellvamp
+by 25% and also blinding them and making them have 30% chance to miss attacks, the smoke last 3.5 second with 575 area of effect
 
 add a new modifier for POISON TRAP - Snake Venom
-if the enemys lose more than 18% of their max health while rooted, they will get stun for 2.5 second and lose 38% base attack damage
+if the enemys lose more than 19% of their max health while rooted, they will get stun for 2.5 second and lose 38% base attack damage
 and also dealing 22% less damage with spells the debuff will last 6.5 second, and the Pool of Poison will become bigger every 0.1 second
 by 1% of its size up to 50% bonus size
 
@@ -107,4 +107,24 @@ Extra damage for Spells 25% 35% 45% 55%
 slow duration 4.5 4.9 5.3 5.7
 area of effect 400 450 500 550
 mana cost 55 60 65 70 plus 1% of max mana
-cooldown 14
+cooldown 18 17 16 15
+
+Talent level 10 Upgrade Shrapnel and Metal Chains
+SHRAPNEL
+reduce how much time they take to fall by 0.1 second
+increase amount of pellets by 10
+reduce the radius by 75
+METAL CHAINS
+increase damage by 70%
+increase slow amount by 13%
+increase the duration by 1.3 second
+
+add a new modifier For SHRAPNEL - Dance For Kardel
+Shrapnel will alway slow for 9% while they stand inside of it and when they are inside, all of Kardel Spell will gain 450 cast range
+if they are Single target and his basic attack will have 250 bonus range, Shrapnel cooldown will lower for every enemys that die inside
+of Shrapnel by 0.8 seconds and give Kardel 1% bonus attack damage and 0.6% bonus spell amp up to 15% bonus attack damage and 9% spell
+amp until he dies.
+
+add a new modifier for METAL CHAINS - Skull Hit
+
+
