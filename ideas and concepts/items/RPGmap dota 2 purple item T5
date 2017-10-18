@@ -73,17 +73,16 @@ attack speed 100
 
 
 Dark Reef Water
-increase the user Primary stats but lose health every seconds and can be use to deal 50% of all the health lost into damage for a single
+increase the user Primary stats but lose health every seconds and can be use to deal all the health lost into damage for a single
 target
 
 Passive item use
 the user will lose 3% health per second cannot lose health when below 50% health
 
 Active item use
-deal 50% of the health taken away by Dark Reef Water into magic damage cap damage is 80% of the user max health
+deal damage by the health taken away by Dark Reef Water into magic damage cap damage is 30% of the user max health
 
 Primary stat increase by 35
-
 
 Medieval Artillery
 this item is only useable for Davion others will have this item muted, increase health with strenght and reduce movespeed
@@ -99,3 +98,23 @@ of Medieval Artillery is 125 second
 health 700
 strenght 25
 reduce movespeed 90 FLAT
+
+Icy Hammer
+the user attacks and physical spell wil frosts enemys slowing their movespeed and attack speed also dealing damage everyseconds as well
+and can stack 14 times on a single enemy. useing this item will deal damage base on how much stack they had. also increase damage and
+strenght with agility but reduce attack speed
+
+Passive item use Frost Strike
+every basic attack or physical spell will add 1 stack of Frost Strike dealing 3 physical damage per stack and slowing attack by 4 and
+move speed by 2% for each stacks. stacks will last 1.8 seconds and deal the damage every 0.9 second
+
+Active item use Frosting Blast
+deal 18 physical damage per stack of Frost Strike on the target and every 7 stacks will deal 0.4% of the target max health in bonus
+damage and at 14 stacks, the user will spellvamp for 45% of the damage dealt with Frosting Blast, mana cost 18% of max mana cooldown 32
+
+damage 47
+strenght 22
+agility 16
+reduce attack speed 55
+BAT 2.25
+
