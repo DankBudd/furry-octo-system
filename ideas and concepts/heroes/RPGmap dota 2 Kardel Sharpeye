@@ -150,10 +150,7 @@ cooldown 19 17 15 13
 MARK FOR DEATH
 Kardel mark the enemy making him take increase damage and increasing their cast point time as well, if sniper use Metal Chain or Take
 Aim on that target affeted by Mark for Death, they will take extra damage and they cannot evade this skill by any means, Mark for Death
-will only last 50% of the duration on bosses
-
-note: for take aim and metal chain when this skill is level 4 they will take 110% increase damage, meaning that it stack with the normal
-increase damage
+will only last 50% of the duration on bosses and the increase damage taken will stack with the extra damage increase as well
 
 increase damage taken 15% 25% 35% 45%
 increase cast time point by 0.5 0.8 1.1 1.4
@@ -161,3 +158,5 @@ Extra damage taken 20% 35% 50% 65%
 debuff duration 5 6 7 8 
 no mana cost
 cooldown 30
+
+talent level 20 upgrade Take aim and Mark for Death
