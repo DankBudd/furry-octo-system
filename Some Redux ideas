@@ -15,3 +15,12 @@ cooldown 22 20 18 16
 if this spell get scepter upgrade
 increase the burn duration by 1 seconds
 any healing done while the target is affected will have no effect and taking 15% of the healing done into damage
+
+
+
+Weapon Master
+you learn the way of your weapons reducing Base attack time and increasing your damage as well! but reducing stun durations cause by you
+
+base attack time 1.6 1.5 1.4 1.3
+bonus damage 14% 22% 30% 38%
+reduce stun duration cause by you 65% 60% 55% 50%
