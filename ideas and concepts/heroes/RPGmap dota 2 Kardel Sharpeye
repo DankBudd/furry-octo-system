@@ -73,8 +73,8 @@ after Nitro land on the target it will create a Black Smoke, enemys that enter i
 by 25% and also blinding them and making them have 30% chance to miss attacks, the smoke last 3.5 second with 575 area of effect
 
 add a new modifier for POISON TRAP - Snake Venom
-if the enemys lose more than 19% of their max health while rooted, they will get stun for 2.5 second and lose 38% base attack damage
-and also dealing 22% less damage with spells the debuff will last 6.5 second, and the Pool of Poison will become bigger every 0.1 second
+if the enemys lose more than 15% of their max health while rooted, they will get stun for 1.5 second and lose 32% base attack damage
+and also dealing 18% less damage with spells the debuff will last 6.5 second, and the Pool of Poison will become bigger every 0.1 second
 by 1% of its size up to 50% bonus size
 
 
@@ -103,7 +103,7 @@ on target affected by the slow of Metal Chain.
 
 damage 80% 110% 140% 170% of attack damage
 slow amount 14% 20% 26% 32%
-Extra damage for Spells 25% 35% 45% 55%
+Extra damage for Spells 8% 12% 16% 20%
 slow duration 4.5 4.9 5.3 5.7
 area of effect 400 450 500 550
 mana cost 55 60 65 70 plus 1% of max mana
@@ -126,5 +126,38 @@ of Shrapnel by 0.8 seconds and give Kardel 1% bonus attack damage and 0.6% bonus
 amp until he dies.
 
 add a new modifier for METAL CHAINS - Skull Hit
+Metal Chains will have 40% chance to stun the targets by 1.7 second and while they are stun, they will take 55% increase damage from
+all sources. If all target dies under the slow of Metal Chains, increase the amount of Chains throw by 1 up to 5 more chains max, Kardel
+will lose all of his stacks if he dies, or if he get slows he will lose 1 stack.
 
 
+SPELL E Take Aim and Mark for Death
+
+TAKE AIM
+Kardel take his time aiming upon the target, after 2.4 second he will shot a massive Pellet that deal insane damage and ingnore the armor
+of the enemys and also reducing it, if the target lose 20% of his max health with Take Aim they will get stun and lose attack speed.
+also deal max health damage to the enemys
+
+damage 170% 230% 290% 350% of attack damage
+max health into damage 0.9% 1.1% 1.3% 1.5% physical
+armor lost 7 9 11 13
+stun duration 0.8 0.9 1 1.1
+attack speed lost 50 70 90 110
+debuff duration of attack speed 3.5 3.7 3.9 4.1
+mana cost 50 100 150 200 plus 3% of max mana
+cooldown 19 17 15 13
+
+MARK FOR DEATH
+Kardel mark the enemy making him take increase damage and increasing their cast point time as well, if sniper use Metal Chain or Take
+Aim on that target affeted by Mark for Death, they will take extra damage and they cannot evade this skill by any means, Mark for Death
+will only last 50% of the duration on bosses
+
+note: for take aim and metal chain when this skill is level 4 they will take 110% increase damage, meaning that it stack with the normal
+increase damage
+
+increase damage taken 15% 25% 35% 45%
+increase cast time point by 0.5 0.8 1.1 1.4
+Extra damage taken 20% 35% 50% 65%
+debuff duration 5 6 7 8 
+no mana cost
+cooldown 30
