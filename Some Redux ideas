@@ -1,0 +1,16 @@
+Molten Wave
+Send out a wave of lava that remove the enemys armor by 1 from their max health and dealing burn damage every seconds for the duration as
+well, the burn damage will also deal bonus damage base on the enemys max health if the hero Primary Attributes is Strenght in pure damage.
+
+the burn will deal damage every 1 second
+
+damage 90 140 190 240 physical
+base burn damage 8 12 16 20 physical
+bonus burn damage base on max health 0.4% 0.6% 0.8% 1% Pure
+armor lost per max health 200 185 170 155
+duration of burn and armor lost 4 second
+mana cost 100 140 180 220
+cooldown 20 18 16 14
+
+if this spell get scepter upgrade
+increase the duration of the burn by 2 second and disable health regeneration
