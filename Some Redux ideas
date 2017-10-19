@@ -19,8 +19,13 @@ any healing done while the target is affected will have no effect and taking 15%
 
 
 Weapon Master
-you learn the way of your weapons reducing Base attack time and increasing your damage as well! but reducing stun durations cause by you
+you learn the way of your weapons reducing Base attack time and increasing your damage with a chance to parry melee attacks, Parryed attack
+will return the damage you take to the attacker. also reduce stun duration cause by you and reduce lifesteal heal amount as well.
 
+
+parry chance 18% 22% 26% 30%
+damage return 24% 32% 38% 44%
 base attack time 1.6 1.5 1.4 1.3
-bonus damage 14% 22% 30% 38%
+bonus damage 12% 16% 20% 24%
 reduce stun duration cause by you 65% 60% 55% 50%
+reduce lifesteal amount by 30% 25% 20% 15%
