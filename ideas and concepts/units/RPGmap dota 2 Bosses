@@ -2,34 +2,34 @@ BOSS Wasuro Level 5 -xp gain 40% bonus
 STATS
 range Melee
 BAT 1.80
-life 2500/2500
-mana 500/500
-damage 11-45
-armor 5
-magic resist 20%
-life regeneration 1.7
-mana regeneration 2
+life 2950/2950
+mana 700/700
+damage 21-45
+armor 7
+magic resist 18%
+life regeneration 3.2
+mana regeneration 5.5
 
 SPELL 1 Sword Slash
-Wasuro Swipes his sword delay of 1.4 second dealing 35 physical damage plus 1% of the heroes health disabling life regeneration for 3 second
-after the duration end it explode for 10 pure damage and stuning for 1.2 second radius of 300
-mana cost 70, coldown 5
+Wasuro Swipes his sword delay of 1.3 second dealing 45 physical damage plus 1% of the heroes health disabling life regeneration for 3 second
+after the duration end it explode for 20 pure damage and stuning for 1.4 second radius of 350
+mana cost 35, coldown 3
 
 SPELL 2 Wild Charge
-after 1.5 second of channel, Wasuro start running at 500 speed in front of him dealing 60 physical damage plus 1% of heroes max health and
-stunning them for 2 second after he reach his destination he will blink on a random hero dealing 10 physical damage per second for 3 second
-mana cost 100, coldown 12
+after 1.5 second of channel, Wasuro start running at 500 speed in front of him dealing 95 physical damage plus 1% of heroes max health and
+stunning them for 2 second after he reach his destination he will blink on a random hero dealing 22 physical damage per second for 3 second
+mana cost 80, coldown 12
 
 SPELL 3 ULTIMATE Duel arena
-Wasuro makes a area of 800 radius traping all heroes dealing 0.6% of their max life per second for 13 second, while Wasuro is inside of
+Wasuro makes a area of 1100 radius traping all heroes dealing 0.6% of their max life per second for 13 second, while Wasuro is inside of
 his Duel Arena he will gain 50% more damage with 50% crowd control resist he also gain 10% lifesteal as well and all of his spell will
-do 30% increase damage, Heroes will get a debuff that reduce their magic resist by 5% and armor by 2 also reducing spell amp by 3%
-and reducing damage by 10%
-no mana cost no coldown only trigger at 40% life lost every time
+do 30% increase damage, Heroes will get a debuff that reduce their magic resist by 5% and armor by 2 also reducing spell amp by 5.5%
+and reducing damage by 12%
+no mana cost no coldown only trigger at 80%, 40% and 10% life
 
 PASSIVE 1 Blade cut
-Wasuro cuts the enemy armor reducing it by 1 if the heroes reach 6 stack of Blade Cut they will take pure damage instead of physical
-from Wasuro attacks he also attack faster every time he attack the same person increasing attack speed by 10 every time, Sword Slash
+Wasuro cuts the enemy armor reducing it by 1.5 if the heroes reach 6 stack of Blade Cut they will take pure damage instead of physical
+from Wasuro attacks he also attack faster every time he attack the same person increasing attack speed by 12 every time, Sword Slash
 give 3 stacks of Blade cut
 
 BOSS PASSIVE Unbroken Will (Wasuro)
@@ -40,41 +40,41 @@ speed with max movement speed for 4 second.
 
 BOSS Zol Level 16 -xp gain 70% bonus
 STATS
-range 350
-BAT 1.95
-life 7700/7700
-mana 1000/1000
+range 450
+BAT 2.15
+life 8700/8700
+mana 1600/1600
 damage 70-118
-armor 13
-magic resist 25%
-life regeneration 3.8
-mana regeneration 4.5
+armor 15
+magic resist 29%
+life regeneration 5.5
+mana regeneration 11
 
 SPELL 1 Demonic Bolt
-Zol will Throw 3 Demonic Bolt at random target dealing 95 plus 0.8% of the heroes health in pure damage, if there is 3 or less heroes
+Zol will Throw 3 Demonic Bolt at random target dealing 155 plus 1.4% of the heroes health in pure damage, if there is 3 or less heroes
 and get damage by 1 or more Demonic Bolt they will do 60% less damage, the Demonic Bolt will also give Heroes a debuff that reduce both
-physical and magical damage dealt by 35% that last 2.5 second
-mana cost 95 cooldown 9
+physical and magical damage dealt by 35% that last 3.5 second
+mana cost 125 cooldown 7
 
 SPELL 2 Chaos Will
-Zol will curse 1 or 2 heroes dealing 30 plus 0.4% of their max health for 50% magical and 50% physical damage and Zol will heal for 20%
-of the damage done with Chaos Will, the debuff last 5 second. Chaos Will also got 15% chance to deal 100% more damage and stun Heroes
-for 2 second and it will heal him for 70% instead of 35%
-mana cost 140 cooldown 15
+Zol will curse 1 or 2 heroes dealing 60 plus 0.8% of their max health for 50% magical and 50% physical damage and Zol will heal for 15%
+of the damage done with Chaos Will, the debuff last 4 second. Chaos Will also got 12% chance to deal 100% more damage and stun Heroes
+for 2 second and it will heal him for 50% instead of 15%
+mana cost 270 cooldown 18
 
 Passive 1 Chaotic Decaytion
 Zol will Target the Hero with the most current Health dealing 35% of it current health in damage and reducing all healing by 75%
 for 7 second, after the duration of the debuff end, it will spread to 2 random heroes 450 range dealing 10% of their max health in
 damage and reducing healing by 20% for 5 second
-proc every 26 second
+proc every 21 second
 
 Passive 2 Unbroken Will (Zol)
-if Zol take more than 22% of is max health in 9 second he will Curse all enemys dealing 60 damage per second and silencing them for 
-4 second and remove all stun and debuff with restoring is mana to full
+if Zol take more than 25% of is max health in 11 second he will Curse all enemys dealing 60 damage per second and silencing them for 
+4 second and remove all stun and debuff with restoring is mana to full and also healing him by 4% of his max health
 
 ULTIMATE Rage of Zol
 Zol will Become Enrage after reaching 70% health 40% and 10% Becoming immnunity to all damage for 10 second, he will start casting
-7 Chaos Bolt at random target Location at 400 speed unit heroes that touch those Chaos Bolt will suffer from 90 plus 8% of their max
-health in pure damage and slowing them by 60% for 1.5 second, if any heroes touch more than 3 Chaos Bolt durring Rage of Zol they will
+7 Chaos Bolt at random target Location at 430 speed unit heroes that touch those Chaos Bolt will suffer from 90 plus 8% of their max
+health in pure damage and slowing them by 60% for 1.1 second, if any heroes touch more than 3 Chaos Bolt durring Rage of Zol they will
 take 100% of their max health in damage killing them and not being able to be revive and for every allys dead durring Rage of Zol other
 Heroes will lose 6% max health until Zol dies meaning that they cannot regain more health than normal
