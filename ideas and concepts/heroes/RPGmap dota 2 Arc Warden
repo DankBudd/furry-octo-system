@@ -4,18 +4,19 @@ Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80
 LEVEL 30 TALENT
 
 Talent 1
-increase Zet armor by 12% of his magic resist and his health by 800% of his armor also make Volt Shield cost 130 less mana and reduce its
-cooldown by 2
+increase Zet armor by 15% of his magic resist and his health by 2500% of his armor also make Volt Shield cost no mana and reduce its
+cooldown by 5
 
 Talent 2
-Increase Zet agility by 50% of his Strenght and Inteillgence and also Increase Lightning Arc damage by 40% and reduce its cooldown by 1
+increase Zet Agility and Inteillgence by 14 and reducing cooldown of his spells by 15% also Increase Lightning Arc damage by 30% and
+reduce its cooldown by 1
 
 PASSIVE D OR F Lightning God
 Increase overall stats and give a positive and negative buff
 
 BUFF Zet get 50% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
 give 1 damage per 18 into that one and he reduce Slows effect by 75% on him he also got a special Boots item that scale per level and
-that cant be change, and for every 30 Strenght Agility or Inteillgence Zet will gain 1% life and mana
+that cant be change, and for every 42 Strenght Agility or Inteillgence Zet will gain 1% life and mana
 DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
 are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
 
@@ -28,10 +29,10 @@ also make agility and inteillgence give 1 life per points and strenght with agil
 
 talent level 25 upgrade Lightning God
 add a new modifier Mana Lightning
-all spell that Zet cast -not item- will cost zero mana and restore him 5% of his Health back his ultimate also make spell cost no mana
+all spell that Zet cast -not item- will cost zero mana and restore him 3% of his Health back his ultimate also make spell cost no mana
 they also give him 10 base damage that stack up to 60 last 5 second refresh every time Zet cast a spell and his mana will become a mana
 shield that absorb 100% of the damage into the mana, if zet run out of mana he will not be able to regenerate mana for 4 second and
-after the duration end of the debuff Zet will gain 15% mana back.
+after the duration end of the debuff Zet will gain 18% mana back.
 
 
 SPELL Q
@@ -44,7 +45,7 @@ reduce damage by 6% for every jump max of 30% reduction
 increase max jump by 1 for every 25 agility points
 damage taken increase 10% 15% 20% 25%
 slow amount 4% 7% 10% 13%
-debuff duration 4 second
+debuff duration 5 second
 mana cost 100 125 150 175 plus 1% of max mana
 coldown 7 6 5 4
 
@@ -58,8 +59,8 @@ increase mana cost by 25
 
 add a new modifier Piercing Lightning
 now become pure damage and deal 1% of the enemy max health 0.2% for bosses, if Lightning Arc doesnt bounce on the target it hit, it will
-deal 100% increase damage to that target and increase Zet attack damage by 8% every bounce that stack up to 160% bonus damage, if it
-doesnt bounce, increase the damage bonus by 24%, stack last 5 second and refresh every Lightning Arc is casted and hit other target
+deal 100% increase damage to that target and increase Zet attack damage by 8% every bounce that stack up to 80% bonus damage, if it
+doesnt bounce, increase the damage bonus by 40%, stack last 5 second and refresh every time Lightning Arc is casted and hit other target
 with the jumps.
 
 SPELL W Surge
@@ -166,11 +167,11 @@ double the max stack of armor and magic resist -if Volt Shield talent is pick, t
 increase the cooldown by 20 15 10 but now taunt all enemy in a 500 radius of Zet and they take 15% 20% 25% more damage from anything
 
 mana cost increase for casting any of the empower spell 125 250 375
-cooldown 90 70 50
+cooldown 35
 
 talent level 25 upgrade Pure Energy
 remove cooldown
-increase mana cost by 105
+increase mana cost by 55
 
 add a new modifier Unstable Being
 LIGHTNING ARC will do explosion every time it jump dealing 60% of agility as pure damage in a 400 radius, also work on Surge Strike Proc
