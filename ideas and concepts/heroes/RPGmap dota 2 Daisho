@@ -1,7 +1,7 @@
 Daisho, Starting stats 5 inteillgence, 3 strenght, 4 agility, Base Speed 315, Base damage 5
 Stats Gain per level 0.80 Inteillgence, 0.50 Strenght,1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
 
-TALENT LEVEL 20
+TALENT LEVEL 30
 
 talent 1
 Increase Daisho Health by 425 but reduce his agility by 30% and his max mana by 60%
@@ -25,7 +25,7 @@ DEBUFF Daisho will lose 15% magic resist and he cannot have more than 20% magic 
 and 25% more damage from Physical and Magical, any magical spell will deal 0.7% of Daisho health in bonus damage and any pure damage will
 deal 1.4% of Daisho health in bonus damage and if he lose 25% max health in one spell or attack he will get stun for 3.5 second 
 
-talent level 25 Upgrade BladeMaster
+talent level 40 Upgrade BladeMaster
 add a new modifier Bleed Strike
 every critical strike done with Divine Strike he will make enemys bleed for 16 plus 20% of Daisho agility in Pure damage every second
 and reducing healing by 10% that last 3 second, every stack of Bleed Strike will refresh the duration and add 4 Pure damage
@@ -107,7 +107,7 @@ radius 260 290 320 350
 mana cost 95 125 155 185
 cooldown 4 the cooldown stay freeze while in BladeStorm
 
-talent level 15 Upgrade BladeStorm
+talent level 20 Upgrade BladeStorm
 increase agility scaling by 8%
 reduce the damage every second by 0.1
 increase the duration by 0.6
@@ -134,7 +134,7 @@ Increase Critical damage by 16% 24% 32% 40% of Daisho agility
 bonus damage after crit 20% 32% 44% 56%
 buff duration 1.4 1.6 1.8 2 second
 
-talent level 15 Upgrade Divine Strike
+talent level 20 Upgrade Divine Strike
 increase agility bonus by 16%
 reduce Critical after every hit done by 1
 increase base critical damage by 35%
@@ -177,7 +177,7 @@ Increase damage taken from Pure by 25% 30% 35%
 -
 Cooldown of Passive 30 25 20
 
-talent level 25 Upgrade Spirit Blade
+talent level 40 Upgrade Spirit Blade
 increase the buff duration by 3
 increase cooldown by 16
 
