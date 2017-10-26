@@ -182,11 +182,13 @@ every time non-boss unit die under the effect of Metal Chains or Mark for Death 
 target is affected by Mark for Death max of 40% bonus movespeed
 
 
-PASSIVE TOGGLE D OR F Long Range Mode and Close Combat Mode
+PASSIVE TOGGLE D OR F Long Range Mode and Close Combat Mode -- cooldown of 12 second to switch mode and cannot be reduce by cooldown
+reductions
 
 LONG RANGE MODE
 Kardel will have bonus base damage, increase attack range, increase cast range and reduce movespeed. Also enable his Long range spells
-he also start with a point inside of this passive and having 5 levels
+he also start with a point inside of this passive and having 5 levels, all ally spell that increase damage will also give extra bonus
+for Kardel by 10% 14% 18% 22% 26% bonus damage
 
 increase base damage 4 12 20 28 36
 increase attack range 150 250 350 450 550
@@ -195,7 +197,8 @@ reduce movespeed 70 65 60 55 50 FLAT
 
 CLOSE COMBAT MODE
 Kardel will have increase attack speed, increase movespeed, increase damage reduction and reduce attack range. Also enable his close
-range spell, he also start with a point inside of this passive and having 5 levels
+range spell, he also start with a point inside of this passive and having 5 levels, all allys spell that heal will also give extra bonus
+for Kardel, increasing healing spells by 8% 16% 24% 32% 40% bonus
 
 increase attack speed 20 40 60 80 100
 increase movespeed 15 30 45 60 75 FLAT
