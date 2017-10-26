@@ -1,14 +1,14 @@
 DOTA 2 -- Sniper, medium DSP, High and low single spell Damage, high CC -- Kardel Sharpeye
 
 Stats inteillgence 5, agility 8, strenght 1, base damage 9, movespeed 300, 1.90 BAT --- INT 0.90 STR 0.40 AGI 1.30
-attack range 550
+attack range 480
 
 quick note for this
 sniper will have more than 6 spell, he will get his other spell by changing his mode of attack from his toggle passive 
 ALL of his spell will deal damage base on his total attack damage and they all deal PHYSICAL DAMAGE
 
-more note
-this talent will have smaller modifier to them instead of a big change to 1 spell
+more notes
+Kardel talent will have smaller modifier to them instead of a big change to 1 spell
 
 TALENT LEVEL 30
 
@@ -20,11 +20,25 @@ talent 2
 
 Passive D OR F Elite Sniper
 BUFF, Kardel will gain 1 damage every 4 agility instead of 5 and also gaining 1% spell amp per 8 inteillgence instead of 10, every 1
-current attack damage Kardel got will alos grant him 1 movespeed, he gain 10 more mana with inteillgence and 2 health bonus per agility
+current attack damage Kardel got will alos grant him 1 movespeed, he gain 5 more mana with inteillgence and 2 health bonus per agility
 he start with a special weapons that scale with his level and he cannot change it
 DEBUFF Kardel lose 25% max health and taking 135% damage from physical, magical and pure damage, strenght will not give any regeneration
 and will only give 3 health instead of 5, any armor-chest peice and helm will have 50% reduce effect on Kardel, he also cannot pass 385
 movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
+
+even more notes -- the list of upgrade will be down the whole file --
+Custom Rifle - Special weapons for Kardel that can be upgraded every 5 levels and can be customize
+
+damage 4
+attack speed 8
+SpellVamp 3%
+lifeSteal 2%
+attack range 35
+Base attack time 2.30
+
+Passive -- Normal Effect
+since Kardel Rifle never got upgraded yet, he will have 14% chance to deal 120% of normal damage with spell and normal attacks, can stack
+with other critical bonus for only 50% of the total crit damage and chance.
 
 
 SPELL Q Nitro AND Poison Trap
@@ -191,7 +205,7 @@ he also start with a point inside of this passive and having 5 levels, all ally 
 for Kardel by 10% 14% 18% 22% 26% bonus damage
 
 increase base damage 4 12 20 28 36
-increase attack range 150 250 350 450 550
+increase attack range 50 100 150 200 250
 increase cast range 80 110 140 170 200
 reduce movespeed 70 65 60 55 50 FLAT
 
@@ -203,7 +217,46 @@ for Kardel, increasing healing spells by 8% 16% 24% 32% 40% bonus
 increase attack speed 20 40 60 80 100
 increase movespeed 15 30 45 60 75 FLAT
 increase damage reduction 9% 13% 17% 21% 25%
-reduce attack range 300 285 270 255 240
+reduce attack range 350 340 330 320 310
 
 talent level 20 upgrade LONG RANGE and CLOSE RANGE
+LONG RANGE MODE
+increase damage bonus by 14
+reduce the amount of speed lost by 20
+CLOSE RANGE MODE
+increase attack speed by 25
+increase movespeed by 25
+
+add a new modifier for LONG RANGE MODE - Silent Killer
+Enemys will Ignore Kardel if other allys are near him 950 radius, and every 2 second that Kardel doesnt take damage he will gain 2%
+bonus damage and 1 agility, max of 60% bonus damage and 30 agility bonus, if he takes damage he will lose 4 stacks every time, at max
+stacks Kardel will gain Permanent invisibility until he attack or cast spells after that he will go invisible after 3.5 second of doing
+nothing
+
+add a new modifier for CLOSE RANGE MODE - Juggernaut
+Kardel will gain 12 armor and 25% magic resist in Close Combat but alway reduce his range to 315 at all time and cannot be change.
+when Kardel kill enemys he will gain 15 attack speed that last 12 second and refresh upon killing others and increasing the attack speed
+even more up to 150 bonus attack speed, and if Kardel takes 15% of his max health in 1 hit he will gain 25% more damage reduction for 4
+seconds, only proc every 8 seconds
+
+
+ULTIMATE R PASSIVE HeadShot!
+Kardel knows the way to kill his enemys quick and making alot of mess, all of his spell will do Max health to enemys (bosses will take
+current health instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
+bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 250, 200,
+150 max. Spell that does damage every 2 second or lower will only deal 0.2% 0.4% 0.6% of max health in damage
+
+Max health damage 3% 4% 5%
+HeadShot! spell damage 150% 200% 250% of attack damage
+HeadShot! chance for spells 20% 25% 30%
+HeadShot! auto attack damage 130% 150% 170% of attack damage
+HeadShot! chance for auto attack 30% 40% 50%
+attack speed lost 75 100 125
+movespeed lost 22% 33% 44%
+debuff duration 1 1.1 1.2 seconds
+
+talent level 40 upgrade HeadShot!
+increase HeadShot! speed damage by 50%
+increase HeadShot! auto attack damage by 30%
+increase debuff duration by 0.3 second
 
