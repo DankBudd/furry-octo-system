@@ -18,7 +18,7 @@ PASSIVE D OR F
 Fat Body
 give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
 
-BUFF Butcher gain 2 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 0.5% of his max health
+BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 0.5% of his max health
 as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block- and for every 42 strenght
 Butcher got, he will gain 1 armor and 7 attack speed
 DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 35% more damage from
@@ -124,7 +124,7 @@ bonus strenght 4% 8% 12% 16%
 magic resist 3% 7% 11% 15%
 bonus life per normal enemy 1 3 5 7
 bonus life per boss enemy 20 40 60 80
-max life bonus 200 300 400 500
+base max life bonus 200 300 400 500
 increase max health bonus by 75% 150% 225% 300% of pudge strenght
 life regeneration per stack 0.1 0.2 0.3 0.4
 spell amp per stack 0.2% 0.3% 0.4% 0.5%
@@ -154,7 +154,7 @@ Dismenber
 deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing anyone walking on it and buffing them
 this spell damage every 0.5 and drop meat every 1 second
 
-Strenght as damage 300% 450% 600%
+Strenght as damage 400% 600% 800%
 bonus damage from max life 1%
 meat drop 1-2 1-3 1-4 per second of damage
 meat healing 55 90 125 plus 3% 7% 11% of pudge max health
