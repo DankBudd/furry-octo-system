@@ -32,7 +32,7 @@ level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
 Sven cleave for 100% of the damage in a 450 radius in front of him and his attack remove 1% of the target current life 0.3% for bosses
 he also gain 120 attack range with 25% bonus damage and Strenght will give Sven 0.50 attack speed and he also reduce blind
-duration effect by 20%
+duration effect by 50%
 
 SPELL Q level
 
@@ -151,30 +151,30 @@ death he will give his allys 25% of his damage and 50% Strenght to them for 25 s
 
 ULTIMATE R
 
-God Strenght
+Titan Rage
 increase sven damage and life but reduce attack speed for a short duration and reducing cooldown of all sven spell upon killing enemys
 when God Strenght is active, bosses will reduce the cooldown even more and after the duration ends sven will purge all debuff on him
-and make him immnue to magic and debuff for 4 second
+and make him immnue to magic and debuff for 4 second, he also gain 125% increase size and 25% increase movespeed
 
-base damage bonus 10 30 50
-bonus damage 30% 50% 70%
+base damage bonus 30 50 70
+bonus damage 40% 70% 100%
 attack speed lost 20 40 60
-duration 12 15 18
+duration 15 20 25
 life bonus 300 600 900
-coldown reduction upon killing 0.30 0.50 0.70
+coldown reduction upon killing 0.10 0.20 0.30
 coldown reduction upon killing bosses 15% 30% 45%
-coldown 80 70 60
+coldown 90 85 80
 no mana cost
 
-talent level 25 upgrade God Strenght
+talent level 25 upgrade Titan Rage
 
-increase base damage by 40%
-increase attack speed lost by 20
-increase duration by 6
-reduce cooldown by 10
+increase base damage by 50%
+increase attack speed lost by 30
+increase life bonus by 900
+increase duration by 5
 
 add a new modifier Strenght Lord
-now Give 40% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.6 second for
-every kill sven do bosses will give 18 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
+now Give 30% of God Strenght damage and base damage bonus to near allys 900 radius and increase God Strenght duration by 0.3 second for
+every kill sven do bosses will give 12 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
 of Sven max health in a 500 radius, after God Strenght is over, Sven will gain 35% increase Strenght when God Strenght is not Active
-also God Strenght will be lock at 35 cooldown if still Active for a while so it cant be reuse again
+this Spell can last very long with killing everything, NEVER CROSS ME!.
