@@ -89,8 +89,7 @@ dealing 150% of Rotting Flesh damage and getting root for 1.5 second if they ent
 
 SPELL E Freah Meat!
 Pudge empower this next attack dealing damage and droping a meat peice and also disarming the enemy on hit and taking increase damage 
-from Glory Hook, doesnt gain damage from 0.5% of max health as bonus damage, the meat heal will have 100% of healing amp as bonus
-scaling
+from Glory Hook, doesnt gain damage from 0.5% of max health as bonus damage, the meat heal will have 150% more scaling from Healing amp
 
 bonus damage 9% 11% 13% 15% of pudge max life 
 amount of meat peice drop 1-1 1-2 1-3 1-4
