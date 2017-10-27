@@ -1,4 +1,4 @@
-Enigma,Gravity lord Starting stats 10 Int,3 Agi,5 Str, base speed 280, base damage 4, Stats Gain per level 1.30 int,0.80 str,0.40 agi
+Enigma,Void lord Starting stats 10 Int,3 Agi,5 Str, base speed 280, base damage 4, Stats Gain per level 1.30 int,0.80 str,0.40 agi
 
 SCROLL DOWN FOR TIP AND COMBO
 
@@ -24,6 +24,11 @@ per level gaining 1% size as well enigma will have a Special Gravity Wand that s
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 60% base damage strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
 items with effect that deal damage will have 50% reduction effects
+BONUS BUFF Elemental Gods
+When Enigma, Zet and Volcanus are in the same game they gain bonus, gaining 7% spellamp with 5 health regeneration, 10% magic resist,
+35 Movespeed FLAT and making their spell that deal damage VS NON-ELEMENTAL BEING 25% more damage but reducing their damage VS ELEMENTAL
+BEING by 25%
+
 
 Special item Gravity Wand
 Base attack time 1.90 reduce by 0.01 every level
