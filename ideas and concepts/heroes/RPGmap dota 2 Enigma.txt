@@ -92,22 +92,23 @@ mana cost reduce by 110
 
 add a new modifier Void Gate
 When enemys die under the effect of Gravity Well they will be turn into Eidolons that cannot be controll and follow enigma around
-they also have a small chance to create a smaller version of Gravity Well that got 40% of the total damage from it, also make enigma
+they also have a small chance to create a smaller version of Gravity Well that got 30% of the total damage from it, also make enigma
 spell do 20% more damage to enemys affected by Gravity Well and when they die, enigma will regain 0.7% missing mana back, the eidolons
-last 18 seconds
+last 22 seconds
 
 EIDOLONS STATS
 health 65% of enigma
-attack range 375
+attack range 375 increase by 25% of Enigma inteillgence
 Base attack time 1.80
-attack damage 12-20 plus 20% of enigma inteillgence
+attack damage 12-25 plus 20% of enigma inteillgence
 increase their attack speed by 30% of enigma inteillgence
-movespeed 345
+movespeed 395
 
 PASSIVE Growing Void
 the Eidolons will increase their damage by 3% every second they live and their attack will have 20% chance to cast a smaller version
-of Gravity Well dealing 40% of the total damage from it with 35% of the radius as well, those will last 3 second and damaging every
-1.5 second, note that those smaller Gravity Well will not root or stun enemys.
+of Gravity Well dealing 30% of the total damage from it with 40% of the radius as well, those will last 3 second and damaging every
+1.5 second, note that those smaller Gravity Well will not root or stun enemys and will not create Eidolons when they die by the smaller
+Gravity Well.
 
 
 SPELL E level
@@ -115,7 +116,7 @@ Gravity Bolt
 Cast a bolt made of pure gravity dealing magical damage and increasing enigma max life for a short duration after the duration end
 it will heal enigma
 
-Base damage 16 19 22 25 type Magical
+Base damage 15 20 25 30 type Magical
 intelligence scaling 70% 110% 150% 190%
 damage from Gravity bolt into bonus life 20% 30% 40% 50%
 gain 50% 55% 60% 65% of the bonus life into a heal after the duration
