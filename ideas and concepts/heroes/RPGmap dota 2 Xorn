@@ -5,7 +5,8 @@ LEVEL 20 TALENT
 
 Talent 1
 Increase Xorn armor by 7 and health by 225
-Increase Xorn Magic resist to 15% instead of losing 10% magic resist but he still cannot have any and increase stun resist by 20%
+Increase Xorn magic resist by 1% for every 8 agility, he cannot go higher than 20% magic resist and items will still give no magic resist
+also increase his stun resist by 15% and his health by 2 for every agility points
 
 Talent 2
 Increase Xorn damage by 8% and agility by 10
