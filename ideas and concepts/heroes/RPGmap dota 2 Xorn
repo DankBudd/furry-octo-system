@@ -176,26 +176,26 @@ feed upon that Image of them Empowering him Base on the form he his
 
 Radius for Mirror 400 550 700
 Wall Health 60% 45% 30% of the target max Health
-Wall duration and taunt 3 4 5 second
+Wall duration and taunt 4 second
 Image damage 100% 170% 240% of the target damage
-Image duration 4 5 6 second
-Normal Form bonus life regeneration 3% 5% 7% max health per second
-Normal Form bonus damage reduction 10% 20% 30%
-True Form bonus damage 30% 65% 100%
-True Form bonus spell amp 15% 25% 35%
-Both Form duration bonus 5 6 7 second
+Image duration 7 second
+Normal Form bonus life regeneration 2% 3% 4% max health per second
+Normal Form bonus damage reduction 15% 25% 35%
+True Form bonus damage 30% 60% 90%
+True Form bonus spell amp 18% 24% 30%
+Both Form duration bonus 12 14 16 second
 Cooldown 80 75 70
 mana cost 5% 15% 25% of Max mana 
 
 talent level 25 Upgrade Demonic Mirror
 Increase wall and taunt duration by 1
-increase Image damage by 60%
+increase Image damage by 120%
 increase Normal Form Damage reduction by 15%
-increase True Form damage bonus by 50%
+increase True Form damage bonus by 60%
 reduce cooldown by 10
 
 Add a new modifier Foul Mirror
-for every enemys that are affected by the Demonic Mirror, Xorn will do 1% of the target Max health in damage up to 5%
+for every enemys that are affected by the Demonic Mirror, Xorn will do 1% of the target Max health in damage up to 5%,
 for bosses deal Current Health instead and if Xorn is in True Form and Casting Demonic Mirror,he will Proc Nightmare From
-Terror Wave dealing 100% increase damage and stuning them for 1.5 second and for Normal Form he will Sunder every enemys affected by
+Terror Wave dealing 300% increase damage and stuning them for 1.7 second and for Normal Form he will Sunder every enemys affected by
 Demonic Mirror and dealing 10% more Max Health damage bonus to them 1% for bosses.
