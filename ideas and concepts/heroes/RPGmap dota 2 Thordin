@@ -6,12 +6,13 @@ LEVEL 20 TALENT
 
 talent 1
 Increase Thordin armor by 10 but reduce his health by 35%
-Bonus Health from spell amp no longer give any Bonus and instead give 50% strenght and inteillgence bonus base on Thordin total Armor
+Thordin will no longer gain bonus health from spell amp and instead gain 1000% of his armor into health bonus and every 8 Strenght will
+give 1% magic resist, cap of 45% magic resist from strenght.
 
 talent 2
 Increase Thordin spell amp by 16% but reduce his armor by 10
-Thordin will lose armor instead of gaining it from debuff and other spell but, he will gain 7% spell amp for every debuff he got on him
-and 4% spell amp for every buff on him as well
+Thordin will lose armor instead of gaining it from debuff and other spell but, he will gain 8% spell amp for every debuff he got on him
+and 5% spell amp for every buff on him as well
 
 
 PASSIVE D OR F
@@ -19,11 +20,11 @@ Dwarft Might
 give a positive and negative buff, Pressing ALT will give INFO for Thordin level 20 talent and level 25 talent for this passive
 
 BUFF Thordin Start with 1 armor and any armor lost will be bonus armor for Thordin instead of losing it he also gain 1 damage per armor
-and 100% of his armor will be Strenght and Thordin will gain 50% of his armor into Spell amp bonus and 400% of his Spell amp will be
+and 100% of his armor will be Strenght and Thordin will gain 25% of his armor into Spell amp bonus and 400% of his Spell amp will be
 Health bonus as well
-DEBUFF Thordin lose 15% magic resist and he take 50% more damage from pure and magic resist any magic resist lost taken will be double
+DEBUFF Thordin lose 15% magic resist and he take 125% more damage from pure and magic resist any magic resist lost taken will be double
 instead of normal he also can only use hammer type weapons and any movement speed lost spell will alway deal pure damage and deal 50%
-more damage
+more damage and also damage him for 1.5% of his max health every 1 second of slows duration
 
 Talent level 25 Upgrade Dwarft Might
 add a new modifier infused Hammer
@@ -35,20 +36,20 @@ damage and Doesnt get any bonus from other Source of Crits
 SPELL Q
 Storm Bolt
 Thordin throw a Heavy hammer to a target stunning them and dealing damage with reducing magic resist and armor also pushing the target
-back
+back, the duration and the armor and magic resist lost will have 50% reduction VS bosses
 
 damage 10 25 40 55 plus 40% 60% 80% 100% of strenght 50% magical and 50% physical
-push force 175 200 225 250
-magic resist lost 9% 13% 17% 21%
-armor lost 3 7 11 15 half on bosses
-stun duration 2 3 4 5 last half on bosses
+push force 140 170 200 230
+magic resist lost 10% 15% 20% 25% 
+armor lost 3 7 11 15 
+stun duration 2 3 4 5 
 cooldown 18 17 16 15
-mana cost 75 plus 1% 4% 7% 10% of max mana
+mana cost 75 plus 5% of max mana
 
 talent level 10 upgrade Storm Bolt
-increase strenght scaling by 35%
+increase strenght scaling by 50%
 increase cast range by 350
-increase push force by 50
+increase push force by 70
 increase magic resist lost by 9%
 reduce cooldown by 6
 
@@ -76,13 +77,13 @@ cooldown 13
 mana cost 70 110 150 190 plus 3% of max mana
 
 talent level 10 Upgrade Thunder Clap
-increase strenght scaling by 50%
+increase strenght scaling by 20%
 increase radius by 70
 increase attack speed lost by 14
 increase movement speed lost by 12%
-increase bonus damage per enemy by 3
+increase bonus damage per enemy by 2
 
-add a new mofidier Hammer of Thunder
+add a new mofidier Hammer of Thundering Blood
 Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 30 35 40 plus 80% of Thordin Strenght in pure damage
 and enemys that are below 40% will lose 3% of their Max health 0.4% for bosses and any enemys that die from the Lightning Bolt will
 Heal Thordin by 4% of his max health and every Unit hit by Thunder Clap will restore Thordin health by 25% of the damage done with
@@ -103,15 +104,15 @@ no mana cost
 cooldown 38 32 26 20
 
 talent level 15 upgrade Strenght of the Mountain
-increase damage by 4
+increase damage by 6
 increase attack speed by 35
-increase last hit damage by 12
+increase last hit damage by 18
 increase cleave radius by 100
 
 add a new modifier Lightning Zone
 after landing the last hit create a lightning zone of 600 radius that deal 11 magical damage plus 35% of Thordin strenght to nearby enemy
 and for ally and Thordin, they gain 20% increase base damage and 12% spell amp while inside of it the zone last 10 second and after the
-Lightning Zone is gone, it will restore all allys and Thordin health by 5% plus 1% for every hero allys while inside of Lightning Zone
+Lightning Zone is gone, it will restore all allys and Thordin health by 3% plus 1% for every hero allys while inside of Lightning Zone
 when its gone, summon increase this bonus by 0.1% instead of 1%
 
 PASSIVE D OR F
@@ -131,14 +132,14 @@ Thunder Clap bonus 20% 30% 40% 50% of AS and MS
 
 talent level 15 upgrade Dwarft Mastery
 Increase damage bonus by 5%
-increase bash attack damage scaling by 10%
+increase bash attack damage scaling by 20%
 increase bash Strenght Scaling by 50%
 increase Storm Bolt Spell Vamp by 10%
 
 add a new modifier Dwarft Knowledge
-If Thordin cast Storm Bolt or Thunder Clap on any Source of Stun they will do 30% more damage on them for Storm Bolt, it will Stun 1
+If Thordin cast Storm Bolt or Thunder Clap on any Source of Stun they will do 70% more damage on them for Storm Bolt, it will Stun 1
 second longer 0.5 for bosses and Disable Life regeneration on that target and for Thunder Clap, it will reduce damage by 10% and spell
-damage by 15% and also increasing its debuff on them by 1.5 second longer
+damage by 15% and also increasing its debuff on them by 3.5 second longer
 
 ULTIMATE R
 Avatar
