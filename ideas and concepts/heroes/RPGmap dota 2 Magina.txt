@@ -86,13 +86,13 @@ Blink
 
 SPELL E
 Unstable Spell Shield
-Magina will deal damage around him stuning all target, if Magina take magical damage he will store that damage and make the
-next cast do even more damage
+Magina will store a % of the damage taken from magic damage, making Unstable Spell Shield deal increase damage and stuning them as well.
+Unstable Spell Shield will get 100% increase bonus from spell amp for the base damage.
 
-base damage 5 10 15 20 Magical damage
-magical damage Store 40% 50% 60% 70% of the damage taken
-max damage store 15 30 45 60
-increase max damage store by 30% 40% 50% 60% of Magina Agility
+base damage 15 Magical damage
+magical damage Store 8% 10% 12% 14% of the damage taken
+base max damage store 20 30 40 50
+increase max damage store by 40% 60% 80% 100% of Magina Agility
 radius 320 360 400 440
 stun duration 1 1.4 1.8 2.2
 mana cost 100 plus 2% 5% 8% 11% of max mana
@@ -100,22 +100,22 @@ cooldown 25 23 21 19
 
 talent level 15 Upgrade Unstable Spell Shield
 increase base damage by 15
-increase max damage store by 30
+increase max damage store by 50
 increase radius by 110
-increase stun by 0.9
+increase stun by 0.3
 remove mana cost
 
 add a new modfier Burning Explosion
-Unstable Spell Shield will burn the enemy for 8% of the damage done for 7 second, dealing damage every 0.5 second of ticks
-and if Magina use Mana Break on them they will lose 12% of their max mana and taking that into Pure damage and increasing the duration
+Unstable Spell Shield will burn the enemy for 9% of the damage done for 6 second, dealing damage every 0.5 second of ticks
+and if Magina use Mana Break on them they will lose 8% of their max mana and taking that into Pure damage and increasing the duration
 of Burning Explosion by 2 second. if the enemy dies under this effect reduce the cooldown of Unstable Spell Shield by 3 and give
-Magina 7% mana back
+Magina 7% mana back and 5% max health as well
 
 PASSIVE D OF F
 Mage-Hunter
 Increase Magina Agility with magic resist and reducing Base attack time with any weapons he wield. Auto Attacks will have a chance
 to Silence enemy and Silence will take damage every few tick of seconds, Spell will also Silence and those with Silence on them will
-have increase Silence duration
+have increase Silence duration, spell will have double the chance to proc the silences.
 
 Agility bonus 9% 13% 17% 21%
 magic resist bonus 5% 10% 15% 20%
@@ -124,6 +124,7 @@ Silence Chance 9% 11% 13% 15%
 Silence damage 9 11 13 15 plus 8% of agility Pure
 Silence duration 0.4 0.6 0.8 1.0
 damage every 0.2 second of Ticks
+cooldown to proc silence 0.8 0.7 0.6 0.5
 
 Talent level 15 Upgrade Mage-Hunter
 increase agility bonus by 9%
