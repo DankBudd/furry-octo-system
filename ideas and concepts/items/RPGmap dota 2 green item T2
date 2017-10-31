@@ -207,3 +207,13 @@ give 20% chance to block 8 plus 15% of the magical damage taken
 armor 3
 magic resist 7%
 
+
+Hard Shell
+Increase the user Health with Strenght and reduce Stun, Roots, Blind and debuff duration as well
+
+Passive items use
+reduce all Stun, Roots, Blind and Debuff duration by 14%
+
+health 125
+strenght 5
+
