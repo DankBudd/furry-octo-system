@@ -27,7 +27,8 @@ and will only give 3 health instead of 5, any armor-chest peice and helm will ha
 movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
 
 even more notes -- the list of upgrade will be down the whole file --
-Custom Rifle - Special weapons for Kardel that can be upgraded every 5 levels and can be customize
+Custom Rifle - Special weapons for Kardel that can be upgraded every 5 levels and can be customize, the base attack time cannot be
+upgraded and every level of Kardel will reduce the Base attack time by 0.01 up to 0.40 base attack time reduce.
 
 damage 4
 attack speed 8
@@ -276,19 +277,25 @@ attack speed 8
 SpellVamp 3%
 lifeSteal 2%
 attack range 35
-Base attack time 2.30
+Base attack time 2.30 - cannot upgrade -
 
 bonus damage per upgrade in it 3 6 10 15 21 28 37 46
 Boosted Shot Modifier - if damage got the most upgrade - Basic Modifier -
-Kardel basic attack will have 15% chance to deal a Puncture Shoot, Puncture Shoot will deal 6 10 14 18 22 26 30 34 physical bonus damage
+Kardel basic attack will have 14% chance to deal a Puncture Shoot, Puncture Shoot will deal 6 10 14 18 22 26 30 34 physical bonus damage
 and make the enemys bleed for 10% 12% 14% 16% 18% 20% 22% 24% of Kardel attack damage every 0.5 second that last 3 seconds
 
 bonus attack speed per Upgrade in it 4 7 11 16 24 33 49 70
 Boosted Chamber Modifier - if Attack speed got the most Upgrade - Basic Modifier -
-Kardel will have 0.04 0.07 0.10 0.13 0.16 0.19 0.22 0.25 reduce base attack time and he will Ignore 2 3 4 5 6 7 8 9 armor from the target
+Kardel will have 0.04 0.07 0.10 0.13 0.16 0.19 0.22 0.25 reduce base attack time and he will Ignore 3 4 5 6 7 8 9 10 armor from the target
 as well, example if the enemy got 2 armor and you ignore 3, your attack will do normal damage like he had 0 armor cannot go into the -.
 and if the target is under -1 armor or more it will have no effect until they have armor for Kardel to Ignore
 
 bonus SpellVamp per Upgrade in it 2% 3% 5% 7% 10% 13% 17% 22%
+Boosted Power Modifier - if SpellVamp got the most Upgrade - Basic Modifier -
+Kardel spell will deal 2% 4% 6% 10% 14% 18% 24% 30% increase damage and reduce the enemys armor by 1
+2 3 4 5 6 7 8 and also increasing Movespeed by 10% 11% 13% 14% 17% 18% 22% 23% for 3.5 second after casting a spell.
+
+Bonus LifeSteal Per Upgrade in it 5% 6% 7% 9% 12% 16% 21% 28%
+Boosted Blood Cannon Modifier - if LifeSteal got the most upgrade - Basic Modifier -
 
 --
