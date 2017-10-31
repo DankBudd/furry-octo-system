@@ -1,5 +1,5 @@
 Volcanus Starting stats 8 Int, 2 Agi, 2 Str, base speed 290, base damage 6, Stats Gain per level 0.80 int, 0.20 str, 0.20 agi
-Starting item Fire Hand give 3 damage and 2 int base attack time 1.90 High-DSP - Nuker
+Starting item Fire Hand give 3 damage and 2 int base attack time 1.90 High-DSP - Nuker - range 425
 
 LEVEL 20 TALENT
 
@@ -9,14 +9,15 @@ Volcanus will gain 20% of his max mana as health bonus and increasing his mana b
 
 Talent 2
 Increase Volcanus attack damage by 10 and his spell amp by 7%
-Volcanus spells will gain 15% of his attack damage as Spell damage bonus to them, and increase SpellAmp by 4% of Agility and Strenght
+Volcanus will gain 15% of his attack damage as SpellAmp bonus for him, and increase SpellAmp by 4% of Agility and Strenght as well
+
 
 PASSIVE D OR F Fire God
 Increase overall stats and give a positive and negative buff
 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 7 int instead of 10 and he can use 2 glove
 Intead of 1 he also gain 2 life per inteillgence point any damage per second spell will only have 20% duration on Volcanus,
-he can also use Sulfuras, getting even more power from it
+he can also use Sulfuras, getting even more power from it but making him become melee
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
 he also lose 50% base attack damage and all Source of Physical damage will deal 1.5% of Volcanus life as damage bonus to him and
 magical Source of damage will do 0.4% bonus damage as well
@@ -36,16 +37,15 @@ SPELL Q
 Soul Burn
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
 
-damage per second 10 14 18 22 type Magical plus 15% 20% 25% 30% of intelligence
+damage per second 12 16 20 24 type Magical plus 10% 20% 30% 40% of intelligence
 damage reduction 10% 18% 26% 34%
 slow 6% 9% 12% 15%
-Silence Target
 duration 5
-cooldown 25 23 21 19
-mana cost 70 110 150 190 plus 5% of max mana
+cooldown 18 17 16 15
+mana cost 70 110 150 190 plus 4% of max mana
 
 Talent level 10 upgrade Soul Burn
-increase damage by 13
+increase damage by 16
 increase intelligence scaling by 20%
 increase damage reduction by 11%
 increase the duration by 2
@@ -56,15 +56,16 @@ pure damage after Soul Burn duration end it will explode for 300% of Soul Burn t
 Volcanus 0.4% spell amp for every death done with the explosion up to 12% max spell amp bonus, he will lose this bonus upon dieing
 
 SPELL W Lava Wave
-Send out a wave of Molten lava dealing insane damage and burning enemys and also reducing their magic resist.
+Send out a wave of Molten lava dealing insane damage and burning enemys and also reducing their magic resist. this Spell will gain
+100% more bonus from spellamp and Coldown reduction.
 
 damage 36 44 52 60 type Magical plus 40% of intelligence
-burn damage 4 7 10 13 per second type magical plus 15% of intelligence
+burn damage 4 7 10 13 per 0.5 second type magical plus 15% 16% 17% 18% of intelligence
 magic resist lost 6% 10% 14% 18%
 duration of burn and magic resist lost 3 second
-radius of the wave 300
+radius of the wave 300 310 320 330
 max travel distance 500 650 800 950
-cooldown 19
+cooldown 24
 mana cost 100 150 200 250 plus 5% of max mana
 
 talent level 10 upgrade Lava Wave
@@ -74,33 +75,34 @@ increase magic resist lost by 8%
 increase max travel distance by 250
 
 add a new modfier Obsidian Earth
-The lava Wave will make a Path of Obsidian Earth reducing the enemys total damage done with spell by 40% and taking 20% increase damage
+The lava Wave will make a Path of Obsidian Earth reducing the enemys total damage done with spell by 30% and taking 15% increase damage
 from Volcanus spell if they are in the Path of Obsidian, for allys they will get 5% spell amp with 10% increase attack damage and
-reducing all incoming damage by 8%. After the Obsidian Path is gone it will become Molten lava that deal 15 pure damage per second and
-disableing health regeneration for 4 second, the Molten Path will stay for 2 second
+reducing all incoming damage by 14%. After the Obsidian Path is gone it will become Molten lava that deal 2.5% max health in pure every
+2 seconds and reducing Health regeneration by 50%, the Molten Path will stay for 6 second. bosses will take current health damage.
 
 
 SPELL E Volcano
-channel a volcano that deal damage every 2 second stuning the enemy every time the enemy gets damage again by volcano
-they will take increase damage from it and stun duration
+Volcanus Channel a Volcano that deal massive area of effect damage and stuning them as well, the Volcano will deal increase damage for
+every 2 second of Channel duration done and getting bigger by 4% 6% 8% 10% every 0.5 seconds
 
-damage 14 20 26 32 type Magical plus 40% 45% 50% 55% of intelligence
-damage increase by 5 7 9 11 every time the enemy gets damage again by volcano
-duration of channel 6 8 10 12 second
+damage 14 20 26 32 type Magical plus 55% of intelligence
+damage increase by 5 7 9 11 every 2 second of channel
+duration of channel 14 second
 stun duration 0.3 0.4 0.5 0.6
 base radius of volcano 200 250 300 350
 increase the volcano radius by 40% 110% 180% 250% of inteillgence
 cooldown 45 40 35 30
-mana cost 100 170 240 310 plus 2% of max mana
+mana cost for casting 100 170 240 310 plus 2% of max mana
+mana cost durring channel 10 15 20 25 every seconds
 
 talent level 15 upgrade Volcano
-increase the damage they take every time by 7
+increase base damage by 28
 increase intelligence scaling by 20%
-increase base radius by 100
+increase base radius by 150
 
 add a new modfier Lava Spawn
-if the volcano kill any unit it will spawn a Lava Spawn that has 80% of volcanus life and 150% of the damage of volcanus as well
-if the lava spawn deal at least 50 plus x10 of hero level as damage it will spawn a new lava spawn with only 50% of volcanus life and
+if the volcano kill any unit it will spawn a Lava Spawn that has 70% of volcanus life and 130% of the damage of volcanus as well
+if the lava spawn deal at least 50 plus x5 of hero level as damage it will spawn a new lava spawn with only 40% of volcanus life and
 damage both of them will last 35 second and spawning new one will refresh the duration of the current lava spawn can only respawning them
 only 1 time
 
@@ -154,8 +156,8 @@ Small explosion damage 14% 22% 30% of Incinerate total damage
 Small explosion reduce area of effect 70% 60% 50%
 Increase Incinerate Burn damage by 30% 50% 70% on other target affected by the explosion
 -
-duration of Molten Hearth 14 17 20
-cooldown reduction for basic spell 20% 35% 50%
+duration of Molten Hearth 14 18 22
+cooldown reduction for basic spell 35%
 cooldown 100 90 80
 mana cost 250 500 750 plus 5% of max mana
 
@@ -164,9 +166,10 @@ increase Soul Burn area of effect by 100
 increase Lava Wave damage by 30
 increase Volcano duration by 4 second
 increase Incinerate small explosion damage by 10%
+increase cooldown reduction for basic spells by 15%
 
 add a new modifier Sun Lord
 when casting Molten Hearth Volcanus Triple in Size increase his life by 300% is damage by 100% and his spell amp by 40%
 and he cannot move he also Summon a Giant Lava Wave 600 radius behind him dealing 250 Magical damage plus 100% of intelligence
-he also get Incinerate on himself exploding every second of the duration of Molten Hearth but only deal 50% of the damage and having
-250 radius only.
+he also get Incinerate on himself exploding every second of the duration of Molten Hearth but only deal 65% of the damage and having
+275 radius only.
