@@ -9,7 +9,7 @@ Daisho will gain 2 armor for every Image alive with 2.2 mana regeneration as wel
 Wind Walk, BladeStorm and Critical strike will be mana gain for Daisho
 
 talent 2
-increase Daisho Agility by 30 but reduce his Health by 55% and Reduce his armor to -4 and he cannot gain any armor or lose Armor
+increase Daisho Agility by 30 but reduce his Health by 50% and Reduce his armor to -5 and he cannot gain any armor or lose Armor
 Increase Daisho BladeStorm and Bleed Strike agility scaling by 25% and also make them spell vamp for 40% of the damage dealt
 and reduce Debuff time on Daisho by 75% while in BladeStorm
 
@@ -95,22 +95,22 @@ SPELL E BladeStorm
 Daisho Spin dealing Insane damage and reducing armor every tick of damage, Image will also Spin dealing reduce damage and not giving
 any Stack of armor Reduction, While Daisho spin he gain increase magic resist and Evasion as well, BladeStorm can also Crit with
 Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown, BladeStorm will also increase the
-magic resist cap to 85%
+magic resist cap to 85% while active and Daisho can still attack but only dealing 25% of the damage with his auto attack.
 
-damage 11 13 15 17 plus 11% 13% 15% 17% of Daisho Agility physical damage
+damage 13 17 21 25 plus 11% 13% 15% 17% of Daisho Agility physical damage
 damage every 0.3 second
 duration 1.5 1.8 2.1 2.4
 armor reduction 0.5 0.6 0.7 0.8 every tick
 magic resist increase 15% 20% 25% 30%
 Evasion increase 20% 30% 40% 50%
-radius 260 290 320 350
+radius 290 310 330 350
 mana cost 95 125 155 185
 cooldown 4 the cooldown stay freeze while in BladeStorm
 
 talent level 20 Upgrade BladeStorm
-increase agility scaling by 8%
+increase agility scaling by 13%
 reduce the damage every second by 0.1
-increase the duration by 0.6
+increase the duration by 1
 increase magic resist bonus by 15%
 increase Evation bonus by 10%
 increase mana cost by 105
@@ -118,7 +118,7 @@ increase mana cost by 105
 add a new modifier Tornado
 The radius of BladeStorm will increase by 5 every 0.1 second and increase its damage by 1% every 0.2 second as well, if Daisho kill
 any enemys durring BladeStorm the duration will increase by 0.6 second and also increasing the radius by 15 every kills done and
-any spell targeted spell cast at him will have 35% chance to be reflected at them, also increase Daisho movement speed by 5% when in
+any spell targeted spell cast at him will have 35% chance to be reflected at them, also increase Daisho movement speed by 12% when in
 BladeStorm and increase by 1% every kill done while in BladeStorm
 
 PASSIVE D OR F Divine Strike
@@ -142,8 +142,8 @@ increase the duration of bonus damage by 2 second
 
 add a new Modifier Weak Point
 Every time Daisho crit any enemys, they will suffer from 1 random debuff out of 2 that will only affect Daisho him-self or his spells
-DEBUFF 1 Enemys will take 20% more damage from BladeStorm and will have reduce healing by 8%, if Daisho damage them with BladeStorm,
-it will have 40% chance to increase the duration of BladeStorm by 1.2 every time they get damage by it. DEBUFF 2 enemys will take 25%
+DEBUFF 1 Enemys will take 32% more damage from BladeStorm and will have reduce healing by 8%, if Daisho damage them with BladeStorm,
+it will have 30% chance to increase the duration of BladeStorm by 1.2 every time they get damage by it. DEBUFF 2 enemys will take 25%
 more damage from Wind Walk and if Daisho land a True Strike on them, they will take 40% more damage instead and get stun longer for 0.6
 second and bleed for 17 plus 0.2% of their max health in pure damage for 3 seconds. The Weak Point debuff last 4 second and
 enemys that got Weak Point cannot get it again for 7 seconds and a Symbol will spawn on their head Showing witch one of the
@@ -173,7 +173,7 @@ BLADESTORM
 Bonus damage 12% 16% 20%
 Pure damage resist 15% 30% 45%
 BladeStorm damage into Pure 30% 40% 50% of total Damage -Meaning that the other part of the damage will be 70% 60% 50% physical
-Increase damage taken from Pure by 25% 30% 35%
+Increase damage taken from Pure by 8% 12% 16%
 -
 Cooldown of Passive 30 25 20
 
@@ -185,7 +185,7 @@ add a new modifier Enchented Blade
 now gain all 3 buff at the same time and if daisho use again the same spell, he will lose the 2 other buff and keep that 1 buff that
 he use the Spell, the single buff will have double the effect and reduce the mana cost and cooldown of that spell by 30% and casting
 the same spell over and over will give Daisho 5% increase damage with 2.5% spell amp that stack 10 time and are only lost after changing
-spell and keep when he die. He also got 15% chance to parry any physical attack or spell, taking no damage and returning 50% of the
+spell and keeps them when he die. He also got 15% chance to parry any physical attack or spell, taking no damage and returning 50% of the
 damage spell to the caster, cooldown of 4 second and cannot be reduce by cooldown reduction
 
 
