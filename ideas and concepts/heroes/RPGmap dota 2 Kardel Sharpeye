@@ -26,6 +26,13 @@ DEBUFF Kardel lose 25% max health and taking 135% damage from physical, magical 
 and will only give 3 health instead of 5, any armor-chest peice and helm will have 50% reduce effect on Kardel, he also cannot pass 385
 movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
 
+level 40 talent Upgrade Elite Sniper
+add a new modifier Heat Core Upgrade
+Kardel will gain 1 Upgrade in all of his stats for his Custom Rifle, doesnt affect the custom upgrade for the modifiers chosen.
+Weapons that Kardel collect can be melted into Scraps destroying the item in the making of the Scrap, he can store up 14 scrap on him
+and he can use 8 of them to boost one of the following stats of the Custom Rifle, that stats will have double the bonus of its current
+level for 35 seconds, cooldown of 12 second before use again for boosting and no cooldown to turn weapons into scraps.
+
 even more notes -- the list of upgrade will be down the whole file --
 Custom Rifle - Special weapons for Kardel that can be upgraded every 5 levels and can be customize, the base attack time cannot be
 upgraded and every level of Kardel will reduce the Base attack time by 0.01 up to 0.40 base attack time reduce.
