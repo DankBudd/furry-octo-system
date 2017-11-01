@@ -95,7 +95,7 @@ base damage 11 14 17 20 plus 28% 36% 44% 52% of inteillgence every 0.5 second
 burst damge amount 16% 19% 22% 25% of total damage taken
 duration 6 second
 base radius 290 320 350 380
-increase radius by 80% 11% 140% 170% of ZulNu inteillgence
+increase radius by 80% 100% 120% 140% of ZulNu inteillgence
 explosion damage 3% 5% 7% 9% of health
 explosion damage on boss 1% 1.5% 2% 2.5%
 explosion heal 9% 12% 15% 18% of Health
@@ -107,7 +107,7 @@ increase base damage by 6
 increase Burst damage amount by 10%
 increase explosion damage by 3%
 increase explosion heal by 7%
-reduce cooldown by 3
+reduce cooldown by 5
 
 add a new modifier Mad Spirit
 after the duration ends if the target is alive, it will spawn a lesser Voodoo Spirit with 150% of ZulNu life and damage and if the target
@@ -118,7 +118,7 @@ PASSIVE D OR F Ritual Aura
 allys will lifesteal for a flat amount on basic attack and having spell lifesteal as well also increase inteillgence of ally with
 increasing mana and health Regeneration resource and also ZulNu will only get 50% of the flat lifesteal
 
-Flat lifesteal 3 6 9 12 plus 8% of inteillgence
+Flat lifesteal 3 6 9 12 plus 8% 9% 10% 11% of inteillgence
 spell lifesteal 9% 12% 15% 18%
 Increase inteillgence by 10% 14% 18% 22%
 life regeneration bonus 30% 40% 50% 60%
@@ -126,7 +126,7 @@ mana regeneration bonus 10% 20% 30% 40%
 radius of aura 1200
 
 talent level 15 upgrade Ritual Aura
-increase Flat lifesteal inteillgence scaling by 7%
+increase Flat lifesteal inteillgence scaling by 4%
 increase spell lifesteal by 8%
 increase bonus inteillgence by 3%
 increase radius aura by 600
