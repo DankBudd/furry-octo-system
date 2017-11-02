@@ -15,18 +15,16 @@ increase overall stats and give a positive and negative buff
 
 BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 12 Strenght he also reduce stun,root and blind by
 30% he also start with 1 armor and 5% magic resist he start with a special Sword that can be change and if sven get stun for more than
-3 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 2.5 second
+2.5 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 3 second and this
+effect can only happen every 12 seconds
 DEBUFF sven lose 20% attack speed,10% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed Sword 
 type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by 15% and
 his attack speed by 20 for 3 second
 
 Sven old Sword Special
-increase damage by 3
-reduce attack speed by 8
-lifesteal for 7% of the damage done with spell and basic attack
-cleave for 10% of the damage done in front of sven by 320
-can also be use to increase sven attack speed by 12 cooldown of 30 second and last 4 second
-
+damage 4
+attack speed lost 12
+sven got 10% chance to parry a basic attack and dealing 7 damage plus 20% of his attack damage back to the attacker
 
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
