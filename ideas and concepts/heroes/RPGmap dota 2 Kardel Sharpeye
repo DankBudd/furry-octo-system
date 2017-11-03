@@ -220,9 +220,10 @@ reduce movespeed 70 65 60 55 50 FLAT
 CLOSE COMBAT MODE
 Kardel will have increase attack speed, increase movespeed, increase damage reduction and reduce attack range. Also enable his close
 range spell, he also start with a point inside of this passive and having 5 levels, all allys spell that heal will also give extra bonus
-for Kardel, increasing healing spells by 8% 16% 24% 32% 40%
+for Kardel, increasing healing spells by 8% 16% 24% 32% 40% and he will splash damage for 25% of the damage dealt in a 350 AOE from the
+first target
 
-increase attack speed 20 40 60 80 100
+increase attack speed 40 45 50 55 60
 increase movespeed 15 30 45 60 75 FLAT
 increase damage reduction 9% 11% 13% 15% 17%
 reduce attack range 350 340 330 320 310
@@ -242,7 +243,7 @@ stacks Kardel will gain Permanent invisibility if he attack or cast any spell he
 he will become invis again
 
 add a new modifier for CLOSE RANGE MODE - Juggernaut
-Kardel will gain 12 armor and 25% magic resist in Close Combat but alway reduce his range to 315 at all time and cannot be change.
+Kardel will gain 5 armor and 12% magic resist in Close Combat but alway reduce his range to 315 at all time and cannot be change.
 when Kardel kill enemys he will gain 15 attack speed that last 12 second and refresh upon killing others and increasing the attack speed
 even more up to 90 bonus attack speed, and if Kardel takes 15% of his max health in 1 hit he will gain 18% more damage reduction for 4
 seconds, only proc every 8 seconds
@@ -253,12 +254,13 @@ Kardel knows the way to kill his enemys quick and making alot of mess, all of hi
 current health instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
 bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 250, 200,
 150 max mana. Spell that does damage every 2 second or lower will only deal 0.2% 0.3% 0.4% of max health in damage (current health damage
-for bosses)
+for bosses) HeadShot! will deal less damage in close combat for auto attacks
 
 Max health damage 3% 4% 5%
 HeadShot! spell damage 150% 200% 250% of attack damage
 HeadShot! chance for spells 20% 25% 30%
-HeadShot! auto attack damage 130% 150% 170% of attack damage
+HeadShot! auto attack damage 130% 150% 170% of attack damage long range
+HeadShot! auto attack damage 110% 120% 130% of attack damage close range
 HeadShot! chance for auto attack 30% 40% 50%
 attack speed lost 75 100 125
 movespeed lost 22% 33% 44%
@@ -305,5 +307,6 @@ Kardel spell will deal 2% 4% 6% 10% 14% 18% 24% 30% increase damage and reduce t
 
 Bonus LifeSteal Per Upgrade in it 5% 6% 7% 9% 12% 16% 21% 28%
 Boosted Blood Cannon Modifier - if LifeSteal got the most upgrade - Basic Modifier -
-
+Kardel will deal 0.2% 0.3% 0.4% 0.5% 0.6% 0.7% 0.8% of the target current health in bonus damage and also lifestealing for the amount
+of the damage dealt and increase all source of healing by 7% 10% 14% 18% 24% 29% 35% 44%
 --
