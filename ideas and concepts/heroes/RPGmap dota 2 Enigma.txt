@@ -118,11 +118,12 @@ Gravity Well.
 
 SPELL E level
 Gravity Bolt
-Cast a bolt made of pure gravity dealing magical damage and increasing enigma max life for a short duration after the duration end
-it will heal enigma, each stack got there own duration.
+Cast a bolt made of pure gravity dealing magical damage and also dealing max health damage as well (bosses will take current health
+damage) and increasing enigma max life for a short duration after the duration end, it will heal enigma, each stack got there own
+duration.
 
-Base damage 15 20 25 30 type Magical
-intelligence scaling 80% 120% 160% 200%
+Base damage 15 20 25 30 type Magical plus 80% 120% 160% 200% of inteillgence
+max health into damage 0.5% 0.7% 0.9% 1.1% Pure
 damage from Gravity bolt into bonus life 20% 30% 40% 50%
 gain 50% 55% 60% 65% of the bonus life into a heal after the duration
 buff duration 7 second
