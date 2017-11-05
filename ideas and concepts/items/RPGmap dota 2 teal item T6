@@ -6,7 +6,7 @@ give ally and enemy aura that buff or debuff also give some stats for the user
 
 LORE-- The one who hold this ring will control all of the elemental power as one
 
-8 all stats -not aura-
+12 all stats -not aura-
 ally armor 3
 ally regen 2.5 life and 1.5 mana
 ally damage increase 10% and 8 damage
@@ -22,7 +22,7 @@ enemy damage taken Increase 5%
 
 
 Stone of Jordan
-increase mana and stats, also give a passive that deal bonus damage
+increase mana and stats, also give a passive that deal bonus damage (UNIQUE AND WONT WORK WITH OTHER STONE OF JORDAN)
 
 LORE-- this ring has a powerfull stone inside that boost the user with wisdom and knowledge making him strong againts the evils
 
@@ -31,7 +31,7 @@ deal 12 pure damage on basic attack and spell
 
 1 all stats
 25% mana
-20 mana
+20 mana regenration
 
 
 Sulfuras
@@ -51,18 +51,18 @@ after getting 1000 charge, change the item to Sulfuras Might, increasing the bon
 10 also increase the user size by 50%, increasing attack range by 130 and cleave for 40% of the damage dealt, range unit will deal splash
 damage instead for 20% of the damage dealt
 
-damage 35
+damage 45
 strenght 50
-attack speed lost -20
-BAT 2.7
+attack speed lost -35
+BAT 2.4
 
 if use by Volcanus Stats will be
 25 inteillgence
 40 damage
-15% health bonus
+25% health bonus
 15% mana bonus
-30% spell amp
-Change attack to be Melee
+20% spell amp
+Change attack to be Melee 210 attack range
 BAT 2.00
 
 LORE--Sulfuras is the mighty weapon of Ragnaros the Firelord. The weapon never leaves his grasp. across the weapon's surface.
