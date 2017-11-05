@@ -1,0 +1,27 @@
+these are the enemy that scale between level 1 to 10 -- they will range in random level depending on the level of the player when he 
+enter the area
+
+they all have 100 base attack speed and have 1.7 base attack time as well
+
+Centaur Warrior level 1-7 melee Normal type
+health 90 to 325
+mana 40 to 120
+magic resist 2% to 10%
+armor 1 to 5
+attack damage 11-14 to 23-29
+attack speed 100 to 130
+health regeneration 1.2 to 2.8
+mana regeneration 0.5 to 1.1
+
+Passive Strong Body
+the Centaur Warrior will reduce all physical damage by 5% 6% 7% 8% 9% 10% 11% and return that amount of physical taken back to that
+attacker
+
+Passive Bashing Strike
+the Centaur Warrior will have 14% chance to deal 3 5 7 9 11 13 15 physical bonus damage on hit and stun the target for 0.8 second
+
+Spell Charge mana cost 14 16 18 20 22 24 26 plus 15% of max mana coldown 8
+the Centaur will charge forward after 1.4 second of delay 700 range dealing 15% 16% 17% 18% 19% 20% 21% of its max health into magical
+damage and if does hit his target he will stun himself for 1.5 second and taking 10% extra damage
+
+
