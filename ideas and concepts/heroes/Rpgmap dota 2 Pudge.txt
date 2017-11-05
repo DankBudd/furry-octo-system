@@ -13,9 +13,7 @@ increase Butcher damage by 8% and his spell amp by 10%
 Butcher will gain 50% bonus damage from his spell amp and 25% of his attack damage will go on his spells as bonus damage -rot cannot
 gain this bonus-
 
-PASSIVE D OR F
-
-Fat Body
+PASSIVE D OR F Abomination
 give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
 
 BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 0.5% of his max health
@@ -25,7 +23,7 @@ DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost ma
 pure and physical damage and he cannot have more than 300 movement speed slows are double on him and slowing effect will damage him by
 1% of his max health for every second of the duration of slows and he only use clever and swords type weapons
 
-Talent level 25 Upgrade Fat Body
+Talent level 25 Upgrade Abomination
 add a new modifier Meat Eater
 Butcher basic attack now deal 4% of the target current life in damage and healing him for 150% of the damage done, this effect get a
 cooldown of 8 second if attacking a boss also make all spell of pudge deal 0.7% of the target max health doesnt work for Rotting Flesh
