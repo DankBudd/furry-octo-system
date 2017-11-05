@@ -100,23 +100,23 @@ damage 4
 
 
 Bottle of Health gold 250 plus lesser bottle of Health 50 gold
-has 6 charge that restore the user life per second, killing enemy will refill the bottle also increase the user attack damamge
+has 6 charge that restore the user life per second, killing enemy will refill the bottle also increase the user attack damage
 
-last 3 second
-life per second 11 plus 3% of the user Attributes
-amounts of kill for a charge 9
+last 4 second
+life per second 11 plus 12% of the user Attributes
+amounts of kill for a charge 5
 boss will always give 3 charges
-attack damage bonus for the duration 5
+attack damage bonus for the duration 7
 
 
 Bottle of Mana gold 250 plus lesser bottle of Mana 50 gold
 has 8 charge that restore the user mana per second, killing enemy will refill the bottle also increase the user spell amp
 
-last 3 second
-mana per second 7 plus 2% of the user Attributes
-amounts of kill for a charge 7
+last 4 second
+mana per second 7 plus 8% of the user Attributes
+amounts of kill for a charge 3
 boss will always give 4 charges
-spell amp bonus for the duration 2%
+spell amp bonus for the duration 4%
 
 
 Book of Lores gold 200
@@ -131,17 +131,17 @@ Magical Orb 200
 increase the user intelligence and mana also all MAGIC spell will slow and deal bonus damage
 
 Passive item use
-all MAGIC spell will slow for 4% and deal 2 pure damage bonus
+all MAGIC spell will slow for 5% and deal 3 pure damage bonus
 
-Inteillgence 6
+Inteillgence 7
 mana 3%
 
 
-Physycal Orb 200
+Physical Orb 200
 increase user agility and strenght also all PHYSICAL spell will blind and deal bonus damage
 
 Passive item use
-all PHYSICAL spell will blind for 1.2 second giving 5% chance to miss and deal 2 pure damage bonus
+all PHYSICAL spell will blind for 0.4 second giving 20% chance to miss and deal 3 pure damage bonus
 
 agility 3
 strenght 3
@@ -150,16 +150,17 @@ strenght 3
 Gold Rock need Lucky Rock plus recipe 200 gold
 increase the user stats with xp, gold and cast range
 
-all stats 1
-xp gain 4%
-Gold Gain 6%
-cast range 40
+all stats 2
+xp gain 5%
+Gold Gain 15%
+cast range 65
 
 
 Vemon Orb
-Deal damage over time, slowing the target attack speed and movement speed
+Deal damage over time, slowing the target attack speed and movement speed and also increasing the user Primary stats
 
-Damage 3 magical per second
+Primary stats 5
+Damage 3 magical per 0.5 second
 attack spell slow 5
 Movement spell slow 3%
 duration 10 second
@@ -169,7 +170,7 @@ GrimFang
 Increase the user attack speed and damage with agility, the user also got a small chance to crit with both spell and basic attack
 
 Passive item Use Fang Crit
-the user got 35% chance to crit for 135% damage
+the user got 40% chance to crit for 120% damage
 
 attack speed 12
 damage 4
@@ -212,7 +213,7 @@ Hard Shell
 Increase the user Health with Strenght and reduce Stun, Roots, Blind and debuff duration as well
 
 Passive items use
-reduce all Stun, Roots, Blind and Debuff duration by 14%
+reduce all Stun, Roots, Blind and Debuff duration by 10%
 
 health 125
 strenght 5
