@@ -4,10 +4,10 @@ Realm Soul ORANGE cant buy
 increase damage and life and also giving a chance to deal bonus damage and lifestealing for the damage dealt
 
 Passive item use
-8% to deal 20 physical damage plus 30% of user damage and lifestealing for 40% of the damage dealt
+20% to deal 25 physical damage plus 30% of user attack damage and lifestealing for 65% of the damage dealt
 
-damage 18
-life 100
+damage 25
+life 375
 
 Rad Stone ORANGE needed Magic Stone 600 gold and Recipe 1000 gold
 increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
@@ -17,11 +17,11 @@ deal 30 magic damage plus 25% of user int to the target slowing movement by 15% 
 mana cost 200
 
 Passive item use
-deal 2 magical damage per 1 second plus 3% of user intelligence also slow enemy by 10%
+deal 5 magical damage per 0.5 second plus 5% of user intelligence also slow enemy by 10%
 
-intelligence 12
-spell amp 6%
-mana 120
+intelligence 18
+spell amp 7%
+mana 350
 
 Hellish Infernal Stone ORANGE, needed infernal stone 2500 gold with recipe 3500 gold
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive
@@ -64,14 +64,13 @@ reduce cooldown and increase agility and inteillgence can also use the item to r
 give cooldown reduction to near ally
 
 Active use item
-reduce the next spell cooldown by 30% on use cooldown 200 no mana cost
+reduce the next spell cooldown by 50% on use cooldown 170 no mana cost
 
 Passive item use
 give 5% cooldown reduction to near ally double on the user
 
 agility 15
 inteillgence 15
-cooldown reduction 10%
 
 
 Star Fragment
@@ -84,10 +83,9 @@ Create a Star that deal 12 pure damage plus 30% of primary Attributes every 0.5 
 it will stuns enemys by 2.2 second increasing damage they take by 350% cooldown for 1.5 second, 35 second, mana cost 15% of max mana.
 
 increase Primary Attributes by 30%
-cast range 250
-attack range 120
+cast range 215
+attack range 125
 increase life regeneration bonus by 20%
-
 
 Icy Cleaver
 increase the user damage,mana and movementspeed every attack will Blood Frost enemys, making them get lifesteals by others and having
@@ -101,9 +99,9 @@ Active item use Frost Bite
 throw the cleaver dealing 50 plus 5% of the target max health in pure damage. Frost Bite will reduce enemys attack speed by 50 and
 reducing all healing recive by 35% for 5 second. cooldown of 60, mana cost of 180
 
-damage 25
+damage 20
 mana 250
-movement speed 10%
+movement speed 12%
 BAT Modifier 2.20
 
 
@@ -112,10 +110,10 @@ increase attack speed gain from agility and also giving armor for agility point 
 duration also increase agility and health
 
 Active item use
-increase the user Base Agility by 100% for 5 second cooldown of 45 second
+increase the user Base Agility by 100% for 5 second cooldown of 70 second
 
 Passive item use
-increase attack speed gain from agility by 0.20 and increase armor by 1 for every 35 agility
+increase attack speed gain from agility by 0.15 and increase armor by 1 for every 35 agility
 
 agility 15
 health 200
