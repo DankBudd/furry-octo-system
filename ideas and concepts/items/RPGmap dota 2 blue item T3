@@ -16,21 +16,21 @@ Skull of Death BLUE gold 850
 Increase agility and strenght of the user, also have a chance to deal bonus damage with physical damage crit on spell
 
 spell crit, physical spell only
-chance 12%
-damage 140%
+chance 18%
+damage 150%
 
-agility 10
-strenght 6
+agility 14
+strenght 8
 
 
 Magic Stone BLUE gold 600
 increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
 
 Active item use
-deal 30 magic damage plus 20% of user int to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
+deal 30 magic damage plus 25% of user inteillgence to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
 
-intelligence 6
-spell amp 6%
+intelligence 9
+spell amp 7%
 mana 140
 
 Infernal Stone BLUE, needed lesser infernal stone 1000 gold with recipe 1500 gold
@@ -62,38 +62,39 @@ give strenght and agility with lifesteal for near ally, can also be use to throw
 
 Active item use
 deal 9 physical damage plus 15% of user strenght and agility, bounce up to 7 time reducing armor by 1 and silencing for 0.25 second
-the debuff of silence and disarmor last 3 second, cooldown 25 mana cost 150
+the debuff of disarmor last 3 second and can stack multiple time if hitting the same target and refreshing the duration
+cooldown 25 mana cost 150
 
-Passive 1 Aura that give agility, strenght and lifesteal 700 radius
-Strenght 5
-agility 5
-lifesteal 10%
+Passive Aura that give agility, strenght and lifesteal 700 radius
+Strenght 4
+agility 4
+lifesteal 8%
 
 
 WarCry BLUE needed Orger Club 1000 gold, Quaterstaff 875 gold and recipe 50 gold
 increase user attack speed strenght and damage with increase cleaving damage upon useing the item also passively give cleaving attack
 
 Active use item
-empower next 3 attack cleaving for 65% of the damage instead and increasing damage by 15 and attackspeed by 25 for 14 second
-cooldown 18 manacost 80
+empower next 3 attack cleaving for 65% of the damage instead and increasing damage by 15 and attackspeed by 25 for 15 second
+cooldown 35 manacost 150
 
 Passive item use
-cleave for 15% of the damage dealt
+cleave for 20% of the damage dealt
 
 strenght 12
-attack speed 5
-
+attack speed 8
+BAT 1.90
 
 Radiant Stone
-give the user true sight abd give near ally bonus life regeneration and mana regeneration also inrease heal amp as well
+give the user true sight and give near ally bonus life regeneration and mana regeneration also inrease heal amp as well
 
 Passive item use
-give true sight in a 800 radius any enemy that is invisible will take 7% increase damage last 12 second after leaving invis
+give true sight in a 800 radius any enemy that is invisible will take 12% increase damage last 8 second after leaving invis
 
 Passive item use 2
 give 3 life regeneration and 4 mana regeneration to near ally in a 800 radius
 
-heal amp 8%
+heal amp 14%
 
 
 Dire Stone
@@ -101,8 +102,8 @@ the user will make near ally invisible making them deal more damage after breaki
 aura as well increasing stats for the user
 
 passive item use
-all ally near you will go invisble 800 radius for 4 second, if they break the invis aura they will do 10% extra damage with spell and
-basic attack and cannot go invis again for 6 second
+all ally near you will go invisble 800 radius for 4 second, if they break the invis aura they will do 15% extra damage with spell and
+basic attack and cannot go invis again for 8 second
 
 passive item use 2
 give 6 damage and 4% spell amp to near ally 800 radius
@@ -114,26 +115,26 @@ Holy Book
 increase the user heal amp and spell amp type skill also increase mana and life can also be use to deal holy damage or heal allys
 
 active use item 1
-deal 10 plus 15% of inteillgence as magical damage or heal any ally for 20 heal plus 40% of inteillgence
+deal 15 plus 12% of inteillgence as magical damage or heal any ally for 60 heal plus 40% of inteillgence
 
-heal amp 6%
-increase spell amp 6%
-mana 70
-life 70
-
+heal amp 7%
+increase spell amp 7%
+mana 90
+life 90
 
 Pure Orb need magical orb with physical orb
 increase all stats and all spell will blind and slow dealing extra damage as well
 
 Passive item use 1
-Spell will slow for 7% and blind for 2 second giving 8% to miss and also dealing 4 pure damage
+Spell will slow for 7% and blind for 0.7 second giving 30% to miss and also dealing 7 pure damage
 
 Active item use 1
-deal 14% of total attributes as damage to a target all of that damage will be 50% magical and physical
+deal 20% of total attributes as damage to a target all of that damage will be 50% magical and physical, if he die from this, refresh
+the coldown and increase the attributes scaling by 10% more for the next cast, coldown 25 mana cost 10% max mana
 
-all stats 5
+all stats 8
 mana 10%
-cooldown reduction 3%
+cooldown reduction 5%
 
 
 Blood Sword
@@ -141,18 +142,18 @@ make the target bleed and lifestealing for medium amount of damage done with ble
 the user life, damage, strenght and attack range
 
 Passive item use
-Bleed the target for 6 physical damage plus 12% of Attack and lifesteal for 30% plus 5% of strenght, of the damage dealt by bleed, last
-2 second and damage every second
+Bleed the target for 4 physical damage plus 12% of Attack and lifesteal for 20% plus 8% of strenght, of the damage dealt by bleed, last
+2 second and damage every 0.8 second
 
 Active item use Uber Bleed
-bleed all target near the caster 250 radius for 11 physical damage plus 20% of Attack and lifestealing for 80% of the damage dealt
+bleed all target near the caster 250 radius for 7 physical damage plus 20% of Attack and lifestealing for 80% of the damage dealt
 last 3 second, any target that die durring the Uber Bleed will restore 3% of the user health
 
-damage 6
-Strenght 10
-Life 6%
-attack range 30
-BAT Modifier 1.90
+damage 7
+Strenght 8
+Life 10%
+attack range 35
+BAT Modifier 1.55
 
 Danudor
 increase the user attack damage with stats and attack speed, also for every 5 strike done with basic attack will make the user deal
