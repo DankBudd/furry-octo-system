@@ -7,18 +7,18 @@ give ally and enemy aura that buff or debuff also give some stats for the user
 LORE-- The one who hold this ring will control all of the elemental power as one
 
 12 all stats -not aura-
-ally armor 3
-ally regen 2.5 life and 1.5 mana
-ally damage increase 10% and 8 damage
+ally armor 5
+ally regen 4 life and 2 mana
+ally damage increase 12% and 8 damage
 ally movement speed 10%
-ally attack speed 15
-ally lifesteal 8%
-enemy armor -3
-enemy regen -1.1 life and -0.9 mana
-enemy damage reduction 8% and 3 damage
-enemy attack speed -10
+ally attack speed 20
+ally lifesteal 10%
+enemy armor -4
+enemy regen -1.3 life and -0.9 mana
+enemy damage reduction 10% and 5 damage
+enemy attack speed -15
 enemy movement speed -15%
-enemy damage taken Increase 5%
+enemy damage taken Increase 20%
 
 
 Stone of Jordan
@@ -38,22 +38,24 @@ Sulfuras
 increase damage and strenght but remove attack speed attack will burn the target for high damage can be use for swing dealing insane
 damage in a large area, Volcanus will get increase bonus from this item and the only weapon he can wield
 
-Active item use
-Swing Sulfuras dealing 50 fire damage plus 70% of the user strenght in a 500 radius in front of the caster stuning for 2 second
-any enemy that die upon Sulfuras Swing will give a charge that will empower Sulfuras after getting the right amount, cooldown 30
+Active item use Sulfuras Swing
+Swing Sulfuras dealing 150 fire damage plus 70% of the user strenght in a 500 radius in front of the caster stuning for 2 second
+any enemy that die upon Sulfuras Swing will give a charge that will empower Sulfuras after getting the right amount, coldown 35 no
+mana cost
 
 Passive item use
-auto-attack will burn the target for 5 fire damage plus 30% of strenght per second lasting 3 second, enemy that die during Sulfuras burn
-will give a charge that will empower Sulfuras after getting the right amount and for every 100 charge increase life by 1% up to 10%
+auto-attack will burn the target for 15 fire damage plus 30% of strenght per second lasting 3 second, enemy that die during Sulfuras burn
+will give a charge that will empower Sulfuras after getting the right amount and for every 100 charge increase life by 1% up to 10% and
+fire damage by 2% up to 20%.
 
 Passive item use 2
 after getting 1000 charge, change the item to Sulfuras Might, increasing the bonus damage of Sulfuras Swing by 100 and Sulfuras Burn by
-10 also increase the user size by 50%, increasing attack range by 130 and cleave for 40% of the damage dealt, range unit will deal splash
-damage instead for 20% of the damage dealt
+10 also increase the user size by 50%, increasing attack range by 130 and cleave for 40% of the damage dealt and reducing all fire type
+damage by 75%
 
-damage 45
+damage 60
 strenght 50
-attack speed lost -35
+attack speed lost -55
 BAT 2.4
 
 if use by Volcanus Stats will be
@@ -61,9 +63,10 @@ if use by Volcanus Stats will be
 40 damage
 25% health bonus
 15% mana bonus
-20% spell amp
+fire spell damage bonus 30%
 Change attack to be Melee 210 attack range
-BAT 2.00
+BAT 2.2
+change the scaling on the active and passive item to be inteillgence scaling
 
 LORE--Sulfuras is the mighty weapon of Ragnaros the Firelord. The weapon never leaves his grasp. across the weapon's surface.
 and etched from end to end with intricate runes that seem to move like flowing lava It is composed of flaming red elementium
