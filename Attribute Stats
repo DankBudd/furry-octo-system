@@ -1,5 +1,17 @@
 this is what strenght, agility, intelligence and hero base stats are.
 
+ALL HEROES cannot pass more that 40% damage reduction, for armor and magic resist the maximum cap is 75% for reducing damge with resist
+is 75% with anything
+
+IF THE HERO RESISTENCE ARE MORE THAN 99% IT WILL NOT WORK, combining damage resist with others will cap it at 90% max damag reduction
+
+current resistence
+physical resist
+magic resist
+Pure resist
+damage reduction -- any resistence reductions
+
+if we add more resistence just type it up here
 
 if Primary stats is str, agi or int you will gain 0.20 damage per point
 all hero will have 150 life and 250 mana base start
