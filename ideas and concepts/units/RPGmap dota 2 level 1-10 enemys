@@ -3,18 +3,18 @@ enter the area
 
 they all have 100 base attack speed and have 1.7 base attack time as well
 
-Centaur Warrior level 1-7 melee Normal type
+Centaur Warrior level 1-7 melee Normal Type
 health 90 to 325
 mana 40 to 120
 magic resist 2% to 10%
 armor 1 to 5
-attack damage 11-14 to 23-29
+attack damage 11-14 to 23-29 physical attacks
 attack speed 100 to 130
 health regeneration 1.2 to 2.8
 mana regeneration 0.5 to 1.1
 
 Passive Strong Body
-the Centaur Warrior will reduce all physical damage by 5% 6% 7% 8% 9% 10% 11% and return that amount of physical taken back to that
+the Centaur Warrior will reduce all physical damage by 5% 6% 7% 8% 9% 10% 11% and return 50% of the amount of physical taken back to that
 attacker
 
 Passive Bashing Strike
@@ -24,4 +24,28 @@ Spell Charge mana cost 14 16 18 20 22 24 26 plus 15% of max mana coldown 8
 the Centaur will charge forward after 1.4 second of delay 700 range dealing 15% 16% 17% 18% 19% 20% 21% of its max health into magical
 damage and if does hit his target he will stun himself for 1.5 second and taking 10% extra damage
 
+
+Centaur Shaman level 1-8 range 475 Normal Type
+health 75 to 290
+mana 90 to 350
+magic resist 5% to 10%
+armor -1 to 3
+attack damage 6-9 to 19-23 magical attacks
+attack speed 100 to 115
+health regeneration 0.5 to 1.4
+mana regeneration 0.9 to 2.1
+
+Passive Healing Presence
+the Centaur Shaman will heal all nearby allys 750 radius by 4 6 8 10 12 14 16 plus 1% of their max health every 2.5 seconds and
+increasing healing effect by 10% as well
+
+Spell Elemental Bolt mana cost 40 48 56 64 72 80 88 plus 8% of max mana cooldown 6
+the Centaur Shaman will cast a bolt of a random Element each dealing 22 26 30 34 38 42 46 plus 0.4% of the centaur maximum mana in
+magical, the fire bolt will deal 1.2% of the target maximum health, the water bolt will slow movespeed by 10% and attack speed by 15
+and the Lightning bolt will reduce the target magical resistance by 6% and armor by 2. These effect last 3.5 seconds
+
+Spell Nature Wave mana cost 25 plus 5% of max mana coldown 18 - only heal if the target lost at least 35% of current health -
+the Centaur Shaman will heal up to 3 target jumping every 0.8 second and having 25% less healing on each jump, the heal amount is 25 40
+55 70 85 100 115 plus 3.5% of the target max health and reducing all phyiscal and magical damage taken by 10% but taking 25% extra
+pure damage
 
