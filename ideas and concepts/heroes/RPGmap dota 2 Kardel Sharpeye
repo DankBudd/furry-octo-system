@@ -1,6 +1,6 @@
 DOTA 2 -- Sniper, medium DSP, High and low single spell Damage, high CC -- Kardel Sharpeye
 
-Stats inteillgence 7, agility 7, strenght 10, base damage 9, movespeed 300, --- INT 0.60 STR 0.40 AGI 1.50
+Stats inteillgence 5, agility 7, strenght 10, base damage 9, movespeed 300, --- INT 0.60 STR 0.40 AGI 1.40
 attack range 480
 
 quick note for this
@@ -318,6 +318,18 @@ Booted Scope Modifier - if attack range got the most upgrade - basic modifier -
 Kardel will deal 9% 12% 15% 18% 21% 24% 27% 30% increase damage from enemys that are 450 425 400 375 350 325 300 275 range away from
 Kardel, also reduce all spells or attack that travel more than 425 range by 11% 13% 15% 17% 19% 21% 23% 25%.
 
+MOD UPGRADE FOR THE RIFLE
 
+LVL 1 Searing Shot Modifier - need upgrade in, 2 damage, 1 attack speed and 1 lifesteal
+
+Kardel will reduce the enemys armor by 2 for every auto attack he does, that stack up 8 time, at max stack the enemys will suffer 0.6%
+of their max health every 0.7 seconds (current health damage for bosses) if Kardel is in Close Combat, he will reduce his base attack
+time by 0.15 and alway reduce the armor by 4 for the first hit he does and increasing the max stack by 1, reducing 20 armor in total
+the debuff last 3.5 seconds.
+
+LVL 1 Magical Cannon Modifier - need upgrade in, 2 spellvamp, 1 damage and 1 attack range
+Kardel spell will alway deal 1.5% of the target max health (current health damage for bosses) and increase his cast range by 225
+and make his spell deal 20% to 40% increase damage for every 60 Unit Away the enemys are from Kardel, Kardel will also gain 15% agility
+and all of his spell will deal 25% bonus damage base on his agility.
 
 
