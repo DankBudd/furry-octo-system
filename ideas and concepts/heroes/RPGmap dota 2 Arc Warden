@@ -71,10 +71,10 @@ with the jumps.
 SPELL W Surge
 Zet Heal any ally or himself and increasing further healing also giving increase damage and spell amp, if cast again on the same
 that is affected by the healing bonus increase the target movement speed for a short duration, the heal will have 100% increase effect
-on Zet
+on Zet, Surge also got 35% chance to be cas on 2 random target when cast on Zet.
 
-heal 35 50 65 80 plus 30% 45% 60% 75% of inteillgence
-further increase of heals 22% 28% 32% 38%
+heal 25 50 75 100 plus 30% 55% 80% 105% of inteillgence
+further increase of heals 15% 25% 35% 45%
 bonus damage 6 12 18 24
 bonus spell amp 7% 11% 15% 19%
 duration of buff 12 second
@@ -84,11 +84,11 @@ mana cost 40 60 80 100 plus 2% of max mana
 cooldown 8
 
 talent level 10 upgrade Surge
-increase base heal by 30
-increase inteillgence scaling by 25%
+increase base heal by 50
+increase inteillgence scaling by 45%
 increase further healing by 26%
 increase movement speed buff by 2 second
-increase mana cost by 150
+increase mana cost by 90
 
 add a new modifier Volting Surge
 if cast on Zet it double Surge Stats but if cast on any ally they will get 50% of Surge insteads of 100%
@@ -127,28 +127,28 @@ taken.
 
 PASSIVE D OR F Lightning Body
 increase Zet Stats for every enemys kill with Lightning Arc and for Surge increase Inteillgence for every amount of life Restore
-Zet also increase his agility and inteillgence by a % of his Strenght, and also Increase Strenght by a % of his Agility and Inteillgence.
-the bonus strenght cannot go higher than 16% 20% 24% 28%. the bonus strenght, agility and inteillgence only work on Zet base attributes
-and items bonus not from Lightning Body. Every stacks got their own duration.
+Zet also increase his agility and inteillgence by a % of his Strenght, and also Increase Strenght as well,
 
-agility bonus for every kill 3 4 5 6
-duration of Agility gain 18 24 28 32
+
+agility bonus for every kill 4
+duration of Agility gain 14 18 22 26
 Inteillgence bonus 1 2 3 4 for every require health restore
-Heath restore needed for bonus 140 120 100 80
-duration of inteillgence gain 10 20 30 40
-Increase strenght by 1% for every 20 18 16 14 Agility and Inteillgence
+Heath restore needed for bonus 150 140 130 120
+duration of inteillgence gain 40 42 44 46
+increase strenght by 10% 14% 18% 22%
 increase agility by 1% for every 28 25 22 19 Strenght
 Increase Inteillgence by 1% for every 28 25 22 19 Strenght
 
 talent level 20 upgrade Lightning Body
-increase duration of agility bonus and inteillgence bonus by 4
-reduce how much Agility and Inteillgence is needed for Strenght bonus by 4
+increase duration of agility bonus and inteillgence bonus by 14
 reduce how much Strenght is needed for Agility and Inteillgence bonus by 1
+reduce how much health is needed for bonus by 20
+increase strenght bonus by 3%
 
 add a new modifier Charge Body
 enemy that damage Zet will take 5 plus 12% of Zet Attributes as pure damage if zet take more than 35% of his max Health increase
-the damage to 30 plus 150% of Zet Attributes instead also reduce Stun,Blind and Roots by 30% of their duration and also
-increase his Lightning arc jump distance by 325, also increase its damage by 22% every time it kill something without limit and
+the damage to 50 plus 120% of Zet Attributes instead also reduce Stun,Blind and Roots by 30% of their duration and also
+increase his Lightning arc jump distance by 275, also increase its damage by 11% every time it kill something without limit and
 if it kill at least 4 target it will gain 1 jump again
 
 
