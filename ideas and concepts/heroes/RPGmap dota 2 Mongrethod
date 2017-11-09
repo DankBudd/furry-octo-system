@@ -114,10 +114,10 @@ infect the ground with Chaos increasing Mongrethod armor and magic resist, he al
 enemys that come inside of Pit of Hatred will be force to attack him
 
 damage 20 30 40 50 plus 25% 45% 65% 85% of strenght type magical
-shield from health
+shield from health 12% 18% 24% 30%
 armor 3 5 7 9
 magic resist 10% 14% 18% 22%
-duration 4.5 5 5.5 6
+duration 5.5 6 6.5 7
 base radius 400 415 430 445
 radius increase by 45% 90% 135% 170% of strenght
 cooldown 35 32 29 26
@@ -127,7 +127,7 @@ talent level 20 upgrade Pit of Chaos
 increase life bonus by 10%
 increase armor bonus by 3
 increase magic resist bonus by 9%
-increase duration by 1.5
+increase duration by 1
 reduce cooldown by 7
 
 add a new modifier King of the Pit
