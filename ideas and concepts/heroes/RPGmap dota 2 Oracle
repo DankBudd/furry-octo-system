@@ -1,13 +1,13 @@
-Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 9, Stats Gain per level 2.60 int, 0.00 str, 0.00 agi
+Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 7, Stats Gain per level 2.50 int, 0.00 str, 0.00 agi
 Starting item Broken Orb give 2 damage and 4 int base attack time 3.00 Support-low DSP
 LEVEL 20 TALENT
 
 Talent 1
-increase Oracle armor by 4 and magic reist by 10%
+increase Oracle armor by 5 and magic reist by 12%
 Oracle will gain 450% of his armor and magic resist as health bonus
 
 Talent 2
-increase Oracle healing amp by 7% and spell amp by 4%
+increase Oracle healing amp by 20% and spell amp by 10%
 Oracle will gain 250% of his healing amp and spell amp as bonus mana and every 850 max mana he got, he will gain 40 movement speed
 
 
@@ -24,7 +24,7 @@ When Mhadreno, Davion and Oracle are in the same game they will gain bonus , gai
 bonus, and increasing their SPELL Q healing by 20%, For Oracle his Spell E will gain the bonus not his Q
 
 
-talent level 25 upgrade Prophet
+talent level 40 upgrade Prophet
 add a new modifier Life Explosion
 40% of oracle spell mana cost will heal nearby ally and him 500 AoE and he got 20% resist to Stuns and upgrade Oracle Spell as well
 Time Shield, Now become a 400 Radius area of Effect instead of single target
@@ -36,19 +36,19 @@ SPELL Q Time Shield
 Oracle put a shield on the target ally making him invincible to damage and after the duration expire all the damage he took will restore the
 target health and mana also exploding dealing small damage, doesnt get affected by healing amp
 
-damage from explosion 8 10 12 14 plus 15% of int damage type pure
-Shield duration 1.5 1.8 2.1 2.4
-life restore 10% 14% 18% 22% of the damage taken
-Mana restore 5% 7% 9% 11% of the damage taken
-cooldown 35 32 29 26
+damage from explosion 15 20 25 30 plus 20% of int damage type pure
+Shield duration 2.2 2.5 2.8 3.1
+life restore 10% 15% 20% 25% of the damage taken
+Mana restore 5% 8% 11% 14% of the damage taken
+cooldown 25 22 19 16
 mana cost 100 200 300 400
 
 talent level 10 upgrade Time Shield
-increase duration of Shield of Fate by 0.6
+increase duration of Shield of Fate by 0.4
 increase healing restore by 11%
 increase mana restore by 11%
 increase mana cost by 150
-reduce cooldown by 6
+reduce cooldown by 2
 
 add a new modifier Shield of Might
 After Time Shiled duration ends, all of the damage the unit who was affected by it will gain 1% damage reduction for every 7 damage
@@ -59,7 +59,7 @@ SPELL W Mind Blast
 deal small damage to a unit and fearing them, if cast on ally the next attack or spell will do increase damage and if cast on oracle
 heal him for his Max Health
 
-damage 6 11 16 21 plus 25% of int damage type magical
+damage 12 14 16 18 plus 30% of int damage type magical
 fear duration 0.4 0.5 0.6 0.7
 next basic attack or spell increase damage 10% 20% 30% 40%
 buff duration 5 second
