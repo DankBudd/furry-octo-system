@@ -1,17 +1,17 @@
-Daisho, Starting stats 5 inteillgence, 3 strenght, 4 agility, Base Speed 315, Base damage 5
-Stats Gain per level 0.80 Inteillgence, 0.50 Strenght,1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
+Daisho, Starting stats 5 inteillgence, 5 strenght, 8 agility, Base Speed 315, Base damage 5
+Stats Gain per level 0.80 Inteillgence, 0.50 Strenght, 1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
 
 TALENT LEVEL 30
 
 talent 1
 Increase Daisho Health by 425 but reduce his agility by 30% and his max mana by 60%
-Daisho will gain 2 armor for every Image alive with 2.2 mana regeneration as well and 20% of the damage dealt with Basic Attack,
+Daisho will gain 3 armor for every Image alive with 2.2 mana regeneration as well and 20% of the damage dealt with Basic Attack,
 Wind Walk, BladeStorm and Critical strike will be mana gain for Daisho
 
 talent 2
 increase Daisho Agility by 30 but reduce his Health by 50% and Reduce his armor to -5 and he cannot gain any armor or lose Armor
 Increase Daisho BladeStorm and Bleed Strike agility scaling by 25% and also make them spell vamp for 40% of the damage dealt
-and reduce Debuff time on Daisho by 75% while in BladeStorm
+and reduce Debuff time on Daisho by 75% and reduce all damage but pure by 35% while in BladeStorm
 
 PASSIVE D OR F
 
@@ -27,9 +27,9 @@ deal 1.4% of Daisho health in bonus damage and if he lose 25% max health in one 
 
 talent level 40 Upgrade BladeMaster
 add a new modifier Bleed Strike
-every critical strike done with Divine Strike he will make enemys bleed for 16 plus 20% of Daisho agility in Pure damage every second
-and reducing healing by 10% that last 3 second, every stack of Bleed Strike will refresh the duration and add 4 Pure damage
-bonus with 5% healing reduction as well max of 6 stacks
+every critical strike done with Divine Strike he will make enemys bleed for 12 plus 15% of Daisho agility in Pure damage every 0.4 second
+and reducing healing by 12% that last 4 second, every stack of Bleed Strike will refresh the duration and add 4 Pure damage
+bonus with 6% healing reduction as well max of 6 stacks
 
 SPELL Q Wind Walk
 Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
