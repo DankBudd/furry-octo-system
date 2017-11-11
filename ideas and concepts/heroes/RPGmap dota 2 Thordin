@@ -5,9 +5,9 @@ starting item Rusty Hammer increase damage by 4 and reduce coldown by 2% base at
 LEVEL 20 TALENT
 
 talent 1
-Increase Thordin armor by 10 but reduce his health by 35%
-Thordin will no longer gain bonus health from spell amp and instead gain 1000% of his armor into health bonus and every 8 Strenght will
-give 1% magic resist, cap of 45% magic resist from strenght.
+Increase Thordin armor by 12 but reduce his mana by 70% and his pure resist by 35%
+Thordin will no longer gain bonus health from spell amp and instead gain 1000% of his armor into health bonus and every 5 Strenght will
+give 1% magic resist, cap of 40% magic resist from strenght.
 
 talent 2
 Increase Thordin spell amp by 16% but reduce his armor by 10
