@@ -5,19 +5,20 @@ Divine Soul PURPLE cant buy
 increase overall stats and give the user to stun the target and also giving the chance to crit with spell
 
 active item use
-deal 90 pure damage plus 70% of user intelligence, stun the target for 2,5 second dealing full damage, other unit in 250 radius of the spell
-casted will recive 50% of the damage and will be stun for 1 second instead, cast range 600 cooldown 45 mana cost 450
+deal 120 pure damage plus 70% of user intelligence, stun the target for 2,5 second dealing full damage, other unit in 250 radius of the spell
+spell casted will recive 50% of the damage and will be stun for 1 second instead, cast range 600 cooldown 45 mana cost 450
 
 Spell crit
 chance 15%
 damage 175%
 
-allstats 12
+all stats 14
 spell amp 20%
-mana 300
-life 250
-cast range 100
-11% movementspeed
+mana 600
+life 350
+cast range 225
+22% movementspeed
+mana regeneration 7
 
 
 Hellish Soul PURPLE cant buy
@@ -31,13 +32,13 @@ basic attack crit
 chance 15%
 damage 225% 
 
-allstats 12
-damage bonus 25
-mana 250
-life 300
-attackspeed 30
-11% movementspeed
-life regeneration 4
+all stats 14
+damage bonus 32
+mana 350
+life 600
+attackspeed 40
+22% movementspeed
+life regeneration 7
 
 
 Scroll of Darkness
@@ -46,9 +47,9 @@ increase the user damage,spell amp and stats, when activating the item it will e
 Active item use
 the next spell will deal 50% increase damage and for basic attack it will deal pure damage instead cooldown 50 no mana cost
 
-stats 5
+all stats 7
 damage 30
-spell amp 15%
+spell amp 12%
 
 
 Scroll of Death
@@ -63,26 +64,28 @@ inteillgence 25
 
 
 Moon Shard
-increase the user attack speed limit and attack speed also give some movement speed to near ally
+increase the user attack speed limit and attack speed also give some movement speed and attack speed to near ally
 
 Passive item use
-increase allys movement speed by 12% double on user
+increase allys movement speed by 10% and attack speed by 20, double on user.
 
-attack speed limit bonus 50
-attack speed 100
+attack speed limit bonus 100
+attack speed 60
 
 
 Dark Reef Water
-increase the user Primary stats but lose health every seconds and can be use to deal all the health lost into damage for a single
-target
+increase the user Primary stats and health but lose health every seconds and can be use to deal all the health lost into damage for a
+single target
 
 Passive item use
-the user will lose 3% health per second cannot lose health when below 50% health
+the user will lose 3% health per second cannot lose health when below 65% health
 
 Active item use
-deal damage by the health taken away by Dark Reef Water into magic damage cap damage is 30% of the user max health
+deal damage by the health taken away by Dark Reef Water into magic damage cap damage is 30% of the user max health coldown of 125
+no mana cost
 
-Primary stat increase by 35
+Primary stat increase by 25
+health 275
 
 Medieval Artillery
 this item is only useable for Davion others will have this item muted, increase health with strenght and reduce movespeed
@@ -117,4 +120,8 @@ strenght 22
 agility 16
 reduce attack speed 55
 BAT 2.25
+
+
+Radiant Core
+
 
