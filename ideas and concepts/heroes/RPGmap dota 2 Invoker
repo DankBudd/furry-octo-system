@@ -232,7 +232,7 @@ EXORT EXORT WEX
 LIGHTNING BREATH
 Channel a Breath of Lightning that last for a while dealing magical and physical damage per second reducing magic resist and physical
 armor enemys that take a certain amount of damage will get root for a short duration. the debuff duration will only get 70% of Elemental
-Mastery bonus and the root will get 30% bonus they can only be rooted once
+Mastery bonus and the root will get 30% bonus, they can only be rooted once
 
 damage 18 22 26 30 plus 20% of inteillgence 35% physical damage 65% magical damage per 0.6 second
 magic resist lost 5% 10% 15% 20%
@@ -263,17 +263,17 @@ INVOKE 7
 QUAS QUAS WEX
 ELECTRIC ICE
 debuff the enemys by reducing their attack speed and cast point also increase the damage they take from pure damage source, they will
-also spread the Eletric Ice to other target if they stand too close for a while and can last for a infinit time with 2 target or more
+also spread the Electric Ice to other target if they stand too close for a while and can last for a infinit time with 2 target or more
 
-attack speed reduction 10 20 30 40
+attack speed reduction 16 27 38 49
 cast point increase 10% 30% 50% 70%
 increase damage taken from pure by 25% 50% 75% 100%
 debuff duration 2 3 4 5
-radius needed for spreading 300
+radius needed for spreading 325 330 335 340
 second needed for spreading 3 2.8 2.6 2.4
 can spread again on the same target refreshing the duration
 mana cost 150 200 250 300
-cooldown 44 40 36 32
+cooldown 34 30 26 22
 
 INVOKE 8
 WEX WEX EXORT
@@ -285,7 +285,7 @@ damage 15 20 25 30 plus 20% of inteillgence 65% physical damage and 35% magical 
 increase damage from Wex spell 15% 30% 45% 60%
 increase damage from Exort spell 10% 15% 20% 25%
 damage reduction 10% 20% 30% 40%
-magic damage reduction 5% 15% 25% 35%
+magic damage reduction 10% 15% 20% 25%
 debuff duration 0.9 1.1 1.3 1.5
 multiple target 2 3 4 5
 mana cost 90 180 270 360
@@ -295,19 +295,20 @@ INVOKE 9
 WEX WEX QUAS
 ICY-ELETRIC PILLAR
 summon a pillar that slow attack speed and movement speed with increase damage from Wex and Quas spell for those inside of the radius
-of the pillar, the radius and the attack speed with movement speed lost increase every second having no limit increase
+of the pillar, the radius and the attack speed with movement speed lost increase every second having no limit increase, the debuff of
+attack speed and move speed lost will last 2.5 seconds
 
-attack speed lost 4 8 12 16
+base attack speed lost 4 8 12 16
 increase attack speed lost by 2 for every 0.2 second
-movement speed lost 5% 8% 11% 14%
+base movement speed lost 5% 8% 11% 14%
 increase movement speed lost by 1% for every 0.3 second
 increase damage from Wex 10% 30% 50% 70%
 increase damage from Quas Spell 20% 24% 28% 32%
-duration of pillar 2 2.5 3 3.5
+duration of pillar 3 3.4 3.8 4.2
 radius 400 450 500 550
-increase radius by 5% every 0.2 second
+increase radius by 3% every 0.1 second
 mana cost 50 70 90 110
-cooldown 50 40 30 20
+cooldown 40 35 30 25
 
 INVOKE 10
 EXORT QUAS WEX
@@ -316,13 +317,13 @@ deal Pure, Magical and physical damage to the enemys increasing the damage they 
 and reduce magic resist, Quas will reduce attack speed and increase damage taken from pure damage and Wex will reduce armor and disarm
 them. Elemental Blast does Area of Effect in a target Location
 
-damage 50 110 160 210 plus 180% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
+damage 150 200 250 300 plus 180% of inteillgence, 35% magical damage 35% physical damage 30% pure damage
 increase damage from Quas,Exort,Wex 30% 60% 90% 120%
-Burn damage 5 10 15 20 plus 30% of inteillgence per second magical damage
+Burn damage 5 10 15 20 plus 50% of inteillgence per 0.5 second magical damage
 magic resist lost 7% 14% 21% 28%
 attack speed lost 10 20 30 40
 increase damage taken from Pure by 20% 40% 60% 80%
-armor lost 3 7 11 15
+armor lost 8 11 14 17
 Disarm Target
 debuff duration 3 4 5 6
 area of effect 350 500 650 800
