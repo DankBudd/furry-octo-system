@@ -49,3 +49,21 @@ the Centaur Shaman will heal up to 3 target jumping every 0.8 second and having 
 55 70 85 100 115 plus 3.5% of the target max health and reducing all phyiscal and magical damage taken by 10% but taking 25% extra
 pure damage
 
+
+Skeleton Warrior level 1-10 melee Undead Type
+health 70 to 475
+no mana
+magic resist -10% to -5%
+armor 2 to 7
+attack damage 7-11 to 28-31
+attack speed 100 to 135
+health regeneration 1 to 6.2
+no mana regeneration
+
+Passive Undying (skeleton Warrior) coldown of 60 for revive
+the Skeleton Warrior will gain 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 health regen every time he attack that last 2 seconds, they got there
+own duration and multiple buff of this can be active, they also revive upon death with 25% max health and 40% increase damage until
+they die again
+
+Passive Leaching Strike
+the Skeleton warrior will have 15% chance to deal 175% bonus damage on attack and lifestealing for 20% of the total damage done.
