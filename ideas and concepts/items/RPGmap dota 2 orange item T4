@@ -189,3 +189,18 @@ mana regeneration source increase 50%
 mana 335
 life 250
 cast range 140
+
+
+Shadow Blade
+Increase the user Attack speed and Agility, also modifie the user attack damage and can also be use to go invisible and deal extra
+damage on hit and reducing their armor as well.
+
+Passive item use
+Change the user attack damage to 13-17
+
+Active item use
+Turn invisible for 8 seconds, attacking will deal 75 plus 1% of the target max health in Physical damage and reducing their armor by
+7 for 4 seconds
+
+attack speed 30
+agility 14
