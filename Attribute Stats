@@ -1,14 +1,23 @@
 this is what strenght, agility, intelligence and hero base stats are.
 
-ALL HEROES cannot pass more that 40% damage reduction, for armor and magic resist the maximum cap is 75% for reducing damge with resist
-is 75% with anything
+ALL HEROES cannot pass more that 35% damage reduction, for armor and magic resist the maximum cap is 75% for reducing damge with
+elemental resist its 75% - some type of spell or passive may have like physical and fire damage in one
+
+the damage reduction to anything can be higher than 35% only with some skill of heroes
 
 IF THE HERO RESISTENCE ARE MORE THAN 99% IT WILL NOT WORK, combining damage resist with others will cap it at 90% max damag reduction
 
 current resistence
-physical resist
-magic resist
+Physical resist
+Magic resist
 Pure resist
+Lightning Resist
+Fire Resist
+Frost Resist
+Poison Resist
+Earth Resist
+Death Resist
+Chaos Resist
 damage reduction -- any resistence reductions
 
 if we add more resistence just type it up here
@@ -18,7 +27,7 @@ all hero will have 150 life and 250 mana base start
 
 Strenght
 life 5
-life regeneration 0.04
+life regeneration 0.02
 life 1% for every 20 point of str
 
 Agility
@@ -30,20 +39,20 @@ reduce Base attack time by 0.01 for every 25 agility
 
 Intelligence
 mana 10
-mana-regeneration 0.08
+mana-regeneration 0.05
 spell amp 1% for every 10 point of intelligence
 
-DIVINE STATS after one stats got at least 10,14,18,22,26 base agi,int,str you can spend a Divine Stats into it gaining new bonus
-these divine stats can be only be gain every level 10,20,30,40,50 of base stats having a total of 5 to spend.
+DIVINE STATS after one stats got at least 15,19,23,27 base agi,int,str you can spend a Divine Stats into it gaining new bonus
+these divine stats can be only be gain every level 10,20,30,40 of base stats having a total of 4 to spend.
 
 DIVINE Strenght
 armor 1
-magic resist 3%
+magic resist 4%
 life 5%
 
 DIVINE Agility
 give physical spell 2% chance to crit for 130% of the normal damage
-attackspeed 5
+attackspeed 8
 evasion 2%
 
 DIVINE Intelligence
