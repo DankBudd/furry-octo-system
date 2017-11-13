@@ -39,15 +39,15 @@ Passive Healing Presence
 the Centaur Shaman will heal all nearby allys 750 radius by 4 6 8 10 12 14 16 plus 1% of their max health every 2.5 seconds and
 increasing healing effect by 10% as well
 
-Spell Elemental Bolt mana cost 40 48 56 64 72 80 88 plus 8% of max mana cooldown 6
+Spell Elemental Bolt mana cost 40 48 56 64 72 80 88 plus 3% of max mana cooldown 6
 the Centaur Shaman will cast a bolt of a random Element each dealing 22 26 30 34 38 42 46 plus 0.4% of the centaur maximum mana in
 magical, the fire bolt will deal 1.2% of the target maximum health, the water bolt will slow movespeed by 10% and attack speed by 15
 and the Lightning bolt will reduce the target magical resistance by 6% and armor by 2. These effect last 3.5 seconds
 
-Spell Nature Wave mana cost 25 plus 5% of max mana coldown 18 - only heal if the target lost at least 35% of current health -
+Spell Nature Wave mana cost 35 plus 2% of max mana coldown 12 - only heal if the target lost at least 30% of current health -
 the Centaur Shaman will heal up to 3 target jumping every 0.8 second and having 25% less healing on each jump, the heal amount is 25 40
 55 70 85 100 115 plus 3.5% of the target max health and reducing all phyiscal and magical damage taken by 10% but taking 25% extra
-pure damage
+pure damage for 4 seconds
 
 
 Skeleton Warrior level 1-10 melee Undead Type
