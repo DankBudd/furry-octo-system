@@ -34,9 +34,9 @@ upgrade spell W
 -
 level 13 talent
 -
-increase health by 10% and life regeneration by 1.2 increase by 0.1 every 9 primary stats
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 9 primary stats and also increase xp gain by 15%
 -
-increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 6 primary stats
+increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 6 primary stats and also increase xp gain by 15%
 -
 level 16 talent
 -
@@ -83,11 +83,11 @@ limit by 75
 -
 level 26 talent
 -
-increase agility by 2% and attack speed by 4 for every items that give agility
+increase agility by 2% and attack speed by 4 for every items that give agility and also increase xp gain by 10%
 -
-increase Strenght by 2% and increase health by 30 for every items that give strenght
+increase Strenght by 2% and increase health by 30 for every items that give strenght and also increase xp gain by 10%
 -
-increase inteillgence by 2% and increase mana by 50 for every items that give inteillgence
+increase inteillgence by 2% and increase mana by 50 for every items that give inteillgence and also increase xp gain by 10%
 -
 level 29 talent
 -
@@ -114,3 +114,23 @@ reduce stuns and roots effect on you by 20% and all stuns or roots cause by you 
 increase base damage by 30 and spell amp by 14% and also increasing speed limit by 100 but reduce your max health and mana by 12%
 -
 level 33 talent
+-
+
+-
+
+-
+level 36 talent
+-
+
+-
+
+-
+level 39 talent
+-
+
+-
+
+-
+
+-
+level 40 talent
