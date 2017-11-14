@@ -3,6 +3,8 @@ DOTA 2 -- dragon knight, Tank, medium damage dealer, self-healer
 Stats inteillgence 7, agility 1, strenght 9, base damage 8, movespeed 300, starting item Rusted sword gives 2 damage and 5 attack speed
 1.85 BAT --- INT 1.00 STR 1.20 AGI 0.50
 
+Skill Element - Holy - Fire -
+
 TALENT LEVEL 30
 
 talent 1
@@ -50,13 +52,13 @@ Davion can heal himself or damage any enemys for medium amount of damage, Davion
 Holy Light and enemys Smited by Holy light will take extra damage from Davion spells, refresh the duration of the buff if casted on
 self again.
 
-Heal 50 70 90 110 plus 35% 70% 105% 140% of Davion inteillgence and strenght magical
+Heal 50 70 90 110 plus 35% 70% 105% 140% of Davion inteillgence and strenght
 increase healing from other source 9% 16% 23% 30%
 increase healing from Holy Light 15% 30% 45% 60%
 buff duration 16 15 14 13 seconds
-damage 12 15 18 21 plus 15% 21% 27% 33% of Davion inteillgence and strenght
+damage 12 15 18 21 plus 15% 21% 27% 33% of Davion inteillgence and strenght Magical, Holy
 extra damage taken from Davion spell 10% 15% 20% 25%
-increase extra damage taken by 1% for every 14 strenght and inteillgence
+increase extra damage taken by 1% for every 18 strenght and inteillgence
 debuff duration 5 second
 mana cost 75 100 125 150 plus 1% of max mana
 cooldown 14 13 12 11
@@ -68,19 +70,19 @@ increase damage scaling by 7%
 increase the debuff duration by 2 second
 reduce the cooldown of holy light by 2
 
-add a new modifier Holy Fire
-when casted on enemys they will be set Aflame, taking 8 plus 20% of Davion strenght and inteillgence in magical damage every 0.4 second
-that last 4 second and Davion will get heal by 85% of the damage done with Holy Fire, and if Holy Light is casted on Davion he will
-become a Fire Crusade becoming immune to all slow and having 12% damage reduction and also increasing his movespeed by 24% for 3.5 second
-
+add a new modifier Holy Flames
+when casted on enemys they will be set Aflame, taking 8 plus 20% of Davion strenght and inteillgence in magical, Holy, Fire damage every
+ 0.4 second that last 4 second and Davion will get heal by 85% of the damage done with Holy Fire, and if Holy Light is casted on Davion 
+he will become a Fire Crusade becoming immune to all slow and having 12% damage reduction and also increasing his movespeed by 24% for
+3.5 second
 
 SPELL W Flaming Strike
 Davion strike the enemys dealing damage base on Davion max health and burning them for small damage and reducing their armor and taking
 extra damage from Holy Light, enemys will take 12% 16% 20% 24% increase damage from Holy Fire talent level 10, reduce this spell cooldown
 by 0.2 every time davion attack or cast spells
 
-Max Health into damage 3% Physical damage
-burn damage 3 5 7 9 plus 8% 10% 12% 14% of Davion inteillgence and strenght every 0.5 second physical
+Max Health into damage 3% Physical, Fire damage
+burn damage 3 5 7 9 plus 8% 10% 12% 14% of Davion inteillgence and strenght every 0.5 Second Physical, Fire
 armor lost 4 5 6 7
 extra damage from Holy Light 20% 30% 40% 50%
 debuff duration 2.5 3 3.5 4
@@ -96,14 +98,14 @@ add a new modifier Burning Light
 the burning will now deal pure damage and deal increase damage base on the Holy Light extra damage but with 50% reduction bonus
 and enemys that come close to the target burning with Burning light 245 radius will also be set Aflame as well for the same amount of
 damage and duration, they can only be burning once every 9 second after the duration ends from Burning Light. Davion will gain 2%
-damage reduction for every enemys affected by Burning Light, bosses will give 8% damage reduction
+damage reduction for every enemys affected by Burning Light, bosses will give 10% damage reduction
 
 
 SPELL E Divine Shield
 Davion will gain increase amount of magic resist and armor with some health regeneration for the duration and any enemys that attack him
 durring Divine Shield will take damage base on his inteillgence and strenght every time they damage him with anything.
 
-Damage dealt 46% 54% 62% 70% of inteillgence and strenght
+Damage dealt 46% 54% 62% 70% of inteillgence and strenght Phyiscal, Holy damage
 armor gain 5 8 11 14
 magic resist gain 14% 20% 26% 32%
 base health regeneration 0.2% of Davion max health
@@ -129,19 +131,19 @@ PASSIVE D OR F Holy Gear
 Davion will have a small chance to heal both physical and magical damage for a small amount. Also increasing his armor and increasing
 his damage base on how much current armor he got as well but reducing his attack speed
 
-Heal amount 20 30 40 50 plus 40% of Davion strenght and inteillgence
+Heal amount 20 24 28 32 plus 46% of Davion strenght and inteillgence
 Heal chance 19% 21% 23% 25%
 base armor bonus 12%
 armor bonus 1 3 5 7
-increase attack damage by 3 for every point of armor
-max damage gain from armor 30 60 90 120
-attack speed lost 50 70 90 110
+increase attack damage by 2 for every point of armor
+max damage gain from armor 20 40 60 80
+attack speed lost 30 50 70 90
 
 talent level 20 upgrade Holy Gear
-increase heal by 25
-increase chance by 10%
+increase heal by 10
+increase chance by 5%
 increase bonus armor by 5
-increase attack speed lost by 40
+increase attack speed lost by 10
 
 add a new modifier In the Name of God
 all spell or attack that deal more than 10% of Davion max health, those enemys will suffer 5% of their max health in damage, 1% for
@@ -155,7 +157,7 @@ Davion Scream out his Battle Cry fearing both enemys and allys around Davion, en
 allys will only get fear and Davion will have insane Power from the gods, this spell got a very long cooldown and when Davion use
 any of his basic spell the cooldown will lower by 2, DEUS VULT INFIDEL.
 
-damage 145 185 225 plus 120% 135% 150% of Davion inteillgence and strenght
+damage 145 185 225 plus 120% 135% 150% of Davion inteillgence and strenght Magical, Holy damage
 extra damage 30% 50% 70%
 fear and extra damage duration for enemys 4 5 6 seconds half on bosses
 Fear duration for allys 2 seconds
