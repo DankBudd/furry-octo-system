@@ -1,6 +1,8 @@
 Zet Starting stats 7 Int, 7 Agi, 7 Str, base speed 300, base damage 7, Stats Gain per level 0.70 int, 0.70 str, 0.70 agi
 Starting item Lightning Hand give 5 damage and 1 all stats base attack time 1.80 Semi Support-high damage-Tank
 
+Skill elements - Lightning damage -
+
 LEVEL 30 TALENT
 
 Talent 1
@@ -42,12 +44,13 @@ after the duration end of the debuff Zet will gain 18% mana back.
 
 SPELL Q
 Lightning Arc
-deal high damage jumping to target increasing the damage they take from Zet Lightning Arc and slowing them for a duration
+deal high Lightning damage jumping to other Targets increasing the damage they take from Zet Lightning Arc and slowing them for a
+duration
 
-damage 13 20 27 34 plus 45% 55% 65% 75% of agility type magical
+damage 13 20 27 34 plus 45% 55% 65% 75% of agility type Magical, Lightning
 max jump 3 5 7 9
 reduce damage by 6% for every jump max of 30% reduction
-increase max jump by 1 for every 25 agility points
+increase max jump by 1 for every 32 agility points
 damage taken increase 10% 15% 20% 25%
 slow amount 4% 7% 10% 13%
 debuff duration 5 second
@@ -66,7 +69,7 @@ add a new modifier Piercing Lightning
 now become pure damage and deal 1% of the enemy max health 0.2% for bosses, if Lightning Arc doesnt bounce on the target it hit, it will
 deal 100% increase damage to that target and increase Zet attack damage by 8% every bounce that stack up to 80% bonus damage, if it
 doesnt bounce, increase the damage bonus by 40%, stack last 5 second and refresh every time Lightning Arc is casted and hit other target
-with the jumps.
+with the jumps. Still does Lightning damage into Pure damage.
 
 SPELL W Surge
 Zet Heal any ally or himself and increasing further healing also giving increase damage and spell amp, if cast again on the same
@@ -120,9 +123,9 @@ increase duration by 2
 
 add a new modifier Unstable Lightning
 also gain damage reduction for PURE damage by 70% of Zet Strenght up to 200% max Pure damage reduction and the Shield also explode
-dealing 30% 50% 70% 90% Strenght plus 2% 3% 4% 5% of Zet max health as well, radius of 500 for the explosion and giving Surge to every
-one in the radius, zet also get Surge as well. the explosion that give Surge to allys and zet will have the talent level 10 of it if
-taken.
+dealing 30% 50% 70% 90% Strenght plus 2% 3% 4% 5% of Zet max health in Magical, Lightning damage as well, radius of 500 for the explosion
+and giving Surge to every one in the radius, zet also get Surge as well. the explosion that give Surge to allys and zet will have the
+talent level 10 of it if taken.
 
 
 PASSIVE D OR F Lightning Body
@@ -146,8 +149,8 @@ reduce how much health is needed for bonus by 20
 increase strenght bonus by 3%
 
 add a new modifier Charge Body
-enemy that damage Zet will take 5 plus 12% of Zet Attributes as pure damage if zet take more than 35% of his max Health increase
-the damage to 50 plus 120% of Zet Attributes instead also reduce Stun,Blind and Roots by 30% of their duration and also
+enemy that damage Zet will take 5 plus 12% of Zet Attributes as pure Lightning damage if zet take more than 35% of his max Health
+increase the damage to 50 plus 120% of Zet Attributes instead also reduce Stun,Blind and Roots by 30% of their duration and also
 increase his Lightning arc jump distance by 275, also increase its damage by 11% every time it kill something without limit and
 if it kill at least 4 target it will gain 1 jump again
 
