@@ -1,6 +1,8 @@
 Daisho, Starting stats 5 inteillgence, 5 strenght, 8 agility, Base Speed 315, Base damage 5
 Stats Gain per level 0.80 Inteillgence, 0.50 Strenght, 1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
 
+Skill Element - Earth damage -
+
 TALENT LEVEL 30
 
 talent 1
@@ -35,7 +37,8 @@ SPELL Q Wind Walk
 Daisho goes invisible gaining increase movement speed and having phase as well, if he attack any enemys he will break Wind Walk effect
 dealing bonus damage and having increase attack speed for a short duration and he also got a small chance to increase the damage bonus on
 striking and stuning as well this spell got a very low cooldown and casting it will have increase mana every time. The mana increase
-will not go away when Daisho is invisible and Wind Walk cannot Crit with Divine Strike and will not give a stack of crit as well
+will not go away when Daisho is invisible and Wind Walk cannot Crit with Divine Strike and will not give a stack of crit as well. The
+Strike will deal Physical, Earth damage
 
 damage bonus on attack 10 25 40 55
 attack speed bonus after attack 25 40 55 70
@@ -97,7 +100,7 @@ any Stack of armor Reduction, While Daisho spin he gain increase magic resist an
 Divine Strike, BladeStorm will get Increase mana cost every cast and also having a short cooldown, BladeStorm will also increase the
 magic resist cap to 85% while active and Daisho can still attack but only dealing 25% of the damage with his auto attack.
 
-damage 13 17 21 25 plus 11% 13% 15% 17% of Daisho Agility physical damage
+damage 13 17 21 25 plus 11% 13% 15% 17% of Daisho Agility Physical, Earth damage
 damage every 0.3 second
 duration 1.5 1.8 2.1 2.4
 armor reduction 0.5 0.6 0.7 0.8 every tick
