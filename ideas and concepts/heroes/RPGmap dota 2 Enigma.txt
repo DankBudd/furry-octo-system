@@ -2,6 +2,8 @@ Enigma,Void lord Starting stats 10 Int,3 Agi,5 Str, base speed 280, base damage 
 
 SCROLL DOWN FOR TIP AND COMBO
 
+Skill Element - Void
+
 LEVEL 20 TALENT
 
 talent 1
@@ -49,7 +51,7 @@ SPELL Q level
 Void Curse
 Curse the enemy dealing damage over time to a target lowering magic resist and reducing life regeneration for the duration
 
-Damage 12 16 20 24 type magical plus 12% 18% 24% 30% of intelligence
+Damage 12 16 20 24 type magical plus 12% 18% 24% 30% of intelligence Void
 Duration 5 6 7 8 second damage every 1 second
 life regeneration lost -0.3 -0.5 -0.7 -0.9 per tick of damage
 Magic resist lost 1.25% 1.50% 1.75% 2% per tick of damage
@@ -75,7 +77,7 @@ Gravity Well
 Infest the ground with pure energy of gravity dealing damage overtime and slowing attackspeed and movement speed also having
 a small chance of stuning the target as well or rooting them
 
-Damage 22 30 38 46 type magical per second
+Damage 22 30 38 46 type magical per second Void
 duration 5 second
 Attack slow 3 per damage
 Movement slow 1% per damage
@@ -122,7 +124,7 @@ Cast a bolt made of pure gravity dealing magical damage and also dealing max hea
 damage) and increasing enigma max life for a short duration after the duration end, it will heal enigma, each stack got there own
 duration.
 
-Base damage 15 20 25 30 type Magical plus 80% 120% 160% 200% of inteillgence
+Base damage 15 20 25 30 type Magical plus 80% 120% 160% 200% of inteillgence Void
 max health into damage 0.5% 0.7% 0.9% 1.1% Pure
 damage from Gravity bolt into bonus life 20% 30% 40% 50%
 gain 50% 55% 60% 65% of the bonus life into a heal after the duration
@@ -173,11 +175,11 @@ Void Star
 summon a star infested with void and gravity stuning and damaging all enemy, after the stun duration end A blackhole will appear dealing 
 damage per second and doing even more damage the closer they get into the center of the blackhole
 
-Damage 60 110 160 Magical damage with 70% 140% 210% of enigma int
+Damage 60 110 160 Magical damage with 70% 140% 210% of enigma int Void
 Stun duration 1.5 second
 radius 700 850 1000 of the explosion damage
 radius of the black hole 700 800 900
-Black Hole damage 15 35 55 plus 50% 65% 80% of inteillgence as pure damage per second
+Black Hole damage 15 35 55 plus 50% 65% 80% of inteillgence as pure damage per second Void
 Double Damage if enemys are in the Center 180 240 300 radius every second
 duration of the Blade Hole 6 second
 Speed Pull of the Black Hole 100 125 150
