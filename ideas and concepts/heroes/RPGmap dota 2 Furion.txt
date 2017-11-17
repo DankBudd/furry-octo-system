@@ -1,6 +1,8 @@
 Furion -- Summoner-Support , starting stats 7 int, 2 agi, 7 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 1.00 str,
 0.50 agi, starting item Nature Gift increase intelligence by 2 and give 30 mana base attack time 1.65
 
+Skill Elements - Poison -
+
 LEVEL 20 TALENT
 
 talent 1
@@ -39,9 +41,9 @@ heal or damage a target increasing or reducing armor and magic resist, also afte
 Nature Wrath will do a explosion doing again nature Wrath giving 50% of the debuff to other target but cannot spread again
 
 Heal 40 70 100 130 plus 40% of int
-Damage 12 18 24 30 plus 40% of int type magical
+Damage 12 18 24 30 plus 40% of int type magical Poison
 Heal explosion 20 35 50 65 plus 30% of int
-Damage explosion 6 9 12 15 plus 20% of int type magical
+Damage explosion 6 9 12 15 plus 20% of int type magical Poison
 bonus armor 2 4 6 8
 armor reduction 2 4 6 8
 magic resist 10% 14% 18% 22%
@@ -62,9 +64,10 @@ reduce cooldown by 1
 
 add a new modifier Green Flame
 after the buff duration end, it will make a green flame on allys healing them by 4 8 12 16 plus 16% of inteillgence every 1 second
-and increasing healing effect by 25% and for the enemys they will lose 3 6 9 12 plus 32% of inteillgence health every 1 second and
-reducing healing effect by 30%, any allys that kill enemys affected by the green flames will gain 30 45 60 75 plus 150% of inteillgence
-as health to them. the green flame will last 4 second and can get spread by the explosion but only having 2 second duration
+and increasing healing effect by 25% and for the enemys they will take 3 6 9 12 plus 32% of inteillgence in Poison Magical damage every
+0.5 second and reducing healing effect by 30%, any allys that kill enemys affected by the green flames will gain 30 45 60 75 plus 150%
+of inteillgence as health to them. the green flame will last 4 second and can get spread by the explosion but only having 2 second
+duration
 
 SPELL W
 Treant Guard
