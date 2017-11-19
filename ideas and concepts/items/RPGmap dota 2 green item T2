@@ -218,3 +218,27 @@ reduce all Stun, Roots, Blind and Debuff duration by 10%
 health 125
 strenght 5
 
+
+Hulos
+Increase the user damage, Strenght and lifesteal, also make attack and spells ignore armor from the target.
+
+Passive item use
+spells and attacks will ignore 2 armor from the target
+
+damage 11
+strenght 5
+lifesteal 5%
+BAT 2.25
+
+
+Mad Gloves
+increase the user armor, magic resist and attack speed, attacks will have a small chance to make the user go into a Fury increasing
+his attack speed and reducing damage taken for a short duration
+
+Passive item use
+each attack will have 14% chance to trigger a fury that increase attack speed by 30 and reducing damage taken by 8% for 3 seconds
+
+Armor 2
+magic resist 6%
+attack speed 12
+
