@@ -1,4 +1,6 @@
-BOSS Wasuro Level 7 -xp gain 40% bonus
+bosses xp will reduce by 20% for every level above theirs up to 60% xp reduction max
+
+BOSS Wasuro Level 7 -xp gain 430,
 STATS
 range Melee
 BAT 1.80
@@ -38,7 +40,7 @@ speed with max movement speed for 4 second.
 
 
 
-BOSS Zol Level 18 -xp gain 75% bonus
+BOSS Zol Level 18 -xp gain 1750
 STATS
 range 450
 BAT 2.15
