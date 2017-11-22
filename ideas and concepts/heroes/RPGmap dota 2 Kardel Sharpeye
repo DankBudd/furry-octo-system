@@ -286,10 +286,10 @@ there also mid game upgrade that will end into the end games one, those will tak
 
 BASE STATS WITHOUT UPGRADE level for upgrade 5 10 15 20 25 30 35 40
 damage 4
-attack speed 8
-SpellVamp 3%
-lifeSteal 2%
-attack range 50
+attack speed 15
+SpellVamp 5%
+lifeSteal 5%
+attack range 75
 Base attack time 2.20 - cannot upgrade -
 
 bonus damage per upgrade in it 3 6 10 15 21 28 37 46 - 57 70 - with 40 talent
@@ -299,7 +299,7 @@ and make the enemys bleed for 10% 12% 14% 16% 18% 20% 22% 24% of Kardel attack d
 
 bonus attack speed per Upgrade in it 4 7 11 16 24 33 49 70 - 90 125 - wtih 40 talent
 Boosted Chamber Modifier - if Attack speed got the most Upgrade - Basic Modifier -
-Kardel will have 0.04 0.07 0.10 0.13 0.16 0.19 0.22 0.25 reduce base attack time and he will Ignore 3 4 5 6 7 8 9 10 armor from the target
+Kardel will have 0.12 0.15 0.18 0.21 0.24 0.27 0.30 0.35 reduce base attack time and he will Ignore 3 4 5 6 7 8 9 10 armor from the target
 as well, example if the enemy got 2 armor and you ignore 3, your attack will do normal damage like he had 0 armor cannot go into the -.
 and if the target is under -1 armor or more it will have no effect until they have armor for Kardel to Ignore
 
@@ -315,18 +315,18 @@ of the damage dealt and increase all source of healing by 7% 10% 14% 18% 24% 29%
 
 bonus Attack Range per Upgrade in it 50 70 100 130 170 210 260 330 - 430 580 with 40 talent
 Booted Scope Modifier - if attack range got the most upgrade - basic modifier -
-Kardel will deal 9% 12% 15% 18% 21% 24% 27% 30% increase damage from enemys that are 450 425 400 375 350 325 300 275 range away from
-Kardel, also reduce all spells or attack that travel more than 425 range by 11% 13% 15% 17% 19% 21% 23% 25%.
+Kardel will deal 10% 14% 18% 22% 26% 30% 35% 40% increase damage from enemys that are 450 425 400 375 350 325 300 275 range away from
+Kardel, also reduce all spells or attack damage that travel more than 425 range by 11% 13% 15% 17% 19% 21% 23% 25%.
 
 MOD UPGRADE FOR THE RIFLE
 
-LVL 1 Searing Shot Modifier - need upgrade in, 2 damage, 1 attack speed and 1 lifesteal
+LVL 1 Searing Shot Modifier - need upgrade in, 2 damage, 2 attack speed.
 Kardel will reduce the enemys armor by 2 for every auto attack he does, that stack up 5 time, at max stack the enemys will suffer 0.3%
 of their max health every 0.7 seconds (current health damage for bosses) if Kardel is in Close Combat, he will reduce his base attack
 time by 0.15 and alway reduce the armor by 6 for the first hit he does and increasing the max stack by 1, reducing 16 armor in total
 the debuff last 3.5 seconds and refresh when hitting the target.
 
-LVL 1 Magical Cannon Modifier - need upgrade in, 2 spellvamp, 1 damage and 1 attack range
+LVL 1 Magical Cannon Modifier - need upgrade in, 2 spellvamp, 1 damage and 1 attack range.
 Kardel spell will alway deal 1.5% of the target max health (current health damage for bosses) and increase his cast range by 225
 and make his spell deal 20% to 40% increase damage for every 60 Unit Away the enemys are from Kardel, Kardel will also gain 10% agility
 and all of his spell will deal 25% bonus damage base on his agility.
