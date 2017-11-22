@@ -32,10 +32,10 @@ can also be use to deal 100% crit for a 1 time use with any spell of riki spell 
 cooldown of 70 second
 
 talent level 25 upgrade Thief Soul
-add a new modifier Deadly
-if riki attack the same target 3 time in a row the next attack will deal 2% of the target current life as damage and reduce their armor
-by 2 that stack up to 6 this effect only deal 1% of boss current life and also make casting Dagger Strike and Blinks Strike on unit
-below 50% life will take 70% increase damage from those spell
+add a new modifier Death to the Weaks
+every attacks will do 0.7% of the target current health in damage and spell will do 0.5% of their max health in damage, Enemys below
+50% health will take 40% increase damage from Riki spell that does damage and if their are below 18% health they will take 125% increase
+damage from riki spells and attacks as well, also increase his pure resist by 35% and also reduce his magical damage output by 10%
 
 
 SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on this total basic attack damage
