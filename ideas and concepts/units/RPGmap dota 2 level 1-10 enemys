@@ -1,9 +1,11 @@
 these are the enemy that scale between level 1 to 10 -- they will range in random level depending on the level of the player when he 
 enter the area
 
+reduce the xp gain when above their level by 10% up to 30% reduction
+
 they all have 100 base attack speed and have 1.7 base attack time as well
 
-Centaur Warrior level 1-7 melee Normal Type
+Centaur Warrior level 1-7 melee Normal Type, xp gain 20 to 40
 health 90 to 325
 mana 40 to 120
 magic resist 2% to 10%
@@ -25,7 +27,7 @@ the Centaur will charge forward after 1.4 second of delay 700 range dealing 15% 
 damage and if does hit his target he will stun himself for 1.5 second and taking 10% extra damage
 
 
-Centaur Shaman level 1-8 range 475 Normal Type
+Centaur Shaman level 1-8 range 475 Normal Type, xp gain 25 to 60
 health 75 to 290
 mana 90 to 350
 magic resist 5% to 10%
@@ -50,7 +52,7 @@ the Centaur Shaman will heal up to 3 target jumping every 0.8 second and having 
 pure damage for 4 seconds
 
 
-Skeleton Warrior level 1-10 melee Undead Type
+Skeleton Warrior level 1-10 melee Undead Type, xp gain 15 to 90
 health 70 to 475
 no mana
 magic resist -10% to -5%
