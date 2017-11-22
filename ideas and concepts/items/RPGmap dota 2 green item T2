@@ -7,10 +7,10 @@ item needed Iron Brach, Leaf Branch, Wisdom Branch and recipe 50 gold
 
 increase all stats with life and mana regeneration and movement speed
 
-3 to all stats
-0.6 life-regen
-0.6 mana-regen
-5 attackspeed
+6 to all stats
+0.9 life-regen
+0.9 mana-regen
+10 attackspeed
 
 
 Earth Ring gold 400
@@ -223,7 +223,7 @@ Hulos
 Increase the user damage, Strenght and lifesteal, also make attack and spells ignore armor from the target.
 
 Passive item use
-spells and attacks will ignore 2 armor from the target
+spells and attacks will ignore 3 armor from the target
 
 damage 11
 strenght 5
