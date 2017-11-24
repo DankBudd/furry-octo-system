@@ -3,20 +3,21 @@ Starting item Broken Staff give 1 damage and 3% heal amp base attack time 2.20 H
 LEVEL 20 TALENT
 
 Talent 1
-Increase Zul'Nu armor by 5 and his magic resist by 12%
-Zul'Nu Skull Dance and Spiritual Voodoo will give 4 armor and 8% magic resist to allys for 10 second, Zul'Nu only get 50% of this bonus
+Increase Zul'Nu armor by 7 and his magic resist by 14%
+Zul'Nu Skull Dance and Spiritual Voodoo will give 5 armor and 12% magic resist to allys for 10 second, Zul'Nu only get 50% of this bonus
 
 Talent 2
-increase Zul'Nu healing amp by 8% and his mana regeneration by 4
-increase Zul'Nu spell amp by 30% of his mana regeneration and Increase Healing amp by 50% of Zul'nu Spell amp
+increase Zul'Nu healing amp by 8% and his mana regeneration by 3
+increase Zul'Nu spell amp by 25% of his mana regeneration and Increase Healing amp by 50% of Zul'nu Spell amp
 
 PASSIVE D OR F Bad Doctor Press ALT for Info of talent level 20 and level 25 talent of this passive
 
 BUFF Zul'Nu gain 10% increase inteillgence he also start with 6% heal amp with 4% spell amp, his basic attack turn magic instead of
-physical and if he gets rooted instead it will give him 0.6% heal amp increase every level of Zulnu and removing the root that last 2.5
-second he also gain 0.1% spell amp per level and 0.2% healing amp per level
+physical and if he gets rooted, instead it will give him 1.4% healing amp, increase by 0.4% every level of ZulNu and also removing the
+root as well, the buff will last 7 second and can only happen every 18 seconds, he also gain 0.3% healing amp per level with 0.2% spell
+amp per level as well.
 DEBUFF strenght doesnt give any life regeneration and he take 100% more damage from physical,magic,pure and every level witch doctor lose
-1% life and mana. he can only use staff weapons type
+1% life and mana with losing 1% damage as well. he can only use staff and wand weapons type
 
 talent level 25 upgrade Bad Doctor
 give a new modifier Good Doctor
@@ -29,7 +30,7 @@ throw a skull that bounce to ally or enemy if cast on ally it will bounce for al
 the skull heal ally and giving them a damage bonus,for the enemy they will get damage,stun and a small chance
 to be Paralyze. Paralyze enemy will suffer from damage over time and ally will deal flat bonus damage to them for basic attack
 
-Heal 21 34 47 60 plus 24% 38% 52% 66% of int
+Heal 30 45 60 75 plus 24% 38% 52% 66% of int
 damage bonus 8% 14% 20% 26%
 increase damage bonus by 1% for every 13 inteillgence
 buff duration 7 8 9 10 second
