@@ -2,28 +2,28 @@ list of white items
 
 
 Iron Branch gold 100
-increase strenght and life regeneration
+increase strenght and life regeneration with some fire resist
 
 1 to strenght
 0.3 life-regen
-
+4% fire resist
 
 Leaf Branch gold 100
-increase agility and movement speed
+increase agility and movement speed with some poison resist
 
 1 to agility
 3 attackspeed
-
+4% poison resist
 
 Wisdom Branch gold 100
-increase intelligence and mana regeneration
+increase intelligence and mana regeneration with some frost resist
 
 1 to intelligence
 0.3 mana-regen
-
+4% frost resist
 
 Elemental Dust
-increase the user life regen and mana also giving a chance to deal bonus damage
+increase the user life regen and mana with some pure resist also giving a chance to deal bonus damage
 
 Passive 1 basic attack crit
 chance 20%
@@ -31,7 +31,7 @@ damage 125%
 
 life regeneration 1
 mana regeneration 1
-
+5% pure resist
 
 lesser agility Shard
 increase user stats
@@ -59,7 +59,7 @@ Flint gold 170
 reduce base attack time with any weapons also deal bonus damage
 
 Passive item use
-basic attack got 35% chance to deal 3 pure damage
+basic attack got 45% chance to deal 3 pure damage
 
 BAT reduce 0.05
 
@@ -92,26 +92,27 @@ mana 30
 Lucky Hard Rock gold 55
 increase the user gold gain and xp and increase spell amp and damage as well
 
-damage 3%
-spell amp 1.2%
-gold gain per kill 1
-xp gain per kill 2
+damage 3
+spell amp 1.4%
+gold gain 5%
+xp gain 4%
 
 
 Quelling Blade gold 115
 MELEE HERO ONLY- increase melee hero damage if the enemys are melee or range also increase attack speed
 
 Passive item use
-Melee user will do 4% more damange on Melee enemys and 8% more damage on Range enemys
+Melee user will do 7% more damage on Melee enemys and 11% more damage on Range enemys
 
 attack speed 5
-BAT 1.75
+BAT 1.85
 
 
 Stout Shield gold 95
-MELEE HERO ONLY- the user got a chance to block physical damage and increase armor
+MELEE HERO ONLY- the user got a chance to block physical damage and increase armor and also increasing magic resist
 
 Passive item use
 the user got 35% chance to block 4 physical damage
 
 armor 1
+magic resist 3%
