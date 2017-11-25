@@ -149,7 +149,8 @@ UILTMATE R
 
 Dismenber
 deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing anyone walking on it and buffing them
-this spell damage every 0.5 and drop meat every 1 second
+this spell damage every 0.5 and drop meat every 1 second and killing any non-boss unit will reduce the cooldown by 25% with
+dismenber.
 
 Strenght as damage 400% 600% 800%
 bonus damage from max life 1%
@@ -175,5 +176,5 @@ reduce coldown by 10
 
 add a new modifier CLEAN CLEAVER!
 dismenber now deal 50% damage in a radius of 400 of the target being dismenber and those unit damage by the radius of dismenber
-have 60% chance to drop 1 meat as well and meat will also restore 4% of max mana. there is a small chance for a Giant Meat to drop
-those will restore any heroes life by 50% and increasing damage by 30 they only got 10% chance to drop
+have 60% chance to drop 1 to 2 meat as well and meats will also restore 4% of max mana. there is a small chance for a Giant Meat to drop
+those will restore any heroes life by 60% and increasing damage by 30 they only got 10% chance to drop per seconds of dismenber.
