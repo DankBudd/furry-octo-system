@@ -70,18 +70,18 @@ SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
 Steal he will gain bonus Armor and life regeneration with Movement Speed and if he kill his Target with Sunder he will gain Life Bonus
 from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
-Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 55%
+Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 35%
 
-damage 6% 10% 14% 18% of Max health increase by 0.1% every 35 agility
+damage 6% 10% 14% 18% of Max health increase by 0.1% every 12 agility
 bosses Damage 1% 2% 3% 4% of Max Health
 life needed for bonus 10 25 40 55
-life regeneration per life Stolen 0.3 0.6 0.9 1.2
-Armor per life Stolen 0.3 0.5 0.7 0.9
-movement speed per life Stolen 3 5 7 9 FLAT
-Duration of bonus Buff 4.6 5.2 5.8 6.4 second
+life regeneration per life Stolen 0.4 0.6 0.8 1.0
+Armor per life Stolen 0.2 0.3 0.4 0.5
+movement speed per life Stolen 2 4 6 8 FLAT
+Duration of bonus Buff 7 second
 Life Bonus from the target 10% 15% 20% 25% of the target total max Health
-cooldown 30 28 26 24
-mana cost 80 100 120 140 plus 2% of max mana
+cooldown 33 30 27 24
+mana cost 80 100 120 140 plus 3% of max mana
 
 Talent level 10 upgrade Sunder
 reduce life needed for bonus to 35 at all level
