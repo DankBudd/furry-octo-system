@@ -242,3 +242,20 @@ Armor 2
 magic resist 6%
 attack speed 12
 
+
+Stone of Sickness
+increase the user spell amp with mana regeneration and health, all magical spell will reduce enemys magic resist and also emiting an
+aura that also reduce magic resist, the user will also lose magic resist when having this item on him
+
+Passive item use 1
+All magical spell will reduce the target magic resist by 8% for 3.5 seconds
+
+Passive item use 2
+Enemys around the user 850 radius will lose 4% magic resist
+
+Spell amp 4%-6.5%
+mana regeneration 0.9-1.8
+health 100-175
+magic resist lost 8%-10%
+
+
