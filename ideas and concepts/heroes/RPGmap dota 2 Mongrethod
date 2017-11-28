@@ -49,8 +49,8 @@ the Chaos Infernal will gain 4% damage for every kills they do up to 80% bonus d
 at max stacks. Stack will not go away until they die
 
 PASSIVE Chaos Flame
-Chaos Infernal will burn enemys by 15 plus 2% of their max health every 1.2 seconds in PERFECT PURE DAMAGE ignoring all resitence of
-pure resist
+Chaos Infernal will burn enemys by 15 plus 0.4% of their max health every 1.2 seconds in PERFECT PURE DAMAGE ignoring all resitence of
+pure resist, does current health damage to bosses
 
 SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max health and current health for bosses
