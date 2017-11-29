@@ -55,12 +55,12 @@ NITRO
 Kardel fire a shot that deal high Area of effect damage, the first target will suffer from less damage and others will take increase
 damage, the primary target will get blind for a short duration.
 
-damage primary target 125% 135% 145% 155% of attack damage
+damage primary target 140% 145% 150% 155% of attack damage
 Area of effect damage 160% 190% 220% 250% of attack damage
 base Area of effect 325 400 475 550
-increase Area of effect by 40% of Kardel agility
+increase Area of effect by 75% of Kardel agility
 blind miss chance 65% 70% 75% 80%
-blind duration 1.5 1.8 2.1 2.4
+blind duration 1.8 2.2 2.6 3.0
 mana cost 75 85 95 105 plus 1% of max mana
 cooldown 6
 
@@ -68,12 +68,12 @@ POISON TRAP
 Kardel lay down a Trap made of poison, enemys that step too close to the trap will get rooted and get poison that deal medium damage,
 if they die under the effect of the poison, they will blow up making a pool of poison on the ground that deal less damage but remove
 armor while they stand inside of it, they can only be 3 trap up at the same time and enemys will get 50% less root duration if they
-walk inside of another trap, this buff last 5 seconds
+walk inside of another trap, this buff last 5 seconds and will only work for this rooting spell
 
-Trap damage 135% of attack damage evey 0.4 seconds
+Trap damage 120% 130% 140% 150% of attack damage evey 0.4 seconds
 trap root duration 1.2 1.6 2 2.4 seconds
-trap trigger range 160 175 190 205
-pool damage 120% 125% 130% 135% of attack damage every 0.5 seconds
+trap trigger range 160 180 200 220
+pool damage 125% 140% 155% 170% of attack damage every 1 seconds
 base pool radius 100 140 180 220
 bonus pool radius 125% 150% 175% 200% of Kardel agility
 armor reduction 2 4 6 8
@@ -87,9 +87,9 @@ increase single target damage by 35%
 increase Area of Effect damage by 100%
 reduce mana cost by 55
 POISON TRAP
-increase trap damage by 35%
+increase trap damage by 15%
 increase root duration by 0.8
-increase Pool duration by 4
+increase Pool duration by 2
 
 add a new modifier for NITRO - Black Smoke
 after Nitro land on the target it will create a Black Smoke, enemys that enter it will have reduce lifesteal and spellvamp
