@@ -54,9 +54,9 @@ damage from magical spells every time they stand inside of the Purifyd Grounds.
 healing on cast 6% 8% 10% 12% of max health
 healing every 0.5 second 18 22 26 30 plus 30% 37% 44% 51% of inteillgence
 damage reduction bonus to allys per damage taken 0.95% 1.10% 1.25% 1.40%
-damage on cast 3% 4% 5% 6% of max health, 70% reduction on bosses PURE
+damage on cast 3% 4% 5% 6% of max health, doesnt affect bosses for the max health damage
 damage every 0.5 second 7 9 11 13 plus 12% 15% 18% 21% of inteillgence magical
-increase damage taken by 1% 2% 3% 4% every 0.5 second when inside Purifyd Grounds
+increase damage taken by 3% every 0.7 second when inside Purifyd Grounds
 duration 4 5 6 7 second
 base radius 300 400 500 600
 increase radius by 50% 75% 100% 125% of inteillgence
@@ -64,11 +64,11 @@ mana cost 7% 11% 15% 19% of max mana
 cooldown 13 second
 
 talent level 10 upgrade Purifyd Grounds
-increase healing per 0.5 second by 8
+increase healing per 0.5 second by 10
 increase damage per 0.5 second by 4
-increase base radius by 125
-reduce mana cost to 8% instead
-increase cooldown by 8
+increase base radius by 150
+reduce mana cost to 9% instead
+increase cooldown by 7
 
 add a new modifier Holy Guard
 Now summon 2 Holy Guard that will Soak damage that allys and also cast spells takes and Purifyd Grounds will explode after it ends,
@@ -88,8 +88,8 @@ Allys that are near the Holy Guard will only take 75% of the damage and the Holy
 doesnt takes, also increase their armor by 1 and magic resist by 2% for every 325 damage they take up to 10 bonus armor and 20% magic
 resist that last until they die
 
-SPELL Holy Touch mana cost 350 coldown 40
-Holy Guard touch a allys healing them for 25% of the Holy Guard max health and giving them 75 bonus health that last until they die
+SPELL Holy Touch mana cost 300 coldown 35
+Holy Guard touch a allys healing them for 20% of the Holy Guard max health and giving them 45 bonus health that last until they die
 this effect can stack 2 time and increase the amount of stack by 1 for every 5 levels above 10 of Mhadreno.
 
 
@@ -98,9 +98,9 @@ Mhadreno cast a Holy Bolt at the target ally healing them and also giving them a
 them and debuffing them as well and having no cooldown, both buff and debuff can stack up to 3, 4 with talent upgrade
 
 Heal 15 20 25 30 plus 15% 25% 35% 45% of inteillgence
-bonus regeneration 2.2 2.7 3.1 3.5 plus 8% of inteillgence
+bonus regeneration 2.2 2.7 3.1 3.5 plus 9% of inteillgence
 damage 9 12 15 18 plus 20% 22% 24% 26% of inteillgence magical
-reduce regeneration by -0.8 -1.3 -1.8 -2.3 plus 4% of inteillgence
+reduce regeneration by -0.8 -1.3 -1.8 -2.3 plus 5% of inteillgence
 duration of buff and debuff 4 second
 max stack 3
 mana cost 25 40 55 70 plus 0.3% of max mana
