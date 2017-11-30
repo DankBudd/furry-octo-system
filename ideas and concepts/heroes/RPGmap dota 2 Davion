@@ -1,7 +1,7 @@
 DOTA 2 -- dragon knight, Tank, medium damage dealer, self-healer
 
-Stats inteillgence 7, agility 1, strenght 9, base damage 8, movespeed 300, starting item Rusted sword gives 2 damage and 5 attack speed
-1.85 BAT --- INT 1.00 STR 1.20 AGI 0.50
+Stats inteillgence 5, agility 3, strenght 7, base damage 8, movespeed 300, starting item Rusted sword gives 2 damage and 5 attack speed
+1.85 BAT --- INT 1.00 STR 1.20 AGI 0.30
 
 Skill Element - Holy - Fire -
 
@@ -42,8 +42,8 @@ last 5 second and after it ends, davion will get heal for 45% of the damage he d
 
 
 Shield of God
-health bonus 160 increase by 16 every levels
-mana bonus 80 increase by 8 every levels
+health bonus 90 increase by 9 every levels
+mana bonus 50 increase by 5 every levels
 Davion got 25% to block 20% plus 0.5% per level, of the damage he takes
 Davion got 14% chance to bash the target with his shield dealing 20 plus 1 damage per level and stun them for 0.7 second
 
@@ -52,21 +52,21 @@ Davion can heal himself or damage any enemys for medium amount of damage, Davion
 Holy Light and enemys Smited by Holy light will take extra damage from Davion spells, refresh the duration of the buff if casted on
 self again.
 
-Heal 50 70 90 110 plus 35% 70% 105% 140% of Davion inteillgence and strenght
+Heal 65 80 95 110 plus 35% 70% 105% 140% of Davion inteillgence and strenght
 increase healing from other source 9% 16% 23% 30%
-increase healing from Holy Light 15% 30% 45% 60%
+increase healing from Holy Light 16% 24% 32% 40%
 buff duration 16 15 14 13 seconds
 damage 12 15 18 21 plus 15% 21% 27% 33% of Davion inteillgence and strenght Magical, Holy
-extra damage taken from Davion spell 10% 15% 20% 25%
-increase extra damage taken by 1% for every 18 strenght and inteillgence
-debuff duration 5 second
+extra damage taken from Davion spell 7% 13% 19% 25%
+increase extra damage taken by 1% for every 21 strenght and inteillgence
+debuff duration 4 second
 mana cost 75 100 125 150 plus 1% of max mana
 cooldown 14 13 12 11
 
 talent level 10 upgrade Holy Light
-increase heal scaling by 40%
+increase heal scaling by 20%
 increase damage by 9
-increase damage scaling by 7%
+increase damage scaling by 11%
 increase the debuff duration by 2 second
 reduce the cooldown of holy light by 2
 
@@ -105,7 +105,7 @@ SPELL E Divine Shield
 Davion will gain increase amount of magic resist and armor with some health regeneration for the duration and any enemys that attack him
 durring Divine Shield will take damage base on his inteillgence and strenght every time they damage him with anything.
 
-Damage dealt 46% 54% 62% 70% of inteillgence and strenght Phyiscal, Holy damage
+Damage dealt 60% 80% 100% 120% of inteillgence and strenght Phyiscal, Holy damage
 armor gain 5 8 11 14
 magic resist gain 14% 20% 26% 32%
 base health regeneration 0.2% of Davion max health
