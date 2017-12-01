@@ -3,6 +3,19 @@ DOTA 2 Keeper of the light-- Mhadreno
 Stats inteillgence 8, agility 5, strenght 5, base damage 8, movespeed 315, starting item old staff give 0.7 mana regeneration and 1.4% healing amp
 1.90 BAT--- INT 1.10 STR 0.70 AGI 0.20
 
+talent level 30
+
+talent 1
+increase Mhadreno spell amp by 40% and healing amp by 12%
+20% of Mhadreno Spell amp will be bonus healing amp and for every 4 current attack damage he got will give him 0.8% spell amp bonus,
+also increase the heal regeneration lost on Holy Bolt by 1.2
+
+talent 2
+increase Mhadreno health by 16% and his mana by 10%
+10% of Mhadreno health will be bonus mana and every 350 current mana he got will be 1 armor bonus and 2% magic resist bonus for him,
+also reduce the cooldown of Light Beam by 1 and it also give allys 3 armor and 7% magic resist for 8 seconds
+
+
 Passive D OR F Divine Entity
 give a positive and negative buff, pressing alt will show talent level 20 and level 25 talent for this passive
 
@@ -97,7 +110,7 @@ SPELL E Holy Bolt
 Mhadreno cast a Holy Bolt at the target ally healing them and also giving them a small buff and for the enemys, damage
 them and debuffing them as well and having no cooldown, both buff and debuff can stack up to 3, 4 with talent upgrade
 
-Heal 15 20 25 30 plus 15% 25% 35% 45% of inteillgence
+Heal 25 30 35 40 plus 20% 30% 40% 50% of inteillgence
 bonus regeneration 2.2 2.7 3.1 3.5 plus 9% of inteillgence
 damage 9 12 15 18 plus 20% 22% 24% 26% of inteillgence magical
 reduce regeneration by -0.8 -1.3 -1.8 -2.3 plus 5% of inteillgence
@@ -167,11 +180,11 @@ reduce cooldown by 30
 
 add a new modifier Chosen One
 after casting Divinity Call and having it on coldown, Mhadreno will gain Chosen One for 15 second that give insane amount of damage
-reduction with insane healing recive as well and when they get damage, they will heal that damage taken, this buff will last 10 seconds
+reduction with insane healing recive as well and when they get damage, they will heal that damage taken, this buff will last 9 seconds
 and it also benefit double bonus from cooldown reduction and it cannot go lower than 5 second cooldown
 
 Chosen One
-Damage reduction 75%
+Damage reduction 55%
 healing recive 150%
 heal upon when taking damage 25 plus 0.7% of max health
 no mana cost
