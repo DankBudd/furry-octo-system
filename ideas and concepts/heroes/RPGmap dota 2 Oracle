@@ -16,7 +16,7 @@ give a positive and negative buff, Pressing ALT will give INFO for Ocale level 2
 
 BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 18 intelligence he also start with 10% bonus mana and immune to Roots he 
 also gain a shield every 7 second cannot regain shield in combat, equal to 20% of his mana that last until he take the amount of damage
-needed and he also gain 5 more mana from inteillgence and 0.1 mana regeneration for every 50 current mana he got
+needed and he also gain 5 more mana from inteillgence and 0.1 mana regeneration for every 70 current mana he got
 DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 25 intelligence instead of
 5 he also lose -8 armor at the start and -20% magic resist as well, he can only use ORB type weapons
 BONUS BUFF God Prayer
@@ -36,7 +36,7 @@ SPELL Q Time Shield
 Oracle put a shield on the target ally making him invincible to damage and after the duration expire all the damage he took will restore the
 target health and mana also exploding dealing small damage, doesnt get affected by healing amp
 
-damage from explosion 15 20 25 30 plus 28% 30% 32% 34% of int damage type pure
+damage from explosion 15 20 25 30 plus 25% 28% 31% 34% of int damage type pure
 Shield duration 3.2 3.5 3.8 4.1
 life restore 11% 22% 33% 44% of the damage taken
 Mana restore 9% 12% 15% 18% of the damage taken
@@ -59,17 +59,17 @@ SPELL W Mind Blast
 deal small damage to a unit and fearing them, if cast on ally the next attack or spell will do increase damage and if cast on oracle
 heal him for his Max Health
 
-damage 14 17 20 23 plus 44% 46% 48% 50% of int damage type magical
+damage 14 17 20 23 plus 33% 40% 47% 54% of int damage type magical
 fear duration 0.4 0.5 0.6 0.7
 next basic attack or spell increase damage 15% 30% 45% 60%
-buff duration 5 second
+buff duration 4 second
 self healing 11% 12% 13% 14% of max health 
 cooldown 11 10 9 8
 mana cost 70 130 190 250
 
 talent level 10 upgrade Mind blast
 increase damage by 7
-increase int scalling by 12%
+increase int scalling by 6%
 increase fear duration by 0.2
 increase next basic attack or spell damage by 10%
 increase mana cost by 70
@@ -110,7 +110,8 @@ add a new modifier Ancestral Power
 healing jump turn global casting it on oracle will not make it global, it will never stop jumping until here is no jump remaing,
 meaning that it will affect the target multiple time with no limit but it will alway target people with the least health
 Ancient Healing also got 25% chance to double the Amount of healing instead of normal and increasing that target movement speed by
-15% for 10 second. It also got 5% chance to triple the healing and create a new Ancient Healing with only 50% effect.
+15% for 10 second. It also got 5% chance to triple the healing and create a new Ancient Healing with only 50% effect and that
+Ancient Healing will not be able to proc the double and triple healing effect.
 
 
 PASSIVE D OR F Fate Aura
