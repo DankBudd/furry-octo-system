@@ -198,9 +198,9 @@ Bone Lord damage 25-45 35-55 45-65 plus 25% of int
 Bone Lord armor 5 10 15
 Bone Lord magic resist 25% 40% 55%
 Bone Lord base attack time 2.30 2.20 2.10
-duration of Bone Lord 60 75 90
+duration of Bone Lord 60 65 70
 mana cost 20% 25% 30% of max mana
-cooldown 200 175 150
+cooldown 170
 
 Spell Raise Dead
 The Bone Lord will raide Skeleton Warrior that last 16 20 24 seconds and have 30% 40% 50% of the Skeleton Warrior normal stats
@@ -216,9 +216,10 @@ if the enemy target dies from the crit he will be raise as a Skeleton Warrior wi
 30 40 50 seconds
 
 talent level 40 Upgrade Death Touch
-increase duration of Death Touch by 6
-increase Bone Lord health by 450
-increase Bone Lord duration by 10
+increase duration of Death Touch by 2
+increase Bone Lord health by 250
+increase Bone Lord damage by 4-11
+reduce mana cost by 15%
 
 add a new modifier Death Lord
 the Bone Lord will gain 1% damage every kill he does without limit and every time he kill something he will go into a frenzy gaining
