@@ -40,9 +40,9 @@ Nature Wrath
 heal or damage a target increasing or reducing armor and magic resist, also after 5 second the target affect by the debuff
 Nature Wrath will do a explosion doing again nature Wrath giving 50% of the debuff to other target but cannot spread again
 
-Heal 40 70 100 130 plus 60% of int
+Heal 70 90 110 130 plus 80% of int
 Damage 12 18 24 30 plus 40% of int type magical Poison
-Heal explosion 20 35 50 65 plus 30% of int
+Heal explosion 20 35 50 65 plus 40% of int
 Damage explosion 6 9 12 15 plus 20% of int type magical Poison
 bonus armor 2 4 6 8
 armor reduction 2 4 6 8
@@ -74,27 +74,26 @@ Treant Guard
 Summon Treant to fight for your side and last for 30 35 40 45 second and those Treants will Absorb damage that Furion take and only
 1 Treant will Absorb the damage Furion take
 
-Number of Max Treant 1 2 3 4
-Treant Duration 30 35 40 45
-Treant life 40 60 80 100 plus 60% 80% 100% 120% of int
-Treant damage 4-7 5-8 6-9 7-10 plus 12% of int
+Number of Max Treant 3 3 4 4
+Treant life 80 110 140 170 plus 60% 80% 100% 120% of int
+Treant damage 4-7 5-8 6-9 7-10 plus 17% of int
 Treant Magic resis 4% 7% 10% 13%
 Treant armor 2 3 4 5
 Treant base attack time 2.00 1.95 1.90 1.85
 Damage Absorb by 1 treant 10% 20% 30% 40% of damage taken
-cooldown 15
-mana cost 200 225 250 275 plus 2% of max mana
+cooldown 6
+mana cost 100 125 150 175 plus 2% of max mana
 
 Treant passive Seed of Life
 when the treant die they will do Nature Wrath that will deal only 20% of the damage and heal and also plant a seed
 enemy that get close to the seed will take 3 damage pure per second, can stack with the other seed last 10 second
 
 talent level 10 upgrade Treant Guard
-reduce cooldown by 10
+reduce cooldown by 3
 increase Treant life by 60% of int scaling
 increase max treant by 2
-reduce the base attack time by 0.25
-reduce mana cost by 150
+reduce the base attack time by 0.15
+reduce mana cost by 75
 
 also give a new modifier to the treant Spliting Nightmare
 went a Treant die they will spawn 2 lesser Treant with 50% of the attributes of the Treant
@@ -118,16 +117,16 @@ cooldown 23 22 21 20
 lifecost 100 150 200 250 plus 10% of furion max life
 
 talent level 15 upgeade Pure Nature
-increase duration by 3
-increase radius by 300
-increase attack speed by 10
-increase damage bonus by 8%
+increase duration by 2
+increase radius by 250
+increase attack speed by 25
+increase damage bonus by 7%
 reduce life cost by 8%
 
 Give a new modifier Garden
 Pure Nature will always spawn 5 Flowers that got 150% of the damage that Furion got and having 450 attack range they also got
-250 life with 7 armor and 25% magic resist they got Poison Nature that reduce healing effect on enemys by 15% and reduce their
-life regeneration by -5 for 3 second total and if any flowers dies they will heal all nearby allys 400 radius by 5% of thiers health
+650 life with 9 armor and 25% magic resist they got Poison Nature that reduce healing effect on enemys by 15% and reduce their
+life regeneration by -8 for 3 second total and if any flowers dies they will heal all nearby allys 400 radius by 4% of thiers health
 
 PASSIVE D OR F
 Nature Mastery
