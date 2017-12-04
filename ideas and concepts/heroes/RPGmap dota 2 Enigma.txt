@@ -104,12 +104,14 @@ spell do 20% more damage to enemys affected by Gravity Well and when they die, e
 last 22 seconds, enemys that die inside of Gravity Well have 18% chance to summon a new one with only 3 seconds duration
 
 EIDOLONS STATS note, 100 base attack speed
-health 300 plus 45% 50% 55% 60% of enigma Health
+health 300 plus 15% 20% 25% 30% of enigma Health
 attack range 325 increase by 25% of Enigma inteillgence
 Base attack time 1.90 1.85 1.80 1.75
 attack damage 12-25 plus 20% 22% 24% 26% of enigma inteillgence
 increase their attack speed by 15% 20% 25% 30% of enigma inteillgence
 movespeed 330 360 390 420
+armor 0
+magic resist 0%
 
 PASSIVE Growing Void
 the Eidolons will increase their damage by 3% every second they live and their attack will have 20% chance to cast a smaller version
