@@ -34,9 +34,9 @@ BEING by 25%
 
 Special item Gravity Wand
 Base attack time 1.90 reduce by 0.01 every level
-Increase Enigma mana by 50 increase by 5 every level
+Increase Enigma mana by 70 increase by 7 every level
 Increase Inteillgence gain from items by 40%
-Enigma Spell will do increase damage from enemys below 40% health, taking 10% increase damage increasing by 0.5% every level
+Enigma Spell will do increase damage from enemys below 40% health, taking 20% increase damage.
 
 talent level 25 upgrade Gravity Lord
 give a new modifier Pure Gravity
