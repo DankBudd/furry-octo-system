@@ -115,7 +115,7 @@ small pellets radius 80 90 100 110
 damage for the 5 pellet 125% 140% 165% 180% of attack damage
 bigger pellet radius 225 250 275 300
 amount of pellets 25 30 35 40
-Radius of Shrapnel 900 875 850 825
+Radius of Shrapnel 800 770 740 710
 mana cost 100 160 220 280 plus 1% of max mana
 cooldown 22 21 20 19
 
@@ -136,7 +136,7 @@ Talent level 10 Upgrade Shrapnel and Metal Chains
 SHRAPNEL
 reduce how much time they take to fall by 0.1 second
 increase amount of pellets by 10
-reduce the radius by 75
+reduce the radius by 60
 METAL CHAINS
 increase damage by 50%
 increase slow amount by 6%
