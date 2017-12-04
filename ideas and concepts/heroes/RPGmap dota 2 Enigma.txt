@@ -126,17 +126,17 @@ Cast a bolt made of pure gravity dealing magical damage and also dealing max hea
 damage) and increasing enigma max life for a short duration after the duration end, it will heal enigma, each stack got there own
 duration.
 
-Base damage 15 20 25 30 type Magical plus 80% 120% 160% 200% of inteillgence Void
+Base damage 15 20 25 30 type Magical plus 80% 100% 120% 140% of inteillgence Void
 max health into damage 0.2% 0.3% 0.4% 0.5% Pure
 damage from Gravity bolt into bonus life 20% 30% 40% 50%
-gain 50% 55% 60% 65% of the bonus life into a heal after the duration
+gain 50% 55% 60% 65% of the bonus life into a heal after the duration ends
 buff duration 7 second
 cooldown 8 7 6 5
 Mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 Upgrade Gravity Bolt
 increase base damage by 10
-increase intelligence scaling by 50%
+increase intelligence scaling by 10%
 increase bonus life gain 15%
 reduce cooldown by 1.5
 mana cost increase by 35
