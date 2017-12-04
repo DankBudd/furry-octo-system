@@ -37,19 +37,18 @@ damage 25 40 55 70 physical damage and 40% 52% 64% 76% of pudge strenght
 bonus damage from max life 0.5%
 Range 400 450 500 550
 increase range by 100% 200% 300% 400% of Butcher Strenght
-Stun duration 0.5 0.6 0.7 0.8
-max hook target 4 5 6 7
-armor reduction 3 5 7 9
-increase armor reduction by 1 for every 52 strenght
-life cost 5% 8% 11% 14%
+Stun duration 0.7 0.8 0.9 1.0
+max hook target 2 3 4 5
+armor reduction 4 5 6 7
+increase armor reduction by 1 for every 32 strenght
+life cost 5% 7% 9% 11%
 cooldown 15 14 13 12
 
 talent level 10 Upgrade Glory Hook
-increase damage by 15
+increase damage by 30
 increase range by 150
-remove the limit of max targeted hook
-increase the armor reduction by 3
-reduce life cost by 2%
+increase the armor reduction by 2
+reduce life cost by 3%
 
 add a new modifier Homing Hook
 deal 1% of the target max health and he now throw 2 more hook, those 2 hook will only do 50% of the damage and they will seek out
@@ -61,7 +60,7 @@ SPELL Q Rotting Flesh
 rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher for double the damage.
 Rot will only gain 0.1% of pudge max health into bonus damage
 
-damage 5 7 9 11 magical damage per second and 7% 8% 9% 10% of pudge strenght
+damage 5 7 9 11 magical damage per 0.8 second and 7% 8% 9% 10% of pudge strenght
 bonus damage from max life 0.1%
 movement speed reduction 8% 14% 18% 24%
 magic resist reduction 7% 10% 13% 16%
@@ -89,7 +88,7 @@ SPELL E Freah Meat!
 Pudge empower this next attack dealing damage and droping a meat peice and also disarming the enemy on hit and taking increase damage 
 from Glory Hook, doesnt gain damage from 0.5% of max health as bonus damage, the meat heal will have 150% more scaling from Healing amp
 
-bonus damage 9% 11% 13% 15% of pudge max life 
+bonus damage 9% 10% 11% 12% of pudge max life 
 amount of meat peice drop 1-1 1-2 1-3 1-4
 meat healing amount 12 24 36 48 plus 50% 65% 80% 95% of pudge strenght
 disarm duration 1 1.2 1.4 1.6
@@ -108,7 +107,7 @@ cooldown reduce by 2
 add a new modifier Infested Clever
 Fresh Meat! cleave for 100% of the damage and for every units dead by Fresh Meat!, they will explode in blood baths
 giving near enemys 550 radius stack of Infested Blood that reduce overall damage done by 2% and take 8% increase damage from Glory Hook
-that stack without limit and Butcher next Fresh Meat! will have 20 damage bonus on hit per every kill done with Glory Hook up to 80 max
+that stack without limit and Butcher next Fresh Meat! will have 15 damage bonus on hit per every kill done with Glory Hook up to 60 max
 damage the damage bonus last until death and the overall damage reduction last 6 second and increasing by 3 second for every stack added
 
 PASSIVE F OR D Flesh Heap
