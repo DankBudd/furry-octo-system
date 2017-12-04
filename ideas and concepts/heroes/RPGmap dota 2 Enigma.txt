@@ -78,16 +78,16 @@ Infest the ground with pure energy of gravity dealing damage overtime and slowin
 a small chance of stuning the target as well or rooting them
 
 Damage 22 30 38 46 type magical per second Void
-duration 5 second
-Attack slow 3 per damage
-Movement slow 1% per damage
+duration 7 second
+Attack slow 2 3 4 5 per damage
+Movement slow 2% per damage
 debuff duration 3 second
 chance for roots or stuns 20%
 root duration 0.6 0.9 1.2 1.5
-stun duration 0.5 0.6 0.7 0.8
+stun duration 0.6 0.7 0.8 0.9
 Base Radius 425 475 525 575
 Increase the radius by 70% 140% 210% 270% of Enigma Inteillgence
-Cooldown 28 25 22 19
+Cooldown 23 22 21 20
 Mana cost 160 200 240 280 plus 2% of max mana
 
 talent level 10 Upgrade Gravity Well
@@ -99,23 +99,23 @@ mana cost reduce by 110
 
 add a new modifier Void Gate
 When enemys die under the effect of Gravity Well they will be turn into Eidolons that cannot be controll and follow enigma around
-they also have a small chance to create a smaller version of Gravity Well that got 30% of the total damage from it, also make enigma
+they also have a small chance to create a smaller version of Gravity Well that got 25% of the total damage from it, also make enigma
 spell do 20% more damage to enemys affected by Gravity Well and when they die, enigma will regain 0.7% missing mana back, the eidolons
-last 22 seconds
+last 22 seconds, enemys that die inside of Gravity Well have 18% chance to summon a new one with only 3 seconds duration
 
-EIDOLONS STATS
-health 65% of enigma
-attack range 375 increase by 25% of Enigma inteillgence
-Base attack time 1.80
-attack damage 12-25 plus 20% of enigma inteillgence
-increase their attack speed by 30% of enigma inteillgence
-movespeed 395
+EIDOLONS STATS note, 100 base attack speed
+health 300 plus 45% 50% 55% 60% of enigma Health
+attack range 325 increase by 25% of Enigma inteillgence
+Base attack time 1.90 1.85 1.80 1.75
+attack damage 12-25 plus 20% 22% 24% 26% of enigma inteillgence
+increase their attack speed by 15% 20% 25% 30% of enigma inteillgence
+movespeed 330 360 390 420
 
 PASSIVE Growing Void
 the Eidolons will increase their damage by 3% every second they live and their attack will have 20% chance to cast a smaller version
-of Gravity Well dealing 30% of the total damage from it with 40% of the radius as well, those will last 3 second and damaging every
+of Gravity Well dealing 25% of the total damage from it with 30% of the radius as well, those will last 3 second and damaging every
 1.5 second, note that those smaller Gravity Well will not root or stun enemys and will not create Eidolons when they die by the smaller
-Gravity Well.
+Gravity Well..
 
 
 SPELL E level
@@ -125,7 +125,7 @@ damage) and increasing enigma max life for a short duration after the duration e
 duration.
 
 Base damage 15 20 25 30 type Magical plus 80% 120% 160% 200% of inteillgence Void
-max health into damage 0.5% 0.7% 0.9% 1.1% Pure
+max health into damage 0.2% 0.3% 0.4% 0.5% Pure
 damage from Gravity bolt into bonus life 20% 30% 40% 50%
 gain 50% 55% 60% 65% of the bonus life into a heal after the duration
 buff duration 7 second
@@ -133,11 +133,11 @@ cooldown 8 7 6 5
 Mana cost 70 80 90 100 plus 1% of max mana
 
 talent level 15 Upgrade Gravity Bolt
-increase base damage by 5
+increase base damage by 10
 increase intelligence scaling by 50%
 increase bonus life gain 15%
-reduce cooldown by 2
-mana cost increase by 75
+reduce cooldown by 1.5
+mana cost increase by 35
 
 add a new modifier Gravity Wound
 enemys will get a debuff of Gravity Wound taking 10% more damage from Gravity Bolt after 6 stack on the same target he will explode
@@ -150,7 +150,7 @@ reduce engima cooldown and increasing his mana pool he also deal bonus damage ba
 will gain roots resist double on engima also increasing enigma Gravity Well damage
 
 Reduce cooldown by 6% 8% 10% 12%
-Increase enigma mana by 4% 11% 18% 25%
+Increase enigma mana by 12% 18% 24% 30%
 every 14 second engima will deal 1% 2% 3% 4% of his max mana as magical damage
 increase resist for roots by 6% 9% 12% 15%
 Gravity Well Bonus damage 12% 20% 28% 36% of enigma Inteillgence
@@ -159,15 +159,15 @@ also increase enigma size by 10% 15% 20% 25%
 Talent level 15 Upgrade Galaxy
 increase cooldown reduction by 5%
 increase mana by 15%
-reduce the cooldown by 3 second of damage by mana
+reduce the cooldown by 5 second of damage by mana
 increase Gravity Well bonus Inteillgence scaling by 7%
 also further increase enigma size by 15%
 
 add a new modifier Nebula
 all enemys around enigma will get damage by 6 plus 14% of inteillgence every 1 second 700 radius and if they attack him they will lose 
-1% life every time 10 second on bosses and when enigma die he will explode dealing 2% of the enemy max life plus 6% 9% 12% 15% of engima
-life and mana as well and after 4 second enigma will reborn here with 35% life and 20% mana, cooldown of 180 second for the explosion
-and revive
+0.8% life every time 10 second on bosses and when enigma die he will explode dealing 2% of the enemy max life plus 6% 9% 12% 15% of
+engima life and mana as well and after 4 second enigma will reborn here with 35% life and 20% mana, cooldown of 180 second for the
+explosion and revive, the radius is 550.
 
 ULTIMATE R level needed 8 16 24
 
