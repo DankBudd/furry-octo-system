@@ -332,5 +332,13 @@ cooldown 75
 
 
 talent level 25 Upgrade Invoke Element
+reduce cooldown of all ultimate spell by 20%
 
-soon
+add a new modifier to all invoker ultimates, Powerfull Magus
+Exort spell will alway Ignore 16% of the target magic resist and Wex will also Ignore 7 armor of the target as well,
+every 3 ultimate spell casted, they will have 50% increase damage and increase their debuff duration by 35%, Elemental Blast
+will alway have 45 second coldown and cannot be reduce by cooldown reduction, and when its casted, it got 50 chance to cast one of
+Invoker Ultimate spell ontop of it, only Ice Floor will not work for this.
+
+
+
