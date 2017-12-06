@@ -5,19 +5,19 @@ LEVEL 20 TALENT
 
 Talent 1
 increase Mongrethod health by 400 and his life regeneration by 5
-increase Mongrethod armor by 1 for every 300 current life he got and increase his magic resist by 10% of his life renegeration
+increase Mongrethod armor by 1 for every 275 current life he got and increase his magic resist by 12% of his life renegeration
 
 Talent 2
 increase Mongrethod attack damage by 20 and his attack speed by 35
-increase Mongrethod spell amp by 0.7% for every 12 current attack speed he got and increase his Rain of Fire Strenght scaling by 1% for
-every 6 strenght and 9 inteillgence he got
+increase Mongrethod spell amp by 0.7% for every 10 current attack speed he got and increase his Rain of Fire Strenght scaling by 1% for
+every 7 strenght and 12 inteillgence he got
 
 PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
 
 BUFF Mongrethod will gain 4 life per intelligence points and he also gets 10% damage reduction he also increase is strenght
 by 30% of is intelligence he also start with a Special Ring Item that scale with every level. he can have 2 other Ring with this one
-DEBUFF Mongrethod lose 50 attack speed and lose 40% of mana and he take 120% more damage from pure type,he cannot pass 350 basespeed and
+DEBUFF Mongrethod lose 50 attack speed and lose 40% of mana and he take 175% more damage from pure type,he cannot pass 350 basespeed and
 he cannot use any-other weapons but Cleaver
 BONUS BUFF Demon Betrayers
 when Mongrethod and Xorn are in the same game they will gain bonus, gaining 12% bonus damage with 18 attack speed, 3 armor, 20 movespeed
@@ -40,7 +40,7 @@ CHAOS INFERNAL STATS -for this talent-
 health 500 plus 50% of Mongrethod health
 mana 250
 armor 12
-magic resist 50%
+magic resist 40%
 attack damage 63-80
 base attack time 1.2
 
@@ -49,12 +49,12 @@ the Chaos Infernal will gain 4% damage for every kills they do up to 80% bonus d
 at max stacks. Stack will not go away until they die
 
 PASSIVE Chaos Flame
-Chaos Infernal will burn enemys by 15 plus 0.4% of their max health every 1.2 seconds in PERFECT PURE DAMAGE ignoring all resitence of
+Chaos Infernal will burn enemys by 15 plus 0.7% of their max health every 1.2 seconds in PERFECT PURE DAMAGE ignoring all resitence of
 pure resist, does current health damage to bosses
 
 SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max health and current health for bosses
-it also reduce the enemy movement speed every time they get damage by Rain of Fire
+it also reduce the enemy movement speed every time they get damage by Rain of Fire, at level 4 of this spell it no longer a channel.
 
 damage 11 15 19 23 plus 25% 28% 31% 34% of strenght per wave, damage type pure
 burn damage 0.1% 0.3% 0.5% 0.7% of max Health, damage type magical per second
@@ -74,7 +74,6 @@ Increase strenght scaling by 12%
 increase max health as damage by 0.3%
 reduce cooldown by 5
 reduce mana cost by 30
-no longer a channel
 
 add a new modifier Rain of Chaos
 every wave of Rain of fire will summon a Chaos Infernal, this summon will have 60% life,85% damage of Mongrethod
@@ -118,17 +117,18 @@ shield from health 12% 18% 24% 30%
 armor 3 5 7 9
 magic resist 10% 14% 18% 22%
 duration 5.5 6 6.5 7
-base radius 400 415 430 445
-radius increase by 45% 90% 135% 170% of strenght
-cooldown 35 32 29 26
+shield duration 5.5 seconds
+base radius 375 400 425 450
+radius increase by 100% 120% 140% 160% of strenght
+cooldown 26 24 22 20
 mana cost 100 200 300 400
 
 talent level 20 upgrade Pit of Chaos
-increase life bonus by 10%
+increase shield bonus amount by 10%
 increase armor bonus by 3
 increase magic resist bonus by 9%
-increase duration by 1
-reduce cooldown by 7
+increase duration by 1 -same for shield-
+reduce cooldown by 3
 
 add a new modifier King of the Pit
 any ally that gets into Pit of Chaos will take 35% less damage from enemys, they will still cast spell on them but do less damage
@@ -170,14 +170,14 @@ deal Physical damage per attack and last for a while, the doom guard will have s
 the bonus and the duration will last half on bosses death
 
 damage per second 25 35 45 plus 60% of strenght type magical
-duration 14 18 22 last half on boss
+duration 14 18 22
 Doom Guard attack damage 80% 120% 160%
 Doom Guard life 100% 200% 300%
 Doom Guard Armor 100% 125% 150%
 Doom Guard magic resist 100% 125% 150%
 Doom Guard base attack time 2.40 2.20 2.00
 duration of the Doom Guard 70
-cooldown 150 130 110
+cooldown 135
 mana cost 150 300 450 plus 10% of max mana
 
 talent level 40 upgrade Demonic Blood
@@ -186,9 +186,9 @@ increase Doom Guard attack damage from the enemy by 40%
 increase Doom Guard life from the enemy by 100%
 Increase Doom Guard armor from the enemy by 50%
 increase Doom Guard magic resist from the enemy by 50%
-increase duration of Doom Guard by 10
+increase duration of Doom Guard by 5
 
 add a new modfier Demon Master
 now summon 1 more Doom Guard and any enemy that the Doom Guard kill will increase its damage by 2, life by 10 and attack speed by 1
 and if the Doom Guard die it will return to Mongrethod increase his strenght by 20%, damage by 30% and life regeneration by 0.5%
-that last for 40 second max stack of 2
+that last for 20 second max stack of 2
