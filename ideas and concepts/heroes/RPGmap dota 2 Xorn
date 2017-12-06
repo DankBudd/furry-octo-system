@@ -1,4 +1,4 @@
-Xorn Starting stats 3 Int, 6 Agi, 3 Str, base speed 240, base damage 1, Stats Gain per level 0.50 int, 0.70 str, 1.50 agi
+Xorn Starting stats 3 Int, 6 Agi, 3 Str, base speed 250, base damage 2, Stats Gain per level 0.50 int, 0.70 str, 1.50 agi
 Starting item Broken Demon Blade give 2 damage and 1 agility BAT 1.6
 
 LEVEL 20 TALENT
@@ -6,7 +6,7 @@ LEVEL 20 TALENT
 Talent 1
 Increase Xorn armor by 7 and health by 225
 Increase Xorn magic resist by 1% for every 8 agility, he cannot go higher than 20% magic resist and items will still give no magic resist
-also increase his stun resist by 15% and his health by 2 for every agility points
+also increase his stun resist by 15% and his health by 3 for every agility points
 
 Talent 2
 Increase Xorn damage by 8% and agility by 10
@@ -16,11 +16,11 @@ refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.4
 PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 20 and talent level 25 of this passive
 
-BUFF Xorn will gain 1 base damage for every 70 movementspeed he got and he also gain 1% movement speed for every 11 Agility, he
+BUFF Xorn will gain 1 base damage for every 65 movementspeed he got and he also gain 1% movement speed for every 7 Agility, he
 start with 2 armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level
-DEBUFF Xorn cannot have any magic resist and he got -10% magic resist as well and slowing effect will be double on him he cannot
+DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
-dealing 0.50% of his max health per 0.5 second
+dealing 0.80% of his max health per 0.5 second
 BONUS BUFF Demon Betrayers
 when Mongrethod and Xorn are in the same game they will gain bonus, gaining 12% bonus damage with 18 attack speed, 3 armor, 20 movespeed
 FLAT and making their SPELL do Extra damage VS DEMON BEING 35% bonus damage to them
@@ -29,42 +29,44 @@ FLAT and making their SPELL do Extra damage VS DEMON BEING 35% bonus damage to t
 Speed Horn Helm SPECIAL
 increase life by 1 for every 3 movement speed
 increase mana by 1 for every 2 movement speed
-movement speed bonus 10 incease by 1 every level
+increase Pure Resist by 25%
+increase Movespeed by 35
 TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 30% of his movespeed cooldown of 35 second
 
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
-all enemy near Xorn 900 radius get -7 armor reduction and -14% magic resist reduction also increase terrorblade movementspeed by
-6% for every enemy in the radius and some of TerrorBlade Spell will do 7% of his Move speed as bonus damage, the following spell getting
-this bonus are -- Terror Wave, Zeal and Demonic Prison
+all enemy near Xorn 900 radius get -7 armor reduction and -14% magic resist reduction also increase Xorn movementspeed by 6% for every
+enemy in the radius and some of TerrorBlade Spell will do 7% of his Move speed as bonus damage, the following spell getting this bonus
+ are -- Terror Wave, Zeal and Demonic Prison
 
 SPELL Q Terror Wave
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
 they have a Small chance to take insane damage and waking up, running in fear from Xorn. bosses will take Double damage from
-the wave, they cannot be Sleep. the wave will deal 50% increase damage while in True Form and the Sleep duration will be increase
-by 1 second
+the wave, they cannot be Sleep. the wave will deal 75% increase damage while in True Form and the Sleep duration will be increase
+by 1 secondm sleep units will still take damage but only 40% of the damage
 
-damage 18 24 30 38 plus 65% of agility Physical damage
-radius of the wave 225
+damage 20 26 32 38 plus 55% 60% 65% 70% of agility Physical damage
+radius of the wave 225 235 245 255
 Wave max distance 450 500 550 600
-Sleep duration 4 second
-Nightmare chance to Trigger every second 8% 9% 10% 11%
-Nightmare damage 20 40 60 80 plus 30% of agility Pure damage
-Nightmare Fear duration 4 second
-cooldown 12
+Sleep duration 5 second
+Nightmare chance to Trigger every second 9% 10% 11% 12%
+Nightmare damage 30 40 50 60 plus 50% of agility Pure damage
+Nightmare Fear duration 1.5 2 2.5 3 second
+cooldown 13
 mana cost 60 70 80 90 plus 3% of max mana
 
 talent level 10 upgrade Terror Wave
 increase damage by 10
 increase agility scaling by 15%
 increase radius of the wave by 125
-increase the chance of Nightmare trigger by 4%
+increase the chance of Nightmare trigger by 3%
 increase nightmare damage by 30
 
 add a new modifier True Nightmare
-After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 80% 120% 160% 200% of
+After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 130% 150% 170% 190% of
 Xorn damage. If the Image Kill their Victims, It will return to Xorn giving him 2% movement speed up to 10%
-if Xorn dies he will lose all of this bonus and if he gets to 10% he will gain 35 attack speed with 15% spell amp
+if Xorn dies he will lose all of this bonus and if he gets to 10% he will gain 35 attack speed with 15% spell amp, the images will last
+5.5 seconds until they vanish away.
 
 SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
@@ -72,19 +74,19 @@ Steal he will gain bonus Armor and life regeneration with Movement Speed and if 
 from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
 Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 35%
 
-damage 6% 10% 14% 18% of Max health increase by 0.1% every 12 agility
+damage 6% 9% 12% 15% of Max health increase by 0.1% every 9 agility
 bosses Damage 1% 2% 3% 4% of Max Health
-life needed for bonus 10 25 40 55
+life needed for bonus 20 25 30 35
 life regeneration per life Stolen 0.4 0.6 0.8 1.0
 Armor per life Stolen 0.2 0.3 0.4 0.5
 movement speed per life Stolen 2 4 6 8 FLAT
-Duration of bonus Buff 7 second
+Duration of bonus Buff 6 second
 Life Bonus from the target 10% 15% 20% 25% of the target total max Health
 cooldown 33 30 27 24
 mana cost 80 100 120 140 plus 3% of max mana
 
 Talent level 10 upgrade Sunder
-reduce life needed for bonus to 35 at all level
+reduce life needed for bonus to 25 at all level
 increase the bonus duration by 2
 increase life bonus from enemys by 25%
 
@@ -137,7 +139,7 @@ making Sunder Stronger and for True Form he will take more damage from pure,phys
 attack speed, movement speed and making Terror Wave stronger
 
 TRUE FORM
-damage taken increase by 30% 50% 70% 90% 110%
+damage taken increase by 40% 50% 60% 70% 80%
 base damage bonus 6 12 18 24 30
 attack range 250 300 350 400 450
 attack speed 8 16 24 32 40
