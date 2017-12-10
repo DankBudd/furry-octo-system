@@ -94,24 +94,26 @@ Strenght of the Mountain
 Thordin next attack will deal bonus damage and increase attack speed as well, The last hit will deal triple the damage and do cleave
 attack. this spell Cannot crit from any other source but Avatar
 
-damage bonus 8 12 16 20 Physical
-attack speed bonus 35
-number of attack 3
-last hit damage increase 24 36 48 60 Physical
-last hit cleave damage 25% 50% 75% 100%
-radius of cleave 370 390 410 430 in front of Thordin
-no mana cost
-cooldown 38 32 26 20
+damage bonus 12 16 20 24 Physical
+attack speed bonus 45
+number of attack 4
+last hit damage increase 36 48 60 72 Physical
+last hit cleave damage 75%
+radius of cleave 370 400 430 460 in front of Thordin
+mana cost 5% 6% 7% 8% of max mana
+cooldown 14 13 12 11
 
 talent level 15 upgrade Strenght of the Mountain
 increase damage by 6
-increase attack speed by 35
+increase attack speed by 45
 increase last hit damage by 18
-increase cleave radius by 100
+increase cleave radius by 90
+increase coldown by 3
+reduce mana cost by 3%
 
 add a new modifier Lightning Zone
-after landing the last hit create a lightning zone of 600 radius that deal 11 magical damage plus 35% of Thordin strenght to nearby enemy
-and for ally and Thordin, they gain 20% increase base damage and 12% spell amp while inside of it the zone last 10 second and after the
+after landing the last hit create a lightning zone of 600 radius that deal 17 magical damage plus 20% of Thordin strenght to nearby enemy
+and for ally and Thordin, they gain 20% increase base damage and 12% spell amp while inside of it the zone last 5 second and after the
 Lightning Zone is gone, it will restore all allys and Thordin health by 3% plus 1% for every hero allys while inside of Lightning Zone
 when its gone, summon increase this bonus by 0.1% instead of 1%
 
@@ -121,17 +123,18 @@ increase Thordin damage and also give him a chance to bash the target stuning th
 attack damage as well, also make Storm Bolt Spell Vamp and Thunder Clap will buff allys with attack speed and movement speed for a reduce
 amount for them Thordin will not gain any attack speed or Movement speed
 
-bonus damage 5% 10% 15% 20%
+bonus damage 11% 14% 17% 20%
 bonus attack speed 9% 12% 15% 18% of Thordin Strenght
-bash chance 12% 13% 14% 15%
-bash damage 25% 30% 35% 40% of Thordin Attack damage
+bash chance 14%
+bash damage 20% 30% 40% 50% of Thordin Attack damage
 bash damage 60% 90% 120% 150% of Thordin Strenght
 bash duration 0.4 0.6 0.8 1.0 last half on bosses
 Storm Bolt spell vamp 10% 15% 20% 25%
-Thunder Clap bonus 20% 30% 40% 50% of AS and MS
+Thunder Clap bonus 35% 40% 45% 50% of AS and MS
 
 talent level 15 upgrade Dwarft Mastery
 Increase damage bonus by 5%
+increase bash chance by 3%
 increase bash attack damage scaling by 20%
 increase bash Strenght Scaling by 50%
 increase Storm Bolt Spell Vamp by 10%
