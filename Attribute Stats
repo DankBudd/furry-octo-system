@@ -51,19 +51,19 @@ DIVINE STATS after one stats got at least 15,19,23,27 base agi,int,str you can s
 these divine stats can be only be gain every level 10,20,30,40 of base stats having a total of 4 to spend.
 
 DIVINE Strenght
-armor 1
-magic resist 4%
-life 5%
+armor 2
+magic resist 3%
+life 4%
 
 DIVINE Agility
-give physical spell 2% chance to crit for 130% of the normal damage
+increase items critical chance by 1% if it only physical spells crit
 attackspeed 8
 evasion 2%
 
 DIVINE Intelligence
-give magic spell 2% chance to crit for 130% of the normal damage
-spell amp 3%
+increase items critical chance by 1% if it only magical spells crit 
+spell amp 4%
 mana 5%
 
--NOTE- if people have crit spell or crit physical the % chance will stack on it meaning the 2% will go on a 10% and have a crit
-for a total of 12%
+-NOTE- if people have crit spell or crit physical the % chance will stack on it meaning the 1% will go on a 10% and have a crit
+for a total of 11% doesnt work if the crit chance is under 10%
