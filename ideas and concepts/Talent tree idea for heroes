@@ -93,7 +93,7 @@ level 29 talent
 -
 increase pure resist by 25% and reduce Damage Per Second spell duration by 20%, also reduce damage taken from non-boss units by 10%
 -
-increase armor by 2 and magic resist by 4% increase this bonus by 1 bonus armor and 2% bonus magic resist for every 5 level above level
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
 30
 -
 level 30 talent
@@ -104,14 +104,15 @@ talent defensive
 -
 level 33 talent
 -
-increase all healing on yourself by 15%, spell that heal you will have 30% increase bonus healing as well
+increase all healing on yourself by 25%, spell that heal you will have 25% increase bonus healing as well and also increase primary
+stat by 10
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
 reduce stuns and roots effect on you by 20% and all stuns or roots cause by you will have 35% duration bonus
 -
-increase base damage by 30 and spell amp by 14% and also increasing speed limit by 100 but reduce your max health and mana by 12%
+increase base damage by 20 and spell amp by 10% and also increasing speed limit by 150 but reduce your max health and mana by 15%
 -
 level 33 talent
 -
