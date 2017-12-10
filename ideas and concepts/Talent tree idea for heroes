@@ -118,21 +118,35 @@ level 33 talent
 All spell that does physical or magical will spellvamp for 15% of the damage done and also reduce their cooldown by 0.6 for every spell
 that the Hero cast, also reduce mana cost of spells and items by 25%
 -
-After not useing any spells for 7 second gain a buff that increase damage by 60% and spell amp by 15% but increasing their cooldown by
-5, also increase Mana and Life by 15%
+After not useing any spells for 7 second gain a buff that increase damage by 40% and spell amp by 25% but after attacking with a basic
+attack reduce attack speed by 60 for 3 seconds and if useing a spell increase the coldown of that spell by 4 , also increase Mana and
+Life by 12%
 -
 level 36 talent
 -
-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
+1%
 -
-
+increase healing amp by 40% and health by 25% but the user will no longer gain health from Strenght and also reducing the overall total
+spell amp that the user got by 50% but inteillgence will now give 3 health per point and also give 0.05 health regen per points as well
 -
 level 39 talent
 -
-
+HEALING ASPECT, increase healing amp by 25% and spell that does healing on allys will have 1.2 second coldown reduction per allys hit
+and self-healing will only reduce the cooldown by 0.5, all of spell that does healing effect will have 50% mana cost reduce and will
+also damage the enemys for 25% of the total healing done on the allys or self in a 300 area of effect
 -
-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
 -
-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
 -
 level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
