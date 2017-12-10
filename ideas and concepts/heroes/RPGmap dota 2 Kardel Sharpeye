@@ -8,45 +8,51 @@ sniper will have more than 6 spell, he will get his other spell by changing his 
 ALL of his spell will deal damage base on his total attack damage and they all deal PHYSICAL DAMAGE
 
 more notes
-Kardel talent will have smaller modifier to them instead of a big change to 1 spell
+Kardel talent will have smaller modifier to them instead of a big change to 1 spell, not for level 30 talents tho
 
 TALENT LEVEL 30
 
 talent 1
-
+increase Kardel armor by 3 and his health by 35% - he gain 10% in reality, the talent counter the lost of 25% health lost
+Further increase the health gain from agility by 3 and Strenght will give Kardel 1% reduce blind duration per Strenght Stat, also
+Agility will give 1% magic resist for every 6 points max of 35% magic resist
 
 talent 2
+increase Kardel damage by 10 and his Agility by 15
+Further increase attack speed gain from agility by 0.25 and for every 1 current attack Kardel got will increase his attack range by 1
+and for every 75 Attack range Kardel got will give him 1% cooldown reduction
 
 
 Passive D OR F Elite Sniper
-BUFF, Kardel will gain 1 damage every 4 agility instead of 5 and also gaining 1% spell amp per 8 inteillgence instead of 10, every 1
-current attack damage Kardel got will alos grant him 1 movespeed, he gain 5 more mana with inteillgence and 2 health bonus per agility
-he start with a special weapons that scale with his level and he cannot change it
+BUFF, Kardel will gain 1 damage every 4 agility instead of 5 and also gaining 1 agility per 4 inteillgence, every 1 current attack damage
+Kardel got will also grant him 1 movespeed, he gain 5 more mana with inteillgence and 2 health bonus per agility he start with a special
+weapons that scale with his level and he cannot change it
 DEBUFF Kardel lose 25% max health and taking 135% damage from physical, magical and pure damage, strenght will not give any regeneration
-and will only give 3 health instead of 5, any armor-chest peice and helm will have 50% reduce effect on Kardel, he also cannot pass 385
+and will only give 3 health instead of 5, any armor-chest peice and helm will have 50% reduce effect on Kardel, he also cannot pass 475
 movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
+and Spell amp will have no effect on Kardel Spells
 
 level 40 talent Upgrade Elite Sniper
 add a new modifier Heat Core Upgrade
 Kardel will gain 2 Upgrade in all of his stats for his Custom Rifle, it will not affect the custom combo modifier,
 Weapons that Kardel collect can be melted into Scraps destroying the item in the making of the Scrap, he can store up 14 scrap on him
-and he can use 8 of them to boost one of the following stats of the Custom Rifle, that stats will have double the bonus of its current
-level for 35 seconds, cooldown of 12 second before use again for boosting and no cooldown to turn weapons into scraps.
+and he can use 8 of them to boost one of the following stats of the Custom Rifle, that stats will have 40% bonus increase of its current
+level for 30 seconds, cooldown of 12 second before use again for boosting and no cooldown to turn weapons into scraps.
 
 even more notes -- the list of upgrade will be down the whole file --
 Custom Rifle - Special weapons for Kardel that can be upgraded every 5 levels and can be customize, the base attack time cannot be
-upgraded and every level of Kardel will reduce the Base attack time by 0.01 up to 0.40 base attack time reduce.
+upgraded.
 
 damage 4
-attack speed 8
-SpellVamp 3%
-lifeSteal 2%
-attack range 50
-Base attack time 2.20
+attack speed 10
+SpellVamp 4%
+lifeSteal 4%
+attack range 75
+Base attack time 1.60
 
 Passive -- Normal Effect
-since Kardel Rifle never got upgraded yet, he will have 14% chance to deal 120% of normal damage with spell and normal attacks, can stack
-with other critical bonus for only 50% of the total crit damage and chance.
+since Kardel Rifle never got upgraded yet, he will have 25% chance to deal 110% of normal damage with spell and normal attacks, can stack
+with other critical bonus for only 15% of the total crit damage and chance.
 
 
 SPELL Q Nitro AND Poison Trap
@@ -93,7 +99,8 @@ increase armor reduction by 4
 
 add a new modifier for NITRO - Black Smoke
 after Nitro land on the target it will create a Black Smoke, enemys that enter it will have reduce lifesteal and spellvamp
-by 25% and also blinding them and making them have 12% chance to miss attacks, the smoke last 9 second with 340 area of effect
+by 25% and also blinding them and making them have 15% chance to miss attacks, the smoke last 7 second with 340 area of effect
+allys inside of the Black Smoke will gain 10% evasion and 20% magic resist.
 
 add a new modifier for POISON TRAP - Snake Venom
 if the enemys lose more than 15% of their max health while rooted, they will get stun for 1.5 second and lose 32% base attack damage
@@ -145,8 +152,8 @@ increase the duration by 1.3 second
 add a new modifier For SHRAPNEL - Dance For Kardel
 Shrapnel will alway slow for 12% while they stand inside of it and when they are inside, all of Kardel Spell will gain 450 cast range
 if they are Single target and his basic attack will have 250 bonus range, Shrapnel cooldown will lower for every enemys that die inside
-of Shrapnel by 0.8 seconds and give Kardel 1% bonus attack damage and 0.5% bonus spell amp up to 15% bonus attack damage and 7.5% spell
-amp until he dies or he gets stun losing 3% damage bonus and 1.5% spell amp bonus
+of Shrapnel will give Kardel 1% bonus attack damage and 3 attack speed bonus up to 15% bonus attack damage and 45 attack speed until he
+dies or he gets stun losing 3% damage bonus and 8 attack speed.
 
 add a new modifier for METAL CHAINS - Skull Hit
 Metal Chains will have 40% chance to stun the targets by 1.7 second and while they are stun, they will take 65% increase damage from
@@ -263,9 +270,9 @@ HeadShot! chance for spells 30% 35% 40%
 HeadShot! auto attack damage 130% 150% 170% of attack damage long range
 HeadShot! auto attack damage 115% 120% 125% of attack damage close range
 HeadShot! chance for auto attack 30% 40% 50%
-attack speed lost 75 100 125
-movespeed lost 22% 33% 44%
-debuff duration 1 1.1 1.2 seconds
+attack speed lost 45 60 75
+movespeed lost 12% 16% 20%
+debuff duration 1.1 1.4 1.7 seconds
 
 talent level 40 upgrade HeadShot!
 increase HeadShot! Spell damage by 25%
