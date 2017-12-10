@@ -1,15 +1,15 @@
-list of blue item
+list of blue item, can only be found at around level 11 to 40
 
 
 Greater Soul
 give bonus damage, stats, lifesteal, spellamp and spellvamp with cast range
 
-damage 6
-spell amp 4%
-all stats 5
-lifesteal 5%
-spell vamp 4%
-cast range 60
+damage 4-7
+spell amp 5-8%
+all stats 3-5
+lifesteal 4-5%
+spell vamp 4-5%
+cast range 45-60
 
 
 Skull of Death
@@ -19,8 +19,8 @@ spell crit, physical spell only
 chance 18%
 damage 150%
 
-agility 14
-strenght 8
+agility 10-14
+strenght 5-9
 
 
 Magic Stone
@@ -29,9 +29,9 @@ increase intelligence and spell amp with mana, also can be use to deal damage an
 Active item use
 deal 30 magic damage plus 25% of user inteillgence to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
 
-intelligence 9
-spell amp 7%
-mana 140
+intelligence 6-9
+spell amp 7-9%
+mana 90-160
 
 Infernal Stone BLUE, needed lesser infernal stone 1000 gold with recipe 1500 gold
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
@@ -66,9 +66,9 @@ the debuff of disarmor last 3 second and can stack multiple time if hitting the 
 cooldown 25 mana cost 150
 
 Passive Aura that give agility, strenght and lifesteal 700 radius
-Strenght 4
-agility 4
-lifesteal 8%
+Strenght 4-7
+agility 4-7
+lifesteal 5-10%
 
 
 HamAxe needed Orger Club 1000 gold, Quaterstaff 875 gold and recipe 50 gold
@@ -82,10 +82,10 @@ cooldown 55 manacost 150
 Passive item use
 cleave for 20% of the damage dealt
 
-attack damage 12
-strenght 12
-attack speed 12
-BAT 2.25
+attack damage 9-13
+strenght 10-12
+attack speed 14-20
+BAT 2.10
 
 Radiant Stone
 give the user true sight and give near ally bonus life regeneration and mana regeneration also inrease heal amp and mana as well
@@ -96,8 +96,8 @@ give true sight in a 800 radius any enemy that is invisible will take 12% increa
 Passive item use 2
 give 3 life regeneration and 4 mana regeneration to near ally in a 800 radius
 
-heal amp 14%
-mana 175
+heal amp 8-14%
+mana 135-175
 
 
 Dire Stone
@@ -111,7 +111,7 @@ basic attack and cannot go invis again for 7 second
 passive item use 2
 give 7 damage and 5% spell amp to near ally 800 radius
 
-6 all stats
+all stats 4-7
 
 
 Holy Book
@@ -120,10 +120,10 @@ increase the user heal amp and spell amp type skill also increase mana and life 
 active use item 1
 deal 18 plus 14% of inteillgence as magical damage or heal any ally for 65 heal plus 45% of inteillgence
 
-heal amp 12%
-increase spell amp 8%
-mana 125
-life 125
+heal amp 9-12%
+increase spell amp 6-8%
+mana 115-150
+life 115-150
 
 Pure Orb need magical orb with physical orb
 increase all stats and all spell will blind and slow dealing extra damage as well
@@ -135,9 +135,9 @@ Active item use 1
 deal 20% of total attributes as damage to a target all of that damage will be 50% magical and physical, if he die from this, refresh
 the coldown and increase the attributes scaling by 10% more for the next cast, coldown 25 mana cost 10% max mana
 
-all stats 8
-mana 10%
-cooldown reduction 5%
+all stats 5-8
+mana 8-12%
+cooldown reduction 5-7%
 
 
 Blood Sword
@@ -152,10 +152,10 @@ Active item use Uber Bleed
 bleed all target near the caster 250 radius for 7 physical damage plus 20% of Attack and lifestealing for 80% of the damage dealt
 last 3 second, any target that die durring the Uber Bleed will restore 3% of the user health
 
-damage 8
-Strenght 8
-Life 10%
-attack range 40
+damage 8-11
+Strenght 7-9
+Life 7-11%
+attack range 40-55
 BAT Modifier 1.60
 
 Danudor
@@ -165,9 +165,9 @@ critical hit on the next attack, part of the Alor Death set
 Passive item use
 after the 5 hit is done, the user will critical hit for 130% to 165% bonus damage
 
-damage 12
-all stats 4
-attack speed 15
+damage 12-15
+all stats 3-5
+attack speed 11-15
 BAT 1.80
 
 Alor Helm
@@ -178,9 +178,9 @@ Passive item use Deaths Resistence
 increase Pure resist by 10% when taking pure damage type for 3 second and increase by 3% and 0.7 second every time the user get damage
 again in the duration of Death Resist, max stack of 5 and at max stack refresh the duration every time and increase move speed by 5%
 
-armor 3
-magic resist 10%
-attack speed 10
+armor 2-4
+magic resist 7-11%
+attack speed 10-12
 
 Alor Gloves
 increase the user magic resist and attack speed, also reduce Base attack time with weapons and having more effect while having
@@ -190,8 +190,8 @@ Passive item use
 reduce base attack time by 0.10 with weapons, while Danudor is in the User weapons slot, reduce base attack time by 0.30 and attacks
 will deal 25% bonus magical damage
 
-magic resist 8%
-attack speed 15
+magic resist 5-8%
+attack speed 10-15
 
 
 Daedalus
@@ -200,17 +200,29 @@ and auto attacks, can also be use to make the next attack or spell deal insane e
 will be muted for them
 
 Passive item use Know the Spot!
-spell and auto attacks will have 12% chance to crit for 155% of the damage dealt ignoring magic resist and armor of the target and
-also reducing their magic resist by 8% and armor by 3 for 2.5 seconds, damage per seconds spells or effect will have 8% chance to crit
+spell and auto attacks will have 12% chance to crit for 140% of the damage dealt ignoring magic resist and armor of the target and
+also reducing their magic resist by 5% and armor by 2 for 3 seconds, damage per seconds spells or effect will have 8% chance to crit
 
 Active item use Power From Lords
-the next auto attack will deal 35% increase damage and reducing armor by 10 for 3 second and increase the next spell damage by 20%
-and reducing magic resist by 25% for 3 seconds, coldown 75, mana cost 25% of max mana
+the next auto attack will deal 35% increase damage and reducing armor by 6 for 3 second and increase the next spell damage by 20%
+and reducing magic resist by 14% for 3 seconds, coldown 55, mana cost 18% of max mana
 
-agility 13
-inteillgence 13
-attack speed 25
-attack range 125
+agility 9-13
+inteillgence 9-13
+attack speed 17-25
+attack range 90-125
 
 
+Peicing Dagger
+increase the user damage and attack speed, ignore some armor from the target and can also be use to deal 3 attacks in a quick succes.
+
+Passive item use
+Ignore 4 armor off the target
+
+Active item use
+next attacks will do 3 attacks in 1.25 seconds each dealing 11 plus 35% of the user attack damage and 15% of the user Primary stats as
+well, each hit will also reduce the armor by 2 stacking up to 6 that last 9 seconds, coldown 32, mana cost 12% of max 
+
+attack damage 9-14
+attack speed 14-20
 
