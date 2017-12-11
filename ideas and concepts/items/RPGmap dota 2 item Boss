@@ -1,21 +1,21 @@
-all of the boss item that drop only from them COLOR RED
+all of the boss item that drop only from them COLOR RED and have alway perfect rolls as well
 
 Wasuro Legendary Sword
-give the user Blade Cut as well increasing attack speed,damage and agility, also the user can go crazy increasing attack speed but
-taking more damage
+give the user Blade Cut and also increasing attack speed,damage and agility, also the user can go crazy increasing attack speed but
+taking more damage.
 
 Passive item use
 Blade cut
-reduce enemys armor by 1 up to 4 after reaching 4 stack they will take 20% of your basic attack damge into pure last 2.5 second
+reduce enemys armor by 1 up to 4 after reaching 4 stack they will take 20% of your basic attack into bonus damage for 3.5 seconds
 
 Active item use
 Unbroken Will
-increase attack speed by 30 but take 20% more damage from magical and physical.
+increase attack speed by 30 but take 20% more damage from magical and physical. Toggle
 
-attack speed 10
-damage 4
-agility 8
-BAT modifier 1.6
+attack speed 20
+damage 7
+agility 11
+BAT modifier 1.55
 
 
 Zol Essence
@@ -31,7 +31,7 @@ Passive items use Chaotic Decaytion
 deal 10% of the enemys Current health in damage it will only proc if the enemys are under 98% of their health, healing the user for 40%
 of the damage dealt
 
-all stats 6
-spell amp 8.5%
-damage 9
+all stats 11
+spell amp 17%
+damage 17
 
