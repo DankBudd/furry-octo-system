@@ -175,3 +175,153 @@ now Give 30% of God Strenght damage and base damage bonus to near allys 1200 rad
 every kill sven do bosses will give 20 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
 of his max health in a 800 radius, after God Strenght is over, Sven will gain 35% increase Strenght when God Strenght is not Active
 this Spell can last very long with every kill he does, NEVER CROSS ME!.
+
+
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+level 4 talent
+-
+increase SPELL Q damage by 10% and reduce its cooldown by 4%
+-
+increase all stats by 3 and increase healing recive by 15%
+-
+increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+-
+level 7 talent
+-
+increase spell amp by 4% and mana by 195
+-
+increase damage by 4% and attack speed by 25
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
+-
+increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
+-
+level 16 talent
+-
+Reduce Sven Ultimate by 8 second and increase the bonus damage by 10%, every kills will also restore Sven max health by 0.4%
+-
+increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
+resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+-
+increase damage by 8%, passive that give bonus attributes will give 3% more and every kills done will increase the user damage by 1%
+and his primary stats by 1 for 4 second max of 9 bonus Attributes and 9% damage and also refresh duration on every kill or hit.
+-
+level 19 talent
+-
+reduce all damage taken -not pure- by 7% and increase health by 300 but increase damage taken from pure damage by 35%
+-
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 8% and increasing attack speed
+limit by 45
+-
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 8% and make magic attack spell
+vamp for 12% of the damage dealt
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Sven Ultimate duration by 4 seconds and Death blow will have 250 cast range when in Titan Rage, also reduce Rooting effect by
+15% when in Titan Rage
+-
+increase SPELL Q, W, and E damage by 15% and reduce their cooldown by 10%
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 6% more spell
+amp bonus and 4% more health bonus
+-
+increase amor by 4 and attack damage by 11, this bonus increase when chosing the defensive talent at level 30 having 3 more armor and
+9 more damage bonus
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75
+-
+level 26 talent
+-
+increase agility by 2% and attack speed by 4 for every items that give agility and also increase xp gain by 10%
+-
+increase Strenght by 2% and increase health by 30 for every items that give strenght and also increase xp gain by 10%
+-
+increase inteillgence by 2% and increase mana by 50 for every items that give inteillgence and also increase xp gain by 10%
+-
+level 29 talent
+-
+Increase Pure resist by 15% and Further increase this bonus by 25% when in Titan Rage and remove the Speed Penalty
+-
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+30
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+increase all healing on yourself by 20%, Death Blow will restore Sven health by 7% if it kill enemys also increase Strenght and Agility
+by 8
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+reduce stuns and roots effect on you by 20% and all stuns or roots cause by you will have 35% duration bonus
+-
+increase base damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 7 and move speed
+by 10%
+-
+level 33 talent
+-
+All spell that does physical or magical will spellvamp for 15% of the damage done and also reduce their cooldown by 0.6 for every spell
+that the Hero cast, also reduce mana cost of spells and items by 25%
+-
+after Sven cast any spell he will gain 85 attack speed 25% bonus damage and max movespeed for 1.5 seconds, when this bonus is not active
+sven will gain instead 20 attack speed 8% bonus damage and 50 movespeed.
+-
+level 36 talent
+-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
+1%
+-
+When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
+duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
+chance of War Gladiator by 25% and critical chance by 2%
+-
+level 39 talent
+-
+ANGER ASPECT, increase Sven attack speed by 3 for every 100 current point of Health Sven got and every time he lose at least 8% of his
+max health he will gain Unstable Anger, increasing his damage by 15% and his attack speed by 60 for 3 seconds but making is spell cost
+25% more damage as well, When in Titan Rage Sven will instead gain 25% mana cost reduction and also gaining 10 mana regenration as well.
+-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
