@@ -67,7 +67,7 @@ and he also lifesteal for all that amount of damage done as well, he also disabl
 this spell will have no bonus from other source of spellvamp or lifesteal effects.
 
 damage 15 20 25 30 physical damage
-base Strenght Scaling 75% 100% 125% 150%
+base Strenght Scaling 55% 70% 85% 100%
 Increase Strenght Scaling by 50% of Sven Strenght
 lifesteal base on the damage done 25% 40% 55% 70%
 current health as bonus damage 4% 6% 8% 10%
@@ -78,7 +78,7 @@ mana 40 100 160 220
 
 talent level 10 upgrade Death Blow
 increase base damage by 20
-increase Strenght scaling by 50%
+increase Strenght scaling by 25%
 increase current life as damage by 2%
 reduce cooldown by 2
 
@@ -125,16 +125,16 @@ Sven can block both magic and physical spell also blocking basic attack he canno
 per second spells, he also got a chance to deal a critical hit for more damage increase, items will critical effect will have no effect
 for basic attack crits, spell will be affected.
 
-Base Critical damage 130% 160% 190% 220%
+Base Critical damage 150% 170% 190% 210%
 increase critical damage by 25% 30% 35% 40% of Sven Strenght
-Critical chance 12% 13% 14% 15%
+Critical chance 14%
 Base block damage 8 12 16 20
-increase block damage by 20% 24% 28% 32% of Sven Strenght
+increase block damage by 10% 14% 18% 22% of Sven Strenght
 block chance 50%
 
 talent level 15 upgrade War Gladiator
-increase critical damage by 30%
-increase critical chance by 5%
+increase critical damage by 20%
+increase critical chance by 6%
 increase block damage by 10
 increase block chance by 25%
 
@@ -158,13 +158,13 @@ duration 15 20 25
 life bonus 300 600 900
 coldown reduction upon killing 0.10 0.20 0.30
 coldown reduction upon killing bosses 15% 30% 45%
-coldown 70 65 60
+coldown 80 75 70
 no mana cost
 
 talent level 25 upgrade Titan Rage
 
-increase base damage by 50%
-increase attack speed lost by 30
+increase base damage by 40%
+increase attack speed lost by 40
 increase life bonus by 600
 increase coldown reduction upon killing by 0.20
 increase duration by 5
