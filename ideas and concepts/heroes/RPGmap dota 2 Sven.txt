@@ -185,9 +185,11 @@ increase agility gain by 0.2 every level and also increase agility by 5
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
 -
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
+-
 level 4 talent
 -
-increase SPELL Q damage by 10% and reduce its cooldown by 4%
+increase SPELL Q damage and healing by 10% and reduce its cooldown by 4%
 -
 increase all stats by 3 and increase healing recive by 15%
 -
@@ -195,9 +197,10 @@ increase physical spell damage by 5% and make them spellvamp for 10% of the dama
 -
 level 7 talent
 -
-increase spell amp by 4% and mana by 195
+increase spell amp by 7%, mana by 200 and increase Death Blow Strenght scaling by 15% and its base damage by 5
 -
-increase damage by 4% and attack speed by 25
+after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 1.5 seconds, when this bonus is not
+active sven will gain instead 10 attack speed 4% bonus damage and 20 movespeed.
 -
 level 10 talent
 upgrade spell Q
@@ -217,17 +220,17 @@ Reduce Sven Ultimate by 8 second and increase the bonus damage by 10%, every kil
 increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
 resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
 -
-increase damage by 8%, passive that give bonus attributes will give 3% more and every kills done will increase the user damage by 1%
-and his primary stats by 1 for 4 second max of 9 bonus Attributes and 9% damage and also refresh duration on every kill or hit.
+increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
+and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
 -
 level 19 talent
 -
-reduce all damage taken -not pure- by 7% and increase health by 300 but increase damage taken from pure damage by 35%
+reduce all damage taken -not pure- by 10% and increase health by 450 but increase damage taken from pure damage by 35%
 -
-increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 8% and increasing attack speed
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
 limit by 45
 -
-increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 8% and make magic attack spell
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
 vamp for 12% of the damage dealt
 -
 level 20 talent
@@ -239,32 +242,32 @@ upgrade passive
 level 23 talent
 -
 Increase Sven Ultimate duration by 4 seconds and Death blow will have 250 cast range when in Titan Rage, also reduce Rooting effect by
-15% when in Titan Rage
+25% when in Titan Rage
 -
-increase SPELL Q, W, and E damage by 15% and reduce their cooldown by 10%
+increase SPELL Q, W, and E damage by 20% and reduce their cooldown by 10% and also increase their cast range by 115
 -
 level 26 talent
 -
-increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 6% more spell
-amp bonus and 4% more health bonus
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
 -
-increase amor by 4 and attack damage by 11, this bonus increase when chosing the defensive talent at level 30 having 3 more armor and
-9 more damage bonus
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
 -
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
 -
 level 26 talent
 -
-increase agility by 2% and attack speed by 4 for every items that give agility and also increase xp gain by 10%
+increase agility by 1% and attack speed by 4 for every items that give agility and also increase xp gain by 10%
 -
-increase Strenght by 2% and increase health by 30 for every items that give strenght and also increase xp gain by 10%
+increase Strenght by 1% and increase health by 30 for every items that give strenght and also increase xp gain by 10%
 -
-increase inteillgence by 2% and increase mana by 50 for every items that give inteillgence and also increase xp gain by 10%
+increase inteillgence by 1% and increase mana by 50 for every items that give inteillgence and also increase xp gain by 10%
 -
 level 29 talent
 -
-Increase Pure resist by 15% and Further increase this bonus by 25% when in Titan Rage and remove the Speed Penalty
+Increase Pure resist by 15% and Further increase this bonus by 25% when in Titan Rage and remove the Speed Penalty from Titan Rage
 -
 increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
 30
@@ -277,24 +280,16 @@ talent defensive
 -
 level 33 talent
 -
-increase all healing on yourself by 20%, Death Blow will restore Sven health by 7% if it kill enemys also increase Strenght and Agility
-by 8
+increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
+by 8 but reduce inteillgence by 12.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-reduce stuns and roots effect on you by 20% and all stuns or roots cause by you will have 35% duration bonus
+reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
 -
-increase base damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 7 and move speed
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
 by 10%
--
-level 33 talent
--
-All spell that does physical or magical will spellvamp for 15% of the damage done and also reduce their cooldown by 0.6 for every spell
-that the Hero cast, also reduce mana cost of spells and items by 25%
--
-after Sven cast any spell he will gain 85 attack speed 25% bonus damage and max movespeed for 1.5 seconds, when this bonus is not active
-sven will gain instead 20 attack speed 8% bonus damage and 50 movespeed.
 -
 level 36 talent
 -
