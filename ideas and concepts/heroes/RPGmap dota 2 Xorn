@@ -1,5 +1,5 @@
-Xorn Starting stats 3 Int, 6 Agi, 3 Str, base speed 250, base damage 2, Stats Gain per level 0.50 int, 0.70 str, 1.50 agi
-Starting item Broken Demon Blade give 2 damage and 1 agility BAT 1.6
+Xorn Starting stats 3 Int, 6 Agi, 3 Str, base speed 250, base damage 2, Stats Gain per level 0.30 int, 0.60 str, 1.40 agi
+Starting item Broken Demon Blade give 1 damage and 2 agility BAT 1.65
 
 LEVEL 20 TALENT
 
@@ -10,8 +10,8 @@ also increase his stun resist by 15% and his health by 3 for every agility point
 
 Talent 2
 Increase Xorn damage by 8% and agility by 10
-every attack will steal 3 attack speed and 6 movement speed from the target and give it to Xorn the debuff last 1.8 second and
-refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.4 second refresh every hit
+every attack will steal 3 attack speed and 4 movement speed from the target and give it to Xorn the debuff last 1.8 second and
+refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.1 second refresh every hit
 
 PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 20 and talent level 25 of this passive
@@ -20,7 +20,7 @@ BUFF Xorn will gain 1 base damage for every 65 movementspeed he got and he also 
 start with 2 armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level
 DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
-dealing 0.80% of his max health per 0.5 second
+dealing 0.8% of his max health per 0.5 second
 BONUS BUFF Demon Betrayers
 when Mongrethod and Xorn are in the same game they will gain bonus, gaining 12% bonus damage with 18 attack speed, 3 armor, 20 movespeed
 FLAT and making their SPELL do Extra damage VS DEMON BEING 35% bonus damage to them
@@ -72,12 +72,13 @@ SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
 Steal he will gain bonus Armor and life regeneration with Movement Speed and if he kill his Target with Sunder he will gain Life Bonus
 from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
-Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 35%
+Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 35%, this spell will have
+14 coldown increase if use on bosses
 
 damage 6% 9% 12% 15% of Max health increase by 0.1% every 9 agility
 bosses Damage 1% 2% 3% 4% of Max Health
 life needed for bonus 20 25 30 35
-life regeneration per life Stolen 0.4 0.6 0.8 1.0
+life regeneration per life Stolen 0.3 0.4 0.5 0.6
 Armor per life Stolen 0.2 0.3 0.4 0.5
 movement speed per life Stolen 2 4 6 8 FLAT
 Duration of bonus Buff 6 second
@@ -103,28 +104,28 @@ the target and making them lose attack speed and in Normal Form he will gain Zea
 with reducing armor and reducing mana regeneration as well
 
 SPEED BLAST
-base damage 10 16 22 28
+base damage 10 16 22 28 plus 15% of agility
 MoveSpeed into damage 9% 11% 13% 15% of total MoveSpeed
 duration of root 0.5 0.7 0.9 1.1
-increase duration of root by 0.1 for every 220 movement speed
+increase duration of root by 0.1 for every 240 movement speed
 attack speed lost 50 70 90 110 while affected by root
 increase attack speed lost by 20% 30% 40% 50% of Xorn Agility
-cooldown 13 12 10 9
+cooldown 13 12 11 10
 ZEAL
 damage 14 17 20 23 plus 26% 30% 34% 38% of agility physical damage
 duration of disarm 0.6 1.2 1.8 2.4
 Armor reduction 2 4 6 8
-increase armor reduction by 1 for every 40 agility
-mana regeneration lost 4 8 12 16
-duration of debuff 6 second
+increase armor reduction by 1 for every 26 agility
+mana regeneration lost 4 7 10 13
+duration of debuff 5 second
 cooldown 12
 mana cost for both 50 75 100 125 plus 3% of max mana
 
 talent level 15 upgrade Speed Blast AND Zeal
-increase Speed Blast damage by 4% of movement speed
+increase Speed Blast damage by 3% of movement speed
 increase Speed Blast root by 0.3
 Increase Zeal agility scaling by 12%
-increase Zeal Mana regeneration lost by 6
+increase Zeal Mana regeneration lost by 7
 
 add a new modifier Demonic Vessel
 Speed Blast now become a 300 AoE instead of Single target dealing 0.4% of the enemys max health and for every kill done by Speed Blast
@@ -142,7 +143,7 @@ TRUE FORM
 damage taken increase by 40% 50% 60% 70% 80%
 base damage bonus 6 12 18 24 30
 attack range 250 300 350 400 450
-attack speed 8 16 24 32 40
+attack speed 12 20 28 36 44
 movement speed 4% 8% 12% 16% 20%
 NORMAL FORM
 base damage reduce by 20% 35% 50% 65% 80%
@@ -157,11 +158,11 @@ talent level 15 Upgrade Metamorphosis
 TRUE FORM
 increase base damage by 12
 increase attack range by 60
-increase attack speed by 10
+increase attack speed by 26
 NORMAL FORM
-increase life bonus by 15%
-increase Stun resist by 4%
-increase Roots resist by 5%
+increase life bonus by 18%
+increase Stun resist by 5%
+increase Roots resist by 11%
 
 add a new modifier Unstable Form
 every time Xorn Change form he will explode for 12% 15% 18% 21% of his Movement Speed and Purging all debuff affected on him.
@@ -174,25 +175,27 @@ that last 6 second and for every enemys that attack him with spell or basic atta
 ULTIMATE R Demonic Mirror
 Xorn Summon a wall on each enemys, they will get taunt by the wall for a duration if they kill that wall, a Image of them will
 appear and start to kill them dealing insane damage and having a medium duration and if they die by their own Image, Xorn will
-feed upon that Image of them Empowering him Base on the form he his
+feed upon that Image of them Empowering him Base on the form he his, enemys that are attacking the walls will gain 35% damage reduction
+until the wall dies or goes away. only 1 stack of the bonus can be active and others that die while being taunt by the wall, will give
+4 seconds duration increase on Xorn buff from Demonic Mirror.
 
 Radius for Mirror 400 550 700
 Wall Health 60% 45% 30% of the target max Health
-Wall duration and taunt 4 second
-Image damage 100% 170% 240% of the target damage
-Image duration 7 second
-Normal Form bonus life regeneration 2% 3% 4% max health per second
+Wall duration and taunt 4.5 second
+Image damage 150% 200% 250% of the target damage
+Image duration 5 6 7 second
+Normal Form bonus life regeneration 1.2% 1.6% 2% max health per second
 Normal Form bonus damage reduction 15% 25% 35%
 True Form bonus damage 30% 60% 90%
 True Form bonus spell amp 18% 24% 30%
-Both Form duration bonus 12 14 16 second
+Both Form duration bonus 9 11 13 second
 Cooldown 80 75 70
 mana cost 5% 15% 25% of Max mana 
 
 talent level 25 Upgrade Demonic Mirror
-Increase wall and taunt duration by 1
-increase Image damage by 120%
-increase Normal Form Damage reduction by 15%
+Increase wall and taunt duration by 0.5
+increase Image damage by 100%
+increase Normal Form Damage reduction by 10%
 increase True Form damage bonus by 60%
 reduce cooldown by 10
 
@@ -201,3 +204,154 @@ for every enemys that are affected by the Demonic Mirror, Xorn will do 1% of the
 for bosses deal Current Health instead and if Xorn is in True Form and Casting Demonic Mirror,he will Proc Nightmare From
 Terror Wave dealing 300% increase damage and stuning them for 1.7 second and for Normal Form he will Sunder every enemys affected by
 Demonic Mirror and dealing 10% more Max Health damage bonus to them 1% for bosses.
+
+
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
+-
+level 4 talent
+-
+increase SPELL Q damage and healing by 10% and reduce its cooldown by 4%
+-
+increase all stats by 3 and increase healing recive by 15%
+-
+increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+-
+level 7 talent
+-
+Increase spell amp by 5% and mana by 165 also increase the Scaling from Terror Wave by 10% and its base damage by 8
+-
+Increase attack damage by 10 and attack speed by 18, also reduce movement speed debuff duration by 1 seconds, cannot go lower than 1.5
+seconds duration
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.1 increase by 0.1 every 9 primary stats and also increase xp gain by 15%
+-
+increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
+-
+level 16 talent
+-
+Reduce the Coldown of Metamorphosis by 17 seconds but it will no longer do a blast of damage but make Xorn magic immune for 1.2 seconds
+also increase his agility by 7
+-
+increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
+resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+-
+increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
+and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
+-
+level 19 talent
+-
+reduce all damage taken -not pure- by 10% and increase health by 450 but increase damage taken from pure damage by 35%
+-
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
+limit by 45
+-
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
+vamp for 12% of the damage dealt
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Zeal and Speed Blast base damage by 10 and also reduce their coldown by 2, but reduce their agility scaling by 5%
+-
+Increase Terror Wave and Sunder Cast range by 325 but increase their coldown by 2, also reduce their mana cost by 50% and also increase
+Xorn attack speed by 35.
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
+-
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75
+-
+level 29 talent
+-
+Reduce the Penalty of Metamorphosis damage takent in True Form by 20% and reduce the damage lost in Normal Form by 15%, also increase
+Pure resist by 25%, Further increase this bonus by 35% in True Form.
+-
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+30
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
+by 8 but reduce inteillgence by 12.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+-
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
+by 10%
+-
+level 36 talent
+-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
+1%
+-
+Reduce the coldown of Demonic Mirror by 15, it also cast Zeal or Speed Blast on every units affected by every Unit affected by Demonic
+Mirror, depend on the Form Xorn is, Speed Blast and Zeal will have 30% increase damage as well and also spellvamping for 20% of the
+damage dealt as well, Xorn will also gain 1 movespeed for every enemys dead near him 350 radius, max of 135 movespeed bonus and he
+lose 30 stacks upon death and 5 stack every time he get slow by spells.
+-
+level 39 talent
+-
+DEMON HUNTER ASPECT, Xorn will gain a 7 Spell, this spell is call Demon Lock, it will Permanently Lock Xorn Form for the game he is in
+gaining Massive bonus to one of that Form but also gaining 1 new Debuff as well, also increase all stats by 12 and also increase mana
+and life regeneration by 3.
+
+TRUE FORM BONUS
+base bonus damage increase by 20
+attack speed bonus increase by 50
+movement speed bonus increase by 12%
+reduce Base attack time with every weapons by 0.15
+NORMAL FORM BONUS
+Life bonus increase by 25%
+damage reduction increase by 9%
+Stun resist increase by 13%
+reduce Movespeed by 15%
+-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
