@@ -257,14 +257,6 @@ increase Mana by 10% and attack damage by 18, this bonus increase when chosing t
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
 -
-level 26 talent
--
-increase agility by 1% and attack speed by 4 for every items that give agility and also increase xp gain by 10%
--
-increase Strenght by 1% and increase health by 30 for every items that give strenght and also increase xp gain by 10%
--
-increase inteillgence by 1% and increase mana by 50 for every items that give inteillgence and also increase xp gain by 10%
--
 level 29 talent
 -
 Increase Pure resist by 15% and Further increase this bonus by 25% when in Titan Rage and remove the Speed Penalty from Titan Rage
