@@ -189,9 +189,9 @@ increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
 -
 level 4 talent
 -
-increase SPELL Q damage and healing by 10% and reduce its cooldown by 4%
+Increase the bonus damage from BloodLust by 7 and increase its duration by 0.5 seconds, also reduce the coldown of it by 4%
 -
-increase all stats by 3 and increase healing recive by 15%
+increase all stats by 4 and increase healing recive by 15%
 -
 increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
 -
@@ -199,7 +199,7 @@ level 7 talent
 -
 increase spell amp by 7%, mana by 200 and increase Death Blow Strenght scaling by 15% and its base damage by 5
 -
-after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 1.5 seconds, when this bonus is not
+after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 1.8 seconds, when this bonus is not
 active sven will gain instead 10 attack speed 4% bonus damage and 20 movespeed.
 -
 level 10 talent
