@@ -1,10 +1,11 @@
-bosses xp will reduce by 20% for every level above theirs up to 60% xp reduction max
+Bosses will give % xp gain, they all give 17% max xp when the player is under their levels, when the player is above their level by
+like 2 they will only give 4% max xp and above 3 or more level they will start to give 1% max xp.
 
-BOSS Wasuro Level 7 -xp gain 430,
+BOSS Wasuro Level 7
 STATS
 range Melee
 BAT 1.80
-life 2950/2950
+life 3250/3250
 mana 700/700
 damage 21-45
 armor 7
@@ -40,11 +41,11 @@ speed with max movement speed for 4 second.
 
 
 
-BOSS Zol Level 18 -xp gain 1750
+BOSS Zol Level 18
 STATS
 range 450
 BAT 2.15
-life 8700/8700
+life 9300/9300
 mana 1600/1600
 damage 70-118
 armor 15
@@ -80,3 +81,39 @@ Zol will Become Enrage after reaching 70% health 40% and 10% Becoming immnunity 
 health in pure damage and slowing them by 60% for 1.1 second, if any heroes touch more than 3 Chaos Bolt durring Rage of Zol they will
 take 100% of their max health in damage killing them and not being able to be revive and for every allys dead durring Rage of Zol other
 Heroes will lose 6% max health until Zol dies meaning that they cannot regain more health than normal
+
+
+Sourge Lord Zhrofarnos level 27 -note- spawn randomly inside of the DIRE terrain, players must be at least level 23 to see him spawn
+STATS
+range 450
+BAT 2.15
+life 19450/19450
+mana 3200/3200
+damage 132-165
+armor 23
+magic resist 38%
+life regeneration 8
+mana regeneration 8
+
+SPELL 1 Raise Undead
+
+SPELL 2 Death Rush
+
+SPELL 3 Frost Swing
+
+PASSIVE SPELL 4 Might of the Sourge Lord
+
+Passive 1
+
+Passive 2
+
+Trigger Passve Scaring Abomination
+Upon being Agro by players, he will have a aura of 1150 radius that make heroes sick, reducing their total over all damage by 15%
+and also making them take 25% increase damage, Zhrofarnos having such fearing pressence heroes that run away from his aura will take
+15% of their max health every seconds, 2000 radius of effect near him, they must not leave his aura or death will follow.
+
+upon seeing him, starting the fight, https://www.youtube.com/watch?v=scxMUFCGEGs after this play out, this one will come in
+https://www.youtube.com/watch?v=rbXrJrlU024.
+
+still wating on ideas for his passive and spells
+
