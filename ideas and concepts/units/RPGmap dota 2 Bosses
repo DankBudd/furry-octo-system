@@ -97,7 +97,11 @@ mana regeneration 8
 
 SPELL 1 Raise Undead
 
-SPELL 2 Death Rush
+SPELL 2 Death Rush coldown 12 mana cost 350
+Zhrofarnos will charge at the player the most far away from him, after a delay of 0.6 seconds he will charge at 1100 speed unit dealing
+7% of the heroes max health he come into contact and when he reach the target he charged, Zhrofarnos will lose 4 armor and 8% magic
+resist for 2.5 seconds and for the target they will take 385 magical damage plus 0.8% of their max health as well, he can be stun or
+rooted while he is in charge mode making his debuff go to -12 armor and -21% magic resist and also lasting for 4 seconds instead.
 
 SPELL 3 Frost Swing
 
