@@ -12,13 +12,13 @@ Spell crit
 chance 15%
 damage 175%
 
-all stats 7-14
-spell amp 13-20%
-mana 300-600
-life 215-330
-cast range 120-175
+all stats 15-25
+spell amp 17%-23%
+mana 470-700
+life 415-530
+cast range 190-225
 movespeed 15%-22%
-mana regeneration 4-5
+mana regeneration 4-6
 
 
 Hellish Soul PURPLE cant buy
@@ -32,13 +32,13 @@ basic attack crit
 chance 15%
 damage 225% 
 
-all stats 7-14
-damage bonus 16-32
-mana 215-330
-life 300-600
-attackspeed 30-40
+all stats 15-25
+damage bonus 21-37
+mana 315-430
+life 490-700
+attackspeed 35-50
 movespeed 15%-22%
-life regeneration 4-5
+life regeneration 4-6
 
 
 Scroll of Darkness
@@ -47,9 +47,9 @@ increase the user damage,spell amp and stats, when activating the item it will e
 Active item use
 the next spell will deal 50% increase damage and for the next basic attack it will deal pure damage instead cooldown 24 no mana cost
 
-all stats 10-14
-damage 15-20
-spell amp 7%-10%
+all stats 13-21
+damage 21-27
+spell amp 9%-16%
 
 
 Scroll of Death
@@ -60,9 +60,9 @@ deal 30 base damage magical to a enemy and for every 1% of health missing increa
 to cast the spell you will need to kill at least 30 unit, after getting that amount needed the spell will be ready for use, mana cost 50%
 of current mana
 
-spell amp 8-12%
-inteillgence 12-20
-mana 250-450
+spell amp 12%-21%
+inteillgence 17-28
+mana 350-550
 
 
 Moon Shard
@@ -72,8 +72,8 @@ Passive item use
 increase allys movement speed by 10% and attack speed by 30, double on user.
 
 attack speed limit bonus 100
-attack speed 30-40
-agility 15-20
+attack speed 30-70
+agility 15-32
 
 Dark Reef Water
 increase the user Primary stats and health but lose health every seconds and can be use to deal all the health lost into damage for a
@@ -86,8 +86,8 @@ Active item use
 deal damage by the health taken away by Dark Reef Water into magic damage cap damage is 30% of the user max health coldown of 125
 no mana cost
 
-Primary stat increase by 14-25
-health 10%-20%
+Primary stat increase by 19-30
+health 11%-22%
 
 Medieval Artillery
 this item is only useable for Davion others will have this item muted, increase health with strenght and reduce movespeed
@@ -100,9 +100,9 @@ dealing 50% of its damage to others, it can also use the ability FLAMING BOULDER
 in pure damage, the radius is 550 and the cast range is 1250 cooldown of 15 second. The Catapult last 25 second and the active cooldown
 of Medieval Artillery is 125 second
 
-health 400-700
-strenght 15-25
-reduce movespeed 45-90 FLAT
+health 650-900
+strenght 10-50
+reduce movespeed 85-140 FLAT
 
 Icy Hammer
 the user attacks and physical spell wil frosts enemys slowing their movespeed and attack speed also dealing damage everyseconds as well
@@ -118,10 +118,10 @@ deal 18 physical damage per stack of Frost Strike on the target and every 7 stac
 damage and at 14 stacks, the user will spellvamp for 45% of the damage dealt with Frosting Blast, mana cost 18% of max mana cooldown 32
 
 damage 29-47
-strenght 11-22
-agility 9-16
-reduce attack speed 42-55
-BAT 2.25
+strenght 15-27
+agility 11-18
+reduce attack speed 37-65
+BAT 2.15
 
 
 Radiant Core
