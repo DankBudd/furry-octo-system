@@ -1,16 +1,16 @@
 list of green items
 
 
-Superior Branch gold 350 
+Superior Branch
 
-item needed Iron Brach, Leaf Branch, Wisdom Branch and recipe 50 gold
+item needed Iron Brach, Leaf Branch, Wisdom Branch
 
 increase all stats with life and mana regeneration and movement speed
 
-6 to all stats
-0.9 life-regen
-0.9 mana-regen
-10 attackspeed
+3-6 to all stats
+0.9-1.2 life-regen
+0.9-1.2 mana-regen
+10-15 attackspeed
 
 
 Earth Ring gold 400
@@ -46,11 +46,11 @@ movement speed enemy -2%
 Soul GREEN cant buy
 give bonus damage, stats, spellamp and lifesteal with spellvamp
 
-damage 3
-spell amp 2%
-all stats 1
-life steal 2%
-spell vamp 1%
+damage 3-5
+spell amp 2%-3.2%
+all stats 1-3
+life steal 2%-3%
+spell vamp 2%-3%
 
 
 Lesser Infernal Stone gold 1000 GREEN
@@ -84,9 +84,9 @@ Active use item
 heal the target for 30 plus 1% of his max health, other in the radius of 300 will be heal for 10 plus 0.5% of ther max health
 cooldown 20 mana cost 30 plus 2% of user max mana
 
-heal amp 5%
-mana regen 1.4
-mana 50
+heal amp 5%-8%
+mana regen 1.4-1.9
+mana 70-110
 
 
 Anti-Magic Bar GREEN 300 gold
@@ -95,8 +95,8 @@ increase user magic resist and damage can also be use to be magic immune for a s
 Active item use
 become magic immune for 1.2 second cooldown 18
 
-magic resist 7%
-damage 4
+magic resist 7%-10%
+damage 3-6
 
 
 Bottle of Health gold 250 plus lesser bottle of Health 50 gold
@@ -122,9 +122,9 @@ spell amp bonus for the duration 4%
 Book of Lores gold 200
 increase the user stats also giving bonus XP and movement speed
 
-2 all stats
-3% movement speed
-5% increase XP gain
+2-4 all stats
+3%-5% movement speed
+5%-10% increase XP gain
 
 
 Magical Orb 200
@@ -133,8 +133,8 @@ increase the user intelligence and mana also all MAGIC spell will slow and deal 
 Passive item use
 all MAGIC spell will slow for 5% and deal 3 pure damage bonus
 
-Inteillgence 7
-mana 3%
+Inteillgence 5-8
+mana 3%-7%
 
 
 Physical Orb 200
@@ -143,27 +143,28 @@ increase user agility and strenght also all PHYSICAL spell will blind and deal b
 Passive item use
 all PHYSICAL spell will blind for 0.4 second giving 20% chance to miss and deal 3 pure damage bonus
 
-agility 3
-strenght 3
+agility 2-5
+strenght 2-5
 
 
 Gold Rock need Lucky Rock plus recipe 200 gold
 increase the user stats with xp, gold and cast range
 
-all stats 2
-xp gain 5%
-Gold Gain 15%
-cast range 65
+all stats 1-3
+xp gain 4%-8%
+Gold Gain 15%-25%
+cast range 65-90
 
 
 Vemon Orb
-Deal damage over time, slowing the target attack speed and movement speed and also increasing the user Primary stats
+Deal damage over time, slowing the target attack speed and movement speed and also increasing the user Primary stats, the Vemon orb
+will proc on basic attack and spells
 
-Primary stats 5
-Damage 3 magical per 0.5 second
-attack spell slow 5
-Movement spell slow 3%
-duration 10 second
+Primary stats 5-8
+Damage 3 magical plus 5% of the user Primary per 0.5 second
+attack spell slow 8
+Movement spell slow 4%
+duration 5 second
 
 
 GrimFang
@@ -172,16 +173,16 @@ Increase the user attack speed and damage with agility, the user also got a smal
 Passive item Use Fang Crit
 the user got 40% chance to crit for 120% damage
 
-attack speed 12
-damage 4
-agility 4
+attack speed 11-18
+damage 4-7
+agility 4-8
 BAT 1.55
 
 Cloud Helm
 increase the user attack speed and agility, part of the Wind Lord set
 
-attack speed 12
-agility 6
+attack speed 12-15
+agility 5-8
 
 Alkator
 increase the user attack damage with increase evasion and give a small chance to deal bonus damage on attack and spell.
@@ -190,14 +191,14 @@ part of the Wind Lord set
 Passive item use
 spell and basic attack will have 40% chance to deal 8 bonus damage
 
-attack damage 11
-evasion 5%
+attack damage 8-11
+evasion 5%-7%
 
 Cloud Boots
 increase the user movespeed and armor. Part of the Wind Lord Set
 
-movespeed 45
-armor 2
+movespeed 45-60
+armor 2-3
 
 Cloud Chest Armor
 increase the user armor with magic resist and also give a small chance to block magical damage. Part of the Wind Lord Set
@@ -205,8 +206,8 @@ increase the user armor with magic resist and also give a small chance to block 
 Passive item use
 give 20% chance to block 8 plus 15% of the magical damage taken
 
-armor 3
-magic resist 7%
+armor 3-4
+magic resist 7%-10%
 
 
 Hard Shell
@@ -215,8 +216,8 @@ Increase the user Health with Strenght and reduce Stun, Roots, Blind and debuff 
 Passive items use
 reduce all Stun, Roots, Blind and Debuff duration by 10%
 
-health 125
-strenght 5
+health 125-175
+strenght 5-9
 
 
 Hulos
@@ -225,9 +226,9 @@ Increase the user damage, Strenght and lifesteal, also make attack and spells ig
 Passive item use
 spells and attacks will ignore 3 armor from the target
 
-damage 11
-strenght 5
-lifesteal 5%
+damage 8-10
+strenght 6-8
+lifesteal 4%-8%
 BAT 2.25
 
 
@@ -238,9 +239,9 @@ his attack speed and reducing damage taken for a short duration
 Passive item use
 each attack will have 14% chance to trigger a fury that increase attack speed by 30 and reducing damage taken by 8% for 3 seconds
 
-Armor 2
-magic resist 6%
-attack speed 12
+Armor 2-5
+magic resist 6%-11%
+attack speed 12-20
 
 
 Stone of Sickness
@@ -256,6 +257,6 @@ Enemys around the user 850 radius will lose 4% magic resist
 Spell amp 4%-6.5%
 mana regeneration 0.9-1.8
 health 100-175
-magic resist lost 8%-10%
+magic resist lost 7%-10%
 
 
