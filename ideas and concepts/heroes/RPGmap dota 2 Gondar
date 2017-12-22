@@ -1,0 +1,82 @@
+Gondar Starting stats 7 Int, 16 Agi, 3 Str, base speed 325, base damage 4, Stats Gain per level 0.50 int, 0.30 str, 1.00 agi
+Starting item Broken Dagger 1 damage 5 attack speed, low DSP, Insane Mobility, Support
+
+LEVEL 20 TALENT
+
+Talent 1
+
+
+Talent 2
+
+
+PASSIVE D OR F 
+Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
+
+BUFF 
+Gondar will gain 1.2% spell amp per 7 agility point he got, he also gain 1 move speed per point of agility as well, he also reduce
+all slowing effect duration by 65% and he cannot be rooted as well, he start with 100 bonus health and mana with 5% magic resist,
+all of his spell will heal him for 75% of his total agility every time he cast them.
+DEBUFF
+Gondar doesnt gain any health regeneration from strenght, he also take 100% more damage from physical and Pure, Stun will last 0.8 second
+more, stun below 1 second will only get 0.1 seconds increase, and when he is stun he will lose his armor to 0 and his magic resist to 0%
+as well for the duration of the stun, he also lose 40% base damage as well and he also increase the base attack time with all weapons by
+0.20.
+
+
+
+
+SPELL Q
+Shadow Step
+Gondar will go invisible, and when he is invisible he will gain increase movespeed every 0.5 seconds duration of Shadow Step, he also
+gain some stun resist when he stay invisible, if he cast a spell or attack he will do bonus damage base on his movespeed and increase the
+damage the enemys take, if the attack was physical also reduce armor and if the attack was magical also reduce magic resist. If any
+attack do both phyiscal and magical damage, it will give both reduction debuff.
+
+bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed -does physical damage if the spell is physical, same for magical attack
+damage taken increase 10% 18% 26% 34%
+Armor lost 4 6 8 10
+magic resist lost 6% 9% 12% 15%
+debuff duration 8 8.4 8.8 9.2
+invisibility duration 14 15 16 17
+stun resist 10% 20% 30% 40%
+movespeed gain per 0.5 seconds 2%
+coldown 30 29 28 27
+mana cost 95 115 135 155 plus 3% of max mana
+
+talent level 10 upgrade Shadow Step
+increase damage taken by 6%
+increase armor lost by 4
+increase magic resist lost by 7%
+increase debuff duration by 1.8
+reduce coldown by 3
+
+add a new modifier Shadow Form
+When Gondar break his Invisibility, he will gain Shadow Form, having 45% evasion and also having 30% chance to Evade Magical attacks
+when in this state, he will also gain 1 armor and 2% magic resist for every seconds of duration, allys near him will gain 50% of that
+bonus for them 750 radius, Shadow Form last 12 seconds and when in Shadow Form, Shadow Step will remain in Coldown as well, for this
+Gondar spell and attack will reduce the enemys armor by 6 and magic resist by 12% for 3.5 seconds.
+
+
+SPELL W
+Weak Strike
+Gondar Strike the enemy in their Weak Spot increasing the damage they take from Gondar and his allys as well, the enemys will suffer from
+damage over time and getting slow every seconds of duration. enemys will take further damage increase from Gondar, he also jump back
+behind him for 350 400 450 500 units travel. Can be autocast.
+
+damage 4 5 6 7 plus 10% of agility Physical every 0.2 seconds
+base slow 8% 10% 12% 14%
+increase slow by 1% every 0.4 seconds
+damage taken increase by 25% 40% 55% 70% for Gondar
+damage taken increase by 10% 16% 22% 28% for allys
+duration 2 2.4 2.8 3.2
+coldown 4
+mana cost 35 50 65 80
+
+talent level 10 upgrade Weak Strike
+increase agility scaling by 5%
+increase base slow by 6%
+increase damage taken by 12% for allys
+increase duration by 0.8
+increase the coldown by 0.5
+reduce mana cost by 20
+
