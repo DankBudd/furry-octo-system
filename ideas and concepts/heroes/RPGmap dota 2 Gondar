@@ -23,10 +23,10 @@ as well for the duration of the stun, he also lose 40% base damage as well and h
 0.20.
 
 Boots of Vigor Special
-increase health by 25 increase by 3 every levels
-increase mana by 20 increase by 2 every levels
+increase health by 25 increase by 5 every levels
+increase mana by 20 increase by 3 every levels
 increase movespeed by 35 increase by 1 every levels
-also make agility give 1 health per point and also increasing the attack speed bonus from agility by 0.15
+also make agility give 2 health per point and also increasing the attack speed bonus from agility by 0.15
 can be use to clear all stun effect while stunned and push Gondar by 350 units in front of him coldown of 30
 
 SPELL Q
@@ -36,10 +36,10 @@ gain some stun resist when he stay invisible, if he cast a spell or attack he wi
 damage the enemys take, if the attack was physical also reduce armor and if the attack was magical also reduce magic resist. If any
 attack do both phyiscal and magical damage, it will give both reduction debuff.
 
-bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed -does physical damage if the spell is physical, same for magical attack
+bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed Magical
 damage taken increase 10% 18% 26% 34%
 Armor lost 4 6 8 10
-magic resist lost 6% 9% 12% 15%
+magic resist lost 5% 7% 9% 11%
 debuff duration 8 8.4 8.8 9.2
 invisibility duration 14 15 16 17
 stun resist 10% 20% 30% 40%
@@ -50,22 +50,23 @@ mana cost 95 115 135 155 plus 3% of max mana
 talent level 10 upgrade Shadow Step
 increase damage taken by 6%
 increase armor lost by 4
-increase magic resist lost by 7%
+increase magic resist lost by 3%
 increase debuff duration by 1.8
-reduce coldown by 3
+reduce coldown by 9
 
 add a new modifier Shadow Form
 When Gondar break his Invisibility, he will gain Shadow Form, having 45% evasion and also having 30% chance to Evade Magical attacks
 when in this state, he will also gain 1 armor and 2% magic resist for every seconds of duration, allys near him will gain 50% of that
 bonus for them 750 radius, Shadow Form last 12 seconds and when in Shadow Form, Shadow Step will remain in Coldown as well, for this
-Gondar spell and attack will reduce the enemys armor by 6 and magic resist by 12% for 3.5 seconds.
+Gondar spell and attack will reduce the enemys armor by 5 and magic resist by 7% for 3.5 seconds.
 
 
 SPELL W
 Weak Strike
 Gondar Strike the enemy in their Weak Spot increasing the damage they take from Gondar and his allys as well, the enemys will suffer from
 damage over time and getting slow every seconds of duration. enemys will take further damage increase from Gondar, he also jump back
-behind him for 350 400 450 500 units travel. Can be autocast.
+behind him for 350 400 450 500 units travel. Can be autocast. Coldown reduction will have no effect and Weak Strike will gain 50% more
+bonus from spell amp.
 
 damage 4 5 6 7 plus 10% of agility Physical every 0.2 seconds
 base slow 8% 10% 12% 14%
@@ -78,9 +79,47 @@ mana cost 35 50 65 80
 
 talent level 10 upgrade Weak Strike
 increase agility scaling by 5%
-increase base slow by 6%
+increase base slow by 8%
 increase damage taken by 12% for allys
 increase duration by 0.8
 increase the coldown by 0.5
 reduce mana cost by 20
+
+add a new modifier Disease Strike
+Weak Strike will cleave in a 285 radius in front of Gondar giving it debuff to others, enemys affected by Weak Strike will be sick,
+dealing 25% less damage with spells and losing 15% base damage as well, when they die under the duration of Weak Strike they will spread
+it to others with worst conditions, they will do 35% less damage with spells and lose 25% base damage until they die instead of losing
+it over the duration, Gondar normal attacks against enemys affected by Weak Strike will do 50% pure damage and 50% physical.
+
+
+SPELL E
+JumpKick
+Gondar Jump into a enemys stuning them for a short duration and also making them take increase duration from roots and stun as well,
+he also push them back by 225 units and Gondar will also Jump back 335 units as well, he also gain some damage reduction for a short
+duration upon landing JumpKick, deal medium damage
+
+damage 12 16 20 24 plus 14% 20% 26% 32% of agility Physical
+stun duration 0.5 0.7 0.9 1.1
+increase stun and root duration by 25% 30% 35% 40%
+debuff duration 3.4 3.6 3.8 4.0
+damage reduction 14% 16% 18% 20%
+coldown 8 7 6 5
+mana cost 50 85 110 145 plus 1% of max mana
+
+talent level 20 upgrade JumpKick
+increase agility scaling by 8%
+increase stun and root duration by 15%
+increase debuff duration by 0.5 seconds
+increase damage reduction by 7%
+reduce mana cost to 70 at all levels
+
+add a new modifer Unseen Jump
+Gondar will become invisible when he jump for 3.2 seconds, JumpKick doesnt break invis from Shadow Step and Unseen Jump and when use
+in invisibility it will do 35% more damage and stun 0.7 seconds longer and Peice magic immunity and also reducing it coldown by 1.5
+seconds, every time Gondar get the Finish blow on the enemys with JumpKick it will get 2 base damage increase that stack up to 30 bonus
+base damage and at max stack Gondar will gain 55 attack speed with 14 attack damage and 12% spell amp for 5 seconds after useing JumpKick
+
+
+PASSIVE D or F
+
 
