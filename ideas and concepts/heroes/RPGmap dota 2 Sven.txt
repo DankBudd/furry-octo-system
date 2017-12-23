@@ -3,7 +3,7 @@ Sven Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 12, Stats ga
 TALENT LEVEL 20
 
 talent 1 
-increase sven max health by 25% and his armor by 5
+increase sven max health by 20% and his armor by 5
 Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max and increase his resist for pure damage by 50%
 
 talent 2
@@ -13,10 +13,10 @@ Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 10% o
 Mighty Warrior
 increase overall stats and give a positive and negative buff
 
-BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 12 Strenght he also reduce stun,root and blind by
-30% he also start with 1 armor and 5% magic resist he start with a special Sword that can be change and if sven get stun for more than
-2.5 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 3 second and this
-effect can only happen every 12 seconds.
+BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 11 Strenght he also reduce stun,root and blind by
+30% he also start with 2 armor and 8% magic resist he start with a special Sword that can be change and if sven get stun for more than
+2.2 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 4 second and this
+effect can only happen every 13 seconds.
 DEBUFF sven lose 20% attack speed,10% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed weapons 
 type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by 15% and
 his attack speed by 20 for 3 second
@@ -28,9 +28,9 @@ sven got 10% chance to parry a basic attack and dealing 7 damage plus 20% of his
 
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
-Sven cleave for 100% of the damage in a 450 radius in front of him and if enemys die from the cleave, they will heal Sven by 3% of his
+Sven cleave for 100% of the damage in a 450 radius in front of him and if enemys die from the cleave, they will heal Sven by 1.5% of his
 max health and restore him 2% of his max mana as well, he also become immnue to all blind effect and instead buff him, increasing his
-attack damage by 35% and attack speed by 60 for 12 seconds. his effect can refresh every time he gets blinded again going without limit.
+attack damage by 40% and attack speed by 90 for 9 seconds. his effect can refresh every time he gets blinded again going without limit.
 
 SPELL Q level
 Bloodlust
@@ -123,8 +123,9 @@ PASSIVE D OR F
 War Gladiator
 Sven can block both magic and physical spell also blocking basic attack he cannot block pure damage and he will block 50% of the damage 
 per second spells, he also got a chance to deal a critical hit for more damage increase, items will critical effect will have no effect
-for basic attack crits, spell will be affected.
+for basic attack crits, spell will be affected. he also gain attack speed for every point of strenght he currently got.
 
+attack speed from strenght 0.15
 Base Critical damage 150% 170% 190% 210%
 increase critical damage by 25% 30% 35% 40% of Sven Strenght
 Critical chance 14%
