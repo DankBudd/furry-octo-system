@@ -1,4 +1,4 @@
-Gondar Starting stats 7 Int, 16 Agi, 3 Str, base speed 325, base damage 4, Stats Gain per level 0.50 int, 0.30 str, 1.00 agi
+Gondar Starting stats 7 Int, 16 Agi, 3 Str, base speed 315, base damage 4, Stats Gain per level 0.50 int, 0.30 str, 1.00 agi
 Starting item Broken Dagger 1 damage 5 attack speed, low DSP, Insane Mobility, Support
 
 LEVEL 20 TALENT
@@ -14,16 +14,20 @@ Increase overall stats and give a positive and negative buff, pressing Alt will 
 
 BUFF 
 Gondar will gain 1.2% spell amp per 7 agility point he got, he also gain 1 move speed per point of agility as well, he also reduce
-all slowing effect duration by 65% and he cannot be rooted as well, he start with 100 bonus health and mana with 5% magic resist,
-all of his spell will heal him for 75% of his total agility every time he cast them.
+all slowing effect duration by 65% and he cannot be rooted as well, he start with 100 more health and mana with 5% magic resist,
+all of his spell will heal him for 75% of his total agility every time he cast them. he also got special boots that he cannot change
 DEBUFF
 Gondar doesnt gain any health regeneration from strenght, he also take 100% more damage from physical and Pure, Stun will last 0.8 second
 more, stun below 1 second will only get 0.1 seconds increase, and when he is stun he will lose his armor to 0 and his magic resist to 0%
 as well for the duration of the stun, he also lose 40% base damage as well and he also increase the base attack time with all weapons by
 0.20.
 
-
-
+Boots of Vigor Special
+increase health by 25 increase by 3 every levels
+increase mana by 20 increase by 2 every levels
+increase movespeed by 35 increase by 1 every levels
+also make agility give 1 health per point and also increasing the attack speed bonus from agility by 0.15
+can be use to clear all stun effect while stunned and push Gondar by 350 units in front of him coldown of 30
 
 SPELL Q
 Shadow Step
