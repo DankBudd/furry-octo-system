@@ -36,7 +36,7 @@ gain some stun resist when he stay invisible, if he cast a spell or attack he wi
 damage the enemys take, if the attack was physical also reduce armor and if the attack was magical also reduce magic resist. If any
 attack do both phyiscal and magical damage, it will give both reduction debuff.
 
-bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed Magical
+bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed Pure
 damage taken increase 10% 18% 26% 34%
 Armor lost 4 6 8 10
 magic resist lost 5% 7% 9% 11%
@@ -66,7 +66,7 @@ Weak Strike
 Gondar Strike the enemy in their Weak Spot increasing the damage they take from Gondar and his allys as well, the enemys will suffer from
 damage over time and getting slow every seconds of duration. enemys will take further damage increase from Gondar, he also jump back
 behind him for 350 400 450 500 units travel. Can be autocast. Coldown reduction will have no effect and Weak Strike will gain 50% more
-bonus from spell amp.
+bonus from spell amp. If Weak Strike is use in Shadow Step it will do Magical damage instead of Physical.
 
 damage 4 5 6 7 plus 10% of agility Physical every 0.2 seconds
 base slow 8% 10% 12% 14%
