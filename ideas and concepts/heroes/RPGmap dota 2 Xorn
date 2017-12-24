@@ -17,7 +17,8 @@ PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 20 and talent level 25 of this passive
 
 BUFF Xorn will gain 1 base damage for every 65 movementspeed he got and he also gain 1% movement speed for every 7 Agility, he
-start with 2 armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level
+start with 2 armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level, his speedlimit
+increase to 1450.
 DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
 dealing 0.8% of his max health per 0.5 second
@@ -303,8 +304,8 @@ talent defensive
 -
 level 33 talent
 -
-increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
-by 8 but reduce inteillgence by 12.
+increase all healing effect by 20%, Terror Wave will heal Xorn for 75 plus 35% of his agility for every enemys hit and also reducing
+their magical damage output by 15% and reducing armor by 5.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
