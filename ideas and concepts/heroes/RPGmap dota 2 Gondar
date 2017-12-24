@@ -1,5 +1,5 @@
 Gondar Starting stats 7 Int, 16 Agi, 3 Str, base speed 315, base damage 4, Stats Gain per level 0.50 int, 0.30 str, 1.00 agi
-Starting item Broken Dagger 1 damage 5 attack speed, low DSP, Insane Mobility, Support
+Starting item Broken Dagger 1 damage 5 attack speed, Medium DSP, Insane Mobility, Support
 
 LEVEL 20 TALENT
 
@@ -39,7 +39,7 @@ attack do both phyiscal and magical damage, it will give both reduction debuff.
 bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed Pure
 damage taken increase 10% 18% 26% 34%
 Armor lost 4 6 8 10
-magic resist lost 5% 7% 9% 11%
+magic resist lost 7% 11% 15% 19%
 debuff duration 8 8.4 8.8 9.2
 invisibility duration 14 15 16 17
 stun resist 10% 20% 30% 40%
@@ -50,22 +50,22 @@ mana cost 95 115 135 155 plus 3% of max mana
 talent level 10 upgrade Shadow Step
 increase damage taken by 6%
 increase armor lost by 4
-increase magic resist lost by 3%
+increase magic resist lost by 6%
 increase debuff duration by 1.8
 reduce coldown by 9
 
 add a new modifier Shadow Form
-When Gondar break his Invisibility, he will gain Shadow Form, having 45% evasion and also having 30% chance to Evade Magical attacks
-when in this state, he will also gain 1 armor and 2% magic resist for every seconds of duration, allys near him will gain 50% of that
+When Gondar break his Invisibility, he will gain Shadow Form, having 75% evasion and also having 50% chance to Evade Magical attacks
+when in this state, he will also gain 1 armor and 2% magic resist for every seconds of duration, allys near him will gain 75% of that
 bonus for them 750 radius, Shadow Form last 12 seconds and when in Shadow Form, Shadow Step will remain in Coldown as well, for this
-Gondar spell and attack will reduce the enemys armor by 5 and magic resist by 7% for 3.5 seconds.
+Gondar spell and attack will reduce the enemys armor by 6 and magic resist by 11% for 3.5 seconds.
 
 
 SPELL W
 Weak Strike
 Gondar Strike the enemy in their Weak Spot increasing the damage they take from Gondar and his allys as well, the enemys will suffer from
 damage over time and getting slow every seconds of duration. enemys will take further damage increase from Gondar, he also jump back
-behind him for 350 400 450 500 units travel. Can be autocast. Coldown reduction will have no effect and Weak Strike will gain 50% more
+behind him for 350 400 450 500 units travel. Can be autocast. Coldown reduction will have no effect and Weak Strike will gain 125% more
 bonus from spell amp. If Weak Strike is use in Shadow Step it will do Magical damage instead of Physical.
 
 damage 4 5 6 7 plus 10% of agility Physical every 0.2 seconds
@@ -103,13 +103,13 @@ stun duration 0.5 0.7 0.9 1.1
 increase stun and root duration by 25% 30% 35% 40%
 debuff duration 3.4 3.6 3.8 4.0
 damage reduction 14% 16% 18% 20%
-coldown 8 7 6 5
+coldown 6
 mana cost 50 85 110 145 plus 1% of max mana
 
 talent level 20 upgrade JumpKick
 increase agility scaling by 8%
 increase stun and root duration by 15%
-increase debuff duration by 0.5 seconds
+increase debuff duration by 1 seconds
 increase damage reduction by 7%
 reduce mana cost to 70 at all levels
 
@@ -120,6 +120,27 @@ seconds, every time Gondar get the Finish blow on the enemys with JumpKick it wi
 base damage and at max stack Gondar will gain 55 attack speed with 14 attack damage and 12% spell amp for 5 seconds after useing JumpKick
 
 
-PASSIVE D or F
+ACTIVE PASSIVE D or F
+Ninja Mastery
+Increase Gondar Agility and Movespeed, this can also be use to push forward by 75% 100% 125% 150% of movespeed, Weak Strike and JumpKick
+will do bonus damage base on his movespeed and his attack speed, every time he get slowed he will gain bonus health regeneration and
+attack speed for  a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 50% of the bonus
+damage from attack speed and Movespeed into damage.
 
+Evasion per armor 1%
+Agility 10% 12% 14% 16%
+movespeed 8% 12% 16% 20%
+attack speed into damage 8% 10% 12% 14%
+move speed into damage 2%
+health regeneration 10 15 20 25
+attack speed 35 70 105 140
+duration of buff 3.4 3.8 4.2 4.6
+coldown of Active effect 7 6 5 4
+mana cost 25 30 35 40
 
+talent level 20 upgrade Ninja Mastery
+increase agility gain by 4%
+increase move speed bonus by 5%
+increase the buff duration by 1.4 seconds
+
+add a new modifier Bounty Hunter
