@@ -71,16 +71,16 @@ bonus from spell amp. If Weak Strike is use in Shadow Step it will do Magical da
 damage 4 5 6 7 plus 10% of agility Physical every 0.2 seconds
 base slow 8% 10% 12% 14%
 increase slow by 1% every 0.4 seconds
-damage taken increase by 25% 40% 55% 70% for Gondar
+damage taken increase by 25% 35% 45% 55% for Gondar
 damage taken increase by 10% 16% 22% 28% for allys
 duration 2 2.4 2.8 3.2
 coldown 4
-mana cost 35 50 65 80
+mana cost 35 50 65 80 plus 0.7% of max mana
 
 talent level 10 upgrade Weak Strike
 increase agility scaling by 5%
 increase base slow by 8%
-increase damage taken by 12% for allys
+increase damage taken by 7% for allys
 increase duration by 0.8
 increase the coldown by 0.5
 reduce mana cost by 20
@@ -115,10 +115,10 @@ reduce mana cost to 70 at all levels
 
 add a new modifer Unseen Jump
 Gondar will become invisible when he jump for 3.2 seconds, JumpKick doesnt break invis from Shadow Step and Unseen Jump and when use
-in invisibility it will do 35% more damage and stun 0.7 seconds longer and Peice magic immunity and also reducing it coldown by 1.5
+in invisibility it will do 35% more damage and stun 0.7 seconds longer and Peice magic immunity and also reducing it coldown by 2.5
 seconds, every time Gondar get the Finish blow on the enemys with JumpKick it will get 2 base damage increase that stack up to 30 bonus
 base damage and at max stack Gondar will gain 55 attack speed with 14 attack damage and 12% spell amp for 5 seconds after useing JumpKick
-
+50% of the stacks are lost on death.
 
 ACTIVE PASSIVE D or F
 Ninja Mastery
@@ -144,3 +144,10 @@ increase move speed bonus by 5%
 increase the buff duration by 1.4 seconds
 
 add a new modifier Bounty Hunter
+Gondar will gain his attack speed into damage for his base damage as well for 6% bonus, Gondar can use 5% of his current gold to deal
+damage to a target, damage cap is 100 plus 5 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys will
+gain 30% gold as well, allys will also be able to spend 20% less gold on items that allys buy at the shop, gain a golden aura of 10% 
+Evasion with 5% damage reduction and 12% bonus damage as well.
+
+
+ULTIMATE R
