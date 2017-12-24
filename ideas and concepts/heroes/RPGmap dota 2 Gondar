@@ -122,14 +122,14 @@ base damage and at max stack Gondar will gain 55 attack speed with 14 attack dam
 
 ACTIVE PASSIVE D or F
 Ninja Mastery
-Increase Gondar Agility and Movespeed, this can also be use to push forward by 75% 100% 125% 150% of movespeed, Weak Strike and JumpKick
-will do bonus damage base on his movespeed and his attack speed, every time he get slowed he will gain bonus health regeneration and
-attack speed for  a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 50% of the bonus
+Increase Gondar Agility and Movespeed Limit cap, this can also be use to push forward by 75% 100% 125% 150% of movespeed, Weak Strike and
+JumpKick will do bonus damage base on his movespeed and his attack speed, every time he get slowed he will gain bonus health regeneration
+and attack speed for  a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 50% of the bonus
 damage from attack speed and Movespeed into damage.
 
 Evasion per armor 1%
 Agility 10% 12% 14% 16%
-movespeed 8% 12% 16% 20%
+movespeed Limit 650 750 850 950 -note for this it increase from 550 to 650 750 850 and 950
 attack speed into damage 8% 10% 12% 14%
 move speed into damage 2%
 health regeneration 10 15 20 25
@@ -140,7 +140,7 @@ mana cost 25 30 35 40
 
 talent level 20 upgrade Ninja Mastery
 increase agility gain by 4%
-increase move speed bonus by 5%
+increase movespeed limit by 150
 increase the buff duration by 1.4 seconds
 
 add a new modifier Bounty Hunter
