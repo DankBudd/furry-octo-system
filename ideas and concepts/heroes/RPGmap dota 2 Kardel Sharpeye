@@ -193,23 +193,25 @@ cooldown 19 21 23 25
 talent level 20 upgrade Take aim and Mark for Death
 TAKE AIM
 increase damage by 50%
-increase stun duration by 1.1
-increase debuff duration by 1.9
-increase mana cost by 75
+increase debuff duration by 1.2
+reduce the time it take to cast take aim by 0.8
+reduce coldown by 4
+increase mana cost by 105
 MARK FOR DEATH
 increase damage taken by 10%
 increase debuff duration by 2
 reduce cooldown by 4
 
-add a new modifier for TAKE AIM - Weak Point
-if the enemys got more health than Kardel, Take aim will do 55% increase damage and have 8 cooldown reduction upon hitting the target,
-if they die, take aim will have no cooldown and have 30% increase damage on next cast. If the enemys got lower health than Kardel, Take
-aim will do 75% less damage and have 6 coldown increase.
+add a new modifier for TAKE AIM - Ya have a target?
+Take Aim is no longer a single target spell, instead is become a single bullet wave that got 225 235 245 255 radius and travel 2750 far,
+it can hit multiple enemys without limit and the first enemys hit will take 25% more damage and get stun for 1.1 seconds longer, others
+will take normal amount of damage and stun duration, it also got 15% chance to deal pure damage instead of Physical, each enemys kill
+will increase the damage of Take aim by 8% up to 40% bonus damage, all stack are lost upon casting take aim.
 
 add a new modifier for MARK FOR DEATH - Perfect Mark
 the debuff duration will last full on bosses intead of having 50% duration reduction, and Mark for Death will get 35% cooldown reduction
 every time non-boss unit die under the effect of Mark for Death it self. Also increase sniper movespeed by 10% when the target is affected
-by Mark for Death max of 40% bonus movespeed
+by Mark for Death max of 40% bonus movespeed and also giving him 2% damage reduction as well max of 10%.
 
 
 PASSIVE TOGGLE D OR F Long Range Mode and Close Combat Mode -- cooldown of 7 second to switch mode and cannot be reduce by cooldown
@@ -222,7 +224,7 @@ for Kardel by 8% 11% 14% 17% 20% bonus damage
 
 increase base damage 4 12 20 28 36
 increase attack range 50 100 150 200 250
-increase cast range 80 120 160 200 240
+increase cast range 110 150 190 230 270
 reduce movespeed 70 65 60 55 50 FLAT
 
 CLOSE COMBAT MODE
@@ -231,61 +233,65 @@ range spell, he also start with a point inside of this passive and having 5 leve
 for Kardel, increasing healing spells by 8% 12% 16% 20% 24% and he will splash damage for 15% of the damage dealt in a 350 AOE from the
 first target
 
-increase attack speed 20 25 30 35 40
+increase attack speed 30 35 40 45 50
 increase movespeed 15 30 45 60 75 FLAT
-increase damage reduction 9% 11% 13% 15% 17%
+increase damage reduction 8% 9% 10% 11% 12%
 reduce attack range 350 330 310 290 270
 
 talent level 20 upgrade LONG RANGE and CLOSE RANGE
 LONG RANGE MODE
 increase damage bonus by 14
-reduce the amount of speed lost by 20
+increase cast range bonus by 80
+reduce the amount of speed lost by 10
 CLOSE RANGE MODE
-increase attack speed by 35
+increase attack speed by 25
+increase movespeed bonus by 25
 increase damage reduction by 3%
 
 add a new modifier for LONG RANGE MODE - Silent Killer
 Enemys will Ignore Kardel if other allys are near him 950 radius, and every 2 second that Kardel doesnt take damage he will gain 2%
-bonus damage and 1 agility, max of 40% bonus damage and 20 agility bonus, if he takes damage he will lose 3 stacks every time, at max
-stacks Kardel will gain Permanent invisibility if he attack or cast any spell he will lose the invisibility for 1.7 second after that
-he will become invis again, spell that are single target will still hit Kardel even if he goes invisible, 20 max stack total
+bonus damage and 1 agility, max of 40% bonus damage and 20 agility bonus, if he takes damage he will lose 4 stacks every time, at max
+stacks Kardel will gain Permanent invisibility if he attack or cast any spell he will lose the invisibility for 2.5 second after that
+he will become invis again, spell that are single target will still hit Kardel even if he goes invisible, 20 max stack total, each time
+he cast spells when invisible, they will have 125 bonus cast range and have 1.5 coldown reduce
 
 add a new modifier for CLOSE RANGE MODE - Juggernaut
 Kardel will gain 5 armor and 12% magic resist in Close Combat but alway reduce his range to 265 at all time and cannot be change.
 when Kardel kill enemys he will gain 15 attack speed that last 12 second and refresh upon killing others and increasing the attack speed
-even more up to 75 bonus attack speed, and if Kardel takes 12% of his max health in 1 hit he will gain 10% more damage reduction for 3
-seconds, only proc every 6 seconds
+even more up to 75 bonus attack speed, and if Kardel takes 12% of his max health in 1 hit he will gain 10% more damage reduction and also
+gaining 2% health regeneration for 4 seconds, only proc every 8 seconds
 
 
 ULTIMATE R PASSIVE HeadShot!
 Kardel knows the way to kill his enemys quick and making alot of mess, all of his spell will do Max health to enemys (bosses will take
 current health instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
-bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 250, 200,
-150 max mana. Spell that does damage every 2 second or lower will only deal 0.1% of current health in damage HeadShot! will deal less
+bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 225, 200,
+175 max mana. Spell that does damage every 2 second or lower will only deal 0.1% of current health in damage. HeadShot! will deal less
 damage in close combat for auto attacks.
 
 Max health damage 1% 2% 3%
-HeadShot! spell damage 175% 200% 225% of attack damage
+HeadShot! spell damage 140% 170% 200% of attack damage
 HeadShot! chance for spells 30% 35% 40%
-HeadShot! auto attack damage 130% 150% 170% of attack damage long range
-HeadShot! auto attack damage 115% 120% 125% of attack damage close range
+HeadShot! auto attack damage 90% 110% 130% of attack damage long range
+HeadShot! auto attack damage 50% 60% 70% of attack damage close range
 HeadShot! chance for auto attack 30% 40% 50%
 attack speed lost 45 60 75
 movespeed lost 12% 16% 20%
 debuff duration 1.1 1.4 1.7 seconds
 
 talent level 40 upgrade HeadShot!
-increase HeadShot! Spell damage by 25%
+increase HeadShot! Spell damage by 35%
 increase HeadShot! chance on spell by 10%
-increase debuff duration by 0.3 second
+increase debuff duration by 0.2 second
 
 add a new modifier for HeadShot! Mithril Bullets
-Kardel Basic attack and spells will alway reduce the target armor by 9 and his magic resist by 15% for 4 seconds, Spells that proc
-HeadShot! will Ignore all of the target Armor and further reduce the target armor by 6 for 7 seconds, when Kardel is in Long Range
-Mode, his spell will have 35% reduce coldown and have 15% spellvamp and also having 14% chance to stun the target for 0.6 seconds
+Kardel Basic attack and spells will alway reduce the target armor by 7 and their magic resist by 10% for 4 seconds, Spells that proc
+HeadShot! will Ignore all of the target Armor and further reduce the target armor by 4 for 7 seconds, when Kardel is in Long Range
+Mode, his spell will have 35% reduce coldown and have 15% spellvamp and also having 12% chance to stun the target for 0.3 seconds
 and for Close Combat Mode, Kardel basic attack and Spells will have 20% chance to make the target take 15% extra damage from physical
 and magical spell and 25% more damage from pure damage for 5 seconds, enemys with more armor than Kardel will suffer Mithril Poison,
-taking 7 plus 4% of his attack damage per 0.1 second for 0.7 seconds.
+taking 9 plus 5% of his attack damage per 0.1 second in Pure damage and reducing healing effect by 17% for 1.2 seconds. coldown of 3
+seconds before being able to Mithril Poison
 
 
 
@@ -303,7 +309,7 @@ lifeSteal 5%
 attack range 75
 Base attack time 2.20 - cannot upgrade -
 
-bonus damage per upgrade in it 3 7 12 18 25 32 43 51 - 60 75 - with 40 talent
+bonus damage per upgrade in it 3 7 12 18 25 32 43 51 - 60 72 - with 40 talent
 Boosted Shot Modifier - if damage got the most upgrade - Basic Modifier -
 Kardel basic attack will have 14% chance to deal a Puncture Shoot, Puncture Shoot will deal 6 10 14 18 22 26 30 34 physical bonus damage
 and make the enemys bleed for 10% 12% 14% 16% 18% 20% 22% 24% of Kardel attack damage every 0.5 second that last 3 seconds
@@ -314,25 +320,25 @@ Kardel will have 0.12 0.15 0.18 0.21 0.24 0.27 0.30 0.35 reduce base attack time
 as well, example if the enemy got 2 armor and you ignore 3, your attack will do normal damage like he had 0 armor cannot go into the -.
 and if the target is under -1 armor or more it will have no effect until they have armor for Kardel to Ignore
 
-bonus SpellVamp per Upgrade in it 4% 7% 10% 14% 18% 23% 27% 35% - 29% 40% - with 40 talent
+bonus SpellVamp per Upgrade in it 5% 7% 9% 11% 14% 17% 20% 25% - 30% 35% - with 40 talent
 Boosted Power Modifier - if SpellVamp got the most Upgrade - Basic Modifier -
 Kardel spell will deal 5% 8% 11% 15% 20% 25% 32% 40% increase damage and reduce the enemys armor by 1
 2 3 4 5 6 7 8 and also increasing Movespeed by 10% 14% 18% 22% 26% 30% 34% 38% for 3.5 second after casting a spell.
 
-Bonus LifeSteal Per Upgrade in it 3% 5% 7% 10% 13% 17% 21% 25% - 30% 35% - with 40 talent
+Bonus LifeSteal Per Upgrade in it 3% 5% 7% 9% 12% 15% 18% 22% - 26% 30% - with 40 talent
 Boosted Blood Cannon Modifier - if LifeSteal got the most upgrade - Basic Modifier - just a quick note its like feast from Naix
-Kardel will deal 0.2% 0.3% 0.4% 0.5% 0.6% 0.7% 0.8% of the target current health in bonus damage and also lifestealing for the amount
-of the damage dealt and increase all source of healing by 7% 10% 14% 18% 24% 29% 35% 44%
+Kardel will have 20% chance deal 0.3% 0.4% 0.5% 0.6% 0.7% 0.8% 0.9% 1.0% of the target current health in bonus damage and also
+lifestealing for the amount of the damage dealt and increase all source of healing by 7% 10% 14% 18% 24% 29% 35% 44%
 
-bonus Attack Range per Upgrade in it 50 70 100 130 170 210 260 330 - 430 580 with 40 talent
+bonus Attack Range per Upgrade in it 50 70 100 130 170 210 260 330 - 390 480 with 40 talent
 Booted Scope Modifier - if attack range got the most upgrade - basic modifier -
-Kardel will deal 10% 14% 18% 22% 26% 30% 35% 40% increase damage from enemys that are 450 425 400 375 350 325 300 275 range away from
+Kardel will deal 10% 14% 18% 22% 26% 30% 35% 40% increase damage from enemys that are 440 420 400 380 360 340 320 300 range away from
 Kardel, also reduce all spells or attack damage that travel more than 425 range by 11% 13% 15% 17% 19% 21% 23% 25%.
 
 MOD UPGRADE FOR THE RIFLE
 
 LVL 1 Searing Shot Modifier - need upgrade in, 2 damage, 2 attack speed.
-Kardel will reduce the enemys armor by 2 for every auto attack he does, that stack up 5 time, at max stack the enemys will suffer 0.3%
+Kardel will reduce the enemys armor by 2 for every auto attack he does, that stack up 5 time, at max stack the enemys will suffer 0.1%
 of their max health every 0.7 seconds (current health damage for bosses) if Kardel is in Close Combat, he will reduce his base attack
 time by 0.15 and alway reduce the armor by 6 for the first hit he does and increasing the max stack by 1, reducing 16 armor in total
 the debuff last 3.5 seconds and refresh when hitting the target.
@@ -343,4 +349,10 @@ and make his spell deal 20% to 40% increase damage for every 60 Unit Away the en
 and all of his spell will deal 25% bonus damage base on his agility.
 
 LVL 2 Searing Shot Modifier - need upgrade in, 4 damage, 4 attack speed.
+Kardel will reduce the enemys armor by 3 for every auto attack he does, that stack up 7 time, at max stack the enemys will suffer 0.2%
+of their max health every 0.7 seconds (current health damage for bosses) if Kardel is in Close Combat, he will reduce his base attack
+time by 0.25 and alway reduce the armor by 9 for the first hit he does and increasing the max stack by 2, reducing 30 armor in total
+the debuff last 3.5 seconds and refresh when hitting the target, and also reduce all Pure damage taken by 35% and if Kardel take any
+Source of pure damage he will gain the Craze Shotter buff, increasing his damage by 25 and his attack speed by 40 for 6 seconds, coldown
+of 15 seconds.
 
