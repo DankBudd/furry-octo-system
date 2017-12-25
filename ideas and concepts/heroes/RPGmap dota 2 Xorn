@@ -16,9 +16,9 @@ refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.1
 PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 20 and talent level 25 of this passive
 
-BUFF Xorn will gain 1 base damage for every 65 movementspeed he got and he also gain 1% movement speed for every 7 Agility, he
-start with 2 armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level, his speedlimit
-increase to 1450.
+BUFF Xorn will gain 1 base damage for every 65 movspeed he got and he also gain 1% movement speed for every 7 Agility, he start with 2
+armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level, his speedlimit increase to
+2250.
 DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
 dealing 0.8% of his max health per 0.5 second
@@ -37,7 +37,7 @@ TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restor
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
 all enemy near Xorn 900 radius get -7 armor reduction and -14% magic resist reduction also increase Xorn movementspeed by 6% for every
-enemy in the radius and some of TerrorBlade Spell will do 7% of his Move speed as bonus damage, the following spell getting this bonus
+enemy in the radius and some of TerrorBlade Spell will do 4% of his Move speed as bonus damage, the following spell getting this bonus
  are -- Terror Wave, Zeal and Demonic Prison
 
 SPELL Q Terror Wave
@@ -105,7 +105,7 @@ the target and making them lose attack speed and in Normal Form he will gain Zea
 with reducing armor and reducing mana regeneration as well
 
 SPEED BLAST
-base damage 10 16 22 28 plus 15% of agility
+base damage 10 16 22 28 plus 15% of agility physical
 MoveSpeed into damage 9% 11% 13% 15% of total MoveSpeed
 duration of root 0.5 0.7 0.9 1.1
 increase duration of root by 0.1 for every 240 movement speed
@@ -123,16 +123,18 @@ cooldown 12
 mana cost for both 50 75 100 125 plus 3% of max mana
 
 talent level 15 upgrade Speed Blast AND Zeal
-increase Speed Blast damage by 3% of movement speed
-increase Speed Blast root by 0.3
-Increase Zeal agility scaling by 12%
-increase Zeal Mana regeneration lost by 7
+increase Speed Blast base damage by 7
+increase Speed Blast root by 0.4
+Increase Zeal agility scaling by 8%
+increase Zeal Mana regeneration lost by 5
+reduce the coldown of both by 2
 
 add a new modifier Demonic Vessel
-Speed Blast now become a 300 AoE instead of Single target dealing 0.4% of the enemys max health and for every kill done by Speed Blast
-reduce its cooldown by 0.5 and refund 15% of its mana cost to Xorn and for Zeal it Become a 200 Aoe Around him dealing 25% increase
-damage and 50% more damage for the primary target and for every enemys affected by Zeal increase the next Zeal debuff duration by 0.4 
-second and disarm by 0.1 second
+Speed Blast now become a 385 AoE instead of Single target dealing 0.4% of the enemys max health and for every kill done by Speed Blast
+reduce its cooldown by 0.5 and refund 15% of its mana cost to Xorn and for Zeal it Become a 215 Aoe Around him dealing 20% less damage
+to the others and 50% more damage for the primary target and for every enemys affected by Zeal increase the next Zeal debuff duration by
+0.4 second and disarm by 0.1 second, also gain a Demon Skin buff that reduce all stun duration by 0.3 and reducing spells that does damage
+with a stun effect by 35% for 2.4 seconds after casting speed blast or zeal.
 
 PASSIVE TOGGLE D OR F Metamorphosis
 Xorn will alway start with a level in Metamorphosis giving him a positive bonus and a negative Bonus, this passive got 5 levels
