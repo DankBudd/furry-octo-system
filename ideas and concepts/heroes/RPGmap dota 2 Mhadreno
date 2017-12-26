@@ -89,7 +89,7 @@ healing allys for 85 plus 7% of their max health and dealing 35 plus 2% of the e
 bosses).
 
 HOLY GUARD STATS
-health 750 plus 25% of Mhadreno max Health 
+health 750 plus 35% of Mhadreno max Health 
 mana 500 plus 15% of Mhadreno max mana
 armor 5
 magic resist 20%
@@ -101,9 +101,10 @@ Allys that are near the Holy Guard will only take 75% of the damage and the Holy
 doesnt takes, also increase their armor by 1 and magic resist by 2% for every 325 damage they take up to 10 bonus armor and 20% magic
 resist that last until they die
 
-SPELL Holy Touch mana cost 300 coldown 35
-Holy Guard touch a allys healing them for 20% of the Holy Guard max health and giving them 45 bonus health that last until they die
-this effect can stack 2 time and increase the amount of stack by 1 for every 5 levels above 10 of Mhadreno.
+SPELL Holy Touch mana cost 300 coldown 25
+Holy Guard touch a allys healing them for 12% of the Holy Guard max health and giving them 45 bonus health that last until they die
+this effect can stack 2 time and increase the amount of stack by 1 for every 5 levels above 10 of Mhadreno. if the target is full
+health reduce the mana cost by 75% and reduce the coldown by 10.
 
 
 SPELL E Holy Bolt
