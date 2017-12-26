@@ -1,17 +1,17 @@
-Daisho, Starting stats 5 inteillgence, 5 strenght, 8 agility, Base Speed 315, Base damage 5
-Stats Gain per level 0.80 Inteillgence, 0.50 Strenght, 1.10 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
+Daisho, Starting stats 5 inteillgence, 3 strenght, 7 agility, Base Speed 315, Base damage 5
+Stats Gain per level 0.80 Inteillgence, 0.80 Strenght, 1.00 agility Starting weapons Broken Sword 1 damage with 3 Agility BAT 1.65
 
 Skill Element - Earth damage -
 
 TALENT LEVEL 30
 
 talent 1
-Increase Daisho Health by 425 but reduce his agility by 30% and his max mana by 60%
+Increase Daisho Health by 425 but reduce his agility by 25% and his max mana by 65%
 Daisho will gain 3 armor for every Image alive with 2.2 mana regeneration as well and 20% of the damage dealt with Basic Attack,
 Wind Walk, BladeStorm and Critical strike will be mana gain for Daisho
 
 talent 2
-increase Daisho Agility by 30 but reduce his Health by 50% and Reduce his armor to -5 and he cannot gain any armor or lose Armor
+increase Daisho Agility by 25 but reduce his Health by 40% and Reduce his armor to -4 and he cannot gain any armor or lose Armor
 Increase Daisho BladeStorm and Bleed Strike agility scaling by 25% and also make them spell vamp for 40% of the damage dealt
 and reduce Debuff time on Daisho by 75% and reduce all damage but pure by 35% while in BladeStorm
 
@@ -43,21 +43,21 @@ Strike will deal Physical, Earth damage
 damage bonus on attack 10 25 40 55
 attack speed bonus after attack 25 40 55 70
 movement speed bonus when invisible 15% 20% 25% 30%
-True Strike chance 14% 16% 18% 20%
+True Strike chance 15% 17% 19% 21%
 Futher increase damage 10 30 50 70
 stun duration 1 1.2 1.4 1.6
 Wind Walk duration 6 8 10 12
 attack speed buff duration 2.8 3.2 3.6 4
 base mana cost 30 50 70 90
-increase mana cost by 100% 135% 170% 205% every cast
-mana cost increase duration 8 second
+increase mana cost by 100% 125% 150% 175% every cast
+mana cost increase duration 9 second
 cooldown 3 second
 
 talent level 10 upgrade Wind Walk
-increase damage bonus of True Strike by 15
-increase true strike chance by 5%
+increase damage bonus of True Strike by 20
+increase true strike chance by 4%
 increase attack speed buff duration by 2 second
-reduce mana cost increase by 45%
+reduce mana cost increase by 35%
 
 add a new Modifier Wind Body
 reduce all damage taken by 30% while in Wind Walk and Daisho got 20% chance to evade any Spell cast at him and for every spell Evade
@@ -73,18 +73,18 @@ dodge any type of damage while doing Mirror Image. This spell got a very Low coo
 
 Image damage taken 450% 420% 390% 360%
 Image damage done 12% 15% 18% 21%
-Image BladeStorm damage 10% 12% 14% 16%
+Image BladeStorm damage 11% 12% 13% 14%
 Amount of Image 2 2 3 3
-Image duration 20 25 30 35
+Image duration 14 20 26 32
 mana refund 0.4% 0.6% 0.8% 1% of Daisho max mana
 mana cost 50 90 130 170
 Increase mana cost by 50% 75% 100% 125% every cast
-Mana cost increase duration 11 second
+Mana cost increase duration 15 second
 cooldown 2 second
 
 talent level 10 upgrade Mirror Image
 reduce Image damage taken by 60%
-increase Image damage done by 5%
+increase Image damage done by 4%
 increase base mana cost by 90
 remove the mana cost increase
 
