@@ -16,7 +16,7 @@ gain this bonus-
 PASSIVE D OR F Abomination
 give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
 
-BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 0.2% of his max health
+BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 1.0% of his max health
 as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block- and for every 32 strenght
 Butcher got, he will gain 1 armor and 7 attack speed
 DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 35% more damage from
@@ -59,11 +59,10 @@ have 3 second coldown reduce and cost 3% less health.
 
 SPELL Q Rotting Flesh
 rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher, the radius of Rotting Flesh will
-increase by Butcher health and Rotting Flesh will not be affected by the 0.2% of Butcher max health as bonus damage enemys affected
+increase by Butcher health and Rotting Flesh will not be affected by the Butcher max health as bonus damage enemys affected
 by Rotting Flesh will take increase damage from Glory Hook
 
 damage 4 6 8 10 magical damage per 0.4 second and 5% 6% 7% 8% of pudge strenght
-bonus damage from max life 0.1%
 movement speed reduction 9% 11% 13% 15%
 magic resist reduction 11% 14% 17% 20%
 increase damage taken from Glory Hook by 8% 12% 16% 20%
