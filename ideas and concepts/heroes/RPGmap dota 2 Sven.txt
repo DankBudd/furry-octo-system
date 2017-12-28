@@ -96,17 +96,17 @@ lose a certain amount of health while under the effect of Blood Wound
 
 damage 8 11 14 17 physical damage per tick plus 21% 25% 29% 33% of sven strenght
 armor loss 4 5 6 7
-increase armor lost by 1 for every 8% 7% 6% 5% health lost when affected by Blood Wound
+increase armor lost by 1 for every 9% 8% 7% 6% health lost when affected by Blood Wound
 duration 7 second
-Attack speed bonus for every hit 3
-Attack speed Cap 12 18 24 30
+Attack speed bonus for every hit 4
+Attack speed Cap 120
 cooldown 24 22 20 18
 mana cost 140 160 180 200 plus 1% of max mana
 
 talent level 15 upgrade Blood Wound
 increase the duration by 1
-reduce the health lost amount for armor lost by 2%
-increase attack speed bonus for every hit by 1
+reduce the health lost amount for armor lost by 1%
+increase attack speed bonus per hit by 2
 reduce cooldown by 4
 reduce mana cost by 70
 
