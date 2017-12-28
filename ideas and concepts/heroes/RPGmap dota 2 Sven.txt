@@ -67,13 +67,13 @@ and he also lifesteal for all that amount of damage done as well, he also disabl
 this spell will have no bonus from other source of spellvamp or lifesteal effects.
 
 damage 15 20 25 30 physical damage
-base Strenght Scaling 55% 70% 85% 100%
-Increase Strenght Scaling by 50% of Sven Strenght
+base Strenght Scaling 60% 65% 70% 75%
+Increase Strenght Scaling by 20% 25% 30% 35% of Sven Strenght
 lifesteal base on the damage done 25% 40% 55% 70%
 current health as bonus damage 4% 6% 8% 10%
 max life as bonus damage for boss 0.4% 0.6% 0.8% 1%
-debuff duration 2.5 3 3.5 4 second
-cooldown 14
+debuff duration 2.2 2.6 3.0 3.4 second
+cooldown 17
 mana 40 100 160 220
 
 talent level 10 upgrade Death Blow
