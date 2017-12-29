@@ -7,7 +7,7 @@ talent 1
 increase Butcher magic resist by 8% and his armor by 3
 Butcher will gain x8 of his armor into health bonus and also gaining x5 of his magic resist into health as well, all of his spell but
 Rotting Flesh will have 27% chance to cost nothing on cast and increase the life regeneration gain from strenght by 0.02, Butcher will
-also gain 0.07 health regeneration for every missing 75 health
+also gain 0.03 health regeneration for every missing 75 health
 
 talent 2
 increase Butcher damage by 12% and his spell amp by 8%
@@ -28,13 +28,14 @@ pure and physical damage and he cannot have more than 300 movement speed slows a
 
 Talent level 25 Upgrade Abomination
 add a new modifier Meat Eater
-Butcher basic attack now deal 4% of the target current life in damage and healing him for 150% of the damage done, this effect get a
-cooldown of 8 second if attacking a boss also make all spell of pudge deal 0.7% of the target max health doesnt work for Rotting Flesh
-also give pudge 1% magic resist for every 80 health he currently got up to 65% max bonus
+Butcher Basic attack will lifesteal for 200% of the damage dealt and 40% of all that lifesteal done will be Pure damage on the target
+and every 3 strenght Butcher got will increase the lifesteal done by 1%, Butcher will no longer gain attack speed from Agility and
+he will lose 65 attack speed but strenght will give 0.10 attack speed and agility will give 1% attack damage for every 10 points instead
+of 15, also make agility give 0.2% spell amp per points and give 1% magic resist per 8 points.
 
 SPELL Q Glory Hook
-throw a hook that can grab multiple enemys in one single hook and reducing armor as well if hooking any ally will reduce the cooldown 
-but cannot grab more than one person they also get stun after getting to Butcher
+throw a hook that can grab multiple enemys in one single hook and reducing armor as well. If hooking any ally it will reduce the
+cooldown by 75% but cannot grab more than one person. enemys will also get stun after getting to Butcher.
 
 damage 25 40 55 70 physical damage and 40% 52% 64% 76% of pudge strenght
 Range 400 450 500 550
@@ -50,7 +51,8 @@ talent level 10 Upgrade Glory Hook
 increase damage by 30
 increase range by 150
 increase the armor reduction by 2
-reduce life cost by 3%
+increase max target hook by 2
+increase life cost by 4%
 
 add a new modifier Disease Hook
 Butcher Hook will give Rotting Flesh to enemys that get hook, this Rotting Flesh will only do 75% of the total damage from it but
@@ -66,7 +68,7 @@ increase by Butcher health and Rotting Flesh will not be affected by the Butcher
 by Rotting Flesh will take increase damage from Glory Hook
 
 damage 4 6 8 10 magical damage per 0.4 second and 5% 6% 7% 8% of pudge strenght
-movement speed reduction 9% 11% 13% 15%
+movement speed reduction 10% 15% 20% 25%
 magic resist reduction 11% 14% 17% 20%
 increase damage taken from Glory Hook by 8% 12% 16% 20%
 Base radius 225
@@ -85,32 +87,33 @@ Rotting Flesh will root enemys if they stand near Butcher for 3.5 seconds, they 
 from Rotting Flesh and when the root duration ends, it will make a Infested Air Area with 375 radius, enemys that enter that area will
 get blind missing 15% of their attacks and having 18% reduce magical damage and losing 22% attack damage as well, the Infested Air Area
 will last 3.5 seconds, each enemys that die from Rotting Flesh or Glory Hook will increase its radius by 2 up to 100 radius bonus, at
-max radius Rotting Flesh Butcher will gain 65 movespeed having 365 movespeed instead of being stuck at 300, and also gaining 10% damage
-reduction and making Rotting Flesh no longer affect Butcher.
+max radius Rotting Flesh will gain Butcher 65 movespeed having 365 movespeed instead of being stuck at 300, and also gaining 10% damage
+reduction and making Rotting Flesh no longer affect Butcher for the damage.
 
 
 SPELL E Freah Meat!
 Butcher empower his next attack dealing increase damage base on his health, he will also Disarm his target and reducing their magical
-and pure damage as well, Fresh Meat! will also drop some meat when he hit his target, Fresh Meat! will give Butcher True Strike.
+and pure damage as well, Fresh Meat! will also drop some meat when he hit his target, Fresh Meat! will give Butcher True Strike and
+will gain 50% coldown reduction upon getting the killing blow.
 
-bonus damage 9% 10% 11% 12% of pudge max life 
+bonus damage 6% 7% 8% 9% of pudge max life 
 amount of meat peice drop 1-1 1-2 1-3 1-4
 meat healing amount 12 24 36 48 plus 35% 45% 55% 65% of pudge strenght
-disarm duration 1 1.4 1.8 2.2
+disarm duration 1 1.6 2.2 2.8
 life cost 12% 11% 10% 9%
 cooldown 27 25 23 21
 
 Talent level 15 Upgrade Fresh Meat!
-increase max life damage by 2%
+increase max life damage by 3%
 increase meat drop by 0-2
 increase disarm duration by 0.8
 cooldown reduce by 1
 
 add a new modifier Infested Clever
 Fresh Meat! will cleave for 75% of the damage infront of Butcher 415 radius, each enemys affected by the cleave or by the normal attack
-of Butcher will get Infested Blood, reducing their health regeneration by 2.1 and also reducing healing recive by 11%, this effect will
-last until they die and will stack without limit for the health regeneration reduction, increasing it by 0.3 health regeneration lost
-and increasing the healing recive by 2% max of 15%, when the enemys are affected by Infested Blood, the healing reduction will heal
+of Fresh Meat! will get Infested Blood, reducing their health regeneration by 2.1 and also reducing healing recive by 11%, this effect
+will last until they die and will stack without limit for the health regeneration reduction, increasing it by 0.3 health regeneration
+lost and increasing the healing recive by 3% max of 20%, when the enemys are affected by Infested Blood, the healing reduction will heal
 Butcher for that %, that the enemys get heal for that amount. bosses will only take 8% healing reduction Source and cannot be increase.
 
 
