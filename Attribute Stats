@@ -34,6 +34,7 @@ Strenght
 life 5
 life regeneration 0.02
 life 1% for every 20 point of str
+every 6 point will increase health regeneration bonus by 1%
 
 Agility
 attack speed 0.50
@@ -46,6 +47,7 @@ Intelligence
 mana 10
 mana-regeneration 0.05
 spell amp 1% for every 10 point of intelligence
+every 6 point will increase mana regeneration bonus by 1%
 
 DIVINE STATS after one stats got at least 15,19,23,27 base agi,int,str you can spend a Divine Stats into it gaining new bonus
 these divine stats can be only be gain every level 10,20,30,40 of base stats having a total of 4 to spend.
@@ -53,16 +55,17 @@ these divine stats can be only be gain every level 10,20,30,40 of base stats hav
 DIVINE Strenght
 armor 2
 magic resist 3%
-life 4%
+life 3%
+gain 2% root, stun and blind resist
 
 DIVINE Agility
 increase items critical chance by 1% if it only physical spells crit
-attackspeed 8
+attackspeed 12
 evasion 2%
 
 DIVINE Intelligence
 increase items critical chance by 1% if it only magical spells crit 
-spell amp 4%
+spell amp 3%
 mana 5%
 
 -NOTE- if people have crit spell or crit physical the % chance will stack on it meaning the 1% will go on a 10% and have a crit
