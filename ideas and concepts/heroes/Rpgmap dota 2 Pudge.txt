@@ -42,7 +42,7 @@ increase range by 100% 200% 300% 400% of Butcher Strenght
 Stun duration 0.7 0.8 0.9 1.0
 max hook target 2 3 4 5
 armor reduction 4 5 6 7
-increase armor reduction by 1 for every 32 strenght
+increase armor reduction by 1 for every 21 20 19 18 strenght
 life cost 5% 7% 9% 11%
 cooldown 15 14 13 12
 
@@ -101,7 +101,7 @@ life cost 12% 11% 10% 9%
 cooldown 27 25 23 21
 
 Talent level 15 Upgrade Fresh Meat!
-increase max life damage by 3%
+increase max life damage by 2%
 increase meat drop by 0-2
 increase disarm duration by 0.8
 cooldown reduce by 1
@@ -115,68 +115,211 @@ Butcher for that %, that the enemys get heal for that amount. bosses will only t
 
 
 PASSIVE D OR F Flesh Heap
-Increase Butcher Strenght and magic resist he also gain life bonus upon killing enemys and bosses
-and he also gain heap stack that increase spell amp and life regen that stay for a duration. Butcher will lose all stack upon death
-of health bonus
+Increase Butcher Strenght and magic resist, he will also gain bonus health when he kill enemys, bosses will give more health and 50%
+of the stacks of health are lost upon death, he will also gain Heap Stacks gaining bonus life regeneration and spell amp that last
+for a medium duration, each stack got their own duration
 
-bonus strenght 4% 8% 12% 16%
-magic resist 3% 7% 11% 15%
-bonus life per normal enemy 1 3 5 7
-bonus life per boss enemy 20 40 60 80
+bonus strenght 7% 8% 9% 10%
+magic resist 8% 10% 12% 14%
+bonus Health per normal enemy 4
+bonus Health per boss 40
 base max life bonus 200 300 400 500
-increase max health bonus by 75% 150% 225% 300% of pudge strenght
+increase max health bonus by 100% 200% 300% 400% of pudge strenght
 life regeneration per stack 0.1 0.2 0.3 0.4
 spell amp per stack 0.2% 0.3% 0.4% 0.5%
-max stack of heap 12 18 24 30
-duration of stacks 16 24 32 40
-radius for bonus and stacks 350 380 410 440
+max stack of heap 15 18 21 24
+duration of stacks 30 35 40 45
+radius for bonus health and stacks 450
 
-Talent level 15 Upgrade Flesh Heap
-increase bonus strenght by 6%
-increase bonus magic resist by 10%
-increase life bonus for normal enemy by 1
-increase life bonus for boss enemy by 40
-increase max stack by 5
-incease life regen by 0.2
+Talent level 20 Upgrade Flesh Heap
+increase bonus strenght by 4%
+increase bonus magic resist by 6%
+increase life bonus for normal enemy by 2
+increase life bonus for boss enemy by 20
+increase max stack by 6
+incease life regen by 0.1
 increase duration of stack by 15
 
-add a new modifier Global Flesh
-remove how far needed to gain life and stack -GLOBAL- and Butcher gain stack for every enemy
-in a radius of 800 of him and those stack will only go away if the enemy die and if they die ally will gain stack as well and
-can only have 10 stacks of heap for ally and he give his Flesh Heap Strenght and Magic resist to all allys Globaly, Summons
-will only get magic resist 
+add a new modifier Spreading Flesh
+Butcher will gain his Health bonus anywhere on the map and he will give 35% of his total health bonus to all allys on the map as well,
+he also give 50% of his strenght and magic resist bonus in a 1150 radius around him to his allys (summons will only get the magic resist
+), at max stack of Bonus health, Butcher will gain 25 physical block damage and 10 magical block damage that stack with other source of
+block, allys will also gain Heap stack up to 10 max stack bonus giving their full bonus to them and having the same duration too, each
+enemys near Butcher 750 radius will give him 1 stack of heap, this stack of heap will stay until they die, bosses give 8.
 
 
 UILTMATE R 
-
 Dismenber
-deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing anyone walking on it and buffing them
-this spell damage every 0.5 and drop meat every 1 second and killing any non-boss unit will reduce the cooldown by 25% with
-dismenber.
+deal damage to a enemy base on pudge strenght the enemy will drop MEAT healing anyone walking on it and buffing them increasing their
+attack damage and each meat they pick again will refresh the duration and further increase it by 1.5 seconds, Dismenber will Ignore the
+target armor and reduce their armor by 10 15 20 for the duration of Dismenber. Dismenber will Ignore all form of Stun resist and will
+have 30% coldown increase if use on bosses.
 
-Strenght as damage 300% 500% 700%
-bonus damage from max life 1%
+Strenght as damage 300% 400% 500% every 0.5 seconds physical
 meat drop 1-2 1-3 1-4 per second of damage
-meat healing 55 90 125 plus 3% 7% 11% of pudge max health
-meat bonus damage 8 12 16
-meat buff duration 4 second
-every pickup of meat increase the duration by 3 4 5 and also refresh it
+meat healing 55 90 125 plus 3% 4% 5% of pudge max health
+meat bonus damage 8% 12% 16%
+base meat buff duration 7 second
 duration 4 5 6
-duration on bosses 1 2 3
-meat last 8 9 10 second on the ground
-life cost 10% 20% 30%
-cooldown 60 50 40
+duration on bosses 2 2.5 3
+meat last 8 9 10 second
+life cost 10% 15% 20%
+cooldown 50 45 40
 
 talent level 25 upgrade Dismenber
-increase strenght scaling by 150%
+increase strenght scaling by 50%
 increase meat drop to 2-3 2-4 2-5
-increase meat healing by 30
-increase meat bonus damage by 6
-increase duration by 1 -NOTE- this increase duration for both
-reduce health cost to 15%
+increase meat healing by 25
+increase meat bonus damage by 4%
+increase duration by 1
+increase duration by 0.5 on bosses
 reduce coldown by 10
 
-add a new modifier CLEAN CLEAVER!
-dismenber now deal 50% damage in a radius of 400 of the target being dismenber and those unit damage by the radius of dismenber
-have 60% chance to drop 1 to 2 meat as well and meats will also restore 4% of max mana. there is a small chance for a Giant Meat to drop
-those will restore any heroes life by 60% and increasing damage by 30 they only got 10% chance to drop per seconds of dismenber.
+add a new modifier Guts Madness
+Dismenber will lunch random Peice of Guts and Gore every 0.2 seconds to any random units in the area dealing 140% of Butcher Strenght
+in Pure damage, if there is no enemys but only the target being Dismenber in the area (750 radius) the Guts and Gore will go on allys
+healing them by 85% of Butcher strenght and 2% of his max health as well, Each peice will increase or Reduce the target Pure resist by
+4% that last 7 seconds and refresh if they get hit again by a peice of Guts and Gore, also reduce or increase healing effect by 22% for 
+3.7 seconds refresh on hit of Guts and Gore.
+
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+Increase AGI and STR gain by 0.1 every level and also Increase AGI and STR by 4 and also increasing his speed limit by 50
+-
+level 4 talent
+-
+reduce the coldown of Glory Hook by 1 and increase its cast range by 150 and it also spellvamp for 5% of the damage dealt
+-
+increase AGI and STR by 4 and increase healing recive by 20%
+-
+increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+-
+level 7 talent
+-
+increase health by 125 and spell amp by 5%, also increase Glory Hook base damage by 10 and its scaling by 4%
+-
+Every time Butcher takes Pure damage, he will gain 10% Pure resist and 1.8 health regeneration for 4 seconds, if he takes Pure damage
+again when he got the buff it will further increase it by 10% more pure resist and 2.2 health regeneration for 6 seconds instead, also
+increase his strenght and agility by 3 but reduce his spellamp by 7%
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
+-
+increase armor by 4 and magic resist by 10% increase armor gain by 1 for every 425 current health and increase magic resist by 1% for
+every 275 current health, also increase xp gain by 15%
+-
+level 16 talent
+-
+reduce Dismenber coldown by 5 and increase its scaling by 50%, Butcher will heal for 40% of the damage from Dismenber and increasing it
+cast range by 225, it will also drag the enemys closer to Butcher, Dismenber will no longer gain Spellvamp or other source of lifesteal.
+-
+increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
+resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+-
+increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
+and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
+-
+level 19 talent
+-
+reduce all damage taken by 5% and also increase health by 275 but reduce movespeed by 30 and also reduce spellamp by 10%
+-
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
+limit by 45
+-
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
+vamp for 12% of the damage dealt
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Rotting Flesh base radius by 75 and also increase the max radius by 150, it will now reduce all healing effects on enemys by
+10% if they stand in Rotting Flesh, Butcher no longer gets affect by the movespeed slow and magic resist effect
+-
+Fresh Meat! will now give Butcher 225 attack range and no longer cost health and also reducing it coldown by 4. also Increase Butcher
+Glory Hook armor reduction by 4 and his agility by 7.
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
+-
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75
+-
+level 29 talent
+-
+increase Pure resist by 10% and also give Butcher 10 physical block and 5 magical block that stack with other source of blocks, Further
+increase the Pure resist by 40% when Channeling Dismenber.
+-
+Increase Health by 10% and reducing all health cost on spell by 1% Further increase the health bonus by 5% and the health cost reduction
+on spells by 1% every levels 5 levels above 30.
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+Increase all healing on Butcher by 35% but reduce all other source of healing from allys by 25%, also make all of his spell gain 10%
+spellvamp and giving him 1.7 health regeneration that stack 10 time each time he cast a spell, last 15 seconds and refresh upon casting
+a spell (Rotting Flesh doesnt proc this), also increase his strenght by 5 and his agility by 4.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 25% duration bonus, Dismenber
+will gain 0.5 seconds increase and gain 25% strenght scaling.
+-
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
+by 10%
+-
+level 36 talent
+-
+increase Agility and Strenght by 18 and also increase life gain from strenght by 3, Attack speed gain from agility by 0.25
+and make Agility give 0.02 health regeneration and Further increase the bonus spell amp from strenght by 0.3%
+-
+When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
+duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
+chance of War Gladiator by 25% and critical chance by 2%
+-
+level 39 talent still on the work not done yet
+-
+ANGER ASPECT, increase Sven attack speed by 3 for every 100 current point of Health Sven got and every time he lose at least 8% of his
+max health he will gain Unstable Anger, increasing his damage by 15% and his attack speed by 60 for 3 seconds but making is spell cost
+25% more damage as well, When in Titan Rage Sven will instead gain 25% mana cost reduction and also gaining 10 mana regenration as well.
+-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
