@@ -127,9 +127,9 @@ magic resist 8% 10% 12% 14%
 bonus Health per normal enemy 4
 bonus Health per boss 40
 base max life bonus 200 300 400 500
-increase max health bonus by 100% 200% 300% 400% of pudge strenght
+increase max health bonus by 150% 200% 250% 300% of pudge strenght
 life regeneration per stack 0.1 0.2 0.3 0.4
-spell amp per stack 0.2% 0.3% 0.4% 0.5%
+spell amp per stack 0.1% 0.2% 0.3% 0.4%
 max stack of heap 15 18 21 24
 duration of stacks 30 35 40 45
 radius for bonus health and stacks 450
@@ -287,31 +287,35 @@ level 33 talent
 -
 Increase all healing on Butcher by 35% but reduce all other source of healing from allys by 25%, also make all of his spell gain 10%
 spellvamp and giving him 1.7 health regeneration that stack 10 time each time he cast a spell, last 15 seconds and refresh upon casting
-a spell (Rotting Flesh doesnt proc this), also increase his strenght by 5 and his agility by 4.
+a spell (Rotting Flesh doesnt proc this), also increase his strenght by 12 and his attack damage by 16.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
-passive as well
+passive as well, Flesh Heap will give 8% more Strenght.
 -
-reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 25% duration bonus, Dismenber
-will gain 0.5 seconds increase and gain 25% strenght scaling.
+reduce stuns, blinds and roots effect on you by 15% and all stuns, blinds or roots cause by you will have 25% duration bonus, Dismenber
+will gain 0.5 seconds increase and gain 25% strenght scaling, Glory Hook stun cannot be resisted and it increase by 0.3 seconds
 -
-increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
-by 10%
+increase damage by 10 and spell amp by 14% and Each stack of Heap will also increase Butcher attack damage and attack speed by 2 
+and also gain 0.3 armor per stack and 0.4% magic resist as well
 -
 level 36 talent
 -
 increase Agility and Strenght by 18 and also increase life gain from strenght by 3, Attack speed gain from agility by 0.25
 and make Agility give 0.02 health regeneration and Further increase the bonus spell amp from strenght by 0.3%
 -
-When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
-duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
-chance of War Gladiator by 25% and critical chance by 2%
+Flesh Heap can now be Activated doubling the amount of current stack for 12 seconds but making the Active cost 4% of Butcher health
+the coldown for Reactivating the effect is 40 seconds and can be reduce by coldown reduction with 20% more bonus effect as well.
+increase the max Health gain by 175 and also increase the amount of health gain by 2 (20 for bosses), Butcher will also gain 0.2%
+Evasion per stack of Heap. When the Active buff duration ends, Butcher will lose 40% Heap stacks.(doesnt affect the health bonus stack)
 -
-level 39 talent still on the work not done yet
+level 39 talent
 -
-ANGER ASPECT, increase Sven attack speed by 3 for every 100 current point of Health Sven got and every time he lose at least 8% of his
-max health he will gain Unstable Anger, increasing his damage by 15% and his attack speed by 60 for 3 seconds but making is spell cost
-25% more damage as well, When in Titan Rage Sven will instead gain 25% mana cost reduction and also gaining 10 mana regenration as well.
+GIANT ZOMBIE ASPECT, Increase the base damage of Glory Hook by 10, Rotting Flesh by 3 and Fresh Meat! by 1%, Glory Hook and Fresh Meat!
+will have full refund of the health cost if they get the killing blow and increasing their damage by 25% for the next cast, Rotting
+Flesh will Become Pure damage instead of magical and making the magic resist lost to be damage taken increase, Flesh Heap will increase
+Butcher Size by 1% and giving him 0.3% Root and Stun resist for every 85 max health he got, Dismeber will also deal its damage to nearby
+enemys (340 radius) for 75% of the damage done (the damage that the other target take will not proc any effect at all only take damage),
+also increase Strenght by 25 and reduce movespeed by 40.
 -
 MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
 alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
@@ -319,7 +323,7 @@ and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% p
 -
 IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
 mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
-that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+that Stun will give the user 12 health regeneration and 10% damage reduction for 15 seconds
 -
 level 40 talent
 -
