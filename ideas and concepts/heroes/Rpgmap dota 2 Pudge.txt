@@ -4,14 +4,17 @@ Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
 LEVEL 20 TALENT
 
 talent 1
-increase Butcher magic resist by 5% and his armor by 3 but also reduce his spell amp by 12% and his damage by 35%
-Butcher will gain 1000% bonus health from armor and 500% bonus health from magic resist and spell that cost health will have 22% chance
-to cost 0% instead -rot doesnt work for this-
+increase Butcher magic resist by 8% and his armor by 3
+Butcher will gain x8 of his armor into health bonus and also gaining x5 of his magic resist into health as well, all of his spell but
+Rotting Flesh will have 27% chance to cost nothing on cast and increase the life regeneration gain from strenght by 0.02, Butcher will
+also gain 0.07 health regeneration for every missing 75 health
 
 talent 2
-increase Butcher damage by 8% and his spell amp by 10% but also reduce his health by 10% and his armor by -6
-Butcher will gain 50% bonus damage from his spell amp and 25% of his attack damage will go on his spells as bonus damage -rot cannot
-gain this bonus-
+increase Butcher damage by 12% and his spell amp by 8%
+Butcher Spell will do 25% of his attack damage as bonus damage (5% for Rotting Flesh) and 50% of his spell amp will be bonus attack
+damage, all spells but Rotting Flesh will have 25% chance to cost 7% more health but increasing their damage by 40% and reducing their
+coldown by 2.5, also make Rotting Flesh no longer damage Butcher and spellvamp for 12% of the damage dealt (the effect of Rotting Flesh
+will remain on Butcher)
 
 PASSIVE D OR F Abomination
 give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
