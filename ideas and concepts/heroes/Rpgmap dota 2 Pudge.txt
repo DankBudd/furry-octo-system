@@ -62,9 +62,10 @@ add a new modifier Disease Hook
 Butcher Hook will give Rotting Flesh to enemys that get hook, this Rotting Flesh will only do 75% of the total damage from it but
 stacking with the base spells, if Glory Hook doesnt hook any one it will create a Bad Rot at that location with 40% increase size
 from the base spell and dealing 125% damage, the Rotting Flesh will last 4.0 second on people and the Bad Rot will last 8.0 seconds,
-also increase Glory Hook base damage by 4 for every hook done without missing max of 20 bonus damage, at max damage, Glory Hook will
-have 3 second coldown reduce and cost 3% less health.
-
+also increase Glory Hook base damage by 5 for every 3 or more Hooked person max of 25 bonus base damage, at 4 stack of Glory Hook it
+will have 3% less health cost and have 2 seconds coldown reduction. Butcher will lose all stacks on death and lose 1 stack if he doesnt
+hook anyone but further increase the damage of Bad Rot to 140% instead and have 50% bonus radius instead as well increase radius as Well
+, total max stack of Glory Hook is 5.
 
 SPELL Q Rotting Flesh
 rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher, the radius of Rotting Flesh will
