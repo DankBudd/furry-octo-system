@@ -1,5 +1,5 @@
-Pudge, the Butcher Starting stats 7 str, 5 agi, 0 int, base speed 300, base damage 3, stats gain per level 1.30 str, 0.00 int, 0.70 agi
-Starting item Flesh Hand give 1% life with 1 armor base attack time 2.10
+Pudge, the Butcher Starting stats 8 str, 4 agi, 0 int, base speed 300, base damage 4, stats gain per level 1.20 str, 0.00 int, 0.80 agi
+Starting item Flesh Hand give 55 health with 2 armor base attack time 2.70
 
 LEVEL 20 TALENT
 
@@ -19,12 +19,15 @@ will remain on Butcher)
 PASSIVE D OR F Abomination
 give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
 
-BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 16 strenght and all of his spell will do 1.0% of his max health
-as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block- and for every 32 strenght
-Butcher got, he will gain 1 armor and 7 attack speed
+BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 13 strenght and all of his spell will do 1.0% of his max health
+as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block- and for every 25 strenght
+Butcher got, he will gain 1 armor, 10 attack speed and 5% blind resist.
 DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 35% more damage from
 pure and physical damage and he cannot have more than 300 movement speed slows are double on him and slowing effect will damage him by
-1% of his max health for every second of the duration of slows and he only use clever and swords type weapons
+1% of his max health for every second of the duration of slows and he only use clever and swords type weapons, Butcher also lose 100
+mana per seconds.
+
+Active items that cost mana will cost health instead and also making them cost 3% of Butcher max health as well
 
 Talent level 25 Upgrade Abomination
 add a new modifier Meat Eater
@@ -35,7 +38,7 @@ of 15, also make agility give 0.2% spell amp per points and give 1% magic resist
 
 SPELL Q Glory Hook
 throw a hook that can grab multiple enemys in one single hook and reducing armor as well. If hooking any ally it will reduce the
-cooldown by 75% but cannot grab more than one person. enemys will also get stun after getting to Butcher.
+cooldown by 75% but cannot grab more than one person. enemys will also get stun after getting to Butcher. Glory Hook deal insane damage.
 
 damage 25 40 55 70 physical damage and 40% 52% 64% 76% of pudge strenght
 Range 400 450 500 550
@@ -45,7 +48,7 @@ max hook target 2 3 4 5
 armor reduction 4 5 6 7
 increase armor reduction by 1 for every 21 20 19 18 strenght
 life cost 5% 7% 9% 11%
-cooldown 15 14 13 12
+cooldown 17 16 15 14
 
 talent level 10 Upgrade Glory Hook
 increase damage by 30
@@ -53,6 +56,7 @@ increase range by 150
 increase the armor reduction by 2
 increase max target hook by 2
 increase life cost by 4%
+reduce the coldown by 5
 
 add a new modifier Disease Hook
 Butcher Hook will give Rotting Flesh to enemys that get hook, this Rotting Flesh will only do 75% of the total damage from it but
@@ -96,18 +100,18 @@ Butcher empower his next attack dealing increase damage base on his health, he w
 and pure damage as well, Fresh Meat! will also drop some meat when he hit his target, Fresh Meat! will give Butcher True Strike and
 will gain 50% coldown reduction upon getting the killing blow.
 
-bonus damage 6% 7% 8% 9% of pudge max life 
+bonus damage 9% of pudge max life in physical
 amount of meat peice drop 1-1 1-2 1-3 1-4
 meat healing amount 12 24 36 48 plus 35% 45% 55% 65% of pudge strenght
-disarm duration 1 1.6 2.2 2.8
+disarm duration 2 2.6 3.2 3.8
 life cost 12% 11% 10% 9%
 cooldown 27 25 23 21
 
 Talent level 15 Upgrade Fresh Meat!
 increase max life damage by 3%
+increase meat healing by 27
 increase meat drop by 0-2
-increase disarm duration by 0.8
-cooldown reduce by 1
+increase disarm duration by 0.7
 
 add a new modifier Infested Clever
 Fresh Meat! will cleave for 75% of the damage infront of Butcher 415 radius, each enemys affected by the cleave or by the normal attack
