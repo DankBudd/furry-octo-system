@@ -12,7 +12,7 @@ also gain 0.03 health regeneration for every missing 75 health
 talent 2
 increase Butcher damage by 12% and his spell amp by 8%
 Butcher Spell will do 25% of his attack damage as bonus damage (5% for Rotting Flesh) and 50% of his spell amp will be bonus attack
-damage, all spells but Rotting Flesh will have 25% chance to cost 7% more health but increasing their damage by 40% and reducing their
+damage, all spells but Rotting Flesh will have 22% chance to cost 8% more health but increasing their damage by 30% and reducing their
 coldown by 2.5, also make Rotting Flesh no longer damage Butcher and spellvamp for 12% of the damage dealt (the effect of Rotting Flesh
 will remain on Butcher)
 
@@ -67,7 +67,7 @@ rot enemys dealing damage to them and reducing magic resist and movement speed a
 increase by Butcher health and Rotting Flesh will not be affected by the Butcher max health as bonus damage enemys affected
 by Rotting Flesh will take increase damage from Glory Hook
 
-damage 4 6 8 10 magical damage per 0.4 second and 5% 6% 7% 8% of pudge strenght
+damage 4 5 6 7 magical damage per 0.4 second and 5% 6% 7% 8% of pudge strenght
 movement speed reduction 10% 15% 20% 25%
 magic resist reduction 11% 14% 17% 20%
 increase damage taken from Glory Hook by 8% 12% 16% 20%
