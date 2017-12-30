@@ -6,11 +6,14 @@ LEVEL 20 TALENT
 talent 1
 Increase Magina Armor by 4 and increase his magic resist by 8%
 every 40 point of agility increase Magina armor by 1 and every 20 point of agility increase his magic resist by 1%
-and gain 700% of armor and magic resist into health bonus
+and gain x7 of his armor and magic resist into health bonus, Unstable Spell Shield will give Magina 18% max health bonus and 4.2 health
+regeneration for 5 seconds when casted. Unstable Spell Shield will have 3 less coldown and restore Magina health by 8% on every cast.
 
 talent 2
-increase Magina agility by 15 and spell amp by 20%
-15% of Magina Agility will become Spellvamp bonus and 50% of his Spell amp will become attack damage bonus.
+increase Magina agility by 10 and spell amp by 15%
+25% of Magina Agility will become Spellamp bonus and 15% of his Spell amp will also become bonus attack damage, Mana Break will get
+75% increase scaling from Spell amp for the base damage and have 150% of Magina Agility in bonus cast range, Also reduce all spell
+coldown by 2.
 
 PASSIVE D OR F
 Monk Spirit
@@ -18,17 +21,17 @@ give a positive and negative buff. Pressing ALT will give INFO for Magina talent
 
 BUFF Magina gain 6 mana per agility point and for every 225 current mana Magina got, he will gain 1 damage and 30% of his inteillgence
 will be agility bonus and any spell that remove mana, magina instead will get that amount restore to him instead of losing mana and
-having 16% increase magic resist as well for 7 second
+having 20% increase magic resist as well for 7 second, cannot gain the magic resist again for 20 seconds
 DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 6 mana per intelligence and any Pure type
 damage will alway stun Magina for 0.5 second and deal 3% of his max health as bonus damage and health removal will double on him he
-also lose 0.6% of his max mana for every auto attack he does
+also lose 0.4% of his max mana for every auto attack he does
 
 talent level 25 upgrade Monk Spirit
-give a new modifier Mana Void
-all enemys around Magina 1000 radius will lose 25 mana per second and every 1 mana lost will do 2 damage and also all that mana they 
+give a new modifier Mana Eater
+all enemys around Magina 1000 radius will lose 15 mana per second and every 1 mana lost will do 1.5 damage and also all that mana they 
 lose per second will go to Magina, when Magina is at max mana he will start to gain a sheild that will block all form of damage, the
 shield cannot go more than 35% of Magina max mana, when he lose the Shield he will not be able to gain one for 10 second, also
-increase his mana regeneration by 5.
+increase his mana regeneration by 5, and increase resist for blind,root and stun by 25%.
 
 SPELL Q
 Mana Break
@@ -36,23 +39,22 @@ Magina deal damage base on the enemy max mana and also deal increase damage with
 every 1 points of max mana the enemys got and 50% of all that damage with Mana Break will be mana lost
 
 base damage 25 30 35 40 plus 60% of Magina agility Physical
-increase damage by 0.1 for every 1 point of max mana the enemys got
 mana removal 50% of the damage done
-deal 160% 200% 240% 280% increase damage when enemys have no mana pool
+increase damage when enemys have no mana pool 150% 175% 200% 225% 
 cooldown 22 20 18 16
-mana cost 60 100 140 180
+mana cost 60 100 140 180 plus 3% of max mana
 
 talent level 10 upgrade Mana Break
 increase agility scaling by 40%
-increase bonus damage per mana 0.1
-increase damage bonus by 20% when enemys have no mana pool
+increase damage bonus by 25% when enemys have no mana pool
+increase mana removal by 15%
 cooldown reduce by 4
 increase the mana cost by 80
 
 add a new modifier Mage Bane
 enemys with higher mana pool than Magina will take 50% more damage from Mana Break and enemys with no mana pool will take Pure damage
 instead of Physical damage with Mana Break. When Mana Break is use on bosses it will alway deal 0.3% of their max health into bonus
-damage and he will reduce their mana cap by 10% up to 30% meaning that they cant have more than 60% mana at all time and taking
+damage and he will reduce their mana cap by 10% up to 30% meaning that they cant have more than 70% mana at all time and taking
 16% increase damage every time by Mana Break, last until death.
 
 SPELL W
@@ -87,20 +89,22 @@ Blink
 SPELL E
 Unstable Spell Shield
 Magina will store a % of the damage taken from magic damage, making Unstable Spell Shield deal increase damage and stuning them as well.
-Unstable Spell Shield will get 100% increase bonus from spell amp for the base damage.
+Unstable Spell Shield will get 200% increase bonus from spell amp for the base damage. he will also Store the physical damage he takes
+but at a very low rate.
 
-base damage 15 Magical damage
+base damage 15 Magical damage plus 10% of agility
 magical damage Store 5% 6% 7% 8% of the damage taken
+Phyisical damage store 1% of the damage taken
 base max damage store 20 30 40 50
-increase max damage store by 15% 20% 25% 30% of Magina Agility
+increase max damage store by 20% 25% 30% 35% of Magina Agility
 radius 320 360 400 440
 stun duration 1 1.4 1.8 2.2
 mana cost 100 plus 2% 5% 8% 11% of max mana
 cooldown 23 22 21 20
 
 talent level 15 Upgrade Unstable Spell Shield
-increase base damage by 25
-increase max damage store by 50
+increase base damage by 15
+increase max damage store by 25
 increase Agility scaling on max damage store by 10%
 increase radius by 110
 increase stun by 0.3
@@ -164,7 +168,7 @@ reduce cooldown by 20
 add a new modfier Mana Steal
 Magina will gain a buff call Mana Steal for 25 seconds, his Spells and Basic attacks will do 1% of the target max mana as bonus damage
 and if they get to 0 mana when Magina is around 700 radius, they will gain a debuff call Stolen Mana, Unable to gain mana for 5 seconds
-and all of Magina attack and spells will do 50% bonus Pure damage on them, also increase Magina attack speed by 25 for every target
-below 0 mana.
+and all of Magina attack and spells will do 75% bonus Pure damage on them, also increase Magina attack speed by 50 for every target
+below 0 mana, When Mana Void is on coldown, Magina will gain 25% bonus movespeed and will Ignore all form of roots
 
 
