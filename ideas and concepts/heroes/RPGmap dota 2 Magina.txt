@@ -117,37 +117,42 @@ PASSIVE D OF F
 Mage-Hunter
 Increase Magina Agility with magic resist and reducing Base attack time with any weapons he wield. Auto Attacks will have a chance
 to Silence enemy and Silence will take damage every few tick of seconds, Spell will also Silence and those with Silence on them will
-have increase Silence duration, spell will have double the chance to proc the silences.
+have increase Silence duration, spell will have double the chance to proc the silences, enemys will also get silence longer for every
+450 current mana they have by 0.1.
 
 Agility bonus 9% 12% 15% 18%
 magic resist bonus 5% 10% 15% 20%
 Base Attack Time reduction 0.10 0.15 0.20 0.25
-Silence Chance 12% 13% 14% 15%
+Silence Chance 13% 14% 15% 16%
 Silence damage 9 11 13 15 plus 10% of agility Pure
-Silence duration 0.6 0.9 1.2 1.5
-damage every 0.3 second of Ticks
-cooldown to proc silence 1.0 0.9 0.8 0.7
+base Silence duration 0.6 1.0 1.4 1.8
+damage every 0.2 second of Ticks
+cooldown to proc silence 4.0 3.7 3.4 3.1
 
 Talent level 15 Upgrade Mage-Hunter
 increase agility bonus by 7%
-increase Silence chance by 5%
+increase Silence chance by 4%
 increase Silence scaling Agility damage by 5%
+reduce the coldown to proc silence again by 0.6
 
 add a new Modifier Anti-Spell
-every tick of damage when enemys are Silence will have 14% chance to be stun for 0.1 second and taking 2% of Magina max mana in Pure
+every tick of damage when enemys are Silence will have 22% chance to be stun for 0.1 second and taking 2% of Magina max mana in Pure
 damage and any Enemys or Bosses that cast Spell will take 250% of Magina Agility in Pure damage as well with increasing their casting
-point by 0.7 second every time they cast any spell max of 3 stacks that last 5 second
+point by 0.7 second every time they cast any spell max of 3 stacks that last 5 second, Magina will also reduce all silence effect on
+him by 50% and all magical silence damage spells will also deal 65% less damage as well, Magina will share his magic resist with all
+nearby allys (850 radius aura)
 
 ULTIMATE R
 Mana Void
 Magina use all of is mana to deal Insane damage to one target and also around the target as well dealing only 50% of the damage to
-the others, he also stun longer the more mana he use, he also deal bonus damage base on the max mana of the target as well.
+the others, he also stun longer the more mana he use, he also deal bonus damage base on the max mana of the target as well. Magina will
+gain 7 11 15 mana regeneration when Mana Void is on coldown.
 
 base damage 60 80 100 type Magical
 bonus damage 15% 20% 25% of total mana use
 target max mana as damage bonus 6% 8% 10%
 base stun 1.2 1.5 1.8
-increase stun duration by 0.2 for every 150 140 130 mana
+increase stun duration by 0.2 for every 200 185 160 mana
 mana cost 100% of current mana
 cooldown 120 110 100
 
