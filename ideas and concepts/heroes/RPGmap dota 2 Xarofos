@@ -1,0 +1,52 @@
+Xarofos the Iron Golem Starting stats 0 Int, 4 Agi, 13 Str, base speed 275, base damage 4, Stats Gain per level 0.00 int, 1.50 str, 0.40 agi
+Starting item Iron Fist give 1 armor and 2 attack damage Bat 2.15, Tank, Medium damage
+
+-note-  we might want a custom model for this guy
+he got 35% increase size model.
+
+LEVEL 30 TALENT
+
+Talent 1
+
+
+Talent 2
+
+
+
+PASSIVE D OR F Iron Golem
+Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
+
+BUFF Xarofos will gain 1 armor every 12 points of strenght and x5 of his armor will be bonus health for him, he also gain 15% stun and
+roots resist, any silence will Enrage him removing the silence and giving him 25% increase damage and 0.5% health regeneration for 4 second
+, he will start with 15 physical block that stack with other source of block and also with 2 armor and 50 health as well, he start with a
+special armor-chest-peice that cant be change at all, he can wear 2 gloves, all of his spell will do 50% of his armor into bonus damage
+DEBUFF Xarofos will take 200% increase damage from magical attacks, Pure damage will always do 0.4% of his max health in damage, he doesnt
+gain inteillgence per level and he also got -200 in inteillgence as well, all spell or attacks that blind will last 1.5 seconds longer and
+make him take 25% increase damage from all source for the duration, he cannot pass more than 340 movespeed and he will have 0.35 base attack
+time increase with all glove or fist armor, weapons, he cannot use any weapons but fist and gloves.
+
+Pure Steel Armor Special
+-note- Xarofos will have a special type of mana and any gain mana gain from item will not increase his mana pool his mana type name is
+call Stolx Mana
+
+Stolx mana 250 increase by 3 every levels
+Health 100 increase by 10 every levels
+increase armor by 1 increase by 0.2 every levels
+
+
+SPELL Q Iron Blast Physical
+Xarofos Knockdown the enemys in front of him, stunning them and dealing medium damage to them, they will also take increase damage from
+Xarofos spell and normal attack, he will also attack faster on the target affected by the debuff, Xarofos will also gain some armor for 
+a short duration
+
+damage 15 18 21 24 plus 32% 35% 38% 41% of his strenght
+base Cleave radius 330 360 390 420 plus
+increase cleave radius by 11% 14% 17% 20% of his Strenght
+increase damage taken by 12% 20% 28% 36%
+increase attack speed 15 30 45 60
+debuff duration 4.5 5 5.5 6
+armor bonus 3 6 9 12
+armor buff duration 3.1 3.4 3.7 4
+coldown 12 11 10 9
+mana cost 30 40 50 60
+
