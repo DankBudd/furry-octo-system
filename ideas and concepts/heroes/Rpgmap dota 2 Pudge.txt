@@ -1,7 +1,7 @@
 Pudge, the Butcher Starting stats 8 str, 4 agi, 0 int, base speed 300, base damage 4, stats gain per level 1.20 str, 0.00 int, 0.80 agi
 Starting item Flesh Hand give 55 health with 2 armor base attack time 2.70
 
-LEVEL 20 TALENT
+LEVEL 30 TALENT
 
 talent 1
 increase Butcher magic resist by 8% and his armor by 3
@@ -29,7 +29,7 @@ mana per seconds.
 
 Active items that cost mana will cost health instead and also making them cost 3% of Butcher max health as well
 
-Talent level 25 Upgrade Abomination
+Talent level 40 Upgrade Abomination
 add a new modifier Meat Eater
 Butcher Basic attack will lifesteal for 200% of the damage dealt and 40% of all that lifesteal done will be Pure damage on the target
 and every 3 strenght Butcher got will increase the lifesteal done by 1%, Butcher will no longer gain attack speed from Agility and
@@ -108,7 +108,7 @@ disarm duration 2 2.6 3.2 3.8
 life cost 12% 11% 10% 9%
 cooldown 27 25 23 21
 
-Talent level 15 Upgrade Fresh Meat!
+Talent level 20 Upgrade Fresh Meat!
 increase max life damage by 3%
 increase meat healing by 27
 increase meat drop by 0-2
@@ -174,7 +174,7 @@ meat last 8 9 10 second
 life cost 10% 15% 20%
 cooldown 50 45 40
 
-talent level 25 upgrade Dismenber
+talent level 40 upgrade Dismenber
 increase strenght scaling by 50%
 increase meat drop to 2-3 2-4 2-5
 increase meat healing by 25
