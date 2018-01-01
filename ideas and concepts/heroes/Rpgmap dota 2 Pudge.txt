@@ -93,7 +93,7 @@ from Rotting Flesh and when the root duration ends, it will make a Infested Air 
 get blind missing 15% of their attacks and having 18% reduce magical damage and losing 22% attack damage as well, the Infested Air Area
 will last 3.5 seconds, each enemys that die from Rotting Flesh or Glory Hook will increase its radius by 2 up to 100 radius bonus, at
 max radius Rotting Flesh will gain Butcher 65 movespeed having 365 movespeed instead of being stuck at 300, and also gaining 10% damage
-reduction and making Rotting Flesh no longer affect Butcher for the damage.
+reduction with 35% bonus regeneration source.
 
 
 SPELL E Freah Meat!
