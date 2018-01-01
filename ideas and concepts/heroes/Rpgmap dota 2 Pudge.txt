@@ -67,7 +67,7 @@ will have 3% less health cost and have 2 seconds coldown reduction. Butcher will
 hook anyone but further increase the damage of Bad Rot to 140% instead and have 50% bonus radius instead as well increase radius as Well
 , total max stack of Glory Hook is 6.
 
-SPELL Q Rotting Flesh
+SPELL W Rotting Flesh
 rot enemys dealing damage to them and reducing magic resist and movement speed also affect Butcher, the radius of Rotting Flesh will
 increase by Butcher health and Rotting Flesh will not be affected by the Butcher max health as bonus damage enemys affected
 by Rotting Flesh will take increase damage from Glory Hook
