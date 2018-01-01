@@ -62,12 +62,12 @@ reduce mana cost by 15
 add a new modifier Colossus Blast
 Iron Blast stun cannot be resisted by any means and enemys that are stun will take 35% of Xarofos armor and strenght in damage every
 0.2 seconds of stun duration, Iron Blast will also become a area of effect around him instead of being infront of him, if the enemys
-take more than 10% of their max health durring the stun will lose 50% attack damage and take 65% increase damage from Physical Source
-for 2.5 seconds, Increase Iron Blast base damage by 3 for every 4 or more unit stun in one cast, max stack of 6 and at 4 stacks,
+take more than 10% of their max health durring the stun they will lose 50% attack damage and take 65% increase damage from Physical
+Source for 2.5 seconds, Increase Iron Blast base damage by 3 for every 4 or more unit stun in one cast, max stack of 6 and at 4 stacks,
 increase Iron Blast radius by 90 and also reduce it coldown by 2. Xarofos will lose 1 stack if he lose more than 15% of his health in
 one attack.
 
-ACTIVE TOGGLE SPELL W Molten Steel - Physical
+ACTIVE TOGGLE SPELL W Molten Steel - Pure
 Xaforos will become a body of Moving Molten Steel reducing his Armor but gaining massive magic resist and Pure resist, Enemys that attack
 him while he is in Molten Steel Form will take burning Steel damage and lose some armor and take increase damage to Pure Source, Xarofos
 cannot go lower than 2 6 9 12 armor when useing this skill. When he Activate Molten Steel he will gain 5% 8% 11% 14% magic and pure
@@ -78,8 +78,9 @@ damage on hit 7 9 11 13 plus 15% 18% 21% 24% of strenght
 Armor into Magic resist 120% 130% 140% 150% of total armor
 Armor into Pure resist 70% 80% 90% 100% of total armor
 armor lost per hit 1.3 1.5 1.7 1.9
-Pure damaga taken increase per hit 2% 3% 4% 5%
+Pure damaga taken increase per hit 1% 2% 3% 4%
 debuff duration 2.4 2.6 2.8 3.0
+radius of Molten Steel 375
 coldown 8
 mana cost per seconds 8 12 16 20
 
@@ -87,8 +88,15 @@ talent level 10 Upgrade Molten Steel
 increase magic resist gain by 35%
 increase pure resist gain by 25%
 increase armor lost by 0.4
+increase pure damage taken by 2%
 reduce mana cost per seconds by 6
 
 add a new modifier Unusual Steel
+Range units that attack Xarofos while he is in Molten Steel will take 100% more damage from it and they will lose 275 attack range
+(cannot go lower than 250 attack range) and he will no longer lose Armor for his bonus magic and pure resist, all of his Spell will
+also do 25% of their damage in Pure while he stay in Molten Steel, If he does stay for 15 seconds in Molten Steel he will gain 35%
+Pure Resist and 20% magic resist for 25 seconds until he stop useing Molten Steel the buff will start to fade away, Also increase
+his health regeneration source bonus by 75% but reduce his mana regeneration by 15%.
 
-talent level 10 Upgrade Molten Steel
+
+
