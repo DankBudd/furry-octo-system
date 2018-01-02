@@ -4,11 +4,15 @@ TALENT LEVEL 20
 
 talent 1 
 increase sven max health by 20% and his armor by 5
-Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max and increase his resist for pure damage by 50%
+Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max and increase his resist for pure damage by 25%, When
+in BloodLust Sven will gain 7 armor and 15% magic resist for its duration and also reducing range attack damage by 15%, also increase
+Bloodlust duration by 0.5 and reducing it coldown by 1.
 
 talent 2
 increase Sven damage by 15% and agility by 10
-Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 10% of his Strenght
+Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 10% of his Strenght, DeathBlow and Bloodlost will deal 40%
+of Sven Agility as bonus damage and having 125 castrange bonus as well, increase their coldown by 4 but make them Ignore all form of
+armor resistence.
 
 Mighty Warrior
 increase overall stats and give a positive and negative buff
