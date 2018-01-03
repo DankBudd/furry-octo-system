@@ -52,7 +52,7 @@ damage 15 18 21 24 plus 22% 25% 28% 31% of his strenght
 base Cleave radius 330 360 390 420
 increase cleave radius by 15% 20% 25% 30% of his Strenght
 increase damage taken by 10% 20% 30% 40%
-increase attack speed 15 30 45 60
+increase attack speed 30 45 60 75
 stun duration 0.9 1.2 1.5 1.8
 debuff duration 4.5 5 5.5 6
 armor bonus 3 6 9 12
@@ -119,7 +119,8 @@ SPELL E Iron Charge - Physical
 Xarofos charge foward in a line, dealing insane amount of damage, they will be ministun for 0.2 but if they are Stun by Iron Blast it will 
 increase its stun duration and while they are stun, they will lose insane amount of armor, Xarofos will gain insane amount of armor 
 while he is Charging and will last for 3 seconds after he is done charging, Each enemys hit will grant him bonus health regeneration
-that last 7 seconds. When they get stun with Iron Charge from Iron Blast, it will refresh that stun duration.
+that last 7 seconds. When they get stun with Iron Charge from Iron Blast, it will refresh that stun duration, the coldown will reduce
+by 0.5 for every auto attack done.
 
 damage 20 25 30 35 plus 10% 20% 30% 40% of Strenght
 increase damage 10 20 30 40 plus 25% of strenght
@@ -127,7 +128,7 @@ armor lost 7 14 21 28 while stun
 increase stun duration 0.6 0.8 1.0 1.2
 increase armor while in charge 10 15 20 25
 health regeneration per enemy hit 0.4 0.8 1.2 1.6
-coldown 17
+coldown 30
 mana cost 60 80 100 120
 
 
@@ -136,7 +137,7 @@ increase the damage when stun by 25
 increase the scaling strenght when stun by 15%
 increase armor gain while in charge by 10
 increase health regeneration gain per hit 0.8
-reduce coldown by 3
+reduce coldown by 5
 reduce mana cost by 25
 
 add a new modifier Holy Charge
