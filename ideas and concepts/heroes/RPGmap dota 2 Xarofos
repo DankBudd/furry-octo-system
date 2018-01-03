@@ -5,6 +5,13 @@ Starting item Iron Fist give 1 armor and 2 attack damage Bat 2.15, Tank, Medium 
 -note-  we might want a custom model for this guy- the custom model might need some porting over for this guy if possible.
 he got 35% increase size model.
 
+Some lore behind his Story.
+Xarofos was a Trusted lord of iron, all of his kingdom was proud of him he was defending the other golems in need of help in battles,
+but one day his kingdom when under attack by the Chaos lord himself leading Xarofos to ruins, after some years of doing nothing but
+sitting on his Throne, Davion and Mhadreno found him and help him out healing his Wounds after that, Xarofos became one again and
+he is now Serving the Holy Lord and Being the First Holy Iron Golem himself, Purging all Evil upon his Path to the Chaos Lord.
+
+
 LEVEL 30 TALENT
 
 
@@ -26,7 +33,7 @@ gain inteillgence per level and he also got -200 in inteillgence as well, all sp
 make him take 25% increase damage from all source for the duration, he cannot pass more than 340 movespeed and he will have 0.35 base attack
 time increase with all glove or fist armor, weapons, he cannot use any weapons but fist and gloves, he also lose 25% magic resist.
 
-Pure Steel Armor Special
+Pure Holy Steel Armor Special
 -note- Xarofos will have a special type of mana and any gain mana gain from item will not increase his mana pool his mana type name is
 call Stolx Mana, he also doesnt gain mana regeneration from items but the Pure Steel Armor
 
@@ -97,7 +104,7 @@ increase pure damage taken by 1%
 increase radius scaling by 45%
 reduce mana cost per seconds by 3
 
-add a new modifier Holy Flames of the Lord
+add a new modifier Holy Flames of the Iron Lord
 Range units that attack Xarofos while he is in Molten Steel will take 100% more damage from it and they will lose 275 attack range
 (cannot go lower than 250 attack range) and he will no longer lose Armor for his bonus magic and pure resist, all of his Spell will
 also do 25% of their damage in Pure while he stay in Molten Steel, If he does stay for 15 seconds in Molten Steel he will gain 35%
