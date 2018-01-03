@@ -100,23 +100,27 @@ damage 3-6
 
 
 Bottle of Health gold 250 plus lesser bottle of Health 50 gold
-has 6 charge that restore the user life per second, killing enemy will refill the bottle also increase the user attack damage
+has 6 charge that restore the user life per second, killing enemy will refill the bottle also increase the user attack damage and
+also increase movespeed
 
 last 4 second
-life per second 11 plus 12% of the user Attributes
+life per second 15 plus 8% of the user Attributes
 amounts of kill for a charge 5
 boss will always give 3 charges
-attack damage bonus for the duration 7
+attack damage bonus for the duration 5
+movespeed bonus 10%
 
 
 Bottle of Mana gold 250 plus lesser bottle of Mana 50 gold
-has 8 charge that restore the user mana per second, killing enemy will refill the bottle also increase the user spell amp
+has 6 charge that restore the user mana per second, killing enemy will refill the bottle also increase the user spell amp and
+also increase movespeed
 
 last 4 second
-mana per second 7 plus 8% of the user Attributes
+mana per second 11 plus 8% of the user Attributes
 amounts of kill for a charge 3
 boss will always give 4 charges
-spell amp bonus for the duration 4%
+spell amp bonus for the duration 5%
+movespeed bonus 10%
 
 
 Book of Lores gold 200
@@ -160,10 +164,10 @@ Vemon Orb
 Deal damage over time, slowing the target attack speed and movement speed and also increasing the user Primary stats, the Vemon orb
 will proc on basic attack and spells
 
-Primary stats 5-8
-Damage 3 magical plus 5% of the user Primary per 0.5 second
-attack spell slow 8
-Movement spell slow 4%
+Primary stats 3-6
+Damage 3 magical plus 4% of the user Primary per 0.5 second
+attack slow 8
+Movement slow 4%
 duration 5 second
 
 
@@ -173,9 +177,9 @@ Increase the user attack speed and damage with agility, the user also got a smal
 Passive item Use Fang Crit
 the user got 40% chance to crit for 120% damage
 
-attack speed 11-18
+attack speed 9-18
 damage 4-7
-agility 4-8
+agility 2-7
 BAT 1.55
 
 Cloud Helm
@@ -185,14 +189,16 @@ attack speed 12-15
 agility 5-8
 
 Alkator
-increase the user attack damage with increase evasion and give a small chance to deal bonus damage on attack and spell.
+increase the user attack damage with increase evasion and spell amp, also give a small chance to deal bonus damage on attack and spell.
 part of the Wind Lord set
 
 Passive item use
-spell and basic attack will have 40% chance to deal 8 bonus damage
+spell and basic attack will have 40% chance to deal 8 plus 5% of the user Attribute in bonus damage
 
-attack damage 8-11
-evasion 5%-7%
+attack damage 6-10
+spell amp 4%-8%
+evasion 4%-7%
+BAT 1.85
 
 Cloud Boots
 increase the user movespeed and armor. Part of the Wind Lord Set
