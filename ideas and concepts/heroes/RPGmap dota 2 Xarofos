@@ -126,7 +126,7 @@ damage 20 25 30 35 plus 10% 20% 30% 40% of Strenght
 increase damage 10 20 30 40 plus 25% of strenght
 armor lost 7 14 21 28 while stun
 increase stun duration 0.6 0.8 1.0 1.2
-increase armor while in charge 10 15 20 25
+increase armor while in charge 12 20 28 36
 health regeneration per enemy hit 0.4 0.8 1.2 1.6
 coldown 30
 mana cost 60 80 100 120
