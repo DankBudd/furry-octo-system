@@ -267,11 +267,11 @@ Kardel knows the way to kill his enemys quick and making alot of mess, all of hi
 current health instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
 bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 225, 200,
 175 max mana. Spell that does damage every 2 second or lower will only deal 0.1% of current health in damage. HeadShot! will deal less
-damage in close combat for auto attacks.
+damage in close combat for auto attacks, bosses will always take 0.1% of their current health instead of max health
 
-Max health damage 1% 2% 3%
+Max health damage 0.4% 0.7% 1.0%
 HeadShot! spell damage 140% 170% 200% of attack damage
-HeadShot! chance for spells 30% 35% 40%
+HeadShot! chance for spells 40% 45% 50%
 HeadShot! auto attack damage 90% 110% 130% of attack damage long range
 HeadShot! auto attack damage 50% 60% 70% of attack damage close range
 HeadShot! chance for auto attack 30% 40% 50%
@@ -284,7 +284,7 @@ increase HeadShot! Spell damage by 35%
 increase HeadShot! chance on spell by 10%
 increase debuff duration by 0.2 second
 
-add a new modifier for HeadShot! Mithril Bullets
+add a new modifier Mithril Bullets
 Kardel Basic attack and spells will alway reduce the target armor by 7 and their magic resist by 10% for 4 seconds, Spells that proc
 HeadShot! will Ignore all of the target Armor and further reduce the target armor by 4 for 7 seconds, when Kardel is in Long Range
 Mode, his spell will have 35% reduce coldown and have 15% spellvamp and also having 12% chance to stun the target for 0.3 seconds
@@ -296,7 +296,8 @@ seconds before being able to Mithril Poison
 
 
 ----------------------------------------
-LIST FOR THE CUSTOM RIFLE UPGRADES - their will be basic upgrade modifier and unique upgreade modifier base on how the gun was upgraded
+LIST FOR THE CUSTOM RIFLE UPGRADES (and talent tree)
+- their will be basic upgrade modifier and unique upgreade modifier base on how the gun was upgraded
 
 there will be end game rifle upgrade that will take 8 point of the upgrade in specific stats of the rifle
 there also mid game upgrade that will end into the end games one, those will take 4 points of upgrade
@@ -356,3 +357,148 @@ the debuff last 3.5 seconds and refresh when hitting the target, and also reduce
 Source of pure damage he will gain the Craze Shotter buff, increasing his damage by 25 and his attack speed by 40 for 6 seconds, coldown
 of 15 seconds.
 
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+Increase AGI and STR gain by 0.1 every level and also Increase AGI and STR by 4 and also increasing his speed limit by 50
+-
+level 4 talent
+-
+reduce the coldown of Glory Hook by 1 and increase its cast range by 150 and it also spellvamp for 5% of the damage dealt
+-
+increase AGI and STR by 4 and increase healing recive by 20%
+-
+increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+-
+level 7 talent
+-
+increase health by 125 and spell amp by 5%, also increase Glory Hook base damage by 10 and its scaling by 4%
+-
+Every time Butcher takes Pure damage, he will gain 10% Pure resist and 1.8 health regeneration for 4 seconds, if he takes Pure damage
+again when he got the buff it will further increase it by 10% more pure resist and 2.2 health regeneration for 6 seconds instead, also
+increase his strenght and agility by 3 but reduce his spellamp by 7%
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
+-
+increase armor by 4 and magic resist by 10% increase armor gain by 1 for every 425 current health and increase magic resist by 1% for
+every 275 current health, also increase xp gain by 15%
+-
+level 16 talent
+-
+reduce Dismenber coldown by 5 and increase its scaling by 50%, Butcher will heal for 40% of the damage from Dismenber and increasing it
+cast range by 225, it will also drag the enemys closer to Butcher, Dismenber will no longer gain Spellvamp or other source of lifesteal.
+-
+increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
+resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+-
+increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
+and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
+-
+level 19 talent
+-
+reduce all damage taken by 5% and also increase health by 275 but reduce movespeed by 30 and also reduce spellamp by 10%
+-
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
+limit by 45
+-
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
+vamp for 12% of the damage dealt
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Rotting Flesh base radius by 75 and also increase the max radius by 150, it will now reduce all healing effects on enemys by
+10% if they stand in Rotting Flesh, Butcher no longer gets affect by the movespeed slow and magic resist effect
+-
+Fresh Meat! will now give Butcher 225 attack range and no longer cost health and also reducing it coldown by 4. also Increase Butcher
+Glory Hook armor reduction by 4 and his agility by 7.
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
+-
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75
+-
+level 29 talent
+-
+increase Pure resist by 10% and also give Butcher 10 physical block and 5 magical block that stack with other source of blocks, Further
+increase the Pure resist by 40% when Channeling Dismenber.
+-
+Increase Health by 10% and reducing all health cost on spell by 1% Further increase the health bonus by 5% and the health cost reduction
+on spells by 1% every levels 5 levels above 30.
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+Increase all healing on Butcher by 35% but reduce all other source of healing from allys by 25%, also make all of his spell gain 10%
+spellvamp and giving him 1.7 health regeneration that stack 10 time each time he cast a spell, last 15 seconds and refresh upon casting
+a spell (Rotting Flesh doesnt proc this), also increase his strenght by 12 and his attack damage by 16.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well, Flesh Heap will give 8% more Strenght.
+-
+reduce stuns, blinds and roots effect on you by 15% and all stuns, blinds or roots cause by you will have 25% duration bonus, Dismenber
+will gain 0.5 seconds increase and gain 25% strenght scaling, Glory Hook stun cannot be resisted and it increase by 0.3 seconds
+-
+increase damage by 10 and spell amp by 14% and Each stack of Heap will also increase Butcher attack damage and attack speed by 2 
+and also gain 0.3 armor per stack and 0.4% magic resist as well
+-
+level 36 talent
+-
+increase Agility and Strenght by 18 and also increase life gain from strenght by 3, Attack speed gain from agility by 0.25
+and make Agility give 0.02 health regeneration and Further increase the bonus spell amp from strenght by 0.3%
+-
+Flesh Heap can now be Activated doubling the amount of current stack for 12 seconds but making the Active cost 4% of Butcher health
+the coldown for Reactivating the effect is 40 seconds and can be reduce by coldown reduction with 20% more bonus effect as well.
+increase the max Health gain by 175 and also increase the amount of health gain by 2 (20 for bosses), Butcher will also gain 0.2%
+Evasion per stack of Heap. When the Active buff duration ends, Butcher will lose 40% Heap stacks.(doesnt affect the health bonus stack)
+-
+level 39 talent
+-
+GIANT ZOMBIE ASPECT, Increase the base damage of Glory Hook by 10, Rotting Flesh by 3 and Fresh Meat! by 1%, Glory Hook and Fresh Meat!
+will have full refund of the health cost if they get the killing blow and increasing their damage by 25% for the next cast, Rotting
+Flesh will Become Pure damage instead of magical and making the magic resist lost to be damage taken increase, Flesh Heap will increase
+Butcher Size by 1% and giving him 0.3% Root and Stun resist for every 85 max health he got, Dismeber will also deal its damage to nearby
+enemys (340 radius) for 75% of the damage done (the damage that the other target take will not proc any effect at all only take damage),
+also increase Strenght by 25 and reduce movespeed by 40.
+-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 12 health regeneration and 10% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
