@@ -85,7 +85,7 @@ if they hit him again and will stack up to 6 7 8 9 max, Molten Steel will reduce
 take damage every 1.5 seconds when they stay near him. Molten Steel will only gain 25% of his armor into bonus damage.
 
 damage on hit 7 9 11 13 plus 9% 10% 11% 12% of strenght
-damage every 1.5 seconds 7 8 9 10 plus 5% 6% 7% 8% of strenght
+damage every 2 seconds 7 8 9 10 plus 5% 6% 7% 8% of strenght
 Armor into Magic resist 120% 130% 140% 150% of total armor
 Armor into Pure resist 70% 80% 90% 100% of total armor
 armor lost per hit 1.3 1.5 1.7 1.9
@@ -152,4 +152,32 @@ as well.
 
 
 PASSIVE D OR F Infuse Iron Body
+Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
+gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
+regeneration, he also increase all source of Health regeneration on him and his allys for 50% of his bonus in a 1200 radius
+
+damage reflected 11% 13% 15% 17%
+Health bonus 8% 12% 16% 20%
+Armor bonus 3 7 11 15
+health regeneration bonus 20% 30% 40% 50%
+health regeneration 0.2 0.3 0.4 0.5
+max stacks 15 30 45 60
+duration 2.4 2.5 2.6 2.7
+
+talent level 20 upgrade Infuse Iron Body
+increase damage reflected by 8%
+increase health regeneration bonus by 20%
+increase health regeneration by 0.1
+increase duration by 0.4
+
+add a new modifier Iron Will
+Xarofos cannot lose armor by debuff cause by the enemys but the enemys will alway do 10% of their damage in Pure on him with anything
+and make his Health regeneration bonus Source Global and giving the same amount that Xarofos gets instead of reducing it by 50%, all
+Movespeed slow or Armor lost debuff will Enrage Xarofos giving him 10 bonus armor with 25% increase movespeed and 0.60 reduce base
+attack time for 6 seconds, this will have no coldown to proc again and if he get Enrage again while he is Enrage, he will Become
+Pure Holy Iron, gaining 100% increase Healing effect and Health regeneration Source bonus for him self for 10 seconds, only proc every
+60 seconds, also increase his strenght by 10% and his magic resist by 25% of his total armor.
+
+
+ULTIMATE R Titan Form
 
