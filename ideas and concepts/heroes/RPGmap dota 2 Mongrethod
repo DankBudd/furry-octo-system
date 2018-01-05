@@ -4,13 +4,15 @@ Starting item Gaint Cleaver give 7 damage and 4% lifesteal base attack time 2.30
 LEVEL 20 TALENT
 
 Talent 1
-increase Mongrethod health by 400 and his life regeneration by 5
-increase Mongrethod armor by 1 for every 275 current life he got and increase his magic resist by 12% of his life renegeration
+increase Mongrethod health by 300 and his life regeneration by 4
+Mongrethod will gain 25% of his health into bonus mana and every 100 current mana will give Mongrethod 0.4 armor and 1% magic resist,
+he also gain a 7 spell call Chaos Shield, all damage taken will be on Mongrethod mana instead of his health for 4 seconds, 75% of the
+he lost will be gain back and increase his mana regeneration by 10 for 7 seconds after the shield duration ends, coldown of 35 seconds
 
 Talent 2
 increase Mongrethod attack damage by 20 and his attack speed by 35
 increase Mongrethod spell amp by 0.7% for every 10 current attack speed he got and increase his Rain of Fire Strenght scaling by 1% for
-every 7 strenght and 12 inteillgence he got
+every 7 strenght and 12 inteillgence he got, Rain of Fire will also gain 5% of Mongrethod health into bonus radius.
 
 PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
@@ -45,40 +47,45 @@ attack damage 63-80
 base attack time 1.2
 
 PASSIVE Living Chaos
-the Chaos Infernal will gain 4% damage for every kills they do up to 80% bonus damage, and also make them reduce Pure damage by 50%
-at max stacks. Stack will not go away until they die
+the Chaos Infernal will gain 3% damage for every kills they do up to 60% bonus damage, and also make them reduce Pure damage by 50%
+and giving them 25% movespeed at max stacks. Stack will not go away until they die
 
 PASSIVE Chaos Flame
-Chaos Infernal will burn enemys by 15 plus 0.7% of their max health every 1.2 seconds in PERFECT PURE DAMAGE ignoring all resitence of
-pure resist, does current health damage to bosses
+Chaos Infernal will burn enemys by 15 plus 0.3% of their max health every 1.5 seconds in PERFECT PURE DAMAGE ignoring all resitence of
+pure resist, if the enemys get burn for atleast 6 seconds, Chaos Flame will do 30 plus 0.5% of their max health every 1.5,
+does current health damage to bosses
+
 
 SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max health and current health for bosses
 it also reduce the enemy movement speed every time they get damage by Rain of Fire, at level 4 of this spell it no longer a channel.
+does current health on bosses
 
-damage 11 15 19 23 plus 25% 28% 31% 34% of strenght per wave, damage type pure
-burn damage 0.1% 0.3% 0.5% 0.7% of max Health, damage type magical per second
-burn damage 0.1% 0.2% 0.3% 0.4% of current Health, damage type Pure per second for bosses
+damage 11 15 19 23 Plus 25% 28% 31% 34% of strenght per wave, damage type pure
+Burn damage 4 5 6 7+5% of strenght and+0.1% 0.3% 0.5% 0.7% of their max health
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 3 second
-movement speed lost per damage taken 1% 2% 3% 4%
+movement speed lost per damage taken 3%
 base radius 200 240 280 320
 radius increase by 90% 110% 130% 150% of Mongrethod strenght
 cooldown 18
 manacost 100 115 130 145 plus 3% of max mana
 
 talent level 10 Upgrade Rain of Fire
-increase damage by 7
+increase amount of wave by 1
 Increase strenght scaling by 12%
 increase max health as damage by 0.3%
-reduce cooldown by 5
-reduce mana cost by 30
+reduce cooldown by 4
+remove max mana cost
 
 add a new modifier Rain of Chaos
-every wave of Rain of fire will summon a Chaos Infernal, this summon will have 60% life,85% damage of Mongrethod
-they also have 2 armor and 7% magic resist this bonus increase by 1 armor and 2% magic resist every 5 level of Mongrethod
-they last 11 second also when the Infernal land on Ground they will do 1.2% of the target max health in damage 0.2% for bosses
+every wave of Rain of fire will summon a Chaos Infernal, they got 2 passive and cannot be controlled, Also Make rain of fire have 65
+increase radius for every next wave, Rain of Fire will also make enemys take increase 3% increase pure damage every time they get
+damage that last 6 seconds and refresh if they get hit again, Pit of Hatred will do 50% increase damage versus burning enemys.
+
+INFERNAL STATS
+
 
 SPELL W Howl of Terror
 Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal damage to them as well
@@ -109,7 +116,7 @@ under the effect of Howl of Terror will give Mongrethod 3 health and 0.02 life r
 that kills enemys under the effect of Howl of Terror will restore Mongrethod health by 3.5%
 
 SPELL E Pit of Hatred
-infect the ground with Chaos increasing Mongrethod armor and magic resist, he also gain a sheild from his max health as well and all
+infect the ground with Chaos increasing Mongrethod armor and magic resist, he also gain a shield from his max health as well and all
 enemys that come inside of Pit of Hatred will be force to attack him
 
 damage 20 30 40 50 plus 25% 45% 65% 85% of strenght type magical
@@ -137,26 +144,25 @@ Mongrethod strenght in magical damage and healing him by 10% of the damage dealt
 
 PASSIVE D OR F Chaos Cleave
 Mongrethod cleave for a % of the damage dealt he also gain bonus strenght with inteillgence, lifesteal and spellvamp and any enemy that
-die near Mongrethod will empower him gaining damage
+die near Mongrethod will empower him gaining damage, the duration of the bonus damage will last 50 seconds from normal enemys and 145
+seconds from bosses, radius of 1200 to gain the bonus
 
-Strenght 9% 11% 13% 15%
-inteillgence 7% 8% 9% 10%
+Strenght and Inteillgence 8% 10% 12% 14%
 lifesteal 11% 14% 17% 20%
 Spell vamp 10% 15% 20% 25%
 cleave damage 35% 45% 55% 65%
 cleave radius 210 230 250 270
 increase cleave radius by 25% 35% 45% 55% of Strenght
 bonus damage per enemy death 1
-duration of bonus 30 40 50 60
 bonus damage of boss death 10 20 30 40
-duration of bonus bosses 140
-radius for bonus gain 1200 only Mongrethod
 
 Talent level 20 upgrade Chaos Cleave
-increase cleave damage by 15%
-increase bonus damage for bosses bonus by 15
-reduce the duration of bonus for both by 40
-radius increase by 300
+increase Strenght and inteillgence gain by 1%
+increase lifesteal by 5%
+increase spellvamp by 10%
+increase cleave damage by 10%
+increase Cleave radius by 40
+increase the duration for both by 25
 
 add a new modifier Infuse Cleaver
 Chaos cleave now deal 3% of the enemy current health as damage 0.4% for boss and Chaos Cleave will lifesteal on all unit hit instead
@@ -173,22 +179,22 @@ damage per second 25 35 45 plus 60% of strenght type magical
 duration 14 18 22
 Doom Guard attack damage 80% 120% 160%
 Doom Guard life 100% 200% 300%
-Doom Guard Armor 100% 125% 150%
-Doom Guard magic resist 100% 125% 150%
+Doom Guard Armor and magic resist 110% 130% 150%
 Doom Guard base attack time 2.40 2.20 2.00
-duration of the Doom Guard 70
-cooldown 135
+duration of the Doom Guard 40 45 50
+cooldown 135 130 125
 mana cost 150 300 450 plus 10% of max mana
 
 talent level 40 upgrade Demonic Blood
 increase damage by 15
 increase Doom Guard attack damage from the enemy by 40%
 increase Doom Guard life from the enemy by 100%
-Increase Doom Guard armor from the enemy by 50%
-increase Doom Guard magic resist from the enemy by 50%
+Increase Doom Guard armor and magic resist from the enemy by 50%
 increase duration of Doom Guard by 5
 
 add a new modfier Demon Master
-now summon 1 more Doom Guard and any enemy that the Doom Guard kill will increase its damage by 2, life by 10 and attack speed by 1
-and if the Doom Guard die it will return to Mongrethod increase his strenght by 20%, damage by 30% and life regeneration by 0.5%
-that last for 20 second max stack of 2
+now summon 1 more Doom Guard and any enemy that get slain by the Doom Guard kill will increase its damage by 2, life by 35 and attack
+speed by 4 and if the Doom Guard die it will return to Mongrethod increase his strenght by 25, damage by 35% and life regeneration by
+0.75% that last for 20 second max stack of 2 and refresh upon getting a new one, he also make his Rain of Fire summon 2 Infernal every
+cast (they got the same stats from the talent level 10 of rain of fire and does increase how much infernal here is with the talent
+upgrade level 10)
