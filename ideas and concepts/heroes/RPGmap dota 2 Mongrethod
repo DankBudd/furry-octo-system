@@ -61,7 +61,7 @@ Channel a raining wave of fire from the sky dealing damage and burn the enemy fo
 it also reduce the enemy movement speed every time they get damage by Rain of Fire, at level 4 of this spell it no longer a channel.
 does current health on bosses
 
-damage 11 15 19 23 Plus 25% 28% 31% 34% of strenght per wave, damage type pure
+damage 11 15 19 23 Plus 15% 18% 21% 24% of strenght per wave, damage type pure
 Burn damage 4 5 6 7+5% of strenght and+0.1% 0.3% 0.5% 0.7% of their max health
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
@@ -74,7 +74,7 @@ manacost 100 115 130 145 plus 3% of max mana
 
 talent level 10 Upgrade Rain of Fire
 increase amount of wave by 1
-Increase strenght scaling by 12%
+Increase strenght scaling by 6%
 increase max health as damage by 0.3%
 reduce cooldown by 4
 remove max mana cost
@@ -92,9 +92,9 @@ Mongrethod howl reducing the enemy damage and make them fear for a duration and 
 and after the fear end the enemys will get damage every time they attack or cast spell
 
 damage 11 18 25 32 plus 35% 40% 45% 50% of strenght type Pure
-damage reduction FLAT amount 4 8 12 16
-damage reduction 8% 12% 16% 22%
-damage reduction duration 4 second
+damage reduction FLAT amount 6 9 12 15
+damage reduction 10% 12% 14% 16%
+damage reduction duration 6 second
 damage recive every attack or spell 4 8 12 16 plus 8% of strenght type Pure
 damage recive duration 3 4 5 6
 radius 700 800 900 1000
@@ -111,9 +111,12 @@ reduce cooldown by 4
 remove mana cost
 
 add a new modifier Abyssal Howl
-now affect Mongrethod and ally giving them 200% of the damage reduction of % and flat as bonus damage for 4 second, enemys that die
-under the effect of Howl of Terror will give Mongrethod 3 health and 0.02 life regeneration that last 300 second and any allys
-that kills enemys under the effect of Howl of Terror will restore Mongrethod health by 3.5%
+now affect Mongrethod and ally giving them 200% of the damage reduction of % and flat as bonus damage for 6 second, enemys that die
+under the effect of Howl of Terror will give Mongrethod 3 health, 2 mana and 0.04 health and mana regeneration up to 100 max, at 45
+stacks Mongrethod will gain 8% damage reduction with 250 radius on Howl of Terror and 10 base damage increase, at 90 stacks Mongrethod
+will gain 15% increase scaling on Howl of Terror and remove its mana cost as well, Howl of Terror will also Fear enemys for 1.5 seconds
+and while they are Fear all slows will have 300% more slowing effect bonus on them and also making them take 35% increase damage from
+all Source, Mongrethod will lose 3 stack every time he gets slow and lose 65% stack upon death
 
 SPELL E Pit of Hatred
 infect the ground with Chaos increasing Mongrethod armor and magic resist, he also gain a shield from his max health as well and all
@@ -137,10 +140,13 @@ increase magic resist bonus by 9%
 increase duration by 1 -same for shield-
 reduce cooldown by 3
 
-add a new modifier King of the Pit
-any ally that gets into Pit of Chaos will take 35% less damage from enemys, they will still cast spell on them but do less damage
-in return, and enemys damaged by Pit of Chaos reduce the cooldown by 0.4 and after Pit of Chaos duration end it will explode for 600% of
-Mongrethod strenght in magical damage and healing him by 10% of the damage dealt
+add a new modifier Death Pit
+enemys that are inside of Pit of Hatred will lose 25% overall damage and take 10% increase damage from all Source, if they die inside
+of it they will make 1 wave of Rain of Fire with all effect on it and dealing 20% more damage as well, reduce the coldown of Pit of
+Hatred by 0.8 for every enemys dead inside of it and increase Mongrethod life regeneration by 3.5 for every enemys inside of it,
+allys will take 15% less damage from all Source of damage (not Pure) and making all debuff duration last 35% less longer on Mongrethod
+and his allys, Pit of Hatred will Ignore Magic resist.
+
 
 PASSIVE D OR F Chaos Cleave
 Mongrethod cleave for a % of the damage dealt he also gain bonus strenght with inteillgence, lifesteal and spellvamp and any enemy that
