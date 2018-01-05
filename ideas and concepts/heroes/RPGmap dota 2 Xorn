@@ -14,11 +14,13 @@ every attack will steal 3 attack speed and 4 movement speed from the target and 
 refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.1 second refresh every hit
 
 PASSIVE D OR F Speed Demon
-give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 20 and talent level 25 of this passive
+give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 30 and talent level 40 of this passive, Xorn will
+not be able to go faster than 850 movespeed but still able to go to a speedlimit of 2250.
+
 
 BUFF Xorn will gain 1 base damage for every 65 movspeed he got and he also gain 1% movement speed for every 7 Agility, he start with 2
-armor and 1.4 mana regeneration bonus as well, he got a special Helm that scale by his Move Speed and level, his speedlimit increase to
-2250.
+armor and 1.4 mana regeneration bonus as well, every 200 movespeed will give him 5% Blind Resist, he also gain 0.7 health regeneration
+per 90 current movespeed and when he lose 125 of his health points as well, he got a special Helm that scale by his Move Speed and level
 DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
 dealing 0.8% of his max health per 0.5 second
