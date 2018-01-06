@@ -62,8 +62,8 @@ for bosses it also reduce the enemy movement speed every time they get damage by
 channel, has a base burning damage with the max health burn
 
 
-damage 8 11 14 17 Plus 15% 18% 21% 24% of strenght per wave, damage type pure
-base Burn damage 4 5 6 7 plus 5%
+damage 8 11 14 17 Plus 15% 18% 21% 24% of Strenght and Inteillgence per wave, damage type pure
+base Burn damage 4 5 6 7 plus 5% of Strenght and Inteillgence per 1 seconds
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 3 second
@@ -75,7 +75,7 @@ manacost 100 115 130 145 plus 3% of max mana
 
 talent level 10 Upgrade Rain of Fire
 increase amount of wave by 1
-Increase strenght scaling by 11%
+Increase damage scaling by 6%
 increase burn damage scaling by 2%
 reduce cooldown by 4
 remove max mana cost
@@ -124,7 +124,7 @@ infect the ground with Chaos increasing Mongrethod armor and magic resist, he al
 enemys that come inside of Pit of Hatred will be force to attack him
 
 damage 20 30 40 50 plus 25% 45% 65% 85% of strenght type magical
-shield from health 12% 18% 24% 30%
+shield from health 15% 22% 29% 36%
 armor 3 5 7 9
 magic resist 10% 14% 18% 22%
 duration 5.5 6 6.5 7
@@ -135,7 +135,7 @@ cooldown 26 24 22 20
 mana cost 100 200 300 400
 
 talent level 20 upgrade Pit of Chaos
-increase shield bonus amount by 10%
+increase shield bonus amount by 14%
 increase armor bonus by 3
 increase magic resist bonus by 9%
 increase duration by 1 -same for shield-
