@@ -1,5 +1,5 @@
 Mongrethod Starting stats 8 Int, 3 Agi, 11 Str, base speed 320, base damage 6, Stats Gain per level 1.00 int, 1.30 str, 0.60 agi
-Starting item Gaint Cleaver give 7 damage and 4% lifesteal base attack time 2.30 Auto-Attack,Tank,Mage
+Starting item Gaint Cleaver give 3 damage and 2% lifesteal base attack time 2.30 Auto-Attack,Tank,Mage
 
 LEVEL 20 TALENT
 
@@ -57,12 +57,13 @@ does current health damage to bosses
 
 
 SPELL Q Rain of Fire
-Channel a raining wave of fire from the sky dealing damage and burn the enemy for a % of max health and current health for bosses
-it also reduce the enemy movement speed every time they get damage by Rain of Fire, at level 4 of this spell it no longer a channel.
-does current health on bosses
+Channel a raining wave of fire from the sky dealing damage and burn the enemy for 0.3% 0.4% 0.5% 0.6% of max health and current health
+for bosses it also reduce the enemy movement speed every time they get damage by Rain of Fire, at level 4 of this spell its no longer a
+channel, has a base burning damage with the max health burn
 
-damage 11 15 19 23 Plus 15% 18% 21% 24% of strenght per wave, damage type pure
-Burn damage 4 5 6 7+5% of strenght and+0.1% 0.3% 0.5% 0.7% of their max health
+
+damage 8 11 14 17 Plus 15% 18% 21% 24% of strenght per wave, damage type pure
+base Burn damage 4 5 6 7 plus 5%
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 3 second
@@ -74,8 +75,8 @@ manacost 100 115 130 145 plus 3% of max mana
 
 talent level 10 Upgrade Rain of Fire
 increase amount of wave by 1
-Increase strenght scaling by 6%
-increase max health as damage by 0.3%
+Increase strenght scaling by 11%
+increase burn damage scaling by 2%
 reduce cooldown by 4
 remove max mana cost
 
