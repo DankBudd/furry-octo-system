@@ -40,22 +40,23 @@ Mongrethod will gain 20% cooldown reduction and he also gain 0.4% spell amp for 
 Infernal aside him destroying everything in the name of there new lord Mongrethod, they will last until they die and will respawn every
 45 seconds after they die.
 
-CHAOS INFERNAL STATS -for this talent-
+GREATER CHAOS INFERNAL STATS
 health 250 plus 40% of Mongrethod health
 mana 250 plus 10% of Mongrethod mana
-armor 12
-magic resist 40%
-attack damage 63-80
-base attack time 1.2
+armor 11
+magic resist 35%
+attack damage 43-70
+base attack time 1.95
 
 PASSIVE Living Chaos
 the Chaos Infernal will gain 3% damage for every kills they do up to 60% bonus damage, and also make them reduce Pure damage by 50%
 and giving them 25% movespeed at max stacks. Stack will not go away until they die
 
 PASSIVE Chaos Flame
-Chaos Infernal will burn enemys by 15 plus 0.3% of their max health every 1.5 seconds in PERFECT PURE DAMAGE ignoring all resitence of
-pure resist, if the enemys get burn for atleast 6 seconds, Chaos Flame will do 30 plus 0.5% of their max health every 1.5,
-does current health damage to bosses
+Chaos Infernal will burn enemys by 14 plus 0.2% of their max health every 1.5 seconds in PERFECT PURE DAMAGE ignoring all resitence of
+pure resist, if the enemys get burn for at least 6 seconds, Chaos Flame will do 30 plus 0.4% of their max health every 1.5, does current
+health damage to bosses, Chaos Infernal will also cleave and burning them with Chaos flame as well but only dealing 50% of its damage,
+they will Cleave 335 radius infront of them
 
 
 SPELL Q Rain of Fire
@@ -65,7 +66,7 @@ channel, has a base burning damage with the max health burn
 
 
 damage 8 11 14 17 Plus 15% 18% 21% 24% of Strenght and Inteillgence per wave, damage type pure
-base Burn damage 4 5 6 7 plus 5% of Strenght and Inteillgence per 1 seconds
+base Burn damage 4 5 6 7 plus 5% of Strenght and Inteillgence per 1 seconds, damage type pure
 amount of waves 3 4 5 6
 duration of channel 3 4 5 6
 duration of burn damage and slow 3 second
@@ -83,7 +84,7 @@ reduce cooldown by 4
 remove max mana cost
 
 add a new modifier Rain of Chaos
-every wave of Rain of fire will summon a Chaos Infernal, they got 2 passive and cannot be controlled, Also Make rain of fire have 65
+every wave of Rain of fire will summon a Chaos Infernal, they got 2 passive and cannot be controlled, Also Make rain of fire have 45
 increase radius for every next wave, Rain of Fire will also make enemys take increase 3% increase pure damage every time they get
 damage that last 6 seconds and refresh if they get hit again, Pit of Hatred will do 50% increase damage versus burning enemys.
 
@@ -153,17 +154,17 @@ and his allys, Pit of Hatred will Ignore Magic resist.
 
 PASSIVE D OR F Chaos Cleave
 Mongrethod cleave for a % of the damage dealt he also gain bonus strenght with inteillgence, lifesteal and spellvamp and any enemy that
-die near Mongrethod will empower him gaining damage, the duration of the bonus damage will last 50 seconds from normal enemys and 145
-seconds from bosses, radius of 1200 to gain the bonus
+die near Mongrethod will empower him gaining damage, the duration of the bonus damage will last 50 seconds from normal enemys and 245
+seconds from bosses, radius of 1200 to gain the bonus, they also have their own duration and stack wont refresh the duration.
 
 Strenght and Inteillgence 8% 10% 12% 14%
 lifesteal 11% 14% 17% 20%
 Spell vamp 10% 15% 20% 25%
 cleave damage 35% 45% 55% 65%
-cleave radius 210 230 250 270
-increase cleave radius by 25% 35% 45% 55% of Strenght
-bonus damage per enemy death 1
-bonus damage of boss death 10 20 30 40
+cleave radius 270 285 300 315
+increase cleave radius by 20% 25% 30% 35% of Strenght
+bonus damage per enemy death 1 1 1 2
+bonus damage of boss death 45 60 75 90
 
 Talent level 20 upgrade Chaos Cleave
 increase Strenght and inteillgence gain by 1%
@@ -171,7 +172,7 @@ increase lifesteal by 5%
 increase spellvamp by 10%
 increase cleave damage by 10%
 increase Cleave radius by 40
-increase the duration for both by 25
+increase the damage duration for both by 15
 
 add a new modifier Infuse Cleaver
 Chaos cleave now deal 3% of the enemy current health as damage 0.4% for boss and Chaos Cleave will lifesteal on all unit hit instead
