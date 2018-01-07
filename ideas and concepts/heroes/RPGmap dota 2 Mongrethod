@@ -1,4 +1,4 @@
-Mongrethod Starting stats 8 Int, 3 Agi, 11 Str, base speed 320, base damage 6, Stats Gain per level 1.00 int, 1.30 str, 0.60 agi
+Mongrethod Starting stats 7 Int, 1 Agi, 9 Str, base speed 320, base damage 6, Stats Gain per level 1.00 int, 1.30 str, 0.20 agi
 Starting item Gaint Cleaver give 3 damage and 2% lifesteal base attack time 2.30 Auto-Attack,Tank,Mage
 
 LEVEL 20 TALENT
@@ -17,14 +17,16 @@ every 7 strenght and 12 inteillgence he got, Rain of Fire will also gain 5% of M
 PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
 
-BUFF Mongrethod will gain 4 life per intelligence points and he also gets 10% damage reduction he also increase is strenght
-by 30% of is intelligence he also start with a Special Ring Item that scale with every level. he can have 2 other Ring with this one
-DEBUFF Mongrethod lose 50 attack speed and lose 40% of mana and he take 175% more damage from pure type,he cannot pass 350 basespeed and
-he cannot use any-other weapons but Cleaver
-BONUS BUFF Demon Betrayers
-when Mongrethod and Xorn are in the same game they will gain bonus, gaining 12% bonus damage with 18 attack speed, 3 armor, 20 movespeed
-FLAT and making their SPELL do Extra damage VS DEMON BEING 35% bonus damage to them
-
+BUFF 
+Mongrethod will gain 4 mana from strenght and 3 health from Inteillgence, he also gain 25% more Inteillgence and Strenght from items,
+each Strenght and Inteillgence points will give Mongrethod 0.20 attack speed his spells will always spellvamp for 10% of the damage dealt
+and each instence of damage the enemys take from his spells will reduce their healing Source by 1% up to 13% reduction for 8 seconds
+that refresh on hit, he also start with a special ring.
+DEBUFF
+Mongrethod will lose 35% attack speed and each point of Agility will make Mongrethod lose 1.35 attack speed and 2 movespeed, he cannot
+have more than 350 movespeed and slowing effect will last 75% longer and have 30% more slowing effect as well, every 0.4 seconds of 
+slows duration will damage Mongrethod by 0.6% of his max health and also burn 1.4% of his max mana as well and 25% of that mana burn
+will be damage.
 
 UnderWorld Ring Special Item
 increase spell amp by 7% increase by 0.2% every level
@@ -39,8 +41,8 @@ Infernal aside him destroying everything in the name of there new lord Mongretho
 45 seconds after they die.
 
 CHAOS INFERNAL STATS -for this talent-
-health 500 plus 50% of Mongrethod health
-mana 250
+health 250 plus 40% of Mongrethod health
+mana 250 plus 10% of Mongrethod mana
 armor 12
 magic resist 40%
 attack damage 63-80
