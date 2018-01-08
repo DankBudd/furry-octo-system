@@ -6,13 +6,15 @@ LEVEL 20 TALENT
 Talent 1
 Increase Volcanus mana by 325 and his health regeneration by 3.5
 Volcanus will gain 15% of his mana into health bonus and also gaining 1 armor and 2% magic resist for every 275 health lost, also
-increase his health regeneration by 0.1 for every 65 health lost as well
+increase his health regeneration by 0.1 for every 65 health lost as well, While Channeling Volcano, Volcanus will gain 40% damage
+reduction.
 
 
 Talent 2
 Increase Volcanus spell amp by 10% and his attack speed by 35
 increase Volcanus attack damage by 1 for every 3% spell amp he got and increase his inteillgence by 1 for every 15 current attack speed
-he got, also increase his mana regeneration by 0.1 for every 80 mana lost
+he got, also increase his mana regeneration by 0.1 for every 80 mana lost, Lava Wave will increase Volcanus Spell amp by 4% for every
+unit hit, the stacks of Spell amp will last 7 seconds with each of them having their own duration.
 
 
 PASSIVE D OR F Fire God
