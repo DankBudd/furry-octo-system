@@ -5,20 +5,22 @@ LEVEL 20 TALENT
 
 Talent 1
 increase Mongrethod health by 300 and his life regeneration by 4
-Mongrethod will gain 25% of his health into bonus mana and every 100 current mana will give Mongrethod 0.4 armor and 1% magic resist,
-he also gain a 7 spell call Chaos Shield, all damage taken will be on Mongrethod mana instead of his health for 4 seconds, 75% of the
-he lost will be gain back and increase his mana regeneration by 10 for 7 seconds after the shield duration ends, coldown of 35 seconds
+Mongrethod will gain 25% of his health into bonus mana and every 100 current mana it will give Mongrethod 0.4 armor and 1% magic resist,
+he also gain a 7 spell call Chaos Shield, all damage taken will be on Mongrethod mana instead of his health for 4 seconds, 60% of the
+mana he lost will be gain back and also increasing his mana regeneration by 8.5 for 7 seconds after the shield duration ends, coldown of 
+40 seconds
 
 Talent 2
-increase Mongrethod attack damage by 20 and his attack speed by 35
-increase Mongrethod spell amp by 0.7% for every 10 current attack speed he got and increase his Rain of Fire Strenght scaling by 1% for
-every 7 strenght and 12 inteillgence he got, Rain of Fire will also gain 5% of Mongrethod health into bonus radius.
+increase Mongrethod attack damage by 14 and his attack speed by 35
+increase Mongrethod spell amp by 0.7% for every 8 current attack speed he got and increase his Rain of Fire Strenght scaling by 1% for
+every 4 current attack damage he got, Rain of Fire will also gain 5% of Mongrethod health into bonus radius and will heal Mongrethod by
+0.9% of his max health every time it damage enemys, Burn damage will give 0.1% health back.
 
 PASSIVE D OR F PitLord
 Increase overall stats and give a positive and negative buff
 
 BUFF 
-Mongrethod will gain 4 mana from strenght and 3 health from Inteillgence, he also gain 25% more Inteillgence and Strenght from items,
+Mongrethod will gain 4 mana from strenght and 2 health from Inteillgence, he also gain 25% more Inteillgence and Strenght from items,
 each Strenght and Inteillgence points will give Mongrethod 0.20 attack speed his spells will always spellvamp for 10% of the damage dealt
 and each instence of damage the enemys take from his spells will reduce their healing Source by 1% up to 13% reduction for 8 seconds
 that refresh on hit, he also start with a special ring.
@@ -36,9 +38,9 @@ can also be use to double the effect of the Ring for 10 second, cooldown of 90 s
 
 talent level 40 upgrade PitLord
 add a new modifier Chaos Lord
-Mongrethod will gain 20% cooldown reduction and he also gain 0.4% spell amp for every 7 strenght he got, he will alway have 2 Chaos
+Mongrethod will gain 25% cooldown reduction and he also gain 0.7% spell amp for every 4 strenght he got, he will alway have 2 Chaos
 Infernal aside him destroying everything in the name of there new lord Mongrethod, they will last until they die and will respawn every
-45 seconds after they die.
+75 seconds after they die.
 
 GREATER CHAOS INFERNAL STATS
 health 250 plus 40% of Mongrethod health
@@ -146,7 +148,7 @@ reduce cooldown by 3
 
 add a new modifier Death Pit
 enemys that are inside of Pit of Hatred will lose 25% overall damage and take 10% increase damage from all Source, if they die inside
-of it they will make 1 wave of Rain of Fire with all effect on it and dealing 20% more damage as well, reduce the coldown of Pit of
+of it they will make 1 wave of Rain of Fire with all effect of it and dealing 20% more damage as well, reduce the coldown of Pit of
 Hatred by 0.8 for every enemys dead inside of it and increase Mongrethod life regeneration by 3.5 for every enemys inside of it,
 allys will take 15% less damage from all Source of damage (not Pure) and making all debuff duration last 35% less longer on Mongrethod
 and his allys, Pit of Hatred will Ignore Magic resist.
@@ -175,7 +177,7 @@ increase Cleave radius by 40
 increase the damage duration for both by 15
 
 add a new modifier Infuse Cleaver
-Chaos cleave now deal 3% of the enemy current health as damage 0.4% for boss and Chaos Cleave will lifesteal on all unit hit instead
+Chaos cleave now deal 1% of the enemy current health as (0.2% for bosses) and Chaos Cleave will lifesteal on all unit hit instead
 of the primary target also increase Mongrethod attack range by 150 and cast range by 250 ,killing any boss will restore Mongrethod
 life to full and he also give 50% of his damage bonus gain to allys, also increase all of his spell and Chaos Cleave damage vs DEMON
 TYPE by 15%
