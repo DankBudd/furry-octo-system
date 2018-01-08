@@ -148,24 +148,24 @@ Blast with all of its effect and dealing 50% increase damage as well, enemys wil
 the duration they attack him, they will do 40% less damage to him, Each enemys hit with Iron Charge will increase its base damage by 1
 up to 25 bonus damage, at 20 bonus damage Xarofos will gain 10% damage reduction and 100 movespeed also gaining Phase, With the Phase
 bonus he will deal 15% of his strenght into damage when he pass inside of enemys, can only happen every 10 seconds, work with the charge
-as well.
+as well, Xarofos will lose 5 stacks if he doesnt hit anyone, he will also lose 1 stack every time he gets slow.
 
 
-PASSIVE D OR F Infuse Iron Body
+PASSIVE D OR F Infuse Iron Body (damage return work like return passive from centaur)
 Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
 gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
 regeneration, he also increase all source of Health regeneration on him and his allys for 50% of his bonus in a 1200 radius
 
-damage reflected 11% 13% 15% 17%
+damage reflected 11% 14% 17% 20%
 Health bonus 8% 12% 16% 20%
-Armor bonus 3 7 11 15
+Armor bonus 3 6 9 12
 health regeneration bonus 20% 30% 40% 50%
 health regeneration 0.2 0.3 0.4 0.5
 max stacks 15 30 45 60
-duration 2.4 2.5 2.6 2.7
+stacks duration 2.4 2.5 2.6 2.7
 
 talent level 20 upgrade Infuse Iron Body
-increase damage reflected by 8%
+increase damage reflected by 5%
 increase health regeneration bonus by 20%
 increase health regeneration by 0.1
 increase duration by 0.4
@@ -173,11 +173,27 @@ increase duration by 0.4
 add a new modifier Iron Will
 Xarofos cannot lose armor by debuff cause by the enemys but the enemys will alway do 10% of their damage in Pure on him with anything
 and make his Health regeneration bonus Source Global and giving the same amount that Xarofos gets instead of reducing it by 50%, all
-Movespeed slow or Armor lost debuff will Enrage Xarofos giving him 10 bonus armor with 25% increase movespeed and 0.60 reduce base
+Movespeed slow or Armor lost debuff will Enrage Xarofos giving him 10 bonus armor with 15% increase movespeed and 0.70 reduce base
 attack time for 6 seconds, this will have no coldown to proc again and if he get Enrage again while he is Enrage, he will Become
 Pure Holy Iron, gaining 100% increase Healing effect and Health regeneration Source bonus for him self for 10 seconds, only proc every
-60 seconds, also increase his strenght by 10% and his magic resist by 25% of his total armor.
-
+80 seconds, refresh the duration of Iron Will when Pure Holy Iron proc and increase its duration by 4 seconds also increase his strenght
+by 10%, And his magic resist by 15% of his total armor.
 
 ULTIMATE R Titan Form
+Xarofos Become a Titan of Iron gaining 125% Size but reducing his movespeed by 25%, While in Titan Form he will reduce all form of
+debuff duration with Stun, Blinds, roots, Silence and healing effect reduction, he also gain increase health and Strenght but reducing
+his Agility to 0 for the duration of Titan Form, he also gain 2 new spells that will replace his Iron Blast and Iron Charge (talents
+will have no effect for those spells -Iron Blast and Iron Charge), Molten Steel will also be in effect while in Titan Form, having no
+mana cost and gaining increase radius, armor and magic resist
 
+Status Resistence 35% 50% 65%
+bonus Health 500 1000 1500
+bonus Strenght 25 50 75
+Molten Steel radius bonus 125 175 225
+Molten Steel bonus armor 4 8 12
+Molten Steel bonus magic resist 6% 12% 18%
+
+SPELL Q While in Titan Form
+
+
+SPELL E While in Titan Form
