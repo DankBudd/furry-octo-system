@@ -159,16 +159,16 @@ base burn damage 10% 15% 20% 25% of intelligence type Magical every 0.5 seconds
 increase burn damage 2% of inteillgence every attack
 max stack 9 11 13 15 of increase burn damage
 healing reduction 11% 14% 17% 20%
-explosion damage 10 20 30 40 type pure plus 70% of intelligence
-Base radius of Incinerate explosion 100 125 150 175
-bonus radius of Incinerate explosion 150% 200% 250% 300% of Volcanus Inteillgence
+explosion damage 10 20 30 40 type pure plus 30% of intelligence
+Base radius of Incinerate explosion 200 215 230 245
+bonus radius of Incinerate explosion 40% 60% 70% 80% of Volcanus Inteillgence
 Incinerate duration 3 second
 
 talent level 15 upgrade Incinerate
 Increase Base burn scaling inteillgence by 15%
 increase max stack of burn by 8
-increase explosion inteillgence scaling by 50%
-increase base radius by 75
+increase explosion inteillgence scaling by 20%
+increase base radius by 45
 
 add a new modfier Fire Blast
 Incinerate will explode after the duration end even if the target is still alive but if he dies, he will Spread Incinerate to other
