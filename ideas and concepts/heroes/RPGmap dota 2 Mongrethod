@@ -4,7 +4,7 @@ Starting item Gaint Cleaver give 3 damage and 2% lifesteal base attack time 2.30
 LEVEL 20 TALENT
 
 Talent 1
-increase Mongrethod health by 300 and his life regeneration by 4
+increase Mongrethod health by 275 and his life regeneration by 3.5
 Mongrethod will gain 25% of his health into bonus mana and every 100 current mana it will give Mongrethod 0.4 armor and 1% magic resist,
 he also gain a 7 spell call Chaos Shield, all damage taken will be on Mongrethod mana instead of his health for 4 seconds, 60% of the
 mana he lost will be gain back and also increasing his mana regeneration by 8.5 for 7 seconds after the shield duration ends, coldown of 
@@ -31,10 +31,10 @@ slows duration will damage Mongrethod by 0.6% of his max health and also burn 1.
 will be damage.
 
 UnderWorld Ring Special Item
-increase spell amp by 7% increase by 0.2% every level
+increase spell amp by 6% increase by 0.4% every level
 increase mana regeneration by 0.4 increase by 0.2 every level
 increase life regeneration by 0.2 increase by 0.1 every level
-can also be use to double the effect of the Ring for 10 second, cooldown of 90 second
+can also be use to double the effect of the Ring for 10 second, cooldown of 110 second
 
 talent level 40 upgrade PitLord
 add a new modifier Chaos Lord
@@ -61,11 +61,11 @@ health damage to bosses, Chaos Infernal will also cleave and burning them with C
 they will Cleave 335 radius infront of them
 
 
+
 SPELL Q Rain of Fire
 Channel a raining wave of fire from the sky dealing damage and burn the enemy for 0.3% 0.4% 0.5% 0.6% of max health and current health
 for bosses it also reduce the enemy movement speed every time they get damage by Rain of Fire, at level 4 of this spell its no longer a
 channel, has a base burning damage with the max health burn
-
 
 damage 8 11 14 17 Plus 15% 18% 21% 24% of Strenght and Inteillgence per wave, damage type pure
 base Burn damage 4 5 6 7 plus 5% of Strenght and Inteillgence per 1 seconds, damage type pure
@@ -119,10 +119,10 @@ remove mana cost
 add a new modifier Abyssal Howl
 now affect Mongrethod and ally giving them 200% of the damage reduction of % and flat as bonus damage for 6 second, enemys that die
 under the effect of Howl of Terror will give Mongrethod 3 health, 2 mana and 0.04 health and mana regeneration up to 100 max, at 45
-stacks Mongrethod will gain 8% damage reduction with 250 radius on Howl of Terror and 10 base damage increase, at 90 stacks Mongrethod
-will gain 15% increase scaling on Howl of Terror and remove its mana cost as well, Howl of Terror will also Fear enemys for 1.5 seconds
-and while they are Fear all slows will have 300% more slowing effect bonus on them and also making them take 35% increase damage from
-all Source, Mongrethod will lose 3 stack every time he gets slow and lose 65% stack upon death
+stacks Mongrethod will gain 8% damage reduction with 250 radius on Howl of Terror and 10 base damage increase for Howl of Terror, at 80
+stacks Mongrethod will gain 15% increase scaling on Howl of Terror and remove its mana cost as well, Howl of Terror will also Fear enemys
+for 1.5 seconds and while they are Fear all slows will have 300% more slowing effect bonus on them and also making them take 35%
+increase damage from all Source, Mongrethod will lose 3 stack every time he gets slow and lose 65% stack upon death
 
 SPELL E Pit of Hatred
 infect the ground with Chaos increasing Mongrethod armor and magic resist, he also gain a shield from his max health as well and all
@@ -130,21 +130,21 @@ enemys that come inside of Pit of Hatred will be force to attack him
 
 damage 20 30 40 50 plus 25% 45% 65% 85% of strenght type magical
 shield from health 15% 22% 29% 36%
-armor 3 5 7 9
+armor 4 6 8 10
 magic resist 10% 14% 18% 22%
 duration 5.5 6 6.5 7
-shield duration 5.5 seconds
+shield duration 5.5 5.8 6.1 6.4 seconds
 base radius 375 400 425 450
-radius increase by 100% 120% 140% 160% of strenght
+radius increase by 60% 90% 120% 150% of strenght
 cooldown 26 24 22 20
 mana cost 100 200 300 400
 
 talent level 20 upgrade Pit of Chaos
 increase shield bonus amount by 14%
-increase armor bonus by 3
-increase magic resist bonus by 9%
-increase duration by 1 -same for shield-
-reduce cooldown by 3
+increase armor bonus by 4
+increase magic resist bonus by 10%
+increase Pit duration by 2
+reduce mana cost to 200 at all levels
 
 add a new modifier Death Pit
 enemys that are inside of Pit of Hatred will lose 25% overall damage and take 10% increase damage from all Source, if they die inside
@@ -162,7 +162,7 @@ seconds from bosses, radius of 1200 to gain the bonus, they also have their own 
 Strenght and Inteillgence 8% 10% 12% 14%
 lifesteal 11% 14% 17% 20%
 Spell vamp 10% 15% 20% 25%
-cleave damage 35% 45% 55% 65%
+cleave damage 35% 40% 45% 50%
 cleave radius 270 285 300 315
 increase cleave radius by 20% 25% 30% 35% of Strenght
 bonus damage per enemy death 1 1 1 2
@@ -172,7 +172,7 @@ Talent level 20 upgrade Chaos Cleave
 increase Strenght and inteillgence gain by 1%
 increase lifesteal by 5%
 increase spellvamp by 10%
-increase cleave damage by 10%
+increase cleave damage by 15%
 increase Cleave radius by 40
 increase the damage duration for both by 15
 
@@ -207,6 +207,6 @@ increase duration of Doom Guard by 5
 add a new modfier Demon Master
 now summon 1 more Doom Guard and any enemy that get slain by the Doom Guard kill will increase its damage by 2, life by 35 and attack
 speed by 4 and if the Doom Guard die it will return to Mongrethod increase his strenght by 25, damage by 35% and life regeneration by
-0.75% that last for 20 second max stack of 2 and refresh upon getting a new one, he also make his Rain of Fire summon 2 Infernal every
+0.45% that last for 20 second max stack of 2 and refresh upon getting a new one, he also make his Rain of Fire summon 2 Infernal every
 cast (they got the same stats from the talent level 10 of rain of fire and does increase how much infernal here is with the talent
 upgrade level 10)
