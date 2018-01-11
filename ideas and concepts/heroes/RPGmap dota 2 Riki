@@ -1,17 +1,19 @@
-Riki -- High-DPS, starting stats 4 int, 10 agi, 4 str, base speed 280, base damage 3, Stats Gain per level 0.30 int, 0.30 str, 1.00 agi
+Riki -- High-DPS, starting stats 5 int, 10 agi, 3 str, base speed 280, base damage 3, Stats Gain per level 0.50 int, 0.30 str, 1.00 agi
 starting item Weak Dagger increase damage by 2 and give 3 attackspeed base attack time 1.40
 
 LEVEL 20 TALENT
 
 talent 1
-increase Riki Pure Evasion by 5% and his health by 125
-Riki will gain 1% normal Evasion for every 4 agility up to 35% from agility max and for every 1% evasion riki got, he gain 0.6% max
-health bonus
+increase Riki health by 175 and his armor by 7
+Riki will gain 1% evasion for every 85 health missing and also gaining 0.2 health regeneration for every 65 health missing, Smoke
+Grenade will give allys 5 plus 10% of riki Agility in health regeneration to them and also reducing all incoming damage while in the
+Smoke Grenade by 12%, also reduce Smoke Grenade coldown by 2 and mana cost by 75
 
 talent 2
-Increase Riki agility by 10 and his damage by 8
-Any items use that deal damage, Riki will add 100% of his attack damage to that item and having 20% more damage with items use as well
-and all of riki spell will deal 35% of his agility into bonus damage as well.
+Increase Riki agility by 10 and his Inteillgence by 14
+Riki will gain 30% of his Inteillgence into bonus agility and every 1 point of agility will give Riki 4 mana and further increase the
+attack speed gain from agility by 0.40, Riki Dagger Strike and Blink Strike will have 15% coldown reduction and have 40% of Riki Agility
+in bonus damage, they will also reduce all healing source on the enemys target by 12% for 9 seconds
 
 PASSIVE F OR D Thief Soul
 increase overall stats and give a positive and negative buff
