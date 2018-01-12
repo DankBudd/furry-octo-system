@@ -1,4 +1,4 @@
-Sven Starting Stats 6 str, 5 agi, 4 int base speed 240, base damage 12, Stats gain 1.10 str, 0.70 int, 0.50 agi
+Sven Starting Stats 11 str, 7 agi, 2 int base speed 240, base damage 9, Stats gain 1.10 str, 0.70 int, 0.50 agi
 
 TALENT LEVEL 20
 
