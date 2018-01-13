@@ -38,13 +38,14 @@ increase base damage bonus by 10
 increase Agility bonus by 8
 increase Attack speed by 55
 increase Evasion by 10%
+Riki Basic attacks will also crit for the same amount on Roktoru Dagger.
 give 50% chance to True Strike, Ignoring Evasion and dealing 75% of Riki Agility in Pure damage
 
 talent level 25 upgrade Thief Soul
 add a new modifier Death to the Weaks
 every attacks will do 0.7% of the target current health in damage and spell will do 0.5% of their max health in damage, Enemys below
-50% health will take 40% increase damage from Riki spell that does damage and if their are below 18% health they will take 125% increase
-damage from riki spells and attacks as well, also increase his pure resist by 35% and also reduce his magical damage output by 10%
+50% health will take 40% increase damage from Riki spell that does damage and if their are below 25% health they will take 125% increase
+damage from riki spells and attacks as well, also increase his pure resist by 35% and also reduce his magical damage output by 25%
 
 
 SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on this total basic attack damage
@@ -118,11 +119,11 @@ mana cost 100 130 160 190 plus 3% of max mana
 cooldown 26 25 24 23
 
 talent level 15 upgrade Smoke Grenade
-increase smoke damage by 45%
+increase smoke damage by 80%
 increase miss chance by 6%
 increase slow by 7%
 increase magic resist by 8%
-increase smoke duration by 1.8
+increase smoke duration by 0.8
 
 add a new modifier Snake Poison Smoke -color of the Smoke will become green purple mix-
 Riki Smoke will deal 15% of his attack damage every 0.4 seconds in Pure damage, they will also take 2% increase damage from it
@@ -157,14 +158,27 @@ of that damage dealt as well, he also gain 1% damage reduction every time he doe
 75, max stack of 12% damage reduction, he will lose 2 stacks if he get stun or root, he also become immune to Slows effects.
 
 
-ULTMATE R Dagger Dance
+ULTMATE R Dagger Dance - Physical
+Riki Create A Arema of Dagger around him, dealing damage every seconds and each hit done on enemys will reduce their armor and their
+magical damage output, Riki will also gain increase Health regeneration and Agility while he Stand in his Dagger Dance. If he exit is
+Dagger Dance it will cancel it, Riki also become Perfect Invis, enemys cannot see him or target him and while he is in Dagger Dance
+he cannot do normal attacks but cast his spell at will and have them cost 30% less mana and have 40% coldown reduction, the debuff will
+refresh on hit of Dagger Dance.
 
+Damage per seconds 75% 90% 110%
+Armor reduce 1.5 2 2.5
+magical damage reduce 2% 4% 6%
+health regeneration 20 30 40
+Agility 30 45 60
+Debuff duration 8 seconds
+Dagger dance duration 9 10 11
 
+talent level 40 Upgreade Dagger Dance
+increase damage by 25%
+increase armor lost by 0.5
+increase agility gain by 20
+increase the duration of dagger dance by 2
 
-
-
-
-
-
+add a new modifier 
 
 
