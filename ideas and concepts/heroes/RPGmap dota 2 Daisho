@@ -114,7 +114,8 @@ duration 1.5 1.8 2.1 2.4
 armor reduction 0.4 0.5 0.6 0.7 every tick
 magic resist increase 15% 20% 25% 30%
 Evasion increase 20% 30% 40% 50%
-radius 280 310 340 370
+base radius 280 310 340 370
+increase radius by 25% of Agility
 mana cost 95 125 155 185
 cooldown 4 the cooldown stay freeze while in BladeStorm
 
