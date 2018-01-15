@@ -60,11 +60,11 @@ magic resist reduction increase by 7%
 reduce cooldown by 2
 
 add a new modifier Green Flame
-after the buff duration end, it will make a green flame on allys healing them by 4 8 12 16 plus 16% of inteillgence every 1 second
-and increasing healing effect by 25% and for the enemys they will take 3 6 9 12 plus 32% of inteillgence in Poison Magical damage every
-0.5 second and reducing healing effect by 30%, any allys that kill enemys affected by the green flames will gain 30 45 60 75 plus 150%
-of inteillgence as health to them. the green flame will last 4 second and can get spread by the explosion but only having 2 second
-duration
+after the buff duration end, it will make a green flame on allys healing them by 4 8 12 16 plus 16% of Furion inteillgence every 0.5
+second and increasing healing effect by 25% and for the enemys they will take 3 6 9 12 plus 32% of inteillgence in Magical damage every 
+0.5 second and reducing healing effect by 20%, any allys that kill enemys affected by the green flames will get heal by 30 45 60 75 plus
+100% of inteillgence as health to them. the green flame will last 5 second and can get spread by the explosion but only having 2.5
+second duration
 
 SPELL W
 Treant Guard
@@ -85,50 +85,66 @@ When Treants dies, they will do a smaller Version of Nature Wrath Dealing 15% 20
 radius
 
 Treant Passive 2 Nature Attack
-Treants will do 15% of their damage in Pure and every 4 attack they will do 20% 25% 30% 35% of their damage in Pure and also cleaving
-as well (330 radius in front of them), they will gain 1% health back for every enemys hit with Cleave.
+Treants will do 15% of their damage in Pure and every 3 attack they will do 20% 25% 30% 35% of their damage in Pure and also cleaving
+as well (330 radius in front of them), they will gain 1% health back for every enemys hit with their Cleave.
 
 talent level 10 upgrade Treant Guard
 reduce cooldown by 3
-increase Treant life by 60% of int scaling
+increase Treant life by 40% of int scaling
 increase Treant damage by 4-6
 increase max treant by 2
 reduce the base attack time by 0.10
 reduce mana cost by 75
 
-add a new modifier Treant Nightmare
-When the Treants dies, they will spawn 2 lesser Version of them with 40% of the owner stats, these smaller version will have 15% more
+add a new modifier Treants Nightmare
+When the Treants dies, they will spawn 2 lesser Version of them with 35% of the owner stats, these smaller version will have 15% more
 magic resist with 4 more armor, they also have 40% pure resist as well, If Furion dies he will spawn 8 normal Treants that got 50%
 increase stats but only last 18 seconds and will spawn lesser version Treants as well. Treants will also Become immune to all stuns
 durations and reduce roots and slows duration by 50% and each attacks they do will increase their attack speed by 7 up to 70 attack
-speed bonus
+speed bonus, Smaller Treants will also do Nature Wrath explosion but only 5% of its damage and heal.
 
 SPELL E
 Pure Nature
 Make a garden at the location buffing ally and treant also healing them and as a small chance of spawning a Treant
-the Treant scale off by Treant Guard but only last 15 second and dont spawn any small Treant if the talent level 15 is taken, furion may
-not be affect by Pure Nature
+the Treant scale off by Treant Guard but only last 15 second and will spawn smaller treants if the level 10 talent is pick, Furion will
+not be affected by Pure Nature healing effect.
 
 Heal per second 15 25 35 45 plus 40% of int
-duration 9
-Treant Spawn chance per second 12% 14% 16% 18%
-radius 600 650 700 750
-attackspeed bonus 20 30 40 50 
+duration 8 9 10 11
+Treant Spawn chance per second 14% 16% 18% 10%
+radius 600 700 800 900
+attackspeed bonus 20 35 50 65 
 damage bonus 9% 12% 15% 18%
 cooldown 23 22 21 20
-lifecost 100 150 200 250 plus 10% of furion max life
+lifecost 25 100 175 250 plus 5% of furion max life
 
 talent level 15 upgeade Pure Nature
 increase duration by 2
 increase radius by 250
 increase attack speed by 25
-increase damage bonus by 7%
-reduce life cost by 8%
 
 Give a new modifier Garden
-Pure Nature will always spawn 5 Flowers that got 150% of the damage that Furion got and having 450 attack range they also got
-650 life with 9 armor and 25% magic resist they got Poison Nature that reduce healing effect on enemys by 15% and reduce their
-life regeneration by -8 for 3 second total and if any flowers dies they will heal all nearby allys 400 radius by 4% of thiers health
+Furion will now be able to get Healing from Pure Nature and every 0.5 seconds, Pure Nature will gain 15 bonus radius and also increasing
+healing effect by 3% as well for every seconds. Pure nature will also spawn 5 Flower of Life, these come with 1 spell and 1 passive,
+when Pure Nature durations ends, it will spawn a Greater Treant with Triple the stats of the Original treants and also giving all allys
+4 armor and 10% magic resist in a 750 radius around it, the greater Treant will last 10 seconds and will not spawn any Treants on death.
+
+FLOWER OF LIFE STATS Range 625
+health 325 plus 10% 15% 20% 25% of Furion Health
+mana 700 plus 10% of Furion Mana
+Armor 5
+Magic resist 15%
+damage 9-17 plus 10% of Inteillgence
+Base attack time 1.45
+
+Passive Poison Spit
+The flowers attacks will Poison the enemys dealing 1 Pure damage per seconds that last 5 seconds and will stacks with the other Flower
+Poison Spit. For Each stacks, the flowers will gain 2 attacks speed. Each debuff got their own duration and will not refresh if they get
+a Poison Spit debuff.
+
+Spell Nature Link Auto Cast, mana cost 175, coldown 12
+The Flowers will Link 3 random allys (flower cannot be Link), those Linked allys will Separate the damage they take and will reduce
+the damage they also take by 10%, the Link last 45 seconds and will Vanish if one of the 3 allys go below 30% max health.
 
 PASSIVE D OR F
 Nature Mastery
@@ -136,7 +152,7 @@ Increase the stats of the Treant Guard and passively give Furion movement speed 
 his basic spell by 50% upon casting and having them cost 35% less mana, Spell that heal will get increase healing effect when the
 empower Trigger, items will have 50% reduce chance to Trigger the empower.
 
-Increase Treant life by 15% 25% 35% 45%
+Increase Treant life by 15% 20% 25% 30%
 Increase the base damage of treant by 3 6 9 12
 Increase attack speed by 15 25 35 45
 increase the duration of Treant by 15 20 25 30
@@ -146,7 +162,7 @@ increase healing spell and items 15% 25% 35% 45%
 radius global
 
 talent level 15 upgrade Nature Mastery
-increase Treant life by 15%
+increase Treant life by 10%
 increase healing bonus by 15%
 increase chance for Empower by 8%
 increase Treant attack speed bonus by 15
