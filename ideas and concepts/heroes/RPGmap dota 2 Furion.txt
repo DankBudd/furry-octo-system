@@ -3,15 +3,19 @@ Furion -- Summoner-Support , starting stats 7 int, 2 agi, 7 str, base speed 290,
 
 Skill Elements - Poison -
 
-LEVEL 20 TALENT
+LEVEL 30 TALENT
 
 talent 1
-increase Furion life regeneration by 5 and health by 10%
-Treant Guard and the Ancient of War will gain 12% of Furion health for them
+Increase Furion health by 235 and his health regeneration by 3.2
+Furion Treants and the Ancient of War will gain 14% of Furion health for them, Furion also give 10% of his strenght in bonus magic
+resist for him and his Treants and the Ancient of War, reduce the coldown of Furion spell by 1.5 and also reduce their mana cost by 25%,
+Nature Wrath will have 125 bonus radius for the Explosion.
 
 talent 2
-increase Furion spell amp by 10% and Healing amp by 10%
-Treant Guard and the Ancient of War will gain bonus attack speed by 30% of Furion Spell amp and Healing amp
+Increase Furion healing amp by 14% and his Inteillgence by 15
+Furion Treants and the Ancient of Wars will gain 8% more scaling damage from Furion Inteillgence and they will also gain 20% of Furion
+Inteillgence into bonus attack speed for them, they also lifesteal for 10% of the damage dealth with spells or auto attacks, Pure
+Nature will have 1 seconds duration bonus and will deal 50% of its healing into damage for enemys
 
 PASSIVE D OR F Nature Way
 give a positive and negative buff
@@ -180,12 +184,12 @@ with your intelligence for damage,life and mana also come with 2 spell and passi
 
 Life 150 300 450 plus 200% 400% 600% of int
 mana 200 300 400 plus 150% 200% 250% of int
-damage 13-20 23-30 33-40 plus 20% 30% 40% of int
-base attack time 2.30 2.10 1.90
-armor 5 8 11
+damage 13-20 23-30 33-40 plus 20% 25% 30% of int
+base attack time 2.30 2.20 2.10
+armor 4 9 14
 magic resist 15% 30% 45%
 
-SPELL 1 Nature Slam
+SPELL 1 Wood Slam
 Slam the Ground kocking enemy away and stuning them for 1 1.5 2 second dealing 40 70 100 pure damage plus 3% of is max life
 in a radius of 800 enemy more far than 600-800 will take 50% of the damage enemy in medium of 300-500 take normal damage and
 enemy in close range of 0-200 will take 150% damage cooldown 18 mana cost 150 200 250
@@ -198,7 +202,7 @@ PASSIVE 1 Leech Seed
 on his next attack the ancient of war will put a leaching seed on the enemy he hit dealing 15 30 45 physical damage per second
 and healing any ally near of a radius of 300 for 15 20 25 per tick of damage and heal last 10 second cooldown 20 second
 
-PASSIVE 2 Nature Punch
+PASSIVE 2 Hard Punch
 the ancient of war got 15% chance to stun the enemy in a radius of 300 dealing 30 60 90 physical damage
 and stuning for 0.3 0.5 0.7 second the primary target get 35% 55% 75% more damage and get knock away of 225 push force
 	
