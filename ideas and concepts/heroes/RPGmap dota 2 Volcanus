@@ -36,7 +36,7 @@ bonus to 35% magic resist and 33 attack damage bonus for 5.5 seconds instead als
 they will respawn every 75 seconds close to Volcanus, they cannot Recreate other Lava Spawns
 
 GREATER LAVA SPAWN STATS Range 345
-health 425 plus 28% 32% 36% 40% of Volcanus health
+health 425 plus 18% 22% 26% 30% of Volcanus health
 Mana 200 plus 15% of Volcanus mana
 Armor 9
 Magic resist 20%
@@ -129,7 +129,7 @@ Explode base on the Radius of the Volcano but only 50% of the total Radius and g
 with talent upgrade Soul Burn).
 
 LAVA SPAWN STATS Range 345
-health 275 plus 23% 27% 31% 35% of Volcanus health
+health 275 plus 9% 13% 17% 21% of Volcanus health
 no mana
 Armor 7
 Magic resist 15%
@@ -154,7 +154,7 @@ burn damage every attack and reducing healing effect as well. If the target dies
 spell will also give 3 stacks, Volcano will only give 1, Damage over time will not give any stacks, Incinerate will explode after 9
 seconds of duration if the target doesnt die.
 
-Attributes bonus 5% 7% 9% 11%
+Attributes bonus 6% 8% 10% 12%
 base burn damage 10% 15% 20% 25% of intelligence type Magical every 0.5 seconds
 increase burn damage 2% of inteillgence every attack
 max stack 9 11 13 15 of increase burn damage
@@ -171,10 +171,11 @@ increase explosion inteillgence scaling by 20%
 increase base radius by 45
 
 add a new modfier Fire Blast
-Incinerate will explode after the duration end even if the target is still alive but if he dies, he will Spread Incinerate to other
-target dealing 150% damage instead and Volcanus attack will bounce to 2 target giving them Incinerate as well and dealing only 50%
-of basic attack to that target instead of 100% and also increasing Soul Burn damage by 50% and reducing movespeed by 8% more while
-enemys are affected by Incinerate
+Incinerate will explode after 6 seconds of duration instead of 9, and if the target doesnt die and Incinerate explode when it been 6
+seconds, they will Spread Incinerate to other and also giving those Target 5 Burn Stack of Incinerate, Volcanus auto attack will bounce
+2 time dealing 50% reduce damage to them, Incinerate will Ignore Magic immune target and damage them and Incinerate cannot be Purge by
+any means, Volcanus will also have 15% chance to deal 40% bonus damage on his auto attack that work on the Bounce as well (not a crit
+modifier).
 
 ULTIMATE R
 Molten Hearth
