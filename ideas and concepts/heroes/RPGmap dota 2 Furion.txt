@@ -171,41 +171,75 @@ increase healing bonus by 15%
 increase chance for Empower by 8%
 increase Treant attack speed bonus by 15
 
-give a new modifier Go Green
-increase the damage of Furion Treant by 25% and increasing thier movementspeed by 15%
-also make Treant lifesteal for 14% of the damage dealt if they die they reduce the cooldown of furion spell by 1.5
-and also remove the penalty for the items that get healing bonus and give it to all nearby allys and summons for 50% of the healing done
-the primary target will get normal amount
+give a new modifier Iron Bark
+Treants and the Ancient of War will gain 25% Pure resist and reduce the duration of Stuns and Roots duration by 65%, Damage over time
+will have 35% reduce damage and will Inrage the Treants and the Ancient of War, gaining them 20% movespeed and 15 health regeneration
+for 4.5 seconds, Furion will gain 15% bonus mana from his total Health and 5% of his max mana will be bonus health for his Treants and
+the Ancient of War. Furion also gain 2 armor and 3% magic resist for every Treants alive, the Inrage buff got 6 seconds coldown.
+
 
 ULTIMATE R
 Gift of Verodicia
-summon the mighty Ancient of War to fight for your side and destroy any foes that are in your way that scale
-with your intelligence for damage,life and mana also come with 2 spell and passive
+Furion Summon his Ancient of War to crush his foes. The Ancient of War got 2 spells and 3 passives, the last level of Gift of Verodicia
+will give the Third Passive for the Ancient of War.
 
-Life 150 300 450 plus 200% 400% 600% of int
-mana 200 300 400 plus 150% 200% 250% of int
+Life 200 325 450 plus 200% 400% 600% of int
+mana 150 250 350 plus 150% 200% 250% of int
 damage 13-20 23-30 33-40 plus 20% 25% 30% of int
 base attack time 2.30 2.20 2.10
 armor 4 9 14
 magic resist 15% 30% 45%
 
-SPELL 1 Wood Slam
-Slam the Ground kocking enemy away and stuning them for 1 1.5 2 second dealing 40 70 100 pure damage plus 3% of is max life
-in a radius of 800 enemy more far than 600-800 will take 50% of the damage enemy in medium of 300-500 take normal damage and
-enemy in close range of 0-200 will take 150% damage cooldown 18 mana cost 150 200 250
+SPELL 1 Wood Slam - Physical
+The Ancient of War slam the ground around him Knocking enemys in the air for 0.75 seconds, after they land they will deal medium
+amount of damage in a 225 250 275 radius around them and will get stun for 0.9 1.1 1.3 seconds, they also lose some armor and attack
+speed for a short duration.
+
+Damage 35 40 45 Plus 20% 30% 40% of attack damage
+Armor lost 6 9 12
+attack speed lost 30 60 90
+debuff duration 4 4.5 5
+coldown 15 14 13
+mana cost 90 110 130
 
 SPELL 2 Nature Armor
-make near ally in 350 radius armor of nature healing them for 10 30 50 per second and reducing damage taken from all source
-by 50 80 110 for 3 5 6  instances, doesnt affect ancient of war last 10 second cooldown 45 mana cost 200 300 400
+Cover the ally or the Ancient of War itself in Grass, leaf and wood making them block any type of Damage and healing them, When The
+Instence of block damage are gone or the duration ended it will give the ally target 8% 12% 16% damage reduction for 9 seconds.
 
-PASSIVE 1 Leech Seed
-on his next attack the ancient of war will put a leaching seed on the enemy he hit dealing 15 30 45 physical damage per second
-and healing any ally near of a radius of 300 for 15 20 25 per tick of damage and heal last 10 second cooldown 20 second
+Base Damage Block 40 60 80
+Block damage 10% 15% 20% of total damage taken
+healing per 1 seconds 25 40 55 plus 15% of attack damage
+Amount of Instence 6 7 8
+duration 15 seconds
+coldown 22 20 18
+mana cost 100 175 250
 
-PASSIVE 2 Hard Punch
-the ancient of war got 15% chance to stun the enemy in a radius of 300 dealing 30 60 90 physical damage
-and stuning for 0.3 0.5 0.7 second the primary target get 35% 55% 75% more damage and get knock away of 225 push force
-	
+PASSIVE 1 Leech Seed - Magical
+On his next Attack he will Leech Seed them Pulsing every 0.6 seconds, healing all allys nearby and the Ancient of War and also dealing
+damage to the enemys. Each Pulse will reduce the enemys Magic resist and slow them as well.
+
+Heal 14 22 30 plus 12% of attack damage
+Damage 8 14 20 plus 8% of attack damage
+Base slow on First Pulse 10%
+Increase slow by 3% per Pulse tick
+Magic resist lost 2% per Pulse tick
+duration 4.8 6.0 7.2
+coldown 16
+
+PASSIVE 2 Hard Punch - Pure
+The Ancient of War will sometime bash on his attacks dealing Pure damage and MiniStuning them, they will also take Increase damage
+from the Ancient of War and Furion as well, the debuff duration will last for a short duration, the Bash will go on Coldown when the
+Ancient of War bashed someone
+
+damage 30 45 60 plus 15% of attack damage
+Bash chance 20% 25% 30%
+Ministun duration 0.2 0.3 0.4
+increase damage taken by 40% 50% 60%
+debuff duration 3.4 3.6 3.8
+coldown 5 4.6 4.2
+
+Passive 3 still working on it
+
 
 talent level 25 upgrade Gift of Verodicia
 increase life of Ancient of War by 300 and int scaling by 400%
