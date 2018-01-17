@@ -1,4 +1,4 @@
-Furion -- Summoner-Support , starting stats 7 int, 2 agi, 7 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 1.00 str,
+Furion -- Summoner-Support , starting stats 5 int, 2 agi, 5 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 1.00 str,
 0.50 agi, starting item Nature Gift increase intelligence by 2 and give 30 mana base attack time 1.65
 
 Skill Elements - Poison -
@@ -31,7 +31,15 @@ Life Grass Armor Special
 increase life by 5% increase by 0.5% per level
 increase healing amp by 5% increase by 0.3% every level
 increase roots resist by 10% increase by 0.7% every level
-can also be use to heal Furion by 40% of his max health cooldown of 40 second
+Also give Furion a 7 spells, this spell will make trees at the target location.
+
+Trees Call - 7 spell (doesnt damage)
+Furion summon Trees at the location, blocking Path and allys can go pass them, When the Trees are gone they will spawn Tiny Treants
+that got 5% of the Treants stats and will last 7 seconds, they dont proc Nature Wrath on Dealth and they have Phase.
+
+Tree spawn 4-7 5-9 6-11 7-13
+Coldown 25
+
 
 talent 25 modifer
 give a new modifier Guardian of the Forest
