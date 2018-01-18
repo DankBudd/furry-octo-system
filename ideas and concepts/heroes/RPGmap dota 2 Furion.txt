@@ -1,7 +1,7 @@
-Furion -- Summoner-Support , starting stats 5 int, 2 agi, 5 str, base speed 290, base damage 6, Stats Gain per level 1.00 int, 1.00 str,
-0.50 agi, starting item Nature Gift increase intelligence by 2 and give 30 mana base attack time 1.65
+                                                             Furion the Nature Protector
+Starting stats 5 strenght, 0 agility, 5 inteillgence, Stats gain per level, 1.00 Strenght, 0.50 Agility, 1.00 Inteillgence.
+Base movespeed 285, Base attack damage 2-3, Base Regeneration Health 0.6, Base Regeneration Mana 1.1.
 
-Skill Elements - Poison -
 
 LEVEL 30 TALENT
 
@@ -38,7 +38,8 @@ Furion summon Trees at the location, blocking Path and allys can go pass them, W
 that got 5% of the Treants stats and will last 7 seconds, they dont proc Nature Wrath on Dealth and they have Phase.
 
 Tree spawn 4-7 5-9 6-11 7-13
-Coldown 25
+durations of trees 10 seconds
+Coldown 30
 
 
 talent 25 modifer
@@ -66,7 +67,7 @@ mana cost 80 120 160 200 plus 1% of max mana
 
 talent level 10 upgrade Nature Wrath
 increase heal by 70
-increase damage by 28
+increase damage by 18
 increase armor reduction by 4
 magic resist reduction increase by 7%
 reduce cooldown by 2
@@ -162,11 +163,12 @@ PASSIVE D OR F
 Nature Mastery
 Increase the stats of the Treant Guard and passively give Furion movement speed and also give him a chance to reduce the cooldown of
 his basic spell by 50% upon casting and having them cost 35% less mana, Spell that heal will get increase healing effect when the
-empower Trigger, items will have 50% reduce chance to Trigger the empower.
+empower Trigger, items will have 50% reduce chance to Trigger the empower, The Ancient of War will also gain the bonus but with 50%
+reduction to them.
 
 Increase Treant life by 15% 20% 25% 30%
-Increase the base damage of treant by 3 6 9 12
-Increase attack speed by 15 25 35 45
+Increase Treant damage by 10% 15% 20% 25%
+Increase Treant attack speed by 16 24 32 40
 increase the duration of Treant by 15 20 25 30
 increase Furion movement speed by 7% 11% 15% 19%
 spell and items empower chance 10% 14% 18% 22%
@@ -175,9 +177,9 @@ radius global
 
 talent level 15 upgrade Nature Mastery
 increase Treant life by 10%
-increase healing bonus by 15%
+increase healing bonus by 25%
 increase chance for Empower by 8%
-increase Treant attack speed bonus by 15
+increase Treant attack speed bonus by 20
 
 give a new modifier Iron Bark
 Treants and the Ancient of War will gain 25% Pure resist and reduce the duration of Stuns and Roots duration by 65%, Damage over time
