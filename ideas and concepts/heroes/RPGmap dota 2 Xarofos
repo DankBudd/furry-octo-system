@@ -1,6 +1,6 @@
                                                 Xarofos the Iron Golem Lord
-Starting stats 0 Int, 4 Agi, 14 Str, base speed 225, base damage 4, Stats Gain per level 0.00 int, 1.50 str, 0.40 agi
-Starting item Iron Fist give 1 armor and 2 attack damage Bat 2.15, Tank, high damage
+Starting stats 14 strenght, 4 agility, 0 inteillgence, Stats gain per level, 1.60 Strenght, 0.40 Agility, 0.00 Inteillgence.
+Base movespeed 225, Base attack damage 9-11, Base Regeneration Health 0.3, Base Regeneration Mana 0.0.
 
 -note-  we might want a custom model for this guy- the custom model might need some porting over for this guy if possible.
 he got 35% increase size model.
@@ -43,10 +43,20 @@ Pure Holy Steel Armor Special
 call Stolx Mana, he also doesnt gain mana regeneration from items but the Pure Steel Armor
 
 Stolx Mana 150 increase by 3 every levels
-Stolx Mana regeneration 1.5 increase by 0.1 every 2 levels
-Health 100 increase by 10 every levels
+Stolx Mana regeneration 1.5 increase by 0.1 every 3 levels
+Health 50 increase by 5 every levels
 increase armor by 1 increase by 0.2 every levels
 can be use to refill Xarofos Mana to full and become magic immune for 3.5 seconds. coldown of 65 no mana cost.
+
+Pure Holy Steel can be Upgraded at level 40 with special material, these are the following bonus stats when upgraded.
+Stolx Mana 75
+Stolx Mana regeneration 0.7
+Health regeneration 4.4
+Health 325
+Armor 4
+Magic resist 15%
+When Xarofos Use his Pure Holy Steel armor, he will Refresh all coldown of his spells as well and also gaining 25% bonus strenght for
+60 seconds but increase the coldown by 25
 
 SPELL Q Iron Blast - Physical
 Xarofos Knockdowns the enemys in front of him, stunning them and dealing medium damage to them, they will also take increase damage from
@@ -67,10 +77,10 @@ mana cost 30 40 50 60
 
 talent level 10 upgrade Iron Blast
 increase damage by 8
-increase damage scaling by 4%
+increase damage scaling by 11%
 increase cleave radius by 60
-increase attack speed gain by 35
-increase the armor buff duration by 1.5 seconds
+increase attack speed gain by 45
+increase the armor buff duration by 1.2 seconds
 reduce mana cost by 15
 
 add a new modifier Colossus Blast
@@ -87,18 +97,19 @@ him while he is in Molten Steel Form will take burning Steel damage and lose som
 cannot go lower than 3 6 9 12 armor when useing this skill. When he Activate Molten Steel he will gain 5% 8% 11% 14% magic and pure
 resist, it will also drain is mana per seconds every time it active, the debuff of the armor lost and pure damage taken will refresh
 if they hit him again and will stack up to 6 7 8 9 max, Molten Steel will reduce mana regenration by 60% when use, enemys will also
-take damage every 1.5 seconds when they stay near him. Molten Steel will only gain 25% of his armor into bonus damage.
+take damage every 2 seconds when they stay near him. Molten Steel will only gain 25% of his armor into bonus damage.
 
-damage on hit 8 9 10 12 plus 5% 8% 11% 14% of strenght
-damage every 2 seconds 4 5 6 7 plus 7% of strenght
+damage on hit 7 8 9 10 plus 6% 8% 10% 12% of strenght
+damage every 2 seconds 5 8 11 14 plus 10% of strenght
 Armor into Magic resist 115% 130% 145% 160% of total armor
 Armor into Pure resist 70% 80% 90% 100% of total armor
 armor lost per hit and 2 seconds 1.3 1.5 1.7 1.9
-Pure damaga taken increase per hit 1% 2% 3% 4%
+Pure damaga taken increase per hit 2% 2% 3% 3%
 debuff duration 2.2 2.3 2.4 2.5
 base radius of Molten Steel 375
-increase the radius by 25% of his strenght
+increase the radius by 20% of his strenght
 coldown 8
+Mana cost to Activate 15 25 35 45
 mana cost per seconds 4 7 10 13
 
 talent level 10 Upgrade Molten Steel
@@ -133,7 +144,7 @@ increase damage 10 20 30 40 plus 25% of strenght
 armor lost 7 14 21 28 while stun
 increase stun duration 0.4 0.6 0.8 1.0
 increase armor while in charge 12 20 28 36
-health regeneration per enemy hit 0.4 0.8 1.2 1.6
+health regeneration per enemy hit 0.9 1.8 2.7 3.6
 coldown 30
 mana cost 60 80 100 120
 
@@ -145,7 +156,7 @@ Increase Stun duration by 0.2
 increase armor gain while in charge by 10
 increase health regeneration gain per hit 0.8
 reduce coldown by 4
-reduce mana cost by 30
+increase mana cost by 55
 
 add a new modifier Holy Charge
 While he is Charging, he will Ignore all form of range attacks and reflect them back at them, those range attack reflected will only
@@ -166,19 +177,19 @@ regeneration, he also increase all source of Health regeneration on him and his 
 will also gain 2 bonus Movespeed for every 125 health lost.
 
 
-damage reflected 11% 14% 17% 20%
+damage reflected 12% 13% 14% 15%
 Health bonus 8% 12% 16% 20%
 Armor bonus 3 6 9 12
 health regeneration bonus 20% 30% 40% 50%
 health regeneration 0.2 per stacks
-max stacks 15 30 45 60
+max stacks 11 22 33 44
 stacks duration 2.4 2.5 2.6 2.7
 
 talent level 20 upgrade Infuse Iron Body
 increase damage reflected by 5%
 increase health regeneration bonus by 20%
 increase health regeneration per stack by 0.1
-increase duration by 0.4
+increase stack duration by 0.4
 
 add a new modifier Iron Will
 Xarofos cannot lose armor from debuff cause by the enemys but the enemys will alway do 10% of their damage in Pure on him with anything
@@ -196,16 +207,16 @@ his Agility to 0 for the duration of Titan Form, he also gain 2 new spells that 
 will have no effect for those spells -Iron Blast and Iron Charge), Molten Steel will also be in effect while in Titan Form, having no
 mana cost and gaining increase radius, armor and magic resist, he also gain some Stolx Mana regeneration While in Titan Form
 
-Status Resistence 35% 50% 65%
+Status Resistence 25% 40% 55%
 bonus Health 400 800 1200
 bonus Strenght 25 50 75
 bonus Stolx regeneration 0.5 0.9 1.3
-Molten Steel radius bonus 125 175 225
-Molten Steel bonus armor 4 8 12
-Molten Steel bonus magic resist 6% 12% 18%
+Molten Steel radius bonus 85 125 165
+Molten Steel bonus armor 4 7 10
+Molten Steel bonus magic resist 7% 11% 15%
 duration 30 seconds
 coldown 150 140 130
-mana cost 75 100 125
+mana cost 50 75 100
 
 SPELL Q Molten KnockUp - Pure -- While in Titan Form
 Xarofos will Knockup every enemys near him, dealing medium amount of damage but dealing high damage per seconds to them and reducing
@@ -215,7 +226,7 @@ him for that short duration, they will lose 0.4% of their max health every time.
 Knockup damage 40 80 120 plus 40% of Strenght
 Molten Burn damage 8 12 16 plus 20% of Strenght every 0.4 seconds
 Base armor lost 4 8 12
-debuff duration 4 6 8 seconds
+debuff duration 4 5 6 seconds
 radius 475 550 625
 coldown 9
 mana cost 35 45 55
@@ -239,3 +250,26 @@ increase duration by 10 seconds
 reduce the coldown of both skills by 2
 increase the damage of both skills by 30
 increase the Strenght scaling for both skills by 10%
+
+add a new modifier Attero Dominatus
+Xarofos Will gain a 7 Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 25% and
+make them take 35% increase damage from Pure damage type, Molten KnockUp will also Ignore Magic Immune enemys for the damage and when
+they are Magic Immune they will take 100% increase damage from Molten KnockUp, Iron Fist will also deal 5% of Xarofos health in bonus
+damage and have 50% more scaling from his Armor as well, the Damage will Become Pure instead of physical and also making the enemys
+lose 45 health regeneration for the same duration of the debuff.
+
+
+Attero Dominatus
+Xarofos will Destroy the enemy Mastery, Killing himself in the process but also dealing Extreme Pure Damage to them and reducing their
+Armor, Magic resist and their overall damage as well, Xarofos can be Revive by allys but he will gain a Debuff every time that last 240
+seconds, Reducing his max health by 75% and attack damage by 100%, he also cannot gain more than 12 16 20 armor and 15% 20% 25% magic
+resist for the duration, if he respawn normaly, he doesnt gain this debuff.
+
+base Damage 400 700 1000 plus 400% of Strenght
+Max health into Damage 4% 7% 10%
+Armor reduce 25 40 55
+Magic resist reduce 50% 60% 70%
+Overall damage reduce 35% 50% 65%
+Coldown 760
+Mana cost 85% of max
+
