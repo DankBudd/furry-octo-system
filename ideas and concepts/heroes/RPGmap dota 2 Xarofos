@@ -84,7 +84,7 @@ increase the armor buff duration by 1.2 seconds
 reduce mana cost by 15
 
 add a new modifier Colossus Blast
-Iron Blast stun cannot be resisted by any means and enemys that are stun will take 25% of Xarofos armor and strenght in damage every
+Iron Blast stun cannot be resisted by any means and enemys that are stun will take 15% of Xarofos armor and strenght in damage every
 0.2 seconds of stun duration, Iron Blast will also become a area of effect around him instead of being infront of him, if the enemys
 take more than 10% of their max health durring the stun they will lose 35% attack damage and take 65% increase damage from Physical
 Source for 2.7 seconds, Increase Iron Blast base damage by 3 for every 4 or more unit stun in one cast, max stack of 6 and at 4 stacks,
@@ -99,7 +99,7 @@ resist, it will also drain is mana per seconds every time it active, the debuff 
 if they hit him again and will stack up to 6 7 8 9 max, Molten Steel will reduce mana regenration by 60% when use, enemys will also
 take damage every 2 seconds when they stay near him. Molten Steel will only gain 25% of his armor into bonus damage.
 
-damage on hit 7 8 9 10 plus 6% 8% 10% 12% of strenght
+damage on hit 7 8 9 10 plus 6% 7% 8% 9% of strenght
 damage every 2 seconds 5 8 11 14 plus 10% of strenght
 Armor into Magic resist 115% 130% 145% 160% of total armor
 Armor into Pure resist 70% 80% 90% 100% of total armor
@@ -174,12 +174,12 @@ PASSIVE D OR F Infuse Iron Body (damage return work like return passive from cen
 Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
 gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
 regeneration, he also increase all source of Health regeneration on him and his allys for 50% of his bonus in a 1200 radius, Xarofos
-will also gain 2 bonus Movespeed for every 125 health lost.
+will also gain 1 bonus Movespeed for every 80 75 70 65 health lost.
 
 
 damage reflected 12% 13% 14% 15%
 Health bonus 8% 12% 16% 20%
-Armor bonus 3 6 9 12
+Armor bonus 2 6 10 14
 health regeneration bonus 20% 30% 40% 50%
 health regeneration 0.2 per stacks
 max stacks 11 22 33 44
