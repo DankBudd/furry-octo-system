@@ -274,3 +274,146 @@ debuff duration 8 seconds
 Coldown 760
 Mana cost 85% of max
 
+
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.4 and Agility with Strenght by 3
+-
+level 4 talent
+-
+Iron Blast will have 1 coldown reduce and have 10 less mana cost, also increase the cleave radius by 45 and its base damage by 6
+-
+increase all stats by 4 and increase healing recive by 15%
+-
+increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+-
+level 7 talent
+-
+Increase Spell amp by 10% and increase Iron Charge base damage by 10 and Molten Steel radius by 50 but reduce Xarofos movespeed by 35
+-
+Increase health by 130 and armor by 3, every time Xarofos cast any spells he will gain 2 armor and 6% magic resist for 8 seconds,
+reduce Roots duration by 15% as well.
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
+-
+Increase Stolx mana by 75 and Stolx mana regeneration by 0.7, Xarofos will spells will have 10% Stolx mana Leech and also increase
+Xp gain by 15%
+-
+level 16 talent
+-
+Increase Titan Form duration by 5 and remove its Stolx mana cost, Xarofos will also gain 25% more Pure resist while in Titan Form but
+increase its coldown by 10.
+-
+increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
+resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+-
+Increase Xarofos Infuse Iron Body damage Reflected by 3% and also gain 10% damage reduction, Xarofos cannot be Passive Break anymore as
+well, Xarofos will also gain 10% movespeed after he Cast any spells for 8 seconds
+-
+level 19 talent
+-
+Increase health by 375 and health regeneration Source by 25%, enemys that Spellvamp or Lifesteal Xarofos will be Iron Poison, dealing
+20% of his armor every 0.3 seconds and while they are Iron Poison, reduce all healing effect by 12%, the debuff last 1.2 seconds and
+deal Pure damage
+-
+increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
+limit by 45
+-
+increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
+vamp for 12% of the damage dealt
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Iron Blast and Iron Charge scaling by 15% (Iron Charge will have this Scaling on Both damage) and reduce their mana cost by 10,
+Enemys will always lose 5 armor if they get hit by those 2 spells for 4 seconds after the debuff ends, they will take 40% of Xarofos
+Strenght and armor in Physical damage.
+-
+Reduce Titan Form coldown by 10 and increase the health gain by 300 and the Status resistence by 10%, Xarofos cannot be Slowed in Titan
+Form.
+-
+Increase Physical damage by 25% and make them do 0.5% of the enemys max health in Pure damage and reduce their Overall damage by 10% for
+3.5 seconds, Xarofos will increase the Casts range of Iron Charge by 500 and reduce its coldown by 8.
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
+-
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75
+-
+level 29 talent
+-
+Increase Magic resist and Pure resist by 10%, Further increase this bonus by 15% and gain 0.3% health regeneration while in Titan Form
+-
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+30
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
+by 8 but reduce inteillgence by 12.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+-
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
+by 10%
+-
+level 36 talent
+-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
+1%
+-
+When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
+duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
+chance of War Gladiator by 25% and critical chance by 2%
+-
+level 39 talent
+-
+ANGER ASPECT, increase Sven attack speed by 3 for every 100 current point of Health Sven got and every time he lose at least 8% of his
+max health he will gain Unstable Anger, increasing his damage by 15% and his attack speed by 60 for 3 seconds but making is spell cost
+25% more damage as well, When in Titan Rage Sven will instead gain 25% mana cost reduction and also gaining 10 mana regenration as well.
+-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
