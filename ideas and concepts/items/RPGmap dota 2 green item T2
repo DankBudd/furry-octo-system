@@ -287,14 +287,26 @@ increase the user spell amp with mana regeneration and health, all magical spell
 aura that also reduce magic resist, the user will also lose magic resist when having this item on him
 
 Passive item use 1
-All magical spell will reduce the target magic resist by 8% for 3.5 seconds
+All magical spell will reduce the target magic resist by 7% for 2.5 seconds
 
 Passive item use 2
-Enemys around the user 850 radius will lose 4% magic resist
+Enemys around the user 850 radius will lose 5% magic resist
 
-Spell amp 4%-6.5%
+Spell amp 5%-8.5%
 mana regeneration 0.9-1.8
 health 100-175
-magic resist lost 7%-10%
+magic resist lost 10%
 
+
+Rusted Sword
+increase the user attack damage and primary stats, they also got a small chance to bleed the target dealing physical damage and reducing
+healing effect on them, the user will also lose some health regeneration when having this item
+
+Passive item use
+the User got 15% on auto attacks to bleed the target dealing 4 plus 6% of their primary stats in physical damage every 0.8 seconds
+and also reducing healing source by 8% for 3.2 seconds.
+
+attack damage 7-11
+primary stats 5-8
+health regeneration lost 0.7
 
