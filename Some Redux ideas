@@ -32,13 +32,23 @@ reduce stun duration cause by you 65% 60% 55% 50%
 reduce lifesteal amount by 30% 25% 20% 15%
 
 
-Weapon Master OP
-you learn the way of your weapons reducing Base attack time and increasing your damage with a chance to parry melee attacks, Parryed attack
-will return the damage you take to the attacker and increase stun duration cause by you and increase lifesteal amount as well
 
-parry chance 30% 45% 60% 75%
-damage return 80% 120% 160% 200%
-base attack time 1.1 0.9 0.7 0.5
-bonus damage 22% 44% 66% 88%
-increase stun duration by 40% 60% 80% 100%
-increase lifesteal amount by 35% 70% 105% 140%
+Piercing Attack
+Make your next Auto attack deal increase damage and Ignoring armor from the target, after 1.5 seconds the target will become Break and
+be slowed by 15%, Melee Characters will Ignore more Armor than Range Characters.
+
+bonus damage 35% 50% 65% 80%
+Armor Ignore Range 5 7 9 11
+Armor Ignore Melee 5 9 13 17
+Break and Slow duration 3.0
+coldown 13 11 9 7
+mana cost 70 90 110 130
+
+if this get Scepter upgrade here are the bonus
+
+increase the damage bonus gain and also reduce the target armor. The Armor reduction will have the same duration as the break and slow
+duration
+
+Bonus damage increase 30%
+armor lost 10
+
