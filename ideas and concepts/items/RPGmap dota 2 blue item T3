@@ -20,14 +20,14 @@ chance 18%
 damage 150%
 
 agility 10-14
-strenght 5-9
+strenght 7-10
 
 
 Magic Stone
-increase intelligence and spell amp with mana, also can be use to deal damage and slow the target
+increase intelligence and spell amp with mana, also can be use to deal damage and slowing the target.
 
 Active item use
-deal 30 magic damage plus 25% of user inteillgence to the target slowing for movement for 10% last 4 second cooldown 20 mana cost 120
+deal 30 magic damage plus 25% of user inteillgence to the target slowing for movement for 40% last 4 second cooldown 20 mana cost 120
 
 intelligence 6-9
 spell amp 7-9%
@@ -58,43 +58,46 @@ the infernal got 10% chance to deal 5 pure damage plus 2% of max health in a rad
 
 
 Molten Earth
-give strenght and agility with lifesteal for near ally, can also be use to throw a lava Ball that will bounce to near enemy
+give strenght and agility with lifesteal for near ally, can also be use to throw a lava Ball that will bounce to near enemy, the user
+will also gain some Strenght and Agility for himself.
 
 Active item use
-deal 9 physical damage plus 15% of user strenght and agility, bounce up to 7 time reducing armor by 1 and silencing for 0.25 second
-the debuff of disarmor last 3 second and can stack multiple time if hitting the same target and refreshing the duration
-cooldown 25 mana cost 150
+deal 9 physical damage plus 15% of user strenght and agility, bounce up to 7 time reducing armor by 1.7 and silencing for 0.45 second
+the debuff of disarmor last 3.5 second and can stack multiple time if hitting the same target and refreshing the duration and increasing
+it by 0.4 seconds cooldown 25 mana cost 150
 
-Passive Aura that give agility, strenght and lifesteal 700 radius
+Passive item use
+Give allys 8 Agility and Strenght also giving them 12% lifesteal, 925 radius
+
 Strenght 4-7
-agility 4-7
-lifesteal 5-10%
+Agility 4-7
 
 
-HamAxe needed Orger Club 1000 gold, Quaterstaff 875 gold and recipe 50 gold
+HamAxe
 increase user attack speed, strenght and damage with increase cleaving damage upon useing the item also passively give cleaving attack
-
+that lifeSteals on other target for a small amount
 
 Active use item
-empower next 3 attack cleaving for 70% of the damage instead and increasing damage by 15 and attackspeed by 30 for 15 second
+empower next 3 attack cleaving for 40% of the damage instead and increasing damage by 15 and attackspeed by 35 for 12 second
 cooldown 55 manacost 150
 
 Passive item use
-cleave for 20% of the damage dealt
+cleave for 20% of the damage dealt and gain 10% of that damage done by the Cleave in health restoration, the lifesteal on Cleave will
+have 10% increase bonus when the Active item buff is Active.
 
-attack damage 9-13
-strenght 10-12
-attack speed 14-20
-BAT 2.10
+attack damage 8-14
+strenght 9-12
+attack speed 15-25
+BAT 1.85
 
 Radiant Stone
 give the user true sight and give near ally bonus life regeneration and mana regeneration also inrease heal amp and mana as well
 
 Passive item use
-give true sight in a 800 radius any enemy that is invisible will take 12% increase damage last 8 second after leaving invis
+give true sight in a 800 radius any enemy that is invisible will take 20% increase damage last 8 second after leaving invis
 
 Passive item use 2
-give 3 life regeneration and 4 mana regeneration to near ally in a 800 radius
+give 2.5 life regeneration and 3.2 mana regeneration to near ally in a 800 radius
 
 heal amp 8-14%
 mana 135-175
@@ -105,23 +108,23 @@ the user will make near ally invisible making them deal more damage after breaki
 aura as well increasing stats for the user
 
 passive item use
-all ally near you will go invisble 800 radius for 4 second, if they break the invis aura they will do 20% extra damage with spell and
-basic attack and cannot go invis again for 7 second
+all ally near you will go invisble 800 radius after 4 second, if they break the invis aura they will do 20% extra damage with spell and
+basic attack and cannot go invis again for 6 second
 
 passive item use 2
 give 7 damage and 5% spell amp to near ally 800 radius
 
-all stats 4-7
+all stats 5-8
 
 
 Holy Book
 increase the user heal amp and spell amp type skill also increase mana and life can also be use to deal holy damage or heal allys
 
 active use item 1
-deal 18 plus 14% of inteillgence as magical damage or heal any ally for 65 heal plus 45% of inteillgence
+deal 18 plus 22% of inteillgence as magical damage or heal any ally for 65 heal plus 45% of inteillgence
 
-heal amp 9-12%
-increase spell amp 6-8%
+heal amp 9-14%
+increase spell amp 7-10%
 mana 115-150
 life 115-150
 
@@ -129,15 +132,15 @@ Pure Orb need magical orb with physical orb
 increase all stats and all spell will blind and slow dealing extra damage as well
 
 Passive item use 1
-Spell will slow for 7% and blind for 0.7 second giving 30% to miss and also dealing 7 pure damage
+Spell will slow for 8% and blind for 0.7 second giving 30% to miss and also dealing 6 pure damage
 
 Active item use 1
 deal 20% of total attributes as damage to a target all of that damage will be 50% magical and physical, if he die from this, refresh
 the coldown and increase the attributes scaling by 10% more for the next cast, coldown 25 mana cost 10% max mana
 
-all stats 5-8
-mana 8-12%
-cooldown reduction 5-7%
+all stats 6-9
+mana 4%-8%
+cooldown reduction 5-8%
 
 
 Blood Sword
@@ -145,16 +148,16 @@ make the target bleed and lifestealing for medium amount of damage done with ble
 the user life, damage, strenght and attack range
 
 Passive item use
-Bleed the target for 4 physical damage plus 10% of Attack and lifesteal for 20% plus 8% of strenght, of the damage dealt by bleed, last
-2 second and damage every 0.8 second
+Bleed the target for 5 physical damage plus 8% of Attack and lifesteal for 25% plus 10% of strenght, of the damage dealt by bleed, last
+2.4 second and damage every 0.6 second
 
 Active item use Uber Bleed
-bleed all target near the caster 250 radius for 7 physical damage plus 20% of Attack and lifestealing for 80% of the damage dealt
-last 3 second, any target that die durring the Uber Bleed will restore 3% of the user health
+bleed all target near the caster 375 radius for 7 physical damage plus 14% of Attack and lifestealing for 80% of the damage dealt
+last 3 second and damage every 0.5 seconds, any target that die durring the Uber Bleed will restore 3% of the user missing health
 
-damage 8-11
-Strenght 7-9
-Life 7-11%
+damage 6-11
+Strenght 5-9
+Life 7-10%
 attack range 40-55
 BAT Modifier 1.60
 
@@ -196,34 +199,34 @@ attack speed 10-15
 
 Daedalus
 increase the user Agility, inteillgence, attack speed and attack range, also give a small chance to deal increase damage with spell
-and auto attacks, can also be use to make the next attack or spell deal insane extra damage. Doesnt work for melee characters, this item
-will be muted for them
+and auto attacks, can also be use to make the next attack or spell deal insane extra damage. Doesnt work for melee characters it will
+become muted for them
 
 Passive item use Know the Spot!
-spell and auto attacks will have 12% chance to crit for 140% of the damage dealt ignoring magic resist and armor of the target and
-also reducing their magic resist by 5% and armor by 2 for 3 seconds, damage per seconds spells or effect will have 8% chance to crit
+spell and auto attacks will have 14% chance to crit for 140% of the damage dealt ignoring magic resist and armor of the target and
+also reducing their magic resist by 5% and armor by 2 for 3 seconds, damage per seconds spells or effect will have 10% chance to crit
 
-Active item use Power From Lords
+Active item use Great Power
 the next auto attack will deal 35% increase damage and reducing armor by 6 for 3 second and increase the next spell damage by 20%
-and reducing magic resist by 14% for 3 seconds, coldown 55, mana cost 18% of max mana
+and reducing magic resist by 15% for 5 seconds, coldown 55, mana cost 18% of max mana
 
 agility 9-13
 inteillgence 9-13
-attack speed 17-25
+attack speed 15-28
 attack range 90-125
-
+Bat 1.70
 
 Peicing Dagger
-increase the user damage and attack speed, ignore some armor from the target and can also be use to deal 3 attacks in a quick succes.
+increase the user damage and attack speed, ignore some armor from the target and can also be use to deal 3 attacks in a quick succes,
+and reducing their armor by 1.7 for every hit that doesnt miss from the active
 
 Passive item use
 Ignore 4 armor off the target
 
 Active item use
-next attacks will do 3 attacks in 1.25 seconds each dealing 11 plus 65% of the user attack damage and 20% of the user Primary stats as
-well, each hit will also reduce the armor by 2 stacking up to 6 that last 9 seconds, coldown 32, mana cost 12% of max.
+next attacks will do 3 attacks in 0.75 seconds each dealing 65% of the user attack damage and all Modifiers will have effects as well
+and reducing armor by 1.7 that last 10 seconds, coldown of 18, mana cost 7% of max mana
 
-
-attack damage 9-14
-attack speed 14-20
-
+attack damage 4-8
+attack speed 10-20
+Bat 1.25
