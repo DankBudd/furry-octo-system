@@ -17,7 +17,7 @@ LEVEL 30 TALENT
 
 Talent 1
 Increase Xarofos Health by 125 and his Pure resist by 10%
-Xarofos will gain 3 health per Agility and every 24 points of Strenght, Xarofos will gain 1 armor and 2% magic resist, he also gain
+Xarofos will gain 3 health per Agility and every 24 points of Strenght, Xarofos will gain 10 Stolx mana and 2% magic resist, he also gain
 10% increase Agility from his total Strenght, Molten Steel will also deal 10% of Xarofos Agility in Bonus damage and have 2 mana cost
 reduce with 75 bonus radius and have 20% spellvamp.
 
@@ -28,10 +28,10 @@ Talent 2
 PASSIVE D OR F Iron Golem
 Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
 
-BUFF Xarofos will gain 1 armor every 12 points of strenght and x5 of his armor will be bonus health for him, he also gain 15% stun and
+BUFF Xarofos will gain 1 armor every 16 points of strenght and x4 of his armor will be bonus health for him, he also gain 10% stun and
 roots resist, any silence will Enrage him removing the silence and giving him 25% increase damage and 0.5% health regeneration for 4 second
-, he will start with 15 physical block that stack with other source of block and also with 2 armor and 50 health as well, he start with a
-special armor-chest-peice that cant be change at all, he can wear 2 gloves, all of his spell will do 50% of his armor into bonus damage
+,he will start with 10 physical block that stack with other source of block and also with 25 attacks and 5% health as well, he start with
+a special armor-chest-peice that cant be change at all, he can wear 2 gloves, all of his spell will do 50% of his armor into bonus damage
 DEBUFF Xarofos will take 150% increase damage from magical attacks, Pure damage will always do 0.4% of his max health in damage, he doesnt
 gain inteillgence per level and he also got -50 in inteillgence as well, all spell or attacks that blind will last 1.5 seconds longer and
 make him take 25% increase damage from all source for the duration, he cannot pass more than 340 movespeed and he will have 0.35 base attack
@@ -43,7 +43,7 @@ Pure Holy Steel Armor Special
 call Stolx Mana, he also doesnt gain mana regeneration from items but the Pure Steel Armor
 
 Stolx Mana 150 increase by 3 every levels
-Stolx Mana regeneration 1.5 increase by 0.1 every 3 levels
+Stolx Mana regeneration 1.2 increase by 0.1 every 3 levels
 Health 50 increase by 5 every levels
 increase armor by 1 increase by 0.2 every levels
 can be use to refill Xarofos Mana to full and become magic immune for 3.5 seconds. coldown of 65 no mana cost.
