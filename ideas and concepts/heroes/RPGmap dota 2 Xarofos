@@ -50,13 +50,13 @@ can be use to refill Xarofos Mana to full and become magic immune for 3.5 second
 
 Pure Holy Steel can be Upgraded at level 40 with special material, these are the following bonus stats when upgraded.
 Stolx Mana 75
-Stolx Mana regeneration 0.7
+Stolx Mana regeneration 0.4
 Health regeneration 4.4
 Health 325
 Armor 4
 Magic resist 15%
 When Xarofos Use his Pure Holy Steel armor, he will Refresh all coldown of his spells as well and also gaining 25% bonus strenght for
-60 seconds but increase the coldown by 25
+60 seconds but increase the coldown by 25 (Titan Form will not be Refresh)
 
 SPELL Q Iron Blast - Physical
 Xarofos Knockdowns the enemys in front of him, stunning them and dealing medium damage to them, they will also take increase damage from
@@ -105,7 +105,7 @@ Armor into Magic resist 115% 130% 145% 160% of total armor
 Armor into Pure resist 70% 80% 90% 100% of total armor
 armor lost per hit and 2 seconds 1.3 1.5 1.7 1.9
 Pure damaga taken increase per hit 2% 2% 3% 3%
-debuff duration 2.2 2.3 2.4 2.5
+debuff duration 2.5
 base radius of Molten Steel 375
 increase the radius by 20% of his strenght
 coldown 8
@@ -377,22 +377,25 @@ talent defensive
 -
 level 33 talent
 -
-increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
-by 8 but reduce inteillgence by 12.
+Increase all healing Source by 15%, Increase Xarofos Iron Blast and Molten Steel debuff duration by 1.0 seconds, each 0.5 seconds will
+damage the enemys dealing 10% of Xarofos armor and Strenght in Pure damage, Xarofos also gain 2 armor per buff that allys give him with
+their spells and items active.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+Reduce Blinds effect by 25%, all Stun cause by Xarofos will have 0.4 seconds increase and make the enemys take 15% increase pure damage
+for the duration of the stun
 -
-increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
-by 10%
+Increase damage by 50 and attack speed by 125 but reduce your magic resist by 35%, armor by 11 and healing effects by 30%, Remove the
+those debuff while in Titan Form and also reduce Titan form duration by 15
 -
 level 36 talent
 -
-increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
-and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
-1%
+increase Agility and Strenght by 16 and also increase life gain from strenght by 2, Strenght will also give 0.1% spell amp per 2 points,
+Agility will give 0.15 more attack speed, Agility will also give 1 armor per 16 points. Xarofos will gain 6 Strenght and Agility per
+spells casted that last 4.5 seconds, Refresh upon casting a spells and increase its bonus Strenght and Agility by 2 and the duration by
+0.5, (Molten Steel doesnt Proc this)
 -
 When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
 duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
