@@ -39,7 +39,8 @@ attack damage by 40% and attack speed by 90 for 9 seconds. his effect can refres
 SPELL Q level
 Bloodlust
 make sven go into a Rage increasing is attack damage, attack speed and movement speed for a short time he also debuff the enemy reducing
-thier spell damage and making them explode from the inside-out taking massive damage after the debuff end.
+thier spell damage and making them explode from the inside-out taking massive damage after the debuff end, Sven will also have 0.15 base
+attack time reduce for the duration of BloodLust.
 
 attack speed 25 40 55 70
 flat movement speed 30 50 70 90
@@ -72,7 +73,7 @@ this spell will have no bonus from other source of spellvamp or lifesteal effect
 
 damage 15 20 25 30 physical damage
 base Strenght Scaling 60% 65% 70% 75%
-Increase Strenght Scaling by 20% 25% 30% 35% of Sven Strenght
+Increase Strenght Scaling by 15% 20% 25% 30% of Sven Strenght
 lifesteal base on the damage done 25% 40% 55% 70%
 current health as bonus damage 4% 6% 8% 10%
 max life as bonus damage for boss 0.4% 0.6% 0.8% 1%
@@ -87,10 +88,11 @@ increase current life as damage by 2%
 reduce cooldown by 2
 
 add a new modifier Colossus Sword
-now hit all enemys around Sven 300 radius dealing only 40% of the Base damage and Strenght scaling damage but still dealing Normal
-damage with the Current health as damage he also Instant-Kill anything that is below 20% Health reducing the cooldown of Death Blow by
-4 second and refunding 50% of its mana cost to Sven and he also got 40% chance on Instant-Kill to Heal all allys near Sven 600 radius
-by 8% of their Max health and increase the next Death Blow by 15% up to 60% max that last until next use
+now hit all enemys around Sven 300 radius dealing only 65% of the Base damage and Strenght scaling damage but still dealing Normal
+damage with the Current health as damage he also Instant-Kill anything that is below 18% Health reducing the cooldown of Death Blow by
+6 second and refunding 50% of its mana cost to Sven and he also got 40% chance on Instant-Kill to increase his attack damage by 35 and
+his attack speed by 70 for 5.5 seconds, Sven will also heal for 4% of his max health for every kill done with Death Blow.
+
 
 SPELL E
 Blood Wound
@@ -98,7 +100,7 @@ Sven sharpen his sword making it have a more clean cut making enemys lose blood 
 Sven also gain increase attack speed every hit on the target affected by Blood Wound and also increase the armor lost every time they
 lose a certain amount of health while under the effect of Blood Wound
 
-damage 8 11 14 17 physical damage per tick plus 21% 25% 29% 33% of sven strenght
+damage 8 11 14 17 physical damage per 1.0 seconds plus 11% 15% 19% 23% of sven strenght
 armor loss 4 5 6 7
 increase armor lost by 1 for every 9% 8% 7% 6% health lost when affected by Blood Wound
 duration 7 second
@@ -131,14 +133,14 @@ for basic attack crits, spell will be affected. he also gain attack speed for ev
 
 attack speed from strenght 0.15
 Base Critical damage 150% 170% 190% 210%
-increase critical damage by 25% 30% 35% 40% of Sven Strenght
+increase critical damage by 20% 24% 28% 32% of Strenght
 Critical chance 14%
-Base block damage 8 12 16 20
-increase block damage by 10% 14% 18% 22% of Sven Strenght
+Base block damage 8 10 12 14
+increase block damage by 10% 14% 18% 22% of Strenght
 block chance 50%
 
 talent level 15 upgrade War Gladiator
-increase critical damage by 20%
+increase critical base damage by 20%
 increase critical chance by 6%
 increase block damage by 10
 increase block chance by 25%
