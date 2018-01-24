@@ -177,7 +177,7 @@ regeneration, he also increase all source of Health regeneration on him and his 
 will also gain 1 bonus Movespeed for every 80 75 70 65 health lost.
 
 
-damage reflected 12% 13% 14% 15%
+damage reflected 10% 11% 12% 13%
 Health bonus 8% 12% 16% 20%
 Armor bonus 2 6 10 14
 health regeneration bonus 20% 30% 40% 50%
@@ -281,7 +281,7 @@ increase strenght gain by 0.2 every level and also increase strenght by 5
 -
 increase agility gain by 0.2 every level and also increase agility by 5
 -
-increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.4 and Agility with Strenght by 3
+increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.3 and Agility with Strenght by 3
 -
 level 4 talent
 -
@@ -307,7 +307,7 @@ level 13 talent
 -
 increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
 -
-Increase Stolx mana by 75 and Stolx mana regeneration by 0.7, Xarofos will spells will have 10% Stolx mana Leech and also increase
+Increase Stolx mana by 75 and Stolx mana regeneration by 0.7, Xarofos will spells will have 4% Stolx mana Leech and also increase
 Xp gain by 15%
 -
 level 16 talent
@@ -361,6 +361,9 @@ increase Mana by 10% and attack damage by 18, this bonus increase when chosing t
 -
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
+-
+Increase Xarofos Iron Blast and Iron Charge mana cost by 65 but increase their base damage by 15 and reduce their coldown by 1, Molten
+Steel will gain 4% scaling Strenght on both damage type, Xarofos will also gain 11 Agility and Strenght.
 -
 level 29 talent
 -
