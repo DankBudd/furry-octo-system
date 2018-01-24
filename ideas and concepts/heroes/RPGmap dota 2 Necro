@@ -32,8 +32,8 @@ spells will get 100% more duration and damage Necro by 0.7% of his max health ev
 healing Source bonus by 50%.
 
 Broken Bone Armor Special item
-increase armor by 2
-increase magic resist by 4%
+increase armor by 1
+increase magic resist by 3%
 increase the health of summon near necro by 25, they also have 14% chance to crit for 120% of their damage, 775 radius
 
 
@@ -126,7 +126,7 @@ Armor Lost debuff.
 LIGHTNING ARCHER Lightning Core
 Change the Archer attack to become a Chain Lightning that bounce to 3 target max, dealing 5 8 11 14 bonus magical damage on hit and
 reducing their magic resist by 6% 9% 12% 15% for 3 second, also change the archer attack damage to be magical attack damage and having
-0.15 0.20 0.25 0.30 reduce base attack time as well
+0.10 0.15 0.20 0.25 reduce base attack time as well
 
 talent level 10 upgrade Skeleton archer
 
@@ -261,24 +261,27 @@ level 1 talent
 -
 increase strenght gain by 0.2 every level and also increase strenght by 5
 -
-increase agility gain by 0.2 every level and also increase agility by 5
+increase Inteillgence gain by 0.2 every level and also increase Inteillgence by 5
 -
-increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.4 and Agility with Strenght by 3
+Increase Strenght and Inteillgence gain by 0.1 every level and also increase Strenght and Inteillgece by 3, Necro also gain 5% coldown
+reduction
 -
 level 4 talent
 -
-Iron Blast will have 1 coldown reduce and have 10 less mana cost, also increase the cleave radius by 45 and its base damage by 6
+Increase Death Coil base healing by 30 (50% of this goes to the explosion heal) and also increase its Inteillgence scaling damage by 15%,
+also reduce its coldown by 0.1 for every healing done to skeletons.
 -
 increase all stats by 4 and increase healing recive by 15%
 -
-increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+Increase Healing amp by 10% and Inteillgence by 8 but reduce spellamp by 5% and magic resist by 6%
 -
 level 7 talent
 -
-Increase Spell amp by 10% and increase Iron Charge base damage by 10 and Molten Steel radius by 50 but reduce Xarofos movespeed by 35
+Increase Spell amp by 10% and increase Death Coil cast range by 225 and reduce its coldown by 5 if it kill something, also increase Death
+Coil base damage by 5.
 -
-Increase health by 130 and armor by 3, every time Xarofos cast any spells he will gain 2 armor and 6% magic resist for 8 seconds,
-reduce Roots duration by 15% as well.
+Increase Skeletons Health by 35 and armor by 1, Skeleton Warriors will gain 10% Pure resist and Skeleton Archer will gain 15 attack speed
+and 5% lifesteal and Spellvamp.
 -
 level 10 talent
 upgrade spell Q
