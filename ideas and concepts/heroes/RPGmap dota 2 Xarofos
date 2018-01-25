@@ -210,13 +210,18 @@ mana cost and gaining increase radius, armor and magic resist, he also gain some
 Status Resistence 25% 40% 55%
 bonus Health 400 800 1200
 bonus Strenght 25 50 75
-bonus Stolx regeneration 0.5 0.9 1.3
+bonus Stolx regeneration 0.7 1.5 2.3
 Molten Steel radius bonus 85 125 165
 Molten Steel bonus armor 4 7 10
 Molten Steel bonus magic resist 7% 11% 15%
-duration 30 seconds
-coldown 150 140 130
+duration 60 seconds
+coldown 200 190 180
 mana cost 50 75 100
+
+-
+When in Titan Form this https://www.youtube.com/watch?v=fLMfebz9eWk&list=PLhNV2nTV_ROuIpDuJPeTcdshmfhNeVhwg&index=12 will play out for
+the duration of Titan Form.
+-
 
 SPELL Q Molten KnockUp - Pure -- While in Titan Form
 Xarofos will Knockup every enemys near him, dealing medium amount of damage but dealing high damage per seconds to them and reducing
@@ -246,10 +251,10 @@ coldown 14 13 12
 mana cost 60 100 140
 
 Talent level 40 upgrade Titan Form.
-increase duration by 10 seconds
 reduce the coldown of both skills by 2
 increase the damage of both skills by 30
 increase the Strenght scaling for both skills by 10%
+reduce coldown by 10
 
 add a new modifier Attero Dominatus
 Xarofos Will gain a 7 Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 25% and
@@ -312,8 +317,8 @@ Xp gain by 15%
 -
 level 16 talent
 -
-Increase Titan Form duration by 5 and remove its Stolx mana cost, Xarofos will also gain 25% more Pure resist while in Titan Form but
-increase its coldown by 10.
+reduce Titan Form coldown by 10 and remove its Stolx mana cost, Xarofos will also gain 25% more Pure resist while in Titan Form and he
+also gain 15 Strenght while Titan Form is not Active.
 -
 increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
 resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
@@ -346,7 +351,7 @@ Enemys will always lose 5 armor if they get hit by those 2 spells for 4 seconds 
 Strenght and armor in Physical damage.
 -
 Reduce Titan Form coldown by 10 and increase the health gain by 300 and the Status resistence by 10%, Xarofos cannot be Slowed in Titan
-Form.
+Form, and he will no longer lose his Agility in Titan Form
 -
 Increase Physical damage by 25% and make them do 0.5% of the enemys max health in Pure damage and reduce their Overall damage by 10% for
 3.5 seconds, Xarofos will increase the Casts range of Iron Charge by 500 and reduce its coldown by 8.
