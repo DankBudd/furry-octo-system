@@ -1,4 +1,6 @@
-Sven Starting Stats 11 str, 7 agi, 2 int base speed 240, base damage 9, Stats gain 1.10 str, 0.70 int, 0.50 agi
+                                                     Sven The God Slayer
+Starting stats 10 strenght, 6 agility, 3 inteillgence, Stats gain per level, 1.20 Strenght, 0.70 Agility, 0.40 Inteillgence.
+Base movespeed 315, Base attack damage 9-15, Base Regeneration Health 1.1, Base Regeneration Mana 0.7.
 
 TALENT LEVEL 20
 
@@ -20,15 +22,15 @@ increase overall stats and give a positive and negative buff
 BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 11 Strenght he also reduce stun,root and blind by
 30% he also start with 2 armor and 8% magic resist he start with a special Sword that can be change and if sven get stun for more than
 2.2 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 4 second and this
-effect can only happen every 13 seconds.
+effect can only happen every 15 seconds, Sven also gain 0.1 health regeneration per 100 health missing.
 DEBUFF sven lose 20% attack speed,10% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed weapons 
 type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by 15% and
 his attack speed by 20 for 3 second
 
 Sven old Sword Special
-damage 5
+damage 3
 attack speed lost 10
-sven got 10% chance to parry a basic attack and dealing 7 damage plus 20% of his attack damage back to the attacker
+sven got 10% chance to parry a basic attack and dealing 6 damage plus 10% of his attack damage back to the attacker
 
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
@@ -54,7 +56,7 @@ cooldown 22 21 20 19
 mana cost 70 90 110 130 plus 1% of max mana
 
 talent level 10 upgrade Bloodlust
-increase attack speed by 30
+increase attack speed by 40
 increase damage by 5
 increase falt movement speed by 10
 increase mana cost by 70
@@ -72,7 +74,7 @@ and he also lifesteal for all that amount of damage done as well, he also disabl
 this spell will have no bonus from other source of spellvamp or lifesteal effects.
 
 damage 15 20 25 30 physical damage
-base Strenght Scaling 60% 65% 70% 75%
+base Strenght Scaling 50% 55% 60% 65%
 Increase Strenght Scaling by 15% 20% 25% 30% of Sven Strenght
 lifesteal base on the damage done 25% 40% 55% 70%
 current health as bonus damage 4% 6% 8% 10%
@@ -82,8 +84,8 @@ cooldown 17
 mana 40 100 160 220
 
 talent level 10 upgrade Death Blow
-increase base damage by 20
-increase Strenght scaling by 25%
+increase base damage by 25
+increase Strenght scaling by 15%
 increase current life as damage by 2%
 reduce cooldown by 2
 
@@ -101,7 +103,7 @@ Sven also gain increase attack speed every hit on the target affected by Blood W
 lose a certain amount of health while under the effect of Blood Wound
 
 damage 8 11 14 17 physical damage per 1.0 seconds plus 11% 15% 19% 23% of sven strenght
-armor loss 4 5 6 7
+base armor loss 4 5 6 7
 increase armor lost by 1 for every 9% 8% 7% 6% health lost when affected by Blood Wound
 duration 7 second
 Attack speed bonus for every hit 4
@@ -161,19 +163,19 @@ and make him immnue to magic and debuff for 4 second, he also gain 125% increase
 base damage bonus 30 50 70
 bonus damage 40% 70% 100%
 attack speed lost 20 40 60
-duration 15 20 25
+duration 20 25 30
 life bonus 300 600 900
 coldown reduction upon killing 0.10 0.20 0.30
-coldown reduction upon killing bosses 15% 30% 45%
-coldown 80 75 70
+coldown reduction upon killing bosses 15% 20% 25%
+coldown 100 95 90
 no mana cost
 
 talent level 25 upgrade Titan Rage
 
-increase base damage by 40%
-increase attack speed lost by 40
-increase life bonus by 600
-increase coldown reduction upon killing by 0.20
+increase base damage by 50%
+increase attack speed lost by 60
+increase life bonus by 450
+increase coldown reduction upon killing by 0.10
 increase duration by 5
 increase cooldown by 15
 
@@ -192,7 +194,7 @@ increase agility gain by 0.2 every level and also increase agility by 5
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3
 -
 level 4 talent
 -
