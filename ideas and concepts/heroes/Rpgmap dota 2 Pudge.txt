@@ -1,5 +1,7 @@
-Pudge, the Butcher Starting stats 8 str, 4 agi, 0 int, base speed 300, base damage 4, stats gain per level 1.20 str, 0.00 int, 0.80 agi
-Starting item Flesh Hand give 55 health with 2 armor base attack time 2.70
+                                                    Butcher The Meat Abomination
+Starting stats 8 strenght, 4 agility, 0 inteillgence, Stats gain per level, 1.30 Strenght, 0.50 Agility, 0.00 Inteillgence.
+Base movespeed 265, Base attack damage 5-10, Base Regeneration Health 3.1, Base Regeneration Mana 0.0.
+
 
 LEVEL 30 TALENT
 
@@ -42,11 +44,11 @@ cooldown by 75% but cannot grab more than one person. enemys will also get stun 
 
 damage 25 40 55 70 physical damage and 40% 52% 64% 76% of pudge strenght
 Range 400 450 500 550
-increase range by 100% 200% 300% 400% of Butcher Strenght
+increase range by 100% 175% 250% 325% of Butcher Strenght
 Stun duration 0.7 0.8 0.9 1.0
 max hook target 2 3 4 5
 armor reduction 4 5 6 7
-increase armor reduction by 1 for every 21 20 19 18 strenght
+increase armor reduction by 1 for every 25 23 21 19 strenght
 life cost 5% 7% 9% 11%
 cooldown 17 16 15 14
 
@@ -196,8 +198,6 @@ increase strenght gain by 0.2 every level and also increase strenght by 5
 -
 increase agility gain by 0.2 every level and also increase agility by 5
 -
-increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
--
 Increase AGI and STR gain by 0.1 every level and also Increase AGI and STR by 4 and also increasing his speed limit by 50
 -
 level 4 talent
@@ -241,7 +241,7 @@ and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage 
 -
 level 19 talent
 -
-reduce all damage taken by 5% and also increase health by 275 but reduce movespeed by 30 and also reduce spellamp by 10%
+reduce all damage taken by 5% and also increase health by 375 with 5 armor but reduce movespeed by 30 and also reduce spellamp by 10%
 -
 increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
 limit by 45
@@ -274,13 +274,16 @@ increase Mana by 10% and attack damage by 18, this bonus increase when chosing t
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
 -
+Increase Butcher Strenght by 25 and his health regeneration source bonus by 30%, Fleah Heap will gain 140 max stack of health bonus
+and also give 0.2% magic resist per stacks, Butcher will lose 50 Agility and 25 attack speed.
+-
 level 29 talent
 -
-increase Pure resist by 10% and also give Butcher 10 physical block and 5 magical block that stack with other source of blocks, Further
-increase the Pure resist by 40% when Channeling Dismenber.
+increase Pure resist by 10% and also give Butcher 25 physical block and 15 magical block that stack with other source of blocks, Further
+increase the Pure resist by 70% when Channeling Dismenber.
 -
-Increase Health by 10% and reducing all health cost on spell by 1% Further increase the health bonus by 5% and the health cost reduction
-on spells by 1% every levels 5 levels above 30.
+Increase Health by 10% and reducing all health cost on spell by 3% Further increase the health bonus by 5% and the health cost reduction
+on spells by 2% every levels 5 levels above 30.
 -
 level 30 talent
 -
@@ -301,12 +304,13 @@ reduce stuns, blinds and roots effect on you by 15% and all stuns, blinds or roo
 will gain 0.5 seconds increase and gain 25% strenght scaling, Glory Hook stun cannot be resisted and it increase by 0.3 seconds
 -
 increase damage by 10 and spell amp by 14% and Each stack of Heap will also increase Butcher attack damage and attack speed by 2 
-and also gain 0.3 armor per stack and 0.4% magic resist as well
+and also gain 0.4 armor per stacks.
 -
 level 36 talent
 -
 increase Agility and Strenght by 18 and also increase life gain from strenght by 3, Attack speed gain from agility by 0.25
-and make Agility give 0.02 health regeneration and Further increase the bonus spell amp from strenght by 0.3%
+and make Agility give 0.02 health regeneration and Further increase the bonus spell amp from strenght by 0.3%, also increase Agility
+by 20 but reduce movespeed by 35.
 -
 Flesh Heap can now be Activated doubling the amount of current stack for 12 seconds but making the Active cost 4% of Butcher health
 the coldown for Reactivating the effect is 40 seconds and can be reduce by coldown reduction with 20% more bonus effect as well.
