@@ -310,3 +310,13 @@ attack damage 7-11
 primary stats 5-8
 health regeneration lost 0.7
 
+Magical Dagger
+increase the user attack speed and damage, can also be use to blink a short distence and dealing small amount of damage.
+
+Active item use Blink
+Blink 425 unit far dealing 10 plus 10% of the user Primary Attributes in Pure damage in a 315 radius arounf the user.
+
+damage 6-10
+attack speed 15-25
+
+
