@@ -113,7 +113,7 @@ Mana cost to Activate 15 25 35 45
 mana cost per seconds 6 9 12 15
 
 talent level 10 Upgrade Molten Steel
-increase magic resist gain by 20%
+increase magic resist gain by 40%
 increase pure resist gain by 25%
 increase armor lost by 0.4
 increase pure damage taken by 1%
@@ -139,8 +139,8 @@ while he is Charging and will last for 3 seconds after he is done charging, Each
 that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration, the coldown will
 reduce by 0.5 for every auto attack done.
 
-damage 20 25 30 35 plus 10% 20% 30% 40% of Strenght
-increase damage 10 20 30 40 plus 25% of strenght
+base damage 20 25 30 35 plus 10% 20% 30% 40% of Strenght
+increase damage if stun 20 30 40 50 plus 25% of strenght
 armor lost 7 14 21 28 while stun
 increase stun duration 0.4 0.6 0.8 1.0
 increase armor while in charge 12 20 28 36
@@ -155,7 +155,7 @@ increase the scaling strenght when stun by 25%
 Increase Stun duration by 0.2
 increase armor gain while in charge by 10
 increase health regeneration gain per hit 0.8
-reduce coldown by 4
+reduce coldown by 7
 increase mana cost by 45
 
 add a new modifier Holy Charge
@@ -179,7 +179,7 @@ will also gain 1 bonus Movespeed for every 120 115 110 105 health lost.
 
 damage reflected 10% 11% 12% 13%
 Health bonus 8% 12% 16% 20%
-Armor bonus 2 6 10 14
+Armor bonus 2 5 8 11
 health regeneration bonus 20% 30% 40% 50%
 health regeneration 0.2 per stacks
 max stacks 11 22 33 44
@@ -228,7 +228,7 @@ Xarofos will Knockup every enemys near him, dealing high amount of damage and de
 their armor by 40% of Xarofos total armor himself, enemys will also be force to attack him for 1.5 seconds and every time they attack
 him for that short duration, they will lose 0.4% of their max health every time. (bosses will lose 0.1% of their max health instead)
 
-Knockup damage 40 80 120 plus 40% of Strenght
+Knockup damage 40 60 80 plus 80% of Strenght
 Molten Burn damage 8 10 12 plus 15% of Strenght every 0.5 seconds
 Base armor lost 4 8 12
 debuff duration 4 5 6 seconds
@@ -242,12 +242,12 @@ and also disabling their passive with reducing their overall damage as well, the
 behind him for 50% of the damage he took and stun them as well for 50% of the duration of the normal stun. the Primary target is stun
 while he is getting push back.
 
-damage 75 150 225 plus 70% of Strenght
+damage 75 100 125 plus 100% of Strenght
 Overall damage reduce 15% 25% 35%
 Pushback Force 350 400 450 units
 stun duration 1.8
 debuff duration 5 6 7 seconds
-coldown 15
+coldown 13
 mana cost 60 100 140
 
 Talent level 40 upgrade Titan Form.
@@ -276,7 +276,7 @@ Armor reduce 25 40 55
 Magic resist reduce 50% 60% 70%
 Overall damage reduce 35% 50% 65%
 debuff duration 8 seconds
-Coldown 760
+Coldown 960
 Mana cost 85% of max
 
 
@@ -301,7 +301,7 @@ level 7 talent
 Increase Spell amp by 10% and increase Iron Charge base damage by 10 and Molten Steel radius by 50 but reduce Xarofos movespeed by 35
 -
 Increase health by 130 and armor by 3, every time Xarofos cast any spells he will gain 2 armor and 6% magic resist for 8 seconds,
-reduce Roots duration by 15% as well.
+reduce Roots duration by 15%.
 -
 level 10 talent
 upgrade spell Q
@@ -318,13 +318,13 @@ Xp gain by 15%
 level 16 talent
 -
 reduce Titan Form coldown by 10 and remove its Stolx mana cost, Xarofos will also gain 25% more Pure resist while in Titan Form and he
-also gain 15 Strenght while Titan Form is not Active.
+also gain 15 Strenght while Titan Form is not Active and also increasing Iron Blast radius by 100.
 -
 increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
 resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
 -
-Increase Xarofos Infuse Iron Body damage Reflected by 3% and also gain 10% damage reduction, Xarofos cannot be Passive Break anymore as
-well, Xarofos will also gain 10% movespeed after he Cast any spells for 8 seconds
+Increase Xarofos Infuse Iron Body damage Reflected by 3% and also gain 75 Movespeed, Xarofos cannot be Passive Break anymore as
+well, Xarofos will also gain 10% movespeed and 0.2% health regeneration after he Cast any spells for 8 seconds.
 -
 level 19 talent
 -
