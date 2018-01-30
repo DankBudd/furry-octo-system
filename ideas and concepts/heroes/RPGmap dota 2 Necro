@@ -155,7 +155,7 @@ SPELL E
 Death Coil
 deal high damage to a target reducing life regeneration on them for a short duration and for Skeletons heal the Primary Skeleton by
 high amount and explode for half of the amount for the others and increase the damage and attack speed for them, double effect on
-the primary Skeleton
+the primary Skeleton, cannot be cast on allys or necro him self that are not skeletons.
 
 damage 35 40 45 50 magical plus 75% 100% 125% 150% of inteillgence
 heal 20 40 60 80 plus 150% 180% 210% 240% of inteillgence
@@ -271,12 +271,12 @@ reduction
 -
 level 4 talent
 -
-Increase Death Coil base healing by 30 (50% of this goes to the explosion heal) and also increase its Inteillgence scaling damage by 15%,
+Increase Death Coil base healing by 20 (50% of this goes to the explosion heal) and also increase its Inteillgence scaling damage by 10%,
 also reduce its coldown by 0.1 for every healing done to skeletons.
 -
-increase all stats by 4 and increase healing recive by 15%
+increase all stats by 4 and increase healing recive by 15%, Death Coil can be cast on Necro.
 -
-Increase Healing amp by 10% and Inteillgence by 8 but reduce spellamp by 5% and magic resist by 6%
+Increase Healing amp by 10% and Inteillgence by 14 and mana regeneration by 2.1 but reduce spellamp by 10% and magic resist by 15%
 -
 level 7 talent
 -
@@ -293,30 +293,30 @@ upgrade spell W
 -
 level 13 talent
 -
-increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%, Skeletons
+will gain 10% health bonus as well with 25 movespeed.
 -
-Increase Stolx mana by 75 and Stolx mana regeneration by 0.7, Xarofos will spells will have 10% Stolx mana Leech and also increase
-Xp gain by 15%
+Increase mana by 15% and mana regeneration by 1.5, Increase by 0.1 for every 7 Primary stats and also increase xp gain by 15%, Skeleton
+will gain 2 armor and 10% magic resist.
 -
 level 16 talent
 -
-Increase Titan Form duration by 5 and remove its Stolx mana cost, Xarofos will also gain 25% more Pure resist while in Titan Form but
-increase its coldown by 10.
+Increase Death Coil base damage by 10 and its damage scaling by 20%, Death Coil will gain 400% of Necro Inteillgence in bonus cast range
+and reduce its mana cost by 45.
 -
-increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
-resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+Skeleton Mastery will also give nearby skeletons 10% damage reduction and 12% movespeed, Skeletons will no longer be able to be spellvamp
+and lifesteal upon them but increase the damage they take from Pure source by 35%.
 -
-Increase Xarofos Infuse Iron Body damage Reflected by 3% and also gain 10% damage reduction, Xarofos cannot be Passive Break anymore as
-well, Xarofos will also gain 10% movespeed after he Cast any spells for 8 seconds
+increase Necro Spell amp by 12% and his inteillgence by 6, every time he cast Death Coil he will gain 3 more inteillgence and also gaining
+0.6 mana and life regeneration for 14 seconds, this buff can stack up 3 time and refresh every time Death Coil is casted.
 -
 level 19 talent
 -
-Increase health by 375 and health regeneration Source by 25%, enemys that Spellvamp or Lifesteal Xarofos will be Iron Poison, dealing
-20% of his armor every 0.3 seconds and while they are Iron Poison, reduce all healing effect by 12%, the debuff last 1.2 seconds and
-deal Pure damage
+Increase Necro Health by 1000 and his health regeneration by 10 but reduce his armor by 15 and his magic resist by 35%, he also reduce
+all healing effect from allys by 85% but increase death coil healing on Necro by 150% if the level 4 talent is pick. Skeletons will
+have 20% health reduce.
 -
-increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
-limit by 45
+ideas on the wait
 -
 increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
 vamp for 12% of the damage dealt
