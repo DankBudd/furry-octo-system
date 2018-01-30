@@ -230,3 +230,23 @@ and reducing armor by 1.7 that last 10 seconds, coldown of 18, mana cost 7% of m
 attack damage 4-8
 attack speed 10-20
 Bat 1.25
+
+
+Blink Dagger
+Increase the user Primary stats, damage and attack damage, can also be use to blink for a medium distence witch cost a Blink Soul
+stack and also deal high damage, those can be earn by giving a certain amount of basic attacks on any targets they will also suffer some
+extra damage.
+
+Active item use Blink mana cost 75 plus 2% mana cost
+Blink 875 unit far dealing 35 plus 20% of the user Primary stats in Pure damage in a 385 radius around the user, cost 2 Blink Soul and
+doesnt have a coldown.
+
+Passive item use
+every 8 attack done will give the user 1 Blink Soul and deal 35% of the User attack damage and Primary Attribute in Pure damage, cannot
+have more than 10 Blink Soul
+
+Primary stats 12-18
+damage 6-11
+attack speed 25-40
+BAT 1.30
+
