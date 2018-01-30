@@ -34,7 +34,7 @@ sven got 10% chance to parry a basic attack and dealing 6 damage plus 10% of his
 
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
-Sven cleave for 100% of the damage in a 450 radius in front of him and if enemys die from the cleave, they will heal Sven by 1.5% of his
+Sven will gain 105% Cleave damage in a 500 radius in front of him and if enemys die from the cleave will heal Sven by 1.5% of his
 max health and restore him 2% of his max mana as well, he also become immnue to all blind effect and instead buff him, increasing his
 attack damage by 40% and attack speed by 90 for 9 seconds. his effect can refresh every time he gets blinded again going without limit.
 
@@ -131,9 +131,12 @@ PASSIVE D OR F
 War Gladiator
 Sven can block both magic and physical spell also blocking basic attack he cannot block pure damage and he will block 50% of the damage 
 per second spells, he also got a chance to deal a critical hit for more damage increase, items will critical effect will have no effect
-for basic attack crits, spell will be affected. he also gain attack speed for every point of strenght he currently got.
+for basic attack crits, spell will be affected. he also gain attack speed for every point of strenght he currently got and he will 
+cleave enemys in front of him as well.
 
 attack speed from strenght 0.15
+Cleave damage 10% 15% 20% 25%
+Cleave radius 440 460 480 500
 Base Critical damage 150% 170% 190% 210%
 increase critical damage by 20% 24% 28% 32% of Strenght
 Critical chance 14%
