@@ -157,7 +157,7 @@ deal high damage to a target reducing life regeneration on them for a short dura
 high amount and explode for half of the amount for the others and increase the damage and attack speed for them, double effect on
 the primary Skeleton, cannot be cast on allys or necro him self that are not skeletons.
 
-damage 35 40 45 50 magical plus 75% 100% 125% 150% of inteillgence
+damage 35 40 45 50 magical plus 60% 80% 100% 120% of inteillgence
 heal 20 40 60 80 plus 150% 180% 210% 240% of inteillgence
 heal explosion 10 20 30 40 plus 75% 90% 105% 120% of inteillgence
 enemy regen reduction -4 -10 -16 -22 last 4 second
@@ -314,7 +314,7 @@ level 19 talent
 -
 Increase Necro Health by 1000 and his health regeneration by 10 but reduce his armor by 15 and his magic resist by 35%, he also reduce
 all healing effect from allys by 85% but increase death coil healing on Necro by 150% if the level 4 talent is pick. Skeletons will
-have 20% health reduce.
+have 20% health reduce and death coil will have 5 seconds coldown increase.
 -
 ideas on the wait
 -
