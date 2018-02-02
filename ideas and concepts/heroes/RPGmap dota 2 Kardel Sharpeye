@@ -219,13 +219,13 @@ reductions
 
 LONG RANGE MODE
 Kardel will have bonus base damage, increase attack range, increase cast range and reduce movespeed. Also enable his Long range spells
-he also start with a point inside of this passive and having 5 levels, all ally spell that increase damage will also give extra bonus
-for Kardel by 8% 11% 14% 17% 20% bonus damage
+he also start with a point inside of this passive and having 5 levels, all ally spell that give buff to kardel will also give extra bonus
+for Kardel by 8% 11% 14% 17% 20% bonus damage for 8 seconds.
 
 increase base damage 4 12 20 28 36
-increase attack range 50 100 150 200 250
-increase cast range 110 150 190 230 270
-reduce movespeed 70 65 60 55 50 FLAT
+increase attack range 75 150 225 300 375
+increase cast range 110 200 290 380 470
+reduce movespeed 110 100 90 80 70 FLAT
 
 CLOSE COMBAT MODE
 Kardel will have increase attack speed, increase movespeed, increase damage reduction and reduce attack range. Also enable his close
@@ -233,16 +233,16 @@ range spell, he also start with a point inside of this passive and having 5 leve
 for Kardel, increasing healing spells by 8% 12% 16% 20% 24% and he will splash damage for 15% of the damage dealt in a 350 AOE from the
 first target
 
-increase attack speed 30 35 40 45 50
-increase movespeed 15 30 45 60 75 FLAT
+increase attack speed 25 35 45 55 65
+increase movespeed 20 30 40 50 60 FLAT
 increase damage reduction 8% 9% 10% 11% 12%
 reduce attack range 350 330 310 290 270
 
 talent level 20 upgrade LONG RANGE and CLOSE RANGE
 LONG RANGE MODE
 increase damage bonus by 14
-increase cast range bonus by 80
-reduce the amount of speed lost by 10
+increase cast range bonus by 130
+reduce the amount of speed lost by 20
 CLOSE RANGE MODE
 increase attack speed by 25
 increase movespeed bonus by 25
@@ -264,24 +264,26 @@ gaining 2% health regeneration for 4 seconds, only proc every 8 seconds
 
 ULTIMATE R PASSIVE HeadShot!
 Kardel knows the way to kill his enemys quick and making alot of mess, all of his spell will do Max health to enemys (bosses will take
-current health instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
+falt damage instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
 bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 225, 200,
 175 max mana. Spell that does damage every 2 second or lower will only deal 0.1% of current health in damage. HeadShot! will deal less
-damage in close combat for auto attacks, bosses will always take 0.1% of their current health instead of max health
+damage in close combat for auto attacks, 
 
-Max health damage 0.4% 0.7% 1.0%
+Max health into damage 1.1% 2.3% 3.5% Pure
+damage to bosses 35 70 105 plus 45% of attack damage Pure
 HeadShot! spell damage 140% 170% 200% of attack damage
 HeadShot! chance for spells 40% 45% 50%
-HeadShot! auto attack damage 90% 110% 130% of attack damage long range
+HeadShot! auto attack damage 115% 130% 145% of attack damage long range
 HeadShot! auto attack damage 50% 60% 70% of attack damage close range
 HeadShot! chance for auto attack 30% 40% 50%
-attack speed lost 45 60 75
-movespeed lost 12% 16% 20%
-debuff duration 1.1 1.4 1.7 seconds
+attack speed lost 45 65 85
+movespeed lost 12% 20% 28%
+debuff duration 1.1 1.2 1.3 seconds
 
 talent level 40 upgrade HeadShot!
 increase HeadShot! Spell damage by 35%
 increase HeadShot! chance on spell by 10%
+increase attack speed lost by 30
 increase debuff duration by 0.2 second
 
 add a new modifier Mithril Bullets
