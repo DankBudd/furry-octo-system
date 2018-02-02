@@ -66,16 +66,16 @@ they get 15% chance to deal 130% 135% 140% 145% damage after that they get 4 ins
 speed, the final hit will deal pure damage and lifesteal for 30% 40% 50% 60% of the damage dealt.
 
 Skeleton Warrior passive 2 talent level 10
-Death Strenght coldown 8
+Death Strenght coldown 10
 Skeleton Warrior will gain 10% 15% 20% 25% Pure resist and when they take Pure damage, they will instead block that Instance of damage
 (must be at least 10% of their max health to block the Pure damage) and when they block it, they will gain 40 50 60 70 attack speed and
-11% 22% 33% 44% movespeed and reducing all slows duration by 40% for 6 seconds,
+11% 22% 33% 44% movespeed and reducing all slows duration by 40% and damage taken by 25% for 6 seconds,
 
 Skeleton Warrior passive 3 talent level 10
 Shielding Hand
 Skeleton Warrior will use their Hands to block 4% of the incoming damage they get, this bonus will increase by 1% for every Skeleton
-Warrior alive when they are near eachother up to 22% damage reduction, they also gain 2 3 4 5 bonus armor and 100% of their armor will
-be bonus attack damage for them.
+Warrior alive when they are near eachother up to 22% damage reduction max, they also gain 2 3 4 5 bonus armor and 200% of their armor
+will be bonus health and 50% of the armor will be bonus attack damage for them.
 
 talent level 10 upgrade Skeleton warrior
 Skeleton life Increase by 50
@@ -312,14 +312,27 @@ increase Necro Spell amp by 12% and his inteillgence by 6, every time he cast De
 -
 level 19 talent
 -
-Increase Necro Health by 1000 and his health regeneration by 10 but reduce his armor by 15 and his magic resist by 35%, he also reduce
+Increase Necro Health by 800 and his health regeneration by 8 but reduce his armor by 15 and his magic resist by 35%, he also reduce
 all healing effect from allys by 85% but increase death coil healing on Necro by 150% if the level 4 talent is pick. Skeletons will
 have 20% health reduce and death coil will have 5 seconds coldown increase.
 -
-ideas on the wait
+Increase Necro Skeleton health by 150 and give them 100 mana and 1.5 mana regeneration, they also gain a Spell call Bone Throw that deal
+low amount of damage and will slow the target attack speed and movespeed, they will have it on Auto Cast.
+
+Bone Throw
+deal low damage and slow the Target attack speed and Movespeed, the debuff will last for a short duration but will refresh its
+duration with other Bone Throw and stack it self up to 10 max stacks of the Bone Throw Debuff, Skeleton Warrior will have 275 cast
+range with Bone Thorw and Skeleton Archer will be Equal to their attack range for the cast range.
+
+Base damage 8
+increase damage by 12% of attack damage
+attack slow 3 4 5 6
+move slow 3 6 9 12 FLAT
+mana cost 90
+no coldown
 -
-increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
-vamp for 12% of the damage dealt
+Increase Death Touch damage by 45 and reduce it coldown by 12 but increase the Coldown of Necro basic spell by 2 and increase their
+mana cost by 35, also increase mana by 50% of total Strenght of Necro.
 -
 level 20 talent
 -
