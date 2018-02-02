@@ -6,17 +6,18 @@ LEVEL 20 TALENT
 Talent 1
 Increase Xorn armor by 7 and health by 225
 Increase Xorn magic resist by 1% for every 8 agility, he cannot go higher than 20% magic resist and items will still give no magic resist
-also increase his stun resist by 15% and his health by 3 for every agility points
+, Xorn will also gain 1 armor per 2% magic resist above 0% also increase his stun resist by 25% and his health by 3 for every agility
+points
 
 Talent 2
-Increase Xorn damage by 8% and agility by 10
+Increase Xorn damage by 8% and agility by 22
 every attack will steal 3 attack speed and 4 movement speed from the target and give it to Xorn the debuff last 1.8 second and
 refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.1 second refresh every hit
 
 PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 30 and talent level 40 of this passive, Xorn will
-not be able to go faster than 850 movespeed but still able to go to a speedlimit of 2250.
-
+not be able to go faster than 850 movespeed but still able to go to a speedlimit of 2250, increase the max speedlimit to 2750 at level
+40.
 
 BUFF Xorn will gain 1 base damage for every 65 movspeed he got and he also gain 1% movement speed for every 7 Agility, he start with 2
 armor and 1.4 mana regeneration bonus as well, every 200 movespeed will give him 5% Blind Resist, he also gain 0.7 health regeneration
@@ -24,23 +25,21 @@ per 90 current movespeed and when he lose 125 of his health points as well, he g
 DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
 dealing 0.8% of his max health per 0.5 second
-BONUS BUFF Demon Betrayers
-when Mongrethod and Xorn are in the same game they will gain bonus, gaining 12% bonus damage with 18 attack speed, 3 armor, 20 movespeed
-FLAT and making their SPELL do Extra damage VS DEMON BEING 35% bonus damage to them
 
 
 Speed Horn Helm SPECIAL
 increase life by 1 for every 3 movement speed
 increase mana by 1 for every 2 movement speed
-increase Pure Resist by 25%
-increase Movespeed by 35
+increase Pure Resist by 25% increase by 1% for every 5 levels
+increase Movespeed by 35 increase by 1 for every 2 levels
 TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 30% of his movespeed cooldown of 35 second
 
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
-all enemy near Xorn 900 radius get -7 armor reduction and -14% magic resist reduction also increase Xorn movementspeed by 6% for every
+all enemy near Xorn 900 radius get -11 armor reduction and -24% magic resist reduction, also increase Xorn movementspeed by 6% for every
 enemy in the radius and some of TerrorBlade Spell will do 4% of his Move speed as bonus damage, the following spell getting this bonus
- are -- Terror Wave, Zeal and Demonic Prison
+ are -- Terror Wave, Zeal and Demonic Prison, Xorn will also gain 25 Agility in True Form and 25 strenght in Normal Form and he will
+ gain 1% movespeed per 30 unit Walk, Stacks are lost after 0.6 seconds when Xorn stop moving.
 
 SPELL Q Terror Wave
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
