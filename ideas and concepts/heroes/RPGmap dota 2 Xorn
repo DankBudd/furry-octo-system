@@ -45,14 +45,13 @@ SPELL Q Terror Wave
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
 they have a Small chance to take insane damage and waking up, running in fear from Xorn. bosses will take Double damage from
 the wave, they cannot be Sleep. the wave will deal 75% increase damage while in True Form and the Sleep duration will be increase
-by 1 secondm sleep units will still take damage but only 40% of the damage
+by 1 secondm sleep units will still take damage but only 40% of the damage, Nightmare will have 12% chance to Trigger every 0.5 seconds
 
 damage 20 26 32 38 plus 55% 60% 65% 70% of agility Physical damage
-radius of the wave 225 235 245 255
-Wave max distance 450 500 550 600
+radius of the wave 225 250 275 300
+Wave max distance 450 525 500 675
 Sleep duration 5 second
-Nightmare chance to Trigger every second 9% 10% 11% 12%
-Nightmare damage 30 40 50 60 plus 50% of agility Pure damage
+Nightmare damage 30 40 50 60 plus 80% of agility Pure damage
 Nightmare Fear duration 1.5 2 2.5 3 second
 cooldown 13
 mana cost 60 70 80 90 plus 3% of max mana
@@ -60,13 +59,12 @@ mana cost 60 70 80 90 plus 3% of max mana
 talent level 10 upgrade Terror Wave
 increase damage by 10
 increase agility scaling by 15%
-increase radius of the wave by 125
-increase the chance of Nightmare trigger by 3%
+increase sleep duration by 1.5
 increase nightmare damage by 30
 
 add a new modifier True Nightmare
 After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 130% 150% 170% 190% of
-Xorn damage. If the Image Kill their Victims, It will return to Xorn giving him 2% movement speed up to 10%
+Xorn attack damage. If the Image Kill their Victims, It will return to Xorn giving him 2% movement speed up to 10% max speed bonus
 if Xorn dies he will lose all of this bonus and if he gets to 10% he will gain 35 attack speed with 15% spell amp, the images will last
 5.5 seconds until they vanish away.
 
@@ -74,30 +72,30 @@ SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
 Steal he will gain bonus Armor and life regeneration with Movement Speed and if he kill his Target with Sunder he will gain Life Bonus
 from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
-Normal Form increase the max life damage by 4% for normal units and bosses by 1% and reducing the cooldown by 35%, this spell will have
-14 coldown increase if use on bosses
+Normal Form increase the max life damage by 3% for normal units and bosses by 1% and reducing the cooldown by 35%, this spell will have
+11 coldown increase if use on bosses
 
-damage 6% 9% 12% 15% of Max health increase by 0.1% every 9 agility
+damage 6% 9% 12% 15% of Max health increase by 0.1% every 7 agility
 bosses Damage 1% 2% 3% 4% of Max Health
-life needed for bonus 20 25 30 35
+life needed for bonus 10 30 35 40
 life regeneration per life Stolen 0.3 0.4 0.5 0.6
 Armor per life Stolen 0.2 0.3 0.4 0.5
-movement speed per life Stolen 2 4 6 8 FLAT
-Duration of bonus Buff 6 second
+movement speed per life Stolen 2 3 4 5 FLAT
+Duration of bonus Buff 7 second
 Life Bonus from the target 10% 15% 20% 25% of the target total max Health
-cooldown 33 30 27 24
+cooldown 29 28 27 26
 mana cost 80 100 120 140 plus 3% of max mana
 
 Talent level 10 upgrade Sunder
-reduce life needed for bonus to 25 at all level
+reduce life needed for bonus to 30 at all level
 increase the bonus duration by 2
 increase life bonus from enemys by 25%
 
 add a new modifier Soul Breaker
-After Casting Sunder on them, they will start to lose 0.8% of their max life per second 0.1% on bosses, for 10 second and Xorn will
+After Casting Sunder on them, they will start to lose 0.6% of their max life per second 0.1% on bosses, for 10 second and Xorn will
 heal that life they lose. If the target dies under Soul Breaker they will Explode healing Xorn for 3% of his Max health and he
-will Spread Soul Breaker on other Target for the Same amount of duration but dealing 1.4% increase Life damage per second on them,
-Bosses are immune to the Spreads. enemys affected by Soul Breaker will have 25% healing reduction and the explosion radius is 350 and
+will Spread Soul Breaker on other Target for the Same amount of duration but dealing 1.1% increase Life damage per second on them,
+Bosses are immune to the Spreads. enemys affected by Soul Breaker will have 25% healing reduction and the explosion radius is 550 and
 the duration of the health bonus by 5 second gain by the Soul Breaker damage over time also refresh the duration every tick of damage
 
 SPELL E Speed Blast and Zeal
@@ -121,7 +119,7 @@ increase armor reduction by 1 for every 26 agility
 mana regeneration lost 4 7 10 13
 duration of debuff 5 second
 cooldown 12
-mana cost for both 50 75 100 125 plus 3% of max mana
+mana cost for both 60 70 80 90 plus 2% of max mana
 
 talent level 15 upgrade Speed Blast AND Zeal
 increase Speed Blast base damage by 7
@@ -145,7 +143,7 @@ attack speed, movement speed and making Terror Wave stronger. While in True Form
 
 TRUE FORM
 damage taken increase by 40% 50% 60% 70% 80%
-base damage bonus 6 12 18 24 30
+base damage bonus 6 14 22 30 38
 attack range 250 300 350 400 450
 attack speed 12 20 28 36 44
 movement speed 4% 8% 12% 16% 20%
@@ -171,9 +169,9 @@ increase Roots resist by 11%
 add a new modifier Unstable Form
 every time Xorn Change form he will explode for 12% 15% 18% 21% of his Movement Speed and Purging all debuff affected on him.
 when in True Form Xorn attack will bounce up to 4 target dealing only 40% of his damage and enemys that die while in True Form
-will give him 1% increase damage and 0.5% spell amp up to 20 stack refresh every time something dies by Xorn last 12 second
+will give him 1% increase damage and 0.5% spell amp up to 20 stack refresh every time something dies by Xorn last 30 second
 and for Normal Form, Xorn will Block any spell cast at him cooldown of 25 second and giving him self 15% more damage reduction
-that last 6 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
+that last 12 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
 
 
 ULTIMATE R Demonic Mirror
