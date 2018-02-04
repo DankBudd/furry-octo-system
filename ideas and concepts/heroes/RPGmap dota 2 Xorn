@@ -313,14 +313,13 @@ passive as well
 -
 reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
 -
-increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
-by 10%
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce lifesteal effect by 10%
 -
 level 36 talent
 -
 increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
 and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
-1%
+1%, Xorn will also gain 3 Agility and 5 movespeed per Agility items he is wearing.
 -
 Reduce the coldown of Demonic Mirror by 15, it also cast Zeal or Speed Blast on every units affected by every Unit affected by Demonic
 Mirror, depend on the Form Xorn is, Speed Blast and Zeal will have 30% increase damage as well and also spellvamping for 20% of the
@@ -337,12 +336,12 @@ TRUE FORM BONUS
 base bonus damage increase by 20
 attack speed bonus increase by 50
 movement speed bonus increase by 12%
-reduce Base attack time with every weapons by 0.15
+reduce healing Source by 45%
 NORMAL FORM BONUS
-Life bonus increase by 25%
-damage reduction increase by 9%
-Stun resist increase by 13%
-reduce Movespeed by 15%
+Life bonus increase by 35%
+damage reduction increase by 14%
+Stun resist increase by 22%
+reduce Movespeed by 35%
 -
 MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
 alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
