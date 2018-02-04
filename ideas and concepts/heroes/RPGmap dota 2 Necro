@@ -346,7 +346,7 @@ Increase Skeletons Armor by 5, Skeleton Warrior and Skeleton Archer will gain a 
 damage by 8 and their movespeed by 40
 
 Undead Mind
-Make skeletons immune to all form of Mind Controll and increase their health regeneration by 0.3 for every 4% health missing, they
+Make skeletons immune to all form of Mind Controll and increase their health regeneration by 0.3 for every 2% health missing, they
 also gain 10 Armor when they are below 20% health.
 -
 Increase Skeleton Magic resist by 15%, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Will, also increase
@@ -354,7 +354,7 @@ their attack damage by 8 and their movespeed by 40
 
 Undead Will
 Make Skeletons Immune to all debuff that reduce magic resist and increase magic resist taken (those debuff will still damage but not
-reduce magic resist or increase magical damage taken) increase their Magic resist by 1% for every 4% health missing, they also gain
+reduce magic resist or increase magical damage taken) increase their Magic resist by 1% for every 3% health missing, they also gain
 10% damage reduction when they are below 20% health.
 -
 increase Skeleton Health by 125, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Force, also Increase their
@@ -362,7 +362,7 @@ attack damage by 8 and their movespeed by 40
 
 Undead Force
 Make Skeletons Immune to all Slows and Roots effect (they will still get the other debuff and get damage) and Increase their attack
-damage by 1 for every 2% health missing, they also gain 65 attack speed when they are below 20% health
+damage by 1 for every 3% health missing, they also gain 65 attack speed when they are below 20% health
 -
 level 26 talent
 -
@@ -376,7 +376,7 @@ increase the items Attributes bonus gain by 25% and reduce their cooldown active
 limit by 75
 -
 Skeleton will gain 25% of Necro total Attributes stats into Bonus health and increase Necro Attribute Stats by 15, also increase move
-speed by 15% and mana regeneration by 2.4
+speed by 20% and mana regeneration by 2.7 but reduce health regeneration by 3.5
 -
 level 29 talent
 -
@@ -386,7 +386,7 @@ increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor
 30
 -
 Skeleton will gain 4 armor and 10% magic resist, they also reduce all debuff duration by 1.0 seconds and they will further increase
-the armor gain by 2 and magic resist by 5% when they are affected by any debuff.
+the armor gain by 2 and magic resist by 5% when they are affected by any debuff. (debuff duration cannot lower below 2.0 seconds)
 -
 level 30 talent
 -
@@ -396,9 +396,14 @@ talent defensive
 -
 level 33 talent
 -
-Increase all healing Source by 15%, Increase Xarofos Iron Blast and Molten Steel debuff duration by 1.0 seconds, each 0.5 seconds will
-damage the enemys dealing 10% of Xarofos armor and Strenght in Pure damage, Xarofos also gain 2 armor per buff that allys give him with
-their spells and items active.
+Necro will gain a new passive Call Reconstruction that give life regeneration and bonus max health Globaly for skeletons and necro will
+also reduce stun duration by 40% and gain 4.4 health regeneration
+
+Reconstruction
+increase Health regeneration and Max health of Skeleton Globaly
+
+health regeneration 1.2%
+bonus max health 15%
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
