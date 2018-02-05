@@ -105,7 +105,7 @@ with reducing armor and reducing mana regeneration as well
 
 SPEED BLAST
 base damage 10 16 22 28 plus 15% of agility physical
-MoveSpeed into damage 9% 11% 13% 15% of total MoveSpeed
+MoveSpeed into damage 7% 8% 9% 10% of total MoveSpeed
 duration of root 0.5 0.7 0.9 1.1
 increase duration of root by 0.1 for every 240 movement speed
 attack speed lost 50 70 90 110 while affected by root
@@ -220,18 +220,19 @@ increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
 -
 level 4 talent
 -
-increase SPELL Q damage and healing by 10% and reduce its cooldown by 4%
+increase Terror Wave base damage by 6 and its scaling by 10%, its also restore 0.7% of Xorn max health for every unit that come in
+contact with it.
 -
 increase all stats by 3 and increase healing recive by 15%
 -
-increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+Increase Physical spell damage by 10% and increase attack damage by 5%
 -
 level 7 talent
 -
-Increase spell amp by 5% and mana by 165 also increase the Scaling from Terror Wave by 10% and its base damage by 8
+Increase Speed Blast and Zeal base damage by 5 and reduce their coldown by 1, also increase Xorn Agility by 6 and Strenght by 2
 -
-Increase attack damage by 10 and attack speed by 18, also reduce movement speed debuff duration by 1 seconds, cannot go lower than 1.5
-seconds duration
+Increase attack damage by 10 and attack speed by 22, also increase movespeed by 2% for 5 seconds for every spell casted, stack up 5 time
+and refresh the duration on casted spells (item are not affected)
 -
 level 10 talent
 upgrade spell Q
@@ -247,23 +248,24 @@ increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primar
 level 16 talent
 -
 Reduce the Coldown of Metamorphosis by 17 seconds but it will no longer do a blast of damage but make Xorn magic immune for 1.2 seconds
-also increase his agility by 7
+also increase his Movespeed limit by 225 and Agility by 5, Xorn will also reduce debuff durations that slows by 0.5 seconds.
 -
-increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
-resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+Terror Wave, Speed Blast and Zeal will have 25% chance to deal 15% more damage and increase the damage that enemys take from Physical
+by 4% that stack up 5 time, also increase their cast range by 130 and make them spell vamp for 8% of the damage dealt
 -
-increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
-and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
+Increase attack damage by 5%, Xorn will also gain 10% bonus Agility and 5% bonus Strenght while in True Form and in Normal Form he will
+gain 10% increase Strenght and 5% increase Agility instead, Also increase inteillgence by 10 and mana regeneration by 0.7
 -
 level 19 talent
 -
-reduce all damage taken -not pure- by 10% and increase health by 450 but increase damage taken from pure damage by 35%
+Increase health by 325 and Pure resist by 25% but reduce magic resist by 10% and armor by 6, Xorn doesnt lose the armor and magic resist
+from this talent when in Normal Form, instead he gain 50% of those debuff in bonus.
 -
-increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
-limit by 45
+Increase Phyiscal spell damage by 30% but reduce magical damage by 50%, all spell of Xorn that was dealing Magical damage will do
+Physical damage instead of Magic, Also increase spell amp by 8% and inteillgence by 12.
 -
-increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
-vamp for 12% of the damage dealt
+increase Active item use damage by 40% but reduce their bonus gain on them by 10%, also make Sunder deal 3% more max health on normal
+enemys and on bosses by 0.5% also remove its mana cost.
 -
 level 20 talent
 -
@@ -273,10 +275,15 @@ upgrade passive
 -
 level 23 talent
 -
-Increase Zeal and Speed Blast base damage by 10 and also reduce their coldown by 2, but reduce their agility scaling by 5%
+Increase Zeal Scaling by 10% and Speed Blase Movespeed scaling by 2%, make them Ignore Magic immune units and also dealing 50% increase
+damage VS Magic Immune target, they also reduce the target armor by 4 for 6 seconds, also increase health by 75 and mana by 100
 -
-Increase Terror Wave and Sunder Cast range by 325 but increase their coldown by 2, also reduce their mana cost by 50% and also increase
-Xorn attack speed by 35.
+Terror Wave will alway stun target by 0.8 seconds and after the stun they will go to Sleep, While they are stun they will take 18%
+of Xorn Agility and Attack damage every 0.1 seconds and reducing their armor by 0.6 as well for 4 seconds.
+-
+Xorn will gain 3% increase damage per auto attack he does up to 10 max stacks at, Stacks will last 12 seconds, at 5 stack Xorn will
+gain 40 attack speed and 50 movespeed, at 10 Stacks Xorn Q and E spell will do 25% more damage and have 1.5 coldown reduce. also
+increase attack speed by 15 and Strenght by 10
 -
 level 26 talent
 -
@@ -286,13 +293,13 @@ amp bonus and 5% more health bonus if Defensive talent is pick increase Primary 
 increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
 7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
 -
-increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
-limit by 75
+Items will give 20% more Attributes stats and Xorn will gain 3% movespeed per item that give Agility or Strenght, Also increase Speed
+Limit by 125 and attack speed limit by 50.
 -
 level 29 talent
 -
 Reduce the Penalty of Metamorphosis damage takent in True Form by 20% and reduce the damage lost in Normal Form by 15%, also increase
-Pure resist by 25%, Further increase this bonus by 35% in True Form.
+Pure resist by 15%, Further increase this bonus by 25% in True Form.
 -
 increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
 30
@@ -311,9 +318,11 @@ their magical damage output by 15% and reducing armor by 5.
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+Increase Stuns, Roots and Slows duration by 35% and also gain 25% status resistence and 345 health, Sunder will now Root the target by
+1.2 seconds, Speed Blast and Zeal will alway slows the target by 16% for 3.5 seconds.
 -
-increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce lifesteal effect by 10%
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce lifesteal effect by 10%, Xorn
+will gain 15% increase lifesteal source when in True Form instead of loseing Lifesteal Sourse.
 -
 level 36 talent
 -
