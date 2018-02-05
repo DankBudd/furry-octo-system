@@ -1,4 +1,4 @@
-                                                     Sven The God Slayer
+                                                     Sven The Gladiator
 Starting stats 10 strenght, 6 agility, 3 inteillgence, Stats gain per level, 1.20 Strenght, 0.70 Agility, 0.40 Inteillgence.
 Base movespeed 315, Base attack damage 9-15, Base Regeneration Health 1.1, Base Regeneration Mana 0.7.
 
@@ -104,7 +104,7 @@ base armor loss 4 5 6 7
 increase armor lost by 1 for every 9% 8% 7% 6% health lost when affected by Blood Wound
 duration 7 second
 Attack speed bonus for every hit 4
-Attack speed Cap 120
+Attack speed Cap 40 40 80 120
 cooldown 24 22 20 18
 mana cost 140 160 180 200 plus 1% of max mana
 
