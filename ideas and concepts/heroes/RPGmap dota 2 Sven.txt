@@ -7,30 +7,27 @@ TALENT LEVEL 20
 talent 1 
 increase sven max health by 20% and his armor by 5
 Sven will gain 1% damage reduction for every 7 strenght he got up to 20% max and increase his resist for pure damage by 25%, When
-in BloodLust Sven will gain 7 armor and 15% magic resist for its duration and also reducing range attack damage by 15%, also increase
-Bloodlust duration by 0.5 and reducing it coldown by 1.
+in BloodLust Sven will gain 7 armor and 15% magic resist for its duration and also reducing range attack damage taken by 15%, also
+increase Bloodlust duration by 1.5 and increase the movespeed bonus gain by 35.
+
 
 talent 2
 increase Sven damage by 15% and agility by 10
-Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 10% of his Strenght, DeathBlow and Bloodlost will deal 40%
+Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 10% of his Strenght, DeathBlow and Blood Wound will deal 25%
 of Sven Agility as bonus damage and having 125 castrange bonus as well, increase their coldown by 4 but make them Ignore all form of
-armor resistence.
+armor resistence, Bloodlust will also give 25 more attack speed bonus and further reduce base attack time by 0.10 when in Bloodlust.
+
 
 Mighty Warrior
-increase overall stats and give a positive and negative buff
+give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
 
 BUFF sven will gain 1 damage per 4 Strenght instead of 5 he also gain 1% lifesteal per 11 Strenght he also reduce stun,root and blind by
-30% he also start with 2 armor and 8% magic resist he start with a special Sword that can be change and if sven get stun for more than
-2.2 second he will become Enrage having 20% increase damage and removing all debuff on him, the damage bonus will last 4 second and this
-effect can only happen every 15 seconds, Sven also gain 0.1 health regeneration per 100 health missing.
-DEBUFF sven lose 20% attack speed,10% max life and 60% mana, he take 100% more damage from pure and he can only use Two-Handed weapons 
+30% he also start with 2 armor and 8% magic resist and if sven get stun for more than 1.4 second he will become Enrage having 20%
+increase damage and removing all debuff on him, the damage bonus will last 4 second and this effect can only happen every 15 seconds,
+Sven also gain 0.1 health regeneration per 125 health missing, he also gain 0.05 mana regeneration for every 70 current mana missing
+DEBUFF sven lose 20% attack speed,15% movespeed and 60% mana, he take 100% more damage from pure and he can only use Two-Handed weapons 
 type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by 15% and
 his attack speed by 20 for 3 second
-
-Sven old Sword Special
-damage 3
-attack speed lost 10
-sven got 10% chance to parry a basic attack and dealing 6 damage plus 10% of his attack damage back to the attacker
 
 level 25 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
@@ -44,28 +41,27 @@ make sven go into a Rage increasing is attack damage, attack speed and movement 
 thier spell damage and making them explode from the inside-out taking massive damage after the debuff end, Sven will also have 0.15 base
 attack time reduce for the duration of BloodLust.
 
+damage bonus 8 16 24 32
 attack speed 25 40 55 70
 flat movement speed 30 50 70 90
-damage bonus 10 15 20 25
-duration 6 7 8 9
+duration 6.5 7.0 7.5 8.0
 spell damage reduce 12% 20% 28% 36%
-explosion damage 4% 6% 8% 10% of max Health
-explosion damage 1.1% 1.4% 1.7% 2% of max health for bosses
+explosion damage 25 40 55 70 plus 75% of strenght
 debuff duration 3 second refresh on hit
-cooldown 22 21 20 19
+cooldown 22
 mana cost 70 90 110 130 plus 1% of max mana
 
 talent level 10 upgrade Bloodlust
 increase attack speed by 40
-increase damage by 5
-increase falt movement speed by 10
+increase damage by 8
+increase spell damage reduction by 6%
 increase mana cost by 70
 
 add a new modifier Pain Without End
 for the duration of BloodLust sven will have 15% bonus damage and having True Strike and reducing all stun effect by 40% on him
-and every time he hit the same enemy up to 7 time, he will Gut-him-out making them lose 25% max health permanently, they will not take 
-any damage if they are under 75% health however they will not be able to gain that Health they lost making them stuck at 75% health 
-until death, bosses will only lose 10% max health and having 90% max health.
+and every time he hit the same enemy, after the 7 hit he will Gut-him-out making them lose 25% max health permanently, they will not
+take  any damage if they are under 75% health however they will not be able to gain that Health they lost making them stuck at 75%
+health until death, bosses will only lose 10% max health and having 90% max health.
 
 SPELL W level
 Death Blow
@@ -75,8 +71,8 @@ this spell will have no bonus from other source of spellvamp or lifesteal effect
 
 damage 15 20 25 30 physical damage
 base Strenght Scaling 50% 55% 60% 65%
-Increase Strenght Scaling by 15% 20% 25% 30% of Sven Strenght
-lifesteal base on the damage done 25% 40% 55% 70%
+Increase Strenght Scaling by 10% 15% 20% 25% of Sven Strenght
+lifesteal base on the damage done 25% 35% 45% 55%
 current health as bonus damage 4% 6% 8% 10%
 max life as bonus damage for boss 0.4% 0.6% 0.8% 1%
 debuff duration 2.2 2.6 3.0 3.4 second
@@ -84,10 +80,11 @@ cooldown 17
 mana 40 100 160 220
 
 talent level 10 upgrade Death Blow
-increase base damage by 25
-increase Strenght scaling by 15%
+increase base damage by 15
+increase Strenght scaling by 10%
 increase current life as damage by 2%
-reduce cooldown by 2
+reduce cooldown by 3
+remove mana cost
 
 add a new modifier Colossus Sword
 now hit all enemys around Sven 300 radius dealing only 65% of the Base damage and Strenght scaling damage but still dealing Normal
@@ -177,13 +174,13 @@ talent level 25 upgrade Titan Rage
 
 increase base damage by 50%
 increase attack speed lost by 60
-increase life bonus by 450
+increase life bonus by 300
 increase coldown reduction upon killing by 0.10
 increase duration by 5
 increase cooldown by 15
 
-add a new modifier Strenght Lord
-now Give 30% of God Strenght damage and base damage bonus to near allys 1200 radius and increase God Strenght duration by 0.7 second for
+add a new modifier Might of The Strenght Lord
+now Give 35% of God Strenght damage and base damage bonus to near allys 1200 radius and increase God Strenght duration by 0.7 second for
 every kill sven do bosses will give 20 seconds he also Scream Louder stuning enemys for 3 second and dealing 150 pure damage plus 10%
 of his max health in a 800 radius, after God Strenght is over, Sven will gain 35% increase Strenght when God Strenght is not Active
 this Spell can last very long with every kill he does, NEVER CROSS ME!.
@@ -201,18 +198,21 @@ increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3
 -
 level 4 talent
 -
-Increase the bonus damage from BloodLust by 7 and increase its duration by 0.5 seconds, also reduce the coldown of it by 4%
+Increase the bonus damage from BloodLust by 5 and increase its duration by 0.5 seconds, also reduce the coldown of it by 10%, Sven
+will also gain 4 8 12 16 Strenght when in BloodLust.
 -
-increase all stats by 4 and increase healing recive by 15%
+increase all stats by 4 and increase healing recive by 15%, Further increase the healing recive by 10% when in BloodLust
 -
-increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt
+Increase DeathBlow cast range by 75 and its base damage by 10, DeathBlow will alway reduce the target armor by 3 and slow them by 10%
+for 6 seconds
 -
 level 7 talent
 -
-increase spell amp by 7%, mana by 200 and increase Death Blow Strenght scaling by 15% and its base damage by 5
+Increase DeathBlow Strenght scaling by 10% and its Spellvamp bonus by 15%, Sven will gain 3.2 mana regeneration and 4.0 health
+regeneration after casting DeathBlow for 5 seconds.
 -
-after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 1.8 seconds, when this bonus is not
-active sven will gain instead 10 attack speed 4% bonus damage and 20 movespeed.
+after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 2.5 seconds, when this bonus is not
+active sven will gain instead 10 attack speed 4% bonus damage and 20 movespeed, also increase his mana by 75 and agility by 4
 -
 level 10 talent
 upgrade spell Q
@@ -225,12 +225,16 @@ increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 pri
 -
 increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
 -
+When in Titan Rage, Sven will gain 0.2% health regeneration and 0.1% mana regeneration, he also reduce the Attack speed Penalty by 25
+and the coldown of Titan Rage by 5, also increase xp gain by 15%
+-
 level 16 talent
 -
-Reduce Sven Ultimate by 8 second and increase the bonus damage by 10%, every kills will also restore Sven max health by 0.4%
+Increase the bonus damage from Titan Rage by 15% and the Base damage recive by 10, every kill in Titan Rage will restore Sven health by
+45 plus 30% of his Strenght, Sven will also gain 15% roots resist in Titan Rage.
 -
-increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
-resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+Increase Blood Wound base damage by 3 and increase its duration by 1 seconds, Enemys Affected by Blood Wound will heal allys and sven
+by 12% of the damage dealt to them by anything for the duration.
 -
 increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
 and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
