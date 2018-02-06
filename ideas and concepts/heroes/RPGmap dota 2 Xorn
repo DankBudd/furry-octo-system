@@ -63,10 +63,10 @@ increase sleep duration by 1.5
 increase nightmare damage by 30
 
 add a new modifier True Nightmare
-After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 130% 150% 170% 190% of
-Xorn attack damage. If the Image Kill their Victims, It will return to Xorn giving him 2% movement speed up to 10% max speed bonus
-if Xorn dies he will lose all of this bonus and if he gets to 10% he will gain 35 attack speed with 15% spell amp, the images will last
-5.5 seconds until they vanish away.
+After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 130% 160% 190% 220% of Xorn
+attack damage. If the Image Kill their Victims, It will return to Xorn giving him 3 attack damage and 1% movespeed that stack 10
+time, at 4 stacks Xorn will gain 25 attack speed and 30 movespeed, at 8 stacks Xorn will gain 16% spellamp and 3.3 health regeneration,
+3 stacks are lost upon death, The Image will Vanish away after 7.5 seconds.
 
 SPELL W Sunder
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
