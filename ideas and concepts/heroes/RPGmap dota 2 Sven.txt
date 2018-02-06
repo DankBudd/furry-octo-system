@@ -134,8 +134,8 @@ cleave enemys in front of him as well.
 attack speed from strenght 0.15
 Cleave damage 10% 15% 20% 25%
 Cleave radius 440 460 480 500
-Base Critical damage 150% 170% 190% 210%
-increase critical damage by 20% 24% 28% 32% of Strenght
+Base Critical damage 150% 160% 170% 180%
+increase critical damage by 10% 14% 18% 22% of Strenght
 Critical chance 14%
 Base block damage 8 10 12 14
 increase block damage by 10% 14% 18% 22% of Strenght
@@ -145,7 +145,7 @@ talent level 15 upgrade War Gladiator
 increase critical base damage by 20%
 increase critical chance by 6%
 increase block damage by 10
-increase block chance by 25%
+increase block chance by 15%
 
 add a new modifier Legendary Gladiator
 for every blocks and critical hit sven do he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
@@ -244,10 +244,11 @@ level 19 talent
 Increase Pure resist by 15%, Sven will futher increase the bonus by 20% when in Titan Rage and BloodLust, also increase his Status
 resistence by 10% and his Agility by 12.
 -
-
+Increase Sven Strenght by 25 and his health regeneration source bonus by 35% but reduce is attack speed by 15 and his agility by 10,
+Sven will further increase the bonus strenght by 3 for every item that give Strenght or Attack damage.
 -
-increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
-vamp for 12% of the damage dealt
+Increase all Phyisical damage output by 35% but reduce any magic damage output by 40%, Sven will further increase the Physical damage
+output bonus by 20% in Titan Rage and 10% in BloodLust, also increase Strenght and Agility by 6.
 -
 level 20 talent
 -
@@ -257,10 +258,13 @@ upgrade passive
 -
 level 23 talent
 -
-Increase Sven Ultimate duration by 4 seconds and Death blow will have 250 cast range when in Titan Rage, also reduce Rooting effect by
-25% when in Titan Rage
+Increase Titan Rage duration by 7 seconds and Sven will now gain 20% status resistence in Titan Rage, BloodLust will also give 10%
+status resistence, War Gladiator will gain 25% more block chance and 4% more Critical chance when in Titan Rage. Also reduce attack
+speed penalty from Titan Rage by 15.
 -
-increase SPELL Q, W, and E damage by 20% and reduce their cooldown by 10% and also increase their cast range by 115
+increase War Gladiator Cleave damage by 15% and Strenght scaling for the Critical damage by 8%, War Gladiator will also further
+increase the attack speed bonus from strenght by 0.10, Sven will also gain 6% more Critical chance and 25% Critical damage when in
+BloodLust
 -
 level 26 talent
 -
