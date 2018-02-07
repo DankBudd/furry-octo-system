@@ -1,4 +1,7 @@
-Enigma,Void lord Starting stats 10 Int,3 Agi,5 Str, base speed 280, base damage 4, Stats Gain per level 1.30 int,0.80 str,0.40 agi
+                                                    Enigma The Void Lord
+Starting stats 2 strenght, 1 agility, 10 inteillgence, Stats gain per level, 0.90 Strenght, 0.20 Agility, 1.20 Inteillgence.
+Base movespeed 250, Base attack damage 2-5, Base Regeneration Health 0.8, Base Regeneration Mana 1.2.
+
 
 SCROLL DOWN FOR TIP AND COMBO
 
@@ -17,28 +20,18 @@ and 15% max mana bonus
 
 PASSIVE D OR F
 
-Gravity Lord
-give a positive and negative buff, Pressing ALT will give INFO for Enigma level 20 talent and level 25 talent for this passive
+Void Lord
+give a positive and negative buff, Pressing ALT will give INFO for Enigma level 30 talent and level 40 talent for this passive
 
-BUFF enigma spell will do 1 pure bonus damage for every 10 inteillgence and he will gain 1% spell amp for every 120 current mana and any 
+BUFF enigma spell will do 1 pure bonus damage for every 12 inteillgence and he will gain 1% spell amp for every 160 current mana and any 
 slows Enigma takes will grant him a speed boost instead of slowing him and increasing their duration by 1 second he also gain 1% life
-per level gaining 1% size as well enigma will have a Special Gravity Wand that scale per level and he cannot change it
+per level gaining 0.5% size as well enigma will have a Special Gravity Wand that scale per level and he cannot be change, Enigma also
+gain 2 inteillgence for every items that give Spellamp, Enigma will also gain 1% coldown reduction per Inteillgence items as well.
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 60% base damage strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
-items with effect that deal damage will have 50% reduction effects
-BONUS BUFF Elemental Gods
-When Enigma, Zet and Volcanus are in the same game they gain bonus, gaining 7% spellamp with 5 health regeneration, 10% magic resist,
-35 Movespeed FLAT and making their spell that deal damage VS NON-ELEMENTAL BEING 25% more damage but reducing their damage VS ELEMENTAL
-BEING by 25%
+items with effect that deal damage will have 50% reduction effects, he also lose 2% Strenght per Inteillgence item he got.
 
-
-Special item Gravity Wand
-Base attack time 1.90 reduce by 0.01 every level
-Increase Enigma mana by 70 increase by 7 every level
-Increase Inteillgence gain from items by 40%
-Enigma Spell will do increase damage from enemys below 40% health, taking 20% increase damage.
-
-talent level 25 upgrade Gravity Lord
+talent level 40 upgrade Gravity Lord
 give a new modifier Pure Gravity
 empower next enigma spell
 VOID CURSE deal 40% more damage and lower the cooldown by 9
@@ -47,131 +40,137 @@ GRAVITY BOLT deal pure damage instead and increase damage by 150%
 also make those 3 spell of enigma deal 0.7% of the enemy max life as damage -dont work for bosses-
 cooldown for this empower 25 second cannot get bonus from cooldown reduction
 
-SPELL Q level
-Void Curse
-Curse the enemy dealing damage over time to a target lowering magic resist and reducing life regeneration for the duration
 
-Damage 12 16 20 24 type magical plus 12% 18% 24% 30% of intelligence Void
-Duration 5 6 7 8 second damage every 1 second
-life regeneration lost -0.3 -0.5 -0.7 -0.9 per tick of damage
-Magic resist lost 1.25% 1.50% 1.75% 2% per tick of damage
-debuff duration 3 second
-Cooldown 28 26 24 22
-Mana cost 160 170 180 190 plus 3% of max mana
+Special item Void Glove
+Base attack time 1.75
+increase inteillgence by 5 increase by 1 every 2 level
+Increase Enigma mana by 70 increase by 7 every level
+Increase Inteillgence gain from items by 25%
+Enigma Spell will do increase damage from enemys below 40% health, taking 20% increase damage.
+Enigma can also Activate Void Glove to make his next Spell do 15% increase damage and reduce the target magic resist by 10% for 8
+seconds, coldown of 45 seconds and no mana cost
+
+
+SPELL Q level
+Void Curse - Magical -
+The enemys will be Curse taking medium amount of damage every 0.5 seconds and losing magic resist and health regeneration per tick of
+damage taken, every tick of damage will have 15% chance to do a Void Mass dealing high amount of damage to all nearby enemys in a 450
+radius around the Curse target. The Target itself will also take Void Mass but dealing 50% less damage, the debuff from magic resist
+and health regeneration lost will last 2.5 seconds after the curse end, Void Mass will also reduce magic resist but will not reduce
+health regeneration
+
+Damage 8 12 16 20 plus 10% 14% 18% 22% of Inteillgence 
+Duration 4 4.5 5 5.5
+magic resist lost 2%
+health regeneration lost 0.3 0.5 0.7 0.9
+Void Mass damage 18 26 34 42 Plus 45% of Inteillgence
+Void Mass magic resist lost 4% 5% 6% 7%
+coldown 22 20 18 16
+mana cost 50 100 150 200 plus 2% of max mana
 
 Talent level 10 Upgrade Void Curse
-increase damage by 14
-increase Inteillgence scaling by 10%
-increase duration by 1
-increase life regeneration lost by 0.3
-increase magic resist lost by 1%
-mana cost increase by 110
+increase int scaling for both by 5%
+increase duration by 1.0
+increase health regeneration lost by 0.3
+increase Void Mass damage by 12
+Increase Void Mass magic resist lost by 2%
 
 add a new modifier Void Corruption
-now damage enemys in a 350 area of effect of the main target only dealing 70% of the damage to them and pulling them to the target
-for 100 speed unit and also increase all stun and roots on the main target by 100% and for the other getting affected by 50%, if the
-Main target dies he will Spread Void Curse to all enemys 200 radius for the full effect as well
+Void Curse will have 5% more chance to Trigger Void Mass and each Void Mass proc will increase its damage by 2 and the radius by 25
+without limits. After Void Curse ends, they will get rooted for 0.1 seconds for every 65 damage taken while in Void Curse and will take
+8% of Enigma inteillgence in Pure damage every 0.1 seconds and also reducing healing Source by 75% for the duration of the Root, Enigma
+will gain 1 stack of Void Death for every 8 seconds of root done, at 3 stacks Enigma will gain 8% spellamp and 1.5 mana regeneration, at
+7 stacks Void Curse will gain 50% more bonus from Spell amp and have 3 coldown reduce, at 12 stacks Enigma will gain 12 Inteillgence and
+Void Curse will also be cast on 1 other target at random, Each stacks will give Enigma 10 health, max stack of 15 and stack are lost
+lost upon death.
 
 SPELL W level
 Gravity Well
-Infest the ground with pure energy of gravity dealing damage overtime and slowing attackspeed and movement speed also having
-a small chance of stuning the target as well or rooting them
+Enigma Infest the Ground with Pure Gravity dealing high Magical damage per seconds, Gravity Well will also have 20% chance to stun
+enemys for every tick of damage, they will also lose attack speed and lose movespeed as well, the debuff duration will last 4.5 seconds
+and refresh upon taking damage from Gravity Well and stack without limit, when enemys get stun they will take double the amount of
+attack speed lost and movespeed lost. Enemys can only be Stun once and Gravity Well will gain bonus radius base on Enigma Inteillgence
 
-Damage 22 30 38 46 type magical per second Void
-duration 7 second
-Attack slow 2 3 4 5 per damage
-Movement slow 2% per damage
-debuff duration 3 second
-chance for roots or stuns 20%
-root duration 0.6 0.9 1.2 1.5
-stun duration 0.6 0.7 0.8 0.9
+Damage 15 30 45 60 plus 12% 18% 24% 30% of inteillgence
+Attackspeed lost 3 4 5 6
+Movespeed lost 5 8 11 14
+Stun Duration 1.1 1.5 1.9 2.3
 Base Radius 425 475 525 575
-Increase the radius by 70% 140% 210% 270% of Enigma Inteillgence
-Cooldown 23 22 21 20
+increase radius by 75% 100% 125% 150% of Inteillgence
+Duration 5.0 seconds
+Cooldown 25 23 21 19
 Mana cost 160 200 240 280 plus 2% of max mana
 
 talent level 10 Upgrade Gravity Well
-increase damage by 14
-increase the base radius by 125
-increase the duration by 1
-increase chance for roots and stuns by 10%
-mana cost reduce by 110
+Increase damage by 15
+increase Stun duration by 0.7
+increase Base radius by 200
+increase duration by 2.0 seconds
 
-add a new modifier Void Gate
-When enemys die under the effect of Gravity Well they will be turn into Eidolons that cannot be controll and follow enigma around
-they also have a small chance to create a smaller version of Gravity Well that got 25% of the total damage from it, also make enigma
-spell do 20% more damage to enemys affected by Gravity Well and when they die, enigma will regain 0.7% missing mana back, the eidolons
-last 22 seconds, enemys that die inside of Gravity Well have 18% chance to summon a new one with only 3 seconds duration
-
-EIDOLONS STATS note, 100 base attack speed
-health 300 plus 15% 20% 25% 30% of enigma Health
-attack range 325 increase by 25% of Enigma inteillgence
-Base attack time 1.90 1.85 1.80 1.75
-attack damage 12-25 plus 20% 22% 24% 26% of enigma inteillgence
-increase their attack speed by 15% 20% 25% 30% of enigma inteillgence
-movespeed 330 360 390 420
-armor 0
-magic resist 0%
-
-PASSIVE Growing Void
-the Eidolons will increase their damage by 3% every second they live and their attack will have 20% chance to cast a smaller version
-of Gravity Well dealing 25% of the total damage from it with 30% of the radius as well, those will last 3 second and damaging every
-1.5 second, note that those smaller Gravity Well will not root or stun enemys and will not create Eidolons when they die by the smaller
-Gravity Well..
-
+add a new modifier Void Flame
+Enemys will be Void Flamed if they stand more than 3.5 seconds in Gravity Well, taking 25% more damage from all Source and also taking
+15% increase damage from Enigma spells as well. They will also take 12% of Enigma inteillgence in Pure damage every 0.3 seconds of the
+duration of Void Flame. Void Flame will last 6 seconds and after the duration ends, Enigma will gain 1 stack of Growing Void, increasing
+his spell amp by 0.2% and his health and mana by 4 up to 100 max stacks, at 25 stacks Enigma will gain 8 inteillgence and 10% status
+resistence, at 60 stacks, Enigma will gain 3.5 health regeneration and Gravity Well will heal Enigma for 100% of its total damage when
+he stand in it, at 95 stacks, Gravity Well will gain 125 more radius with 1 seconds duration and will have 5% more chance to stun.
 
 SPELL E level
-Gravity Bolt
-Cast a bolt made of pure gravity dealing magical damage and also dealing max health damage as well (bosses will take current health
-damage) and increasing enigma max life for a short duration after the duration end, it will heal enigma, each stack got there own
-duration.
+Void Bolt
+Enigma will Throw a Bolt of Void at the target Location dealing High amount of Magical damage, enemys will have a Debuff call Void
+Hunger that last 10 seconds If they cast at least 3 spells while under this effect, they will gain a Debuff call Consuming Void, taking
+low amount of every 0.2 seconds and increasing their casttime point as well, Void Bolt will Ignore Magic immune units, Void Bolt will
+also reduce Magic resist and slow movespeed for 3.5 seconds.
 
-Base damage 15 20 25 30 type Magical plus 80% 100% 120% 140% of inteillgence Void
-max health into damage 0.2% 0.3% 0.4% 0.5% Pure
-damage from Gravity bolt into bonus life 20% 30% 40% 50%
-gain 50% 55% 60% 65% of the bonus life into a heal after the duration ends
-buff duration 7 second
-cooldown 8 7 6 5
-Mana cost 70 80 90 100 plus 1% of max mana
+Bolt Damage 20 30 40 50 plus 65% of Inteillgence
+Consuming Void damage 8 9 10 11 plus 10% of Inteillgence
+Consuming Void duration 5 6 7 8
+Cast time point increase 0.60 0.90 1.20 1.50
+Magic resist lost 5% 10% 15% 20%
+movespeed lost 5% 10% 15% 20%
+coldown 30 28 26 24
+mana cost 175 275 375 475 plus 2% of max mana
 
-talent level 15 Upgrade Gravity Bolt
-increase base damage by 10
-increase intelligence scaling by 10%
-increase bonus life gain 15%
-reduce cooldown by 1.5
-mana cost increase by 35
+talent level 20 Upgrade Void Bolt
+increase Void Bolt damage by 15
+increase Consuming Void scaling by 5%
+Increase cast time point by 0.60
+reduce coldown by 4
 
-add a new modifier Gravity Wound
-enemys will get a debuff of Gravity Wound taking 10% more damage from Gravity Bolt after 6 stack on the same target he will explode
-casting Gravity Bolt to all near enemys 500 radius for 200% of the damage and giving 3 stack to the other also increase engima magic
-resist by 15% after the enemy explode for 5 second the debuff of Gravity Wound last 5 second, the explosion stack last until death.
+add a new modifier Unstable Gravity 
+Every Bolt that Land will Create a Small Black Hole that last 3 seconds and doesnt stun but will pull enemys by 175 speed unit and deal
+115% of Enigma Inteillgence per seconds, Void Bolt will also have 25% chance to crit for 175% of total damage and lifesteal for 30% of 
+that damage dealt as well but also make Void Bolt unable to use any other Source of Crits, Enigma will also gain 25 health per Small
+Black Hole Create max of 10 stacks, at 10 stacks Enigma will gain 10% health and 12% magic resist, stack are lost upon death, Consuming
+Void cannot be Purge and will deal 100% increase damage if the Target is Magic Immune as well.
+
 
 PASSIVE D OR F
 Galaxy
-reduce engima cooldown and increasing his mana pool he also deal bonus damage base on his mana also all ally near enigma
-will gain roots resist double on engima also increasing enigma Gravity Well damage
+Enigma will gain bonus Coldown reduction and mana, he also give himself and his allys Roots resistence and Magic resist as well,
+he also deal bonus damage with his Spells base on his Max mana every 15 seconds, Enigma will gain Double the bonus from the Root and
+Magic resist. The aura is 1150 radius. he also gain 10% 15% 20% 25% size increase
 
-Reduce cooldown by 6% 8% 10% 12%
-Increase enigma mana by 12% 18% 24% 30%
-every 14 second engima will deal 1% 2% 3% 4% of his max mana as magical damage
-increase resist for roots by 6% 9% 12% 15%
-Gravity Well Bonus damage 12% 20% 28% 36% of enigma Inteillgence
-also increase enigma size by 10% 15% 20% 25%
+bonus damage from mana 2% 3% 4% 5%
+cooldown reduction 9% 11% 13% 15%
+Increase Mana 10% 15% 20% 25%
+increase Roots resistence by 6% 9% 12% 15%
+Increase Magic resistence by 10% 12% 14% 16%
 
-Talent level 15 Upgrade Galaxy
+Talent level 20 Upgrade Galaxy
 increase cooldown reduction by 5%
 increase mana by 15%
-reduce the cooldown by 5 second of damage by mana
-increase Gravity Well bonus Inteillgence scaling by 7%
-also further increase enigma size by 15%
+increase root resistence by 5%
+increase magic resistence by 4%
 
 add a new modifier Nebula
-all enemys around enigma will get damage by 6 plus 14% of inteillgence every 1 second 700 radius and if they attack him they will lose 
-0.8% life every time 10 second on bosses and when enigma die he will explode dealing 2% of the enemy max life plus 6% 9% 12% 15% of
-engima life and mana as well and after 4 second enigma will reborn here with 35% life and 20% mana, cooldown of 180 second for the
-explosion and revive, the radius is 550.
+all enemys around enigma will get damage by 6 plus 14% of inteillgence every 1 second 825 radius and if they attack him they will lose 
+0.8% life every time 10 second on bosses and when enigma die he will explode dealing 3% of the enemy max life plus 6% 9% 12% 15% of
+engima health and mana as well and after 4 second enigma will reborn here with 35% life and 20% mana, cooldown of 180 second for the
+explosion and revive, the Explosion radius is 850, Enigma spells will also have 25% more bonus from Spellamp and he also gain 1
+inteillgence per 5 current Strenght
 
-ULTIMATE R level needed 8 16 24
+ULTIMATE R 
 
 Void Star
 summon a star infested with void and gravity stuning and damaging all enemy, after the stun duration end A blackhole will appear dealing 
@@ -205,25 +204,151 @@ for the duration of the black hole having 100% increase damage and after the bla
 inteillgence as pure damage 700 radius and removing all debuff on ally and giving enigma 70% magic resist for 12 second
 
 
-TIPS
-Enigma is really weak to physical and any close up but really good against slows because it will buff him for full without penaltys
-he also really good at mid range spell making him have the best damage over time with his Void Curse and Gravity Well
-
-VOID CURSE TIPS AND COMBOS
-Void Curse works very well with Gravity Well when having its talent level 10 that increase stun and roots duration making Gravity Well
-even more effective and if enemys has alot of Health or magic resist the life regeneration they lose from Void Curse can help out deal
-damage to them. Having the talent level 10 of Void Curse with Void Star talent level 25 can make up the most deadly combos enigma can
-have!
-
-GRAVITY BOLT TIPS AND COMBOS
-Gravity Bolt is Enigma Most high damage basic spell making it having a low cooldown as well taking its talent level 15 will make it
-even more powerfull in terms of damage and having Gravity well talent at level 10 with Talent level 25 of Gravity Lord making it having
-the most insane damage spell in 1 shot up to 100 damage and more
-
-GALAXY TIPS AND COMBOS
-Enigma passive give great utility for it giving out cooldown reduction and bonus mana also giving allys roots resist having double
-effect on enigma making him really good against any time of roots and the bonus damage for Gravity Well taking the talent level 10 of
-Gravity well with it and Void Star talent level 25 making it deal high damage over time, also not to forget Enigma basic attack will
-deal bonus damage base on his mana dealing bonus damage in magical and for the talent level 15 of Galaxy making Enigma a living bomb
-that deal insane damage if hitting enemys with the life regeneration of Nebula aura of 0.2% stoping most life regen on high health
-enemys
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3
+-
+level 4 talent
+-
+Increase the bonus damage from BloodLust by 5 and increase its duration by 0.5 seconds, also reduce the coldown of it by 10%, Sven
+will also gain 4 8 12 16 Strenght when in BloodLust.
+-
+increase all stats by 4 and increase healing recive by 15%, Further increase the healing recive by 10% when in BloodLust
+-
+Increase DeathBlow cast range by 75 and its base damage by 10, DeathBlow will alway reduce the target armor by 3 and slow them by 10%
+for 6 seconds
+-
+level 7 talent
+-
+Increase DeathBlow Strenght scaling by 10% and its Spellvamp bonus by 15%, Sven will gain 3.2 mana regeneration and 4.0 health
+regeneration after casting DeathBlow for 5 seconds.
+-
+after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 2.5 seconds, when this bonus is not
+active sven will gain instead 10 attack speed 4% bonus damage and 20 movespeed, also increase his mana by 75 and agility by 4
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%
+-
+increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
+-
+When in Titan Rage, Sven will gain 0.3% health regeneration and 0.2% mana regeneration, he also reduce the Attack speed Penalty by 25
+and the coldown of Titan Rage by 5, also increase xp gain by 15%
+-
+level 16 talent
+-
+Increase the bonus damage from Titan Rage by 15% and the Base damage recive by 10, every kill in Titan Rage will restore Sven health by
+45 plus 30% of his Strenght, Sven will also gain 15% roots resist in Titan Rage.
+-
+Increase Blood Wound base damage by 4 and increase its duration by 2 seconds, Enemys Affected by Blood Wound will heal allys and sven
+by 12% of the damage dealt to them by anything for the duration, also increase Sven spell amp by 12% and his health by 125.
+-
+increase attack damage by 8% and attack speed by 25, increase Blood Wound attack speed cap by 40 and its duration by 1 seconds, Blood
+Wound cannot be purge by any means, also increase Sven movespeed by 45 and all Stats by 6.
+-
+level 19 talent
+-
+Increase Pure resist by 15%, Sven will futher increase the bonus by 20% when in Titan Rage and BloodLust, also increase his Status
+resistence by 10% and his Agility by 12.
+-
+Increase Sven Strenght by 25 and his health regeneration source bonus by 35% but reduce is attack speed by 15 and his agility by 10,
+Sven will further increase the bonus strenght by 3 for every item that give Strenght or Attack damage.
+-
+Increase all Phyisical damage output by 35% but reduce any magic damage output by 40%, Sven will further increase the Physical damage
+output bonus by 20% in Titan Rage and 10% in BloodLust, also increase Strenght and Agility by 6.
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Titan Rage duration by 7 seconds and Sven will now gain 20% status resistence in Titan Rage, BloodLust will also give 10%
+status resistence, War Gladiator will gain 25% more block chance and 4% more Critical chance when in Titan Rage. Also reduce attack
+speed penalty from Titan Rage by 15.
+-
+increase War Gladiator Cleave damage by 15% and Strenght scaling for the Critical damage by 8%, War Gladiator will also further
+increase the attack speed bonus from strenght by 0.10, Sven will also gain 6% more Critical chance and 25% Critical damage when in
+BloodLust
+-
+level 26 talent
+-
+Increase BloodLust damage gain by 14 and attack speed by 18, BloodLust will have 0.3 coldown reduce per auto attack done when not
+affected by BloodLust its self, Sven will also gain 22% lifesteal in BloodLust and 2.5 mana regeneration as well.
+-
+Increase Mana by 25% and Sven will reduce the Mana cost of all of his spells by 30%, Death Blow and Blood Wound will do 15% increase
+damage to targets affected by any debuff, if the debuff reduce armor they will take 35% of Death Blow and Blood Wound in Pure damage
+-
+Increase item Attribute stats gain by 20%, Item that got passive effect will always give Sven 3 Strenght and 4 attack damage but reduce
+Sven attack speed by 20 and movespeed by 15, Sven will also gain 15% Blind resist.
+-
+level 29 talent
+-
+Increase Pure resist by 10%, further increase the Pure resist by 15% when in Titan Rage or BloodLust, Sven will also gain 5% pure Resist
+upon killing or getting the assist from bosses, stack 3 time and are lost on death, at 3 stack sven will gain 4 armor and 8% magic
+resist.
+-
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+30
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
+by 8 but reduce inteillgence by 12.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+-
+increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
+by 10%
+-
+level 36 talent
+-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
+1%
+-
+When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
+duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
+chance of War Gladiator by 25% and critical chance by 2%
+-
+level 39 talent
+-
+ANGER ASPECT, increase Sven attack speed by 3 for every 100 current point of Health Sven got and every time he lose at least 8% of his
+max health he will gain Unstable Anger, increasing his damage by 15% and his attack speed by 60 for 3 seconds but making is spell cost
+25% more damage as well, When in Titan Rage Sven will instead gain 25% mana cost reduction and also gaining 10 mana regenration as well.
+-
+MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
+and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
