@@ -30,7 +30,7 @@ DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time an
 and he lose 60% base damage strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
 items with effect that deal damage will have 50% reduction effects, he also lose 5% Agility per Inteillgence item he got.
 
-talent level 40 upgrade Never Ending Void
+talent level 40 upgrade Might of The Void Lord
 
 
 
@@ -157,45 +157,49 @@ increase root resistence by 5%
 increase magic resistence by 4%
 
 add a new modifier Nebula
-all enemys around enigma will get damage by 6 plus 14% of inteillgence every 1 second 825 radius and if they attack him they will lose 
-0.8% life every time 10 second on bosses and when enigma die he will explode dealing 3% of the enemy max life plus 6% 9% 12% 15% of
+all enemys around enigma will get damage by 6 plus 14% of inteillgence every 1.5 second 825 radius and if they attack him they will lose 
+0.8% life every time, 10 second on bosses and when enigma die he will explode dealing 3% of the enemy max life plus 6% 9% 12% 15% of
 engima health and mana as well and after 4 second enigma will reborn here with 35% life and 20% mana, cooldown of 180 second for the
-explosion and revive, the Explosion radius is 850, Enigma spells will also have 25% more bonus from Spellamp and he also gain 1
-inteillgence per 5 current Strenght
+explosion and revive, the Explosion radius is 850, Enigma spells will also have 25% more bonus from Spellamp and he also gain 14% bonus
+spellamp after casting any spells for 4.5 seconds.
+
 
 ULTIMATE R 
 
 Void Star
-summon a star infested with void and gravity stuning and damaging all enemy, after the stun duration end A blackhole will appear dealing 
-damage per second and doing even more damage the closer they get into the center of the blackhole
+Enigma will Channel a Void Star for 5 seconds, dealing Massive Pure damage per 1.0 seconds and stuning every enemys that enter in
+contact with it, Void Star will also Ignore all form of Stun resistence and enemys will be pull into the center at 210 240 270 speed
+unit, for those that are close to the Center of Void Star will take increase damage from it and lose high amount of Magic resist and 
+Pure Resist Void Star will also Create a Gravity Well with only 5 seconds duration and will not stun but having increase effects and
+also having a new effect that will make enemys deal 20% 25% 30% less overall damage for 12 seconds.
 
-Damage 60 110 160 Magical damage with 70% 140% 210% of enigma int Void
-Stun duration 1.5 second
-radius 700 850 1000 of the explosion damage
-radius of the black hole 700 800 900
-Black Hole damage 15 35 55 plus 50% 65% 80% of inteillgence as pure damage per second Void
-Double Damage if enemys are in the Center 180 240 300 radius every second
-duration of the Blade Hole 6 second
-Speed Pull of the Black Hole 100 125 150
-mana cost 200 400 600 plus 5% of max mana
-cooldown 140 125 110
+damage 70 110 150 plus 70% 80% 90% of inteillgence
+Magic and Pure resist lost 15% 25% 35%
+Void Star Radius 600 725 850
+Center radius 250 300 350
+Gravity Well bonus damage 20 40 60
+Gravity Well bonus attack speed lost 3 6 9
+Gravity Well bonus movespeed lost 4 8 12
+coldown 110 100 90
+mana cost 25% 30% 35% of max mana
 
-NOTE use the immortal black hole
+talent level 40 Upgrade Void Star
+increase damage by 35
+increase scaling by 20%
+increase Void Star Radius by 75
+increase center radius by 35
+increase Speed pulling by 20
+increase Gravity Well bonus damage by 25
+increase mana cost by 10%
 
-talent level 25 upgrade Void Star
-increase damage by 90 for explosion
-increase the int scaling by 40% for explosion
-black hole inteillgence scaling bonus 25%
-black hole radius increase by 200
-black hole double damage radius increase by 100
-black hole pull speed increase by 40
-
-add a new modifier Might of the Galaxy Lord
-casting Void Star will give all enemy Void Curse with 50% less duration -5 second with talent upgrade- dealing pure damage instead of
-magical and changing magic resist lost to damage taken increase and when the black hole appear a Gravity Well will be cast as well
-for the duration of the black hole having 100% increase damage and after the black hole end it will explode for 200% of engima
-inteillgence as pure damage 700 radius and removing all debuff on ally and giving enigma 70% magic resist for 12 second
-
+add a new modifier Dieing Star
+Void Star will no longer be a Channeling spell but will have 1 seconds duration reduce, Each 0.5 seconds of Void Star will increase its
+damage by 15, Radius by 55, Center radius by 20 and speed pulling by 10, Void Star will make Enigma Immune all form of damage. After
+the Void Star duration ends, Enigma will gain 50% increase size and will make his basic spells do 40% increase damage and have 425 cast
+range bonus as well for 10 seconds. Enigma will also reduce all Physical damage taken by 25% and Further increase its by 10% when he
+cast any Basic spell for 5 seconds. the Gravity Well that is Created with Void Star will have 1 seconds duration reduce but will also
+deal 8% increase damage every 0.5 seconds as well and will also have the same Size as Void Star plus its Base radius from Gravity Well
+its self.
 
 level 1 talent
 -
