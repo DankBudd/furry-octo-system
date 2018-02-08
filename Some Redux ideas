@@ -34,21 +34,26 @@ reduce lifesteal amount by 30% 25% 20% 15%
 
 
 Piercing Attack
-Make your next Auto attack deal increase damage and Ignoring armor from the target, after 1.5 seconds the target will become Break and
+Make your next Auto attack deal increase damage and Ignoring armor from the target, after 0.5 seconds the target will become Break and
 be slowed by 15%, Melee Characters will Ignore more Armor than Range Characters.
 
 bonus damage 35% 50% 65% 80%
-Armor Ignore Range 5 7 9 11
-Armor Ignore Melee 5 9 13 17
-Break and Slow duration 3.0
-coldown 13 11 9 7
-mana cost 70 90 110 130
+Armor Ignore Range 6 9 12 15
+Armor Ignore Melee 10 14 18 22
+Break and Slow duration 3.5
+coldown 10 9 8 7
+mana cost 70 95 120 145
 
 if this get Scepter upgrade here are the bonus
 
-increase the damage bonus gain and also reduce the target armor. The Armor reduction will have the same duration as the break and slow
-duration
+increase the Break and slow duration and the bonus damage, the target will lose a percentage of armor and every armor gain durring the
+debuff will do Pure damage them.
 
-Bonus damage increase 30%
-armor lost 10
+duration bonus 1.0
+damage bonus 20%
+armor lost 35%
+damage per armor gain 65
+
+
+
 
