@@ -3,20 +3,19 @@ Starting stats 2 strenght, 1 agility, 10 inteillgence, Stats gain per level, 0.9
 Base movespeed 250, Base attack damage 2-5, Base Regeneration Health 0.8, Base Regeneration Mana 1.2.
 
 
-SCROLL DOWN FOR TIP AND COMBO
-
-Skill Element - Void
-
 LEVEL 20 TALENT
 
 talent 1
-increase Enigma health by 225 and life regeneration by 4
-also increase Enigma magic resist by 12% of his inteillgence and increase his life by 1000% of his life regeneration
+Increase Magic resist by 20% and health regeneation by 2.5
+Enigma will gain x6 of his Magic resist into health and mana bonus, he also gain a Void Shield, 15% of the total damage will be on
+Enigma mana and for every 100 mana lost he will gain 0.2 mana regeneration and 0.1 health regeneration, Void Curse will give Enigma
+the Health Regeneration that enemys lose for him and also increase its cast range by 550 and health lost by 0.2.
 
 talent 2
-increase Enigma Spell amp by 7% and inteillgence by 12
-every items that give mana or inteillgence, they will increase engima inteillgence by 4% and his mana by 3% up to 20% max inteillgence
-and 15% max mana bonus
+Increase inteillgence by 10 and Strenght by 15
+Enigma will gain 25% of his Strenght into bonus inteillgence and mana, Enigma Void Curse, Gravity Well and Void Bolt Primary damage will
+gain 40% of Enigma Strenght into bonus damage, Enigma will also gain 2% spellamp per spells he cast up to 20 max stack and refresh upon
+casting a spell, the bonus will last 7.5 seconds, Enigma Void Star will also do 100% more damage if the target is Magic Immune
 
 PASSIVE D OR F
 
@@ -29,16 +28,10 @@ per level gaining 0.5% size as well enigma will have a Special Gravity Wand that
 gain 2 inteillgence for every items that give Spellamp, Enigma will also gain 1% coldown reduction per Inteillgence items as well.
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 60% base damage strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
-items with effect that deal damage will have 50% reduction effects, he also lose 2% Strenght per Inteillgence item he got.
+items with effect that deal damage will have 50% reduction effects, he also lose 5% Agility per Inteillgence item he got.
 
-talent level 40 upgrade Gravity Lord
-give a new modifier Pure Gravity
-empower next enigma spell
-VOID CURSE deal 40% more damage and lower the cooldown by 9
-GRAVITY WELL increase duration by 3 and lower the cooldown by 8
-GRAVITY BOLT deal pure damage instead and increase damage by 150%
-also make those 3 spell of enigma deal 0.7% of the enemy max life as damage -dont work for bosses-
-cooldown for this empower 25 second cannot get bonus from cooldown reduction
+talent level 40 upgrade Never Ending Void
+
 
 
 Special item Void Glove
