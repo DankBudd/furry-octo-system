@@ -52,7 +52,7 @@ radius around the Curse target. The Target itself will also take Void Mass but d
 and health regeneration lost will last 2.5 seconds after the curse end, Void Mass will also reduce magic resist but will not reduce
 health regeneration
 
-Damage 8 12 16 20 plus 10% 14% 18% 22% of Inteillgence 
+Damage 8 12 16 20 plus 9% 12% 15% 18% of Inteillgence 
 Duration 4 4.5 5 5.5
 magic resist lost 2%
 health regeneration lost 0.3 0.5 0.7 0.9
@@ -115,8 +115,8 @@ Hunger that last 10 seconds If they cast at least 3 spells while under this effe
 low amount of every 0.2 seconds and increasing their casttime point as well, Void Bolt will Ignore Magic immune units, Void Bolt will
 also reduce Magic resist and slow movespeed for 3.5 seconds.
 
-Bolt Damage 20 30 40 50 plus 65% of Inteillgence
-Consuming Void damage 8 9 10 11 plus 10% of Inteillgence
+Bolt Damage 20 30 40 50 plus 55% of Inteillgence
+Consuming Void damage 8 9 10 11 plus 6% of Inteillgence
 Consuming Void duration 5 6 7 8
 Cast time point increase 0.60 0.90 1.20 1.50
 Magic resist lost 5% 10% 15% 20%
@@ -126,7 +126,8 @@ mana cost 175 275 375 475 plus 2% of max mana
 
 talent level 20 Upgrade Void Bolt
 increase Void Bolt damage by 15
-increase Consuming Void scaling by 5%
+Increase Void Bolt scaling by 20%
+increase Consuming Void scaling by 2%
 Increase cast time point by 0.60
 reduce coldown by 4
 
