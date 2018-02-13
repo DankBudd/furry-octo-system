@@ -13,7 +13,7 @@ increase Bloodlust duration by 1.5 and increase the movespeed bonus gain by 35.
 
 talent 2
 increase Sven damage by 15% and agility by 10
-Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 10% of his Strenght, DeathBlow and Blood Wound will deal 25%
+Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 12% of his Strenght, DeathBlow and Blood Wound will deal 25%
 of Sven Agility as bonus damage and having 125 castrange bonus as well, increase their coldown by 4 but make them Ignore all form of
 armor resistence, Bloodlust will also give 25 more attack speed bonus and further reduce base attack time by 0.10 when in Bloodlust.
 
@@ -295,15 +295,18 @@ talent defensive
 level 33 talent
 -
 increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
-by 8 but reduce inteillgence by 12.
+by 8 but reduce inteillgence by 12 and Sven will gain 0.07 mana regeneration per 1 Agility as well.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+Death Blow will alway stun the target for 0.7 seconds and Blood Wound will have 40% chance to stun for 0.1 seconds every tick of
+damage, also increase all Stun and roots source cause by Sven by 30% and also gain 10% stun resistence as well, Sven will inrease the
+scaling Strenght of Death Blow and Blood Wound by 5% and make them mana leech for 7% of the damage done.
 -
-increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
-by 10%
+Increase attack damage by 50 and Strenght by 15 but reduce attack speed by 40 and Agility by 25, Sven will also gain 2% attack damage
+per attack done on the same target up to 10 max stacks that last 3.8 seconds, stack are lost upon attacking a new target or not
+attacking, at 10 stacks Sven will gain 15 attack speed, Phase movement and 25% Status resistence.
 -
 level 36 talent
 -
