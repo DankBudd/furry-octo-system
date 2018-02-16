@@ -1,21 +1,21 @@
 Molten Wave
-Send out a wave of lava that remove the enemys armor by 1 from their max health and dealing burn damage every seconds for the duration as
-well. The burn damage will also deal bonus damage base on the current health of the target
+Send out a Lava Wave that reduce the enemy armor for every 210 205 200 195 health they have, it also deal physical damage to them and
+will burn them for Pure damage every 0.5 second of Molten Wave duration. Molten Wave will deal 2 extra burn damage for every 10 armor
+reduce off the target.
 
-the burn will deal damage every 1 second
+damage 70 140 210 280
+Burn damage 8 10 12 14
+base armor lost 2 3 4 5
+armor lost per health 0.6 0.7 0.8 0.9
+duration 3.5 4.5 4.5 5.0
+coldown 17 15 13 11
+mana cost 90 180 270 360
 
-damage 90 140 190 240 physical
-base burn damage 8 12 16 20 physical
-bonus burn damage base on current health 1% 2% 3% 4%
-armor lost per max health 230 220 210 200
-duration of burn and armor lost 4 second
-mana cost 100 180 260 340
-cooldown 22 20 18 16
+if this spell does get scepter Upgrade here are the bonus
 
-if this spell get scepter upgrade
-increase the burn duration by 1 seconds
-any healing done while the target is affected will have no effect and taking 15% of the healing done into damage
-
+Increase the base damage by x3 of the user total Armor (not the enemy) and the Wave will have 350 more Travel Distence and also gain
+100 radius and also gain 0.5 seconds duration, Molten Wave will also reduce healing effect on the target by 20% for the same duration of
+Molten Wave.
 
 
 Weapon Master
