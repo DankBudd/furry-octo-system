@@ -301,12 +301,12 @@ increase items Strenght, Inteillgence and agility gain by 50% but reduce all oth
 passive as well
 -
 Death Blow will alway stun the target for 0.7 seconds and Blood Wound will have 40% chance to stun for 0.1 seconds every tick of
-damage, also increase all Stun and roots source cause by Sven by 30% and also gain 10% stun resistence as well, Sven will inrease the
+damage, also increase all Stun and roots source cause by Sven by 30% and also gain 10% stun resistence as well, Sven will increase the
 scaling Strenght of Death Blow and Blood Wound by 5% and make them mana leech for 7% of the damage done.
 -
 Increase attack damage by 50 and Strenght by 15 but reduce attack speed by 40 and Agility by 25, Sven will also gain 2% attack damage
 per attack done on the same target up to 10 max stacks that last 3.8 seconds, stack are lost upon attacking a new target or not
-attacking, at 10 stacks Sven will gain 15 attack speed, Phase movement and 25% Status resistence.
+attacking, at 10 stacks Sven will gain 11 Health Regeneration, Phase movement and 20% movespeed.
 -
 level 36 talent
 -
@@ -314,9 +314,9 @@ increase Agility, Strenght and Inteillgence by 12 and also increase life gain fr
 and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
 1%
 -
-When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
-duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
-chance of War Gladiator by 25% and critical chance by 2%
+When Sven cast BloodLust he will gain 25 heath regeneration and also gaining 15 max health per 0.5 second of the duration and after the
+duration ends all of that health gain will be a heal for Sven and also healing him for 7% of his max health as well increase the chance
+of War Gladiator Block by 25% and critical chance by 3%.
 -
 level 39 talent
 -
