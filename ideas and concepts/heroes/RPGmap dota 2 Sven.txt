@@ -2,6 +2,8 @@
 Starting stats 10 strenght, 6 agility, 3 inteillgence, Stats gain per level, 1.20 Strenght, 0.70 Agility, 0.40 Inteillgence.
 Base movespeed 315, Base attack damage 9-15, Base Regeneration Health 1.1, Base Regeneration Mana 0.7.
 
+total base stats at level 40 - 58 Strenght - 34 Agility - 19 Inteillgence -
+
 TALENT LEVEL 20
 
 talent 1 
@@ -12,7 +14,7 @@ increase Bloodlust duration by 1.5 and increase the movespeed bonus gain by 35.
 
 
 talent 2
-increase Sven damage by 15% and agility by 10
+increase Sven damage by 12% and agility by 10
 Increase Sven Strenght by 35% of his Agility and increase his Spell amp by 12% of his Strenght, DeathBlow and Blood Wound will deal 25%
 of Sven Agility as bonus damage and having 125 castrange bonus as well, increase their coldown by 4 but make them Ignore all form of
 armor resistence, Bloodlust will also give 25 more attack speed bonus and further reduce base attack time by 0.10 when in Bloodlust.
@@ -310,9 +312,9 @@ attacking, at 10 stacks Sven will gain 11 Health Regeneration, Phase movement an
 -
 level 36 talent
 -
-increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
-and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
-1%
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.25
+and spell amp gain from inteillgence by 0.5%, Sven will also gain 0.1% lifesteal for every 2 Agility and 0.04 mana regeneration for
+every point of Strenght. Strenght will also give Sven 1 attack range as well max of 100 from it.
 -
 When Sven cast BloodLust he will gain 25 heath regeneration and also gaining 15 max health per 0.5 second of the duration and after the
 duration ends all of that health gain will be a heal for Sven and also healing him for 7% of his max health as well increase the chance
