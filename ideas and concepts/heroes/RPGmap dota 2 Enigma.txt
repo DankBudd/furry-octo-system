@@ -1,9 +1,10 @@
                                                     Enigma The Void Lord
-Starting stats 2 strenght, 1 agility, 10 inteillgence, Stats gain per level, 0.90 Strenght, 0.20 Agility, 1.20 Inteillgence.
+Starting stats 4 strenght, 5 agility, 10 inteillgence, Stats gain per level, 0.70 Strenght, 0.10 Agility, 1.20 Inteillgence.
 Base movespeed 250, Base attack damage 2-5, Base Regeneration Health 0.8, Base Regeneration Mana 1.2.
 
+total base stats at level 40 - 32 Strenght - 9 Agility - 58 Inteillgence -
 
-LEVEL 20 TALENT
+LEVEL 30 TALENT
 
 talent 1
 Increase Magic resist by 20% and health regeneation by 2.5
