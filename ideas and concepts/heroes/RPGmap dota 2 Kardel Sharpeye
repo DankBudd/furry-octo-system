@@ -1,7 +1,9 @@
-DOTA 2 -- Sniper, medium DSP, High and low single spell Damage, high CC -- Kardel Sharpeye
+                                                    Kardel The Sniper
+Starting stats 6 strenght, 4 agility, 10 inteillgence, Stats gain per level, 0.20 Strenght, 1.70 Agility, 0.80 Inteillgence.
+Base movespeed 335, Base attack damage 2-8, Base Regeneration Health 0.4, Base Regeneration Mana 0.8.
 
-Stats inteillgence 5, agility 7, strenght 10, base damage 9, movespeed 300, --- INT 0.60 STR 0.40 AGI 1.40
-attack range 520
+total base stats at level 40 - 14 Strenght - 72 Agility - 42 Inteillgence -
+
 
 quick note for this
 sniper will have more than 6 spell, he will get his other spell by changing his mode of attack from his toggle passive 
@@ -26,10 +28,10 @@ and for every 75 Attack range Kardel got will give him 1% cooldown reduction
 Passive D OR F Elite Sniper
 BUFF, Kardel will gain 1 damage every 4 agility instead of 5 and also gaining 1 agility per 4 inteillgence, every 1 current attack damage
 Kardel got will also grant him 1 movespeed, he gain 5 more mana with inteillgence and 2 health bonus per agility he start with a special
-weapons that scale with his level and he cannot change it
+weapons that scale with his level and he cannot change it, Kardel will also gain 0.10 attack speed per Inteillgence points
 DEBUFF Kardel lose 25% max health and taking 135% damage from physical, magical and pure damage, strenght will not give any regeneration
-and will only give 3 health instead of 5, any armor-chest peice and helm will have 50% reduce effect on Kardel, he also cannot pass 475
-movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 4% of his max health after the root end
+and will only give 2 health instead of 5, any armor-chest peice and helm will have 50% reduce effect on Kardel, he also cannot pass 475
+movespeed and slows that slow more than 25% will root Kardel for 0.8 seconds and damage him for 6% of his max health after the root end
 and Spell amp will have no effect on Kardel Spells
 
 level 40 talent Upgrade Elite Sniper
