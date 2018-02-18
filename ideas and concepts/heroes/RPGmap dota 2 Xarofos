@@ -1,6 +1,8 @@
                                                 Xarofos the Iron Golem Lord
-Starting stats 14 strenght, 4 agility, 0 inteillgence, Stats gain per level, 1.60 Strenght, 0.40 Agility, 0.00 Inteillgence.
+Starting stats 16 strenght, 4 agility, 0 inteillgence, Stats gain per level, 1.60 Strenght, 0.40 Agility, 0.00 Inteillgence.
 Base movespeed 225, Base attack damage 9-11, Base Regeneration Health 0.3, Base Regeneration Mana 0.0.
+
+total base stats at level 40 - 70 Strenght - 20 Agility - 0 Inteillgence -
 
 -note-  we might want a custom model for this guy- the custom model might need some porting over for this guy if possible.
 he got 35% increase size model.
@@ -13,7 +15,6 @@ he is now Serving the Holy Lord and Being the First Holy Iron Golem himself, Pur
 
 
 LEVEL 30 TALENT
-
 
 Talent 1
 Increase Xarofos Health by 125 and his Pure resist by 10%
