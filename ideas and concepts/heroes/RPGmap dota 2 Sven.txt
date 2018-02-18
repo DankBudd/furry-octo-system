@@ -4,7 +4,7 @@ Base movespeed 315, Base attack damage 9-15, Base Regeneration Health 1.1, Base 
 
 total base stats at level 40 - 58 Strenght - 34 Agility - 19 Inteillgence -
 
-TALENT LEVEL 20
+TALENT LEVEL 30
 
 talent 1 
 increase sven max health by 20% and his armor by 5
