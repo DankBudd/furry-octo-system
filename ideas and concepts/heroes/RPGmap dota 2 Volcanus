@@ -4,7 +4,7 @@ Base movespeed 265, Base attack damage 4-9, Base Regeneration Health 0.4, Base R
 
 total base stats at level 40 - 22 Strenght - 30 Agility - 44 Inteillgence -
 
-LEVEL 20 TALENT
+LEVEL 30 TALENT
 
 Talent 1
 Increase Volcanus mana by 325 and his health regeneration by 3.5
@@ -20,7 +20,7 @@ he got, also increase his mana regeneration by 0.1 for every 80 mana lost, Lava 
 unit hit, the stacks of Spell amp will last 7 seconds with each of them having their own duration.
 
 
-PASSIVE D OR F Fire God
+PASSIVE D OR F Fire Lord
 Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 6 int instead of 10 and he can use 2 glove
@@ -31,7 +31,7 @@ he also lose 50% base attack damage and all Source of Physical damage will deal 
 magical Source of damage will do 0.4% bonus damage as well
 
 
-talent level 25 upgrade Fire God
+talent level 25 upgrade Fire Lord
 add a new modfier Reborn To Lava
 increase the damage of Soul Burn by 50% and also increase Volcano damage by 25% as well, useing those spells will give Volcanus 25%
 magic reist and 22 attack damage bonus for 4 seconds, useing one of those spells again in the duration of the buff will increase it
@@ -43,41 +43,47 @@ health 425 plus 18% 22% 26% 30% of Volcanus health
 Mana 200 plus 15% of Volcanus mana
 Armor 9
 Magic resist 20%
-damage 17-31 plus 15% of Volcanus Int
-Base attack time 1.75
+damage 21-37 plus 18% of Volcanus Int
+Base attack time 1.95
 
 Spell Molten Breath of Molten Lava mana cost 100, coldown 18
-The Greater Lava Spawn Breath out lava dealing 75 plus 25% of the Lava Spawn attack damage in a 275 cone in front of them that goes 450
+The Greater Lava Spawn Breath out lava dealing 115 plus 65% of the Lava Spawn attack damage in a 275 cone in front of them that goes 450
 Unit far, enemys will take 10% increase damage for 8 seconds, and also have 12% chance when attacking or casting a spell taking 0.4% of
 their max health in damage (current health for bosses). does magical damage
 
 Passive Pure Molten Coating, does damage every 0.6 seconds
-enemys Near the Greater Lava Spawn will take 9 plus 11% of the Greater Lava Spawn attack damage in Pure damage that cannot be resisted
+enemys Near the Greater Lava Spawn will take 11 plus 8% of the Greater Lava Spawn attack damage in Pure damage that cannot be resisted
 by any means, Being near the Greater Lava Spawn will reduce enemys Pure resist by 15%, stack with the other Greater Lava Spawn.
 
 
 SPELL Q
 Soul Burn
-Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration
+Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration,
+Soul Burn cannot be Purge by anymeans and will Ignore spell immune units, the duration will have 2.0 seconds increase if the target lose
+at least 30% of his max health durring its duration, Soul Burn will damage every 1.0 seconds, if the target was Slowed before Soul Burn
+was casted on them, it will deal 175% of Volcanus inteillgence in a 375 area of effect burst damage once on the target.
 
-damage per second 13 17 21 25 type Magical plus 23% 27% 31% 35% of intelligence
-damage reduction 10% 17% 24% 31%
-slow 6% 9% 12% 15%
+damage 13 17 21 25 type Magical plus 13% 17% 21% 25% of intelligence
+damage reduction 11% 22% 33% 44%
+slow 10% 14% 18% 22%
 duration 5
 cooldown 18 17 16 15
-mana cost 70 110 150 190 plus 4% of max mana
+mana cost 70 110 150 190 plus 3% of max mana
 
 Talent level 10 upgrade Soul Burn
-increase damage by 5
-increase intelligence scaling by 25%
-increase damage reduction by 11%
-increase the duration by 2
-reduce cooldown by 2
+increase scaling damage by 10%
+increase slow amount by 5%
+increase duration by 1.0
+remove max mana cost
 
 add a new modfier Sun Burn
-Soul Burn silence all enemy near the main target 350 radius and Soul Burn got 15% chance to deal 50% more damage and turning it to
-pure damage after Soul Burn duration end it will explode for 300% of Soul Burn total damage to all near enemys 425 radius and give
-Volcanus 2% spell amp for every death done with the explosion up to 16% max spell amp bonus, he will lose this bonus upon dieing
+Soul Burn will silence all enemy near the main target 350 radius and Soul Burn got 20% chance to deal 50% increase damage and dealing
+pure damage, after Soul Burn duration end it will explode for 300% of Volcanus inteillgence to all near enemys 425 radius, Volcanus will
+gain 1% spell amp for every 8 seconds of Soul Burn done, at 6% spell amp bonus, Soul Burn will gain 5 base damage and 10% increase slow
+at 11% spell amp bonus, another Soul Burn will be cast at random target near Volcanus (825 radius) and reduce the coldown by 3, at 16%
+spell amp bonus, Volcanus will gain 12% max health and mana, Soul Burn will deal its damage every 0.7 seconds instead of 1.0 seconds,
+max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 stack is lost upon getting slowed. Volcanus will also deal 35%
+increase attack damage on the target affected by Soul Burn.
 
 SPELL W Lava Wave
 Send out a wave of Molten lava dealing insane damage and burning enemys and also reducing their magic resist. this Spell will gain
