@@ -60,18 +60,24 @@ Max skeleton 3 4 5 6
 Mana cost 100 120 140 160 plus 3% of max mana
 cooldown 1
 
-Skeleton Warrior passive
+Skeleton Warrior passive 1
 Swing of The Dead coldown 5
 they get 15% chance to deal 130% 135% 140% 145% damage after that they get 4 instance of 14% 16% 18% 20% lifesteal and 20 30 40 50 attack
 speed, the final hit will deal pure damage and lifesteal for 30% 40% 50% 60% of the damage dealt.
 
-Skeleton Warrior passive 2 talent level 10
+Skeleton Warrior Passive 2 
+Undying Bones
+Skeleton Warriors will have 25% chance to come back to life having 10% 14% 18% 22% bonus attack damage until they die again (stack it
+self with the Necro Mastery talent level 20), they also gain 3% 6% 9% 12% lifesteal and 0.7 1.4 2.1 2.8 health regeneration. The health
+Regeneration will increase by 0.1 for every skeleton alive.
+
+Skeleton Warrior passive 3 talent level 10
 Death Strenght coldown 10
 Skeleton Warrior will gain 10% 15% 20% 25% Pure resist and when they take Pure damage, they will instead block that Instance of damage
 (must be at least 10% of their max health to block the Pure damage) and when they block it, they will gain 40 50 60 70 attack speed and
 11% 22% 33% 44% movespeed and reducing all slows duration by 40% and damage taken by 25% for 6 seconds,
 
-Skeleton Warrior passive 3 talent level 10
+Skeleton Warrior passive 4 talent level 10
 Shielding Hand
 Skeleton Warrior will use their Hands to block 4% of the incoming damage they get, this bonus will increase by 1% for every Skeleton
 Warrior alive when they are near eachother up to 22% damage reduction max, they also gain 2 3 4 5 bonus armor and 200% of their armor
@@ -206,10 +212,10 @@ increase inteillgence bonus for necro by 15%
 
 add a new modifier Undead Lord
 Necro will gain 5% of his mana into health for him and his Skeletons and make the Skeletons ManaLeach for 25% of the damage done giving 
-it to Necro. If any Skeleton dies they have 50% chance to come back to life with 60% max health, losing 40% total max health but also
+it to Necro. If any Skeleton dies they have 40% chance to come back to life with 60% max health, losing 35% total max health but also
 increasing their attack speed by 25 and their life regeneration by 1% of their max health when they revived, if they die again, they
 will not revive but instead explode in a 410 radius dealing 5% of their max health in Pure damage, Skeleton can no longer beLifesteal or
-Spellvamp.
+Spellvamp, if they dont revive they will explode.
 
 ULTIMATE R
 Death Touch
