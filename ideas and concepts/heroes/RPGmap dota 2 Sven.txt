@@ -325,7 +325,7 @@ of War Gladiator Block by 25% and critical chance by 3%.
 -
 level 39 talent
 -
-ANGER ASPECT, Sven will gain 15% status Resistence and Titan Rage will have 15 coldown reduce and have 10 seconds duration increase,
+ANGER ASPECT, Sven will gain 15% status Resistence and Titan Rage will have 10 coldown reduce and have 5 seconds duration increase,
 BloodLust will alway be Active in Titan Rage for its duration as well with all of its effect (BloodLust cannot be use while in Titan
 Rage since its active already), DeathDeath Blow will have 15 base damage increase and 75 cast range as well, it also Ignore all armor
 off the target, Blood Wound will have 1 seconds duration increase and remove 4 more armor as well, War Gladiator will give Sven 25%
@@ -333,7 +333,8 @@ Magic resist and 10 Armor, it also got 2% more chance to crit and will block 8 m
 -
 IMMORTAL ASPECT, increase health by 1750 and Pure resist by 50%, all spell that give armor or magic resist to the user will have 40%
 mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
-that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+that Stun will give the user 22 health regeneration and 5% damage reduction for 15 seconds, BloodLust will give 8 armor and 16% magic
+resist for its duration
 -
 level 40 talent
 -
