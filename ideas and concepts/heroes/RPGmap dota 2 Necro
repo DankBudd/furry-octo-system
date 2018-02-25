@@ -2,6 +2,7 @@
 Starting stats 4 strenght, 0 agility, 4 inteillgence, Stats gain per level, 0.60 Strenght, 0.00 Agility, 1.10 Inteillgence.
 Base movespeed 295, Base attack damage 3-6, Base Regeneration Health 1.7, Base Regeneration Mana 0.8.
 
+small notes for skeletons, they will be disarm if they walk 1300 radius away from necro
 
 LEVEL 30 TALENT
 
@@ -406,7 +407,7 @@ talent defensive
 level 33 talent
 -
 Necro will gain a new passive Call Reconstruction that give life regeneration and bonus max health Globaly for skeletons and necro will
-also reduce stun duration by 40% and gain 4.4 health regeneration
+also reduce stun duration by 40% and gain 4.4 health regeneration, Skeleton will be able to go freely without disarming them.
 
 Reconstruction
 increase Health regeneration and Max health of Skeleton Globaly
