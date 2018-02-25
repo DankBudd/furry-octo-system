@@ -221,7 +221,7 @@ ULTIMATE R
 Death Touch
 Necro Touch a enemy Target making them Decay super fast, taking insane damage per seconds and if they die under Death Touch they will
 Summon a Bone Lord that will aid necro in battle, The Bone Lord got 1 spell and 2 passive, reduce Death Touch coldown by 1 for every
-cast of Death Coil. Death Coil will do 50% reduce damage vs Bosses.
+cast of Death Coil. Death Touch will do 50% reduce damage vs Bosses.
 
 Damage per seconds 50 70 90 plus 60% of int magical
 duration 10 seconds
@@ -262,7 +262,7 @@ the Bone Lord will gain 1% damage every kill he does, at a max of 50% increase d
 a frenzy gaining 35% move speed and 75 attack speed, after he dies he will summon 9 Skeleton warrior that last 25 seconds and have
 Frenzy as well, Frenzy last 3.5 seconds on Bone Lord, also increase Necro health regeneration by 0.3 for every kill the Bone Lord does,
 they last 60 seconds each with their own duration, and when the duration ends Necro will get heal by 0.4% of his max health, Necro will
-also Revive when he die with 50% health and 25% mana, coldown of 180 seconds
+also Revive when he die with 50% health and 25% mana, coldown of 120 seconds
 
 
 
@@ -273,24 +273,24 @@ increase strenght gain by 0.2 every level and also increase strenght by 5
 increase Inteillgence gain by 0.2 every level and also increase Inteillgence by 5
 -
 Increase Strenght and Inteillgence gain by 0.1 every level and also increase Strenght and Inteillgece by 3, Necro also gain 5% coldown
-reduction
+reduction and 75 health.
 -
 level 4 talent
 -
 Increase Death Coil base healing by 20 (50% of this goes to the explosion heal) and also increase its Inteillgence scaling damage by 10%,
 also reduce its coldown by 0.1 for every healing done to skeletons.
 -
-increase all stats by 4 and increase healing recive by 15%, Death Coil can be cast on Necro.
+increase all stats by 4 and increase healing recive by 15%, Death Coil can be cast on Necro and will have 25% increase healing effect
 -
 Increase Healing amp by 10% and Inteillgence by 14 and mana regeneration by 2.1 but reduce spellamp by 10% and magic resist by 15%
 -
 level 7 talent
 -
 Increase Spell amp by 10% and increase Death Coil cast range by 225 and reduce its coldown by 5 if it kill something, also increase Death
-Coil base damage by 5.
+Coil base damage by 5 and skeletons will gain 10% of Death Coil total damage into bonus attack damage
 -
 Increase Skeletons Health by 35 and armor by 1, Skeleton Warriors will gain 10% Pure resist and Skeleton Archer will gain 15 attack speed
-and 5% lifesteal and Spellvamp.
+and 5% lifesteal and Spellvamp, Necro will gain 0.2 armor and 0.4% magic resist per skeleton alive.
 -
 level 10 talent
 upgrade spell Q
@@ -300,21 +300,22 @@ upgrade spell W
 level 13 talent
 -
 increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 primary stats and also increase xp gain by 15%, Skeletons
-will gain 10% health bonus as well with 25 movespeed.
+will gain 10% health bonus as well with 35 movespeed.
 -
 Increase mana by 15% and mana regeneration by 1.5, Increase by 0.1 for every 7 Primary stats and also increase xp gain by 15%, Skeleton
 will gain 2 armor and 10% magic resist.
 -
 level 16 talent
 -
-Increase Death Coil base damage by 10 and its damage scaling by 20%, Death Coil will gain 400% of Necro Inteillgence in bonus cast range
-and reduce its mana cost by 45.
+Increase Death Coil base damage by 10 and its damage scaling by 20%, Death Coil will gain 225% of Necro Inteillgence in bonus cast range
+and reduce its mana cost by 45 and its coldown by 2.
 -
-Skeleton Mastery will also give nearby skeletons 10% damage reduction and 12% movespeed, Skeletons will no longer be able to be spellvamp
-and lifesteal upon them but increase the damage they take from Pure source by 35%.
+Skeleton Mastery will also give nearby skeletons 10% damage reduction and 22% spellvamp, Skeletons will no longer be able to be spellvamp
+and lifesteal upon them and they also gain a Bone Storm aura that deal 8% of their attack damage in a 235 area of effect around them
+that deal damage every 1.3 seconds (stacks with other= skeletons).
 -
 increase Necro Spell amp by 12% and his inteillgence by 6, every time he cast Death Coil he will gain 3 more inteillgence and also gaining
-0.6 mana and life regeneration for 14 seconds, this buff can stack up 3 time and refresh every time Death Coil is casted.
+0.6 mana and life regeneration for 20 seconds, this buff can stack up 5 time and refresh every time Death Coil is casted.
 -
 level 19 talent
 -
@@ -334,11 +335,13 @@ Base damage 8
 increase damage by 12% of attack damage
 attack slow 3 4 5 6
 move slow 3 6 9 12 FLAT
+debuff duration 4.5
 mana cost 90
 no coldown
 -
-Increase Death Touch damage by 45 and reduce it coldown by 12 but increase the Coldown of Necro basic spell by 2 and increase their
-mana cost by 105, also increase mana by 50% of total Strenght of Necro.
+Increase Death Touch damage by 40 and reduce it coldown by 15 but increase the Coldown of Necro basic spell by 2 and increase their
+mana cost by 35, also increase mana by 50% of total Strenght of Necro. Skeletons will have 30% bonus damage and 70 attack speed when a
+target is affected by Death Touch for the duration.
 -
 level 20 talent
 -
@@ -353,7 +356,7 @@ damage by 8 and their movespeed by 40
 
 Undead Mind
 Make skeletons immune to all form of Mind Controll and increase their health regeneration by 0.3 for every 2% health missing, they
-also gain 10 Armor when they are below 20% health.
+also gain 10 Armor when they are below 24% health.
 -
 Increase Skeleton Magic resist by 15%, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Will, also increase
 their attack damage by 8 and their movespeed by 40
@@ -361,14 +364,14 @@ their attack damage by 8 and their movespeed by 40
 Undead Will
 Make Skeletons Immune to all debuff that reduce magic resist and increase magic resist taken (those debuff will still damage but not
 reduce magic resist or increase magical damage taken) increase their Magic resist by 1% for every 3% health missing, they also gain
-10% damage reduction when they are below 20% health.
+10% damage reduction when they are below 24% health.
 -
 increase Skeleton Health by 125, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Force, also Increase their
 attack damage by 8 and their movespeed by 40
 
 Undead Force
 Make Skeletons Immune to all Slows and Roots effect (they will still get the other debuff and get damage) and Increase their attack
-damage by 1 for every 3% health missing, they also gain 65 attack speed when they are below 20% health
+damage by 1 for every 3% health missing, they also gain 65 attack speed when they are below 24% health
 -
 level 26 talent
 -
