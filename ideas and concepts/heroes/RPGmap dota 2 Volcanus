@@ -7,13 +7,13 @@ total base stats at level 40 - 22 Strenght - 30 Agility - 44 Inteillgence -
 LEVEL 30 TALENT
 
 Talent 1
-Increase Volcanus mana by 325 and his health regeneration by 3.5
-Volcanus will gain 15% of his mana into health bonus and also gaining 1 armor and 2% magic resist for every 275 health lost, also
-increase his health regeneration by 0.1 for every 65 health lost as well, While Channeling Volcano, Volcanus will gain 40% damage
-reduction.
+Increase Volcanus Health by 15% and his magic resist by 10%
+Volcanus will gain 0.1 health regeneration per 30 health missing and every 2% health missing he will gain 0.7 armor, Volcano will give
+Volcanus 40% damage reduction durring its channel time and he cannot be Interrupted, Volcanus will reduce Silence duration by 40% and
+Stuns duration by 25% he further increase those bonus by 20% while in Molten Hearth.
 
 
-Talent 2
+Talent 2 will be change
 Increase Volcanus spell amp by 10% and his attack speed by 35
 increase Volcanus attack damage by 1 for every 3% spell amp he got and increase his inteillgence by 1 for every 15 current attack speed
 he got, also increase his mana regeneration by 0.1 for every 80 mana lost, Lava Wave will increase Volcanus Spell amp by 4% for every
@@ -57,13 +57,13 @@ by any means, Being near the Greater Lava Spawn will reduce enemys Pure resist b
 
 
 SPELL Q
-Soul Burn
+Soul Burn - Magical -
 Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration,
 Soul Burn cannot be Purge by anymeans and will Ignore spell immune units, the duration will have 2.0 seconds increase if the target lose
 at least 30% of his max health durring its duration, Soul Burn will damage every 1.0 seconds, if the target was Slowed before Soul Burn
 was casted on them, it will deal 175% of Volcanus inteillgence in a 375 area of effect burst damage once on the target.
 
-damage 13 17 21 25 type Magical plus 13% 17% 21% 25% of intelligence
+damage 13 17 21 25 plus 13% 17% 21% 25% of intelligence
 damage reduction 11% 22% 33% 44%
 slow 10% 14% 18% 22%
 duration 5
@@ -85,30 +85,33 @@ spell amp bonus, Volcanus will gain 12% max health and mana, Soul Burn will deal
 max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 stack is lost upon getting slowed. Volcanus will also deal 35%
 increase attack damage on the target affected by Soul Burn.
 
-SPELL W Lava Wave
-Send out a wave of Molten lava dealing insane damage and burning enemys and also reducing their magic resist. this Spell will gain
-100% more bonus from spellamp and Coldown reduction.
+SPELL W Lava Wave - Magical -
+Send out a wave of molten lava dealing insane amount of damage and burning them dealing damage every 0.5 seconds and reduce their
+magical resistence for the duration of the Burn. Lava Wave will gain 50% increase bonus from spellamp
 
-damage 36 44 52 60 type Magical plus 40% 48% 56% 64% of intelligence
-burn damage 5 7 9 11 per 0.5 second type magical plus 13% 15% 17% 19% of intelligence
-magic resist lost 9% 13% 17% 21%
-duration of burn and magic resist lost 3 second
-radius of the wave 300 320 340 360
-max travel distance 500 650 800 950
-cooldown 22 21 20 19
-mana cost 100 150 200 250 plus 5% of max mana
+damage 25 40 55 70 plus 40% of inteillgence
+burn damage 10 plus 8% of inteillgence
+magic resist lost 8% 12% 16% 20%
+burn duration 3.0 3.5 4.0 4.5
+Wave travel distence 650 750 850 950
+Wave radius 225 235 245 255
+coldown 19
+mana cost 100 200 300 400 plus 2% of max mana
 
 talent level 10 upgrade Lava Wave
-increase damage by 20
-increase intelligence scaling by 6% for burn damage
-increase magic resist lost by 9%
-increase max travel distance by 150
+increase inteillgence scaling by 35%
+increase Burn inteillgence scaling by 4%
+increase magic resist lost by 5%
+increase Wave radius by 70
+reduce coldown by 2
 
-add a new modfier Obsidian Earth
-The lava Wave will make a Path of Obsidian Earth reducing the enemys total damage done with spell by 30% and taking 15% increase damage
-from Volcanus spell if they are in the Path of Obsidian, for allys they will get 5% spell amp with 10% increase attack damage and
-reducing all incoming damage by 14%. After the Obsidian Path is gone it will become Molten lava that deal 0.8% max health in pure every
-2 seconds and reducing Health regeneration by 50%, the Molten Path will stay for 6 second. bosses will take current health damage.
+add a new modfier Scorched Earth
+Lava Wave will leave behind a Scorched Earth giving enemys that enter it the Burn damage and increasing the magic resist lost by 10%
+while they stand in it, Volcanus will get heal by 200% of Burn total damage if he stand it in and also gaining 10% damage reduction and
+1.5 mana regeneration. For every 10 enemys hit with Lava have increase the travel distence by 3, at 20 stacks Lava wave will gain 15
+bonus base damage and have 25% mana cost reduce, at 35 stacks Lava wave will have 50% chance to double the Burn duration and increase
+Volcanus mana by 225, at 50 Stacks Volcanus will throw 3 Waves instead of 1, each dealing the same amount of damage but dealing 40%
+reduce damage if the target is hit again by aother Lava Wave and increase Volcanus spell amp by 10%.
 
 
 SPELL E Volcano
