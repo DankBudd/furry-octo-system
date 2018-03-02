@@ -24,8 +24,8 @@ PASSIVE D OR F Fire Lord
 Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 6 int instead of 10 and he can use 2 glove
-Intead of 1 he also gain 2 life per inteillgence point any damage per second spell will only have 20% duration on Volcanus,
-he can also use Sulfuras, getting even more power from it but making him become melee
+Intead of 1 he also gain 2 life per inteillgence point any Roots will be purge and give Volcanus 25% spellamp for 4.2 seconds, the purge
+will only happen every 25 seconds. he can also use Sulfuras, getting even more power from it but making him become melee range.
 DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
 he also lose 50% base attack damage and all Source of Physical damage will deal 1.5% of Volcanus life as damage bonus to him and
 magical Source of damage will do 0.4% bonus damage as well
@@ -128,7 +128,7 @@ extra damage taken 3%
 coldown 16
 mana cost 50 100 150 200 plus 5% of max mana
 
-talent level 15 upgrade Volcano
+talent level 20 upgrade Volcano
 increase inteillgence scaling by 15%
 increase the amount of lava balls by 5
 increase the damage taken by 2%
@@ -164,74 +164,58 @@ self will not Recreate new one, also refresh the duration of the Normal Lava Spa
 
 
 PASSIVE D OR F Incinerate
-increase Volcanus Agility, inteillgence and strenght and make is auto-attack burn the target dealing damage and increasing the
-burn damage every attack and reducing healing effect as well. If the target dies under Incinerate they will explode dealing high damage,
-spell will also give 3 stacks, Volcano will only give 1, Damage over time will not give any stacks, Incinerate will explode after 9
-seconds of duration if the target doesnt die.
+Increase Volcanus Agility, Strenght and Inteillgence, all of Volcanus spells will give 1 stacks of Incinerate every time they deal
+damage, Incinerate will do burn damage every 0.5 seconds base on Volcanus Inteilgence and after 6 seconds if the target doesnt die,
+Incinerate will explode dealing medium damage to nearby enemys and the target him self only work once for each targets, if they die
+Incinerate will also explode dealing same damage. Basic attack will also give enemys 1 stack of Incinerate. Incinerate will last 2.5
+seconds and will deal Pure damage on the burn and explosion. Incinerate will gain 125% of Volcanus inteillgence in bonus radius for the
+Explosion. Incinerate will also reduce the target healing source by 15%.
 
-Attributes bonus 6% 8% 10% 12%
-base burn damage 10% 15% 20% 25% of intelligence type Magical every 0.5 seconds
-increase burn damage 2% of inteillgence every attack
-max stack 9 11 13 15 of increase burn damage
-healing reduction 11% 14% 17% 20%
-explosion damage 10 20 30 40 type pure plus 30% of intelligence
-Base radius of Incinerate explosion 200 215 230 245
-bonus radius of Incinerate explosion 40% 60% 70% 80% of Volcanus Inteillgence
-Incinerate duration 3 second
+Attributes bonus 7% 8% 9% 10%
+Incinerate base burn damage 18% 22% 26% 30%
+Incinerate bonus burn damage per stacks 2%
+Incinerate max stacks 8 12 16 20
+Incinerate explosion damage 20 25 30 35 plus 50% of inteillgence
+base radius 240 280 320 360
 
-talent level 15 upgrade Incinerate
-Increase Base burn scaling inteillgence by 15%
-increase max stack of burn by 8
-increase explosion inteillgence scaling by 20%
-increase base radius by 45
+
+talent level 20 upgrade Incinerate
+increase Incinerate max stack by 10
+increase Incinerate base damage by 25
+increase base radius by 60
+
 
 add a new modfier Fire Blast
-Incinerate will explode after 6 seconds of duration instead of 9, and if the target doesnt die and Incinerate explode when it been 6
-seconds, they will Spread Incinerate to other and also giving those Target 5 Burn Stack of Incinerate, Volcanus auto attack will bounce
-2 time dealing 50% reduce damage to them, Incinerate will Ignore Magic immune target and damage them and Incinerate cannot be Purge by
-any means, Volcanus will also have 15% chance to deal 40% bonus damage on his auto attack that work on the Bounce as well (not a crit
-modifier).
+Incinerate will have double explosion radius and 50% increase damage if it explode under the 6 seconds marks, making the enemys take
+6 stacks of Incinerate as well they will also suffer a Fire Blast, Incinerate debuff will not go away and the target will gain 1 stack
+of Incinerate every seconds, at max stacks they will alway do Incinerate explosion every 2.5 seconds only dealing 40% of the explosion
+total damage. If Volcanus dies, all target affected by Incinerate will end. Volcanus will gain 1 mana for every stacks of Incinerate
+gain on enemys, at 125 mana bonus gain, Volcanus will gain 10% increase mana and will gain Phase movement, at 300 mana bonus gain,
+Incinerate will give Volcanus 4% spellamp for every target affected by Incinerate and Volcanus will gain 15% magic resist, at 475 mana
+bonus gain, Incinerate will spreads to other target when the target dies or the explosion goes off after 6 seconds and also gaining 80
+bonus radius. Max of 700 stacks and 60 stacks will be lost if Volcanus get silence and he will lose 350 stacks on death.
 
 ULTIMATE R
-Molten Hearth
-Volcanus Increase the Power of his 3 basic spell and his passive making them even more deadly to the enemys and reducing the cooldown
-of his basic spell as well. Soul Burn will become Area of effect instead of targeted spell and reducing more damage, Lava wave will have
-increase damage with Increase radius, Volcano will have Double size and having increase duration, Incinerate will alway do small explosion
-every second dealing less damage and reduce radius and when the enemys die by Incinerate they will explode in Molten lava, burning others
-for even more damage.
+True Fire Lord
+Volcanus will triple in Size gaining massive health, attack damage, Spellamp and damage reduction but at the cost of not being able to
+move for the duration. Volcanus will also Empower his 3 basic spells also reducing their coldown and making Incinerate get stronger too.
+Soul Burn will be a 450 area of effect instead of being a single target and also having bonus damage, Lava Wave will gain insane bonus
+damage and will become pure damage and the Burn will make enemys take extra Pure damage instead, Volcano will no longer be a Channeling
+spells for the duration of True Fire Lord and having more Lava Balls. Volcanus will gain 325 attack range with Sulfuras while in True
+Fire Lord
 
-SOUL BURN
-area of effect 400 600 800
-increase damage reduction 10% 16% 22%
-LAVA WAVE
-increase damage 25 50 75
-increase radius 125 175 225
-VOLCANO
-Increase duration by 4 6 8
-Double Size bonus
-INCINERATE
-Small explosion damage 14% 22% 30% of Incinerate total damage
-Small explosion reduce area of effect 70% 60% 50%
-Increase Incinerate Burn damage by 30% 50% 70% on other target affected by the explosion
--
-duration of Molten Hearth 14 18 22
-cooldown reduction for basic spell 25% 30% 35%
-cooldown 100 90 80
-mana cost 250 500 750 plus 5% of max mana
+bonus health 40% 55% 70%
+bonus attack damage 40 80 120
+bonus spellamp 20% 30% 40%
+bonus damage reduction 20% 25% 30%
+coldown reduction 30% 40% 50%
+Soul Burn bonus damage 15 20 25
+Lava Wave bonus damage 40 70 100
+Lava Balls bonus 6 9 12
+coldown 100
+mana cost 25% 30% 35%
 
-talent level 25 Upgrade Hells Power
-increase Soul Burn area of effect by 200
-increase Lava Wave damage by 35
-increase Volcano duration by 4 second
-increase Incinerate small explosion damage by 5%
-increase cooldown reduction for basic spells by 10%
-
-add a new modifier Sun Lord
-when casting Molten Hearth Volcanus Triple in Size increase his life by 300% is damage by 100% and his spell amp by 40%
-and he cannot move he also Summon a Giant Lava Wave 600 radius behind him dealing 250 Magical damage plus 100% of intelligence
-he also get Incinerate on himself exploding every second of the duration of Molten Hearth but only deal 65% of the damage and having
-315 radius only.
-
+talent level 40 upgrade True Fire Lord
 
 level 1 talent
 -
