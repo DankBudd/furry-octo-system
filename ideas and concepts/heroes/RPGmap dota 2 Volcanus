@@ -95,7 +95,7 @@ magic resist lost 8% 12% 16% 20%
 burn duration 3.0 3.5 4.0 4.5
 Wave travel distence 650 750 850 950
 Wave radius 225 235 245 255
-coldown 19
+coldown 16 15 14 13
 mana cost 100 200 300 400 plus 2% of max mana
 
 talent level 10 upgrade Lava Wave
@@ -103,7 +103,7 @@ increase inteillgence scaling by 35%
 increase Burn inteillgence scaling by 4%
 increase magic resist lost by 5%
 increase Wave radius by 70
-reduce coldown by 2
+reduce coldown by 1
 
 add a new modfier Scorched Earth
 Lava Wave will leave behind a Scorched Earth giving enemys that enter it the Burn damage and increasing the magic resist lost by 10%
@@ -212,10 +212,26 @@ coldown reduction 30% 40% 50%
 Soul Burn bonus damage 15 20 25
 Lava Wave bonus damage 40 70 100
 Lava Balls bonus 6 9 12
+duration 18 20 22
 coldown 100
 mana cost 25% 30% 35%
 
 talent level 40 upgrade True Fire Lord
+increase bonus health by 40%
+increase bonus attack damage by 60
+increase damage reduction bonus by 5%
+increase duration by 4
+reduce coldown by 15
+remove mana cost
+
+add a new modifier Hell Infuse
+Volcanus will reduce all range attacks and spells damage taken to 25% (damage reduction and other source will not affect this) and he
+also gain 15% spellvamp while in True Fire Lord and his spells will have 35% chance to spellvamp for 150% of the damage dealt and give
+Volcanus a Stack of Hell Infuse. Hell Infuse will give Volcanus 1% max health, 2% max mana, 1.7% spellamp and 25 bonus cast range max
+of 20 stacks, at 10 stacks Volcanus will gain 50% magic resist and 35% status Resistence while in True Fire Lord and also increasing its
+duration by 2 seconds, at Maxs stacks, Volcanus basic spells will gain 10 base damage bonus and will all reduce the enemys magic resist
+by 16% for 2.5 seconds refresh upon taking damage. Volcanus will also gain a spell call Hells Blink while in True Fire Lord being able
+to blink 625 units with a coldown of 10 seconds and no mana cost.
 
 level 1 talent
 -
