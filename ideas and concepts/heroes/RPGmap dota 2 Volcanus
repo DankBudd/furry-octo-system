@@ -13,11 +13,11 @@ Volcanus 40% damage reduction durring its channel time and he cannot be Interrup
 Stuns duration by 25% he further increase those bonus by 20% while in Molten Hearth.
 
 
-Talent 2 will be change
-Increase Volcanus spell amp by 10% and his attack speed by 35
-increase Volcanus attack damage by 1 for every 3% spell amp he got and increase his inteillgence by 1 for every 15 current attack speed
-he got, also increase his mana regeneration by 0.1 for every 80 mana lost, Lava Wave will increase Volcanus Spell amp by 4% for every
-unit hit, the stacks of Spell amp will last 7 seconds with each of them having their own duration.
+Talent 2 
+Increase Volcanus spell amp by 8% and his mana regeneration by 3.2
+Volcanus will gain 0.1% spellamp per 0.4 mana regeneration and his 3 Basic spells will also deal 8% bonus damage base on Strenght
+and Agility, Volcanus Lava Wave will have 115 radius increase and Soul Burn will have 1.0 seconds duration increase. Volcanus will
+gain 1% coldown reduction for every 3% mana missing and he also gain 4 more mana from inteillgence.
 
 
 PASSIVE D OR F Fire Lord
@@ -241,15 +241,18 @@ increase agility gain by 0.2 every level and also increase agility by 5
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Volcanus will also gain 4% increase inteillgence and
+reduce Pure damage taken by 10%
 -
 level 4 talent
 -
-increase SPELL Q damage and healing by 18% and reduce its cooldown by 5%, but reduce mana regenration by 1.3 and max mana by 75
+Increase Soul Burn base damage by 4 and the damage reduction by 3%, Soul Burn will give Volcanus 0.1% health regeneration per affected
+target, also increase its cast range by 175
 -
-increase all stats by 4 and increase healing recive by 10%
+increase all stats by 4 and increase healing recive by 10%, all 3 basic spells of Volcanus will deal him for 75% of his inteillgence
+per casts (this effect will gain 100% more increase from Healing Amp)
 -
-increase Magical spell damage by 8% and make them spellvamp for 4% of the damage dealt
+reduce coldown by 10%, increase mana by 25% and Spellamp by 10% but reduce health by 20% and Base attack time by 0.25
 -
 level 7 talent
 -
