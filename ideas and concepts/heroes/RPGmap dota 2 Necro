@@ -26,17 +26,20 @@ give a positive and negative buff, Pressing ALT will give INFO for Necro level 2
 
 BUFF Necro has 10% base magic resist at start and his skeleton get 50% of his magic resist that necro got and necro will gain 1% move
 speed per skeleton alive and his Skeleton Archer and Skeletons will get 2% of Necro max health for them and every time any of his
-summons dies, they will heal other summon for 2% of their max health for them, he also got a Bone armor starting item that can be change
+summons dies, they will heal other summon for 2% of their max health for them, He also start with a Bone Ring that cant be change
 DEBUFF Necro will take 140% more damage from physical and he doesnt gain any agility per level he also need 16 int to gain 1% spell amp
 and strenght only gain 3 life instead of 5 and he also need 10 inteillgence to gain 1 damage instead of 5 inteillgence, any silence
 spells will get 100% more duration and damage Necro by 0.7% of his max health every 0.6 seconds of duration and silence will reduce his
 healing Source bonus by 50%.
 
-Broken Bone Armor Special item
-increase armor by 1
-increase magic resist by 3%
-increase the health of summon near necro by 25, they also have 14% chance to crit for 120% of their damage, 775 radius
-
+Bone Ring Special item
+increase mana by 60 increase by 6 every levels
+increase health by 40 increase by 4 every levels
+increase inteillgence by 3 increase by 1 every 3 levels
+increase cast range by 100 increase by 3 every levels
+reduce the mana cost of items use by 25% and also reduce their coldown by 15%, they will summon a Skeleton Warrior upon useing them.
+The Skeleton Warrior will last 18 seconds and he has the normal stats of the Skeleton Warrior as well.
+increase Skeletons life regeneration by 1.6 and attack speed by 15 when near Necro (900 radius)
 
 talent level 40, upgrade Corrupted Flesh
 give a new modfier Death Walks Among Us
