@@ -8,9 +8,9 @@ LEVEL 30 TALENT
 
 Talent 1
 Increase Volcanus Health by 15% and his magic resist by 10%
-Volcanus will gain 0.1 health regeneration per 30 health missing and every 2% health missing he will gain 0.7 armor, Volcano will give
-Volcanus 40% damage reduction durring its channel time and he cannot be Interrupted, Volcanus will reduce Silence duration by 40% and
-Stuns duration by 25% he further increase those bonus by 20% while in Molten Hearth.
+Volcanus will gain 0.1 health regeneration per 30 health missing and every 2% health missing he will gain 0.7 armor, Volcano will further
+increase the damage reduction by 25% durring its channel time and he cannot be Interrupted, Volcanus will reduce Silence duration by 40% and
+and Stuns duration by 25% he further increase those bonus by 10% while in Molten Hearth.
 
 
 Talent 2 
@@ -285,21 +285,26 @@ Lava Wave will travel 225 more distence and have 45 increase radius, each time i
 increase damage and 35 speed increase that goes without limit. Also increase Volcanus all stats by 7 and his cast range by 115 and
 reduce Lava Wave coldown by 2.
 -
-increase spell amp by 10%, SPELL Q and E that damage will have 18% chance to deal 0.4% of the target max health and reduce their magic
-resist by 3% for 6 second max of 18% magic resist lost and refresh the duration every time they get damage by those spells.
+Increase max health by 4% and Mana by 6%, Volcanus will gain 3 bonus mana and 1 bonus health for every enemys that died under Incinerate
+effect, max stack of 100 and these stacks will be lost on death, at 50 stacks Volcanus will gain 7 inteillgence and 4 Strenght, at 85
+stacks, Volcanus will increase all of his basic spells damage by 15% and increase their cast range by 175.
 -
-increase damage by 8%, passive that give bonus attributes will give 5% more and every kills done will increase the user damage by 1%
-and his primary stats by 1 for 5 second max of 7 bonus Attributes and 7% damage and also refresh duration on every kill or hit.
+increase Volcanus attack range by 135 and attack speed by 25, he will reduce the Penalty of the attack damage lost from his Neutral
+passive by 25% and for every 7 current attack damage he will gain 4 attack speed and 1% lifesteal, also increase his size by 10%
+(doesnt increase his attack range if he is holding Sulfuras)
 -
 level 19 talent
 -
-reduce all damage taken -not pure- by 10% and increase health by 450 but increase damage taken from pure damage by 35%
+Volcanus will gain 10% damage reduction for 3.5 seconds after casting his basic spells, he also gain 1.3% health regeneration while
+channeling his Volcano. Volcano will gain 8 base damage and will have 3 more lava Balls as well.
 -
-increase all phyisical spell damage by 20% but reduce all magical spell by 30% and increase move speed by 9% and increasing attack speed
-limit by 45
+Increase all Magical Output damage by 25% and Pure Output damage by 10% but Volcanus will no longet be able to deal Physical damage at
+all, Volcanus will increase the Attributes gain from Incinerate by 4% and will give 10 Inteillgence as well. Further increase the
+Inteillgence gain by 25 while in True Fire Lord
 -
-increase all magical spell damage by 20% but reduce all physical spell by 30% and increase move speed by 9% and make magic attack spell
-vamp for 12% of the damage dealt
+Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.0 seconds. Incinerate will also burn 3.5
+mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 50%
+and their coldown by 2
 -
 level 20 talent
 -
