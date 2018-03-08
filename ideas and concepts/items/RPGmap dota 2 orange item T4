@@ -1,7 +1,7 @@
 list of orange items can be found at level 24 to 40
 
-Realm Soul ORANGE cant buy
-increase damage and life and also giving a chance to deal bonus damage and lifestealing for the damage dealt
+Realm Soul
+Increase Attack damage and Health, The user will have a small chance to deal extra damage and lifesteal off of it as well
 
 Passive item use
 15% to deal 35 physical damage plus 40% of user attack damage and lifestealing for 75% of the damage dealt
@@ -9,19 +9,18 @@ Passive item use
 damage 17-25
 life 315-375
 
-Rad Stone needed Magic Stone and Recipe 1000 gold
+Rad Stone need Magic Stone and recipe
 increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
 
-Active item use
-deal 30 magic damage plus 25% of user int to the target slowing movement by 15% and attack speed by 20 last 4 second cooldown 10
-mana cost 200
+Active item use Rad Sickness coldown 27 mana cost 175
+deal 50 magic damage plus 35% of user inteillgence to the target slowing movement by 15% and attack speed by 40 last 4 second 
 
-Passive item use
-deal 5 magical damage per 0.5 second plus 5% of user intelligence also slow enemy by 10%
+Passive item use Rad Aura
+deal 7 magical damage per 0.5 second plus 4% of user intelligence in a 625 radius also slow enemy by 8% and attack speed by 10
 
-intelligence 15-21
-spell amp 7%-11%
-mana 240-380
+intelligence 13-19
+spell amp 6%-12%
+mana 290-420
 
 Hellish Infernal Stone ORANGE, needed infernal stone 2500 gold with recipe 3500 gold
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive
@@ -46,87 +45,93 @@ dealing 40 magical damage plus 70% of the infernal damage for each enemy in a ra
 PASSIVE
 the infernal got 15% chance to deal 25 pure damage plus 3% of max health in a radius of 275 and stuning all enemy hit for 0.5 second
 
+
 Glove of Flames
-increase the user attack speed,damage and fire type spell after attacking or casting targeted spell on the same target release
-a flame Circle that deal high damage in a 500 radius.
+increase the user attack speed, damage and Spellamp. After attacking or casting targeted spell on the same target release a flame Circle 
+that deal high damage in a 375 radius that will also debuff the enemys making them take extra damage from Pure and Magical damage.
 
-Passive item use
-after attacking the target 14 time with basic attack 3 with spell deal 35 plus 20% of inteillgence as fire damage
+Passive item use Flame Circle
+Each attack will give 1 stack of Flame Circle and targeted spells will give 3 stacks, after 12 stacks the target will do a Flame Circle
+dealing 25 plus 40% of the User Primary Attribute in 50% magical damage and 50% Pure damage, enemys will take 15% increase damage from
+Pure and Magical damage for 7 seconds. Flame Circle will give other enemys in the Blast radius 5 stacks.
 
-attack speed 30-40
-damage 15-20
-fire spell damage increase 10%-20%
+attack speed 25-55
+damage 15-22
+SpellAmp 10%-16%
 
 
 Time Shard
-reduce cooldown and increase agility and inteillgence can also use the item to reduce the next spell coldown and also
-give cooldown reduction to near ally
+reduce coldown of spells and increase agility and inteillgence can also be use to reduce the next spell coldown and also give nearby
+allys coldown reduction, Double on the User
 
-Active use item
-reduce the next spell cooldown by 50% on use cooldown 140 no mana cost
+Active use item Time Thief coldown 125 no mana cost
+reduce the next Basic spell cooldown by 50% and Ultimates by 25% on use cooldown, the buff will last 25 seconds
 
-Passive item use
-give 7% cooldown reduction to near ally double on the user
+Passive item use Quick Actions
+Allys will gain 7% coldown reduction, Double for the User.
 
-agility 14-20
-inteillgence 14-20
+agility 17-25
+inteillgence 17-25
 
 
 Star Fragment
-increase the user primary Attributes also increasing cast range and attack range also increasing life regeneration bonus
-can also be use to create a small Star that deal damage over time and stuns enemys after it ends, while enemys are stun they take 
-super increase damage
+increase the user primary Attributes, cast range, attack range and also increasing life regeneration bonus Source an also be use to
+create a small Star that deal damage over time and stuns enemys after it ends. while enemys are stun, they will take Insane amount of
+extra damage from other Source of damage.
 
-Active item use
-Create a Star that deal 12 pure damage plus 30% of primary Attributes every 0.5 second lasting 6 second, after the star end
-it will stuns enemys by 2.2 second increasing damage they take by 350% cooldown for 1.5 second, 35 second, mana cost 15% of max mana.
+Active item use coldown 95 mana cost 25% of max mana
+Create a Star that deal 22 pure damage plus 15% of primary Attributes every 0.5 second that last 4 second, after the star end it will
+stuns enemys by 2.1 second increasing damage they take by 250%.
 
-increase Primary Attributes by 8-14%
-cast range 155-215
-attack range 90-125
-increase life regeneration bonus by 28%-40%
+Primary Attributes 15-25
+cast range 140-280
+attack range 80-160
+life regeneration bonus source 22%-36%
 
-Icy Cleaver
-increase the user damage,mana and movementspeed every attack will Blood Frost enemys, making them get lifesteals by others and having
-reduce attack speed and movement speed. useing the Icy Cleaver will throw it dealing massive damage and giving enemys Frost Bite
+Icy Blood Cleaver
+increase the user damage, mana, movespeed and Strenght. every attack will Blood Frost enemys, making them get lifesteals by others
+and having reduce attack speed and movement speed. useing the Icy Cleaver will throw it dealing massive damage and giving enemys Frost
+Bite.
 
 Passive item use Blood Frost
 enemys will lose 15 attack speed with 11% movement speed, any ally that attack a Blood Frost enemy will lifesteal for 15% of the damage
-dealt by spell and basic attack last 2 second
+dealt by spell and basic attack last 2.2 second
 
-Active item use Frost Bite
-throw the cleaver dealing 50 plus 5% of the target max health in pure damage. Frost Bite will reduce enemys attack speed by 50 and
-reducing all healing recive by 35% for 5 second. cooldown of 35, mana cost of 180, does current health on bosses
+Active item use Frost Bite coldown 42 mana cost 275
+throw the cleaver dealing 80 plus 2% of the target max health in pure damage. Frost Bite will reduce enemys attack speed by 50 and
+reducing all healing recive by 35% for 7 second.
 
-damage 16-20
-mana 200-250
-movement speed 12%-15%
-BAT Modifier 2.00
+Strenght 20-35
+damage 16-24
+mana 200-350
+movement speed 13%-18%
+BAT Modifier 1.85
 
 
 Hyper Stone
 increase attack speed gain from agility and also giving armor for agility point as well, can be use to increase base agility for a short
-duration also increase agility and health
+duration also increase agility, health and Movespeed
 
-Active item use
-increase the user Base Agility by 100% for 5 second cooldown of 70 second
+Active item use Dexterity Boost coldown 50 mana cost 7% of max mana
+increase the user Base Agility by 100%
 
-Passive item use
-increase attack speed gain from agility by 0.15 and increase armor by 1 for every 35 agility
+Passive item use Swift and Arm
+increase attack speed gain from agility by 0.20 and increase armor by 1 for every 28 agility
 
-agility 9-14
-health 275-400
+agility 16-24
+health 275-450
+movespeed 10%-20%
 
 
 Holylight Stone
 increase the user inteillgence, healing amp and increase SPELL Q healing as well and also give a new modifier for every healing spells
 buffing heroes or summons.
 
-Passive item use
-all healing spell will give the target 10% damage reduction,15% damage,0.5% life regeneration and 80 FLAT movement speed for 3 seconds
+Passive item use HolyLight Blessing
+all healing spell will give the target 10% damage reduction,15% damage,0.7% life regeneration and 80 FLAT movement speed for 3.5 seconds
 
-Inteillgence 12-16
-healing amp 12%-24%
+Inteillgence 12-20
+healing amp 12%-28%
 
 
 Nhantalur Helm
@@ -177,30 +182,31 @@ Meteor Ingot
 increase Spell amp, mana regeneration source, mana, life and cast range also make Magical spell do increase damage and giving them a new
 modifier as well, can also be use to reduce the cooldown and manacost of the next spell casted.
 
-Passive item use
-all Magical spell will do 10 bonus magic damage and slowing enemys by 14% and making them take 35% extra damage from ULTIMATE spells,
-the debuff last 5 seconds, damage over time spell will make the debuff last 1.4 seconds
+Passive item use Meteor Boost
+all Magical spell will do 6 bonus magic damage and slowing enemys by 14% and making them take 35% extra damage from ULTIMATE spells,
+the debuff last 5 seconds, damage over time spell will make the debuff last 1.4 seconds.
 
-Active items use
+Active items use Meteor Power
 reduce the mana cost and coldown of the next spell by 15%, the buff last 10 second, coldown of 25 no mana cost
 
-spell amp 11-15%
+spell amp 11%-22%
 mana regeneration source increase 25%-50%
 mana 185-335
 life 170-250
-cast range 110-140
+cast range 110-200
 
 
 Shadow Blade
-Increase the user Attack speed and Agility, also modifie the user attack damage and can also be use to go invisible and deal extra
+Increase the user Attack speed and Agility, also change the user Low and High Attack damage base. can be use to turn invisible, the
+next basic attack will deal extra damage and will also reduce the target armor
 damage on hit and reducing their armor as well.
 
 Passive item use
-Change the user attack damage to 8-13
+Change the user Low Damage to 11 and High Damage to 17
 
 Active item use
 Turn invisible for 8 seconds, attacking will deal 75 plus 1% of the target max health in Physical damage and reducing their armor by
 7 for 4 seconds
 
-attack speed 22-30
-agility 11-14
+attack speed 35-60
+agility 11-17
