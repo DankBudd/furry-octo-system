@@ -58,10 +58,10 @@ by any means, Being near the Greater Lava Spawn will reduce enemys Pure resist b
 
 SPELL Q
 Soul Burn - Magical -
-Volcanus Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration,
+Soul Burn Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration,
 Soul Burn cannot be Purge by anymeans and will Ignore spell immune units, the duration will have 2.0 seconds increase if the target lose
 at least 30% of his max health durring its duration, Soul Burn will damage every 1.0 seconds, if the target was Slowed before Soul Burn
-was casted on them, it will deal 175% of Volcanus inteillgence in a 375 area of effect burst damage once on the target.
+was casted on them, it will deal 175% 190% 205% 220% of Volcanus inteillgence in a 475 area of effect burst damage once on the target.
 
 damage 13 17 21 25 plus 13% 17% 21% 25% of intelligence
 damage reduction 11% 22% 33% 44%
@@ -304,7 +304,7 @@ Inteillgence gain by 25 while in True Fire Lord
 -
 Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.0 seconds. Incinerate will also burn 3.5
 mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 50%
-and their coldown by 2
+and their coldown by 1
 -
 level 20 talent
 -
@@ -314,9 +314,9 @@ upgrade passive
 -
 level 23 talent
 -
-Increase Soulburn cast range by 500 and its duration by 1 but reduce the Inteillgence scaling by 10%, also increase the duration of
-Incinerate by 0.5, Soul Burn will also Create a Lava Spawn when the enemys dies under the effect, they have the same stats as the
-talent level 20 of Volcano.
+Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce the Scaling by 10% and the base damage by 4, Soul Burn
+will have 25% chance every tick of damage to deal 100% extra damage and do a Small blast of 285 Area of Effect dealing that damage to
+everyone near the target.
 -
 Increase the Radius of Volcano by 100, also increase the scaling by 25%, Volcano will have 20% chance to spawn a lava Wave every 0.5
 seconds of Channel with 35% total damage reduce, those wave will only travel for 50% of the total Travel Distence from Lava Wave, also
