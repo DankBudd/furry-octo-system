@@ -44,84 +44,85 @@ life regeneration 4-6
 Scroll of Darkness
 increase the user damage,spell amp and stats, when activating the item it will empower the next spell or basic attack
 
-Active item use
-the next spell will deal 50% increase damage and for the next basic attack it will deal pure damage instead cooldown 24 no mana cost
+Active item use Dark Strike coldown 40 mana cost 10% of max mana
+the next spell will deal 75% increase damage and for the next basic attack it will deal pure damage instead and will crit for 135% of
+normal damage.
 
-all stats 13-21
-damage 21-27
-spell amp 9%-16%
+all stats 8-30
+damage 5-40
+spell amp 2%-20%
 
 
 Scroll of Death
 activate to deal high damage base on the missing hp of the enemy also increase spell amp, intelligence and mana
 
-active item use
+active item use Decay
 deal 30 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 15%
 to cast the spell you will need to kill at least 30 unit, after getting that amount needed the spell will be ready for use, mana cost 50%
 of current mana
 
-spell amp 12%-21%
-inteillgence 17-28
-mana 350-550
+spell amp 5%-35%
+inteillgence 5-35
+mana 50-350
 
 
 Moon Shard
-increase the user attack speed limit, attack speed and agility, also give some movement speed and attack speed to near ally
+increase the user attack speed limit, attack speed and agility, also give some movement speed and attack speed to near ally, this effect
+will have double its value for the user.
 
 Passive item use
 increase allys movement speed by 10% and attack speed by 30, double on user.
 
 attack speed limit bonus 100
-attack speed 30-70
-agility 15-32
+attack speed 45-90
+agility 20-35
 
 Dark Reef Water
 increase the user Primary stats and health but lose health every seconds and can be use to deal all the health lost into damage for a
 single target
 
-Passive item use
-the user will lose 3% health per second cannot lose health when below 65% health
+Passive item use Black Water
+the user will lose 3% health per second, cannot lose health when below 65% health
 
-Active item use
-deal damage by the health taken away by Dark Reef Water into magic damage cap damage is 30% of the user max health coldown of 125
-no mana cost
+Active item use coldown 90 mana cost 20% of max mana
+deal damage by the health taken away by Dark Reef Water into magic damage, cap damage is 35% of the user max health
 
-Primary stat increase by 19-30
-health 11%-22%
+Primary stat increase by 19-32
+health 10%-25%
 
 Medieval Artillery
-this item is only useable for Davion others will have this item muted, increase health with strenght and reduce movespeed
-the user can also use this item to create a ROMAN CATAPULT
+this item is only useable for Davion, others will have this item muted, increase health with strenght but reduce movespeed of Davion.
+Davion can also Use the item to call in a ROMAN CATAPULT
 
-active item use ROMAN CATAPULT
-place a ROMAN CATAPULT to the target location 450 cast range, the Catapult will have 50% of the user health and deal 67-130 plus 35%
-of the user primary stat and having 3.25 base attack time with 1250 attack range. the Catapult will also splash damage of 375 radius
-dealing 50% of its damage to others, it can also use the ability FLAMING BOULDER that deal 250 damage plus 3% of the enemys max health
-in pure damage, the radius is 550 and the cast range is 1250 cooldown of 15 second. The Catapult last 25 second and the active cooldown
-of Medieval Artillery is 125 second
+active item use ROMAN CATAPULT Coldown 125 no mana csot
+Davion place a ROMAN CATAPULT to the target location 450 cast range, the Catapult will have 50% of the user health and deal 67-130 plus
+65% of Davion primary Attribute and having 3.25 base attack time with 1250 attack range. the Catapult will also do splash damage in a 425
+radius dealing 35% of its damage to others, it can also use the ability FLAMING BOULDER that deal 250 damage plus 50% of Davion Attributes
+in pure damage, the radius is 625 and the cast range is 1250 cooldown of 11 second. The Catapult last 25 second.
 
-health 650-900
-strenght 10-50
-reduce movespeed 85-140 FLAT
+health 650-1100
+strenght 20-65
+reduce movespeed 150 FLAT
 
 Icy Hammer
-the user attacks and physical spell wil frosts enemys slowing their movespeed and attack speed also dealing damage everyseconds as well
-and can stack 14 times on a single enemy. useing this item will deal damage base on how much stack they had. also increase damage and
+the user attacks and physical spell will frosts enemys slowing their movespeed and attack speed also dealing damage everyseconds as well
+and can stack 14 times on a single enemy. useing this item will deal damage base on how much stack they have. also increase damage and
 strenght with agility but reduce attack speed
 
-Passive item use Frost Strike
-every basic attack or physical spell will add 1 stack of Frost Strike dealing 3 physical damage per stack and slowing attack by 4 and
-move speed by 2% for each stacks. stacks will last 1.8 seconds and deal the damage every 0.9 second
+Passive item use Frost Mallet
+every basic attack or physical spell will add 1 stack of Frost Mallet dealing 3 physical damage per stack and slowing attack speed by
+4 and move speed by 1% for each stacks. stacks will last 2.7 seconds and deal the damage every 0.9 second
 
-Active item use Frosting Blast
-deal 18 physical damage per stack of Frost Strike on the target and every 7 stacks will deal 0.4% of the target max health in bonus
-damage and at 14 stacks, the user will spellvamp for 45% of the damage dealt with Frosting Blast, mana cost 18% of max mana cooldown 32
+Active item use Frosting Blast coldown 54 mana cost 12% of max mana
+deal 24 physical damage per stack of Frost Mallet on the target and every 7 stacks will deal 1% of the target max health in bonus
+damage and at 14 stacks, the user will spellvamp for 45% of the damage dealt with Frosting Blast and will Freeze the target for 3.5
+seconds making them stuns and increasing all Physical damage Source by 65% for the stun duration.
 
-damage 29-47
-strenght 15-27
-agility 11-18
-reduce attack speed 37-65
-BAT 2.15
+damage 29-55
+strenght 15-40
+agility 14-22
+reduce attack speed 45
+BAT 2.35
 
 
 Radiant Core
