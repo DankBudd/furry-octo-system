@@ -318,9 +318,10 @@ Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce 
 will have 25% chance every tick of damage to deal 100% extra damage and do a Small blast of 285 Area of Effect dealing that damage to
 everyone near the target.
 -
-Increase the Radius of Volcano by 100, also increase the scaling by 25%, Volcano will have 20% chance to spawn a lava Wave every 0.5
-seconds of Channel with 35% total damage reduce, those wave will only travel for 50% of the total Travel Distence from Lava Wave, also
-reduce the mana cost of Lava Wave and Volcano by 35%
+Increase Spellamp by 11%, mana regeneration by 4.2 and regeneration Source by 25%, Volcano will give Volcanus 0.3 health regeneration
+for every Hit units. If Volcano hit at least 10 enemys, Volcanus will gain 25 health permanent that stack 10 time, at 5 stacks Volcanus
+will gain 8% health and mana with 1.6 health and mana regeneration as well, he doesnt lose those stacks by any means and he take 20%
+reduce damage from range attacks at 10 stacks (doesnt count spells only normal basic attacks)
 -
 level 26 talent
 -
