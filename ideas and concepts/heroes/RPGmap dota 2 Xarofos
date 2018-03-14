@@ -138,7 +138,7 @@ Xarofos charge foward in a line, dealing insane amount of damage, they will be m
 will increase its stun duration and while they are stun, they will lose insane amount of armor, Xarofos will gain insane amount of armor 
 while he is Charging and will last for 3 seconds after he is done charging, Each enemys hit will grant him bonus health regeneration
 that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration, the coldown will
-reduce by 0.5 for every auto attack done.
+reduce by 0.5 for every auto attack done. He got a 0.7 seconds delay before he Charge and the Charge speed is 160% of his total speed
 
 base damage 20 25 30 35 plus 10% 20% 30% 40% of Strenght
 increase damage if stun 20 30 40 50 plus 25% of strenght
