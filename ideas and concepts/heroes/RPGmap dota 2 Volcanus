@@ -26,17 +26,20 @@ Increase overall stats and give a positive and negative buff, pressing Alt will 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 6 int instead of 10 and he can use 2 glove
 Intead of 1 he also gain 2 life per inteillgence point any Roots will be purge and give Volcanus 25% spellamp for 4.2 seconds, the purge
 will only happen every 25 seconds. he can also use Sulfuras, getting even more power from it but making him become melee range.
-DEBUFF Volcanus will take 50% more damage from pure,physical and magic damage and he cannot use any weapons but glove as weapons
-he also lose 50% base attack damage and all Source of Physical damage will deal 1.5% of Volcanus life as damage bonus to him and
-magical Source of damage will do 0.4% bonus damage as well
+DEBUFF Volcanus will take 40% more damage from pure,physical and magic damage and he cannot use any weapons but gloves as weapons
+he also lose 50% base attack damage and all Source of Physical damage will deal 1.2% of Volcanus life as damage bonus to him and
+magical Source of damage will do 0.2% bonus damage as well, Volcanus will lose 25% mana regeneration source and his spells will only
+gain 50% of Spellvamp bonus effect as well.
 
 
 talent level 25 upgrade Fire Lord
 add a new modfier Titan of Fire
-increase the damage of Soul Burn by 50% and also increase Volcano damage by 25% as well, useing those spells will give Volcanus 25%
-magic reist and 22 attack damage bonus for 4 seconds, useing one of those spells again in the duration of the buff will increase it
-bonus to 35% magic resist and 33 attack damage bonus for 5.5 seconds instead also spawn 2 Greater Lava Spawn that last until they die, 
-they will respawn every 75 seconds close to Volcanus, they cannot Recreate other Lava Spawns
+Spawn 2 Greater Lava Spawn that last until they die, they will respawn every 75 seconds close to Volcanus, they cannot Recreate other
+Lava Spawns. Volcanus Soul Burn will always have 275 Area of Effect instead of being a single target (stack it self with True Fire Lord)
+and Volcano will always throw Lava Balls to target inside the Radius of Volcano it self every 1.5 seconds, those Lava Balls will deal 50%
+increase damage and will deal pure damage and will also make enemys take 20% increase damage from Pure damage and Volcano it self. Volcanus
+cannot be Stun while he is Channeling his Volcano or other items effects and he can no longet be slowed, instead he will turn the slow
+into a buff that give Volcanus 25% spellamp and 220 movespeed for 6 seconds. Doesnt have a coldown.
 
 GREATER LAVA SPAWN STATS Range 345
 health 425 plus 25% of Volcanus health
@@ -80,10 +83,10 @@ add a new modfier Sun Burn
 Soul Burn will silence all enemy near the main target 350 radius and Soul Burn got 20% chance to deal 50% increase damage and dealing
 pure damage, after Soul Burn duration end it will explode for 300% of Volcanus inteillgence to all near enemys 425 radius, Volcanus will
 gain 1% spell amp for every 8 seconds of Soul Burn done, at 6% spell amp bonus, Soul Burn will gain 5 base damage and 10% increase slow
-at 11% spell amp bonus, another Soul Burn will be cast at random target near Volcanus (825 radius) and reduce the coldown by 3, at 16%
-spell amp bonus, Volcanus will gain 12% max health and mana, Soul Burn will deal its damage every 0.7 seconds instead of 1.0 seconds,
-max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 stack is lost upon getting slowed. Volcanus will also deal 35%
-increase attack damage on the target affected by Soul Burn.
+at 11% spell amp bonus, Soul Burn will do Small Burns that deal 25% of Incinerate total damage every 0.4 seconds and reduce the coldown
+by 3, at 16% spell amp bonus, Volcanus will gain 12% max health and mana, Soul Burn will deal its damage every 0.7 seconds instead of 1.0
+seconds, max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 stack is lost upon getting slowed. Volcanus will also deal
+35% increase attack damage and 25 bonus attack speed on the target affected by Soul Burn.
 
 SPELL W Lava Wave - Magical -
 Send out a wave of molten lava dealing insane amount of damage and burning them dealing damage every 0.5 seconds and reduce their
@@ -326,13 +329,14 @@ reduce damage from range attacks at 10 stacks (doesnt count spells only normal b
 level 26 talent
 -
 increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
-amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
+amp bonus and 5% more health bonus if Defensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and
+Agility
 -
 increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
-7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
+7 more damage bonus, if Offensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and Agility
 -
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
-limit by 75
+limit by 75. Volcanus will gain 75 movespeed and 22% damage reduction for 7 seconds after useing any item effects.
 -
 level 29 talent
 -
