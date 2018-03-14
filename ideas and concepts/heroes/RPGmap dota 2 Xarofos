@@ -31,13 +31,13 @@ Increase overall stats and give a positive and negative buff, pressing Alt will 
 
 BUFF Xarofos will gain 1 armor every 16 points of strenght and x4 of his armor will be bonus health for him, he also gain 10% stun and
 roots resist, any silence will Enrage him removing the silence and giving him 25% increase damage and 0.5% health regeneration for 4 second
-,he will start with 10 physical block that stack with other source of block and also with 25 attacks and 5% health as well, he start with
+,he will start with 10 physical block that stack with other source of block and also reduce manalost of enemy spells by 25%, he start with
 a special armor-chest-peice that cant be change at all, he can wear 2 gloves, all of his spell will do 50% of his armor into bonus damage
-DEBUFF Xarofos will take 225% increase damage from magical attacks, Pure damage will always do 0.2% of his max health in damage, he doesnt
-gain inteillgence per level and he also got -50 in inteillgence as well, all spell or attacks that blind will last 1.5 seconds longer and
-make him take 25% increase damage from all source for the duration, he cannot pass more than 340 movespeed and he will have 0.35 base attack
-time increase with all glove or fist armor, weapons, he cannot use any weapons but fist and gloves, he also lose 25% magic resist,
-he also need 10 strenght to gain 1 damage instead of 5.
+DEBUFF Xarofos will take 225% increase damage from magical attacks, Pure damage will always do 0.7% of his max health in damage, he doesnt
+gain inteillgence per level and he will alway have 0 in inteillgence as well, all spell or attacks that blind will last 1.5 seconds longer 
+and make him take 25% increase damage from all source for the duration, he cannot pass more than 340 movespeed and he will have 0.35
+base attack time increase with all glove or fist armor and weapons, he cannot use any weapons but fist and gloves, he also lose 30% magic
+resist, he also need 10 strenght to gain 1 damage instead of 5.
 
 Pure Holy Steel Armor Special
 -note- Xarofos will have a special type of mana and any mana gain from item will not increase his mana pool his mana type name is
@@ -55,7 +55,7 @@ Stolx Mana regeneration 0.4
 Health regeneration 4.4
 Health 325
 Armor 4
-Magic resist 15%
+Magic resist 12%
 When Xarofos Use his Pure Holy Steel armor, he will Refresh all coldown of his spells as well and also gaining 25% bonus strenght for
 45 seconds but increase the coldown by 25 (Titan Form will not be Refresh)
 
