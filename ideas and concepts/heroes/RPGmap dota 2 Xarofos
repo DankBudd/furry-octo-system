@@ -216,7 +216,7 @@ Molten Steel radius bonus 85 125 165
 Molten Steel bonus armor 4 7 10
 Molten Steel bonus magic resist 7% 11% 15%
 duration 60 seconds
-coldown 230 220 210
+coldown 190 175 160
 mana cost 50 75 100
 
 -
@@ -258,27 +258,25 @@ increase the debuff duration of both skill by 1
 increase the coldown by 70
 
 add a new modifier Attero Dominatus
-Xarofos Will gain a 7 Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 25% and
+Xarofos Will gain a 7 Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 16% and
 make them take 35% increase damage from Pure damage type, Molten KnockUp will also Ignore Magic Immune enemys for the damage and when
-they are Magic Immune they will take 100% increase damage from Molten KnockUp, Iron Fist will also deal 5% of Xarofos health in bonus
+they are Magic Immune they will take 100% increase damage from Molten KnockUp, Iron Fist will also deal 8% of Xarofos health in bonus
 damage and have 50% more scaling from his Armor as well, the Damage will Become Pure instead of physical and also making the enemys
-lose 45 health regeneration for the same duration of the debuff.
+lose 65 health regeneration for the same duration of the debuff.
 
 
-Attero Dominatus - Pure -
-Xarofos will Destroy the enemy Mastery, Killing himself in the Procces but also dealing Extreme Pure Damage to them and reducing their
-Armor, Magic resist and their overall damage as well, Xarofos can be Revive by allys but he will gain a Debuff every time that last 240
-seconds, Reducing his max health by 75% and attack damage by 100%, he also cannot gain more than 12 16 20 armor and 15% 20% 25% magic
-resist for the duration, if he respawn normaly, he doesnt gain this debuff, Attero Dominatus Pure damage cannot be resisted.
+Attero Dominatus - 50% physical, 50% magical -
+Xarofos will destroy the enemys Mastery dealing Extreme damage to them but losing 85% of his current health in the Procces and making
+Xarofos deal 40% less total damage with his spell, passive or items effects for 45 seconds (cannot be purge). the enemys will lose
+insane amount of armor and magic resist and will also lose Overall damage as well, the debuff will last 7 seconds and after the duration
+ends, the enemys will be slow by 20% until they die.
 
-base Damage 400 700 1000 plus 400% of Strenght
-Max health into Damage 5% 10% 15%
-Armor reduce 25 40 55
-Magic resist reduce 50% 60% 70%
-Overall damage reduce 35% 50% 65%
-debuff duration 8 seconds
-Coldown 960
-Mana cost 85% of max
+damage 650 plus 250% of Strenght
+armor lost 45
+magic resist lost 35%
+overall damage lost 20%
+coldown 375
+no mana cost
 
 
 level 1 talent
