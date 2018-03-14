@@ -1,8 +1,8 @@
                                                           Volcanus The Fire lord
-Starting stats 10 strenght, 10 agility, 16 inteillgence, Stats gain per level, 0.30 Strenght, 0.50 Agility, 0.70 Inteillgence.
+Starting stats 10 strenght, 10 agility, 16 inteillgence, Stats gain per level, 0.30 Strenght, 0.50 Agility, 1.00 Inteillgence.
 Base movespeed 265, Base attack damage 4-9, Base Regeneration Health 0.4, Base Regeneration Mana 0.8.
 
-total base stats at level 40 - 22 Strenght - 30 Agility - 44 Inteillgence -
+total base stats at level 40 - 22 Strenght - 30 Agility - 56 Inteillgence -
 
 LEVEL 30 TALENT
 
@@ -319,7 +319,7 @@ level 23 talent
 -
 Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce the Scaling by 10% and the base damage by 4, Soul Burn
 will have 25% chance every tick of damage to deal 100% extra damage and do a Small blast of 285 Area of Effect dealing that damage to
-everyone near the target.
+everyone near the target and making them lose 7% magic resist for 4.5 seconds.
 -
 Increase Spellamp by 11%, mana regeneration by 4.2 and regeneration Source by 25%, Volcano will give Volcanus 0.3 health regeneration
 for every Hit units. If Volcano hit at least 10 enemys, Volcanus will gain 25 health permanent that stack 10 time, at 5 stacks Volcanus
@@ -340,11 +340,12 @@ limit by 75. Volcanus will gain 75 movespeed and 22% damage reduction for 7 seco
 -
 level 29 talent
 -
-Every enemys affected by Soul Burn or Incinerate will give Volcanus 4% pure resist and 0.7 health regeneration, Volcanus will no longer
-be able to be Blind as well.
+Volcanus will have Soul Burn on him self as a buff that stay until it get purge. When Purge the Soul Burn Buff will come back after 7
+seconds. Soul Burn will give Volcanus normal attack a Sun Burn that deal 18% of Volcanus inteillgence every 0.8 seconds that last 4.0
+seconds and increase his pure resist by 35% and his health regeneration by 0.6% while under Soul Burn effect.
 -
 increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
-30
+30. Volcanus will gain 0.7 armor and 1% magic resist per enemys affected by Soul Burn and reduce its mana cost by 12%.
 -
 level 30 talent
 -
@@ -354,13 +355,15 @@ talent defensive
 -
 level 33 talent
 -
-increase all healing on yourself by 20%, Death Blow will restore Sven health by 5% if it kills enemys also increase Strenght and Agility
-by 8 but reduce inteillgence by 12.
+Lava Wave will heal Volcanus for every enemys it hit for 75% of Volcanus inteillgence PLUS 25% of Lava Wave total damage. Also increase
+all healing effect by 15% on Volcanus and allys healing spells will heal for 40% increase on Volcanus and will refund 25% of their mana
+cost to them.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-reduce stuns, blinds and roots effect on you by 20% and all stuns, blinds or roots cause by you will have 35% duration bonus
+Volcanus gain 10% status resistence and his Lava Wave will now stun his enemys for 0.75 seconds and for that 0.75 seconds enemys will
+take 100% increase damage from all source. Also increase all stuns and roots effect cause by Volcanus by 22%.
 -
 increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
 by 10%
