@@ -175,7 +175,7 @@ PASSIVE D OR F Infuse Iron Body (damage return work like return passive from cen
 Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
 gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
 regeneration, he also increase all source of Health regeneration on him and his allys for 50% of his bonus in a 1200 radius, Xarofos
-will also gain 1 bonus Movespeed for every 120 115 110 105 health lost.
+will also gain 1 bonus Movespeed for every 120 115 110 105 current health he got (Ignore the max speed cap).
 
 
 damage reflected 10% 11% 12% 13%
