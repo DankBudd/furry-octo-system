@@ -102,20 +102,20 @@ take damage every 2 seconds when they stay near him. Molten Steel will only gain
 
 damage on hit 7 8 9 10 plus 6% 7% 8% 9% of strenght
 damage every 2 seconds 5 8 11 14 plus 10% of strenght
-Armor into Magic resist 115% 130% 145% 160% of total armor
-Armor into Pure resist 70% 80% 90% 100% of total armor
+Armor into Magic resist 90% 100% 110% 120% of total armor
+Armor into Pure resist 60% 65% 70% 75% of total armor
 armor lost per hit and 2 seconds 1.3 1.5 1.7 1.9
 Pure damage taken increase per hit and 2 seconds 2% 2% 3% 3%
 debuff duration 2.5
-base radius of Molten Steel 375 385 395 405
+base radius of Molten Steel 375 395 415 435
 increase the radius by 20% of strenght
-coldown 8
+coldown 6
 Mana cost to Activate 15 25 35 45
 mana cost per seconds 6 9 12 15
 
 talent level 10 Upgrade Molten Steel
-increase magic resist gain by 40%
-increase pure resist gain by 25%
+increase magic resist gain by 15%
+increase pure resist gain by 10%
 increase armor lost by 0.4
 increase pure damage taken by 1%
 increase radius strenght scaling by 15%
