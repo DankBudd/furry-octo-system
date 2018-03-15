@@ -51,7 +51,13 @@ The enemys will be Curse taking medium amount of damage every 0.5 seconds and lo
 damage taken, every tick of damage will have 15% chance to do a Void Mass dealing high amount of damage to all nearby enemys in a 450
 radius around the Curse target. The Target itself will also take Void Mass but dealing 50% less damage, the debuff from magic resist
 and health regeneration lost will last 2.5 seconds after the curse end, Void Mass will also reduce magic resist but will not reduce
-health regeneration
+health regeneration. Enemys that die under Void Curse will be spawn as Eidolons having 35% of the enemy target total stats for them.
+Eidolons will last 18 seconds and have 1.75 base attack time and cannot be controll, they will Follow Enigma around and attack enemys
+that are in Combat (Doesnt attack enemys that are not in Combat).
+-
+-lore- The curse of the Void Lord makes his target turn inside-out, making them die of unbearable pain and suffering and turn into a
+eidolon joining the mighty army of the void lord.
+-
 
 Damage 8 12 16 20 plus 9% 12% 15% 18% of Inteillgence 
 Duration 4 4.5 5 5.5
