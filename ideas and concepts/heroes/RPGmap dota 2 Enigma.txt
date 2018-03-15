@@ -48,7 +48,7 @@ seconds, coldown of 45 seconds and no mana cost
 SPELL Q level
 Void Curse - Magical -
 The enemys will be Curse taking medium amount of damage every 0.5 seconds and losing magic resist and health regeneration per tick of
-damage taken, every tick of damage will have 15% chance to do a Void Mass dealing high amount of damage to all nearby enemys in a 450
+damage taken, every tick of damage will have 11% chance to do a Void Mass dealing high amount of damage to all nearby enemys in a 450
 radius around the Curse target. The Target itself will also take Void Mass but dealing 50% less damage, the debuff from magic resist
 and health regeneration lost will last 2.5 seconds after the curse end, Void Mass will also reduce magic resist but will not reduce
 health regeneration. Enemys that die under Void Curse will be spawn as Eidolons having 35% of the enemy target total stats for them.
@@ -76,7 +76,7 @@ increase Void Mass damage by 12
 Increase Void Mass magic resist lost by 2%
 
 add a new modifier Void Corruption
-Void Curse will have 5% more chance to Trigger Void Mass and each Void Mass proc will increase its damage by 2 and the radius by 25
+Void Curse will have 1% more chance to Trigger Void Mass and each Void Mass proc will increase its damage by 2 and the radius by 25
 without limits. After Void Curse ends, they will get rooted for 0.1 seconds for every 65 damage taken while in Void Curse and will take
 8% of Enigma inteillgence in Pure damage every 0.1 seconds and also reducing healing Source by 75% for the duration of the Root, Enigma
 will gain 1 stack of Void Death for every 8 seconds of root done, at 3 stacks Enigma will gain 8% spellamp and 1.5 mana regeneration, at
