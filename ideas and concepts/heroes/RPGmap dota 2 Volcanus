@@ -198,41 +198,40 @@ bonus gain, Incinerate will spreads to other target when the target dies or the 
 bonus radius. Max of 700 stacks and 60 stacks will be lost if Volcanus get silence and he will lose 350 stacks on death.
 
 ULTIMATE R
-True Fire Lord
+Fire Rage
 Volcanus will triple in Size gaining massive health, attack damage, Spellamp and damage reduction but at the cost of not being able to
 move for the duration. Volcanus will also Empower his 3 basic spells also reducing their coldown and making Incinerate get stronger too.
 Soul Burn will be a 450 area of effect instead of being a single target and also having bonus damage, Lava Wave will gain insane bonus
 damage and will become pure damage and the Burn will make enemys take extra Pure damage instead, Volcano will no longer be a Channeling
-spells for the duration of True Fire Lord and having more Lava Balls. Volcanus will gain 325 attack range with Sulfuras while in True
+spells for the duration of Fire Rage and having more Lava Balls. Volcanus will gain 325 attack range with Sulfuras while in True
 Fire Lord
 
-bonus health 40% 55% 70%
+bonus health 25% 35% 45%
 bonus attack damage 40 80 120
 bonus spellamp 20% 30% 40%
-bonus damage reduction 20% 25% 30%
+bonus damage reduction 10% 15% 20%
 coldown reduction 30% 40% 50%
 Soul Burn bonus damage 15 20 25
 Lava Wave bonus damage 40 70 100
 Lava Balls bonus 6 9 12
-duration 18 20 22
+duration 16 19 22
 coldown 100
 mana cost 25% 30% 35%
 
-talent level 40 upgrade True Fire Lord
+talent level 40 upgrade Fire Rage
 increase bonus health by 40%
 increase bonus attack damage by 60
 increase damage reduction bonus by 5%
-increase duration by 4
+increase duration by 2
 reduce coldown by 15
-remove mana cost
 
 add a new modifier Hell Infuse
 Volcanus will reduce all range attacks and spells damage taken to 25% (damage reduction and other source will not affect this) and he
-also gain 15% spellvamp while in True Fire Lord and his spells will have 35% chance to spellvamp for 150% of the damage dealt and give
+also gain 15% spellvamp while in Fire Rage and his spells will have 35% chance to spellvamp for 150% of the damage dealt and give
 Volcanus a Stack of Hell Infuse. Hell Infuse will give Volcanus 1% max health, 2% max mana, 1.7% spellamp and 25 bonus cast range max
-of 20 stacks, at 10 stacks Volcanus will gain 50% magic resist and 35% status Resistence while in True Fire Lord and also increasing its
+of 20 stacks, at 10 stacks Volcanus will gain 50% magic resist and 35% status Resistence while in Fire Rage and also increasing its
 duration by 2 seconds, at Maxs stacks, Volcanus basic spells will gain 10 base damage bonus and will all reduce the enemys magic resist
-by 16% for 2.5 seconds refresh upon taking damage. Volcanus will also gain a spell call Hells Blink while in True Fire Lord being able
+by 16% for 2.5 seconds refresh upon taking damage. Volcanus will also gain a spell call Hells Blink while in Fire Rage being able
 to blink 625 units with a coldown of 10 seconds and no mana cost.
 
 level 1 talent
@@ -243,8 +242,8 @@ increase agility gain by 0.2 every level and also increase agility by 5
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Volcanus will also gain 4% increase inteillgence and
-reduce Pure damage taken by 10%
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Volcanus will also gain 3% increase inteillgence and
+reduce Pure damage taken by 5%
 -
 level 4 talent
 -
@@ -255,6 +254,9 @@ increase all stats by 4 and increase healing recive by 10%, all 3 basic spells o
 per casts (this effect will gain 100% more increase from Healing Amp and other healing source bonus)
 -
 reduce coldown by 10%, increase mana by 15% and Spellamp by 6% but reduce health by 10% and increase Base attack time by 0.25
+-
+Volcanus can levelup his Fire Rage before level 9 but increase its mana cost by 20% and coldown by 10. also increase the health bonus by
+5%, Soul Burn bonus damage by 5 and Lava Wave bonus damage by 15.
 -
 level 7 talent
 -
@@ -338,6 +340,10 @@ increase Mana by 10% and attack damage by 18, this bonus increase when chosing t
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75. Volcanus will gain 75 movespeed and 22% damage reduction for 7 seconds after useing any item effects.
 -
+Fire Rage will have 2 seconds duration bonus and increasing the spellamp bonus by 8% and the coldown reduction by 10%. Fire Rage will
+Purge all debuff on cast and will give Volcanus magic immune for 3.0 seconds. While in those 3 seconds of Magic Immune, Volcanus will
+gain 225 attack speed and 65% attack damage.
+-
 level 29 talent
 -
 Volcanus will have Soul Burn on him self as a buff that stay until it get purge. When Purge the Soul Burn Buff will come back after 7
@@ -365,29 +371,30 @@ passive as well
 Volcanus gain 10% status resistence and his Lava Wave will now stun his enemys for 0.75 seconds and for that 0.75 seconds enemys will
 take 100% increase damage from all source. Also increase all stuns and roots effect cause by Volcanus by 22%.
 -
-increase damage by 20 and spell amp by 10% and also increasing attack speed limit by 75 but reduce your armor by 6 and move speed
-by 10%
+Volcanus will gain 1.4% health and mana regeneration for the duration of Fire Rage and increase the health bonus gain by 25% and the
+attack damage by 85. Fire Rage will lose 6 seconds duration but will also have 25 coldown reduce as well. Also remove its mana cost and
+when casted, Volcanus will gain 35% health and mana back.
 -
 level 36 talent
 -
 increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
-and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
-1%
+and spell amp gain from inteillgence by 0.5%, Volcanus will increase the inteillgence scaling on his 3 basic spells by 5% and his
+Incinerate scaling by 20% (for the explosion damage), they also mana Leech for 8% of the damage dealt as well.
 -
-Reduce the coldown of Molten Hearth by 10 and also removing the max mana cost as well also increasing its duration by 6 seconds,
-any spells or Active item use while in Molten Hearth will increase its duration by 0.8 seconds but increasing the mana cost of those
-spell by 10%, Volcanus will also gain 35% more resist to Stun,blinds and roots for the remaing duration.
+increase the max stack of Incinerate by 6 and the base burn damage by 12%, Incinerate will do 3 Explosion when the target dies under
+Incinerate its self, those 3 Explosions will have 40% of the total radius and 55% of the total damage as well, the Explosion will trigger
+after 1.2 seconds of delay. There is a 12% chance that there will be 4 Explosion instead and that 4 Explosion will do 140% of the total
+damage of Incinerate and have 120% of the explosion radius as well, that Explosion will make nearby enemys that get hit by it take 20%
+increase damage from Pure and Magic damage for 5.5 seconds.
 -
 level 39 talent
 -
-LAVA LORD ASPECT, Increase the max stack of Incinerate by 3 and also increasing the explosion base damage by 25 damage, Incinerate
-explosion damage will have 100% more bonus from spell amp, and when Volcanus dies, he will create a Mega Incinerate that deals 400%
-increase total damage and with 150% more radius as well, he also got 20% chance to revive at that Location he died with 45% health and
-30% mana, taking this talent will make Volcanus spell have 6 bonus base damage but increasing their coldown by 1.
+TRUE FIRE LORD ASPECT, waiting for ideas
 -
-MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
-alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
-and Ignore 50% of the total target Magic resist, and Basic attacks will do 10% pure damage and 90% physical.
+MAGE WARRIOR ASPECT, increase attack damage by 30 and spell amp by 26% but reduce health by 12%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway Ignore 25% magic resist off the
+target, Pure Damage spells will alway deal 25% increase damage VS bosses and Champions. Also increase all stats by 30 and movespeed by
+15%
 -
 IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
 mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
