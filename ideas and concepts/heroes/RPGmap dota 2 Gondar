@@ -1,7 +1,11 @@
-Gondar Starting stats 7 Int, 16 Agi, 3 Str, base speed 315, base damage 4, Stats Gain per level 0.80 int, 0.30 str, 1.00 agi
-Starting item Broken Dagger 1 damage 5 attack speed, Medium DSP, Insane Mobility, Support
+                                                      Gondar The Ninja
+Starting stats 3 strenght, 16 agility, 7 inteillgence, Stats gain per level, 0.30 Strenght, 1.10 Agility, 0.70 Inteillgence.
+Base movespeed 300, Base attack damage 3-5, Base Regeneration Health 2.6, Base Regeneration Mana 1.4.
 
-LEVEL 20 TALENT
+total base stats at level 40 - 15 Strenght - 60 Agility - 35 Inteillgence -
+
+
+LEVEL 30 TALENT
 
 Talent 1
 
@@ -13,171 +17,365 @@ PASSIVE D OR F
 Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
 
 BUFF 
-Gondar will gain 1.2% spell amp per 7 agility point he got, he also gain 1 move speed per point of agility as well, he also reduce
+Gondar will gain 0.8% spell amp per 6 agility point he got, he further increase the movespeed gain from Agility by 1 as well. Reduce
 all slowing effect duration by 65% and he cannot be rooted as well, he start with 100 more health and mana with 5% magic resist,
 all of his spell will heal him for 75% of his total agility every time he cast them. he also got special boots that he cannot change
 DEBUFF
-Gondar doesnt gain any health regeneration from strenght, he also take 100% more damage from physical and Pure, Stun will last 0.8 second
-more, stun below 1 second will only get 0.1 seconds increase, and when he is stun he will lose his armor to 0 and his magic resist to 0%
-as well for the duration of the stun, he also lose 40% base damage as well and he also increase the base attack time with all weapons by
-0.20.
+Gondar doesnt gain any health regeneration from strenght, he also take 100% more damage from physical and Pure, Stun will last 0.8 More
+Seconds, stun below 0.8 second will only get 0.1 seconds increase, and when he is stun he will lose his armor to 0 and his magic resist to
+0% as well for the duration of the stun, he also lose 40% base damage as well and he also increase the base attack time with all weapons
+by 0.20. he can only use dagger and Swords as weapons and he need 8 Agility to gain 1 damage instead of 5.
 
-Boots of Unusual Sands Special
+Boots of Unusual Sands Special -active coldown 35.
 increase health by 25 increase by 5 every levels
 increase mana by 20 increase by 3 every levels
 increase movespeed by 35 increase by 1 every levels
 increase mana regeneration by 0.5 increase by 0.1 every levels
-also make agility give 2 health per point and also increasing the attack speed bonus from agility by 0.20
-can be use to clear all stun effect while stunned and push Gondar by 350 units in front of him coldown of 30
+Agility will give 3 health per point and will also give 0.15 more attack speed as well, he cannot lose attack speed by anymeans
+Gondar can activate his Boots of Unsuual Sands to Purge all debuff on him and gain 50% increase movespeed for 2.5 seconds.
+
+Boots of Unusual Sands can be Upgraded at level 40 with special material, these are the following bonus stats when upgraded.
+
+increase health by 125
+increase mana by 70
+increase movespeed by 15
+increase health regeneration by 3.2
+increase armor by 4
+increase magic resist by 28%
+Further increase the health gain from Agility by 3 and the attack speed by 0.10. Agility will also give 0.1 armor per point.
+The Active item effect will have 10 seconds coldown increase but will also increase his attack speed by 200 and have 0.5 seconds duration
+bonus.
+
 
 SPELL Q
 Shadow Step
-Gondar will go invisible, and when he is invisible he will gain increase movespeed every 0.5 seconds duration of Shadow Step, he also
-gain some stun resist when he stay invisible, if he cast a spell or attack he will do bonus damage base on his movespeed and increase the
-damage the enemys take, if the attack was physical also reduce armor and if the attack was magical also reduce magic resist. If any
-attack do both phyiscal and magical damage, it will give both reduction debuff.
+Gondar will go invisible, and when he is invisible he will gain 1% increase movespeed every 0.5 seconds duration of Shadow Step, he also
+gain some stun resist when he stay invisible, When he cast one of his basic spells, it will do bonus damage base on his movespeed and
+increase the damage the enemys take, if the Spell was physical also reduce armor and if the Spell was magical also reduce magic resist.
+If any Spell do both phyiscal and magical damage, it will give both reduction debuff. Shadow Step will do Pure damage and to reduce magic
+or armor, he need to cast one of his spells that does magical or physical OR even both.
 
-bonus damage upon breaking invis 2% 3% 4% 5% of total movespeed Pure
+bonus damage upon breaking invis 5% 6% 7% 8% of total movespeed Pure
 damage taken increase 10% 18% 26% 34%
-Armor lost 4 6 8 10
-magic resist lost 7% 11% 15% 19%
-debuff duration 8 8.4 8.8 9.2
+Armor lost 7 9 11 13
+magic resist lost 12% 15% 18% 21%
+debuff duration 5 5.7 6.4 7.1
 invisibility duration 14 15 16 17
-stun resist 10% 20% 30% 40%
-movespeed gain per 0.5 seconds 2%
-coldown 30 29 28 27
+stun resist 35% 40% 45% 50%
+coldown 30 28 26 24
 mana cost 95 115 135 155 plus 3% of max mana
 
 talent level 10 upgrade Shadow Step
-increase damage taken by 8%
-increase armor lost by 7
-increase magic resist lost by 11%
-increase debuff duration by 0.8
+increase damage taken by 10%
+increase armor lost by 4
+increase magic resist lost by 6%
+increase debuff duration by 0.5
 reduce coldown by 11
 
 add a new modifier Shadow Form
-When Gondar break his Invisibility, he will gain Shadow Form, having 75% evasion and also having 50% chance to Evade Magical attacks
-when in this state, he will also gain 1 armor and 2% magic resist for every seconds of duration, allys near him will gain 75% of that
-bonus for them 750 radius, Shadow Form last 12 seconds and when in Shadow Form, Shadow Step will remain in Coldown as well, for this
-Gondar spell and attack will reduce the enemys armor by 6 and magic resist by 11% for 3.5 seconds.
+Gondar Will no longer go Invisible and instead gain the duration of Invisibility for the Shadow Form. Instead of being Invisible, he will
+enter Shadow Form gaining 25% evasion, 40% chance to Evade Magical spells and Pure spells as well. The Debuff attack and bonus damage
+from Shadow Step will still remain for the next spell casted for 15 seconds instead of being after casting a spell when invisible.
+Gondar will still gain 1% movespeed per 0.5 seconds of duration of Shadow Step but he also gain 0.4 armor and 1% magic resist as well.
+Shadow Form cannot be Purge and Gondar will gain 100% blind Resistence as well for the duration.
 
 
 SPELL W
 Weak Strike
 Gondar Strike the enemy in their Weak Spot increasing the damage they take from Gondar and his allys as well, the enemys will suffer from
-damage over time and getting slow every seconds of duration. enemys will take further damage increase from Gondar, he also jump back
-behind him for 350 400 450 500 units travel. Can be autocast. Coldown reduction will have no effect and Weak Strike will gain 50% more
-bonus from spell amp. If Weak Strike is use in Shadow Step it will do Magical damage instead of Physical.
+damage over time and getting slow every seconds of duration and the slow will last 0.6 seconds after Weak Strike duration end. enemys
+will take further damage increase from Gondar, he also jump back behind him for 350 425 500 575 units travel. Can be autocast. Coldown
+reduction will have no effect and Weak Strike will gain 100% more bonus from spell amp. If Weak Strike is use in Shadow Step it will do
+Magical damage instead of Physical.
 
 damage 4 5 6 7 plus 6% of agility Physical every 0.2 seconds
-base slow 8% 10% 12% 14%
-increase slow by 1% every 0.3 seconds
+base slow 4% 6% 8% 10%
+increase slow by 1% every 0.1 seconds
 damage taken increase by 25% 35% 45% 55% for Gondar
 damage taken increase by 10% 14% 18% 22% for allys
 duration 2 2.2 2.4 2.6
 coldown 4
-mana cost 35 50 65 80 plus 0.7% of max mana
+mana cost 35 50 65 80 plus 0.4% of max mana
 
 talent level 10 upgrade Weak Strike
 increase agility scaling by 2%
-increase base slow by 8%
+increase base slow by 6%
 increase damage taken by 8% for allys
 increase duration by 0.6
 reduce mana cost by 20
 
 add a new modifier Disease Strike
-Weak Strike will cleave in a 285 radius in front of Gondar giving it debuff to others, enemys affected by Weak Strike will be sick,
+Weak Strike will cleave in a 365 radius in front of Gondar giving its debuff to others, enemys affected by Weak Strike will be sick,
 dealing 25% less damage with spells and losing 15% base damage as well, when they die under the duration of Weak Strike they will spread
 it to others with worst conditions, they will do 35% less damage with spells and lose 25% base damage until they die instead of losing
 it over the duration, Gondar normal attacks against enemys affected by Weak Strike will do 50% pure damage and 50% physical, spell will
-do 25% pure and 75% physical, Gondar will gain 5% movespeed for every unit affected by the debuff of Weak Strike.
+do 25% pure and 75% physical. Gondar will gain 8% movespeed for every unit affected by the debuff of Weak Strike. Weak Strike cannot
+be Purge by any means.
 
 
 SPELL E
-JumpKick
+JumpKick - Physical -
 Gondar Jump into a enemys stuning them for a short duration and also making them take increase duration from roots and stun as well,
 he also push them back by 225 units and Gondar will also Jump back 335 units as well, he also gain some damage reduction for a short
-duration upon landing JumpKick, deal medium damage
+duration upon landing JumpKick
 
-damage 12 16 20 24 plus 20% 24% 28% 32% of agility Physical
+damage 18 22 26 30 plus 25% 30% 35% 40% of agility
 stun duration 0.5 0.7 0.9 1.1
-increase stun and root duration by 25% 30% 35% 40%
+increase stun and root duration by 30% 40% 50% 60%
 debuff duration 3.4 3.6 3.8 4.0
-damage reduction 15% 20% 25% 30%
-buff duration 1.7 1.8 1.9 2.0 seconds
-coldown 6
+damage reduction 14% 18% 22% 26%
+buff duration 2.2 2.6 3.0 3.4 seconds
+coldown 7
 mana cost 50 85 110 145 plus 1% of max mana
 
 talent level 20 upgrade JumpKick
-increase agility scaling by 8%
+increase agility scaling by 25%
 increase stun and root duration by 15%
-increase debuff duration by 1 seconds
+increase debuff duration by 1.8 seconds
 increase damage reduction by 7%
 reduce mana cost to 70 at all levels
 
 add a new modifer Unseen Jump
 Gondar will become invisible when he jump for 3.2 seconds, JumpKick doesnt break invis from Shadow Step and Unseen Jump and when use
 in invisibility it will do 35% more damage and stun 0.7 seconds longer and Peice magic immunity and also reducing it coldown by 2.5
-seconds, every time Gondar get the Finish blow on the enemys with JumpKick it will get 2 base damage increase that stack up to 30 bonus
-base damage and at max stack Gondar will gain 55 attack speed with 14 attack damage and 12% spell amp for 5 seconds after useing JumpKick
-, 50% of the stacks are lost on death.
+seconds, every time Gondar get the Finish blow on the enemys with JumpKick it will get 2 base damage increase that stack up to 20 time.
+at 4 stacks, JumpKick will gain 325 cast range and will further push the target by 100 units and also increase the Agility scaling by 5%,
+at 9 stacks, Gondar will gain 35 movespeed and 12 Agility, JumpKick will also do 25% increase damage if the target was stun by other
+Source of Stuns. at 16 stacks, JumpKick will Root the target after its stun duration ends for 2.0 seconds and every 0.4 seconds of roots
+, it will deal 30% of Gondar Agility in Pure damage and also reduce its coldown by 1.5 and increase the damage reduction gain by 5%.
+
 
 ACTIVE PASSIVE D or F
 Ninja Mastery
 Increase Gondar Agility and Movespeed Limit cap, this can also be use to push forward by 75% 100% 125% 150% of movespeed, Weak Strike and
 JumpKick will do bonus damage base on his movespeed and his attack speed, every time he get slowed he will gain bonus health regeneration
-and attack speed for a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 25% of the bonus
-damage from attack speed and Movespeed into damage.
+and attack speed for a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 3% of attack
+speed into damage and 1% of movespeed into damage bonus. (the bonus Movespeed Limit increase by 650 750 850 950 from the base 550)
 
-Evasion per armor 1%
+bonus Evasion per armor 1%
 Agility 10% 12% 14% 16%
-movespeed Limit 650 750 850 950 -note for this it increase from 550 to 650 750 850 and 950
-attack speed into damage 8% 10% 12% 14%
+movespeed Limit increase 650 750 850 950 
+attack speed into damage 7% 8% 9% 10%
 move speed into damage 2%
 health regeneration 10 15 20 25
 attack speed 35 70 105 140
-duration of buff 3.4 3.8 4.2 4.6
+duration of buff 2.9 3.3 3.7 4.1
 coldown of Active effect 7 6 5 4
-mana cost 25 30 35 40
+mana cost 15 20 25 30
 
 talent level 20 upgrade Ninja Mastery
-increase agility gain by 4%
 increase movespeed limit by 150
-increase the buff duration by 1.4 seconds
+increase attack speed into damage by 2%
+increase moves speed into damage by 1%
+increase the buff duration by 2.2 seconds
 
 add a new modifier Bounty Hunter
-Gondar will gain his attack speed into damage for his base damage as well for 6% bonus, Gondar can use 5% of his current gold to deal
-damage to a target, damage cap is 100 plus 5 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys will
-gain 30% gold as well, allys will also be able to spend 20% less gold on items that allys buy at the shop, gain a golden aura of 10% 
-Evasion with 5% damage reduction and 12% bonus damage as well.
+Gondar will gain his attack speed into damage for his base damage as well for 8% more bonus, Gondar can use 5% of his current gold to 
+deal damage to a target, damage cap is 100 plus 4 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys
+will gain 30% gold as well, allys will also be able to spend 20% less gold on items that allys buy at the shop, Gondar also gain a golden
+aura that give 10% Evasion with 6% damage reduction and 12% bonus damage in a Global Radius for him and his allys (summons will gain 1%
+health regeneration and 35 attack speed as well).
 
 
 PASSIVE ULTIMATE R
 Track the Weaks
 Gondar will do bonus damage to target lower than 50% 60% 70% of their max health, JumpKick will have reduce mana cost and increase
-cast range and damage on those target, When Gondar attacks those enemys below the amount of health they will have a debuff that reduce
+cast range and damage on those target, When Gondar attacks those enemys below the amount of health, they will have a debuff that reduce
 their overall damage and their attack speed for a medium duration, Gondar Weak Strike and JumpKick will also scale on his inteillgence
-as bonus damage (Weak Strike will gain 10% of the bonus) and his auto attack will gain some of his spellamp into bonus attack damage as
-well, Shadow Step will also do 200% of Gondar attack damage on hit with anything 1 time, they can only be debuff once every 17 seconds
-. A small icon will apear on the enemys head when they can be debuff again.
+as bonus damage and his auto attack will gain some of his spellamp into bonus attack damage as well, Shadow Step will also do 200%
+of Gondar attack damage on hit with anything 1 time, they can only be debuff once every 17 seconds. A small icon will apear on the
+enemys head when they can be debuff again. (gondar will do 40% 50% 60% increase damage with his normal attack on target low health
 
 Spell amp into attack damage 20% 25% 30%
-Inteillgence into damage 20% 30% 40%
-bonus damage 40% 60% 80% (gondar normal attack)
+Inteillgence into Damage Weak Strike 6% 7% 8%
+Inteillgence into Damage JumpKick 15% 25% 35%
 JumpKick bonus damage 15 30 45
 JumpKick bonus cast range 250 400 550
 JumpKick mana reduce 25% 40% 55%
 overall damage reduce 15% 20% 25%
-attack speed reduce 40 70 100
+attack speed reduce 40 60 80
 debuff duration 6.5 7.5 8.5
 
 talent level 40 upgrade Track the Weak
-increase spell amp into attack damage by 5%
-increase bonus damage by 20% (gondar normal attack)
-increase JumpKick bonus damage by 15
+increase spell amp into attack damage by 10%
+increase JumpKick bonus damage by 25
 increase overall damage reduce by 5%
-increase the debuff duration by 1.5
+increase the debuff duration by 2.5
 
 
 add a new modifier The Hunt is On
 
+
+
+
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Volcanus will also gain 3% increase inteillgence and
+reduce Pure damage taken by 5%
+-
+level 4 talent
+-
+Increase Soul Burn base damage by 4 and the damage reduction by 3%, Soul Burn will give Volcanus 0.1% health regeneration per affected
+target, also increase its cast range by 175
+-
+increase all stats by 4 and increase healing recive by 10%, all 3 basic spells of Volcanus will heal him for 35% of his inteillgence
+per casts (this effect will gain 100% more increase from Healing Amp and other healing source bonus)
+-
+reduce coldown by 10%, increase mana by 15% and Spellamp by 6% but reduce health by 10% and increase Base attack time by 0.25
+-
+Volcanus can levelup his Fire Rage before level 9 but increase its mana cost by 20% and coldown by 10. also increase the health bonus by
+5%, Soul Burn bonus damage by 5 and Lava Wave bonus damage by 15.
+-
+level 7 talent
+-
+Increase Lava Wave base damage by 10 and its scaling by 5%, Lava Wave will deal 1% increase damage per stack of Incinerate the enemys
+got on them, also increase the max stack of Incinerate burn by 2 and increase Incinerate base burn damage by 6%
+-
+Volcanus will gain 15% increase health and 170 mana, each enemys affected by Incinerate will increase Volcanus health and mana regeneration
+by 0.3, Volcanus cannot be lifesteal or spellvamp by enemys and increase all healing source done by allys by 10%.
+-
+Volcano will further increase its damage reduction while channeling by 5% and Volcanus will become magic immune for 2.5 seconds after he
+is done channeling for a least 3 seconds, also increase his Strenght and Agility by 6 and inteillgence by 12.
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.1 increase by 0.1 every 9 primary stats and also increase xp gain by 15%
+-
+increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
+-
+reduce health by 25% and mana by 30% but increase Volcanus spellamp by 16%, mana regeneration by 0.3%, health regeneration by 0.2% and
+Volcanus spells will Trigger a Volcanic Burn doing 12% of his inteillgence into Pure damage bonus for every instence of damage they do
+also increase xp gain by 15%
+-
+level 16 talent
+-
+Lava Wave will travel 225 more distence and have 45 increase radius, each time it come in contact with any targets, it will gain 4%
+increase damage and 35 speed increase that goes without limit. Also increase Volcanus all stats by 7 and his cast range by 115 and
+reduce Lava Wave coldown by 2.
+-
+Increase max health by 4% and Mana by 6%, Volcanus will gain 3 bonus mana and 1 bonus health for every enemys that died under Incinerate
+effect, max stack of 100 and these stacks will be lost on death, at 50 stacks Volcanus will gain 7 inteillgence and 4 Strenght, at 85
+stacks, Volcanus will increase all of his basic spells damage by 15% and increase their cast range by 175.
+-
+increase Volcanus attack range by 135 and attack speed by 25, he will reduce the Penalty of the attack damage lost from his Neutral
+passive by 25% and for every 7 current attack damage he will gain 4 attack speed and 1% lifesteal, also increase his size by 10%
+(doesnt increase his attack range if he is holding Sulfuras)
+-
+level 19 talent
+-
+Volcanus will gain 10% damage reduction for 3.5 seconds after casting his basic spells, he also gain 1.3% health regeneration while
+channeling his Volcano. Volcano will gain 8 base damage and will have 3 more lava Balls as well.
+-
+Increase all Magical Output damage by 25% and Pure Output damage by 10% but Volcanus will no longet be able to deal Physical damage at
+all, Volcanus will increase the Attributes gain from Incinerate by 4% and will give 10 Inteillgence as well. Further increase the
+Inteillgence gain by 25 while in True Fire Lord
+-
+Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.0 seconds. Incinerate will also burn 3.5
+mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 50%
+and their coldown by 1
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce the Scaling by 10% and the base damage by 4, Soul Burn
+will have 25% chance every tick of damage to deal 100% extra damage and do a Small blast of 285 Area of Effect dealing that damage to
+everyone near the target and making them lose 7% magic resist for 4.5 seconds.
+-
+Increase Spellamp by 11%, mana regeneration by 4.2 and regeneration Source by 25%, Volcano will give Volcanus 0.3 health regeneration
+for every Hit units. If Volcano hit at least 10 enemys, Volcanus will gain 25 health permanent that stack 10 time, at 5 stacks Volcanus
+will gain 8% health and mana with 1.6 health and mana regeneration as well, he doesnt lose those stacks by any means and he take 20%
+reduce damage from range attacks at 10 stacks (doesnt count spells only normal basic attacks)
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and
+Agility
+-
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and Agility
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75. Volcanus will gain 75 movespeed and 22% damage reduction for 7 seconds after useing any item effects.
+-
+Fire Rage will have 2 seconds duration bonus and increasing the spellamp bonus by 8% and the coldown reduction by 10%. Fire Rage will
+Purge all debuff on cast and will give Volcanus magic immune for 3.0 seconds. While in those 3 seconds of Magic Immune, Volcanus will
+gain 225 attack speed and 65% attack damage.
+-
+level 29 talent
+-
+Volcanus will have Soul Burn on him self as a buff that stay until it get purge. When Purge the Soul Burn Buff will come back after 7
+seconds. Soul Burn will give Volcanus normal attack a Sun Burn that deal 18% of Volcanus inteillgence every 0.8 seconds that last 4.0
+seconds and increase his pure resist by 35% and his health regeneration by 0.6% while under Soul Burn effect.
+-
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+30. Volcanus will gain 0.7 armor and 1% magic resist per enemys affected by Soul Burn and reduce its mana cost by 12%.
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+Lava Wave will heal Volcanus for every enemys it hit for 75% of Volcanus inteillgence PLUS 25% of Lava Wave total damage. Also increase
+all healing effect by 15% on Volcanus and allys healing spells will heal for 40% increase on Volcanus and will refund 25% of their mana
+cost to them.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+Volcanus gain 10% status resistence and his Lava Wave will now stun his enemys for 0.75 seconds and for that 0.75 seconds enemys will
+take 100% increase damage from all source. Also increase all stuns and roots effect cause by Volcanus by 22%.
+-
+Volcanus will gain 1.4% health and mana regeneration for the duration of Fire Rage and increase the health bonus gain by 25% and the
+attack damage by 85. Fire Rage will lose 6 seconds duration but will also have 25 coldown reduce as well. Also remove its mana cost and
+when casted, Volcanus will gain 35% health and mana back.
+-
+level 36 talent
+-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, Volcanus will increase the inteillgence scaling on his 3 basic spells by 5% and his
+Incinerate scaling by 20% (for the explosion damage), they also mana Leech for 8% of the damage dealt as well.
+-
+increase the max stack of Incinerate by 6 and the base burn damage by 12%, Incinerate will do 3 Explosion when the target dies under
+Incinerate its self, those 3 Explosions will have 40% of the total radius and 55% of the total damage as well, the Explosion will trigger
+after 1.2 seconds of delay. There is a 12% chance that there will be 4 Explosion instead and that 4 Explosion will do 140% of the total
+damage of Incinerate and have 120% of the explosion radius as well, that Explosion will make nearby enemys that get hit by it take 20%
+increase damage from Pure and Magic damage for 5.5 seconds.
+-
+level 39 talent
+-
+TRUE FIRE LORD ASPECT, waiting for ideas
+-
+MAGE WARRIOR ASPECT, increase attack damage by 30 and spell amp by 26% but reduce health by 12%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway Ignore 25% magic resist off the
+target, Pure Damage spells will alway deal 25% increase damage VS bosses and Champions. Also increase all stats by 30 and movespeed by
+15%
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
