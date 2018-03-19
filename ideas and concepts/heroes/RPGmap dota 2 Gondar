@@ -7,6 +7,7 @@ total base stats at level 40 - 15 Strenght - 60 Agility - 35 Inteillgence -
 
 LEVEL 30 TALENT
 
+
 Talent 1
 
 
@@ -55,7 +56,7 @@ increase the damage the enemys take, if the Spell was physical also reduce armor
 If any Spell do both phyiscal and magical damage, it will give both reduction debuff. Shadow Step will do Pure damage and to reduce magic
 or armor, he need to cast one of his spells that does magical or physical OR even both.
 
-bonus damage upon breaking invis 5% 6% 7% 8% of total movespeed Pure
+bonus damage upon breaking invis 4% 6% 8% 10% of total movespeed Pure
 damage taken increase 10% 18% 26% 34%
 Armor lost 7 9 11 13
 magic resist lost 12% 15% 18% 21%
@@ -129,7 +130,7 @@ coldown 7
 mana cost 50 85 110 145 plus 1% of max mana
 
 talent level 20 upgrade JumpKick
-increase agility scaling by 25%
+increase agility scaling by 15%
 increase stun and root duration by 15%
 increase debuff duration by 1.8 seconds
 increase damage reduction by 7%
@@ -153,14 +154,14 @@ and attack speed for a short duration. Gondar will also gain some Evasion base f
 speed into damage and 1% of movespeed into damage bonus. (the bonus Movespeed Limit increase by 650 750 850 950 from the base 550)
 
 bonus Evasion per armor 1%
-Agility 10% 12% 14% 16%
+Agility 9% 11% 13% 15%
 movespeed Limit increase 650 750 850 950 
 attack speed into damage 7% 8% 9% 10%
 move speed into damage 2%
 health regeneration 10 15 20 25
 attack speed 35 70 105 140
 duration of buff 2.9 3.3 3.7 4.1
-coldown of Active effect 7 6 5 4
+coldown of Active effect 6 5.5 5 4.5
 mana cost 15 20 25 30
 
 talent level 20 upgrade Ninja Mastery
@@ -178,7 +179,7 @@ health regeneration and 35 attack speed as well).
 
 
 PASSIVE ULTIMATE R
-Track the Weaks
+Track The Weaks
 Gondar will do bonus damage to target lower than 50% 60% 70% of their max health, JumpKick will have reduce mana cost and increase
 cast range and damage on those target, When Gondar attacks those enemys below the amount of health, they will have a debuff that reduce
 their overall damage and their attack speed for a medium duration, Gondar Weak Strike and JumpKick will also scale on his inteillgence
@@ -204,7 +205,10 @@ increase the debuff duration by 2.5
 
 
 add a new modifier The Hunt is On
+Gondar will gain 8% movespeed per enemys on the Low health trigger of Track the Weaks. Gondar JumpKick will alway do 10% of his BONUS
+movespeed gain from items in Pure damage, Enemys will have 50% chance to drop 33% increase gold and 22% increase Item Drop from them
 
+wating for ideas
 
 
 
