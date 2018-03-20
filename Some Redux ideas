@@ -6,7 +6,7 @@ Purge Soul Burn off, they will suffer x3 of the total damage of Soul Burn once.
 damage 14 21 28 35 Pure
 damage reduction 25% 40% 55% 70%
 duration 7 seconds
-coldown 25 23 21 19
+coldown 29
 mana cost 90 120 150 180
 
 
@@ -19,6 +19,6 @@ base armor lost 4 6 8 10
 movespeed slow 10% 15% 20% 25%
 healing effect reduce 8% 10% 12% 14%
 duration 3.6 4.5 5.4 6.3
-coldown 18
+coldown 21
 mana cost 50 75 100 125
 
