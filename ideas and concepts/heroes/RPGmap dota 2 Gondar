@@ -206,9 +206,10 @@ increase the debuff duration by 2.5
 
 add a new modifier The Hunt is On
 Gondar will gain 8% movespeed per enemys on the Low health trigger of Track the Weaks. Gondar JumpKick will alway do 10% of his BONUS
-movespeed gain from items in Pure damage, Enemys will have 50% chance to drop 33% increase gold and 22% increase Item Drop from them
-
-wating for ideas
+movespeed gain from items in Pure damage, Enemys will have 50% chance to drop 33% increase gold and 22% increase Item Drop from them,
+Allys will also deal 25% increase damage with spells and basic attack when the enemys get into the health threshold. Enemys that are
+below 20% health will give all attacking allys with basic attacks 75 attack speed and 15% increase damage on them, for spells casters
+they will do 25% bonus pure damage on them with their total damage of that spell casted.
 
 
 
