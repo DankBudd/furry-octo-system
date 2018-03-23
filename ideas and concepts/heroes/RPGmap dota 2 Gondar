@@ -221,21 +221,20 @@ increase agility gain by 0.2 every level and also increase agility by 5
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Volcanus will also gain 3% increase inteillgence and
-reduce Pure damage taken by 5%
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Gondar will gain 1 Agility per Item that give inteillgence
+and he will reduce the mana cost of his spells by 7%
 -
 level 4 talent
 -
-Increase Soul Burn base damage by 4 and the damage reduction by 3%, Soul Burn will give Volcanus 0.1% health regeneration per affected
-target, also increase its cast range by 175
+Increase Shadow Step duration by 2 seconds and Gondar will always gain 6% movespeed at the start of it. also gain 3 Agility
 -
-increase all stats by 4 and increase healing recive by 10%, all 3 basic spells of Volcanus will heal him for 35% of his inteillgence
-per casts (this effect will gain 100% more increase from Healing Amp and other healing source bonus)
+Increase all healing recive by 15% and Weak Strike will gain 25% spellvamp but lose 1% scaling damage on Agility.
 -
-reduce coldown by 10%, increase mana by 15% and Spellamp by 6% but reduce health by 10% and increase Base attack time by 0.25
+Reduce Jumpkick coldown by 0.5 and increase its base damage by 8, Gondar will gain 0.7 seconds of magic immunity after casting it, also
+increase inteillgence by 4 and mana regeneration by 0.9
 -
-Volcanus can levelup his Fire Rage before level 9 but increase its mana cost by 20% and coldown by 10. also increase the health bonus by
-5%, Soul Burn bonus damage by 5 and Lava Wave bonus damage by 15.
+Increase Ninja Mastery Evasion gain from armor by 0.25% and also give Gondar 1% damage reduction per 12% evasion he currently got. Also
+increase his armor by 1, magic resist by 4% and health by 7%.
 -
 level 7 talent
 -
