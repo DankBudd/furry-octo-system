@@ -27,7 +27,7 @@ Seconds, stun below 0.8 second will only get 0.1 seconds increase, and when he i
 0% as well for the duration of the stun, he also lose 40% base damage as well and he also increase the base attack time with all weapons
 by 0.20. he can only use dagger and Swords as weapons and he need 8 Agility to gain 1 damage instead of 5.
 
-Boots of Unusual Sands Special -active coldown 35.
+Boots of Unusual Sands Special -active coldown 30.
 increase health by 25 increase by 5 every levels
 increase mana by 20 increase by 3 every levels
 increase movespeed by 35 increase by 1 every levels
@@ -44,7 +44,7 @@ increase health regeneration by 3.2
 increase armor by 4
 increase magic resist by 28%
 Further increase the health gain from Agility by 3 and the attack speed by 0.10. Agility will also give 0.1 armor per point.
-The Active item effect will have 10 seconds coldown increase but will also increase his attack speed by 200 and have 0.5 seconds duration
+The Active item effect will have 5 seconds coldown increase but will also increase his attack speed by 145 and have 1.0 seconds duration
 bonus.
 
 
@@ -54,7 +54,8 @@ Gondar will go invisible, and when he is invisible he will gain 1% increase move
 gain some stun resist when he stay invisible, When he cast one of his basic spells, it will do bonus damage base on his movespeed and
 increase the damage the enemys take, if the Spell was physical also reduce armor and if the Spell was magical also reduce magic resist.
 If any Spell do both phyiscal and magical damage, it will give both reduction debuff. Shadow Step will do Pure damage and to reduce magic
-or armor, he need to cast one of his spells that does magical or physical OR even both.
+or armor, he need to cast one of his spells that does magical or physical OR even both. The coldown will go off after Gondar is out of his
+invisibility.
 
 bonus damage upon breaking invis 4% 6% 8% 10% of total movespeed Pure
 damage taken increase 10% 18% 26% 34%
@@ -63,7 +64,7 @@ magic resist lost 12% 15% 18% 21%
 debuff duration 5 5.7 6.4 7.1
 invisibility duration 14 15 16 17
 stun resist 35% 40% 45% 50%
-coldown 30 28 26 24
+coldown 24 23 22 21
 mana cost 95 115 135 155 plus 3% of max mana
 
 talent level 10 upgrade Shadow Step
@@ -71,7 +72,7 @@ increase damage taken by 10%
 increase armor lost by 4
 increase magic resist lost by 6%
 increase debuff duration by 0.5
-reduce coldown by 11
+reduce coldown by 3
 
 add a new modifier Shadow Form
 Gondar Will no longer go Invisible and instead gain the duration of Invisibility for the Shadow Form. Instead of being Invisible, he will
@@ -90,7 +91,7 @@ reduction will have no effect and Weak Strike will gain 100% more bonus from spe
 Magical damage instead of Physical.
 
 damage 4 5 6 7 plus 6% of agility Physical every 0.2 seconds
-base slow 4% 6% 8% 10%
+base slow 6% 7% 8% 9%
 increase slow by 1% every 0.1 seconds
 damage taken increase by 25% 35% 45% 55% for Gondar
 damage taken increase by 10% 14% 18% 22% for allys
@@ -125,7 +126,7 @@ stun duration 0.5 0.7 0.9 1.1
 increase stun and root duration by 30% 40% 50% 60%
 debuff duration 3.4 3.6 3.8 4.0
 damage reduction 14% 18% 22% 26%
-buff duration 2.2 2.6 3.0 3.4 seconds
+buff duration 2.2 2.5 2.8 3.1 seconds
 coldown 7
 mana cost 50 85 110 145 plus 1% of max mana
 
@@ -170,10 +171,10 @@ increase attack speed into damage by 2%
 increase moves speed into damage by 1%
 increase the buff duration by 2.2 seconds
 
-add a new modifier Bounty Hunter
-Gondar will gain his attack speed into damage for his base damage as well for 8% more bonus, Gondar can use 5% of his current gold to 
+add a new modifier Bounty Hunter -after he use one of his spells he will gain Fools Gold spell dealing damage base on his gold-
+Gondar will gain his attack speed into damage for his base damage as well for 4% more bonus, Gondar can use 5% of his current gold to 
 deal damage to a target, damage cap is 100 plus 4 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys
-will gain 30% gold as well, allys will also be able to spend 20% less gold on items that allys buy at the shop, Gondar also gain a golden
+will gain 30% gold as well, allys will also be able to spend 20% less gold on items they buy at the shop, Gondar also gain a golden
 aura that give 10% Evasion with 6% damage reduction and 12% bonus damage in a Global Radius for him and his allys (summons will gain 1%
 health regeneration and 35 attack speed as well).
 
