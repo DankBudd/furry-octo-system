@@ -235,26 +235,26 @@ and he will reduce the mana cost of his spells by 7%
 -
 level 4 talent
 -
-Increase Shadow Step duration by 2 seconds and Gondar will always gain 6% movespeed at the start of it. also gain 3 Agility
+Increase Shadow Step duration by 2 seconds and Gondar will always gain 6% movespeed at the start of it. also gain 5 Agility and 45 health
 -
 Increase all healing recive by 15% and Weak Strike will gain 25% spellvamp but lose 1% scaling damage on Agility.
 -
 Reduce Jumpkick coldown by 0.5 and increase its base damage by 8, Gondar will gain 0.7 seconds of magic immunity after casting it, also
 increase inteillgence by 4 and mana regeneration by 0.9
 -
-Increase Ninja Mastery Evasion gain from armor by 0.25% and also give Gondar 1% damage reduction per 12% evasion he currently got. Also
+Increase Ninja Mastery Evasion gain from armor by 0.25% and also give Gondar 1% damage reduction per 9% evasion he currently got. Also
 increase his armor by 1, magic resist by 4% and health by 7%.
 -
 level 7 talent
 -
-Increase Lava Wave base damage by 10 and its scaling by 5%, Lava Wave will deal 1% increase damage per stack of Incinerate the enemys
-got on them, also increase the max stack of Incinerate burn by 2 and increase Incinerate base burn damage by 6%
+Reduce Shadow Step coldown by 1.5 and also reduce its manacost by 27%, Shadow Step will give Gondar 50% of the armor of Magic resist he
+reduce on the target as a buff for 5.5 seconds. Also increase his movespeed Limit by 75 and health regeneration by 0.4
 -
-Volcanus will gain 15% increase health and 170 mana, each enemys affected by Incinerate will increase Volcanus health and mana regeneration
-by 0.3, Volcanus cannot be lifesteal or spellvamp by enemys and increase all healing source done by allys by 10%.
+Increase Mana by 175 and health by 50, Gondar will reduce range attacks by 15% and range spells by 30% after he cast any of his spells
+for 2.5 seconds.
 -
-Volcano will further increase its damage reduction while channeling by 5% and Volcanus will become magic immune for 2.5 seconds after he
-is done channeling for a least 3 seconds, also increase his Strenght and Agility by 6 and inteillgence by 12.
+Increase Strenght by 10 and health regeneration source bonus by 20% but reduce Agility by 7 and inteillgence by 4, JumpKick will gain
+135% of Gondar Strenght in bonus cast range and also reduce its mana cost by 9%.
 -
 level 10 talent
 upgrade spell Q
