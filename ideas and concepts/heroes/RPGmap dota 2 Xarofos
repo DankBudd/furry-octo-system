@@ -389,18 +389,18 @@ their spells and items active.
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-Reduce Blinds effect by 25%, all Stun cause by Xarofos will have 0.4 seconds increase and make the enemys take 15% increase pure damage
-for the duration of the stun
+Reduce Blinds effect by 20%, all Stun cause by Xarofos will have 33% increase stun duration and make the enemys take 35% increase pure
+damage and Physical damage for the duration of the stun. Also increase health by 4% and Mana by 35.
 -
 Increase Xarofos Attack damage by 50 and attack speed by 125 while in Titan Form and reduce it coldown by 10, also increase Xarofos
-Armor by 4, Magic resist by 10% and his health regeneration source by 15% while he is not in Titan Form.
+Armor by 3, Magic resist by 12% and his health regeneration source by 45% while he is not in Titan Form.
 -
 level 36 talent
 -
 increase Agility and Strenght by 16 and also increase life gain from strenght by 2, Strenght will also give 0.1% spell amp per 2 points,
 Agility will give 0.15 more attack speed, Agility will also give 1 armor per 16 points. Xarofos will gain 6 Strenght and Agility per
 spells casted that last 4.5 seconds, Refresh upon casting a spells and increase its bonus Strenght and Agility by 2 and the duration by
-0.5, (Molten Steel doesnt Proc this)
+0.5, Max of 14 stacks and 3 stacks are lost upon getting stun. (Molten Steel doesnt Proc the effect)
 -
 When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
 duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
