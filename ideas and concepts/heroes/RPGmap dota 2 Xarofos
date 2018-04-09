@@ -402,9 +402,8 @@ Agility will give 0.15 more attack speed, Agility will also give 1 armor per 16 
 spells casted that last 4.5 seconds, Refresh upon casting a spells and increase its bonus Strenght and Agility by 2 and the duration by
 0.5, Max of 14 stacks and 3 stacks are lost upon getting stun. (Molten Steel doesnt Proc the effect)
 -
-When Sven cast BloodLust he will gain 65 heath regeneration and also gaining 35 max health per second of the duration and after the
-duration ends all of that health gain will be a heal for Sven with 35% increase healing effect on it as well, but reduce the block
-chance of War Gladiator by 25% and critical chance by 2%
+Xarofos will Refresh the coldown of his Iron Blast after he cast his Iron Charge, having 35% more damage and 155 cleave radius for 7
+seconds. If Xarofos kill any enemys with Empowered Iron Blast for those 7 seconds, he will gain 
 -
 level 39 talent
 -
