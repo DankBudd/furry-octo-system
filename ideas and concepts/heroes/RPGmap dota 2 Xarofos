@@ -12,12 +12,16 @@ LEVEL 30 TALENT
 
 Talent 1
 Increase Xarofos Health by 125 and his Pure resist by 10%
-Xarofos will gain 3 health per Agility and every 24 points of Strenght, Xarofos will gain 10 Stolx mana and 2% magic resist, he also gain
+Xarofos will gain 3 health per Agility and every 24 points of Strenght, Xarofos will gain 55 Stolx mana and 8% magic resist, he also gain
 10% increase Agility from his total Strenght, Molten Steel will also deal 10% of Xarofos Agility in Bonus damage and have 2 mana cost
-reduce with 75 bonus radius and have 20% spellvamp.
+reduce with 75 bonus radius and have 12% spellvamp.
 
 Talent 2
-
+Increase Xarofos Strenght by 16 and his attack damage by 22
+reduce how much strenght is needed to gain 1 attack damage to 6 instead of 10, Xarofos Iron Blast and Iron Charge will gain 25% of his
+attack damage into bonus damage and reduce their coldown by 0.3 for every auto attack done, also increase his attack damage by 1% for
+every kill done up to 25% bonus that last 7 seconds, the duration is refresh on kills. If Xarofos gain his 25% attack damage, he will
+further gain 10% attack damage and 5% strenght bonus until he dies.
 
 
 PASSIVE D OR F Iron Golem
@@ -105,7 +109,7 @@ Pure damage taken increase per hit and 2 seconds 2% 2% 3% 3%
 debuff duration 2.5
 base radius of Molten Steel 375 395 415 435
 increase the radius by 20% of strenght
-coldown 6
+coldown 8
 Mana cost to Activate 15 25 35 45
 mana cost per seconds 6 9 12 15
 
@@ -403,13 +407,20 @@ spells casted that last 4.5 seconds, Refresh upon casting a spells and increase 
 0.5, Max of 14 stacks and 3 stacks are lost upon getting stun. (Molten Steel doesnt Proc the effect)
 -
 Xarofos will Refresh the coldown of his Iron Blast after he cast his Iron Charge, having 35% more damage and 155 cleave radius for 7
-seconds. If Xarofos kill any enemys with Empowered Iron Blast for those 7 seconds, he will gain 
+seconds. If Xarofos kill any enemys with Empowered Iron Blast for those 7 seconds, he will gain 3 attack damage and 2 attack speed,
+stacking up to 15 time, at 8 stacks Xarofos will gain 9 Strenght and 17 Agility, at 13 stacks Xarofos will gain 45 Movespeed and reduce
+his Base attack time by 0.15. Stacks are lost upon death. Xarofos can further increase the stack limit to 20 by killing bosses, if he
+reach his 20 stack, he will gain 25% max health and 15% magic resist. (boss will give 1 stack.) 
 -
 level 39 talent
 -
-ANGER ASPECT, increase Sven attack speed by 3 for every 100 current point of Health Sven got and every time he lose at least 8% of his
-max health he will gain Unstable Anger, increasing his damage by 15% and his attack speed by 60 for 3 seconds but making is spell cost
-25% more damage as well, When in Titan Rage Sven will instead gain 25% mana cost reduction and also gaining 10 mana regenration as well.
+GOD OF IRON ASPECT, Xarofos will lose all of his Stolx mana and gain 100% mana cost reduction on his spells and items but increase the
+coldown of his Iron Blast and Iron Charge by 4 seconds and Molten Steel will cost Health per seconds instead of Stolx with 165% increase
+health cost as well. When Xarofos activate his Molten Steel spell he will gain a new spell call Molten Burst for 4 seconds, Molten Burst
+will do 125% of Xarofos Armor and Strenght in Pure damage in a 445 Radius around him reducing the enemys armor to 0 for 2.5 seconds and
+slowing them by 75% for 3 seconds after the armor lost is gone. Xarofos Iron Blast and Iron Charge will gain 10 base damage bonus and 5%
+increase scaling as well, he will Become Immune to silence when under Molten Steel Effect. Molten Steel will reduce Xarofos total health
+regeneration Source by 35% when Active.
 -
 MAGE FIGHTER ASPECT, increase attack damage by 30 and spell amp by 15% but reduce health by 20%, spell that does physical damage will
 alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway have 2 seconds coldown reduce
