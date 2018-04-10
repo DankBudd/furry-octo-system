@@ -38,26 +38,27 @@ can also be use to double the effect of the Ring for 10 second, cooldown of 110 
 
 talent level 40 upgrade PitLord
 add a new modifier Chaos Lord
-Mongrethod will gain 25% cooldown reduction and he also gain 0.7% spell amp for every 4 strenght he got, he will alway have 2 Chaos
+Mongrethod will gain 25% cooldown reduction and he also gain 0.7% spell amp for every 2 strenght he got, he will alway have 2 Chaos
 Infernal aside him destroying everything in the name of there new lord Mongrethod, they will last until they die and will respawn every
-75 seconds after they die.
+95 seconds after they die. (dont have the same stats as the lesser chaos infernal)
 
 GREATER CHAOS INFERNAL STATS
-health 250 plus 40% of Mongrethod health
-mana 250 plus 10% of Mongrethod mana
+health 250 plus 30% of Mongrethod health
+mana 250 plus 15% of Mongrethod mana
 armor 11
 magic resist 35%
-attack damage 43-70
-base attack time 1.95
+attack damage 23-57 Plus 10% Mongrethod Inteillgence and Strenght
+base attack time 2.05
 
 PASSIVE Living Chaos
-the Chaos Infernal will gain 3% damage for every kills they do up to 60% bonus damage, and also make them reduce Pure damage by 50%
-and giving them 25% movespeed at max stacks. Stack will not go away until they die
+the Chaos Infernal will gain 3% damage for every kills they do up to 60% bonus damage, and also make them reduce Pure damage taken by 50%
+and giving them 25% movespeed at max stacks. Stack are only lost when they die. also increase their health regeneration by 4.7 for every
+kill done for 5.5 seconds, each stacks got their own durations.
 
 PASSIVE Chaos Flame
 Chaos Infernal will burn enemys by 14 plus 0.2% of their max health every 1.5 seconds in PERFECT PURE DAMAGE ignoring all resitence of
-pure resist, if the enemys get burn for at least 6 seconds, Chaos Flame will do 30 plus 0.4% of their max health every 1.5, does current
-health damage to bosses, Chaos Infernal will also cleave and burning them with Chaos flame as well but only dealing 50% of its damage,
+pure resist, if the enemys get burn for at least 6 seconds, Chaos Flame will do 27 plus 0.3% of their max health every 1.5, does current
+health damage to bosses. Chaos Infernal will also cleave and burning them with Chaos flame as well but only dealing 35% of its damage,
 they will Cleave 335 radius infront of them
 
 
@@ -80,8 +81,8 @@ manacost 100 115 130 145 plus 3% of max mana
 
 talent level 10 Upgrade Rain of Fire
 increase amount of wave by 1
-Increase damage scaling by 6%
-increase burn damage scaling by 2%
+Increase damage scaling by 11%
+increase burn damage scaling by 3%
 reduce cooldown by 4
 remove max mana cost
 
@@ -90,19 +91,32 @@ every wave of Rain of fire will summon a Chaos Infernal, they got 2 passive and 
 increase radius for every next wave, Rain of Fire will also make enemys take increase 3% increase pure damage every time they get
 damage that last 6 seconds and refresh if they get hit again, Pit of Hatred will do 50% increase damage versus burning enemys.
 
-INFERNAL STATS
+LESSER CHAOS INFERNAL STATS
+health 125 plus 13% of Mongrethod health
+mana 75 plus 7% of Mongrethod mana
+armor 5
+magic resist 20%
+attack damage 13-21 Mongrethod Inteillgence and Strenght
+base attack time 2.15
 
+Fel Flame Passive
+the Chaos Infernal will burn enemys for 4 plus 7% of the infernal attack damage every 1.5 seconds in Pure damage, also make the enemys
+take 2% increase Pure damage when near them (stack with other Fel Flames).
+
+Flame Fist Passive
+The Infernal will have 15% chance to crit for 165% of his attack damage and cleaving for 50% of his damage as well in a 335 radius in
+front of them.
 
 SPELL W Howl of Terror
-Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal damage to them as well
-and after the fear end the enemys will get damage every time they attack or cast spell
+Mongrethod howl reducing the enemy damage and make them fear for a duration and also deal damage to them as well and after the fear end,
+the enemys will get damage every time they attack or cast spell
 
 damage 11 18 25 32 plus 35% 40% 45% 50% of strenght type Pure
 damage reduction FLAT amount 6 9 12 15
 damage reduction 10% 12% 14% 16%
 damage reduction duration 6 second
 damage recive every attack or spell 4 8 12 16 plus 8% of strenght type Pure
-damage recive duration 3 4 5 6
+damage recive duration 5 seconds
 radius 700 800 900 1000
 fear duration 1 1.4 1.8 2.2
 cooldown 22 second
@@ -110,11 +124,11 @@ mana cost 75 85 95 105 plus 2% of max mana
 
 talent level 10 upgrade Howl of Terror
 increase damage by 8
-increase damage reduction by 8%
-increase damage lost flat amount by 14
-increase the duration of damage reduction by 1
+increase damage reduction by 6%
+increase damage lost flat amount by 11
+increase the duration of damage reduction by 1.0 seconds
 reduce cooldown by 4
-remove mana cost
+reduce mana cost by 55
 
 add a new modifier Abyssal Howl
 now affect Mongrethod and ally giving them 200% of the damage reduction of % and flat as bonus damage for 6 second, enemys that die
@@ -130,17 +144,17 @@ enemys that come inside of Pit of Hatred will be force to attack him
 
 damage 20 30 40 50 plus 25% 45% 65% 85% of strenght type magical
 shield from health 15% 22% 29% 36%
-armor 4 6 8 10
-magic resist 10% 14% 18% 22%
+armor 4 8 12 16
+magic resist 10% 16% 22% 28%
 duration 5.5 6 6.5 7
-shield duration 5.5 5.8 6.1 6.4 seconds
+shield and armor magic resist duration 5.5 5.8 6.1 6.4 seconds
 base radius 375 400 425 450
 radius increase by 60% 90% 120% 150% of strenght
-cooldown 26 24 22 20
-mana cost 100 200 300 400
+cooldown 36 34 32 30
+mana cost 100 200 300 400 plus 1% of max mana
 
 talent level 20 upgrade Pit of Chaos
-increase shield bonus amount by 14%
+increase shield bonus amount by 7%
 increase armor bonus by 4
 increase magic resist bonus by 10%
 increase Pit duration by 2
@@ -164,12 +178,11 @@ lifesteal 11% 14% 17% 20%
 Spell vamp 10% 15% 20% 25%
 cleave damage 35% 40% 45% 50%
 cleave radius 270 285 300 315
-increase cleave radius by 20% 25% 30% 35% of Strenght
+increase cleave radius by 10% 15% 20% 25% of Strenght
 bonus damage per enemy death 1 1 1 2
 bonus damage of boss death 45 60 75 90
 
 Talent level 20 upgrade Chaos Cleave
-increase Strenght and inteillgence gain by 1%
 increase lifesteal by 5%
 increase spellvamp by 10%
 increase cleave damage by 15%
@@ -177,10 +190,10 @@ increase Cleave radius by 40
 increase the damage duration for both by 15
 
 add a new modifier Infuse Cleaver
-Chaos cleave now deal 1% of the enemy current health as (0.2% for bosses) and Chaos Cleave will lifesteal on all unit hit instead
+Chaos cleave now deal 1% of the enemy current health as damage (0.2% for bosses) and Chaos Cleave will lifesteal on all unit hit instead
 of the primary target also increase Mongrethod attack range by 150 and cast range by 250 ,killing any boss will restore Mongrethod
 life to full and he also give 50% of his damage bonus gain to allys, also increase all of his spell and Chaos Cleave damage vs DEMON
-TYPE by 15%
+TYPE by 55%
 
 ULTIMATE Demonic Blood
 curse any unit dealing damage per second, if the enemy die during the effect of Demonic Blood it will summon a doom Guard that 
