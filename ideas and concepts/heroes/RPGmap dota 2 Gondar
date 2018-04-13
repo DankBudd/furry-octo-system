@@ -9,18 +9,18 @@ LEVEL 30 TALENT
 
 
 Talent 1
-Increase Agility by 12 and Attack speed by 32
+Increase Agility by 12 and Inteillgence by 16
 Gondar will gain 0.10 Attack speed per Inteillgence point and every 3 Agility Gondar got will increase his Inteillgence by 1 and his
 max mana by 1% as well, Shadow Step will do 225% of Gondar Inteillgence in Pure damage on the next spell casted (doesnt Affect the debuff
 from Shadow Step it-self) and Gondar will heal for 50% of the damage dealt by Shadow Step as well. also reduce its coldown by 4 and mana
 cost by 25%
 
 Talent 2
-Increase Armor by 7 and health regeneration by 0.9
+Increase Armor by 7 and health regeneration by 8.5
 Gondar will gain 0.03 Health regeneration per Agility points and items that give Strenght, Armor or Magic resist will give Gondar 3
 Agility and 2% health bonus for each of those he is Wearing. JumpKick will increase Gondar Strenght by 7 every time he use it up to 4
 stacks that last 7.8 seconds and refresh upon casting JumpKick again and at max stacks gain, Gondar will gain 25% Pure resist and he
-will block 10 pure damage as well.
+will block 10% pure damage he takes as well.
 
 PASSIVE D OR F 
 Increase overall stats and give a positive and negative buff, pressing Alt will show the level 40 talent of this and level 30 talent.
@@ -65,7 +65,7 @@ If any Spell do both phyiscal and magical damage, it will give both reduction de
 or armor, he need to cast one of his spells that does magical or physical OR even both. The coldown will go off after Gondar is out of his
 invisibility.
 
-bonus damage upon breaking invis 4% 6% 8% 10% of total movespeed Pure
+bonus damage upon breaking invis 7% 8% 9% 10% of total movespeed Pure
 damage taken increase 10% 18% 26% 34%
 Armor lost 7 9 11 13
 magic resist lost 12% 15% 18% 21%
@@ -231,7 +231,7 @@ increase agility gain by 0.2 every level and also increase agility by 5
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
 -
 increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Gondar will gain 1 Agility per Item that give inteillgence
-and he will reduce the mana cost of his spells by 7%
+and he will reduce the mana cost of his spells by 5%
 -
 level 4 talent
 -
@@ -267,15 +267,13 @@ increase health by 10% and life regeneration by 1.1 increase by 0.1 every 9 prim
 -
 increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
 -
-reduce health by 25% and mana by 30% but increase Volcanus spellamp by 16%, mana regeneration by 0.3%, health regeneration by 0.2% and
-Volcanus spells will Trigger a Volcanic Burn doing 12% of his inteillgence into Pure damage bonus for every instence of damage they do
-also increase xp gain by 15%
+Gondar will gain 1.5% health and mana regeneration per seconds and also gain 25% increase health regeneration source but he will lose
+40% max health and mana, also increase xp gain by 15%
 -
 level 16 talent
 -
-Lava Wave will travel 225 more distence and have 45 increase radius, each time it come in contact with any targets, it will gain 4%
-increase damage and 35 speed increase that goes without limit. Also increase Volcanus all stats by 7 and his cast range by 115 and
-reduce Lava Wave coldown by 2.
+Increase Strenght by 15 and health by 8% but reduce Agility by 10, Gondar will also add 25% of his Strenght to JumpKick as bonus damage
+and reduce its mana cost by 25% and coldown by 0.5, Gondar will gain 100% increase evasion for 1.1 seconds after Jumpkick
 -
 Increase max health by 4% and Mana by 6%, Volcanus will gain 3 bonus mana and 1 bonus health for every enemys that died under Incinerate
 effect, max stack of 100 and these stacks will be lost on death, at 50 stacks Volcanus will gain 7 inteillgence and 4 Strenght, at 85
