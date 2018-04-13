@@ -3,11 +3,11 @@
  Base movespeed 305, Base attack damage 4-6, Base Regeneration Health 0.8, Base Regeneration Mana 0.5.
 
 
-LEVEL 20 TALENT
+LEVEL 30 TALENT
 
 talent 1
 increase Riki health by 175 and his armor by 7
-Riki will gain 1% evasion for every 85 health missing and also gaining 0.2 health regeneration for every 65 health missing, Smoke
+Riki will gain 1% evasion for every 85 health missing and also gaining 0.3 health regeneration for every 60 health missing, Smoke
 Grenade will give allys 5 plus 10% of riki Agility in health regeneration to them and also reducing all incoming damage while in the
 Smoke Grenade by 12%, also reduce Smoke Grenade coldown by 2 and mana cost by 75
 
@@ -31,14 +31,14 @@ Roktoru Dagger Special
 increase base damage by 3 increase by 1 for every 3 level
 increase Agility by 5 increase by 1 for every 2 levels
 Physical spell crit chance 10% increase by 1% for every 10 level
-Physical spell crit damage 130% increase by 1% for every 2 level
-can also be use to deal 100% crit for a 1 time use with any spell of riki spell having 15% more crit damage as well
-cooldown of 70 second
+Physical spell crit damage 120% increase by 1% for every 2 level
+can also be use to deal 100% crit for a 1 time use with any spell of riki spell having 10% more crit damage as well
+cooldown of 60 second
 
 Roktoru dagger can be Upgraded at level 40 with special material, these are the following bonus stats when upgraded.
-increase base damage bonus by 10
-increase Agility bonus by 8
-increase Attack speed by 55
+increase base damage bonus by 12
+increase Agility bonus by 16
+increase Attack speed by 45
 increase Evasion by 10%
 Riki Basic attacks will also crit for the same amount on Roktoru Dagger.
 give 40% chance to True Strike, Ignoring Evasion and dealing 75% of Riki Agility in Pure damage
@@ -56,21 +56,21 @@ SPELL Q Dagger Strike -NOTE- all riki spell and passive will deal damage base on
 deal damage and reducing the enemy damage and attack speed for a short duration and after dealing the damage, the dagger
 will bounce up to 4 target doing less damage and also reducing damage but not attackspeed
 
-Attack damage 130% 160% 190% 220% damage type physical
+Attack damage 140% 160% 180% 200% damage type physical
 damage reduction 10% 14% 18% 22%
 attack speed lost 10 15 20 25
-bouncing dagger damage 65% 80% 95% 110% of attack damage
+bouncing dagger damage 70% 80% 90% 100% of attack damage
 bouncing dagger damage reduction 5% 7% 9% 11%
 debuff duration 5.5 second
 mana cost 90 plus 2% of max mana
 cooldown 15 13 11 9
 
 talent level 10 upgrade Dagger Strike
-increase damage by 50% -Note- 50% of this goes to the lesser damage bounce dagger
+increase damage by 30% -Note- 50% of this goes to the lesser damage bounce dagger
 increase damage reduction by 8% -Note- 50% of this goes to the lesser damage bounce dagger
-increase duration by 0.5
-reduce mana cost by 50
-reduce cooldown by 3
+increase duration by 1.5
+reduce mana cost by 40
+reduce cooldown by 1.5
 
 add a new modifier Poison Dagger
 after striking the enemy,they will get poison dealing 11 plus 6% of agility in pure damage per 0.5 second and disabling regeneration
@@ -97,7 +97,7 @@ cooldown 20 19 18 17
 
 talent level 10 upgrade Blink Stab
 increase damage by 30%
-Increase BackStab bonus agility strike by 0.8
+Increase BackStab bonus agility strike by 0.6
 increase stun Scaling by 10%
 increase silence Scaling by 20%
 reduce mana cost by 60
@@ -190,3 +190,172 @@ increase mana cost by 100
 add a new modifier Unseen Strike
 
 
+
+level 1 talent
+-
+increase strenght gain by 0.2 every level and also increase strenght by 5
+-
+increase agility gain by 0.2 every level and also increase agility by 5
+-
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+-
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Gondar will gain 1 Agility per Item that give inteillgence
+and he will reduce the mana cost of his spells by 5%
+-
+level 4 talent
+-
+Increase Shadow Step duration by 2 seconds and Gondar will always gain 6% movespeed at the start of it. also gain 5 Agility and 45 health
+-
+Increase all healing recive by 15% and Weak Strike will gain 25% spellvamp but lose 1% scaling damage on Agility.
+-
+Reduce Jumpkick coldown by 0.5 and increase its base damage by 8, Gondar will gain 0.7 seconds of magic immunity after casting it, also
+increase inteillgence by 4 and mana regeneration by 0.9
+-
+Increase Ninja Mastery Evasion gain from armor by 0.25% and also give Gondar 1% damage reduction per 9% evasion he currently got. Also
+increase his armor by 1, magic resist by 4% and health by 7%.
+-
+level 7 talent
+-
+Reduce Shadow Step coldown by 1.5 and also reduce its manacost by 27%, Shadow Step will give Gondar 50% of the armor of Magic resist he
+reduce on the target as a buff for 5.5 seconds. Also increase his movespeed Limit by 75 and health regeneration by 0.4
+-
+Increase Mana by 175 and health by 50, Gondar will reduce range attacks by 15% and range spells by 30% after he cast any of his spells
+for 2.5 seconds.
+-
+Increase Strenght by 10 and health regeneration source bonus by 20% but reduce Agility by 7 and inteillgence by 4, JumpKick will gain
+135% of Gondar Strenght in bonus cast range and also reduce its mana cost by 9%.
+-
+level 10 talent
+upgrade spell Q
+-
+upgrade spell W
+-
+level 13 talent
+-
+increase health by 10% and life regeneration by 1.1 increase by 0.1 every 9 primary stats and also increase xp gain by 15%
+-
+increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
+-
+Gondar will gain 1.5% health and mana regeneration per seconds and also gain 25% increase health regeneration source but he will lose
+40% max health and mana, also increase xp gain by 15%
+-
+level 16 talent
+-
+Increase Strenght by 15 and health by 8% but reduce Agility by 10, Gondar will also add 25% of his Strenght to JumpKick as bonus damage
+and reduce its mana cost by 25% and coldown by 0.5, Gondar will gain 100% increase evasion for 1.1 seconds after Jumpkick
+-
+Increase max health by 4% and Mana by 6%, Volcanus will gain 3 bonus mana and 1 bonus health for every enemys that died under Incinerate
+effect, max stack of 100 and these stacks will be lost on death, at 50 stacks Volcanus will gain 7 inteillgence and 4 Strenght, at 85
+stacks, Volcanus will increase all of his basic spells damage by 15% and increase their cast range by 175.
+-
+increase Volcanus attack range by 135 and attack speed by 25, he will reduce the Penalty of the attack damage lost from his Neutral
+passive by 25% and for every 7 current attack damage he will gain 4 attack speed and 1% lifesteal, also increase his size by 10%
+(doesnt increase his attack range if he is holding Sulfuras)
+-
+level 19 talent
+-
+Volcanus will gain 10% damage reduction for 3.5 seconds after casting his basic spells, he also gain 1.3% health regeneration while
+channeling his Volcano. Volcano will gain 8 base damage and will have 3 more lava Balls as well.
+-
+Increase all Magical Output damage by 25% and Pure Output damage by 10% but Volcanus will no longet be able to deal Physical damage at
+all, Volcanus will increase the Attributes gain from Incinerate by 4% and will give 10 Inteillgence as well. Further increase the
+Inteillgence gain by 25 while in True Fire Lord
+-
+Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.0 seconds. Incinerate will also burn 3.5
+mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 50%
+and their coldown by 1
+-
+level 20 talent
+-
+upgrade spell E
+-
+upgrade passive
+-
+level 23 talent
+-
+Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce the Scaling by 10% and the base damage by 4, Soul Burn
+will have 25% chance every tick of damage to deal 100% extra damage and do a Small blast of 285 Area of Effect dealing that damage to
+everyone near the target and making them lose 7% magic resist for 4.5 seconds.
+-
+Increase Spellamp by 11%, mana regeneration by 4.2 and regeneration Source by 25%, Volcano will give Volcanus 0.3 health regeneration
+for every Hit units. If Volcano hit at least 10 enemys, Volcanus will gain 25 health permanent that stack 10 time, at 5 stacks Volcanus
+will gain 8% health and mana with 1.6 health and mana regeneration as well, he doesnt lose those stacks by any means and he take 20%
+reduce damage from range attacks at 10 stacks (doesnt count spells only normal basic attacks)
+-
+level 26 talent
+-
+increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
+amp bonus and 5% more health bonus if Defensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and
+Agility
+-
+increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
+7 more damage bonus, if Offensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and Agility
+-
+increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
+limit by 75. Volcanus will gain 75 movespeed and 22% damage reduction for 7 seconds after useing any item effects.
+-
+Fire Rage will have 2 seconds duration bonus and increasing the spellamp bonus by 8% and the coldown reduction by 10%. Fire Rage will
+Purge all debuff on cast and will give Volcanus magic immune for 3.0 seconds. While in those 3 seconds of Magic Immune, Volcanus will
+gain 225 attack speed and 65% attack damage.
+-
+level 29 talent
+-
+Volcanus will have Soul Burn on him self as a buff that stay until it get purge. When Purge the Soul Burn Buff will come back after 7
+seconds. Soul Burn will give Volcanus normal attack a Sun Burn that deal 18% of Volcanus inteillgence every 0.8 seconds that last 4.0
+seconds and increase his pure resist by 35% and his health regeneration by 0.6% while under Soul Burn effect.
+-
+increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+30. Volcanus will gain 0.7 armor and 1% magic resist per enemys affected by Soul Burn and reduce its mana cost by 12%.
+-
+level 30 talent
+-
+talent offensive
+-
+talent defensive
+-
+level 33 talent
+-
+Lava Wave will heal Volcanus for every enemys it hit for 75% of Volcanus inteillgence PLUS 25% of Lava Wave total damage. Also increase
+all healing effect by 15% on Volcanus and allys healing spells will heal for 40% increase on Volcanus and will refund 25% of their mana
+cost to them.
+-
+increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
+passive as well
+-
+Volcanus gain 10% status resistence and his Lava Wave will now stun his enemys for 0.75 seconds and for that 0.75 seconds enemys will
+take 100% increase damage from all source. Also increase all stuns and roots effect cause by Volcanus by 22%.
+-
+Volcanus will gain 1.4% health and mana regeneration for the duration of Fire Rage and increase the health bonus gain by 25% and the
+attack damage by 85. Fire Rage will lose 6 seconds duration but will also have 25 coldown reduce as well. Also remove its mana cost and
+when casted, Volcanus will gain 35% health and mana back.
+-
+level 36 talent
+-
+increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
+and spell amp gain from inteillgence by 0.5%, Volcanus will increase the inteillgence scaling on his 3 basic spells by 5% and his
+Incinerate scaling by 20% (for the explosion damage), they also mana Leech for 8% of the damage dealt as well.
+-
+increase the max stack of Incinerate by 6 and the base burn damage by 12%, Incinerate will do 3 Explosion when the target dies under
+Incinerate its self, those 3 Explosions will have 40% of the total radius and 55% of the total damage as well, the Explosion will trigger
+after 1.2 seconds of delay. There is a 12% chance that there will be 4 Explosion instead and that 4 Explosion will do 140% of the total
+damage of Incinerate and have 120% of the explosion radius as well, that Explosion will make nearby enemys that get hit by it take 20%
+increase damage from Pure and Magic damage for 5.5 seconds.
+-
+level 39 talent
+-
+TRUE FIRE LORD ASPECT, waiting for ideas
+-
+MAGE WARRIOR ASPECT, increase attack damage by 30 and spell amp by 26% but reduce health by 12%, spell that does physical damage will
+alway do 20% bonus pure damage to the target for the total damage done as well, Magical spell will alway Ignore 25% magic resist off the
+target, Pure Damage spells will alway deal 25% increase damage VS bosses and Champions. Also increase all stats by 30 and movespeed by
+15%
+-
+IMMORTAL ASPECT, increase health by 750 and Pure resist by 30%, all spell that give armor or magic resist to the user will have 40%
+mana cost or life cost reduction and give 40% more bonus armor and Magic resist and increasing their duration by 1.5 seconds and spell
+that Stun will give the user 7 health regeneration and 5% damage reduction for 15 seconds
+-
+level 40 talent
+-
+unlock ULTIMATE talent
+-
+unlock Debuff, buff passive effect bonus
