@@ -329,7 +329,7 @@ level 19 talent
 -
 Increase health by 375 and health regeneration Source by 25%, enemys that Spellvamp or Lifesteal Xarofos will be Iron Poison, dealing
 20% of Xarofos armor every 0.3 seconds and while they are Iron Poison, reduce all healing effect by 12%, the debuff last 1.2 seconds and
-deal Pure damage
+deal Pure damage. Xarofos will also become immune to spellvamp and lifesteal effect on him by enemys.
 -
 Increase Molten Steel damage every 2 second by 4 and its scaling by 2%, also Reduce Molten Steel mana cost per seconds while active by 1
 and Xarofos will gain 0.1% movespeed every time he damage any enemys with Molten Steel up to 35% movespeed bonus last until Molten Steel is
@@ -347,9 +347,10 @@ upgrade passive
 -
 level 23 talent
 -
-Increase Iron Blast and Iron Charge scaling by 15% (Iron Charge will have this Scaling on Both damage) and reduce their mana cost by 10,
+Increase Iron Blast and Iron Charge scaling by 12% (Iron Charge will have this Scaling on Both damage) and reduce their mana cost by 10,
 Enemys will always lose 5 armor if they get hit by those 2 spells for 4 seconds after the debuff ends, they will take 40% of Xarofos
-Strenght and armor in Physical damage.
+Strenght and armor in Physical damage.(the debuff can be refresh by Iron Charge or Iron Blast again reducing 7 armor for 5 seconds
+instead)
 -
 Reduce Titan Form coldown by 10 and increase the health gain by 300 and the Status resistence by 10%, Xarofos cannot be Slowed in Titan
 Form, and he will no longer lose his Agility in Titan Form
@@ -368,14 +369,14 @@ increase Mana by 10% and attack damage by 18, this bonus increase when chosing t
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
 -
-Increase Xarofos Iron Blast and Iron Charge mana cost by 65 but increase their base damage by 15 and reduce their coldown by 1, Molten
-Steel will gain 4% scaling Strenght on both damage type, Xarofos will also gain 11 Agility and Strenght.
+Increase Xarofos Iron Blast and Iron Charge mana cost by 65 but increase their base damage by 15 and reduce their coldown by 2, Molten
+Steel will gain 3% scaling Strenght on both damage type, Xarofos will also gain 7 Agility and Strenght.
 -
 level 29 talent
 -
 Increase Magic resist and Pure resist by 10%, Further increase this bonus by 15% and gain 0.3% health regeneration while in Titan Form
 -
-increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
+increase armor by 3 and magic resist by 10% increase this bonus by 2 bonus armor and 5% bonus magic resist for every 5 level above level
 30
 -
 level 30 talent
@@ -387,30 +388,30 @@ talent defensive
 level 33 talent
 -
 Increase all healing Source by 15%, Increase Xarofos Iron Blast and Molten Steel debuff duration by 1.0 seconds, each 0.5 seconds will
-damage the enemys dealing 10% of Xarofos armor and Strenght in Pure damage, Xarofos also gain 2 armor per buff that allys give him with
+damage the enemys dealing 10% of Xarofos armor and Strenght in Pure damage, Xarofos also gain 1.5 armor per buff that allys give him with
 their spells and items active.
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-Reduce Blinds effect by 20%, all Stun cause by Xarofos will have 33% increase stun duration and make the enemys take 35% increase pure
-damage and Physical damage for the duration of the stun. Also increase health by 4% and Mana by 35.
+Reduce Blinds effect by 20%, all Stun cause by Xarofos will have 33% increase stun duration and make the enemys take 15% increase pure
+damage and Physical damage for the duration of the stun. Also increase health by 4%, Agility by 9 and Stolx Mana by 35.
 -
-Increase Xarofos Attack damage by 50 and attack speed by 125 while in Titan Form and reduce it coldown by 10, also increase Xarofos
-Armor by 3, Magic resist by 12% and his health regeneration source by 45% while he is not in Titan Form.
+Increase Xarofos Attack damage by 30 and attack speed by 65 while in Titan Form and reduce it coldown by 20, also increase Xarofos
+Armor by 3, Magic resist by 14% and his health regeneration source by 25% while he is not in Titan Form.
 -
 level 36 talent
 -
-increase Agility and Strenght by 16 and also increase life gain from strenght by 2, Strenght will also give 0.1% spell amp per 2 points,
-Agility will give 0.15 more attack speed, Agility will also give 1 armor per 16 points. Xarofos will gain 6 Strenght and Agility per
-spells casted that last 4.5 seconds, Refresh upon casting a spells and increase its bonus Strenght and Agility by 2 and the duration by
-0.5, Max of 14 stacks and 3 stacks are lost upon getting stun. (Molten Steel doesnt Proc the effect)
+increase Agility and Strenght by 12 and also increase life gain from strenght by 2, Strenght will also give 0.1% spell amp per 2 points,
+Agility will give 0.15 more attack speed, Agility will also give 1 armor per 16 points. Xarofos will gain 3 Strenght and Agility per
+spells casted that last 7.5 seconds, Refresh upon casting a spells and increase its bonus Strenght and Agility by 1 and the duration by
+0.5, Max of 11 stacks and 4 stacks are lost upon getting stun. (Molten Steel doesnt Proc the effect)
 -
 Xarofos will Refresh the coldown of his Iron Blast after he cast his Iron Charge, having 35% more damage and 155 cleave radius for 7
 seconds. If Xarofos kill any enemys with Empowered Iron Blast for those 7 seconds, he will gain 3 attack damage and 2 attack speed,
 stacking up to 15 time, at 8 stacks Xarofos will gain 9 Strenght and 17 Agility, at 13 stacks Xarofos will gain 45 Movespeed and reduce
 his Base attack time by 0.15. Stacks are lost upon death. Xarofos can further increase the stack limit to 20 by killing bosses, if he
-reach his 20 stack, he will gain 25% max health and 15% magic resist. (boss will give 1 stack.) 
+reach his 20 stack, he will gain 10% max health and 15% magic resist. (boss will give 1 stack.) 
 -
 level 39 talent
 -
