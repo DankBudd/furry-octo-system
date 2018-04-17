@@ -1,18 +1,22 @@
-Magina, starting stats, 11 agi, 3 str, 5 int, base movement speed 285, base damage 6, Stats Gain per level 1.00 agi, 0.20 str 0.80 int
-starting item weak blade 2 damage and 3 attack speed BAT 1.45
+                                                    Magina The Mage Hunter
+Starting stats 2 strenght, 10 agility, 6 inteillgence, Stats gain per level, 0.60 Strenght, 1.50 Agility, 1.00 Inteillgence.
+Base movespeed 315, Base attack damage 3-9, Base Regeneration Health 0.5, Base Regeneration Mana 0.9.
 
-LEVEL 20 TALENT
+total base stats at level 40 - 26 Strenght - 70 Agility - 46 Inteillgence -
+
+
+LEVEL 30 TALENT
 
 talent 1
 Increase Magina Armor by 4 and increase his magic resist by 8%
-every 40 point of agility increase Magina armor by 1 and every 20 point of agility increase his magic resist by 1%
+every 25 point of agility increase Magina armor by 1 and every 15 point of agility increase his magic resist by 1%
 and gain x7 of his armor and magic resist into health bonus, Unstable Spell Shield will give Magina 18% max health bonus and 4.2 health
 regeneration for 5 seconds when casted. Unstable Spell Shield will have 3 less coldown and restore Magina health by 8% on every cast.
 
 talent 2
 increase Magina agility by 10 and spell amp by 15%
 25% of Magina Agility will become Spellamp bonus and 15% of his Spell amp will also become bonus attack damage, Mana Break will get
-75% increase scaling from Spell amp for the base damage and have 150% of Magina Agility in bonus cast range, Also reduce all spell
+75% increase scaling from Spell amp for the base damage and have 125% of Magina Agility in bonus cast range, Also reduce all spell
 coldown by 2.
 
 PASSIVE D OR F
@@ -45,43 +49,44 @@ increase his mana regeneration by 5, and increase resist for blind,root and stun
 SPELL Q
 Mana Break
 Magina deal damage base on the enemy max mana and also deal increase damage with enemys having no mana pool, he also deal 0.1 damage for
-every 1 points of Max mana the enemys got and 50% of all that damage with Mana Break will be mana lost
+every 1 points of Max mana the enemys got and 50% of all that damage with Mana Break will be mana lost for them. Also reduce their armor
+by 1 for every 80 75 70 65 mana burn away from the target for 3 3.5 4 4.5 seconds. Enemys will also be silence and passive break for a
+Short duration
 
 base damage 25 30 35 40 plus 40% of Magina agility Physical
-mana removal 50% of the damage done
 increase damage when enemys have no mana pool 150% 175% 200% 225% 
+Silence and Passive break duration 0.7 0.8 0.9 1.0 seconds
 cooldown 22 20 18 16
 mana cost 60 100 140 180 plus 3% of max mana
 
 talent level 10 upgrade Mana Break
-increase agility scaling by 20%
-increase damage bonus by 25% when enemys have no mana pool
-increase mana removal by 15%
-increase damage per mana by 0.1
-cooldown reduce by 4
-increase the mana cost by 80
+Increase base damage by 20
+increase scaling by 30%
+increase mana cost by 75
+reduce coldown by 3
 
 add a new modifier Mage Bane
 enemys with higher mana pool than Magina will take 60% more damage from Mana Break and enemys with no mana pool will take Pure damage
-instead of Physical damage with Mana Break. When Mana Break is use on bosses it will alway deal 0.3% of their max health into bonus
+instead of Physical damage with Mana Break. When Mana Break is use on bosses it will alway deal 0.7% of their max health into bonus
 damage and he will reduce their mana cap by 10% up to 30% meaning that they cant have more than 70% mana at all time and taking
 16% increase damage every time by Mana Break, last until death, and at max stack of mana reduction, bosses will lose 15% magical damage
-Output.
+Output.(total of 48% increase damage taken from Mana break at 3 stacks)
 
 SPELL W
 Frost Blink
-deal damage on blinking and silencing them as well and any enemys that attack him after he blink, they will get blind for a short
-duration, Mage-Hunter will stack with the Silence of Frost Blink increasing its duration, Frost Blink will also slow enemys by 40% for
-the Silence duration.
+deal high damage on blinking and silencing enemys around Magina as well and any enemys that attack him after he blink, they will have a
+chance to get blind for a short duration, Mage-Hunter will stack with the Silence of Frost Blink increasing its duration, Frost Blink 
+will also slow enemys by 40% for the Silence duration.
 
 damage 20 28 36 44 plus 60% of Magina agility Pure
-silence duration 0.8 1.2 1.6 2.0
+silence duration 1.8 2.0 2.2 2.4
 base area of effect 300 335 370 405
 increase area of effect by 30% 35% 40% 45% of Magina Agility
 range 700 850 1000 1150
+Chance to be blind 75%
 Blinding Skin duration 3.5 4 4.5 5
 blind duration on enemys 0.9 1.1 1.2 1.5
-miss chance from blind 15% 25% 35% 45%
+miss chance from blind 35%
 mana cost 100 110 120 130 plus 3% of his mana
 cooldown 27 24 21 18
 
@@ -95,16 +100,16 @@ reduce cooldown by 5
 add a new modifier Quick Deadly Blink
 Remove the Cast Point on Frost Blink making it instant and enemys that are Affected by Mage-Hunter Silence will take 150% increase
 damage from Blink -doesnt work with Frost Blink it self must be from Auto Attack or Other Spells- and have their spell cooldown increase
-by 4 second. Any enemys that die under Blink will reduce its cooldown by 3 and increase its damage by 15% up to 70% bonus damage on the
+by 2 second. Any enemys that die under Blink will reduce its cooldown by 3 and increase its damage by 15% up to 70% bonus damage on the
 next cast of Frost Blink, Each time enemys get blind it will give Magina 2 mana that stack up to 300, at 130 mana, Magina will gain 1.5
 mana regeneration and 12 Agility, at 240 mana, Magina will gain 15% Evasion and increase Frost Blink silence duration by 0.8. Magina
-will lose 30 mana every time he get Stun and lose all stacks on death.
+will lose 30 mana stacks every time he get Stun and lose all stacks on death.
 
 SPELL E
 Unstable Spell Shield
 Magina will store a % of the damage taken from magic damage, making Unstable Spell Shield deal increase damage and stuning them as well.
 Unstable Spell Shield will get 200% increase bonus from spell amp for the base damage. he will also Store the physical damage he takes
-but at a very low rate.
+but at a very low rate. (he will also store some of the physical damage as well)
 
 base damage 15 Magical damage plus 20% of agility
 magical damage Store 7% 8% 9% 10% of the damage taken
