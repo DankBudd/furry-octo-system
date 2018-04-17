@@ -40,37 +40,37 @@ Sulfuras can also be use to do Sulfuras Swing dealing high damage in a AoE. This
 in his hand. Range heroes will have this item Muted, Melee hero only.
 
 Active item use Sulfuras Swing coldown 35 no mana cost
-Swing Sulfuras dealing 150 Magical damage plus 70% of the user strenght in a 500 Arc radius in front of the caster stuning for 2 second
+Swing Sulfuras dealing 150 Magical damage plus 70% of the user strenght in a 440 Arc radius in front of the caster stuning for 1.7 second
 any enemy that die upon Sulfuras Swing will give 1 charge that will empower Sulfuras after getting the right amount (see Passive 2),
 
 Passive item use Lava Burn
-auto-attack will burn the target for 12 Magical damage plus 30% of strenght per second that last 3 seconds, enemy that die during
-Sulfuras burn will give a charge that will empower Sulfuras after getting the right amount (see Passive 2) and for every 100 charge
-Increase the User health and Size by 1%. 
+auto-attack will burn the target for 9 Magical damage plus 15% of strenght per 1.0 second that last 3 seconds, enemy that die during
+Sulfuras burn will give a charge that will empower Sulfuras after getting the right amount (see Passive 2) and for every 50 charge
+Increase the User health, Mana, Spellamp and Size by 1%. 
 
 Passive item use 2 Unleashs Power
-after getting 1000 charge, change the item to Sulfuras Might, gaining 25 more attack damage and Sulfuras Swing will also gain 75 bonus
-damage and have 75 More radius as well, Lava Burn will damage every 0.5 seconds instead of 1.0 seconds and it will not be able to be
+after getting 1000 charge, change the item to Sulfuras Might, gaining 25 more attack damage and Sulfuras Swing will also gain 95 bonus
+damage and have 135 More radius as well, Lava Burn will damage every 0.7 seconds instead of 1.0 seconds and it will not be able to be
 Purge as well, When the user dies he will lose 50 Charges and will do a Volcanic Explosion dealing 7% of the target max health in a
-435 AoE (bosses will only take 2% of their max health).
+435 AoE (bosses will only take 2% of their max health and the item will stay Sulfuras Might if the user lose any stacks).
 
 damage 60
-strenght 50
-Magic Resist 20%
-Health regeneration 8.2
-attack speed lost -75
+strenght 40
+Magic Resist 15%
+Health regeneration 8.5
+attack speed lost -65
 BAT 2.4
 
 if use by Volcanus Stats will be
 35 inteillgence
-40 damage
+50 damage
 20% health bonus
-10% mana bonus
-BAT 2.2
-Lava Wave will gain 15 base damage bonus
-Change attack to be Melee 210 attack range
-Change the scaling on the active and passive item to be inteillgence scaling
-also increase his size by 25%
+15% mana bonus
+BAT 2.1
+Gain a third Passive call Fire Power
+Soul Burn will gain 7 base damage and Lava Wave will also gain 20 Base damage as well, Volcanus attacks will become Melee at 275 attack
+range. Change the damage scaling of the Sulfuras Swing and Lava Burn to Inteillgence instead of Strenght and Increase Volcanus Size by
+15% when not in Fire Rage
 
 LORE -- the weapon of Volcanus, he was the lord of fire but when he was betrayed by his other fellow lords, he was slain and his weapon
 stolen from the Lightning Lord Zatorus, but that was not the end for him he was revive in his Land of Fire but without his weapon,
