@@ -99,11 +99,11 @@ reduce coldown by 3
 increase mana cost by 40
 
 Add a new Modifier Infernal Burn
-LVL? Death will do 0.1% of the target max health for every 2 levels of Eshalurd and his target on Non-Boss Units and for bosses, every
-3 levels of Eshalurd and his target they will lose 0.7 Health regeneration for the same duration of the debuff of LVL? Death. If LVL?
+LVL? Death will do 0.1% of the target max health for every 1 levels of Eshalurd and his target on Non-Boss Units and for bosses, every
+2 levels of Eshalurd and his target they will lose 0.4 Health regeneration for the same duration of the debuff of LVL? Death. If LVL?
 Death kill the target it will Release a Infernal Globe that will give 1 Strenght and 2 Agility upon Pickup for Eshalurd, max of 12 stacks
 of Infernal Globe buff and they last until he dies. at 12 stacks of Infernal Globe pickup, LVL? Death will gain 5 base damage and reduce
-its mana cost by 45. Also change the damage of LVL? Death to Pure.
+its mana cost by 45. Also change the damage of LVL? Death to Pure (doesnt need to be at 12 stacks)
 
 
 SPELL E Doom Flames - Physical -
