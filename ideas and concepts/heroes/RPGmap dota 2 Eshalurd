@@ -46,10 +46,10 @@ talent level 40 upgrade DoomKnight
 SPELL Q Dooming Slash - Physical -
 deal high amount of damage to a single target, breaking the target armor to -2 -4 -6 -8 -10 -12 -14 and cannot be increase or lower.
 If the target is below 15% health, Dooming Slash will deal increase damage and have no coldown on those target. this spell will gain
-3% increase damage and 1.7% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage and
+6% increase damage and 2.1% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage and
 also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. 
 
-Base damage 12 plus 15% of Agility and Strenght
+Base damage 22 plus 15% of Agility and Strenght
 Health Threshold damage bonus 10 15 20 25 30 35 40
 Health restore (Base on DMG) 20%
 Health restore (base on max Health) 2.5%
@@ -81,9 +81,9 @@ amount of their total levels. Also reduce their Magical resistence by 1% for eve
 by 22% for the same duration of the magic resist lost. LVL? Death will not gain bonus damage per levels but will gain 2.4% increase mana
 cost per levels of Eshalurd. Also increase Eshalurd Agility and Health for every points spend in LVL? Death.
 
-base damage 15 plus 20% of Agility and Strenght
-Increase damage (base on Eshalurd LVL) 3%
-Increase damage (base on the target LVL) 1.7%
+base damage 30 plus 20% of Agility and Strenght
+Increase damage (base on Eshalurd LVL) 3.5%
+Increase damage (base on the target LVL) 2.1%
 Debuff duration 4.5 5.1 5.7 6.3 6.9 7.5 8.1 seconds
 Agility bonus 3 6 9 13 17 22 28
 Health bonus 55 120 180 245 315 400 575
@@ -93,10 +93,10 @@ Mana cost 125
 Talent Level 10 Upgrade LVL? Death
 increase base damage by 7
 increase scaling by 15%
-Increase damage (base on Eshalurd LVL) by 0.4%
-Increase damage (base on the target LVL) by 0.2%
-reduce coldown by 4
-increase mana cost by 30
+Increase damage (base on Eshalurd LVL) by 0.7%
+Increase damage (base on the target LVL) by 0.4%
+reduce coldown by 3
+increase mana cost by 40
 
 Add a new Modifier Infernal Burn
 LVL? Death will do 0.1% of the target max health for every 2 levels of Eshalurd and his target on Non-Boss Units and for bosses, every
@@ -112,7 +112,7 @@ of damage taken. Eshalurd will also gain 0.2% health regeneration with a base he
 and STR. This spell will gain 4% increase damage and 3.7% manacost increase for every level of Eshalurd. The armor debuff will last 3.5
 seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
 
-base damage 8 plus 5% of Agility and Strenght
+base damage 9 plus 5% of Agility and Strenght
 health regeneration 7.5 plus 12% of Agility and Strenght
 duration 9.0 9.3 9.6 9.9 10.2 10.5 10.8
 radius 500 525 550 575 600 625 650
