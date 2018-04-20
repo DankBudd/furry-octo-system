@@ -103,7 +103,8 @@ LVL? Death will do 0.1% of the target max health for every 1 levels of Eshalurd 
 2 levels of Eshalurd and his target they will lose 0.4 Health regeneration for the same duration of the debuff of LVL? Death. If LVL?
 Death kill the target it will Release a Infernal Globe that will give 1 Strenght and 2 Agility upon Pickup for Eshalurd, max of 12 stacks
 of Infernal Globe buff and they last until he dies. at 12 stacks of Infernal Globe pickup, LVL? Death will gain 5 base damage and reduce
-its mana cost by 45. Also change the damage of LVL? Death to Pure (doesnt need to be at 12 stacks)
+its mana cost by 45. Also change the damage of LVL? Death to Pure (doesnt need to be at 12 stacks). also make the magic resist lost to
+become Pure damage increase.
 
 
 SPELL E Doom Flames - Physical -
