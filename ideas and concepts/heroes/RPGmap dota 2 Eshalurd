@@ -99,10 +99,27 @@ reduce coldown by 4
 increase mana cost by 30
 
 Add a new Modifier Infernal Burn
+LVL? Death will do 0.1% of the target max health for every 2 levels of Eshalurd and his target on Non-Boss Units and for bosses, every
+3 levels of Eshalurd and his target they will lose 0.7 Health regeneration for the same duration of the debuff of LVL? Death. If LVL?
+Death kill the target it will Release a Infernal Globe that will give 1 Strenght and 2 Agility upon Pickup for Eshalurd, max of 12 stacks
+of Infernal Globe buff and they last until he dies. at 12 stacks of Infernal Globe pickup, LVL? Death will gain 5 base damage and reduce
+its mana cost by 45. Also change the damage of LVL? Death to Pure.
 
 
+SPELL E Doom Flames - Physical -
+Eshalurd will flame up the ground around him dealing low damage every 0.3 seconds but reducing their Armor by 0.5 for every tick
+of damage taken. Eshalurd will also gain 0.2% health regeneration with a base health regeneration as well that with scale on his AGI
+and STR. This spell will gain 4% increase damage and 3.7% manacost increase for every level of Eshalurd. The armor debuff will last 3.5
+seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
 
-
+base damage 8 plus 5% of Agility and Strenght
+health regeneration 7.5 plus 12% of Agility and Strenght
+duration 9.0 9.3 9.6 9.9 10.2 10.5 10.8
+radius 500 525 550 575 600 625 650
+Inteillgence bonus 4 7 10 15 20 27 34
+Mana Regeneration bonus 0.7 1.1 1.6 2.2 2.7 3.8 5.1
+coldown 20
+mana cost 175
 
 level 1 talent
 -
