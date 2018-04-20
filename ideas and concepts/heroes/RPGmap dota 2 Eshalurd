@@ -78,7 +78,7 @@ one hit and 5 stacks are lost on death.
 SPELL W LVL? Death - Magical -
 Eshalurd deal insane amount of damage on the target base on his level and the target level, increasing the base damage by a certain
 amount of their total levels. Also reduce their Magical resistence by 1% for every 3 levels Eshalurd and his target and also slow them
-by 22% for the same duration of the magic resist lost. LVL? Death will not gain bonus damage per levels but will gain 2.4% increase mana
+by 22% for the same duration of the magic resist lost. LVL? Death will gain bonus damage per levels but will gain 5.2% increase mana
 cost per levels of Eshalurd. Also increase Eshalurd Agility and Health for every points spend in LVL? Death.
 
 base damage 30 plus 20% of Agility and Strenght
@@ -109,7 +109,7 @@ its mana cost by 45. Also change the damage of LVL? Death to Pure (doesnt need t
 SPELL E Doom Flames - Physical -
 Eshalurd will flame up the ground around him dealing low damage every 0.3 seconds but reducing their Armor by 0.5 for every tick
 of damage taken. Eshalurd will also gain 0.2% health regeneration with a base health regeneration as well that with scale on his AGI
-and STR. This spell will gain 4% increase damage and 3.7% manacost increase for every level of Eshalurd. The armor debuff will last 3.5
+and STR. This spell will gain 4% increase damage and 1.7% manacost increase for every level of Eshalurd. The armor debuff will last 3.5
 seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
 
 base damage 9 plus 5% of Agility and Strenght
