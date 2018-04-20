@@ -108,7 +108,7 @@ become Pure damage increase.
 
 
 SPELL E Doom Flames - Physical -
-Eshalurd will flame up the ground around him dealing low damage every 0.3 seconds but reducing their Armor by 0.5 for every tick
+Eshalurd will flame up the ground around him dealing low damage every 0.6 seconds but reducing their Armor by 0.5 for every tick
 of damage taken. Eshalurd will also gain 0.2% health regeneration with a base health regeneration as well that with scale on his AGI
 and STR. This spell will gain 4% increase damage and 1.7% manacost increase for every level of Eshalurd. The armor debuff will last 3.5
 seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
@@ -121,6 +121,36 @@ Inteillgence bonus 4 7 10 15 20 27 34
 Mana Regeneration bonus 0.7 1.1 1.6 2.2 2.7 3.8 5.1
 coldown 20
 mana cost 175
+
+talent level 15 upgrade Doom Flames
+increase base damage by 3
+increase scaling by 2%
+increase base health regeneration by 2.0
+increase base radius by 100
+reduce coldown by 2
+increase mana cost by 50
+
+add a new Modifier Hell Aura
+Doom Flames will follow Eshalurd instead of being casted under him and staying here, each time it damage any targets it will gain 3 bonus
+radius and 25% chance to also gain 0.2 seconds duration bonus. Doom Flames will also give its bonus regeneration to allys for 50% reduction
+of the total regen. If Doom Flames last at least 14 seconds, it will gain 150 bonus radius and 50% increase damage for its remaining
+duration. If Doom Flames makes it to 19 seconds duration, Eshalurd will gain 50% damage reduction for the remaining duration. Doom Flames
+will stay on Coldown as long its still has duration remaining. Eshalurd will deal 10% extra damage to Non-Bosses units under Doom Flames
+
+
+PASSIVE DoomBringer
+
+
+
+
+
+
+
+
+
+
+
+
 
 level 1 talent
 -
