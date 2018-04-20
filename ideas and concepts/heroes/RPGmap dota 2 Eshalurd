@@ -46,10 +46,10 @@ talent level 40 upgrade DoomKnight
 SPELL Q Dooming Slash - Physical -
 deal high amount of damage to a single target, breaking the target armor to -2 -4 -6 -8 -10 -12 -14 and cannot be increase or lower.
 If the target is below 15% health, Dooming Slash will deal increase damage and have no coldown on those target. this spell will gain
-3% increase damage and 1.3% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage and
+3% increase damage and 1.7% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage and
 also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. 
 
-Base damage 16 plus 15% of Agility and Strenght
+Base damage 12 plus 15% of Agility and Strenght
 Health Threshold damage bonus 10 15 20 25 30 35 40
 Health restore (Base on DMG) 20%
 Health restore (base on max Health) 2.5%
@@ -59,13 +59,48 @@ coldown 9
 mana cost 90
 
 talent level 10 Upgrade Dooming Slash
-increase base damage by 8
+increase base damage by 6
 increase scaling by 10%
 increase Health restore (Base on DMG) by 12%
-Increase Health restore (base on max Health) by 0.8%
+Increase Health restore (base on max Health) by 1.2%
 reduce mana cost by 15
 
 add a new Modifier Seven Hell Strike
+Dooming Slash will bounce after striking its target, bouncing 7 time dealing 35% less damage for those 7 strike and they will heal him
+as well (only the Health restore Base on DMG) and if it kill the target will they Bounce, reset the number of Bounce to 7 again and
+increase the bounce damage by 15% (can proc without limits). Eshalurd will gain 1 stack of Doomed Slash every time it bounce 4 time
+and every stacks will increase the base damage of Dooming Slash by 1, at 3 stacks, increase Dooming Slash cast range by 145 and reduce
+its mana cost by 15, at 7 stacks, increase Eshalurd attack range by 75 and his attack damage by 14, at 11 stacks, increase the Health
+Restore base on Max health by 0.7% and reduce its coldown by 2. Max stacks of 13 and 2 stacks are lost upon losing 17% max health in
+one hit and 5 stacks are lost on death.
+
+
+SPELL W LVL? Death - Magical -
+Eshalurd deal insane amount of damage on the target base on his level and the target level, increasing the base damage by a certain
+amount of their total levels. Also reduce their Magical resistence by 1% for every 3 levels Eshalurd and his target and also slow them
+by 22% for the same duration of the magic resist lost. LVL? Death will not gain bonus damage per levels but will gain 2.4% increase mana
+cost per levels of Eshalurd. Also increase Eshalurd Agility and Health for every points spend in LVL? Death.
+
+base damage 15 plus 20% of Agility and Strenght
+Increase damage (base on Eshalurd LVL) 3%
+Increase damage (base on the target LVL) 1.7%
+Debuff duration 4.5 seconds
+Agility bonus 3 6 9 13 17 22 28
+Health bonus 55 120 180 245 315 400 575
+coldown 17
+Mana cost 125
+
+Talent Level 10 Upgrade LVL? Death
+increase base damage by 7
+increase scaling by 15%
+Increase damage (base on Eshalurd LVL) by 0.4%
+Increase damage (base on the target LVL) by 0.2%
+reduce coldown by 4
+increase mana cost by 30
+
+Add a new Modifier Infernal Burn
+
+
 
 
 
