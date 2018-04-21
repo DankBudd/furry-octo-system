@@ -15,14 +15,16 @@ Kardel talent will have smaller modifier to them instead of a big change to 1 sp
 TALENT LEVEL 30
 
 talent 1
-increase Kardel armor by 3 and his health by 35% - he gain 10% in reality, the talent counter the lost of 25% health lost
+increase Kardel armor by 3 and his health by 35% (he gain 10% in reality), the talent counter the lost of 25% health.
 Further increase the health gain from agility by 3 and Strenght will give Kardel 1% reduce blind duration per Strenght Stat, also
-Agility will give 1% magic resist for every 6 points max of 35% magic resist
+Agility will give 1% magic resist for every 6 points max of 35% magic resist, Nitro will deal 8% increase damage per target hit in the
+area of effect and also giving Kardel  4% damage reduction per target hit by the area of effect as well (max of 40% damage reduction).
 
 talent 2
 increase Kardel damage by 10 and his Agility by 15
-Further increase attack speed gain from agility by 0.25 and for every 1 current attack Kardel got will increase his attack range by 1
-and for every 75 Attack range Kardel got will give him 1% cooldown reduction
+Further increase attack speed gain from agility by 0.35 and for every 2 current attack damage Kardel will increase his attack range by 1
+and for every 65 Attack range Kardel got it will give him 1% cooldown reduction. Take Aim will deal 3% increase damage for every 100
+attack range and cast range Kardel got. Take Aim will also give Kardel 25% attack damage upon hitting the target for 6.5 seconds.
 
 
 Passive D OR F Elite Sniper
@@ -43,7 +45,7 @@ level for 30 seconds, cooldown of 12 second before use again for boosting and no
 
 even more notes -- the list of upgrade will be down the whole file --
 Custom Rifle - Special weapons for Kardel that can be upgraded every 5 levels and can be customize, the base attack time cannot be
-upgraded.
+upgraded. (The BAT will be able to be Modifier in the late game with Special crafting Material)
 
 damage 4
 attack speed 10
@@ -61,15 +63,14 @@ SPELL Q Nitro AND Poison Trap
 
 NITRO SHOT
 Kardel fire a shot that deal high Area of effect damage, the first target will suffer from less damage and others will take increase
-damage, the primary target will get blind for a short duration.
+damage, the primary target will get blind for a short duration. Also increase the radius by 75% of Kardel Agility and Inteillgence
 
 damage primary target 135% 145% 155% 165% of attack damage
 Area of effect damage 180% 195% 210% 225% of attack damage
 base Area of effect 325 400 475 550
-increase Area of effect by 75% of Kardel agility
 blind miss chance 60% 65% 70% 75%
-blind duration 2.4 2.7 3.0 3.3
-mana cost 75 85 95 105 plus 1% of max mana
+blind duration 2.1 2.3 2.5 2.7
+mana cost 35 55 75 95 plus 1% of max mana
 cooldown 7
 
 POISON TRAP
@@ -78,25 +79,25 @@ if they die under the effect of the poison, they will blow up making a pool of p
 armor while they stand inside of it, they can only be 3 trap up at the same time and enemys will get 50% less root duration if they
 walk inside of another trap, this buff last 5 seconds and will only work for this rooting spell
 
-Trap damage 112% 118% 124% 130% of attack damage evey 0.4 seconds
-trap root duration 1.2 1.6 2 2.4 seconds
+Trap damage 115% 120% 125% 130% of attack damage evey 0.4 seconds
+trap root duration 1.6 2.0 2.4 2.8 seconds
 trap trigger range 250
-pool damage 125% 140% 155% 170% of attack damage every 1 seconds
+pool damage 125% 140% 155% 170% of attack damage every 0.5 seconds
 base pool radius 180 210 240 270
 bonus pool radius 125% 150% 175% 200% of Kardel agility
 armor reduction 3 5 7 9
-pool duration 7
-mana cost 150 180 210 240 plus 2% of max mana
-cooldown 11 second
+pool duration 4
+mana cost 110 150 190 230 plus 3% of max mana
+cooldown 12 second
 
 talent level 10 upgrade NITRO and POISON TRAP
 NITRO
 increase single target damage by 15%
-increase Area of Effect damage by 75%
-reduce mana cost by 55
+increase Area of Effect damage by 45%
+reduce coldown by 1
 POISON TRAP
-increase root duration by 1.2
-increase Pool duration by 2
+increase root duration by 0.8
+increase Pool duration by 1
 increase armor reduction by 4
 
 add a new modifier for NITRO - Black Smoke
@@ -107,21 +108,18 @@ allys inside of the Black Smoke will gain 10% evasion and 20% magic resist.
 add a new modifier for POISON TRAP - Snake Venom
 if the enemys lose more than 15% of their max health while rooted, they will get stun for 1.5 second and lose 32% base attack damage
 and also dealing 18% less damage with spells the debuff will last 6.5 second, and the Pool of Poison will become bigger every 0.1 second
-by 1% of its size up to 40% bonus size
-
+by 1% of its size.
 
 SPELL W Shrapnel and Metal Chains
 
 SHRAPNEL
 Kardel fire a Ball of bullets into the air and after 1.7 second of delay, random pellets will start to rain every 0.2 second dealing
-high amount of damage and mini-stuning target by 0.04 seconds for those who gets hit by them, when the 5 pellet fall it will deal
-increase damage and stun for 0.5 second and have increase Area of Effect upon landing.
-
-note: the duration is base on the amount of pellet falling
+high amount of damage and mini-stuning target by 0.01 seconds for those who gets hit by them, every 5 pellet that fall will deal
+increase damage and stun for 0.5 second and have increase Area of Effect upon landing. The duration is base on the amount of pellet falling.
 
 damage per pellet 57% 63% 69% 75% of attack damage
 small pellets radius 100 105 110 115
-damage for the 5 pellet 140% 155% 170% 185% of attack damage
+damage for every 5 pellet 140% 155% 170% 185% of attack damage
 bigger pellet radius 240 270 300 330
 amount of pellets 15 25 35 45
 Radius of Shrapnel 600 570 540 510
@@ -136,16 +134,16 @@ on target affected by the slow of Metal Chain.
 damage 120% 130% 140% 150% of attack damage
 slow amount 12% 15% 18% 21%
 Extra damage for Spells 15% 20% 25% 30%
-slow and debuff duration 4.5 4.9 5.3 5.7
-area of effect 400 500 600 700
-mana cost 55 60 65 70 plus 1% of max mana
+debuff duration 4.5 4.9 5.3 5.7
+area of effect 700 775 850 925
+mana cost 55 60 65 70 plus 3% of max mana
 cooldown 18 17 16 15
 
 Talent level 10 Upgrade Shrapnel and Metal Chains
 SHRAPNEL
 increase small pellet damage by 10%
 increase amount of pellets by 10
-reduce the radius by 60
+reduce the radius by 30
 METAL CHAINS
 increase damage by 75%
 increase slow amount by 3%
@@ -154,19 +152,19 @@ increase the duration by 0.7 second
 add a new modifier For SHRAPNEL - Dance For Kardel
 Shrapnel will alway slow for 12% while they stand inside of it and when they are inside, all of Kardel Spell will gain 450 cast range
 if they are Single target and his basic attack will have 250 bonus range, Shrapnel cooldown will lower for every enemys that die inside
-of Shrapnel will give Kardel 1% bonus attack damage and 3 attack speed bonus up to 15% bonus attack damage and 45 attack speed until he
-dies or he gets stun losing 3% damage bonus and 8 attack speed.
+of Shrapnel. Also give Kardel 1% bonus attack damage and 3 attack speed bonus up to 15% bonus attack damage and 45 attack speed these
+are gain when enemys dies in Shrapnel radius. Kardel will lose all stacks upon death.
 
 add a new modifier for METAL CHAINS - Skull Hit
-Metal Chains will have 40% chance to stun the targets by 1.7 second and while they are stun, they will take 65% increase damage from
+Metal Chains will have 40% chance to stun the targets by 2.2 second and while they are stun, they will take 65% increase damage from
 all sources. If all target dies under the slow of Metal Chains, increase the amount of Chains throw by 1 up to 3 more chains max, Kardel
-will lose all of his stacks if he dies, or if he get slows he will lose 1 stack.
+will lose all of his stacks if he dies.
 
 
 SPELL E Take Aim and Mark for Death
 
 TAKE AIM
-Kardel take his time aiming upon the target, after 2.4 second he will shot a massive Pellet that deal insane damage and ingnore the armor
+Kardel take his time aiming upon the target, after 2.4 second he will shot a massive Pellet that deal insane damage and Ignore the armor
 of the enemys and also reducing it, if the target lose 14% of his max health with Take Aim they will get stun and lose attack speed.
 also deal max health damage to the enemys
 
@@ -177,7 +175,7 @@ stun duration 0.8 0.9 1 1.1
 attack speed lost 50 70 90 110
 debuff duration of attack speed 2.3 2.9 3.5 4.1
 mana cost 100 125 150 175 plus 3% of max mana
-cooldown 24 22 20 18
+cooldown 22 21 20 19
 
 MARK FOR DEATH
 Kardel mark the enemy making them take increase damage and increasing their cast point time as well, if sniper use Nitro Shot or Take
@@ -187,34 +185,33 @@ will have 335 area of effect if the target is non-boss unit
 
 increase damage taken 12% 18% 24% 30%
 Extra damage taken 20% 25% 30% 35%
-increase cast time point by 0.5 0.9 1.3 1.7
+increase cast time point by 0.5 0.7 0.9 1.1
 debuff duration 5 6 7 8 
 no mana cost
-cooldown 19 21 23 25
+cooldown 25
 
 talent level 20 upgrade Take aim and Mark for Death
 TAKE AIM
 increase damage by 50%
 increase debuff duration by 1.2
-reduce the time it take to cast take aim by 0.8
 reduce coldown by 4
 increase mana cost by 105
 MARK FOR DEATH
 increase damage taken by 10%
 increase debuff duration by 2
-reduce cooldown by 4
+reduce cooldown by 3
 
 add a new modifier for TAKE AIM - Ya have a target?
-Take Aim is no longer a single target spell, instead is become a single bullet wave that got 240 260 280 300 radius and travel 2750 far,
+Take Aim is no longer a single target spell, instead is become a single bullet wave that got 240 280 320 360 radius and travel 2750 far,
 it can hit multiple enemys without limit and the first enemys hit will take 25% more damage and get stun for 1.1 seconds longer, others
 will take normal amount of damage and stun duration, it also got 15% chance to deal pure damage instead of Physical, each enemys kill
 will increase the Scaling attack damage of Take aim by 5%, at 15% Kardel will gain 10 Agility and 75 attack range and cast range, at 30%
 , increase Take Aim attack slow duration by 0.7 and stun duration by 0.9, at 45%, Take Aim will become a Global Skill Shot and have 15%
-more chance to deal Pure damage. Kardel will lose all stacks on death and lose 1 stack if he gets stun.
+more chance to deal Pure damage. Kardel will lose all stacks on death. (max of 60% increase attack damage scaling).
 
 add a new modifier for MARK FOR DEATH - Perfect Mark
 the debuff duration will last full on bosses intead of having 50% duration reduction, and Mark for Death will get 35% cooldown reduction
-every time non-boss unit die under the effect of Mark for Death it self. Also increase sniper movespeed by 10% when the target is affected
+every time non-boss unit die under the effect of Mark for Death it self. Also increase sniper movespeed by 4% when the target is affected
 by Mark for Death max of 40% bonus movespeed and also giving him 2% damage reduction as well max of 10%.
 
 
@@ -223,8 +220,8 @@ reductions
 
 LONG RANGE MODE
 Kardel will have bonus base damage, increase attack range, increase cast range and reduce movespeed. Also enable his Long range spells
-he also start with a point inside of this passive and having 5 levels, all ally spell that give buff to kardel will also give extra bonus
-for Kardel by 8% 11% 14% 17% 20% bonus damage for 8 seconds.
+he also start with a point inside of this passive and having 5 levels, all ally spell that give buff to kardel will also give him 8%
+11% 14% 17% 20% increase attack damage for 3.5 seconds. (kardel has a 615 base attack range)
 
 increase base damage 4 12 20 28 36
 increase attack range 75 150 225 300 375
@@ -233,14 +230,14 @@ reduce movespeed 110 100 90 80 70 FLAT
 
 CLOSE COMBAT MODE
 Kardel will have increase attack speed, increase movespeed, increase damage reduction and reduce attack range. Also enable his close
-range spell, he also start with a point inside of this passive and having 5 levels, all allys spell that heal will also give extra bonus
-for Kardel, increasing healing spells by 8% 12% 16% 20% 24% and he will splash damage for 15% of the damage dealt in a 350 AOE from the
-first target
+range spell, he also start with a point inside of this passive and having 5 levels, Kardel attacks while in close combat mode will also
+slash for 20% of the damage in a 285 Radius around the Primary target being shot. Kardel will further increase healing recive from allys
+by 5% 10% 15% 20% 25% while in close combat mode.
 
 increase attack speed 25 35 45 55 65
 increase movespeed 20 30 40 50 60 FLAT
-increase damage reduction 8% 9% 10% 11% 12%
-reduce attack range 350 330 310 290 270
+damage reduction bonus 8% 9% 10% 11% 12%
+reduce attack range 350 335 320 305 290
 
 talent level 20 upgrade LONG RANGE and CLOSE RANGE
 LONG RANGE MODE
@@ -257,24 +254,24 @@ Enemys will Ignore Kardel if other allys are near him 950 radius, and every 2 se
 bonus damage and 1 agility, max of 40% bonus damage and 20 agility bonus, if he takes damage he will lose 4 stacks every time, at max
 stacks Kardel will gain Permanent invisibility if he attack or cast any spell he will lose the invisibility for 2.5 second after that
 he will become invis again, spell that are single target will still hit Kardel even if he goes invisible, 20 max stack total, each time
-he cast spells when invisible, they will have 125 bonus cast range and have 1.5 coldown reduce
+he cast spells when invisible, they will have 175 bonus cast range and have 2.5 coldown reduce
 
 add a new modifier for CLOSE RANGE MODE - Juggernaut
-Kardel will gain 5 armor and 12% magic resist in Close Combat but alway reduce his range to 265 at all time and cannot be change.
+Kardel will gain 5 armor and 12% magic resist in Close Combat but alway reduce his range to 285 at all time and cannot be change.
 when Kardel kill enemys he will gain 15 attack speed that last 12 second and refresh upon killing others and increasing the attack speed
 even more up to 130 bonus attack speed, and if Kardel takes 12% of his max health in 1 hit he will gain 10% more damage reduction and
-also gaining 3% health regeneration for 4 seconds, only proc every 8 seconds
+also gaining 3% health regeneration for 4 seconds, only proc every 25 seconds (attack speed bonus is lost when chaging mode).
 
 
 ULTIMATE R PASSIVE HeadShot!
 Kardel knows the way to kill his enemys quick and making alot of mess, all of his spell will do Max health to enemys (bosses will take
-falt damage instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
+flat damage instead) and also giving them a chance to deal Increase damage on HeadShot! procs, and Kardel Basic attacks will also do
 bonus damage on HeadShot! slowing the enemys attack speed and movespeed by alot. also increase Kardel agility by 1 for every 225, 200,
 175 max mana. Spell that does damage every 2 second or lower will only deal 0.1% of current health in damage. HeadShot! will deal less
 damage in close combat for auto attacks, 
 
 Max health into damage 1.1% 2.3% 3.5% Pure
-damage to bosses 35 70 105 plus 45% of attack damage Pure
+damage to bosses 35 50 65 plus 35% of attack damage Pure
 HeadShot! spell damage 140% 170% 200% of attack damage
 HeadShot! chance for spells 40% 45% 50%
 HeadShot! auto attack damage 115% 130% 145% of attack damage long range
@@ -288,7 +285,7 @@ talent level 40 upgrade HeadShot!
 increase HeadShot! Spell damage by 35%
 increase HeadShot! chance on spell by 10%
 increase attack speed lost by 30
-increase debuff duration by 0.2 second
+reduce debuff duration by 0.4 second
 
 add a new modifier Mithril Bullets
 Kardel Basic attack and spells will alway reduce the target armor by 7 and their magic resist by 10% for 4 seconds, Spells that proc
