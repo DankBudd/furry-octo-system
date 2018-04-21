@@ -44,13 +44,13 @@ cooldown 11 10 9 8
 
 talent level 10 upgrade Light Beam
 increase heal by 60
-increase both extra damage scaling by 8%
-increase duration by 0.5
+increase both extra damage scaling by 3%
+increase debuff duration by 2.5
 remove max mana cost
 
 add a new modifier Divine Light
-now heal Mhadreno for double the amount and increasing the healing effect by 1% for every 1.5% of health missing,
-and enemys that take extra damage while affected by Light Beam will lose 2% damage and 1% spell damage every stack
+now heal Mhadreno for double the amount and increasing the healing effect by 1% for every 1.3% of health missing,
+and enemys that take extra damage while affected by Light Beam will lose 2% attack damage and 1% spell damage every stack
 up to 20 max stacks for the remaing duration of Light beam blind and if they reach the max amount of stacks,
 they will refresh the duration of Divine Light and take 30% more damage from physical and magical and take 20%
 increase damage from pure damage as well.
@@ -58,13 +58,13 @@ increase damage from pure damage as well.
 
 SPELL W Purifyd Grounds
 Mhadreno will cast a ground of Light healing allys and dealing damage to enemys, while allys are inside
-any damage they take will grant them some damage reduction up to 40% max damage reduction and for the enemys, they will take increase
-damage from magical spells every time they stand inside of the Purifyd Grounds.
+any damage they take will grant them some damage reduction up to 20% max damage reduction and for the enemys, they will take increase
+damage from magical spells every time they stand inside of the Purifyd Grounds. the Max health damage doesnt affect bosses. 
 
 healing on cast 6% 8% 10% 12% of max health
 healing every 0.5 second 18 22 26 30 plus 30% 37% 44% 51% of inteillgence
 damage reduction bonus to allys per damage taken 0.95% 1.10% 1.25% 1.40%
-damage on cast 3% 4% 5% 6% of max health, doesnt affect bosses for the max health damage
+damage on cast 3% 4% 5% 6% of max health.
 damage every 0.5 second 7 9 11 13 plus 12% 15% 18% 21% of inteillgence magical
 increase damage taken by 3% every 0.7 second when inside Purifyd Grounds
 duration 4 5 6 7 second
@@ -81,21 +81,21 @@ reduce mana cost to 9% instead
 increase cooldown by 7
 
 add a new modifier Holy Guard
-Now summon 2 Holy Guard that will Soak damage that allys and also cast spells takes and Purifyd Grounds will explode after it ends,
-healing allys for 85 plus 7% of their max health and dealing 35 plus 2% of the enemys max health in damage (current health damage for
-bosses).
+Now summon 2 Holy Guard that will Soak damage that allys takes and also cast spells name Holy Touch and Purifyd Grounds will explode
+after it ends, healing allys for 85 plus 7% of their max health and dealing 35 plus 2% of the enemys max health in damage (current health
+damage for bosses).
 
 HOLY GUARD STATS
 health 750 plus 35% of Mhadreno max Health 
 mana 500 plus 15% of Mhadreno max mana
 armor 5
 magic resist 20%
-attack damage 15-30 increase by 3 every 5 level of Mhadreno
+attack damage 15-30 Plus 15% of inteillgence
 base attack time 1.8
 
 PASSIVE Holy Domain
 Allys that are near the Holy Guard will only take 75% of the damage and the Holy Guard will take 25% of that damage that allys
-doesnt takes, also increase their armor by 1 and magic resist by 2% for every 325 damage they take up to 10 bonus armor and 20% magic
+doesnt takes, also increase their armor by 1 and magic resist by 2% for every 225 damage they take up to 10 bonus armor and 20% magic
 resist that last until they die
 
 SPELL Holy Touch mana cost 300 coldown 25
@@ -106,7 +106,7 @@ health reduce the mana cost by 75% and reduce the coldown by 10.
 
 SPELL E Holy Bolt
 Mhadreno cast a Holy Bolt at the target ally healing them and also giving them a small buff and for the enemys, damage
-them and debuffing them as well and having no cooldown, both buff and debuff can stack up to 3, 4 with talent upgrade
+them and debuffing them as well and having no cooldown, both buff and debuff can stack up to 3. 5 with talent upgrade
 
 Heal 25 30 35 40 plus 20% 30% 40% 50% of inteillgence
 bonus regeneration 2.2 2.7 3.1 3.5 plus 9% of inteillgence
@@ -126,17 +126,17 @@ increase max stack by 2
 reduce cast time by 0.10
 
 add a new modifier Surging Light
-now alway thorw 1 to 2 bonus Holy Bolt on a random target enemy or ally dealing 25% more damage and having 35% more healing
-as well, for allys they will get 2% mana restore from Holy Bolt, 0.7% for Mhadreno and for the enemys, they will lose 8%
+now alway throw 2 bonus Holy Bolt on a random target enemy or ally dealing 25% more damage and having 35% more healing
+as well, for allys they will get 2% mana restore from Holy Bolt, 0.1% for Mhadreno and for the enemys, they will lose 8%
 magic resist and 3 armor for 4 second. any enemys that die from Surging Light debuff will give it to allys into a bonus
-for them that last 15 second, if the hero got less than 500 max mana he will be heal for 3% of his max health as a bonus
+for them that last 15 second, if the hero got less than 500 max mana or doesnt have mana they will be heal for 3% of his
+max health as a bonus.
 
 PASSIVE D OR F Holy Aura
 give nearby allys bonus damage and spell Amp with bonus healing from other source of heal also buff the next spell
-cast by Mhadreno having more healing effect and reduce cooldown, Holy Bolt will only get the bonus healing, the Coldown will not
-be affected by Coldown reduction
+cast by Mhadreno having more healing effect and reduce cooldown, Holy Bolt will only get the bonus healing.
 
-bonus damage 8% 10% 12% 14%
+bonus attack damage 8% 10% 12% 14%
 bonus base spell amp 9.5% 12% 14.5% 17%
 increase bonus spell amp by 0.1% for every 3 inteillgence
 increase healing recive by 15% 20% 25% 30%
@@ -167,12 +167,12 @@ increase damage by 2% 3% 4% for every bonus from 100% current health
 increase spell amp by 1.4% 2.1% 2.8% for every bonus from 100% current health
 increase mana regeneration by 0.4 0.8 1.2 for every bonus from 100% current health
 reduce damage by 0.50% 0.75% 1.00% for every bonus from 100% current health
-duration of buff 9 10 11
+duration of buff 11 13 15
 mana cost 15% of max
-cooldown 50
+cooldown 80
 
 talent level 40 upgrade Divinity Call
-increase heal amount by 200
+increase heal amount by 300
 increase spell amp bonus by 0.5%
 increase duration by 4
 reduce cooldown by 10
@@ -185,7 +185,7 @@ and it also benefit double bonus from cooldown reduction and it cannot go lower 
 Chosen One
 Damage reduction 55%
 healing recive 150%
-heal upon when taking damage 25 plus 0.7% of max health
+heal 25 Plus 0.3% of Max health upon taking damage
 no mana cost
 coldown 20
 
