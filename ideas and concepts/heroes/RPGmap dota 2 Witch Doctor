@@ -27,8 +27,9 @@ less amount of Shield gain
 
 SPELL Q Skull Dance
 throw a skull that bounce to ally or enemy if cast on ally it will bounce for ally only or if cast on enemy it will bounce for them only.
-the skull heal ally and giving them a damage bonus,for the enemy they will get damage,stun and a small chance
-to be Paralyze. Paralyze enemy will suffer from damage over time and ally will deal flat bonus damage to them for basic attack
+Each bounce done will increase the healing and damage by 5%. The skull heal ally and giving them a damage bonus,for the enemy they will
+get damage, stun and a small chance to be Paralyze. Paralyze enemy will suffer from damage over time and ally will deal flat bonus damage
+to them for basic attack and spells.
 
 Heal 30 45 60 75 plus 24% 38% 52% 66% of int
 damage bonus 8% 14% 20% 26%
@@ -37,9 +38,9 @@ buff duration 7 8 9 10 second
 damage 9 15 21 27 plus 15% 30% 45% 60% of int as magical
 stun duration 0.3
 paralyze chance 13% 15% 17% 19%
-paralyze damage every 0.2 second 2 3 4 5 plus 8% of int as pure
+paralyze damage every 0.1 second 2 3 4 5 plus 4% of int as pure
 damage bonus taken 7 9 11 13 plus 16% of int as magical
-paralyze duration 7 second
+paralyze duration 4 second
 amount of bounce 6 8 10 12
 cooldown 12 second
 mana cost 100 140 180 220 plus 3% of max mana
@@ -48,7 +49,7 @@ talent level 10 Upgrade Skull Dance
 increase heal by 25
 increase damage by 7
 increase chance of paralyze by 4%
-increase stun duration by 0.2
+increase stun duration by 0.1
 increase bounce amount by 4
 
 add a new modifier The Bone Zone
@@ -92,13 +93,13 @@ curse enemys dealing damage every second after a short duration it will deal bur
 the Spirit Curse. every time they die under Spirit Curse they will explode for high damage and giving Spirit curse to other target
 dealing max health damage to the enemys and healing ally for max health as well.
 
-base damage 11 14 17 20 plus 28% 36% 44% 52% of inteillgence every 0.5 second
+base damage 11 13 15 17 plus 18% 21% 24% 27% of inteillgence every 0.5 second
 burst damge amount 16% 19% 22% 25% of total damage taken
 duration 6 second
 base radius 290 320 350 380
 increase radius by 80% 100% 120% 140% of ZulNu inteillgence
 explosion damage 3% 5% 7% 9% of health
-explosion damage on boss 1% 1.5% 2% 2.5%
+explosion damage on boss 1% of health
 explosion heal 9% 12% 15% 18% of Health
 cooldown 24
 mana cost 50 100 150 200 plus 2% of max mana
