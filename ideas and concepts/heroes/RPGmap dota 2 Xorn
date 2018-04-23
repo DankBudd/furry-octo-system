@@ -22,9 +22,11 @@ give a positive and negative buff. Pressing ALT will give INFO for Xorn talent l
 not be able to go faster than 850 movespeed but still able to go to a speedlimit of 2250, increase the max speedlimit to 2750 at level
 40.
 
-BUFF Xorn will gain 1 base damage for every 65 movspeed he got and he also gain 1% movement speed for every 7 Agility, he start with 2
-armor and 1.4 mana regeneration bonus as well, every 200 movespeed will give him 5% Blind Resist, he also gain 0.7 health regeneration
-per 90 current movespeed and when he lose 125 of his health points as well, he got a special Helm that scale by his Move Speed and level
+BUFF Xorn will gain 1 base damage for every 20 movespeed beyond 200 Movespeed and he also gain 1% movement speed for every 7 Agility, he
+start with 2 armor and 1.4 mana regeneration bonus as well, every 200 movespeed will give him 5% Blind Resist, he also gain 0.7 health 
+regeneration per 90 current movespeed and when he lose 125 of his health points as well, he got a special Helm that scale by his Move
+Speed and level.
+
 DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
 have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
 dealing 0.8% of his max health per 0.5 second
