@@ -24,8 +24,10 @@ give a positive and negative buff, Pressing ALT will give INFO for Enigma level 
 
 BUFF enigma spell will do 1 pure bonus damage for every 12 inteillgence and he will gain 1% spell amp for every 160 current mana and any 
 slows Enigma takes will grant him a speed boost instead of slowing him and increasing their duration by 1 second he also gain 1% life
-per level gaining 0.5% size as well enigma will have a Special Gravity Wand that scale per level and he cannot be change, Enigma also
-gain 2 inteillgence for every items that give Spellamp, Enigma will also gain 1% coldown reduction per Inteillgence items as well.
+per level gaining 0.5% size as well enigma will have Void Glove that scale per level and he cannot be change, Enigma also gain 2
+inteillgence for every items that give Spellamp, Enigma will also gain 1% coldown reduction per Inteillgence items as well (max of 16
+Inteillgence and 5% coldown reduction).
+
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 40% base damage, strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
 items with effect that deal damage will have 50% reduction effects, he also lose 5% Agility per Inteillgence item he got. Enigma cannot
@@ -61,8 +63,9 @@ damage taken, every tick of damage will have 12% chance to do a Void Mass dealin
 radius around the Curse target. The Target itself will also take Void Mass but dealing 50% less damage, the debuff from magic resist
 and health regeneration lost will last 2.5 seconds after the curse end, Void Mass will also reduce magic resist but will not reduce
 health regeneration. Enemys that die under Void Curse will be spawn as Eidolons having 25% of the enemy target total stats for them.
-Eidolons will last 18 seconds and have 1.75 base attack time and cannot be controll, they will Follow Enigma around and attack enemys
-that are in Combat (Doesnt attack enemys that are not in Combat). (Void Curse can reduce a total of 16% 24% 32% 40% magic resist max).
+Eidolons will last 18 seconds and have 1.65 base attack time and cannot be controll, they will Follow Enigma around and attack enemys
+that are in Combat (Doesnt attack enemys that are not in Combat). (Void Curse can reduce a total of 16% 24% 32% 40% magic resist max for
+each targets max).
 -
 -lore- The curse of the Void Lord makes his target turn inside-out, making them die of unbearable pain and suffering and turn into a
 eidolon joining the mighty army of the void lord.
@@ -106,7 +109,7 @@ Movespeed lost 5 8 11 14
 Stun Duration 1.1 1.5 1.9 2.3
 Base Radius 425 475 525 575
 Duration 5.0 seconds
-Cooldown 25 23 21 19
+Cooldown 30 29 28 27 
 Mana cost 160 200 240 280 plus 2% of max mana
 
 talent level 10 Upgrade Gravity Well
@@ -129,7 +132,8 @@ Enigma will Throw a Bolt of Void at the target Location dealing High amount of M
 Hunger that last 12 seconds If they cast at least 3 spells while under this effect, they will gain a Debuff call Consuming Void, taking
 low amount of damage every 0.2 seconds and increasing their cast time point as well, Void Bolt will Ignore Magic immune units, Void Bolt
 will also reduce Magic resist and slow movespeed for 3.5 seconds. Each time they cast a spell they will refresh the debuff duration by
-2.5 seconds (Void Bolt will refresh the duration if casted on enemys affected by the debuff).
+2.5 seconds (Void Bolt will refresh the duration if casted on enemys affected by the debuff). (Void Bolt landing delay will be 1.7
+seconds).
 
 Bolt base Damage 20 30 40 50 plus 55% of Inteillgence
 Bolt radius Impact 275 300 325 350
@@ -138,7 +142,7 @@ Consuming Void duration 7
 Cast time point increase 0.60 0.90 1.20 1.50
 Magic resist lost 5% 10% 15% 20%
 movespeed lost 5% 10% 15% 20%
-coldown 30 26 22 18
+coldown 24 22 20 18
 mana cost 175 275 375 475 plus 2% of max mana
 
 talent level 20 Upgrade Void Bolt
@@ -193,7 +197,7 @@ damage 75 150 225 plus 35% 40% 45% of inteillgence
 Magic and Pure resist lost 15% 20% 25%
 Void Star Radius 600 725 850
 Center radius 250 275 300
-coldown 170 150 130
+coldown 170 150 140
 mana cost 25% 35% 45% of max mana
 
 talent level 40 Upgrade Void Star
@@ -258,27 +262,32 @@ increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 pri
 -
 increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
 -
-When in Titan Rage, Sven will gain 0.3% health regeneration and 0.2% mana regeneration, he also reduce the Attack speed Penalty by 25
-and the coldown of Titan Rage by 5, also increase xp gain by 15%
+Enigma will gain 1% health and mana regeneration for 2.5 seconds after casting his basic spells and he will gain 3% health and mana
+regeneration after casting Void Star for 5 seconds. Also increase his health and mana by 5%. Increase XP gain by 15%
 -
 level 16 talent
 -
-Increase the bonus damage from Titan Rage by 15% and the Base damage recive by 10, every kill in Titan Rage will restore Sven health by
-45 plus 30% of his Strenght, Sven will also gain 15% roots resist in Titan Rage.
+Increase Void Star base damage by 35 and reduce its coldown by 10. Void Star will gain 15 cast range for every basic spells Enigma
+casted for 7 seconds (refresh upon casting a basic spell again), up to 150 bonus cast range and at 10 max stacks, Void Star will gain
+10% increase total radius (5% increase total Radius for the center).
 -
-Increase Blood Wound base damage by 4 and increase its duration by 2 seconds, Enemys Affected by Blood Wound will heal allys and sven
-by 12% of the damage dealt to them by anything for the duration, also increase Sven spell amp by 12% and his health by 125.
+Galaxy will now give Enigma 5% increase Strenght and Inteillgence, Galaxy will also Increase the enemys coldown spells by 12% and each
+time they cast a spells, Enigma will gain 25 plus 60% of his Inteillgence into mana and health and also reducing his baisc spells cold
+down by 0.3.
 -
-increase attack damage by 8% and attack speed by 25, increase Blood Wound attack speed cap by 40 and its duration by 1 seconds, Blood
-Wound cannot be purge by any means, also increase Sven movespeed by 45 and all Stats by 6.
+Void Bolt will gain 5 base damage and 35 bonus radius and it also increase the enemys coldown spells by 0.7. Void Bolt impact delay
+will be reduce by 0.4 seconds and have 175 cast range bonus, every 50 unit travel of Void Bolt will increase its radius by 10 and its
+damage by 3%.
 -
 level 19 talent
 -
-Increase Pure resist by 15%, Sven will futher increase the bonus by 20% when in Titan Rage and BloodLust, also increase his Status
-resistence by 10% and his Agility by 12.
+Increase Enigma Pure resist by 40% but reduce his magic resist by -25% and further reduce his armor penalty to -3 instead of 0. also
+increase Enigma health by 15% and damage reduction by 10% when Channeling Void Star (with the level 40 talent, he will gain this buff
+for 4 seconds instead after casting Void Star instead of Channeling).
 -
-Increase Sven Strenght by 25 and his health regeneration source bonus by 35% but reduce is attack speed by 15 and his agility by 10,
-Sven will further increase the bonus strenght by 3 for every item that give Strenght or Attack damage.
+Increase Enigma Inteillgence by 20 but reduce his agility and strenght by 15, Void Curse will have 10% increase scaling inteillgence
+on the 0.5 DPS. Gravity Well will gain 5% increase scaling and also increase the scaling radius base on the Inteillgence by 45% and
+reduce its coldown by 1.5
 -
 Increase all Phyisical damage output by 35% but reduce any magic damage output by 40%, Sven will further increase the Physical damage
 output bonus by 20% in Titan Rage and 10% in BloodLust, also increase Strenght and Agility by 6.
