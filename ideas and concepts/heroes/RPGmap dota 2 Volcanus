@@ -26,13 +26,14 @@ Increase overall stats and give a positive and negative buff, pressing Alt will 
 BUFF Volcanus attack will do magic damage instead of physical and he gain 1% spellamp per 6 int instead of 10 and he can use 2 glove
 Intead of 1 he also gain 2 life per inteillgence point any Roots will be purge and give Volcanus 25% spellamp for 4.2 seconds, the purge
 will only happen every 25 seconds. he can also use Sulfuras, getting even more power from it but making him become melee range.
+
 DEBUFF Volcanus will take 40% more damage from pure,physical and magic damage and he cannot use any weapons but gloves as weapons
-he also lose 50% base attack damage and all Source of Physical damage will deal 1.2% of Volcanus life as damage bonus to him and
-magical Source of damage will do 0.2% bonus damage as well, Volcanus will lose 25% mana regeneration source and his spells will only
+he also lose 40% base attack damage and all Source of Physical damage will deal 1.2% of Volcanus life as damage bonus to him and
+magical Source of damage will do 0.6% bonus damage as well, Volcanus will lose 25% mana regeneration source and his spells will only
 gain 50% of Spellvamp bonus effect as well.
 
 
-talent level 25 upgrade Fire Lord
+talent level 40 upgrade Fire Lord
 add a new modfier Titan of Fire
 Spawn 2 Greater Lava Spawn that last until they die, they will respawn every 75 seconds close to Volcanus, they cannot Recreate other
 Lava Spawns. Volcanus Soul Burn will always have 275 Area of Effect instead of being a single target (stack it self with True Fire Lord)
@@ -77,13 +78,14 @@ Talent level 10 upgrade Soul Burn
 increase scaling damage by 10%
 increase slow amount by 14%
 increase duration by 1.0
+reduce coldown by 1
 remove mana cost
 
 add a new modfier Sun Burn
 Soul Burn will silence all enemy near the main target 350 radius and Soul Burn got 20% chance to deal 50% increase damage and dealing
 pure damage, after Soul Burn duration end it will explode for 300% of Volcanus inteillgence to all near enemys 425 radius, Volcanus will
-gain 1% spell amp for every 8 seconds of Soul Burn done, at 6% spell amp bonus, Soul Burn will gain 5 base damage and 10% increase slow
-at 11% spell amp bonus, Soul Burn will do Small Burns that deal 25% of Incinerate total damage every 0.4 seconds and reduce the coldown
+gain 1% spell amp for every 6 seconds of Soul Burn done, at 6% spell amp bonus, Soul Burn will gain 5 base damage and 10% increase slow
+at 11% spell amp bonus, Soul Burn will do Small Burns that deal 14% of Incinerate total damage every 0.5 seconds and reduce the coldown
 by 3, at 16% spell amp bonus, Volcanus will gain 12% max health and mana, Soul Burn will deal its damage every 0.7 seconds instead of 1.0
 seconds, max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 stack is lost upon getting slowed. Volcanus will also deal
 35% increase attack damage and 25 bonus attack speed on the target affected by Soul Burn.
@@ -173,7 +175,7 @@ damage, Incinerate will do burn damage every 1.0 seconds base on Volcanus Inteil
 Incinerate will explode dealing medium damage to nearby enemys and the target him self only work once for each targets, if they die
 Incinerate will also explode dealing same damage. Basic attack will also give enemys 1 stack of Incinerate. Incinerate will last 2.5
 seconds and will deal Pure damage on the burn and explosion. Incinerate will gain 40% of Volcanus inteillgence in bonus radius for the
-Explosion. Incinerate will also reduce the target healing source by 15%.
+Explosion. Incinerate will also reduce the target healing sources by 15%.
 
 Attributes bonus 7% 8% 9% 10%
 Incinerate base burn damage 18% 22% 26% 30% of int
@@ -183,19 +185,20 @@ Incinerate explosion damage 20 25 30 35 plus 50% of inteillgence
 base explosion radius 240 260 280 300
 
 talent level 20 upgrade Incinerate
+Increase base burn scaling by 20%
 increase Incinerate burn stacks by 5
-increase Incinerate base damage by 25
-increase base radius by 60
+increase Incinerate base damage by 15
 
 add a new modfier Fire Blast
-Incinerate will have double explosion radius and 40% increase damage if it explode under the 6 seconds marks, making the enemys take
-6 stacks of Incinerate as well they will also suffer a Fire Blast, Incinerate debuff will not go away and the target will gain 1 stack
-of Incinerate every seconds, at max stacks they will alway do Incinerate explosion every 2.5 seconds only dealing 40% of the explosion
-total damage. If Volcanus dies, all target affected by Incinerate will end. Volcanus will gain 1 mana for every stacks of Incinerate
-gain on enemys, at 125 mana bonus gain, Volcanus will gain 10% increase mana and will gain Phase movement, at 300 mana bonus gain,
-Incinerate will give Volcanus 4% spellamp for every target affected by Incinerate and Volcanus will gain 15% magic resist, at 475 mana
-bonus gain, Incinerate will spreads to other target when the target dies or the explosion goes off after 6 seconds and also gaining 80
-bonus radius. Max of 700 stacks and 60 stacks will be lost if Volcanus get silence and he will lose 350 stacks on death.
+Incinerate will have 40% increase explosion radius and 20% increase damage if it explode under the 6 seconds marks, making the enemys
+take 6 stacks of Incinerate as well they will also suffer a Fire Blast, Incinerate debuff will not go away and the target will gain 1
+stack of Incinerate every seconds, at max stacks they will alway do Incinerate explosion every 2.5 seconds only dealing 40% of the
+explosion total damage. If Volcanus dies, all target affected by Incinerate will end. Volcanus will gain 1 mana for every stacks of
+Incinerate gain on enemys, at 125 mana bonus gain, Volcanus will gain 10% increase mana and will gain Phase movement, at 300 mana bonus
+gain, Incinerate will give Volcanus 4% spellamp for every target affected by Incinerate and Volcanus will gain 15% magic resist, at 475
+mana bonus gain, Incinerate will spreads to other target when the target dies or the explosion goes off after 6 seconds and also gaining
+80 bonus radius. Max of 700 stacks and 60 stacks will be lost if Volcanus get silence and he will lose 350 stacks on death. Bosses will
+lose the Incinerate debuff when they hit the max stack value.
 
 ULTIMATE R
 Fire Rage
@@ -203,71 +206,77 @@ Volcanus will triple in Size gaining massive health, attack damage, Spellamp and
 move for the duration. Volcanus will also Empower his 3 basic spells also reducing their coldown and making Incinerate get stronger too.
 Soul Burn will be a 450 area of effect instead of being a single target and also having bonus damage, Lava Wave will gain insane bonus
 damage and will become pure damage and the Burn will make enemys take extra Pure damage instead, Volcano will no longer be a Channeling
-spells for the duration of Fire Rage and having more Lava Balls. Volcanus will gain 325 attack range with Sulfuras while in True
-Fire Lord
+spells for the duration of Fire Rage and having more Lava Balls. Volcanus will gain 325 attack range with Sulfuras while in Fire Rage.
+Incinerate will gain 10% 15% 20% increase total radius and will also have 8% 16% 24% base burn scalling increase for the duration of
+Fire Rage
 
 bonus health 25% 35% 45%
-bonus attack damage 40 80 120
+bonus attack damage 35 70 105
 bonus spellamp 20% 30% 40%
 bonus damage reduction 10% 15% 20%
 coldown reduction 30% 40% 50%
-Soul Burn bonus damage 15 20 25
-Lava Wave bonus damage 40 70 100
+Soul Burn bonus damage 8 11 14
+Lava Wave bonus damage 30 55 70
 Lava Balls bonus 6 9 12
 duration 16 19 22
-coldown 100
-mana cost 25% 30% 35%
+coldown 125
+mana cost 25% 40% 55%
 
 talent level 40 upgrade Fire Rage
-increase bonus health by 40%
-increase bonus attack damage by 60
+increase bonus health by 25%
+increase bonus attack damage by 55
 increase damage reduction bonus by 5%
 increase duration by 2
 reduce coldown by 15
 
 add a new modifier Hell Infuse
-Volcanus will reduce all range attacks and spells damage taken to 25% (damage reduction and other source will not affect this) and he
-also gain 15% spellvamp while in Fire Rage and his spells will have 35% chance to spellvamp for 150% of the damage dealt and give
-Volcanus a Stack of Hell Infuse. Hell Infuse will give Volcanus 1% max health, 2% max mana, 1.7% spellamp and 25 bonus cast range max
-of 20 stacks, at 10 stacks Volcanus will gain 50% magic resist and 35% status Resistence while in Fire Rage and also increasing its
-duration by 2 seconds, at Maxs stacks, Volcanus basic spells will gain 10 base damage bonus and will all reduce the enemys magic resist
-by 16% for 2.5 seconds refresh upon taking damage. Volcanus will also gain a spell call Hells Blink while in Fire Rage being able
-to blink 625 units with a coldown of 10 seconds and no mana cost.
+Volcanus will reduce all range attacks and spells damage taken to 35% (damage reduction and other source will not affect this) and he
+also gain 15% spellvamp while in Fire Rage and his spells will have 25% chance to spellvamp for 175% of the damage dealt and give
+Volcanus a Stack of Hell Infuse. Hell Infuse will give Volcanus 25 max health, 40 max mana, 1.2% spellamp and 15 bonus cast range max
+stack of 10. At 3 stacks Volcanus will gain 15% status resistence with 0.1% health regeneration and also further increasing the duration
+of Fire Rage by 4, at 7 stacks Volcanus will gain 15% magic resist with 0.2% mana regeneration and also increasing the health and spell
+amp bonus gain from Fire Rage by 10%, at max stacks Volcanus will gain 10 Armor with 35% movespeed and also increasing his Fire Rage
+damage reduction by 5% and the coldown reduction by 10%. The bonus from the stacks and the stacks its self will Double when in Fire Rage.
+He also gain a spell call Hell Blink when in Fire Rage, Volcanus will be able to blink while in Fire Rage with a base cast range of 425
+and a coldown of 14 seconds.
 
 level 1 talent
 -
-increase strenght gain by 0.2 every level and also increase strenght by 5
+increase strenght gain by 0.2 every level and also increase strenght by 5, Soul Burn will gain 12% of Volcanus Strenght as bonus damage
+and also increasing its duration by 1.0 seconds but increasing the coldown by 3
 -
-increase agility gain by 0.2 every level and also increase agility by 5
+increase agility gain by 0.2 every level and also increase agility by 5, Volcanus will reduce the coldown of Lava Wave by 0.1 for every
+4 Agility and also increase its base damage by 5
 -
-increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5, Incinerate will gain 2 max stacks and the base burn
+will gain 8% scaling bonus.
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Volcanus will also gain 3% increase inteillgence and
-reduce Pure damage taken by 5%
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Volcanus will also gain 2% increase in all stats and
+reduce Pure damage taken by 10%, he also gain 5% coldown reduction
 -
 level 4 talent
 -
-Increase Soul Burn base damage by 4 and the damage reduction by 3%, Soul Burn will give Volcanus 0.1% health regeneration per affected
-target, also increase its cast range by 175
+Increase Soul Burn base damage by 4 and the damage reduction by 3%, Soul Burn will give Volcanus 2.3 health regeneration per affected
+target, also increase its cast range by 175 and reduce its coldown by 0.5
 -
-increase all stats by 4 and increase healing recive by 10%, all 3 basic spells of Volcanus will heal him for 35% of his inteillgence
+increase all stats by 4 and increase healing recive by 10%, all 3 basic spells of Volcanus will heal him for 30% of his inteillgence
 per casts (this effect will gain 100% more increase from Healing Amp and other healing source bonus)
 -
-reduce coldown by 10%, increase mana by 15% and Spellamp by 6% but reduce health by 10% and increase Base attack time by 0.25
+reduce coldown by 10%, increase mana by 15% and Spellamp by 6% but reduce health by 15% and increase Base attack time by 0.25
 -
-Volcanus can levelup his Fire Rage before level 9 but increase its mana cost by 20% and coldown by 10. also increase the health bonus by
+Volcanus can levelup his Fire Rage before level 9 but increase its mana cost by 15% and coldown by 10. also increase the health bonus by
 5%, Soul Burn bonus damage by 5 and Lava Wave bonus damage by 15.
 -
 level 7 talent
 -
 Increase Lava Wave base damage by 10 and its scaling by 5%, Lava Wave will deal 1% increase damage per stack of Incinerate the enemys
-got on them, also increase the max stack of Incinerate burn by 2 and increase Incinerate base burn damage by 6%
+got on them, also increase the max stack of Incinerate burn by 2 and increase Incinerate base burn damage by 4%
 -
-Volcanus will gain 15% increase health and 170 mana, each enemys affected by Incinerate will increase Volcanus health and mana regeneration
-by 0.3, Volcanus cannot be lifesteal or spellvamp by enemys and increase all healing source done by allys by 10%.
+Volcanus will gain 8% increase health and 110 mana, each enemys affected by Incinerate will increase Volcanus health and mana regeneration
+by 0.6, Volcanus cannot be lifesteal or spellvamp by enemys and increase all healing source done by allys by 10%.
 -
-Volcano will further increase its damage reduction while channeling by 5% and Volcanus will become magic immune for 2.5 seconds after he
-is done channeling for a least 3 seconds, also increase his Strenght and Agility by 6 and inteillgence by 12.
+Volcano will further increase Volcano damage reduction while channeling by 5% and Volcanus will become magic immune for 3.5 seconds after
+he is done channeling for a least 3 seconds, also increase his Strenght and Agility by 6 and inteillgence by 12.
 -
 level 10 talent
 upgrade spell Q
@@ -280,7 +289,7 @@ increase health by 10% and life regeneration by 1.1 increase by 0.1 every 9 prim
 -
 increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
 -
-reduce health by 25% and mana by 30% but increase Volcanus spellamp by 16%, mana regeneration by 0.3%, health regeneration by 0.2% and
+reduce health by 25% and mana by 30% but increase Volcanus spellamp by 11%, mana regeneration by 0.3%, health regeneration by 0.2% and
 Volcanus spells will Trigger a Volcanic Burn doing 12% of his inteillgence into Pure damage bonus for every instence of damage they do
 also increase xp gain by 15%
 -
@@ -290,25 +299,26 @@ Lava Wave will travel 225 more distence and have 45 increase radius, each time i
 increase damage and 35 speed increase that goes without limit. Also increase Volcanus all stats by 7 and his cast range by 115 and
 reduce Lava Wave coldown by 2.
 -
-Increase max health by 4% and Mana by 6%, Volcanus will gain 3 bonus mana and 1 bonus health for every enemys that died under Incinerate
+Increase max health by 4% and Mana by 6%, Volcanus will gain 2 bonus mana and 1 bonus health for every enemys that died under Incinerate
 effect, max stack of 100 and these stacks will be lost on death, at 50 stacks Volcanus will gain 7 inteillgence and 4 Strenght, at 85
-stacks, Volcanus will increase all of his basic spells damage by 15% and increase their cast range by 175.
+stacks, Volcanus will increase all of his basic spells damage by 12% and increase their cast range by 145.
 -
 increase Volcanus attack range by 135 and attack speed by 25, he will reduce the Penalty of the attack damage lost from his Neutral
 passive by 25% and for every 7 current attack damage he will gain 4 attack speed and 1% lifesteal, also increase his size by 10%
-(doesnt increase his attack range if he is holding Sulfuras)
+(increase his attack range by 45 if he is holding Sulfuras instead of 135)
 -
 level 19 talent
 -
 Volcanus will gain 10% damage reduction for 3.5 seconds after casting his basic spells, he also gain 1.3% health regeneration while
-channeling his Volcano. Volcano will gain 8 base damage and will have 3 more lava Balls as well.
+channeling his Volcano. Volcano will gain 8 base damage and will have 3 more lava Balls as well. (while in Fire Rage, the health
+regeneration will be 0.5% since he is not channeling it)
 -
 Increase all Magical Output damage by 25% and Pure Output damage by 10% but Volcanus will no longet be able to deal Physical damage at
-all, Volcanus will increase the Attributes gain from Incinerate by 4% and will give 10 Inteillgence as well. Further increase the
-Inteillgence gain by 25 while in True Fire Lord
+all, Volcanus will increase the Attributes gain from Incinerate by 4% and it will give 2 Inteillgence per Incinerate on his targets.
+further increase the inteillgence to 4 per target affected by Incinerate while in Fire Rage.
 -
-Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.0 seconds. Incinerate will also burn 3.5
-mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 50%
+Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.5 seconds. Incinerate will also burn 2.5
+mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 30%
 and their coldown by 1
 -
 level 20 talent
@@ -319,36 +329,36 @@ upgrade passive
 -
 level 23 talent
 -
-Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce the Scaling by 10% and the base damage by 4, Soul Burn
+Increase Soul Burn duration by 2.0 seconds and the cast range by 375 but reduce the Scaling by 6% and the base damage by 9, Soul Burn
 will have 25% chance every tick of damage to deal 100% extra damage and do a Small blast of 285 Area of Effect dealing that damage to
-everyone near the target and making them lose 7% magic resist for 4.5 seconds.
+everyone near the target and making them lose 12% magic resist for 4.5 seconds.
 -
 Increase Spellamp by 11%, mana regeneration by 4.2 and regeneration Source by 25%, Volcano will give Volcanus 0.3 health regeneration
 for every Hit units. If Volcano hit at least 10 enemys, Volcanus will gain 25 health permanent that stack 10 time, at 5 stacks Volcanus
-will gain 8% health and mana with 1.6 health and mana regeneration as well, he doesnt lose those stacks by any means and he take 20%
-reduce damage from range attacks at 10 stacks (doesnt count spells only normal basic attacks)
+will gain 8% health and mana with 1.6 health and mana regeneration as well, he doesnt lose those stacks by any means and he gain 8% spell
+amp and 4% damage reduction at max stacks.
 -
 level 26 talent
 -
 increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
-amp bonus and 5% more health bonus if Defensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and
+amp bonus and 5% more health bonus if Defensive talent is pick Volcanus will gain 6% increase inteillgence and 2% increase Strenght and
 Agility
 -
 increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
-7 more damage bonus, if Offensive talent is pick Volcanus will gain 10% increase inteillgence and 4% increase Strenght and Agility
+7 more damage bonus, if Offensive talent is pick Volcanus will gain 6% increase inteillgence and 2% increase Strenght and Agility
 -
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
-limit by 75. Volcanus will gain 75 movespeed and 22% damage reduction for 7 seconds after useing any item effects.
+limit by 75. Volcanus will gain 65 movespeed and 12% damage reduction for 7 seconds after useing any item effects.
 -
-Fire Rage will have 2 seconds duration bonus and increasing the spellamp bonus by 8% and the coldown reduction by 10%. Fire Rage will
-Purge all debuff on cast and will give Volcanus magic immune for 3.0 seconds. While in those 3 seconds of Magic Immune, Volcanus will
-gain 225 attack speed and 65% attack damage.
+Fire Rage will have 2 seconds duration bonus and increasing the spellamp bonus by 8% and the coldown reduction by 5%. Fire Rage will
+Purge all debuff on cast and will give Volcanus magic immune for 5.0 seconds. While in those 5 seconds of Magic Immune, Volcanus will
+gain 125 attack speed and 65% attack damage.
 -
 level 29 talent
 -
 Volcanus will have Soul Burn on him self as a buff that stay until it get purge. When Purge the Soul Burn Buff will come back after 7
-seconds. Soul Burn will give Volcanus normal attack a Sun Burn that deal 18% of Volcanus inteillgence every 0.8 seconds that last 4.0
-seconds and increase his pure resist by 35% and his health regeneration by 0.6% while under Soul Burn effect.
+seconds. Volcanus normal attack will give  Sun Burn to enemys that deal 22% of Volcanus inteillgence every 0.8 seconds that last 4.0
+seconds and increase his pure resist by 45% and his health regeneration by 0.4% while under Soul Burn effect.
 -
 increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
 30. Volcanus will gain 0.7 armor and 1% magic resist per enemys affected by Soul Burn and reduce its mana cost by 12%.
@@ -368,11 +378,11 @@ cost to them.
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
 -
-Volcanus gain 10% status resistence and his Lava Wave will now stun his enemys for 0.75 seconds and for that 0.75 seconds enemys will
+Volcanus gain 10% status resistence and his Lava Wave will now stun his enemys for 0.65 seconds and for that 0.65 seconds enemys will
 take 100% increase damage from all source. Also increase all stuns and roots effect cause by Volcanus by 22%.
 -
-Volcanus will gain 1.4% health and mana regeneration for the duration of Fire Rage and increase the health bonus gain by 25% and the
-attack damage by 85. Fire Rage will lose 6 seconds duration but will also have 25 coldown reduce as well. Also remove its mana cost and
+Volcanus will gain 0.9% health and mana regeneration for the duration of Fire Rage and increase the health bonus gain by 25% and the
+attack damage by 65. Fire Rage will lose 8 seconds duration but will also have 25 coldown reduce as well. Also remove its mana cost and
 when casted, Volcanus will gain 35% health and mana back.
 -
 level 36 talent
