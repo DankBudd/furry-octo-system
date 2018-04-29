@@ -4,20 +4,24 @@ Base movespeed 265, Base attack damage 4-9, Base Regeneration Health 0.4, Base R
 
 total base stats at level 40 - 22 Strenght - 30 Agility - 56 Inteillgence -
 
+Volcanus spells will have insane mana cost early game and so on.
+Leving up Incinerate once can be great but maxing it first can be a problem since it does better damage late game with the inteillgence
+burn scaling and for the explosion as well.
+
 LEVEL 30 TALENT
 
 Talent 1
 Increase Volcanus Health by 15% and his magic resist by 10%
-Volcanus will gain 0.1 health regeneration per 30 health missing and every 2% health missing he will gain 0.7 armor, Volcano will further
-increase the damage reduction by 25% durring its channel time and he cannot be Interrupted, Volcanus will reduce Silence duration by 40% and
-and Stuns duration by 25% he further increase those bonus by 10% while in Molten Hearth.
+Volcanus will gain 0.1 health regeneration per 30 health missing and every 2% health missing he will gain 0.7 armor. further Increase
+Volcano damage reduction by 25% he cannot be Interrupted. Volcanus will reduce Silence duration by 40% and Stuns duration by 25%, he
+further increase those bonus by 10% while in Fire Rage.
 
 
 Talent 2 
 Increase Volcanus spell amp by 8% and his mana regeneration by 3.2
 Volcanus will gain 0.1% spellamp per 0.4 mana regeneration and his 3 Basic spells will also deal 10% bonus damage base on his Strenght
 and Agility, Volcanus Lava Wave will have 115 radius increase and Soul Burn will have 1.0 seconds duration increase. Volcanus will
-gain 1% coldown reduction for every 3% mana missing and he also gain 4 more mana from inteillgence.
+gain 1% coldown reduction for every 5% mana missing and he also gain 4 more mana from inteillgence.
 
 
 PASSIVE D OR F Fire Lord
@@ -36,28 +40,43 @@ gain 50% of Spellvamp bonus effect as well.
 talent level 40 upgrade Fire Lord
 add a new modfier Titan of Fire
 Spawn 2 Greater Lava Spawn that last until they die, they will respawn every 75 seconds close to Volcanus, they cannot Recreate other
-Lava Spawns. Volcanus Soul Burn will always have 275 Area of Effect instead of being a single target (stack it self with True Fire Lord)
-and Volcano will always throw Lava Balls to target inside the Radius of Volcano it self every 1.5 seconds, those Lava Balls will deal 50%
+Lava Spawns. Volcanus Soul Burn will always have 275 Area of Effect instead of being a single target (stack it self with Fire Rage) and
+Volcano will always throw Lava Balls to target inside the Radius of Volcano it self every 1.5 seconds, those Lava Balls will deal 35%
 increase damage and will deal pure damage and will also make enemys take 20% increase damage from Pure damage and Volcano it self. Volcanus
-cannot be Stun while he is Channeling his Volcano or other items effects and he can no longet be slowed, instead he will turn the slow
-into a buff that give Volcanus 25% spellamp and 220 movespeed for 6 seconds. Doesnt have a coldown.
+can no longet be slowed, instead he will turn the slow into a buff that give Volcanus 20% spellamp and 120 movespeed for 3.6 seconds.
+Doesnt have a coldown.
 
-GREATER LAVA SPAWN STATS Range 345
+GREATER LAVA SPAWN STATS Attack Range 385
 health 425 plus 25% of Volcanus health
 Mana 200 plus 15% of Volcanus mana
 Armor 9
 Magic resist 20%
 damage 21-37 plus 18% of Volcanus Int
-Base attack time 1.95
+Base attack time 2.15
 
-Spell Molten Breath of Molten Lava mana cost 100, coldown 18
-The Greater Lava Spawn Breath out lava dealing 115 plus 65% of the Lava Spawn attack damage in a 275 cone in front of them that goes 450
-Unit far, enemys will take 10% increase damage for 8 seconds, and also have 12% chance when attacking or casting a spell taking 0.4% of
-their max health in damage (current health for bosses). does magical damage
+SPELL Q Molten Breath of Lava
+The Greater Lava Spawn will breath out Lava dealing high magical damage to any target in a 335 cone infront of the Lava Spawn and also
+giving them a burn sickness, dealing low damage every 0.5 seconds and reducing their magical resistence as well. The Magical Resistence
+lost will increase every time they suffer the burn damage. Molten Breath of Lava will gain 45% of the Lava Spawn attack damage into bonus
+damage. The Burn damage can be refresh by other Greater Lava Spawn increasing the amount of magical resistence lost. The Burn damage will
+be Pure damage and will gain 4% of the Lava Spawn attack damage into bonus damage.
 
-Passive Pure Molten Coating, does damage every 0.6 seconds
-enemys Near the Greater Lava Spawn will take 11 plus 8% of the Greater Lava Spawn attack damage in Pure damage that cannot be resisted
-by any means, Being near the Greater Lava Spawn will reduce enemys Pure resist by 12%, stack with the other Greater Lava Spawn.
+base damage 45
+Burn damage 6
+base magic resist lost 4%
+magic resist lost per burn damage 1%
+burn damage duration 3.5 seconds
+coldown 27
+mana cost 175
+
+Passive Pure Molten Coating
+The Greater Lava Spawn will burn nearby enemys (280 radius) every 0.8 seconds dealing Medium Pure damage and also making them take extra
+damage from Pure damage Source. Pure Molten Coating damage cannot be resisted and for every 2% pure resist on the target, it will deal
+1% increase damage. The Burn damage will gain 10% of the Greater Lava Spawn attack damage into bonus damage. Stack with other Greater
+Lava Spawn.
+
+base damage 12
+Extra Pure damage taken 10%
 
 
 SPELL Q
@@ -92,24 +111,25 @@ seconds, max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 s
 
 SPELL W Lava Wave - Magical -
 Send out a wave of molten lava dealing insane amount of damage and burning them dealing damage every 0.5 seconds and reduce their
-magical resistence for the duration of the Burn. Lava Wave will gain 50% increase bonus from spellamp
+magical resistence for the duration of the Burn. Lava Wave will gain 50% increase bonus from spellamp but will cost 0.05% more mana
+for every spellamp Volcanus has.
 
 damage 25 40 55 70 plus 35% of inteillgence
 burn damage 10 plus 8% of inteillgence
 magic resist lost 8% 12% 16% 20%
 burn duration 3.0 3.5 4.0 4.5
 Wave travel distence 650 750 850 950
-Wave radius 225 235 245 255
-Wave speed 600 625 650 675
-coldown 16 15 14 13
+Wave radius 225 240 255 270
+Wave speed 600 635 670 705
+coldown 16
 mana cost 100 175 250 325 plus 1% of max mana
 
 talent level 10 upgrade Lava Wave
-increase inteillgence scaling by 25%
-increase Burn inteillgence scaling by 2%
+increase inteillgence scaling by 15%
+increase Burn inteillgence scaling by 3%
 increase magic resist lost by 6%
-increase Wave radius by 75
-reduce mana cost by 75
+increase Wave radius by 55
+Increase mana cost by 45
 
 add a new modfier Scorched Earth
 Lava Wave will leave behind a Scorched Earth giving enemys that enter it the Burn damage and increasing the magic resist lost by 10%
@@ -117,12 +137,13 @@ while they stand in it, Volcanus will get heal by 200% of Burn total damage if h
 1.5 mana regeneration. For every 10 enemys hit with Lava have increase the travel distence by 3, at 20 stacks Lava wave will gain 15
 bonus base damage and have 25% mana cost reduce, at 35 stacks Lava wave will have 50% chance to double the Burn duration and increase
 Volcanus mana by 225, at 50 Stacks Volcanus will throw 3 Waves instead of 1, each dealing the same amount of damage but dealing 40%
-reduce damage if the target is hit again by aother Lava Wave and increase Volcanus spell amp by 10%.
+reduce damage if the target is hit again by aother Lava Wave and increase Volcanus spell amp by 10%. The Scorched Earth Burn will damage
+every 1.0 seconds instead of 0.5 seconds and it will last 6 seconds.
 
 
 SPELL E Volcano - Magical -
 Volcanus Channel a Volcano for 6 7 8 9 seconds, each 1.0 seconds the Volcano will throw Lava Balls at random in its radius dealing
-high magical damage and Ministuning enemys for 0.1, they will take increase damage from Volcanus spells every time they get damage form
+high magical damage and Ministuning enemys for 0.1. They will take increase damage from Volcanus spells every time they get damage form
 Volcano and Volcanus will gain 15% damage reduction while he is Channeling. The Amount of lava Balls will increase by 1 for every 17
 inteillgence. the extra damage taken will refresh if they are hit again by a Lava Ball, the debuff duration will last 4.5 seconds.
 
@@ -130,13 +151,14 @@ damage 16 22 28 34 plus 40% of Inteillgence
 base Amount of Lava Balls 6 9 12 15
 base Volcano Radius 550 600 650 700
 increase Volcano radius by 150% 175% 200% 225% of inteillgence
-extra damage taken 3%
-coldown 16
+extra damage taken 1.5% 2% 2.5% 3%
+coldown 28
 mana cost 50 100 150 200 plus 5% of max mana
+Mana cost every 1.0 seconds of channel 4 5 6 7
 
 talent level 20 upgrade Volcano
-increase inteillgence scaling by 15%
-increase the amount of lava balls by 5
+increase inteillgence scaling by 25%
+increase the amount of lava balls by 3
 increase the damage taken by 1%
 remove max mana cost
 
@@ -147,10 +169,11 @@ least 3 seconds, 50% of Volcano radius will be the Explosion dealing 50 plus 75%
 Soul Burn with all of its effect but also having 1.5 seconds duration reduce, Volcanus will gain 5 health for every Lava Spawn Created
 at 50 health gain, increase volcanus health by 10% and health regeneration by 3.5, at 150 health gain, Volcano will have 8 base damage
 bonus and increase Volcanus health regeneration Source by 30% and reduce the duration of healing source reduction by 25%. Max of 200
-health gain and he lose all of them on death.
+health gain and he lose all of them on death. The Lava Spawn cannot be controlled and will follow Volcanus around but can be click on
+to see their passive effects.
 
 LAVA SPAWN STATS Range 345
-health 275 plus 15% of Volcanus health
+health 275 plus 13% of Volcanus health
 no mana
 Armor 7
 Magic resist 15%
@@ -158,36 +181,36 @@ damage 11-27 plus 10% of Volcanus Int
 Base attack time 1.85
 
 Passive Living Lava
-Enemys that come close to the Lava Spawn 265 radius will get burn for 4 plus 7% of Lava Spawn Attack damage every 0.4 seconds in Magical
+Enemys that come close to the Lava Spawn 265 radius will get burn for 3 plus 5% of Lava Spawn Attack damage every 0.4 seconds in Magical
 damage that stack with the others Lava spawn as well, also increase their Pure resist by 20% and increase this bonus by 1% for every 3
 seconds they live
 
 Passive Recreate
-Lava Spawn will Create Smaller Lava Spawn after they deal 50% of their total Max health in damage with their Basic attack and Living
-Lava to the enemys they will Crate 1 Smaller Lava Spawn with only 50% of their total stats they had, those smaller Version of them
-self will not Recreate new one, also refresh the duration of the Normal Lava Spawn duration to 60 again and the Smaller one with last
-35 seconds. this can only happen 1 time
+Lava Spawn will Create Smaller Lava Spawn after they deal 40% of their total Max health in damage with their Basic attack and Living
+Lava to the enemys they will Create 1 Smaller Lava Spawn with only 50% of their total stats they had, those smaller Version of them
+self will not Recreate new one, also refresh the duration of the Normal Lava Spawn duration to 70 again and the Smaller one with last
+35 seconds. this can only happen 2 time
 
 
 PASSIVE D OR F Incinerate
-Increase Volcanus Agility, Strenght and Inteillgence, all of Volcanus spells will give 1 stacks of Incinerate every time they deal
+Increase Volcanus Agility, Strenght with Inteillgence and all of Volcanus spells will give 1 stacks of Incinerate every time they deal
 damage, Incinerate will do burn damage every 1.0 seconds base on Volcanus Inteilgence and after 6 seconds if the target doesnt die,
-Incinerate will explode dealing medium damage to nearby enemys and the target him self only work once for each targets, if they die
+Incinerate will explode dealing medium damage to nearby enemys and the target him self only work once for each targets. If they die,
 Incinerate will also explode dealing same damage. Basic attack will also give enemys 1 stack of Incinerate. Incinerate will last 2.5
 seconds and will deal Pure damage on the burn and explosion. Incinerate will gain 40% of Volcanus inteillgence in bonus radius for the
 Explosion. Incinerate will also reduce the target healing sources by 15%.
 
 Attributes bonus 7% 8% 9% 10%
 Incinerate base burn damage 18% 22% 26% 30% of int
-Incinerate bonus burn damage per stacks 2% of int
+Incinerate bonus burn damage per stacks 1% of int
 Incinerate max stacks 8 12 16 20
-Incinerate explosion damage 20 25 30 35 plus 50% of inteillgence
+Incinerate explosion damage 10 15 20 25 plus 65% of inteillgence
 base explosion radius 240 260 280 300
 
 talent level 20 upgrade Incinerate
-Increase base burn scaling by 20%
+Increase base burn scaling by 10%
 increase Incinerate burn stacks by 5
-increase Incinerate base damage by 15
+increase Incinerate base damage by 10
 
 add a new modfier Fire Blast
 Incinerate will have 40% increase explosion radius and 20% increase damage if it explode under the 6 seconds marks, making the enemys
