@@ -258,28 +258,28 @@ health 95-150
 strenght 2-8
 
 
-Hulos
-Increase the user damage, Strenght and lifesteal, also make attack and spells ignore armor from the target.
+Hulos 2H Sword
+Increase the user damage, Strenght and lifesteal, also make attack and spells ignore armor from the target. Part of the Mad Being Set
 
 Passive item use
 spells and attacks will ignore 3 armor from the target
 
-damage 5-10
-strenght 3-6
-lifesteal 2%-5%
-BAT 2.00
+damage 6-13
+strenght 3-5
+lifesteal 2%-4%
+BAT 2.05
 
 
 Mad Gloves
 increase the user armor, magic resist and attack speed, attacks will have a small chance to make the user go into a Fury increasing
-his attack speed and reducing damage taken for a short duration
+his attack speed and reducing damage taken for a short duration. Part of the Mad Being Set
 
 Passive item use
 each attack will have 14% chance to trigger a fury that increase attack speed by 15 and reducing damage taken by 5% for 4 seconds
 
-Armor 1-4
-magic resist 5%-8%
-attack speed 10-20
+Armor 2-4
+magic resist 5%-7%
+attack speed 10-25
 
 
 Stone of Sickness
