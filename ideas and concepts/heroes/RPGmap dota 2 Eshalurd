@@ -139,17 +139,22 @@ will stay on Coldown as long its still has duration remaining. Eshalurd will dea
 
 
 PASSIVE DoomBringer
+Eshalurd will gain bonus Agility and Strenght with some health regeneration base on his Agility and Inteillgence. Enemys that die around
+Eshalurd (600 radius) will give him flat health and also empower his 3 basic spells. Each level of Eshalurd will increase His Spellamp
+and also reducing his 3 basic spell mana cost as well, Eshalurd will gain 11% movespeed for 4.5 seconds after casting a spells or item
+effect and also reduce the coldown of items by 10% 15% 20% 25%. Each 15 seconds, Eshalurd next spell will have 12% total mana cost reduce
+and have 8% 16% 24% 32% bonus damage as well (can be toggle on and off).
 
+Bonus AGI and STR 4% 6% 8% 10%
+Health regen base on AGI and Int 9% 11% 13% 15%
+Health gain 7 18 29 40 plus 25% of Strenght and Agility
+Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.2% 0.3% 0.4%
+Reduce Mana Cost (base on Eshalurd LVL) 0.07% 0.15% 0.23% 0.31%
+Reduce Dooming Slash coldown by 0.7 1.1 1.5 1.9
+Reduce Base mana cost of LVL? Death by 15 25 35 45
+Increase the Radius of Doom Flames by 30 60 90 120
 
-
-
-
-
-
-
-
-
-
+Talent level 20 Upgrade DoomBringer
 
 
 level 1 talent
