@@ -1,0 +1,35 @@
+List of bosses that can get 1 to 3 bonus effect on their Unbroken Will Passive
+
+Level 1 to 13 bosses will have 1 effect
+Level 14 to 28 bosses will have 1 to 2 effect
+Level 29 to 40 bosses will have 1 to 3 effect
+
+Effect 1
+Boss is Immune to Max health and Current health damage
+
+Effect 2
+Boss cannot have more than 40% increase damage taken from debuff source
+
+Effect 3
+Boss cannot go lower than -10% magic resist (Effect 5 will not come with this one)
+
+Effect 4
+Boss cannot go lower than -5 armor (Effect 5 will not come with this one)
+
+Effect 5
+Boss cannot go below 0 armor and Magic resist (Effect 3 and 4 will not come with this one)
+
+Effect 6
+Boss reduce Damage over time debuff by 50% (Effect 7 will not come with this one)
+
+Effect 7
+Boss Reduce Debuff durations by 35% and also give a 15% damage reduction while under a debuff effect (Effect 6 will not come with this one)
+
+Effect 8
+Boss will gain 90% damage Reduction while stun and increase Stun duration on the Boss by 11%
+
+Effect 9
+Boss Will gain 1% magic resist for every 1.5% health lost and also increase his magic resist by 20%
+
+Effect 10 
+Boss will gain 0.5 armor for every 1.5% health lost and also increase his armor by 10
