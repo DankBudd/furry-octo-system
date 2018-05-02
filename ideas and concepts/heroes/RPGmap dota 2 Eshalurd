@@ -35,8 +35,8 @@ from Eshalurd for 5 seconds.
 DEBUFF Eshalurd cannot use wand, staff and shield items and he will take 75% increase damage from physical, magical and Pure damage,
 he will lose 1% mana every levels up to 40% mana lost, Mana removal effect will have double effects on Eshalurd (damage also affect this)
 and Lifestealing effect from items will have 50% reduce effect on Eshalurd as well, in 2Handed weapons he will take 20% increase damage
-from all Source and in One-Handed he will increase hisbase attack time by 0.10 (having 2 One-Handed weapons will result having 0.20
-increase BAT). he also deal 15% less total damage to bosses Units.
+from all Source and in One-Handed he will increase his base attack time by 0.10 (having 2 One-Handed weapons will result having 0.20
+increase BAT). he also deal 15% less total damage to Boss Units.
 
 talent level 40 upgrade DoomKnight
 
@@ -44,23 +44,23 @@ talent level 40 upgrade DoomKnight
 
 
 SPELL Q Dooming Slash - Physical -
-deal high amount of damage to a single target, breaking the target armor to -2 -4 -6 -8 -10 -12 -14 and cannot be increase or lower.
-If the target is below 15% health, Dooming Slash will deal increase damage and have no coldown on those target. this spell will gain
-6% increase damage and 2.1% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage and
-also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. 
+deal high amount of damage to a single target, breaking the target armor to -2 -4 -6 -8 -10 -12 -14 and cannot be increase but can be
+lowered. If the target is below 20% health, Dooming Slash will deal increase damage and have no coldown on those target. this spell will
+gain 6% increase damage and 2.1% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage
+and also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. 
 
-Base damage 22 plus 15% of Agility and Strenght
-Health Threshold damage bonus 10 15 20 25 30 35 40
+Base damage 20 plus 12% of Agility and Strenght
+Health Threshold damage bonus 7 10 13 16 19 22 25
 Health restore (Base on DMG) 20%
-Health restore (base on max Health) 2.5%
-Strenght bonus 4 6 9 12 16 20
-Attack speed Bonus 5 10 17 24 32 40 52
+Health restore (base on max Health) 1.7%
+Strenght bonus 4 6 9 12 16 20 25
+Attack speed Bonus 6 13 19 26 33 41 56
 coldown 9
 mana cost 90
 
 talent level 10 Upgrade Dooming Slash
-increase base damage by 6
-increase scaling by 10%
+increase base damage by 8
+increase scaling by 4%
 increase Health restore (Base on DMG) by 12%
 Increase Health restore (base on max Health) by 1.2%
 reduce mana cost by 15
@@ -85,8 +85,8 @@ base damage 30 plus 20% of Agility and Strenght
 Increase damage (base on Eshalurd LVL) 3.5%
 Increase damage (base on the target LVL) 2.1%
 Debuff duration 4.5 5.1 5.7 6.3 6.9 7.5 8.1 seconds
-Agility bonus 3 6 9 13 17 22 28
-Health bonus 55 120 180 245 315 400 575
+Agility bonus 4 6 9 12 16 20 25
+Health bonus 55 80 130 165 235 290 385
 coldown 17
 Mana cost 125
 
@@ -114,19 +114,19 @@ and STR. This spell will gain 4% increase damage and 1.7% manacost increase for 
 seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
 
 base damage 9 plus 5% of Agility and Strenght
-health regeneration 7.5 plus 12% of Agility and Strenght
+health regeneration 4.5 plus 12% of Agility and Strenght
 duration 9.0 9.3 9.6 9.9 10.2 10.5 10.8
-radius 500 525 550 575 600 625 650
-Inteillgence bonus 4 7 10 15 20 27 34
+radius 400 425 450 475 500 525 550
+Inteillgence bonus 5 8 11 16 21 28 35
 Mana Regeneration bonus 0.7 1.1 1.6 2.2 2.7 3.8 5.1
 coldown 20
 mana cost 175
 
-talent level 15 upgrade Doom Flames
+talent level 20 upgrade Doom Flames
 increase base damage by 3
 increase scaling by 2%
-increase base health regeneration by 2.0
-increase base radius by 100
+increase base health regeneration by 4.5
+increase base radius by 125
 reduce coldown by 2
 increase mana cost by 50
 
@@ -143,13 +143,14 @@ Eshalurd will gain bonus Agility and Strenght with some health regeneration base
 Eshalurd (600 radius) will give him flat health and also empower his 3 basic spells. Each level of Eshalurd will increase His Spellamp
 and also reducing his 3 basic spell mana cost as well, Eshalurd will gain 11% movespeed for 4.5 seconds after casting a spells or item
 effect and also reduce the coldown of items by 10% 15% 20% 25%. Each 15 seconds, Eshalurd next spell will have 12% total mana cost reduce
-and have 8% 16% 24% 32% bonus damage as well (can be toggle on and off).
+and have 8% 16% 24% 32% bonus damage and 2 4 6 8 base damage as well (can be toggle on and off). Doom Flames will gain 50% of the base
+damage bonus.
 
 Bonus AGI and STR 4% 6% 8% 10%
 Health regen base on AGI and Int 9% 11% 13% 15%
 Health gain 7 18 29 40 plus 25% of Strenght and Agility
-Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.2% 0.3% 0.4%
-Reduce Mana Cost (base on Eshalurd LVL) 0.07% 0.15% 0.23% 0.31%
+Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.3% 0.5% 0.7%
+Reduce Mana Cost (base on Eshalurd LVL) 0.04% 0.11% 0.18% 0.25%
 Reduce Dooming Slash coldown by 0.7 1.1 1.5 1.9
 Reduce Base mana cost of LVL? Death by 15 25 35 45
 Increase the Radius of Doom Flames by 30 60 90 120
@@ -159,13 +160,14 @@ Talent level 20 Upgrade DoomBringer
 
 level 1 talent
 -
-increase strenght gain by 0.2 every level and also increase strenght by 5
+increase Strenght gain by 0.2 every level and also increase strenght by 4
 -
-increase agility gain by 0.2 every level and also increase agility by 5
+increase Agility gain by 0.2 every level and also increase agility by 4
 -
-increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+Increase Agility and Strenght Gain by 0.1 every level and also increase Agility and Strenght by 2
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, also reduce Enigma spell coldown by 1.
+Increase Inteillgence gain by 0.4 every level and also increase Inteillgence by 6, but reduce his Agility and Strenght by 4 and also
+increase his Inteillgence by 3% and increase Doom Flames damage by 8% of Eshalurd Inteillgence and reduce its coldown by 1.
 -
 level 4 talent
 -
