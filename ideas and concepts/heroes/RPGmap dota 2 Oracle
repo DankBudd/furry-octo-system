@@ -1,6 +1,10 @@
-Oracle Starting stats 10 Int, 0 Agi, 0 Str, base speed 300, base damage 7, Stats Gain per level 2.80 int, 0.00 str, 0.00 agi
-Starting item Broken Orb give 2 damage and 4 int base attack time 3.00 Support-low DSP
-LEVEL 20 TALENT
+                                                       Oracle the Fated One
+Starting stats 3 strenght, 0 agility, 15 inteillgence, Stats gain per level, 0.40 Strenght, 0.00 Agility, 2.50 Inteillgence.
+Base movespeed 300, Base attack damage 0-0, Base Regeneration Health 0.7, Base Regeneration Mana 1.0.
+
+total base stats at level 40 - 19 Strenght - 0 Agility - 115 Inteillgence -
+
+Level 30 Talents
 
 Talent 1
 increase Oracle armor by 5 and magic reist by 12%
@@ -14,17 +18,17 @@ Oracle will gain 250% of his healing amp and spell amp as bonus mana and every 8
 PASSIVE D OR F Prophet
 give a positive and negative buff, Pressing ALT will give INFO for Ocale level 20 talent and level 25 talent for this passive
 
-BUFF Oracle, gain 2 life per intelligence and 1% heal amp per 18 intelligence he also start with 10% bonus mana and immune to Roots he 
-also gain a shield every 7 second cannot regain shield in combat, equal to 20% of his mana that last until he take the amount of damage
-needed and he also gain 5 more mana from inteillgence and 0.1 mana regeneration for every 70 current mana he got
-DEBUFF Oracle does not gain any strenght or agility per level and strenght give 0 life and he gain 1 damage per 25 intelligence instead of
-5 he also lose -8 armor at the start and -20% magic resist as well, he can only use ORB type weapons
-BONUS BUFF God Prayer
-When Mhadreno, Davion and Oracle are in the same game they will gain bonus , gaining them 4 armor with 3 mana regeneration, 8% health
-bonus, and increasing their SPELL Q healing by 20%, For Oracle his Spell E will gain the bonus not his Q
+BUFF Oracle will gain 3 health per Inteillgence and also gaining 1% healamp for every 10 Inteillgence points. He also become Immune to
+Roots and he will gain a Shield every 10 seconds base on 25% of his max mana (Shield cannot be regain in combat), he will start to regain
+his shield if he doesnt take damage or out of combat. He also start with 50 health and 125 Mana, he start with a Special Orb weapons that
+cannot be change.
+
+DEBUFF Oracle will not gain Agility per level and he also cannot attack with his auto attack, he also take 100% more damage from physical
+and 50% more damage from magical and Pure damage. Oracle will lose 75% stun resistence and 25% silence resistence as well and he will take
+0.1% of his max health for every 0.2 seconds of stun duration on him.
 
 
-talent level 40 upgrade Prophet
+talent level 40 Upgrade Prophet
 add a new modifier Life Explosion
 40% of oracle spell mana cost will heal nearby ally and him 500 AoE and he got 20% resist to Stuns and upgrade Oracle Spell as well
 Time Shield, Now become a 500 Radius area of Effect instead of single target
@@ -33,112 +37,130 @@ Ancient Healing, reduce the Jump delay by 0.2 and increase healing on the target
 
 
 SPELL Q Time Shield
-Oracle put a shield on the target ally making him invincible to damage and after the duration expire all the damage he took will restore the
-target health and mana also exploding dealing small damage, doesnt get affected by healing amp
+Oracle give one of his Allys a shield that will make them invinsible to any damage for a short duration, after the shield duration ends
+the target will heal for that amount of damage taken and also restore a small amount of mana as well from the damage taken. Also give
+them 10% damage reduction for 5 seconds after the shield duration ends. Oracle will also be Shield for double the duration and also
+gaining 20% damage reduction for 5 seconds. After the Shield duration ends, it will do Medium damage in a 375 radius around the target
+dealing pure damage.
 
-damage from explosion 15 20 25 30 plus 25% 28% 31% 34% of int damage type pure
-Shield duration 3.2 3.5 3.8 4.1
-life restore 11% 22% 33% 44% of the damage taken
-Mana restore 9% 12% 15% 18% of the damage taken
-cooldown 25 22 19 16
+Explosion base damage 10 15 20 25 Plus 20% of inteillgence
+Shield duration 2.1 2.5 2.9 3.3
+life restore 25% 30% 35% 40% of the damage taken
+Mana restore 9% 11% 13% 15% of the damage taken
+cooldown 19
 mana cost 100 200 300 400
 
 talent level 10 upgrade Time Shield
-increase duration of Shield of Fate by 0.4
-increase healing restore by 11%
-increase mana restore by 7%
+increase duration of Shield of Fate by 0.5
+increase healing restore by 15%
+increase mana restore by 3%
 increase mana cost by 150
-reduce cooldown by 1
+reduce cooldown by 2
 
-add a new modifier Shield of Might
-After Time Shiled duration ends, all of the damage the unit who was affected by it will gain 1% damage reduction for every 7 damage
-plus 4 every level of Oracle got that cap at 20% damage reduction and also increase the target spell amp by 12% and damage by 14 for
-7 seconds, Oracle will gain 50% of that bonus for him self if not cast on him.
+add a new modifier Shield Fate
+Time Shield will become a 325 Area of Effect instead of a Single target (Cannot effect non-hero units) and for every target affected by
+Time Shield, it will increase its duration by 0.3, health restore by 4% and explosion damage by 12%. Oracle will gain Fated Damage stacks
+for every target put under Time Shield, each stacks will give 1 health and 2 mana to Oracle. At 35 stacks, Oracle will gain 10% Spellamp
+and Healing amp and also reduce the mana cost of Time Shield by 15%. At 60 stacks, Time Shield will gain 100 Area of Effect bonus and
+also increasing the Explosion base damage by 15. at 110 Stacks, Time Shield will Further gain 0.2 duration bonus for every units affected
+by it and also increasing the damage reduction bonus by 10%. Max stack of 135 and Oracle will lose 50 stack on death. (Oracle will no
+longer be Shield for double the duration)
 
 SPELL W Mind Blast
-deal small damage to a unit and fearing them, if cast on ally the next attack or spell will do increase damage and if cast on oracle
-heal him for his Max Health
+Oracle Primary tool of damage. Deal high damage to a target reducing their overall damage and also reducing their magical resistence.
+The target will also get fear after 2.5 seconds of delay, they will be fear for 1.4 1.7 2.0 2.3 seconds and durring that time of fear,
+they will take 40% 55% 70% 85% increase damage from all source. If the target damage or hit Oracle before they get Fear, they will lose
+the Fear debuff.
 
-damage 14 17 20 23 plus 33% 40% 47% 54% of int damage type magical
-fear duration 0.4 0.5 0.6 0.7
-next basic attack or spell increase damage 15% 30% 45% 60%
-buff duration 4 second
-self healing 11% 12% 13% 14% of max health 
-cooldown 11 10 9 8
-mana cost 70 130 190 250
+Base damage 9 15 21 28 Plus 40% of Inteillgence
+Overall damage reduce 6% 10% 14% 18%
+Magic resist lost 10% 15% 20% 25%
+debuff duration 4.5 5 5.5 6.0
+Coldown 14 13 12 11
+mana cost 75 110 155 190
 
 talent level 10 upgrade Mind blast
-increase damage by 7
-increase int scalling by 6%
-increase fear duration by 0.2
-increase next basic attack or spell damage by 10%
-increase mana cost by 70
-reduce cooldown by 4
+increase base damage by 8
+increase Inteillgence scaling by 15%
+increase fear duration by 0.4
+increase mana cost by 40
 
-add a new modifier Vitality Mind
-now become a 300 Area of Effect that still buff,damage but reduce the healing on oracle to 4% of max health also giving a new buff
-that last 5 second increasing the target life regeneration by 1% of their max health 0.50% on oracle, and Mind Blast will also
-deal 1% of the enemys current life as damage and increasing total health by 5% every time up to 25% for allys refreshing every
-cast of Mind Blast
+add a new modifier Vitality Mind and Darked Mind
+Mind Blast can be cast on allys Giving them 10 Plus 15% of Oracle Inteillgence in Health regeneration bonus and also increasing their
+armor by 5 and magic resist by 15% for 6 seconds. Mind Blast will also deal 1.5% increase damage for every 1% current health on the target
+and for every 200 damage done with Mind Blast, Oracle will gain 1 stack of Fated Fear, Each stacks will give Oracle 1 Inteillgence and 0.2
+mana regeneration. At 4 stacks, Oracle will gain 5% damage reduction and 10% coldown reduction. At 7 Stacks, Mind Blast will gain 7 base
+damage bonus with 10% increase scaling and also increasing the debuff duration by 1.0 seconds. At 14 Stacks, Mind Blast will become a
+275 Area of Effect and also increasing the Area of Effect by 20% of Oracle Inteillgence and Mind Blast will always deal 1% of the target
+max health in Pure damage (bosses will take 0.5% max health damage). Oracle cannot cast Mind Blast On himself.
 
 SPELL E Ancient Healing
-Heal multiple target jumping each time but reducing the healing effect and restoring mana to the target as well and Oracle will not gain
-any mana but get heal by the amount of mana restore instead
+Oracle will heal Multiple allys, having a 0.5 delay per Bounce and also reducing the total healing by 4% for each Bounce (max of 40%).
+The First Bounce will give the target 1 armor and 2% magic resist and further bounces will increase that value by x1, giving the other
+target more armor and magic resist. Also increase the max bounce limit by 1 for every 25 Inteillgence points and the jump Distence is
+625. If the target is full health the Heal will be turn into mana, 50% of the total heal will become mana instead of healing them.
+Also increase the Primary target health regeneration with spellamp and attack damage. (The Second bounce will give 2 armor and 4% magic
+resist and the third one 3 armor and 6% magic resist and so on).
 
-Heal 80 140 200 260 plus 60% 70% 80% 90% of inteillgence
-Heal reduction per jump 7%
-mana restore 50 80 110 140 plus 25% 32% 39% 46% of inteillgence
-mana restore reduction per jump 7%
-max reductions 70%
-jump distence 500
+Heal 80 120 160 200 plus 50% 60% 70% 80% of inteillgence
 max jump 3 4 5 6
-increase max jump by 1 for every 26 intelligence points
-jump delay 0.5 second
-cooldown 10 9 8 7
-mana cost 100 140 180 220
+Target bonus health regen 7 14 21 28
+Target bonus attack damage 10% 15% 20% 25%
+Target bonus spellamp 10% 15% 20% 25%
+buff duration 4.5 seconds.
+cooldown 10
+mana cost 110 140 170 200
 
-talent level 15 upgrade Ancient Healing
-increase heal by 70
-increase heal scaling int by 35%
-increase max jump by 3
-reduce the heal and mana reduction by 3%
-reduce max reductions by 30%
-increase mana cost by 110
-reduce cooldown by 1
+talent level 20 upgrade Ancient Healing
+increase heal by 50
+Increase heal scaling by 40%
+increase max jump by 2
+increase health regeneration by 16
+increase buff duration by 1.0
+increase mana cost by 75
 
 add a new modifier Ancestral Power
-healing jump turn global casting it on oracle will not make it global, it will never stop jumping until here is no jump remaing,
-meaning that it will affect the target multiple time with no limit but it will alway target people with the least health
-Ancient Healing also got 25% chance to double the Amount of healing instead of normal and increasing that target movement speed by
-15% for 10 second. It also got 5% chance to triple the healing and create a new Ancient Healing with only 50% effect and that
-Ancient Healing will not be able to proc the double and triple healing effect.
+Ancient Healing will gain 45 bonus jump distence for every bounce done and also giving each target 8% damage reduction for 3.5 seconds
+and further increasing the duration of that damage reduction by 1.0 second for every bounce made. Ancient Healing will Ignore healing
+effect reduce on the target and the bounces and for every 1000 healing done Oracle will gain 1 stack of Fated Life, each stacks will
+give Oracle 2% healing amp and 0.4 health regeneration. At 3 stacks, Oracle will gain 10 Inteillgence and 5% max health. At 6 Stacks,
+Ancient Healing will gain 70 base heal increase and 350 increase cast range. At 9 stacks, Ancient Healing will gain 20% increase scaling
+and it will heal the Primary target by 7% of his max health and the bounces will restore others health by 3%. Oracle will no longer
+be able to be effect by Ancient Healing.
 
+PASSIVE D OR F Fated Aura
+Increase allys armor and their healing source, Oracle will gain double of those bonus. Allys near Oracle will also gain Magical resist
+and it will further get increase by 3% for every allys near to oracle. Oracle will gain 1% coldown reduction for every 10 9 8 7
+inteillgence he got and allys will gain 50% of that coldown reduction for them as well. Increase the armor from Fated Aura by 1 for
+every 15 Inteillgence. Oracle will not gain the magic resist. Oracle will also increase his next spell healing and also reduce its cold
+down as well. His Q and W will heal allys by 250% of his Inteillgence for base. Enemys will also take damage when near Oracle. The Aura
+radius is 900 plus 200% of Oracle Inteillgence
 
-PASSIVE D OR F Fate Aura
-increase armor,magic resist and life regeneration for nearby ally and for the enemy they will take more damage from anything
-and taking increase stun,root and blind duration as well
-
-armor bonus 1 3 5 7
-magic resist bonus 4% 7% 10% 13%
-life regeneration 2 3 4 5 plus 3% of int
-enemy damage taken bonus 5% 10% 15% 20%
-increase the duration of Stun,Root,Blind by 10% 20% 30% 40% on enemys
-radius of aura 700
-increase the radius by 100% 200% 300% 400% of Oracle Inteillgence
+Armor bonus 3 5 7 9
+Base Magic resist 6% 9% 12% 15%
+Healing Source bonus 15% 20% 25% 30%
+next spell healing bonus 10% 20% 30% 40%
+next spell coldown reduction bonus 1 2 3 4
+coldown for empower 20 18 16 14
 
 talent level 15 upgrade Fate Aura
-increase inteillgence scaling of life regeneration by 1%
-increase enemy damage taken by 10%
-increase magic resist by 2%
+increase bonus armor by 3
+increase base magic resist by 6%
+increase healing source bonus by 10%
+reduce the coldown of empower by 4
 
-add a new modifier Fate Armor
-increase the armor bonus by 1 for every 45 inteillgence oracle he got, oracle also gain 1% cooldown reduction for every 21 inteillgence
-that only work for him and not giving that to near ally, any enemy that die inside of the radius of fate aura will give oracle and his
-allys 0.6% life back and full health for bosses and also giving them 2 damage and 1% spell amp that last 10 second that stack up to 10 
-max Stacks
+add a new modifier Fate is Near
+Each allys inside of Fated Aura will increase its armor bonus by 1.5 and also giving allys 1% damage reduction as well. Oracle will gain
+12% Status Resistence for every allys inside of his Fated Aura, and Allys that are below 40% health will be Ancient Healing with 50%
+reduce healing effect. (Ancient Healing will have its Ancestral Power Talent for this effect even if he doesnt have it). Oracle will
+gain 1 seconds from one or more ally in is Fated Aura and for every 35 seconds done he will gain a stack of Fated Being. Each stack will
+give 1% health and mana. at 3 stacks increase Fated Aura next spell healing bonus by 20% and coldown by 1. At 5 stacks, increase Oracle
+Movespeed by 75 and health by 65 also gving him Phase. At 8 Stacks, Fated Aura will gain 900 radius and it will also give its bonus Global
+for everyone but at the cost of 50% reduce effect from it (If they get inside of the radius they will gain the normal amount). max stack
+of 10 and 1 stack is lost upon getting stun.
 
 
-ULTIMATE R Fate's Edict
+ULTIMATE R Fate's Edict will get change
 Give any allys a bonus that last until they die or Oracle die, if the target Primary stats is Inteillgence, increase their INT, spell amp
 and Healing amp, if the target Primary stats is Agility, increase AGI, damage and attack speed, if the target Primary stats is Strenght,
 Increase STR, armor and Magic resist and every cast on the same target will increase their stats bonus they gain by a small amount.
