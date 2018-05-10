@@ -132,9 +132,8 @@ PASSIVE D OR F Fated Aura
 Increase allys armor and their healing source, Oracle will gain double of those bonus. Allys near Oracle will also gain Magical resist
 and it will further get increase by 3% for every allys near to oracle. Oracle will gain 1% coldown reduction for every 10 9 8 7
 inteillgence he got and allys will gain 50% of that coldown reduction for them as well. Increase the armor from Fated Aura by 1 for
-every 15 Inteillgence. Oracle will not gain the magic resist. Oracle will also increase his next spell healing and also reduce its cold
-down as well. His Q and W will heal allys by 250% of his Inteillgence for base. Enemys will also take damage when near Oracle. The Aura
-radius is 900 plus 200% of Oracle Inteillgence
+every 20 Inteillgence. Oracle will not gain the magic resist. Oracle will also increase his next spell healing and also reduce its cold
+down as well. His Q and W will heal allys by 250% of his Inteillgence for base. The Aura radius is 900 plus 200% of Oracle Inteillgence.
 
 Armor bonus 3 5 7 9
 Base Magic resist 6% 9% 12% 15%
@@ -154,38 +153,40 @@ Each allys inside of Fated Aura will increase its armor bonus by 1.5 and also gi
 12% Status Resistence for every allys inside of his Fated Aura, and Allys that are below 40% health will be Ancient Healing with 50%
 reduce healing effect. (Ancient Healing will have its Ancestral Power Talent for this effect even if he doesnt have it). Oracle will
 gain 1 seconds from one or more ally in is Fated Aura and for every 35 seconds done he will gain a stack of Fated Being. Each stack will
-give 1% health and mana. at 3 stacks increase Fated Aura next spell healing bonus by 20% and coldown by 1. At 5 stacks, increase Oracle
-Movespeed by 75 and health by 65 also gving him Phase. At 8 Stacks, Fated Aura will gain 900 radius and it will also give its bonus Global
+give 1% health and mana. at 3 stacks increase Fated Aura next spell healing bonus by 25% and coldown by 2. At 5 stacks, increase Oracle
+Movespeed by 75 and health by 85 also gving him Phase. At 8 Stacks, Fated Aura will gain 900 radius and it will also give its bonus Global
 for everyone but at the cost of 50% reduce effect from it (If they get inside of the radius they will gain the normal amount). max stack
-of 10 and 1 stack is lost upon getting stun.
+of 10 and 1 stack is lost upon getting stun. The Ancient healing casted when allys are below 40% health will have 25 second coldown. 
 
 
-ULTIMATE R Fate's Edict will get change
-Give any allys a bonus that last until they die or Oracle die, if the target Primary stats is Inteillgence, increase their INT, spell amp
-and Healing amp, if the target Primary stats is Agility, increase AGI, damage and attack speed, if the target Primary stats is Strenght,
-Increase STR, armor and Magic resist and every cast on the same target will increase their stats bonus they gain by a small amount.
-if casting Fate's Edict on any other target, it will remove the buff and the stack on the last person who had it.
+ULTIMATE R Fate's Edict
+Oracle will give a fated blessing upon one of his allys. always giving them 20 40 60 Primary stats and also giving 4% 8% 12% damage
+reduction. Strenght heroes will gain bonus Armor, Magic Resist and also giving them 10% 20% 30% status resistence. Agility heroes will
+gain bonus Attack speed, Attack damage and also making them lifesteal for 10% 18% 26% of their damage with spells and auto attacks.
+Inteillgence heroes will gain bonus Spell Amp, Healing Amp and also reducing their coldown of their 3 basic spells by 14% 20% 26% and
+giving them 320 540 760 cast range. Fate's Edict will also be a Permanent buff on them with 50% reduction of the base bonus gain and
+the buff itself will last 20 25 30 seconds. Cannot be cast on Oracle. Oracle will gain 3 7 11 Inteillgence and 2% 3% 4% damage reduction
+for every allys with the permanent buff on them. Cannot be casts on Non-Heroes Units. Basic spells will reduce the coldown of Fate's Edict
+by 1.0 seconds.
 
-bonus INT 4 8 12
-bonus spell amp 6% 10% 14%
-bonus Healing amp 8% 12% 16%
-bonus AGI 4 8 12
-bonus damage 6 12 18
-bonus attack speed 10 18 26
-bonus STR 4 8 12
-bonus armor 2 4 6
-bonus magic resist 12% 15% 18%
-Improve bonus per stack 25%
-max stack of Improve bonus 2 3 4
-no mana cost
-cooldown 150 140 130
+Armor 6 12 18
+Magic Resist 12% 24% 36%
+Attack speed 20 40 60
+Attack Damage 16 32 48
+Spell Amp 10% 20% 30%
+Healing Amp 20% 30% 40%
+coldown 200 185 170
+mana cost 25% 40% 55%
 
-talent level 25 Upgrade Fate's Edict
-increase Max stack by 4
+talent level 40 Upgrade Fate's Edict
+increase armor by 8
+increase attack speed by 60
+increase Spell Amp by 20%
+reduce coldown by 60
+reduce mana cost by 20%
 
-add a new Modifier True Fate
-after the target reach the max stack of 8 Fate's Edict he will reduce all debuff duration by 40% and gain 25% Stun resist and also
-Restoring Oracle health and mana by 0.5% for every auto attack and 3% for every spell casted and every time they kill any enemys, they
-will gain 1% damage bonus and 0.5% spell amp with healing amp that stack up to 50 max and that last 15 second refresh every kill on
-enemys and for bosses they will gain 3% damage and 2% spell amp with healing amp until death max of 10 Stacks
+
+
+
+
 
