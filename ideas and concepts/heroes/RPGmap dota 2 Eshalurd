@@ -52,10 +52,10 @@ and also his max total health. Also increase Eshalurd Strenght and Attack speed 
 Base damage 20 plus 12% of Agility and Strenght
 Health Threshold damage bonus 7 10 13 16 19 22 25
 Health restore (Base on DMG) 20%
-Health restore (base on max Health) 1.7%
+Health restore (base on max Health) 1.5%
 Strenght bonus 4 6 9 12 16 20 25
 Attack speed Bonus 6 13 19 26 33 41 56
-coldown 9
+coldown 11
 mana cost 90
 
 talent level 10 Upgrade Dooming Slash
@@ -82,19 +82,19 @@ by 22% for the same duration of the magic resist lost. LVL? Death will gain bonu
 cost per levels of Eshalurd. Also increase Eshalurd Agility and Health for every points spend in LVL? Death.
 
 base damage 30 plus 20% of Agility and Strenght
-Increase damage (base on Eshalurd LVL) 3.5%
-Increase damage (base on the target LVL) 2.1%
+Increase damage (base on Eshalurd LVL) 2.5%
+Increase damage (base on the target LVL) 3.7%
 Debuff duration 4.5 5.1 5.7 6.3 6.9 7.5 8.1 seconds
 Agility bonus 4 6 9 12 16 20 25
-Health bonus 55 80 130 165 235 290 385
-coldown 17
+Health bonus 3% 5% 7% 9% 11% 13% 15%
+coldown 21
 Mana cost 125
 
 Talent Level 10 Upgrade LVL? Death
 increase base damage by 7
 increase scaling by 15%
-Increase damage (base on Eshalurd LVL) by 0.7%
-Increase damage (base on the target LVL) by 0.4%
+Increase damage (base on Eshalurd LVL) by 0.9%
+Increase damage (base on the target LVL) by 0.5%
 reduce coldown by 3
 increase mana cost by 40
 
@@ -119,7 +119,7 @@ duration 9.0 9.3 9.6 9.9 10.2 10.5 10.8
 radius 400 425 450 475 500 525 550
 Inteillgence bonus 5 8 11 16 21 28 35
 Mana Regeneration bonus 0.7 1.1 1.6 2.2 2.7 3.8 5.1
-coldown 20
+coldown 32
 mana cost 175
 
 talent level 20 upgrade Doom Flames
@@ -144,16 +144,16 @@ Eshalurd (600 radius) will give him flat health and also empower his 3 basic spe
 and also reducing his 3 basic spell mana cost as well, Eshalurd will gain 11% movespeed for 4.5 seconds after casting a spells or item
 effect and also reduce the coldown of items by 10% 15% 20% 25%. Each 15 seconds, Eshalurd next spell will have 12% total mana cost reduce
 and have 8% 16% 24% 32% bonus damage and 2 4 6 8 base damage as well (can be toggle on and off). Doom Flames will gain 50% of the base
-damage bonus.
+damage bonus only.
 
 Bonus AGI and STR 4% 6% 8% 10%
 Health regen base on AGI and Int 9% 11% 13% 15%
 Health gain 7 18 29 40 plus 25% of Strenght and Agility
 Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.3% 0.5% 0.7%
-Reduce Mana Cost (base on Eshalurd LVL) 0.04% 0.11% 0.18% 0.25%
-Reduce Dooming Slash coldown by 0.7 1.1 1.5 1.9
-Reduce Base mana cost of LVL? Death by 15 25 35 45
-Increase the Radius of Doom Flames by 30 60 90 120
+Reduce Mana Cost (base on Eshalurd LVL) 0.17% 0.23% 0.27% 0.33%
+Reduce Dooming Slash coldown by 0.7 1.3 1.7 2.3
+Reduce Base mana cost of LVL? Death by 15 30 45 60
+Increase Doom Flames health regeneration by 1.5 3.2 4.9 6.7
 
 Talent level 20 Upgrade DoomBringer
 
