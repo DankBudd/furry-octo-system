@@ -53,33 +53,34 @@ attack damage. They will have 25% increase size when they are raise stronger.
 SPELL Q
 Skeleton Warrior
 Summon a Skeleton Warrior to fight for you, they are really weak to area of effect and can die very fast to high damage they also
-have a chance to deal more damage and lifestealing and attacking faster, they will last until death
+have a chance to deal more damage and lifestealing and attacking faster. They will last until death. They will gain 1 armor for every 13
+Inteillgence Necro got and also gaining 1% magic for every 9 inteillgence Necro got as well.
 
-Skeleton life 90 100 110 120 plus 60% 90% 120% 150% of inteillgence
-Skeleton damage 4-7 5-9 6-11 7-13 plus 8% 9% 10% 11% of inteillgence
-Skeleton armor 2, increase by 1 every 42 39 36 33 inteillgence necro got
-Skeleton magic resist 8% increase by 1% every 15 14 13 12 inteillgence necro got
-Skeleton base attack time 2.3 2.2 2.1 2.0
+Skeleton life 75 95 115 135 plus 75% 125% 175% 225% of inteillgence
+Skeleton damage 6-9 10-13 14-17 18-21 plus 9% 11% 13% 15% of inteillgence
+Skeleton armor 2 3 4 5
+Skeleton magic resist 8% 10% 12% 14%
+Skeleton base attack time 2.4 2.3 2.2 2.1
 Max skeleton 3 4 5 6
 Mana cost 100 120 140 160 plus 3% of max mana
-cooldown 1
+cooldown 4
 
 Skeleton Warrior passive 1
 Swing of The Dead coldown 5
-they get 15% chance to deal 130% 135% 140% 145% damage after that they get 4 instance of 14% 16% 18% 20% lifesteal and 20 30 40 50 attack
+they get 15% chance to deal 130% 145% 160% 175% damage after that they get 4 instance of 14% 18% 22% 26% lifesteal and 20 30 40 50 attack
 speed, the final hit will deal pure damage and lifesteal for 30% 40% 50% 60% of the damage dealt.
 
 Skeleton Warrior Passive 2 
 Undying Bones
 Skeleton Warriors will have 25% chance to come back to life having 10% 14% 18% 22% bonus attack damage until they die again (stack it
 self with the Necro Mastery talent level 20), they also gain 3% 6% 9% 12% lifesteal and 0.7 1.4 2.1 2.8 health regeneration. The health
-Regeneration will increase by 0.1 for every skeleton alive.
+Regeneration will increase by 0.1 for every skeleton alive. They can only revive Onces.
 
 Skeleton Warrior passive 3 talent level 10
-Death Strenght coldown 10
+Death Strenght coldown 25
 Skeleton Warrior will gain 10% 15% 20% 25% Pure resist and when they take Pure damage, they will instead block that Instance of damage
 (must be at least 10% of their max health to block the Pure damage) and when they block it, they will gain 40 50 60 70 attack speed and
-11% 22% 33% 44% movespeed and reducing all slows duration by 40% and damage taken by 25% for 6 seconds,
+11% 22% 33% 44% movespeed and reducing all slows duration by 40% and damage taken by 25% for 12 seconds.
 
 Skeleton Warrior passive 4 talent level 10
 Shielding Hand
@@ -88,8 +89,8 @@ Warrior alive when they are near eachother up to 22% damage reduction max, they 
 will be bonus health and 50% of the armor will be bonus attack damage for them.
 
 talent level 10 upgrade Skeleton warrior
-Skeleton life Increase by 50
-Skeleton damage increase by 2-7
+Skeleton life Increase by 35
+Skeleton damage increase by 3-9
 Skeleton armor increase by 2
 Skeleton magic resist increase by 6%
 Skeleton base attack time reduce by 0.20
@@ -98,21 +99,22 @@ Max skeleton increase by 2
 add a new modifier Steel Bones
 Skeleton Warrior will gain 2 new passives, Necro will now summon 2 Skeleton Warrior instead of 1 and they will have max movespeed and
 Phase for 14 seconds, they also have 30% chance when they die to make a smaller Skeleton Warrior with 50% of the Skeleton Warrior stats.
-Skeletons will also gain 100% of Necro Strenght in Health bonus. Their name will also change to Elite Skeleton Warrior.
+Skeletons will also gain 300% of Necro Strenght in Health bonus. Their name will also change to Elite Skeleton Warrior.
 
 SPELL W
 Skeleton Archer
-Summon Skeleton Archer To fight against your foes, those skeleton will come with a element that will help and deal
-great damage to the enemy and will last until death
+Summon Skeleton Archer To fight against your foes, Those skeletons will have 4 Elements each. Necro can summon a Poison Archer, Ice
+Archer, Fire Archer and Lightning Archer. They will gain 1 Armor for every 20 inteillgence necro got and also gaining 1% magic resist
+for every 15 Inteillgence necro got as well. They last until death.
 
-Skeleton Archer life 45 60 75 90 plus 40% 50% 60% 70% of int
-Skeleton Archer damage 8-13 11-17 14-21 17-25 plus 20% of int
-Skeleton Archer armor 0, increase by 1 every 46 44 42 40 inteillgence necro got
-Skeleton Archer magic resist 15% increase by 1% every 32 29 26 23 inteillgence necro got
+Skeleton Archer life 60 70 80 90 plus 80% 100% 120% 140% of int
+Skeleton Archer damage 11-19 17-25 23-31 29-37 plus 20% of int
+Skeleton Archer armor 0 1 2 3
+Skeleton Archer magic resist 5% 10% 15% 20%
 Skeleton Archer base attack time 2.3 2.1 1.9 1.7
 Max skeleton archer 1 2 3 4
 mana cost 150 190 230 270 plus 3% of max mana
-cooldown 1
+cooldown 4
 
 Skeleton Archer passive, ONE OF EACH MAX
 Elemental being
@@ -125,77 +127,79 @@ ICE ARCHER Ice Shot
 the Archer got 20% chance to Slow the target movement speed by 6% 9% 12% 15% and attackspeed by 6 10 14 18 also dealing 10 17 24 31 
 physical damage plus 65% of the Skeleton Archer damage after the duration ends, the debuff last 3 seconds if the skeleton archer refresh
 the duration of Ice Shot, it will get 15% increase damage every time up to 30% 45% 60% 75% max damage bonus and have 2% increase slow
-up to 4% 6% 8% 10% max slow and also having 3 attack speed reduce up to 6 9 12 15 max attack speed slow.
+up to 4% 6% 8% 10% max slow and also having 3 attack speed reduce up to 6 9 12 15 max attack speed slow. If the target get max stack
+of Ice Shot the debuff will Burst out dealing its damage and increasing its debuff duration to 4.5 seconds and the target will be
+Immune to Ice Shot for that Duration but the Ice Archer will do 15% 20% 25% 30% increase damage on that target for the debuff duration
+of Icy Shot.
 
 FIRE ARCHER Flaming Arrows
 the fire archer has 15% 18% 21% 24% chance to deal 140% 160% 180% 200%, melting the armor and reducing it by 1 2 3 4 that last 5 second
 and if the skeleton crit again he will refresh the duration and increase the armor lost by 1 up to 2 3 4 5 max armor lost and increasing
 the crit damage by 10% up to 20% 30% 40% 50% increase critical damage, he also gain 25 40 55 70 attack speed bonus on target affected by
-Armor Lost debuff.
+any Armor Lost debuff.
 
 LIGHTNING ARCHER Lightning Core
 Change the Archer attack to become a Chain Lightning that bounce to 3 target max, dealing 5 8 11 14 bonus magical damage on hit and
 reducing their magic resist by 6% 9% 12% 15% for 3 second, also change the archer attack damage to be magical attack damage and having
-0.10 0.15 0.20 0.25 reduce base attack time as well
+0.10 0.15 0.20 0.25 reduce base attack time as well. They will have 15% chance on each attack to chain up to 5 (7 with talent upgrade)
+target instead and gaining 20 35 50 65 attack speed for 1.5 seconds.
 
 talent level 10 upgrade Skeleton archer
-
-base attack time reduce by 0.10
+reduce their base attack time reduce by 0.10
 POISON ARCHER increase the damage per second by 4
-ICE ARCHER increase attack speed slow by 12
+ICE ARCHER increase attack speed slow by 16
 FIRE ARCHER increase critical chance by 6%
-LIGHTNING ARCHER Increase max bounce by 1
+LIGHTNING ARCHER Increase max bounce by 2
 max skeleton archer increase by 2
 
 add 2 new skeleton archer for necro, Modifier name, Darkness and Light
-
 VOID ARCHER
-the void archer has 10% 12% 14% 16% to stun for 0.6 second and dealing 1% 1.2% 1.4% 1.6% of the target max health in damage 0.3% 0.4%
+the void archer has 11% 13% 15% 17% to stun for 0.4 second and dealing 1% 1.5% 2.0% 2.5% of the target max health in damage 0.3% 0.4%
 0.5% 0.6% current health for bosses and reducing the damage that the Void Archer take from them by 30% 40% 50% 60% for 3.5 second and
 making all other summon near the Void Archer 500 radius having 10% 15% 20% 25% damage reduction from any source of damage for 6 second,
 refresh the duration upon getting a stun on the target.
 
 LIGHT ARCHER
-the Light Archer will have 14% chance deal 20% 25% 30% 35% of his damage into pure and blinding them by 20% 25% 30% 35%
-making them miss for 2.5 second and also healing all other summon nearby 525 radius for 30 plus 5% 10% 15% 20% of their max health and
-increase the armor of all Skeleton neaby 450 radius by 4 6 8 10 and their magic resist by 12% 16% 20% 24% for 9 second, each Proc
+the Light Archer will have 20% chance deal 20% 25% 30% 35% of his damage into pure and blinding them by 20% 25% 30% 35%
+making them miss for 2.5 second and also healing all other summon nearby 525 radius for 30 plus 5% 8% 11% 14% of their max health and
+increase the armor of all Skeleton neaby 450 radius by 4 6 8 10 and their magic resist by 12% 16% 20% 24% for 6 second, each Proc
 that the Light Archer does will increase the bonus armor and magic resist duration by 4 seconds if they are affected by it.
 
 SPELL E
 Death Coil
 deal high damage to a target reducing life regeneration on them for a short duration and for Skeletons heal the Primary Skeleton by
 high amount and explode for half of the amount for the others and increase the damage and attack speed for them, double effect on
-the primary Skeleton, cannot be cast on allys or necro him self that are not skeletons.
+the primary Skeleton, cannot be cast on allys or necro him self that are not skeletons. The buff and debuff duration will last 7 seconds.
 
-damage 35 40 45 50 magical plus 60% 80% 100% 120% of inteillgence
+damage 30 40 50 60 magical plus 60% 70% 80% 90% of inteillgence
 heal 20 40 60 80 plus 150% 180% 210% 240% of inteillgence
 heal explosion 10 20 30 40 plus 75% 90% 105% 120% of inteillgence
-enemy regen reduction -4 -10 -16 -22 last 4 second
-skeleton increase damage 5 8 11 14 last 7 second
-skeleton attack speed increase 14 20 26 32 last 7 second
-base explosion radius 170 190 210 230
-increase explosion radius by 90% 130% 170% 210% of necro inteillgence
-mana cost 120 125 130 135 plus 2% 3% 4% 5% of max mana
+enemy regen reduction -4 -10 -16 -22 
+skeleton increase damage 5 8 11 14 
+skeleton attack speed increase 14 20 26 32
+explosion radius 300 350 400 450
+mana cost 115 130 145 160 plus 2% 3% 4% 5% of max mana
 cooldown 16 15 14 13
 
 talent level 20 upgrade Death Coil
 increase the damage of Death Coil by 25
-increase heal by 40 -50% of this goes to the explosion-
 increase enemy regeneration reduction by -11
-skeleton damage increase by 8 -half for secondary target-
-skeleton attack speed increase by 12 -half for secondary target-
+increase explosion radius by 150
+remove max mana cost
+reduce coldown by 3
 
 add a new modifier Bouncing Coil
-now the death coil will bounce 3 time each bounce will deal 25% reduce damage and healing, and if the enemy target dies, they will
-summon a Skeleton Warrior with 150% increase stats that last 30 second after that they will die casting a new Death Coil that got 50%
-reduce damage and will not bounce on other target and if the summon target is full health they will make a new Death Coil that got 80%
-reduce healing that bounce 5 time with no reduction per bounce and doesnt explode every bounce, Death Coil will also reduce the target
-enemy healing Source bonus by 25% for 6 seconds
+now the death coil will bounce 3 time each bounce will deal 15% reduce total damage and healing, and if the enemy target dies, they will
+summon a Skeleton Warrior with 50% increase stats that last 30 second after that they will die casting a new Death Coil that got 40%
+reduce total damage and will not bounce on other target and if the summon target is full health they will make a new Death Coil that got
+70% total reduce healing that bounce 5 time with no reduction per bounce and doesnt explode every bounce, Death Coil will also reduce the
+target enemy healing Source bonus by 25% for 6 seconds
 
 PASSIVE D OR F
 Necro Mastery
 Increase the Stats of Skeleton Warrior and Skeleton Archer and also increasing Necro health and inteillgence and Skeletons will also
-Lifesteal on hit with their auto attacks, Necro will get heal from the total lifesteal the Skeletons has done with their attacks
+Lifesteal on hit with their auto attacks, Necro will get heal for 25% 30% 35% 40% from the total lifesteal the Skeletons has done with
+their auto attacks.
 
 Skeleton damage increase by 10% 15% 20% 25%
 Skeleton life increase by 10% 20% 30% 40%
@@ -203,7 +207,6 @@ Skeleton armor increase by 3 4 5 6
 Skeleton magic resist bonus 4% 10% 16% 22%
 Skeleton movement speed bonus 35 50 65 80 FLAT
 Skeleton lifesteal 8% 12% 16% 20%
-Necro will gain 25% 30% 35% 40% of the lifesteal done in healing
 Necro bonus health 6% 10% 14% 18%
 Necro bonus inteillgence 6% 9% 12% 15%
 radius global
@@ -212,7 +215,7 @@ talent level 20 upgrade Necro Mastery
 Skeleton damage increase by 10%
 Skeleton armor increase by 2
 Skeleton magic resist increase by 4%
-increase inteillgence bonus for necro by 15%
+Increase health bonus for Necro by 7%
 
 add a new modifier Undead Lord
 Necro will gain 5% of his mana into health for him and his Skeletons and make the Skeletons ManaLeach for 25% of the damage done giving 
@@ -230,7 +233,7 @@ cast of Death Coil. Death Touch will do 50% reduce damage vs Bosses.
 Damage per seconds 50 70 90 plus 60% of int magical
 duration 10 seconds
 Bone Lord health 350 500 650 plus 150% 300% 450% of int
-Bone Lord damage 25-45 35-55 45-65 plus 25% of int
+Bone Lord damage 25-45 35-55 45-65 plus 35% of int
 Bone Lord armor 5 10 15
 Bone Lord magic resist 25% 40% 55%
 Bone Lord base attack time 2.40 2.30 2.20
@@ -252,11 +255,11 @@ Skeletons does near the Bone Lord 750 radius will heal him for 12% 16% 20% of th
 Passive 2 Crushing Blow
 The Bone Lord will have 20% chance to deal 200% 235% 270% Critical damage on hit and lifesteal for 30% 40% 50% of the damage dealt,
 if the enemy target dies from the crit he will be raise as a Skeleton Warrior with 45% 60% 75% of the Skeleton Warrior stats and last
-30 40 50 seconds
+30 40 50 seconds. he also gain 25 50 75 attack speed for 3.5 seconds after landing a critical hit.
 
 talent level 40 Upgrade Death Touch
 increase Bone Lord health by 250
-increase Bone Lord damage by 4-11
+increase Bone Lord damage by 21-37
 increase Bone Lord armor by 5
 Increase Bone Lord magic resist by 10%
 reduce mana cost by 10%
@@ -264,9 +267,9 @@ reduce mana cost by 10%
 add a new modifier Death Lord
 the Bone Lord will gain 1% damage every kill he does, at a max of 50% increase damage and every time he kill something he will go into
 a frenzy gaining 35% move speed and 75 attack speed, after he dies he will summon 9 Skeleton warrior that last 25 seconds and have
-Frenzy as well, Frenzy last 3.5 seconds on Bone Lord, also increase Necro health regeneration by 0.3 for every kill the Bone Lord does,
+Frenzy as well, Frenzy last 3.5 seconds on Bone Lord, also increase Necro health regeneration by 0.7 for every kill the Bone Lord does,
 they last 60 seconds each with their own duration, and when the duration ends Necro will get heal by 0.4% of his max health, Necro will
-also Revive when he die with 50% health and 25% mana, coldown of 120 seconds
+also Revive when he die with 50% health and 25% mana, coldown of 60 seconds
 
 
 
@@ -286,12 +289,16 @@ also reduce its coldown by 0.1 for every healing done to skeletons.
 -
 increase all stats by 4 and increase healing recive by 15%, Death Coil can be cast on Necro and will have 25% increase healing effect
 -
-Increase Healing amp by 10% and Inteillgence by 14 and mana regeneration by 2.1 but reduce spellamp by 10% and magic resist by 15%
+Increase Healing amp by 30% and Inteillgence by 11 and mana regeneration by 2.7 but reduce spellamp by 10% and magic resist by 15%
+-
+Increase Skeleton Archer attack damage by 7 and their attack range by 100. Also reduce the mana cost of Summon Skeleton Archer by 20%
+and remove its coldown as well. When the Skeleton Archer Dies, they will cast a Death Coil with 75% reduce total healing to a random
+Skeleton.
 -
 level 7 talent
 -
 Increase Spell amp by 10% and increase Death Coil cast range by 225 and reduce its coldown by 5 if it kill something, also increase Death
-Coil base damage by 5 and skeletons will gain 10% of Death Coil total damage into bonus attack damage
+Coil base damage by 5 and skeletons will gain 10% of Death Coil total damage into bonus attack damage if cast on them.
 -
 Increase Skeletons Health by 35 and armor by 1, Skeleton Warriors will gain 10% Pure resist and Skeleton Archer will gain 15 attack speed
 and 5% lifesteal and Spellvamp, Necro will gain 0.2 armor and 0.4% magic resist per skeleton alive.
