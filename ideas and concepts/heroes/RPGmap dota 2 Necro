@@ -331,27 +331,27 @@ increase Necro Spell amp by 12% and his inteillgence by 6, every time he cast De
 level 19 talent
 -
 Increase Necro Health by 800 and his health regeneration by 8 but reduce his armor by 15 and his magic resist by 35%, he also reduce
-all healing effect from allys by 85% but increase death coil healing on Necro by 150% if the level 4 talent is pick. Skeletons will
-have 20% health reduce and death coil will have 5 seconds coldown increase.
+all healing effect from allys by 85% but increase death coil healing on Necro by 150%. Skeleton will lose 65% healing Source but will
+also gain 100 health and 8.5 health regeneration as well.
 -
-Increase Necro Skeleton health by 150 and give them 100 mana and 1.5 mana regeneration, they also gain a Spell call Bone Throw that deal
+Increase Necro Skeleton health by 150 and give them 100 mana and 2.5 mana regeneration, they also gain a Spell call Bone Throw that deal
 low amount of damage and will slow the target attack speed and movespeed, they will have it on Auto Cast.
 
 Bone Throw
 deal low damage and slow the Target attack speed and Movespeed, the debuff will last for a short duration but will refresh its
-duration with other Bone Throw and stack it self up to 10 max stacks of the Bone Throw Debuff, Skeleton Warrior will have 275 cast
-range with Bone Thorw and Skeleton Archer will be Equal to their attack range for the cast range.
+duration with other Bone Throw and stack it self up to 10 max stacks of the Bone Throw Debuff, Skeleton Warrior will have 325 cast
+range with Bone Thorw and Skeleton Archer will be Equal to their attack range for the cast range with 350 bonus cast range as well.
 
 Base damage 8
 increase damage by 12% of attack damage
 attack slow 3 4 5 6
 move slow 3 6 9 12 FLAT
-debuff duration 4.5
-mana cost 90
+debuff duration 3.0
+mana cost 70
 no coldown
 -
-Increase Death Touch damage by 40 and reduce it coldown by 15 but increase the Coldown of Necro basic spell by 2 and increase their
-mana cost by 35, also increase mana by 50% of total Strenght of Necro. Skeletons will have 30% bonus damage and 70 attack speed when a
+Increase Death Touch damage by 40 and reduce it coldown by 15 but increase the Coldown of Necro basic spell by 4 and increase their
+mana cost by 35, also increase mana by 450% of total Strenght of Necro. Skeletons will have 45% bonus damage and 30 attack speed when a
 target is affected by Death Touch for the duration.
 -
 level 20 talent
@@ -361,29 +361,29 @@ upgrade spell E
 upgrade passive
 -
 level 23 talent
--
+-----
 Increase Skeletons Armor by 5, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Mind, also increase their attack
 damage by 8 and their movespeed by 40
 
 Undead Mind
 Make skeletons immune to all form of Mind Controll and increase their health regeneration by 0.3 for every 2% health missing, they
-also gain 10 Armor when they are below 24% health.
--
+also gain 10 Armor when they are below 25% health.
+-----
 Increase Skeleton Magic resist by 15%, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Will, also increase
 their attack damage by 8 and their movespeed by 40
 
 Undead Will
 Make Skeletons Immune to all debuff that reduce magic resist and increase magic resist taken (those debuff will still damage but not
 reduce magic resist or increase magical damage taken) increase their Magic resist by 1% for every 3% health missing, they also gain
-10% damage reduction when they are below 24% health.
--
+10% damage reduction when they are below 25% health.
+-----
 increase Skeleton Health by 125, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Force, also Increase their
 attack damage by 8 and their movespeed by 40
 
 Undead Force
 Make Skeletons Immune to all Slows and Roots effect (they will still get the other debuff and get damage) and Increase their attack
-damage by 1 for every 3% health missing, they also gain 65 attack speed when they are below 24% health
--
+damage by 1 for every 3% health missing, they also gain 65 attack speed when they are below 25% health
+-----
 level 26 talent
 -
 increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
@@ -396,11 +396,12 @@ increase the items Attributes bonus gain by 25% and reduce their cooldown active
 limit by 75
 -
 Skeleton will gain 25% of Necro total Attributes stats into Bonus health and increase Necro Attribute Stats by 15, also increase move
-speed by 20% and mana regeneration by 2.7 but reduce health regeneration by 3.5
+speed by 20% and mana regeneration by 2.7 but reduce health regeneration Source by 35%
 -
 level 29 talent
 -
-Increase Magic resist and Pure resist by 10%, Further increase this bonus by 15% and gain 0.3% health regeneration while in Titan Form
+Increase Pure resist of Necro and his skeletons by 15%, Skeletons will gain 1% Pure resist per 5% health missing and when they are below
+10% health, they will be Immune to all form of damage for 3.5 seconds. Coldown of 50 seconds.
 -
 increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
 30
@@ -416,14 +417,9 @@ talent defensive
 -
 level 33 talent
 -
-Necro will gain a new passive Call Reconstruction that give life regeneration and bonus max health Globaly for skeletons and necro will
-also reduce stun duration by 40% and gain 4.4 health regeneration, Skeleton will be able to go freely without disarming them.
-
-Reconstruction
-increase Health regeneration and Max health of Skeleton Globaly
-
-health regeneration 1.2%
-bonus max health 15%
+Necro will give his Skeletons 1.0% health regeneration but at the cost of losing 15% spells amp. his Skeleton will also reduce stun
+duration by 0.2 and root effects by 0.3 seconds, they cannot be slowed more than under 300 movespeed. They also gain 25% of Necro
+inteillgence into bonus attack speed. (the Root and Stun effect will have no effect if the root and stun duration are under 0.8 seconds)
 -
 increase items Strenght, Inteillgence and agility gain by 50% but reduce all other bonus from the items by 65% and their active and
 passive as well
