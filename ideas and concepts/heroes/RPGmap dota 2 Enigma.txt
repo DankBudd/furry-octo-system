@@ -24,9 +24,9 @@ give a positive and negative buff, Pressing ALT will give INFO for Enigma level 
 
 BUFF enigma spell will do 1 pure bonus damage for every 12 inteillgence and he will gain 1% spell amp for every 160 current mana and any 
 slows Enigma takes will grant him a speed boost instead of slowing him and increasing their duration by 1 second he also gain 1% life
-per level gaining 0.5% size as well enigma will have Void Glove that scale per level and he cannot be change, Enigma also gain 2
-inteillgence for every items that give Spellamp, Enigma will also gain 1% coldown reduction per Inteillgence items as well (max of 16
-Inteillgence and 5% coldown reduction).
+per level gaining 0.5% size as well enigma will have Void Glove that scale per level and he cannot be change, Enigma also gain 4
+inteillgence for every items that give Spellamp (max of 20 Inteillgence).
+
 
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 40% base damage, strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
@@ -65,7 +65,7 @@ and health regeneration lost will last 2.5 seconds after the curse end, Void Mas
 health regeneration. Enemys that die under Void Curse will be spawn as Eidolons having 25% of the enemy target total stats for them.
 Eidolons will last 18 seconds and have 1.65 base attack time and cannot be controll, they will Follow Enigma around and attack enemys
 that are in Combat (Doesnt attack enemys that are not in Combat). (Void Curse can reduce a total of 16% 24% 32% 40% magic resist max for
-each targets max).
+each targets max). (Void Curse will stay on coldown as long if a target if affected by it)
 -
 -lore- The curse of the Void Lord makes his target turn inside-out, making them die of unbearable pain and suffering and turn into a
 eidolon joining the mighty army of the void lord.
@@ -77,7 +77,7 @@ magic resist lost 2%
 health regeneration lost 0.3 0.4 0.5 0.6
 Void Mass damage 18 26 34 42 Plus 45% of Inteillgence
 Void Mass magic resist lost 4%
-coldown 22 20 18 16
+coldown 17 16 15 14
 mana cost 50 100 150 200 plus 2% of max mana
 
 Talent level 10 Upgrade Void Curse
@@ -88,13 +88,13 @@ increase Void Mass damage by 12
 Increase Void Mass magic resist lost amount by 2%
 
 add a new modifier Void Corruption
-Void Curse will have 3% more chance to Trigger Void Mass and each Void Mass proc will increase its damage by 2% and the radius by 25
+Void Curse will have 3% more chance to Trigger Void Mass and each Void Mass proc will increase its damage by 10% and the radius by 40
 without limits. After Void Curse ends, they will get rooted for 0.1 seconds for every 65 damage taken while in Void Curse and will take
-6% of Enigma inteillgence in Pure damage every 0.1 seconds and also reducing healing Source by 45% for the duration of the Root, Enigma
-will gain 1 stack of Void Death for every 6 seconds of root done, at 3 stacks Enigma will gain 7% spellamp and 1.3 mana regeneration, at
-7 stacks Void Curse will gain 50% more bonus from Spell amp and have 2 second coldown reduce, at 12 stacks Enigma will gain 12
-Inteillgence and Void Curse will also be cast on 1 other target at random, Each stacks will give Enigma 10 health, max stack of 15 and
-stack are lost lost upon death.
+6% of Enigma inteillgence in Pure damage every 0.1 seconds of root and also reducing healing Source by 45% for the duration of the Root,
+Enigma will gain 1 stack of Void Death for every 6 seconds of root done, at 3 stacks Enigma will gain 7% spellamp and 1.3 mana
+regeneration, at 7 stacks Void Curse will gain 50% more bonus from Spell amp and have 2 second coldown reduce, at 12 stacks Enigma will
+gain 12 Inteillgence and Void Curse will also be cast on 1 other target at random, Each stacks will give Enigma 10 health, max stack of
+15 and stack are lost lost upon death.
 
 SPELL W level Gravity Well - Magical -
 Enigma Infest the Ground with Pure Gravity dealing Insane Magical damage per seconds, Gravity Well will also have 15% chance to stun
@@ -104,12 +104,12 @@ attack speed lost and movespeed lost. Enemys can only be Stun once and Gravity W
 Inteillgence.
 
 Damage 15 30 45 60 plus 12% 18% 24% 30% of inteillgence
-Attackspeed lost 3 4 5 6
-Movespeed lost 5 8 11 14
+Attackspeed lost 3 5 7 9
+Movespeed lost 11 13 15 17
 Stun Duration 1.1 1.5 1.9 2.3
 Base Radius 425 475 525 575
-Duration 5.0 seconds
-Cooldown 30 29 28 27 
+Duration 4.0 seconds
+Cooldown 26
 Mana cost 160 200 240 280 plus 2% of max mana
 
 talent level 10 Upgrade Gravity Well
@@ -119,7 +119,7 @@ increase Base radius by 75
 increase duration by 1.0 seconds
 
 add a new modifier Void Flame
-Enemys will be Void Flamed if they stand more than 3.5 seconds in Gravity Well, taking 25% more damage from all Source and also taking
+Enemys will be Void Flamed if they stand more than 3.0 seconds in Gravity Well, taking 25% more damage from all Source and also taking
 15% increase damage from Enigma spells as well. They will also take 12% of Enigma inteillgence in Pure damage every 0.3 seconds of the
 duration of Void Flame. Void Flame will last 6 seconds and after the duration ends, Enigma will gain 1 stack of Growing Void, increasing
 his spell amp by 0.2% and his health and mana by 4 up to 100 max stacks, at 25 stacks Enigma will gain 8 inteillgence and 10% status
@@ -131,16 +131,16 @@ SPELL E level Void Bolt - Magical -
 Enigma will Throw a Bolt of Void at the target Location dealing High amount of Magical damage, enemys will have a Debuff call Void
 Hunger that last 12 seconds If they cast at least 3 spells while under this effect, they will gain a Debuff call Consuming Void, taking
 low amount of damage every 0.2 seconds and increasing their cast time point as well, Void Bolt will Ignore Magic immune units, Void Bolt
-will also reduce Magic resist and slow movespeed for 3.5 seconds. Each time they cast a spell they will refresh the debuff duration by
-2.5 seconds (Void Bolt will refresh the duration if casted on enemys affected by the debuff). (Void Bolt landing delay will be 1.7
+will also reduce Magic resist and slow movespeed for 5.0 seconds. Each time they cast a spell they will refresh the debuff duration by
+4.5 seconds (Void Bolt will refresh the duration if casted on enemys affected by the debuff). (Void Bolt landing delay will be 1.7
 seconds).
 
 Bolt base Damage 20 30 40 50 plus 55% of Inteillgence
 Bolt radius Impact 275 300 325 350
 Consuming Void damage 4 5 6 7 plus 6% of Inteillgence
 Consuming Void duration 7
-Cast time point increase 0.60 0.90 1.20 1.50
-Magic resist lost 5% 10% 15% 20%
+Cast time point increase 13% 20% 27% 33%
+Magic resist lost 4% 8% 12% 16%
 movespeed lost 5% 10% 15% 20%
 coldown 24 22 20 18
 mana cost 175 275 375 475 plus 2% of max mana
@@ -155,13 +155,13 @@ add a new modifier Unstable Gravity
 Every Bolt that Land will Create a Small Black Hole that last 3 seconds and doesnt stun but will pull enemys by 175 speed unit and deal
 115% of Enigma Inteillgence per seconds, Void Bolt will also have 25% chance to crit for 175% of total damage and lifesteal for 30% of 
 that damage dealt as well but also make Void Bolt unable to use any other Source of Crits, Enigma will also gain 25 health per Small
-Black Hole Create max of 10 stacks, at 10 stacks Enigma will gain 10% health and 12% magic resist, stack are lost upon death, Consuming
-Void cannot be Purge and will deal 100% increase damage if the Target is Magic Immune as well.
+Black Hole Created, max of 10 stacks, at 10 stacks Enigma will gain 10% health and 12% magic resist, stack are lost upon death.
+Consuming Void cannot be Purge and will deal 100% increase damage and also turn Pure damage if the Target is Magic Immune.
 
 
 PASSIVE D OR F Galaxy
 Enigma will gain bonus Coldown reduction and mana, he also give himself and his allys Roots resistence and Magic resist as well,
-he also deal bonus damage with his Spells base on his Max mana every 14 seconds, Enigma will gain Double the bonus from the Root and
+he also deal bonus damage with his Spells base on his Max mana every 15 seconds, Enigma will gain Double the bonus from the Root and
 Magic resist. The aura is 1150 radius. he also gain 10% 15% 20% 25% size increase. Enigma will gain 10% increase inteillgence at level 4
 of Galaxy.
 
@@ -202,16 +202,16 @@ mana cost 25% 35% 45% of max mana
 
 talent level 40 Upgrade Void Star
 increase scaling by 15%
-increase Void Star Radius by 75
-increase center radius by 25
-increase Speed pulling by 50
+increase Void Star Radius by 100
+increase center radius by 50
+increase Speed pulling by 60
 reduce mana cost by 10%
 
 add a new modifier Dieing Star
 Void Star will no longer be a Channeling spell but will have 1 seconds duration reduce, Each 0.5 seconds of Void Star it will increase
-Its damage by 15, Radius by 50, Center radius by 25 and speed pulling by 15, Void Star will make Enigma Immune to all form of damage.
+Its damage by 15, Radius by 50, Center radius by 25 and speed pulling by 35, Void Star will make Enigma Immune to all form of damage.
 After the Void Star duration ends, Enigma will gain 50% increase size and will make his basic spells do 40% increase damage and have 425
-cast range bonus as well for 10 seconds. Enigma will also reduce all Physical damage taken by 25% and Further increase it by 10% when
+cast range bonus as well for 25 seconds. Enigma will also reduce all Physical damage taken by 25% and Further increase it by 10% when
 he cast any Basic spell for 8 seconds. the Gravity Well that is Created with Void Star will have 1 seconds duration reduce but will also
 deal 8% increase damage every 0.5 seconds as well and will also deal Pure damage.
 
@@ -224,7 +224,7 @@ increase agility gain by 0.2 every level and also increase agility by 5, Also in
 will have 5 seconds coldown reduce.
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5, Enigma basic Spells will spellvamp for 5% of the
-damage dealt and will also Mana Leech for 2% of the damage dealt.
+damage dealt and will also Mana Leech for 3% of the damage dealt.
 -
 increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Enigma spells will have 10% mana cost reduce and have 1.0
 seconds coldown reduce as well.
@@ -248,8 +248,8 @@ Enigma will gain 125 health but lose 125 mana, reduce the coldown of Void Glove 
 Gravity Well will gain 75 radius and will also reduce 5% overall damage from enemys.
 -
 Increase Gravity Well Base damage by 5 and its scaling by 7%, also increase its base radius by 75 and it will always cast a Void Bolt
-in the center every 3 seconds having 10% increase damage and 35% increase radius. Also increase the duration by 1.0 seconds but increase
-the mana cost by 80.
+in the center every 3 seconds having 15% increase damage and 35% increase radius. Also increase the duration of Gravity Well by 1.0
+seconds but increase the mana cost by 80.
 -
 level 10 talent
 upgrade spell Q
@@ -262,22 +262,22 @@ increase health by 10% and life regeneration by 1.2 increase by 0.1 every 10 pri
 -
 increase mana by 10% and mana regeneration by 0.8 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
 -
-Enigma will gain 1% health and mana regeneration for 2.5 seconds after casting his basic spells and he will gain 3% health and mana
+Enigma will gain 1% health and mana regeneration for 1.5 seconds after casting his basic spells and he will gain 3% health and mana
 regeneration after casting Void Star for 5 seconds. Also increase his health and mana by 5%. Increase XP gain by 15%
 -
 level 16 talent
 -
-Increase Void Star base damage by 35 and reduce its coldown by 10. Void Star will gain 15 cast range for every basic spells Enigma
-casted for 7 seconds (refresh upon casting a basic spell again), up to 150 bonus cast range and at 10 max stacks, Void Star will gain
-10% increase total radius (5% increase total Radius for the center).
+Increase Void Star base damage by 35 and reduce its coldown by 10. Void Star will gain 35 cast range for every basic spells Enigma
+casted for 7 seconds (refresh upon casting a basic spell again), up to 350 bonus cast range and at 10 max stacks, Void Star will gain
+20% increase total radius (10% increase total Radius for the center).
 -
-Galaxy will now give Enigma 5% increase Strenght and Inteillgence, Galaxy will also Increase the enemys coldown spells by 12% and each
-time they cast a spells, Enigma will gain 25 plus 60% of his Inteillgence into mana and health and also reducing his baisc spells cold
+Galaxy will now give Enigma 5% increase Strenght and Inteillgence, Galaxy will also Increase the enemys coldown spells by 6% and each
+time they cast a spells, Enigma will gain 25 plus 30% of his Inteillgence into mana and health and also reducing his baisc spells cold
 down by 0.3.
 -
-Void Bolt will gain 5 base damage and 35 bonus radius and it also increase the enemys coldown spells by 0.7. Void Bolt impact delay
-will be reduce by 0.4 seconds and have 175 cast range bonus, every 50 unit travel of Void Bolt will increase its radius by 10 and its
-damage by 3%.
+Void Bolt will gain 10 base damage and 85 bonus radius and it also increase the enemys coldown spells by 0.7. Void Bolt impact delay
+will be reduce by 0.4 seconds and have 175 cast range bonus, every 50 unit travel of Void Bolt will increase its radius by 15 and its
+damage by 6%.
 -
 level 19 talent
 -
@@ -287,10 +287,11 @@ for 4 seconds instead after casting Void Star instead of Channeling).
 -
 Increase Enigma Inteillgence by 20 but reduce his agility and strenght by 15, Void Curse will have 10% increase scaling inteillgence
 on the 0.5 DPS. Gravity Well will gain 5% increase scaling and also increase the scaling radius base on the Inteillgence by 45% and
-reduce its coldown by 1.5
+reduce its coldown by 2.5
 -
-Increase all Phyisical damage output by 35% but reduce any magic damage output by 40%, Sven will further increase the Physical damage
-output bonus by 20% in Titan Rage and 10% in BloodLust, also increase Strenght and Agility by 6.
+Increase all Magical damage Output by 35% but Enigma will no longer be able to deal Physical damage. his auto attack will become magic
+instead of doing physical and he will further increase it by 1% for every spell he cast or items up to 15%. they last 3.5 seconds and
+refresh 1.5 seconds upon casting a spell and increasing its duration by 0.3 max of 9.0 seconds increase.
 -
 level 20 talent
 -
