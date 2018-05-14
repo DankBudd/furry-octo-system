@@ -257,8 +257,8 @@ damage and Enigma also gain 75 mana and 3 inteillgence.
 -
 level 7 talent
 -
-Increase Void Curse base damage by 4 and increase health regeneration lost by 0.2 and Enigma 10% damage reduction when a target is under
-Void Curse.
+Increase Void Curse base damage by 4 and increase health regeneration lost by 0.2 and Enigma will gain 10% damage reduction when a
+target is under Void Curse.
 -
 Enigma will gain 125 health but lose 125 mana, reduce the coldown of Void Glove by 10 and increase the damage gain by 5% as well, Enigma
 Gravity Well will gain 125 radius and will also reduce 5% overall damage from enemys.
