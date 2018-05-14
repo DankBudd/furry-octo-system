@@ -297,9 +297,10 @@ damage by 6%.
 -
 level 19 talent
 -
-Increase Enigma Pure resist by 40% but reduce his magic resist by -25% and further reduce his armor penalty by -3 instead. Also
-increase Enigma Spell Amp by 30% and damage reduction by 15% when Channeling Void Star (with the level 40 talent, he will gain this buff
-for 4 seconds instead after casting Void Star instead of Channeling).
+Increase Enigma Pure resist by 15% but reduce his Movespeed by 25 FLAT and further reduce his armor penalty by -3 instead. Also
+increase Enigma Spell Amp by 20% and damage reduction by 30% when Channeling Void Star (with the level 40 talent, he will gain this buff
+for 4 seconds instead after casting Void Star instead of Channeling). Also Make Enigma Immune to Silence while he is Channeling or not
+channeling for the buff duration.
 -
 Increase Enigma Inteillgence by 20 but reduce his agility and strenght by 25, Void Curse will have 10% increase scaling inteillgence
 on the 0.5 DPS. Gravity Well will gain 5% increase scaling and also increase the scaling radius base on the Inteillgence by 45% and
