@@ -288,11 +288,11 @@ casted for 7 seconds (refresh upon casting a basic spell again), up to 350 bonus
 20% increase total radius (10% increase total Radius for the center).
 -
 Galaxy will now give Enigma 5% increase Strenght and Inteillgence, Galaxy will also Increase the enemys coldown spells by 6% and each
-time they cast a spells, Enigma will gain 25 plus 30% of his Inteillgence into mana and health and also reducing his baisc spells cold
+time they cast a spells, Enigma will gain 15 plus 20% of his Inteillgence into mana and health and also reducing his basic spells cold
 down by 0.3.
 -
 Void Bolt will gain 10 base damage and 85 bonus radius and it also increase the enemys coldown spells by 0.7. Void Bolt impact delay
-will be reduce by 0.4 seconds and have 175 cast range bonus, every 50 unit travel of Void Bolt will increase its radius by 15 and its
+will be reduce by 0.4 seconds and having 175 cast range bonus, every 50 unit travel of Void Bolt will increase its radius by 15 and its
 damage by 6%.
 -
 level 19 talent
