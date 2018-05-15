@@ -98,7 +98,7 @@ will take further damage increase from Gondar, he also jump back behind him for 
 reduction will have no effect and Weak Strike will gain 100% more bonus from spell amp. If Weak Strike is use in Shadow Step it will do
 Magical damage instead of Physical.
 
-damage 4 5 6 7 plus 6% of agility Physical every 0.2 seconds
+base damage 4 5 6 7 plus 6% of agility Physical every 0.2 seconds
 base slow 6% 7% 8% 9%
 increase slow by 1% every 0.1 seconds
 damage taken increase by 25% 35% 45% 55% for Gondar
@@ -126,15 +126,16 @@ be Purge by any means.
 SPELL E
 JumpKick - Physical -
 Gondar Jump into a enemys stuning them for a short duration and also making them take increase duration from roots and stun as well,
-he also push them back by 225 units and Gondar will also Jump back 335 units as well, he also gain some damage reduction for a short
-duration upon landing JumpKick
+he also push them back by 125 units and Gondar will also Jump back 335 units as well, he also gain some damage reduction for a short
+duration upon landing JumpKick. Gondar will also add 125% of his base auto attack damage for bonus damage on JumpKick (doesnt increase
+Jump Kick base damage)
 
-damage 18 22 26 30 plus 25% 30% 35% 40% of agility
+base damage 18 22 26 30 plus 25% 30% 35% 40% of agility
 stun duration 0.5 0.7 0.9 1.1
 increase stun and root duration by 30% 40% 50% 60%
-debuff duration 3.4 3.6 3.8 4.0
+debuff duration 3.7 4.0 4.3 4.6
 damage reduction 14% 18% 22% 26%
-buff duration 2.2 2.5 2.8 3.1 seconds
+buff duration 2.1 2.2 2.3 2.4 seconds
 coldown 7
 mana cost 50 85 110 145 plus 1% of max mana
 
@@ -157,17 +158,17 @@ Source of Stuns. at 16 stacks, JumpKick will Root the target after its stun dura
 
 ACTIVE PASSIVE D or F
 Ninja Mastery
-Increase Gondar Agility and Movespeed Limit cap, this can also be use to push forward by 75% 100% 125% 150% of movespeed, Weak Strike and
+Increase Gondar Agility and Movespeed Limit cap, this can also be use to push forward by 75% 100% 125% 175% of movespeed, Weak Strike and
 JumpKick will do bonus damage base on his movespeed and his attack speed, every time he get slowed he will gain bonus health regeneration
-and attack speed for a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 3% of attack
+and attack speed for a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 2% of attack
 speed into damage and 1% of movespeed into damage bonus. (the bonus Movespeed Limit increase by 650 750 850 950 from the base 550)
 
 bonus Evasion per armor 1%
 Agility 9% 11% 13% 15%
 movespeed Limit increase 650 750 850 950 
-attack speed into damage 7% 8% 9% 10%
+attack speed into damage 6% 8% 10% 12%
 move speed into damage 2%
-health regeneration 10 15 20 25
+health regeneration 10 15 20 25 plus 20% of agility
 attack speed 35 70 105 140
 duration of buff 2.9 3.3 3.7 4.1
 coldown of Active effect 6 5.5 5 4.5
@@ -175,13 +176,13 @@ mana cost 15 20 25 30
 
 talent level 20 upgrade Ninja Mastery
 increase movespeed limit by 150
-increase attack speed into damage by 2%
+increase attack speed into damage by 3%
 increase moves speed into damage by 1%
 increase the buff duration by 2.2 seconds
 
 add a new modifier Bounty Hunter -after he use one of his spells he will gain Fools Gold spell dealing damage base on his gold-
-Gondar will gain his attack speed into damage for his base damage as well for 4% more bonus, Gondar can use 5% of his current gold to 
-deal damage to a target, damage cap is 100 plus 4 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys
+Gondar will gain his attack speed into damage for his base damage as well for 5% more bonus, Gondar can use 5% of his current gold to 
+deal damage to a target, damage cap is 100 plus 6 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys
 will gain 30% gold as well, allys will also be able to spend 20% less gold on items they buy at the shop, Gondar also gain a golden
 aura that give 10% Evasion with 6% damage reduction and 12% bonus damage in a Global Radius for him and his allys (summons will gain 1%
 health regeneration and 35 attack speed as well).
@@ -194,15 +195,16 @@ cast range and damage on those target, When Gondar attacks those enemys below th
 their overall damage and their attack speed for a medium duration, Gondar Weak Strike and JumpKick will also scale on his inteillgence
 as bonus damage and his auto attack will gain some of his spellamp into bonus attack damage as well, Shadow Step will also do 200%
 of Gondar attack damage on hit with anything 1 time, they can only be debuff once every 17 seconds. A small icon will apear on the
-enemys head when they can be debuff again. (gondar will do 40% 50% 60% increase damage with his normal attack on target low health
+enemys head when they can be debuff again. (gondar will do 40% 50% 60% increase damage with his normal attack on target low health.)
+The radius of tracking enemys that are below the threshold is 1350.
 
-Spell amp into attack damage 20% 25% 30%
+Spell amp into attack damage 20% 30% 40%
 Inteillgence into Damage Weak Strike 6% 7% 8%
-Inteillgence into Damage JumpKick 15% 25% 35%
+Inteillgence into Damage JumpKick 20% 35% 50%
 JumpKick bonus damage 15 30 45
 JumpKick bonus cast range 250 400 550
-JumpKick mana reduce 25% 40% 55%
-overall damage reduce 15% 20% 25%
+JumpKick mana cost reduce 25% 40% 55%
+overall damage reduce 10% 15% 20%
 attack speed reduce 40 60 80
 debuff duration 6.5 7.5 8.5
 
@@ -214,7 +216,7 @@ increase the debuff duration by 2.5
 
 
 add a new modifier The Hunt is On
-Gondar will gain 8% movespeed per enemys on the Low health trigger of Track the Weaks. Gondar JumpKick will alway do 10% of his BONUS
+Gondar will gain 11% movespeed per enemys on the Low health trigger of Track the Weaks. Gondar JumpKick will alway do 30% of his BONUS
 movespeed gain from items in Pure damage, Enemys will have 50% chance to drop 33% increase gold and 22% increase Item Drop from them,
 Allys will also deal 25% increase damage with spells and basic attack when the enemys get into the health threshold. Enemys that are
 below 20% health will give all attacking allys with basic attacks 75 attack speed and 15% increase damage on them, for spells casters
@@ -237,12 +239,12 @@ level 4 talent
 -
 Increase Shadow Step duration by 2 seconds and Gondar will always gain 6% movespeed at the start of it. also gain 5 Agility and 45 health
 -
-Increase all healing recive by 15% and Weak Strike will gain 25% spellvamp but lose 1% scaling damage on Agility.
+Increase all healing recive by 15% and Weak Strike will gain 25% spellvamp but lose 1% Agility scaling.
 -
 Reduce Jumpkick coldown by 0.5 and increase its base damage by 8, Gondar will gain 0.7 seconds of magic immunity after casting it, also
 increase inteillgence by 4 and mana regeneration by 0.9
 -
-Increase Ninja Mastery Evasion gain from armor by 0.25% and also give Gondar 1% damage reduction per 9% evasion he currently got. Also
+Increase Ninja Mastery Evasion gain from armor by 0.25% and also give Gondar 1% damage reduction per 6% evasion he currently got. Also
 increase his armor by 1, magic resist by 4% and health by 7%.
 -
 level 7 talent
@@ -272,8 +274,8 @@ Gondar will gain 1.5% health and mana regeneration per seconds and also gain 25%
 -
 level 16 talent
 -
-Increase Strenght by 15 and health by 8% but reduce Agility by 10, Gondar will also add 25% of his Strenght to JumpKick as bonus damage
-and reduce its mana cost by 25% and coldown by 0.5, Gondar will gain 100% increase evasion for 1.1 seconds after Jumpkick
+Increase Strenght by 15 and health by 8% but reduce Agility by 10, Gondar will also add 35% of his Strenght to JumpKick as bonus damage
+and reduce its mana cost by 10% and coldown by 0.5, Gondar will gain 45% increase evasion for 2.0 seconds after Jumpkick
 -
 Increase max health by 4% and Mana by 6%, Volcanus will gain 3 bonus mana and 1 bonus health for every enemys that died under Incinerate
 effect, max stack of 100 and these stacks will be lost on death, at 50 stacks Volcanus will gain 7 inteillgence and 4 Strenght, at 85
