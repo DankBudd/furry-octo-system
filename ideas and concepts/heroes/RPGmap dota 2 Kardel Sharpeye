@@ -71,39 +71,42 @@ base Area of effect 325 400 475 550
 blind miss chance 60% 65% 70% 75%
 blind duration 2.1 2.3 2.5 2.7
 mana cost 35 55 75 95 plus 1% of max mana
-cooldown 7
+cooldown 8
 
 POISON TRAP
 Kardel lay down a Trap made of poison, enemys that step too close to the trap will get rooted and get poison that deal medium damage,
 if they die under the effect of the poison, they will blow up making a pool of poison on the ground that deal less damage but remove
 armor while they stand inside of it, they can only be 3 trap up at the same time and enemys will get 50% less root duration if they
-walk inside of another trap, this buff last 5 seconds and will only work for this rooting spell
+walk inside of another trap, this buff last 5 seconds and will only work for this rooting spell. Poison Trap will deal damage every 0.6
+seconds and the pool damage is 0.5 every seconds.
 
-Trap damage 115% 120% 125% 130% of attack damage evey 0.4 seconds
-trap root duration 1.6 2.0 2.4 2.8 seconds
+Trap damage 115% 120% 125% 130% of attack damage
+trap root duration 1.2 1.8 2.4 3.0 seconds
 trap trigger range 250
-pool damage 125% 140% 155% 170% of attack damage every 0.5 seconds
+pool damage 125% 140% 155% 170% of attack damage
 base pool radius 180 210 240 270
 bonus pool radius 125% 150% 175% 200% of Kardel agility
-armor reduction 3 5 7 9
-pool duration 4
+armor reduction 6 9 12 15
+pool duration 3.5 4.0 4.5 5.0
 mana cost 110 150 190 230 plus 3% of max mana
-cooldown 12 second
+cooldown 22 second
 
 talent level 10 upgrade NITRO and POISON TRAP
 NITRO
-increase single target damage by 15%
-increase Area of Effect damage by 45%
-reduce coldown by 1
+increase single target damage by 25%
+increase Area of Effect damage by 65%
+increase blind duration by 0.6
+reduce coldown by 1.5
 POISON TRAP
-increase root duration by 0.8
+increase root duration by 0.6
 increase Pool duration by 1
-increase armor reduction by 4
+increase armor reduction by 7
+reduce coldown by 3
 
 add a new modifier for NITRO - Black Smoke
 after Nitro land on the target it will create a Black Smoke, enemys that enter it will have reduce lifesteal and spellvamp
 by 25% and also blinding them and making them have 15% chance to miss attacks, the smoke last 7 second with 340 area of effect
-allys inside of the Black Smoke will gain 10% evasion and 20% magic resist.
+allys inside of the Black Smoke will gain 10% evasion and 25% magic resist.
 
 add a new modifier for POISON TRAP - Snake Venom
 if the enemys lose more than 15% of their max health while rooted, they will get stun for 1.5 second and lose 32% base attack damage
@@ -114,24 +117,24 @@ SPELL W Shrapnel and Metal Chains
 
 SHRAPNEL
 Kardel fire a Ball of bullets into the air and after 1.7 second of delay, random pellets will start to rain every 0.2 second dealing
-high amount of damage and mini-stuning target by 0.01 seconds for those who gets hit by them, every 5 pellet that fall will deal
-increase damage and stun for 0.5 second and have increase Area of Effect upon landing. The duration is base on the amount of pellet falling.
+high amount of damage and mini-stuning target by 0.01 seconds for those who gets hit by them. The 5 pellet that fall will deal Increase
+damage and stun will for 0.5 second and have increase Area of Effect upon landing. (The duration is base on the amount of pellet falling.)
 
 damage per pellet 57% 63% 69% 75% of attack damage
-small pellets radius 100 105 110 115
-damage for every 5 pellet 140% 155% 170% 185% of attack damage
+small pellets radius 100 110 120 130
+damage for the 5 pellet 140% 155% 170% 185% of attack damage
 bigger pellet radius 240 270 300 330
 amount of pellets 15 25 35 45
-Radius of Shrapnel 600 570 540 510
+Radius of Shrapnel 700 670 640 610
 mana cost 100 160 220 280 plus 1% of max mana
 cooldown 22
 
 METAL CHAINS
-Kardel put some chains made of metal into his gun after 1.3 second of putting them into the chamber, he will fire them off 2 2 3 3 random
+Kardel put some chains made of metal into his gun after 1.3 second of putting them into the chamber, he will fire them off 2 2 3 4 random
 target in the Area of Effect around Kardel, dealing medium damage and slowing them and all of Kardel spell will have increase damage
 on target affected by the slow of Metal Chain.
 
-damage 120% 130% 140% 150% of attack damage
+damage 130% 140% 150% 160% of attack damage
 slow amount 12% 15% 18% 21%
 Extra damage for Spells 15% 20% 25% 30%
 debuff duration 4.5 4.9 5.3 5.7
@@ -144,20 +147,22 @@ SHRAPNEL
 increase small pellet damage by 10%
 increase amount of pellets by 10
 reduce the radius by 30
+reduce mana cost by 75
 METAL CHAINS
-increase damage by 75%
-increase slow amount by 3%
-increase the duration by 0.7 second
+increase damage by 30%
+increase slow amount by 9%
+increase the debuff duration by 1.7 second
+reduce coldown by 3
 
 add a new modifier For SHRAPNEL - Dance For Kardel
 Shrapnel will alway slow for 12% while they stand inside of it and when they are inside, all of Kardel Spell will gain 450 cast range
-if they are Single target and his basic attack will have 250 bonus range, Shrapnel cooldown will lower for every enemys that die inside
-of Shrapnel. Also give Kardel 1% bonus attack damage and 3 attack speed bonus up to 15% bonus attack damage and 45 attack speed these
-are gain when enemys dies in Shrapnel radius. Kardel will lose all stacks upon death.
+if they are Single target and his basic attack will have 250 bonus range, Shrapnel cooldown will by 0.3 lower for every enemys that die
+inside of Shrapnel. Also give Kardel 1% bonus attack damage and 3 attack speed bonus up to 15% bonus attack damage and 45 attack speed
+these are gain when enemys dies in Shrapnel radius. Kardel will lose all stacks upon death.
 
 add a new modifier for METAL CHAINS - Skull Hit
 Metal Chains will have 40% chance to stun the targets by 2.2 second and while they are stun, they will take 65% increase damage from
-all sources. If all target dies under the slow of Metal Chains, increase the amount of Chains throw by 1 up to 3 more chains max, Kardel
+all sources. If the target dies under the slow of Metal Chains, increase the amount of Chains throw by 1 up to 3 more chains max, Kardel
 will lose all of his stacks if he dies.
 
 
@@ -173,9 +178,9 @@ max health into damage 0.9% 1.1% 1.3% 1.5% physical
 armor lost 7 9 11 13
 stun duration 0.8 0.9 1 1.1
 attack speed lost 50 70 90 110
-debuff duration of attack speed 2.3 2.9 3.5 4.1
+debuff duration of attack speed 1.3 1.9 2.5 3.1
 mana cost 100 125 150 175 plus 3% of max mana
-cooldown 22 21 20 19
+cooldown 25
 
 MARK FOR DEATH
 Kardel mark the enemy making them take increase damage and increasing their cast point time as well, if sniper use Nitro Shot or Take
@@ -224,7 +229,7 @@ he also start with a point inside of this passive and having 5 levels, all ally 
 11% 14% 17% 20% increase attack damage for 3.5 seconds. (kardel has a 615 base attack range)
 
 increase base damage 4 12 20 28 36
-increase attack range 75 150 225 300 375
+increase attack range 200 240 280 320 360
 increase cast range 110 200 290 380 470
 reduce movespeed 110 100 90 80 70 FLAT
 
