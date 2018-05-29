@@ -213,7 +213,7 @@ damage 75 150 225 plus 35% 40% 45% of inteillgence
 Magic and Pure resist lost 15% 20% 25%
 Void Star Radius 600 725 850
 Center radius 250 275 300
-coldown 170 150 140
+coldown 190 170 150
 mana cost 25% 35% 45% of max mana
 
 talent level 40 Upgrade Void Star
@@ -233,38 +233,41 @@ deal 8% increase damage every 0.5 seconds as well and will also deal Pure damage
 
 level 1 talent
 -
-increase strenght gain by 0.2 every level and also increase strenght by 5, Gravity well will give Enigma 6% damage reduction while he
-is inside of it.
+increase strenght gain by 0.2 every level and also increase strenght by 5, Gravity Well will give Enigma 6% damage reduction while he
+is inside of it and also reduce its coldown by 1.0 and mana cost by 25.
 -
-increase agility gain by 0.2 every level and also increase agility by 5, Enigma Void Bolt will have 1 second reduce and will gain 3
-base damage and also gaining 12% of Enigma Agility into bonus damage. (doesnt affect Consuming Void.) 
+increase agility gain by 0.2 every level and also increase agility by 5, Enigma Void Bolt will have 1.0 second reduce and will gain 3
+base damage and also gaining 20% of Enigma Agility into bonus damage. (doesnt affect Consuming Void.) 
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5, Enigma basic Spells will spellvamp for 5% of the
-damage dealt and will also Mana Leech for 3% of the damage dealt.
+damage dealt and will also Mana Leech for 3% of the damage dealt. Also Increase Enigma Health by 1 for every 25 mana.
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Enigma spells will have 10% mana cost reduce and have 1.0
-seconds coldown reduce as well.
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Enigma spells will have 15% mana cost reduce and have 2.0
+seconds coldown reduce as well. Enigma will also gain 11% stun resist while he stand in Gravity well and when a target is affected by
+Void Curse as well
 -
 level 4 talent
 -
-Enigma will gain 7 in all stats and 0.75 attack speed per inteillgence but reduce magic resist by 8% and mana regeneration by 0.4,
-Galaxy will also give 2% more coldown reduction. He also remove the 40% damage lost Penalty from Void Lord as well.
+Enigma will gain 7 in all stats and gain 0.75 attack speed per inteillgence but reduce magic resist by 8% and mana regeneration by 0.4,
+Galaxy will also give 2% more coldown reduction. He also remove the 40% auto attack damage lost Penalty from Void Lord as well.
 -
-Increase Void Bolt base damage by 8 and both damage scaling by 3%, it will also gain 10% radius Impact as well and 10% spellvamp effect.
+Increase Void Bolt base damage by 8 and both damage scaling by 3%, it will also gain 10% radius Impact as well and gaining 8% spellvamp.
+Void Bolt will also get a increase of 15% bonus spellvamp scaling from those Source
 -
 Void Curse will always slow attack speed by 15 and movespeed by 8% for its duration, Void Curse also gain 3% more scaling for both
-damage and Enigma also gain 75 mana and 3 inteillgence.
+damage and it will also increase the chance to trigger Void Mass by 1%. Enigma also gain 75 mana and 3 Strenght.
 -
 level 7 talent
 -
 Increase Void Curse base damage by 4 and increase health regeneration lost by 0.2 and Enigma will gain 10% damage reduction when a
-target is under Void Curse.
+target is under Void Curse. Enigma will reduce all silence duration by 0.1 seconds and will be Immune to silence effect if they are
+under 0.3 seconds.
 -
 Enigma will gain 125 health but lose 125 mana, reduce the coldown of Void Glove by 10 and increase the damage gain by 5% as well, Enigma
-Gravity Well will gain 125 radius and will also reduce 5% overall damage from enemys.
+Gravity Well will gain 125 radius and will also reduce 7% overall damage from enemys when they are inside of it.
 -
 Increase Gravity Well Base damage by 5 and its scaling by 7%, also increase its stun duration by 0.4 and it will always cast a Void Bolt
-in the center every 3 seconds having 15% increase damage and 35% increase radius. Also increase the duration of Gravity Well by 1.0
+in the center every 3 seconds having 15% increase damage and 20% increase radius. Also increase the duration of Gravity Well by 1.0
 seconds but increase the mana cost by 115.
 -
 level 10 talent
@@ -285,7 +288,8 @@ level 16 talent
 -
 Increase Void Star base damage by 35 and reduce its coldown by 10. Void Star will gain 35 cast range for every basic spells Enigma
 casted for 7 seconds (refresh upon casting a basic spell again), up to 350 bonus cast range and at 10 max stacks, Void Star will gain
-20% increase total radius (10% increase total Radius for the center).
+20% increase total radius (10% increase total Radius for the center). Enigma will also gain 10 Strenght and every point of Strenght will
+give 0.03 mana regeneration
 -
 Galaxy will now give Enigma 5% increase Strenght and Inteillgence, Galaxy will also Increase the enemys coldown spells by 6% and each
 time they cast a spells, Enigma will gain 15 plus 20% of his Inteillgence into mana and health and also reducing his basic spells cold
