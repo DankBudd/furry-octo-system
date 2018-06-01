@@ -27,14 +27,13 @@ slows Enigma takes will grant him a speed boost instead of slowing him and incre
 per level gaining 0.5% size as well enigma will have Void Glove that scale per level and he cannot be change, Enigma also gain 4
 inteillgence for every items that give Spellamp (max of 20 Inteillgence).
 
-
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 40% base damage, strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
 items with effect that deal damage will have 50% reduction effects, he also lose 5% Agility per Inteillgence item he got. Enigma cannot
 have any weapons beside his Void Glove
 
 talent level 40 upgrade Might of The Void Lord
-Enigma will gain 2% coldown reduction per Items that give Mana or Magical Resistence max of 12% bonus from it, he also gain 10 Mana
+Enigma will gain 1% coldown reduction per Items that give Mana or Magical Resistence max of 8% bonus from it, he also gain 10 Mana
 Regeneration Upon casting a spell for 3.5 seconds. Enigma Spells will be Empower for the next cast he does (Void Lord will become a
 Toggle Passive if the user wants to disable the empower or not). Void Curse will gain 2.5 seconds duration bonus and will deal 2%
 increase damage per 1% missing health on the target (affect Void Mass as well). Gravity Well will gain 35% increase total radius and
@@ -234,7 +233,7 @@ deal 8% increase damage every 0.5 seconds as well and will also deal Pure damage
 level 1 talent
 -
 increase strenght gain by 0.2 every level and also increase strenght by 5, Gravity Well will give Enigma 6% damage reduction while he
-is inside of it and also reduce its coldown by 1.0 and mana cost by 25.
+is inside of it and also reduce its coldown by 1.0 and mana cost by 25. it also gain 50% of Enigma Strenght into bonus radius.
 -
 increase agility gain by 0.2 every level and also increase agility by 5, Enigma Void Bolt will have 1.0 second reduce and will gain 3
 base damage and also gaining 20% of Enigma Agility into bonus damage. (doesnt affect Consuming Void.) 
@@ -327,25 +326,27 @@ a spell under the debuff for at least 7 seconds, dealing 15% increase damage and
 reduce the target magic resist by 10% and increasing the pure damage they take by 15% for 5 seconds.
 -
 Enigma will gain 20% increase health at the cost of further reducing his armor Penalty by -4. Enigma will make his Gravity well gain
-1 base damage for every 100 health that Enigma got. If Enigma reach at least 2500 health, Gravity well will gain 1.0 second duration and
-also increasing the stun chance by 10%.
+1 base damage for every 100 max health that Enigma got. If Enigma reach at least 2500 health, Gravity well will gain 1.0 second duration
+and also increasing the stun chance by 10%. If Enigma reach at least 4000 health, Gravity Well will gain 125 base radius and 45 base
+damage increase.
 -
 Enigma will reduce all stun duration by 30% at the cost of losing 40% root resistence. Enigma Void Curse will root all target near the
 Primary target that died from the curse and they will be rooted for 1.5 seconds and taking 7% of Enigma inteillgence every 0.1 second
-of root. (stack with the level 10 talent from Void Curse and will give stack of root bonus)
+of root. Also increase Enigma Inteillgence by 15. (stack with the level 10 talent from Void Curse and will give stack of root bonus)
 -
 level 26 talent
 -
 Enigma will gain a new spell call Void Hungers after casting any of his 3 basic spells for the remaing coldown of them. When Void
 Hungers is activate, Enigma will go into a frenzy of eating his enemys for power, he will insta-kill anything below 25% health (bosses
-cannot be eat by Enigma) gaining 1.5% spell amp, 0.4 mana regeneration and increasing his mana by 16. the Frenzy will last 4.5 seconds
+cannot be eat by Enigma) gaining 0.9% spell amp, 0.2 mana regeneration and increasing his mana by 22. the Frenzy will last 4.5 seconds
 and will silence enigma for its duration (it will Ignore all form of status resistence and silence resistence) and Enigma attack range
 will be reduce to melee and he will gain 15% movespeed for the duration as well. After eating 20 enemys Enigma will gain a new buff
 call Void Titan, increasing his size by 20% and increasing his health and mana by 15% with 325 cast range as well but also reducing
-his movespeed by 85 FLAT.
+his movespeed by 55 FLAT.
 -
 Increase Enigma Mana by 15% and for every 150 mana, Enigma will reduce physical damage taken by 1. Enigma will also gain 15% magic
-resist and also reducing Silence duration by 25% and blind by 40%
+resist and also reducing Silence duration by 25% and blind by 40%. Enigma will always reduce Physical damage taken by 15% if he has
+at least 2500 mana and 750 health.
 -
 Increase item Attribute stats gain by 10%, Enigma will further increase the following stats on those items by 20% -Inteillgence-
 Spell amp-Movespeed-Mana-attack speed-. Enigma will lose 25 FLAT movespeed and 8 Strenght and Agility. Also increase items cast range
@@ -353,7 +354,7 @@ by 300 and their damage effect by 35%.
 -
 level 29 talent
 -
-Increase Pure resist by 40% but reduce magic resist by 40%. Enigma will further increase his Pure resistence by 5% for every items that
+Increase Pure resist by 25% but reduce magic resist by 40%. Enigma will further increase his Pure resistence by 5% for every items that
 give Strenght or Health (max of 20% bonus). Also make Gravity Well give Enigma 10% magic resist and Pure resist when he stand in it.
 -
 Increase magic resist by 5% and mana by 7%, further increase the magic resist by 5% and mana by 4% for every 5 levels above 30. Enigma
@@ -367,20 +368,20 @@ talent defensive
 -
 level 33 talent
 -
-Increase all Self-healing on Enigma by 40% but reduce ally healing on Enigma by 20%. Enigma Void Curse will heal him by 20 plus 25%
+Increase all Self-healing on Enigma by 35% but reduce ally healing on Enigma by 50%. Enigma Void Curse will heal him by 20 plus 25%
 of his Inteillgence for every tick of damage done and make Gravity well heal for 50% of its total damage when Enigma stand in it.
 (stack its self with the level 10 talent of Gravity Well). Also increase Enigma Inteillgence by 10 and his strenght by 8 with 3.7
 health and mana regeneration.
 -
 Enigma will further increase inteillgence gain from items by 30% but reduce Agility, Strenght and Health stats on them by 50%. Enigma
-will make his Void Bolt scaling damage increase by 45% but will have 3 seconds coldown increase and 165 mana cost increase as well.
+will make his Void Bolt scaling damage increase by 40% but will have 4 seconds coldown increase and 165 mana cost increase as well.
 -
 Enigma will increase his Root and Stun durations cause by spells by 33% but will reduce his silence resistence and blind resistence by
 35%. Enigma Void Curse will have 10% chance to stun for 0.2 seconds and Void Bolt will always root its target for 0.7 seconds. Enigma
-will gain 20% damage reduction if any target in a 750 radius around Enigma is affected by roots or stuns.
+will gain 15% damage reduction if any target in a 750 radius around Enigma is affected by roots or stuns.
 -
 Increase attack damage by 75 and attack speed by 60. Enigma will further/making Increase attack speed gain from inteillgence by 1.40
-and for every 20 curren attack speed, Enigma will gain 1 attack damage and 3 attack range. Enigma auto attacks will have 30% chance to
+and for every 15 current attack speed, Enigma will gain 1 attack damage and 3 attack range. Enigma auto attacks will have 30% chance to
 crit for 180% of the damage but disabling any other source of auto attack crits.
 -
 level 36 talent
