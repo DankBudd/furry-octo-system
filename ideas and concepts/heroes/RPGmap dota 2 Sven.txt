@@ -186,19 +186,23 @@ This Spell can last very long with every kill he does, NEVER CROSS ME!.
 
 level 1 talent
 -
-increase Strenght gain by 0.2 every level and also increase strenght by 5, Increase BloodLust duration by 0.5
+increase Strenght gain by 0.2 every level and also increase strenght by 5, Increase BloodLust duration by 0.5 and its bonus damage by 4.
+Sven will also gain 1 base damage for every 175 current health he got.
 -
-increase Agility gain by 0.2 every level and also increase agility by 5, Death Blow will gain 10% of Sven Agility into bonus damage
+increase Agility gain by 0.2 every level and also increase agility by 5, Death Blow will gain 20% of Sven Agility into bonus damage and
+increase its strenght scaling by 5% and spellvamp by 10%.
 -
-increase Inteillgence gain by 0.2 every level and also increase inteillgence by 5, Reduce the mana cost of Sven spells by 10%
+increase Inteillgence gain by 0.2 every level and also increase inteillgence by 5, Reduce the mana cost of Sven spells by 10% and their
+coldown by 0.5. Sven 3 basic spells will gain 15 cast range for every 100 max mana he got and also reduce Mana Lost effect by 15%.
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Sven will reduce the coldown of his 3 basic spell by 1
-seconds and gain 1.2 Mana regeneration
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Sven will reduce the coldown of his 3 basic spell by 1.5
+seconds and gain 1.2 Mana regeneration. Sven Death Blow will have 1.2 duration increase for its debuff and Blood Wound will have 1.0
+seconds duration increase.
 -
 level 4 talent
 -
 Increase the bonus damage from BloodLust by 5 and increase its duration by 0.5 seconds, also reduce the coldown of it by 1.5, Sven
-will also gain 6 Strenght and 3.5 Health Regeneration when in BloodLust. (Further Increase the Strenght Gain by 8 at level 14)
+will also gain 6 Strenght and 3.5 Health Regeneration when in BloodLust. (Further Increase the Strenght Gain by 9 at level 10)
 -
 increase all stats by 6 and increase healing recive by 15%, Further increase the healing recive by 25% when in BloodLust. Blood Wound
 will Heal Sven by 0.2% of his max health for every tick of damage
