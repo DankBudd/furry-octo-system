@@ -57,10 +57,11 @@ They will both lose 5 armor and 15% magic resist for 10 seconds. (Eshalurd will 
 
 
 SPELL Q Dooming Slash - Physical -
-deal high amount of damage to a single target, breaking the target armor to -2 -4 -6 -8 -10 -12 -14 and cannot be increase but can be
+deal high amount of damage to a single target, breaking the target armor to -3 -4 -5 -6 -7 -8 -9 and cannot be increase but can be
 lowered. If the target is below 20% health, Dooming Slash will deal increase damage and have no coldown on those target. this spell will
 gain 6% increase damage and 2.1% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage
-and also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. 
+and also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. the debuff armor
+lost will last 5 seconds.
 
 Base damage 20 plus 12% of Agility and Strenght
 Health Threshold damage bonus 7 10 13 16 19 22 25
@@ -79,8 +80,8 @@ Increase Health restore (base on max Health) by 1.2%
 reduce mana cost by 15
 
 add a new Modifier Seven Hell Strike
-Dooming Slash will bounce after striking its target, bouncing 7 time dealing 35% less damage for those 7 strike and they will heal him
-as well (only the Health restore Base on DMG) and if it kill the target will they Bounce, reset the number of Bounce to 7 again and
+Dooming Slash will bounce after striking its target, bouncing 7 time dealing 45% less damage for those 7 strike and they will heal him
+as well (only the Health restore Base on DMG) and if it kill the target they Bounce on, reset the number of Bounce to 7 again and
 increase the bounce damage by 15% (can proc without limits). Eshalurd will gain 1 stack of Doomed Slash every time it bounce 4 time
 and every stacks will increase the base damage of Dooming Slash by 1, at 3 stacks, increase Dooming Slash cast range by 145 and reduce
 its mana cost by 15, at 7 stacks, increase Eshalurd attack range by 75 and his attack damage by 14, at 11 stacks, increase the Health
@@ -161,11 +162,11 @@ and have 8% 16% 24% 32% bonus damage and 2 4 6 8 base damage as well (can be tog
 damage bonus only.
 
 Bonus AGI and STR 4% 6% 8% 10%
-Health regen base on AGI and Int 9% 11% 13% 15%
+Health regeneration base on AGI and Int 9% 11% 13% 15%
 Health gain 7 18 29 40 plus 25% of Strenght and Agility
 Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.3% 0.5% 0.7%
 Reduce Mana Cost (base on Eshalurd LVL) 0.17% 0.23% 0.27% 0.33%
-Reduce Dooming Slash coldown by 0.7 1.3 1.7 2.3
+Reduce Dooming Slash coldown by 1.5 2.0 2.5 3.0
 Reduce Base mana cost of LVL? Death by 15 30 45 60
 Increase Doom Flames health regeneration by 1.5 3.2 4.9 6.7
 
