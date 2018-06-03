@@ -1,10 +1,10 @@
                                                       Xorn The Demon Lord
 Starting stats 6 strenght, 11 agility, 5 inteillgence, Stats gain per level, 0.60 Strenght, 1.10 Agility, 0.20 Inteillgence.
-Base movespeed 250, Base attack damage 1-4, Base Regeneration Health 0.2, Base Regeneration Mana 0.3.
+Base movespeed 200, Base attack damage 1-4, Base Regeneration Health 0.2, Base Regeneration Mana 0.3.
 
 total base stats at level 40 - 30 Strenght - 55 Agility - 13 Inteillgence -
 
-LEVEL 30 TALENT
+LEVEL 30 TALENT rework time
 
 Talent 1
 Increase Xorn armor by 7 and health by 225
@@ -19,25 +19,25 @@ refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.1
 
 PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 30 and talent level 40 of this passive, Xorn will
-not be able to go faster than 850 movespeed but still able to go to a speedlimit of 2250, increase the max speedlimit to 2750 at level
-40.
+not be able to go faster than 750 movespeed but still able to go to a speedlimit of 2250. Increase the max speedlimit to 2750 at level
+20 and 3250 at level 40.
 
-BUFF Xorn will gain 1 base damage for every 20 movespeed beyond 200 Movespeed and he also gain 1% movement speed for every 7 Agility, he
-start with 2 armor and 1.4 mana regeneration bonus as well, every 200 movespeed will give him 5% Blind Resist, he also gain 0.7 health 
-regeneration per 90 current movespeed and when he lose 125 of his health points as well, he got a special Helm that scale by his Move
-Speed and level.
+BUFF Xorn will gain 1 base damage for every 25 movespeed beyond 200 Movespeed and he also gain 1% movespeed for every 50 attack speed he
+got. Xorn will gain 15% blind resistence and 5% Stun resistence while in True Form and in Normal Form he will gain 15% silence Resistence
+and 5% Mana Lost resistence. Xorn will also gain 11 health regeneration after casting a spell or items active for 2.0 seconds. He will
+start with a Special Helm that cannot be change.
 
-DEBUFF Xorn cannot have any magic resist and he got -15% magic resist as well and slowing effect will be double on him he cannot
-have any Helm type armor and he got -65% max mana and increasing Blinds and damage reduction debuff by 2 more second on him and also
-dealing 0.8% of his max health per 0.5 second
+DEBUFF Xorn will have -15% magic resistence and he cannot gain any Magic resist by any means (except his talents) and he will take 1%
+of his max health in Pure damage for every Pure or magical damage taken. Slowing debuff will have double their effect and durations,
+and increase all stun duration above 1.0 seconds by 0.5 seconds. Xorn will lose 5% Inteillgence for every items that give Agility or
+attack damage, he also cannot use any 2handed weapons, he also lose 50% max mana.
 
-
-Speed Horn Helm SPECIAL
+Speed Horn Helm SPECIAL coldown 45 seconds
 increase life by 1 for every 3 movement speed
 increase mana by 1 for every 2 movement speed
-increase Pure Resist by 25% increase by 1% for every 5 levels
+increase Pure Resist by 15% increase by 1% for every 5 levels
 increase Movespeed by 35 increase by 1 for every 2 levels
-TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 30% of his movespeed cooldown of 35 second
+TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 50% of his total movespeed
 
 talent level 25 upgrade Speed Demon
 add a new modifier Speed Terror
@@ -49,31 +49,36 @@ enemy in the radius and some of TerrorBlade Spell will do 4% of his Move speed a
 SPELL Q Terror Wave
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
 they have a Small chance to take insane damage and waking up, running in fear from Xorn. bosses will take Double damage from
-the wave, they cannot be Sleep. the wave will deal 75% increase damage while in True Form and the Sleep duration will be increase
-by 1 secondm sleep units will still take damage but only 40% of the damage, Nightmare will have 12% chance to Trigger every 0.5 seconds
+the wave, they cannot be Sleep. the wave will deal 45% increase damage while in True Form and the Sleep duration will be increase
+by 1 second, sleep units will still take damage but only 30% of the damage. Nightmare will have 12% chance to Trigger every 0.5 seconds
+and the wave will travel at a 500 speed unit plus 20% of Xorn current Movespeed.
 
-damage 20 26 32 38 plus 55% 60% 65% 70% of agility Physical damage
+damage 22 30 38 46 plus 15% 30% 45% 60% of agility Physical damage
 radius of the wave 225 250 275 300
 Wave max distance 450 525 500 675
-Sleep duration 5 second
-Nightmare damage 30 40 50 60 plus 80% of agility Pure damage
-Nightmare Fear duration 1.5 2 2.5 3 second
-cooldown 13.5 13 12.5 12
+Sleep duration 3.5 second
+Nightmare damage 30 50 70 90 plus 125% of agility Pure damage
+Nightmare Fear duration 1.0 1.5 2.0 2.5 second
+cooldown 17 16 15 14
 mana cost 60 70 80 90 plus 3% of max mana
 
 talent level 10 upgrade Terror Wave
-increase damage by 10
-increase agility scaling by 15%
-increase sleep duration by 1.5
-increase nightmare damage by 30
+increase base damage by 22
+increase scaling by 10%
+increase the radius of the wave by 50
+increase wave max Distence by 100
+remove max mana cost
 
 add a new modifier True Nightmare
 After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 130% 160% 190% 220% of Xorn
-attack damage. If the Image Kill their Victims, It will return to Xorn giving him 3 attack damage and 1% movespeed that stack 10
-time, at 4 stacks Xorn will gain 25 attack speed and 30 movespeed, at 8 stacks Xorn will gain 16% spellamp and 3.3 health regeneration,
-3 stacks are lost upon death, The Image will Vanish away after 7.5 seconds.
+attack damage. If the Image Kill their Victims, It will return to Xorn giving him 1 attack damage and 6 Health, at 5 stacks, Terror
+Wave will gain 15% of Xorn movespeed for its travel distence and also increase Nightmare damage by 15. At 10 stacks, Xorn will gain 125
+Mana and Terror Wave will deal 3% of Xorn Total Movespeed into bonus damage. At 15 stacks, Xorn will gain 10 Agility and Strenght and
+Terror Wave will reduce the target armor by 6 for 4.5 seconds and if the target dies, it will release a new one with 50% less damage at
+the nearest target but reducing 9 armor for 6 seconds instead of 6 armor for 4.5 seconds. max stack of 20 and 2 stacks are lost upon
+getting stun and 10 stacks is lost when Xorn dies.
 
-SPELL W Sunder
+SPELL W Sunder will have a rework
 Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
 Steal he will gain bonus Armor and life regeneration with Movement Speed and if he kill his Target with Sunder he will gain Life Bonus
 from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
@@ -81,7 +86,7 @@ Normal Form increase the max life damage by 3% for normal units and bosses by 1%
 11 coldown increase if use on bosses
 
 damage 6% 9% 12% 15% of Max health increase by 0.1% every 4 agility
-bosses Damage 1% 2% 3% 4% of Max Health
+bosses Damage 3% of Max Health
 life needed for bonus 10 30 35 40
 life regeneration per life Stolen 0.3 0.4 0.5 0.6
 Armor per life Stolen 0.2 0.3 0.4 0.5
@@ -106,7 +111,7 @@ the duration of the health bonus by 5 second gain by the Soul Breaker damage ove
 SPELL E Speed Blast and Zeal
 Xorn will have 2 spell, While Xorn is in True form he will gain Speed Blast dealing high damage base on his speed, rooting
 the target and making them lose attack speed and in Normal Form he will gain Zeal dealing small amount of damage but disarming them
-with reducing armor and reducing mana regeneration as well
+with reducing their armor and reducing mana regeneration as well
 
 SPEED BLAST
 base damage 10 16 22 28 plus 15% of agility physical
@@ -148,10 +153,10 @@ attack speed, movement speed and making Terror Wave stronger. While in True Form
 
 TRUE FORM
 damage taken increase by 40% 50% 60% 70% 80%
-base damage bonus 6 14 22 30 38
+base damage bonus 5 15 25 35 45
 attack range 250 300 350 400 450
-attack speed 12 20 28 36 44
-movement speed 4% 8% 12% 16% 20%
+attack speed 20 35 50 65 80
+movement speed 8% 10% 12% 14% 16%
 NORMAL FORM
 base damage reduce by 25% 35% 45% 55% 65%
 attack speed reduce by 20 40 60 80 100
