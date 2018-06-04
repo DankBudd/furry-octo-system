@@ -33,11 +33,11 @@ set of the Alor Death
 Sword, gloves, helm
 
 1 Peice bonus
-reduce Life regeneration by 70%
+reduce Life regeneration source by 70%
 reduce healing effect by 25%
 
 2 Peice bonus
-increase life bonus regeneration by 30%
+increase life bonus regeneration by 20%
 increase armor by 10%
 increase pure resist by 5%
 
@@ -61,31 +61,31 @@ set of the Nhantalur Will
 Glove, helm, chest-armor, boots
 
 2 peice bonus
-increase armor by 4
-increase life regeneration by 2.5
+increase armor by 3
+increase life regeneration by 3.5
 reduce spell amp by 7%
 
 3 peice bonus
-increase armor bonus by 5
-increase life regeneration by 4
-increase Physical Q SPELL damage by 35%
-increase health by 5%
-reduce spell amp by 11%
+increase armor bonus by 6
+increase life regeneration by 6.5
+increase Physical Q SPELL damage by 25%
+increase health by 7%
+reduce spell amp by 12%
 
 4 Peice bonus
-increase armor bonus by 6
-increase life regeneration by 5.5
-increase Physical Q and W SPELL damage by 40%
-increase health by 8%
-reduce spell amp by 15%
-reduce movespeed by 12%
+increase armor bonus by 9
+increase life regeneration by 9.5
+increase Physical Q and W SPELL damage by 35%
+increase health by 11%
+reduce spell amp by 18%
+reduce movespeed by 13%
 
 also give a modifier to the user
 all spell that you deal magical attack will have 50% reduce damage and all physical spell will deal bleeding bonus damage on the target,
 dealing 24 plus 15% of strenght and agility in damage every 0.5 second for 5 second, the bleed damage will have 8% reduce damage every
 tick of damage dealing less damage in return, and all magical attack taken will heal the user for 35% of the damage taken and allys
 near him of 500 radius will be heal for 10% of the damage he takes, the blood damage is physical and the bleed damage cannot go lower
-than dealing 11 damage per second
+than dealing 9 damage per 0.5 second
 
 
 
@@ -100,6 +100,6 @@ increase all Stats by 4
 reduce base attack time by 0.35
 
 also give a modifier to the user
-every attack on the same target will lower base attack time by 0.03 up to 0.30 and also increase damage by 1% up to 10% bonus as well
+every attack on the same target will lower base attack time by 0.03 up to 0.30 and also increase damage by 2% up to 20% bonus as well
 attacking a new target will reset the stacks, and for every stack that the user got upon switching target will do 8 physical damage
 for all of those stacks on switching, bosses will take 50% increase total damage of the stacks
