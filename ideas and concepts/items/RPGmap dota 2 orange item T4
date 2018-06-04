@@ -1,13 +1,17 @@
 list of orange items can be found at level 24 to 40
 
 Realm Soul
-Increase Attack damage and Health, The user will have a small chance to deal extra damage and lifesteal off of it as well
+Increase Attack damage and Health, The user will have a small chance to deal extra damage and lifesteal off of it as well. The Realm
+Soul will gain bonus base on the area the user is in.
 
 Passive item use
 15% to deal 35 physical damage plus 40% of user attack damage and lifestealing for 75% of the damage dealt
 
-damage 17-25
-life 315-375
+Passive item use 2 no area made yet*
+
+attack damage 20-32
+health 275-375
+
 
 Rad Stone need Magic Stone and recipe
 increase intelligence and spell with mana, also can be use to deal damage and slow the target, damage nearby enemy as well
@@ -16,11 +20,11 @@ Active item use Rad Sickness coldown 27 mana cost 175
 deal 50 magic damage plus 35% of user inteillgence to the target slowing movement by 15% and attack speed by 40 last 4 second 
 
 Passive item use Rad Aura
-deal 7 magical damage per 0.5 second plus 4% of user intelligence in a 625 radius also slow enemy by 8% and attack speed by 10
+deal 7 magical damage per 0.5 second plus 4% of user intelligence in a 625 radius also slow enemy by 8% and attack speed by 15
 
-intelligence 13-19
-spell amp 6%-12%
-mana 290-420
+intelligence 18-30
+spell amp 8%-14%
+mana 200-700
 
 Hellish Infernal Stone ORANGE, needed infernal stone 2500 gold with recipe 3500 gold
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive
@@ -55,9 +59,9 @@ Each attack will give 1 stack of Flame Circle and targeted spells will give 3 st
 dealing 25 plus 40% of the User Primary Attribute in 50% magical damage and 50% Pure damage, enemys will take 15% increase damage from
 Pure and Magical damage for 7 seconds. Flame Circle will give other enemys in the Blast radius 5 stacks.
 
-attack speed 25-55
-damage 15-22
-SpellAmp 10%-16%
+attack speed 45-80
+damage 15-25
+SpellAmp 14%-22%
 
 
 Time Shard
@@ -70,8 +74,8 @@ reduce the next Basic spell cooldown by 50% and Ultimates by 25% on use cooldown
 Passive item use Quick Actions
 Allys will gain 7% coldown reduction, Double for the User.
 
-agility 17-25
-inteillgence 17-25
+agility 19-28
+inteillgence 19-28
 
 
 Star Fragment
@@ -80,13 +84,13 @@ create a small Star that deal damage over time and stuns enemys after it ends. w
 extra damage from other Source of damage.
 
 Active item use coldown 95 mana cost 25% of max mana
-Create a Star that deal 22 pure damage plus 15% of primary Attributes every 0.5 second that last 4 second, after the star end it will
-stuns enemys by 2.1 second increasing damage they take by 250%.
+Create a Star that deal 33 pure damage plus 25% of primary Attributes every 0.5 second that last 2.0 second, after the star end it will
+stuns enemys by 1.3 second increasing damage they take by 180%.
 
-Primary Attributes 15-25
-cast range 140-280
-attack range 80-160
-life regeneration bonus source 22%-36%
+Primary Attributes 10-40
+cast range 190-370
+attack range 110-175
+life regeneration bonus source 18%-34%
 
 Icy Blood Cleaver
 increase the user damage, mana, movespeed and Strenght. every attack will Blood Frost enemys, making them get lifesteals by others
@@ -94,33 +98,33 @@ and having reduce attack speed and movement speed. useing the Icy Cleaver will t
 Bite.
 
 Passive item use Blood Frost
-enemys will lose 15 attack speed with 11% movement speed, any ally that attack a Blood Frost enemy will lifesteal for 15% of the damage
-dealt by spell and basic attack last 2.2 second
+enemys will lose 25 attack speed with 8% movement speed, any ally that attack a Blood Frost enemy will lifesteal for 10% of the damage
+dealt by spell and basic attack, last 2.2 second
 
-Active item use Frost Bite coldown 42 mana cost 275
+Active item use Frost Bite coldown 36 mana cost 275
 throw the cleaver dealing 80 plus 2% of the target max health in pure damage. Frost Bite will reduce enemys attack speed by 50 and
-reducing all healing recive by 35% for 7 second.
+reducing all healing recive by 35% for 4.5 second.
 
 Strenght 20-35
-damage 16-24
-mana 200-350
-movement speed 13%-18%
-BAT Modifier 1.85
+damage 16-30
+mana 300-450
+movement speed 9%-18%
+BAT Modifier 1.90
 
 
 Hyper Stone
 increase attack speed gain from agility and also giving armor for agility point as well, can be use to increase base agility for a short
-duration also increase agility, health and Movespeed
+duration and giving them status resistence as well. Also increase agility, health and Movespeed
 
 Active item use Dexterity Boost coldown 50 mana cost 7% of max mana
-increase the user Base Agility by 100%
+increase the user Base Agility by 100% and their status resistence by 35% for 5 seconds
 
 Passive item use Swift and Arm
-increase attack speed gain from agility by 0.20 and increase armor by 1 for every 28 agility
+increase attack speed gain from agility by 0.25 and increase armor by 1 for every 16 agility
 
-agility 16-24
-health 275-450
-movespeed 10%-20%
+agility 16-32
+health 245-425
+movespeed 10%-25%
 
 
 Holylight Stone
@@ -130,7 +134,7 @@ buffing heroes or summons.
 Passive item use HolyLight Blessing
 all healing spell will give the target 10% damage reduction,15% damage,0.7% life regeneration and 80 FLAT movement speed for 3.5 seconds
 
-Inteillgence 12-20
+Inteillgence 22-40
 healing amp 12%-28%
 
 
@@ -139,21 +143,21 @@ increase magic resist with pure resist, life regeneration and give a small chanc
 Nhantalur Set
 
 passive item use
-give the user 30% chance to block 20% of the pure damage taken
+give the user 25% chance to block 15% of the pure damage taken
 
-magic resist 10%
-pure resist 15%
-life regeneration 5
+magic resist 10%-15%
+pure resist 15%-20%
+life regeneration 5.2-7.6
 
 Nhantalur Gloves
 increase attack speed and magic resist, also give a small chance to deal increase damage on physical spells but reducing magical damage,
 part of the Nhantalur set
 
 passive item use
-physical spell will have 35% chance to deal 15% increase damage
+physical spell will have 65% chance to deal 15% increase damage
 
-attack speed 20-35
-magic resist 3%-5%
+attack speed 25-55
+magic resist 4%-7%
 magical damage dealt reduce 15%
 
 Nhantalur Chest-Armor
@@ -162,9 +166,9 @@ increase armor and magic resist with increase health, also block any magical att
 passive item use
 block 25 magical plus 5% of the user primary attributes, Magical spell or attack cannot be reduced below 12 damage
 
-armor 4-7
+armor 5-9
 magic resist 8%-15%
-health 290-365
+health 220-425
 
 Nhantalur Boots
 increase magic resist and mana regeneration with life regeneration as well, every time the user takes magical damage increase his move
@@ -173,9 +177,9 @@ speed and mana with life regeneration resource , part of the Nhantalur set
 passive items use
 increase move speed by 20% and life with mana regeneration source by 80% for 2.2 second every time the user takes magical damage
 
-magic resist 3%-5%
-mana regeneration 1.9-3
-life regeneration 2.1-3
+magic resist 3%-6%
+mana regeneration 1.9-2.7
+life regeneration 2.1-4.2
 
 
 Meteor Ingot
@@ -191,22 +195,21 @@ reduce the mana cost and coldown of the next spell by 15%, the buff last 10 seco
 
 spell amp 11%-22%
 mana regeneration source increase 25%-50%
-mana 185-335
-life 170-250
+mana 215-435
+life 190-310
 cast range 110-200
 
 
 Shadow Blade
 Increase the user Attack speed and Agility, also change the user Low and High Attack damage base. can be use to turn invisible, the
-next basic attack will deal extra damage and will also reduce the target armor
-damage on hit and reducing their armor as well.
+next basic attack will deal extra damage and will also reduce the target armor damage on hit and reducing their armor as well.
 
 Passive item use
-Change the user Low Damage to 11 and High Damage to 17
+Change the user Low Damage to 13 and High Damage to 19
 
 Active item use
 Turn invisible for 8 seconds, attacking will deal 75 plus 1% of the target max health in Physical damage and reducing their armor by
-7 for 4 seconds
+7 for 10 seconds
 
-attack speed 35-60
-agility 11-17
+attack speed 65-90
+agility 15-25
