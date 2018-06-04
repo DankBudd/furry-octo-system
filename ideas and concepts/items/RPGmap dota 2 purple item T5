@@ -48,22 +48,22 @@ Active item use Dark Strike coldown 40 mana cost 10% of max mana
 the next spell will deal 75% increase damage and for the next basic attack it will deal pure damage instead and will crit for 135% of
 normal damage.
 
-all stats 8-30
-damage 5-40
-spell amp 2%-20%
+all stats 6-40
+damage 6-40
+spell amp 3%-20%
 
 
 Scroll of Death
 activate to deal high damage base on the missing hp of the enemy also increase spell amp, intelligence and mana
 
 active item use Decay
-deal 30 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 15%
+deal 30 base damage magical to a enemy and for every 1% of health missing increase the base damage of Scroll of death by 20%
 to cast the spell you will need to kill at least 30 unit, after getting that amount needed the spell will be ready for use, mana cost 50%
 of current mana
 
-spell amp 5%-35%
-inteillgence 5-35
-mana 50-350
+spell amp -35%-50%
+inteillgence -40-80
+mana 50-250
 
 
 Moon Shard
@@ -71,24 +71,24 @@ increase the user attack speed limit, attack speed and agility, also give some m
 will have double its value for the user.
 
 Passive item use
-increase allys movement speed by 10% and attack speed by 30, double on user.
+increase allys movement speed by 11% and attack speed by 40, double on user.
 
 attack speed limit bonus 100
-attack speed 45-90
-agility 20-35
+attack speed 70-135
+agility 27-45
 
 Dark Reef Water
 increase the user Primary stats and health but lose health every seconds and can be use to deal all the health lost into damage for a
 single target
 
 Passive item use Black Water
-the user will lose 3% health per second, cannot lose health when below 65% health
+the user will lose 3% health per second and having health regeneration disable, cannot lose health when below 50% health
 
 Active item use coldown 90 mana cost 20% of max mana
 deal damage by the health taken away by Dark Reef Water into magic damage, cap damage is 35% of the user max health
 
-Primary stat increase by 19-32
-health 10%-25%
+Primary stat increase by 19-42
+health 13%-32%
 
 Medieval Artillery
 this item is only useable for Davion, others will have this item muted, increase health with strenght but reduce movespeed of Davion.
@@ -118,10 +118,10 @@ deal 24 physical damage per stack of Frost Mallet on the target and every 7 stac
 damage and at 14 stacks, the user will spellvamp for 45% of the damage dealt with Frosting Blast and will Freeze the target for 3.5
 seconds making them stuns and increasing all Physical damage Source by 65% for the stun duration.
 
-damage 29-55
-strenght 15-40
-agility 14-22
-reduce attack speed 45
+damage 29-75
+strenght 19-50
+agility 14-30
+reduce attack speed 55
 BAT 2.35
 
 
