@@ -1,8 +1,8 @@
                                                       Xorn The Demon Lord
-Starting stats 6 strenght, 11 agility, 5 inteillgence, Stats gain per level, 0.60 Strenght, 1.10 Agility, 0.20 Inteillgence.
+Starting stats 2 strenght, 11 agility, 12 inteillgence, Stats gain per level, 0.60 Strenght, 1.10 Agility, 0.20 Inteillgence.
 Base movespeed 200, Base attack damage 1-4, Base Regeneration Health 0.2, Base Regeneration Mana 0.3.
 
-total base stats at level 40 - 30 Strenght - 55 Agility - 13 Inteillgence -
+total base stats at level 40 - 26 Strenght - 55 Agility - 20 Inteillgence -
 
 LEVEL 30 TALENT rework time
 
@@ -39,7 +39,7 @@ increase Pure Resist by 15% increase by 1% for every 5 levels
 increase Movespeed by 35 increase by 1 for every 2 levels
 TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 50% of his total movespeed
 
-talent level 25 upgrade Speed Demon
+talent level 40 upgrade Speed Demon
 add a new modifier Speed Terror
 all enemy near Xorn 900 radius get -11 armor reduction and -24% magic resist reduction, also increase Xorn movementspeed by 6% for every
 enemy in the radius and some of TerrorBlade Spell will do 4% of his Move speed as bonus damage, the following spell getting this bonus
@@ -78,65 +78,67 @@ Terror Wave will reduce the target armor by 6 for 4.5 seconds and if the target 
 the nearest target but reducing 9 armor for 6 seconds instead of 6 armor for 4.5 seconds. max stack of 20 and 2 stacks are lost upon
 getting stun and 10 stacks is lost when Xorn dies.
 
-SPELL W Sunder will have a rework
-Steal the life from the target dealing Max health damage to them and giving their own life to Xorn. For every Life Xorn
-Steal he will gain bonus Armor and life regeneration with Movement Speed and if he kill his Target with Sunder he will gain Life Bonus
-from his Target with no Duration but if he goes into True Form he will lose that life bonus and he cannot have it in True Form. While in
-Normal Form increase the max life damage by 3% for normal units and bosses by 1% and reducing the cooldown by 35%, this spell will have
-11 coldown increase if use on bosses
+SPELL W Sunder - Magical in True Form and Pure in Normal Form
+Xorn Steal the life from his target gaining it for its own. He will gain bonus armor, attack speed, movespeed and evasion for every 1%
+health restore with Sunder. Sunder will always deal 3% of bosses max health into Pure damage and also making them take 15% extra Pure
+damage for 6 seconds. While in Normal Form, Sunder will gain 1% health damage for bosses and 3% for non-bosses units and also reducing
+the coldown to 17 seconds as well. Sunder will have 125 175 225 275 bonus cast range in True Form but will deal Magical damage instead
+of Pure. Sunder will gain 1% health damage for every 40 Agility Xorn has. (doesnt work and Scale for the boss health damage).
 
-damage 6% 9% 12% 15% of Max health increase by 0.1% every 4 agility
-bosses Damage 3% of Max Health
-life needed for bonus 10 30 35 40
-life regeneration per life Stolen 0.3 0.4 0.5 0.6
-Armor per life Stolen 0.2 0.3 0.4 0.5
-movement speed per life Stolen 2 3 4 5 FLAT
-Duration of bonus Buff 7 second
-Life Bonus from the target 10% 15% 20% 25% of the target total max Health
-cooldown 29 28 27 26
-mana cost 80 100 120 140 plus 3% of max mana
+Health damage 6% 8% 10% 12%
+Armor gain 0.4 0.5 0.6 0.7
+Attack speed gain 3 7 11 15
+Movespeed gain 4 6 8 10
+Evasion gain 1.15% 1.30% 1.45% 1.60%
+Buff duration 7 9 11 13
+coldown 26 25 24 23
+Mana cost 40 100 160 220 plus 1% of max mana
 
-Talent level 10 upgrade Sunder
-reduce life needed for bonus to 30 at all level
-increase the bonus duration by 2
-increase life bonus from enemys by 25%
+talent level 10 upgrade Sunder
+increase health damage by 3%
+increase armor gain by 0.2
+increase Movespeed gain by 3
+increase Evasion gain by 0.20%
+remove mana cost
 
 add a new modifier Soul Breaker
-After Casting Sunder on them, they will start to lose 0.6% of their max life per second 0.1% on bosses, for 10 second and Xorn will
-heal that life they lose. If the target dies under Soul Breaker they will Explode healing Xorn for 3% of his Max health and he
-will Spread Soul Breaker on other Target for the Same amount of duration but dealing 1.1% increase Life damage per second on them,
-Bosses are immune to the Spreads. enemys affected by Soul Breaker will have 25% healing reduction and the explosion radius is 550 and
-the duration of the health bonus by 5 second gain by the Soul Breaker damage over time also refresh the duration every tick of damage
+After Casting Sunder on them, they will start to lose 1.0% of their max life per second 0.2% on bosses for 5 seconds and Xorn will heal
+for that health they lose and every 2% health stolen will further increase the duration of Sunder buff by 0.4 seconds. the health lost
+over 5 seconds will not gain any bonus from sunder its self but giving Xorn 1% damage reduction for every seconds of the debuff on the
+enemys, the damage reduction buff will last 4.5 seconds and will refresh every time it damage the target (max of 7% damage reduction).
+Enemys affected by Soul Breaker will be Passive Break and have 15% reduce healing effect and regeneration as well for its duration.
+Xorn will also deal 25% increase damage with any source of damage he does on targets affected by Soul Breaker and having 10% chance to
+fear them for 0.4 seconds.
 
-SPELL E Speed Blast and Zeal
-Xorn will have 2 spell, While Xorn is in True form he will gain Speed Blast dealing high damage base on his speed, rooting
-the target and making them lose attack speed and in Normal Form he will gain Zeal dealing small amount of damage but disarming them
-with reducing their armor and reducing mana regeneration as well
+SPELL E Speed Blast
+While Xorn is in True Form, he will gain Speed Blast dealing insane damage to a target rooting them and greatly reducing their attack
+speed for the Root duration. Speed Blast will also have 15% chance to gain 10% 15% 20% 25% increase damage on its cast. Speed Blast
+will also gain 5% 7% 9% 11% of Xorn total movespeed into bonus damage. The Root duration will gain 0.1 duration increase for every 200
+Movespeed Xorn has. Speed Blast will always Ignore some armor off the target.
 
-SPEED BLAST
-base damage 10 16 22 28 plus 15% of agility physical
-MoveSpeed into damage 7% 8% 9% 10% of total MoveSpeed
-duration of root 1.1 1.2 1.3 1.4
-increase duration of root by 0.1 for every 260 250 240 230 movement speed
-attack speed lost 50 70 90 110 while affected by root
-increase attack speed lost by 8% 14% 20% 26% of Xorn Agility
-cooldown 13 12 11 10
-ZEAL
-damage 14 17 20 23 plus 26% 30% 34% 38% of agility physical damage
-duration of disarm 0.6 1.2 1.8 2.4
-Armor reduction 2 4 6 8
-increase armor reduction by 1 for every 22 agility
-mana regeneration lost 4 7 10 13
-duration of debuff 5 second
-cooldown 16 15 14 13
-mana cost for both 60 70 80 90 plus 2% of max mana
+Base damage 18 22 26 30 plus 20% of Agility
+Root duration 0.4 0.5 0.6 0.7
+Attack speed lost 60 90 120 150
+Armor Ignore 3 6 9 12
+coldown 15 14 13 12
+mana cost 25 40 55 70 plus 1% of max mana
 
-talent level 15 upgrade Speed Blast AND Zeal
-increase Speed Blast base damage by 7
-increase Speed Blast root by 0.3
-Increase Zeal armor lost by 5
-increase Zeal Mana regeneration lost by 8
-reduce the coldown of both by 2
+---
+SPELL E Zeal
+While Xorn is in Normal Form, he will gain Zeal dealing low damage to a target but disarming them and reducing their armor and mana
+regeneration. For every 8 7 6 5 mana lost on the target affected by Zeal debuff they will suffer 4% of Xorn Agility in Pure damage.
+Zeal will always have 240 cast range and its cannot be increase by anymeans (unless its a talent) but will always hit its target and
+will never miss. Zeal will go through Magic Immune targets dealing 40% increase damage and turning its damage to Pure. The Disarm debuff
+will last 50% Shorter on bosses.
+
+base damage 8 12 16 20 plus 10% of Agility
+Disarm duration 2.2 2.8 3.4 4.0
+mana regeneration lost -4.5 -9.0 -13.5 -17.0
+Armor lost 5 8 11 14
+debuff duration 5.0 5.5 6.0 6.5 seconds
+coldown 20 19 18 17
+mana cost 40 60 80 100 plus 1% of max mana
+
 
 add a new modifier Demonic Vessel
 Speed Blast now become a 385 AoE instead of Single target dealing 0.4% of the enemys max health and for every kill done by Speed Blast
