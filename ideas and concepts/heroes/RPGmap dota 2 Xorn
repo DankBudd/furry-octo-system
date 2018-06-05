@@ -123,6 +123,11 @@ Armor Ignore 3 6 9 12
 coldown 15 14 13 12
 mana cost 25 40 55 70 plus 1% of max mana
 
+talent level 15 upgrade Speed Blast
+increase scaling by 10%
+increase root duration by 0.2
+increase armor ignore by 4
+reduce the coldown by 2
 ---
 SPELL E Zeal
 While Xorn is in Normal Form, he will gain Zeal dealing low damage to a target but disarming them and reducing their armor and mana
@@ -131,7 +136,7 @@ Zeal will always have 240 cast range and its cannot be increase by anymeans (unl
 will never miss. Zeal will go through Magic Immune targets dealing 40% increase damage and turning its damage to Pure. The Disarm debuff
 will last 50% Shorter on bosses.
 
-base damage 8 12 16 20 plus 10% of Agility
+base damage 8 12 16 20 plus 12% of Agility
 Disarm duration 2.2 2.8 3.4 4.0
 mana regeneration lost -4.5 -9.0 -13.5 -17.0
 Armor lost 5 8 11 14
@@ -139,19 +144,26 @@ debuff duration 5.0 5.5 6.0 6.5 seconds
 coldown 20 19 18 17
 mana cost 40 60 80 100 plus 1% of max mana
 
+talent level 15 upgrade Zeal
+increase base damage by 10
+increase mana regeneration lost by 6.5
+increase the debuff duration by 0.5 seconds
+reduce mana cost by 30
 
 add a new modifier Demonic Vessel
-Speed Blast now become a 385 AoE instead of Single target dealing 0.4% of the enemys max health and for every kill done by Speed Blast
-reduce its cooldown by 0.5 and refund 15% of its mana cost to Xorn and for Zeal it Become a 215 Aoe Around him dealing 20% less damage
-to the others and 50% more damage for the primary target and for every enemys affected by Zeal increase the next Zeal debuff duration by
-0.4 second and disarm by 0.1 second, also gain a Demon Skin buff that reduce all stun duration by 0.3 and reducing spells that does damage
-with a stun effect by 35% for 2.4 seconds after casting speed blast or zeal.
+Speed Blast will always ignore magic immune targets and if they are magic immune, Speed Blast will do 30% increase damage and also
+deal 0.8% of the target max health as well. Speed Blast will also have 30% chance to crit for 150% damage and healing Xorn by 10%
+of the total damage and reducing the target attack speed by 35 for 4.0 seconds. Zeal will become a 315 Area of Effect Around Xorn
+and it will lose 4% damage for every targets hit up to 40% damage loss. Zeal will also give Xorn 1% damage reduction for every 3%
+health damage dealt to the target for 7 seconds up to 15% max reduction damage gain, bosses will always give 10% damage reduction for
+4.5 seconds and also giving 0.7% health regeneration with 25% health regeneration and healing source bonus as well.
 
 PASSIVE TOGGLE D OR F Metamorphosis
 Xorn will alway start with a level in Metamorphosis giving him a positive bonus and a negative Bonus, this passive got 5 levels
 For Normal Form Xorn will lose Base damage with attack speed but gain Damage reduction,Health,Stun resist,roots resist and
 making Sunder Stronger and for True Form he will take more damage from pure,physical and magic but gain base damage,attack range,
-attack speed, movement speed and making Terror Wave stronger. While in True Form, Xorn will have 40% increase size.
+attack speed, movement speed and making Terror Wave stronger. While in True Form, Xorn will have 40% increase size. Chainging form
+will cost 25 mana and will have 20 seconds coldown and coldown reduction source cannot lower the coldown it self.
 
 TRUE FORM
 damage taken increase by 40% 50% 60% 70% 80%
@@ -166,24 +178,25 @@ damage reduction bonus 8% 10% 12% 14% 16%
 Life bonus 10% 18% 26% 34% 42%
 Stun resist 9% 12% 16% 19% 22%
 Roots resist 12% 18% 24% 30% 36%
-cooldown to change form 20 second
+
 
 talent level 15 Upgrade Metamorphosis
 TRUE FORM
-increase base damage by 12
-increase attack range by 60
-increase attack speed by 26
+increase base damage by 20
+increase attack range by 90
+increase attack speed by 35
 NORMAL FORM
-increase life bonus by 18%
+increase life bonus by 14%
 increase Stun resist by 8%
 increase Roots resist by 14%
 
 add a new modifier Unstable Form
-every time Xorn Change form he will explode for 12% 15% 18% 21% of his Movement Speed and Purging all debuff affected on him.
-when in True Form Xorn attack will bounce up to 4 target dealing only 40% of his damage and enemys that die while in True Form
-will give him 1% increase damage and 0.5% spell amp up to 20 stack refresh every time something dies by Xorn last 30 second
-and for Normal Form, Xorn will Block any spell cast at him cooldown of 25 second and giving him self 15% more damage reduction
-that last 12 second and for every enemys that attack him with spell or basic attack he will damage them by 3% of his movement speed.
+When Xorn change form, he will do a unstable explosion that will deal 13% 15% 17% 19% of his total movespeed into pure damage in a
+415 radius and healing for 15% of that total damage dealt as well. Speed Blast will become a 275 Explosion radius around the target
+after hitting him and Zeal will deal 75% increase damage on target affected by slows and increasing the disarm duration by 1.0 second
+if they are under slowing effects. Xorn will gain a stack of Unstable Matter for every units kill under the Unstable explosion. Each
+stacks will give 1 movespeed and 3 health and mana up to 50 max stacks. At 35 stacks, Speed Blast will gain 225 cast range and it will
+give Xorn 20% damage for 3.5 seconds after casting it and Zeal will have 20% mana cost reduce with 2 seconds coldown reduce.
 
 
 ULTIMATE R Demonic Mirror
