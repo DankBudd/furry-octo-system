@@ -275,12 +275,16 @@ also Revive when he die with 50% health and 25% mana, coldown of 60 seconds
 
 level 1 talent
 -
-increase strenght gain by 0.2 every level and also increase strenght by 5
+increase strenght gain by 0.2 every level and also increase strenght by 5, Necro will gain 3 more health from strenght and also making
+his skeletons gain 5% magic resist and 2 armor bonus. Necro will also gain 1% stun and root resistence per skeleton alive.
 -
-increase Inteillgence gain by 0.2 every level and also increase Inteillgence by 5
+increase Inteillgence gain by 0.2 every level and also increase Inteillgence by 5, Death Coil will gain 10 base damage and 5% scaling
+bonus but will lose 35% healing bonus and having 2.5 coldown increase. Necro will become magic immune for 1.5 seconds after casting Death
+Coil.
 -
-Increase Strenght and Inteillgence gain by 0.1 every level and also increase Strenght and Inteillgece by 3, Necro also gain 5% coldown
-reduction and 75 health.
+Increase Strenght and Inteillgence gain by 0.1 every level and also increase Strenght and Inteillgece by 3, reduce Death Coil coldown by
+2 seconds and increase its healing by 10 and 5 for the explosion. Necro Skeleton will also have 0.15 base attack time reduce from Death
+Coil.
 -
 level 4 talent
 -
@@ -288,12 +292,13 @@ Increase Death Coil base healing by 20 (50% of this goes to the explosion heal) 
 also reduce its coldown by 0.1 for every healing done to skeletons.
 -
 increase all stats by 4 and increase healing recive by 15%, Death Coil can be cast on Necro and will have 25% increase healing effect
+and also gaining the health regeneration as a buff for necro as well.
 -
-Increase Healing amp by 30% and Inteillgence by 11 and mana regeneration by 2.7 but reduce spellamp by 10% and magic resist by 15%
+Increase Healing amp by 25% and Inteillgence by 11 and mana regeneration by 2.7 but reduce spellamp by 10% and magic resist by 15%
 -
-Increase Skeleton Archer attack damage by 7 and their attack range by 100. Also reduce the mana cost of Summon Skeleton Archer by 20%
+Increase Skeleton Archer attack damage by 4 and their attack range by 100. Also reduce the mana cost of Summon Skeleton Archer by 20%
 and remove its coldown as well. When the Skeleton Archer Dies, they will cast a Death Coil with 75% reduce total healing to a random
-Skeleton.
+Skeleton and will only bounce onces.
 -
 level 7 talent
 -
@@ -302,6 +307,8 @@ Coil base damage by 5 and skeletons will gain 10% of Death Coil total damage int
 -
 Increase Skeletons Health by 35 and armor by 1, Skeleton Warriors will gain 10% Pure resist and Skeleton Archer will gain 15 attack speed
 and 5% lifesteal and Spellvamp, Necro will gain 0.2 armor and 0.4% magic resist per skeleton alive.
+-
+increase the max skeleton by 1 -more to come-
 -
 level 10 talent
 upgrade spell Q
