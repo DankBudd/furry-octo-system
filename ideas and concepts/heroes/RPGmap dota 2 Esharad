@@ -35,17 +35,50 @@ duration of it. He also start with a Special glove that cant be change
 DEBUFF Esharad will lose 25% attack damage and take 100% increase damage from Pure, Physical and Magical damage, Esharad will increase
 all stun and root effect by 22% and increasing their damage (if they damage) by 60%. He cannot use sword, axe, cleaver, mace and shields.
 Agility give 0.00 attack speed per point and Esharad will lose 1% movespeed per level up to 40%. Esharad will take 1.2% of his max health
-for every instence of Pure and Physical damage taken and also having a 5% chance to get stun for 0.4 seconds.
+for every instence of Pure and Physical damage taken and also having a 5% chance to get stun for 0.4 seconds. Esharad will always have
+0.35 increase base attack time with any of the weapons he use
 
 level 40 Upgrade Abbysal Mage
 
 
 
 ---
-Right Hand of Eshadur Special Glove coldown 70 mana cost 10% of max
+Right Hand of Eshadur Special Glove
 increase Attack speed by 5 increase by 1 every levels
 increase inteillgence by 3 increase by 1 every 4 levels
 increase magic resist by 2% increase by 1 every 3 levels
 Esharad will gain 6% spellamp and healing amp for 7 seconds after killing any target and refresh this duration if he kill something again
 and further gain 1 stack and well. Max of 4 stacks
+
+
+SPELL Q Abyssal Hand
+Esharad will conjure a demonic hand under his target, dealing insane amount of damage and rooting the target in place and reducing his
+Magic resist while he is rooted. If the target has a least -10% magic resist, Abyssal Hand will increase the root duration by 6% 10%
+14% 18% 22% 26% 30% and increasing the total damage by 25%. Abyssal Hand will gain double the bonus from cast range and reduce its mana
+cost by 1% for every -2% magic and above of 0%. this spell will gain 4% increase damage and 7% manacost increase for every level of Esharad.
+Abyssal Hand will cost less mana if the target lost at least -25% magic resist and reduce its by 7 seconds coldown if the target reach a
+certain amount of health
+
+Base damage 35 plus 20% of inteillgence
+Root duration 1.7
+Magic resist lost 15%
+Total Manacost reduce 35%
+Health Threshold 20%
+coldown 20
+manacost 115
+
+Talent level 10 Upgrade Abyssal Hand
+increase base damage by 5
+increase scaling by 5%
+increase base magic resist lost by 10%
+increase health Threshold by 10%
+increase mana cost by 40
+
+add a new modifier Hand of Despair
+
+
+
+
+
+
 
