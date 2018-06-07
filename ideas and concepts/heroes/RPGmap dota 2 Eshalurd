@@ -22,7 +22,7 @@ talent 2
 talent 3
 
 
-DoomKnight
+Abyssal Warrior
 give a positive and negative buff, Pressing ALT will give INFO for Eshalurd level 30 talent and level 40 talent for this passive.
 Eshalurd will have a total of 15 basic spell points to spend for his 3 basic spells (his Ultimate will be normal like everyone). Points
 can be spend every 2 levels.
@@ -40,7 +40,7 @@ and Lifestealing effect from items will have 50% reduce effect on Eshalurd as we
 from all Source and in One-Handed he will increase his base attack time by 0.10 (having 2 One-Handed weapons will result having 0.20
 increase BAT). he also deal 15% less total damage to Boss Units.
 
-talent level 40 upgrade DoomKnight
+talent level 40 upgrade Abbysal Warrior
 
 
 
@@ -157,8 +157,8 @@ Eshalurd will gain bonus Agility and Strenght with some health regeneration base
 Eshalurd (600 radius) will give him flat health and also empower his 3 basic spells. Each level of Eshalurd will increase His Spellamp
 and also reducing his 3 basic spell mana cost as well, Eshalurd will gain 11% movespeed for 4.5 seconds after casting a spells or item
 effect and also reduce the coldown of items by 10% 15% 20% 25%. Each 15 seconds, Eshalurd next spell will have 12% total mana cost reduce
-and have 8% 16% 24% 32% bonus damage and 2 4 6 8 base damage as well (can be toggle on and off). Doom Flames will gain 50% of the base
-damage bonus only. Each stack of health gain will have their own duration of 40 50 60 70 seconds.
+and have 8% 16% 24% 32% bonus damage (can be toggle on and off).Each stack of health gain will have their own duration of 40 50 60 70
+seconds. Eshalurd will gain 5% damage reduction with 8% attack damage and 0.15% health regeneration when near Esharad (850 radius)
 
 Bonus AGI and STR 4% 6% 8% 10%
 Health regeneration base on AGI and Int 9% 11% 13% 15%
