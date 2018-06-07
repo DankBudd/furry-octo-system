@@ -40,7 +40,7 @@ for every instence of Pure and Physical damage taken and also having a 5% chance
 
 level 40 Upgrade Abbysal Mage
 
-
+the abbys calls
 
 ---
 Right Hand of Eshadur Special Glove
@@ -55,22 +55,22 @@ SPELL Q Abyssal Hand
 Esharad will conjure a demonic hand under his target, dealing insane amount of damage and rooting the target in place and reducing his
 Magic resist while he is rooted. If the target has a least -10% magic resist, Abyssal Hand will increase the root duration by 6% 10%
 14% 18% 22% 26% 30% and increasing the total damage by 25%. Abyssal Hand will gain double the bonus from cast range and reduce its mana
-cost by 1% for every -2% magic and above of 0%. this spell will gain 4% increase damage and 7% manacost increase for every level of Esharad.
-Abyssal Hand will cost less mana if the target lost at least -25% magic resist and reduce its by 7 seconds coldown if the target reach a
-certain amount of health
+cost by 1% for every -2% magic and above of 0% from the target. this spell will gain 4% increase damage and 7% manacost increase for
+every level of Esharad. Abyssal Hand will cost less mana if the target lost at least -30% magic resist and reduce its by 7 seconds
+coldown if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration.
 
 Base damage 35 plus 20% of inteillgence
-Root duration 1.7
+Root duration 1.70
 Magic resist lost 15%
-Total Manacost reduce 35%
+Total Manacost reduce 40%
 Health Threshold 20%
 coldown 20
 manacost 115
 
 Talent level 10 Upgrade Abyssal Hand
 increase base damage by 5
-increase scaling by 5%
-increase base magic resist lost by 10%
+increase scaling by 5
+increase total mana cost reduce by 15%
 increase health Threshold by 10%
 increase mana cost by 40
 
