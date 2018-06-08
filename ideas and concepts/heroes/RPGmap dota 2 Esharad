@@ -55,29 +55,65 @@ SPELL Q Abyssal Hand
 Esharad will conjure a demonic hand under his target, dealing insane amount of damage and rooting the target in place and reducing his
 Magic resist while he is rooted. If the target has a least -10% magic resist, Abyssal Hand will increase the root duration by 6% 10%
 14% 18% 22% 26% 30% and increasing the total damage by 25%. Abyssal Hand will gain double the bonus from cast range and reduce its mana
-cost by 1% for every -2% magic and above of 0% from the target. this spell will gain 4% increase damage and 7% manacost increase for
+cost by 1% for every -2% magic and above of 0% from the target. this spell will gain 4.3% increase damage and 7% manacost increase for
 every level of Esharad. Abyssal Hand will cost less mana if the target lost at least -30% magic resist and reduce its by 7 seconds
-coldown if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration.
+coldown if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration. Also increase
+Inteillgence and Spellamp for every point in Abbysal Hand
 
-Base damage 35 plus 20% of inteillgence
+Base damage 30 plus 40% of inteillgence
 Root duration 1.70
 Magic resist lost 15%
 Total Manacost reduce 40%
 Health Threshold 20%
+Bonus Inteillgence 2 5 8 11 14 17 20
+Bonus Spellamp 3.5% 7% 11% 14.7% 19.4% 23.6% 27%
 coldown 20
 manacost 115
 
 Talent level 10 Upgrade Abyssal Hand
 increase base damage by 5
-increase scaling by 5
+increase scaling by 5%
 increase total mana cost reduce by 15%
 increase health Threshold by 10%
 increase mana cost by 40
 
 add a new modifier Hand of Despair
+Enemys will have 50% chancw to feel Despair in their souls dealing 10 plus 35% of Esharad inteillgence every 0.5 seconds for 3.0 seconds
+and every tick of damage will have 12% chance to reduce the target armor by 2, magic resist by 5% and increasing pure damage taken by 3%
+that last 6.5 seconds. increase the duration of Hand of Dispair by 0.1 seconds for every 5 inteillgence. Esharad will gain a stack of
+Despair if the target dies under Hand of Despair, each stacks will give 12 mana and 1 inteillgence max of 20. at 8 stacks, Hand of
+Despair will gain 0.5 duration and every 0.1 seconds the target will suffer -0.15 health regeneration. at 15 stacks, Abbysal Hand will
+gain 0.80 root duration and increase the health threshold by 15% and also reduce its coldown by 5. 7 stacks are lost on death.
 
 
+SPELL W Fearing Gaze
+Esharad Gaze upon his target enemy or allys. Enemys will take medium amount of damage and their base magic resist will be reduce to a
+value, they cannot increase it but can be lower. Enemys will also suffer from health and mana regeneration lost for a short time and
+Esharad will gain that health and mana regeneration they lose. Gazing into a ally will give them increase attack damage and spellamp for
+6.5 seconds and reducing Fearing Gaze coldown by 65%. Fearing Gaze will also have 16% chance to fear the target for 1.3 seconds and
+dealing 5 10 15 20 25 30 35 extra base damage as well.this spell will gain 2.5% increase damage and 5% manacost increase for every level
+of Esharad. Also increase Mana and Mana regeneration. Esharad cannot self cast Fearing Gaze
 
+base damage 15 plus 20% of inteillgence
+Health regeneration lost -9.0 plus 10% of Inteillgence
+Mana regeneration lost -6.0 plus 15% of inteillgence
+Base magic resist reduce -13%
+debuff duration 4.5 seconds
+Attack damage increase 22%
+Spellamp increase 11%
+coldown 14
+mana cost 65
+
+talent level 10 Upgrade Fearing Gaze
+increase health regeneration lost by 3.5
+increase mana regeneration lost by 1.5
+increase base magic resist reduce by 4%
+increase debuff duration by 2.0 seconds
+increase attack damage bonus by 22%
+increase spellamp bonus by 11%
+increase mana cost by 75
+
+add a new modifier 
 
 
 
