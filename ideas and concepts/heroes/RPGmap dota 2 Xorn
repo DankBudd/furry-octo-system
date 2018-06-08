@@ -30,14 +30,14 @@ start with a Special Helm that cannot be change.
 DEBUFF Xorn will have -15% magic resistence and he cannot gain any Magic resist by any means (except his talents) and he will take 1%
 of his max health in Pure damage for every Pure or magical damage taken. Slowing debuff will have double their effect and durations,
 and increase all stun duration above 1.0 seconds by 0.5 seconds. Xorn will lose 5% Inteillgence for every items that give Agility or
-attack damage, he also cannot use any 2handed weapons, he also lose 50% max mana.
+attack damage, he also cannot use any 2handed weapons, he also lose 75% max mana.
 
 Speed Horn Helm SPECIAL coldown 45 seconds
 increase life by 1 for every 3 movement speed
 increase mana by 1 for every 2 movement speed
 increase Pure Resist by 15% increase by 1% for every 5 levels
 increase Movespeed by 35 increase by 1 for every 2 levels
-TerrorBlade can use the Speed Horn to remove any Debuff that slow him and restore his life by 50% of his total movespeed
+Xorn can use the Speed Horn to remove any Debuff that slow him and restore his life by 50% of his total movespeed
 
 talent level 40 upgrade Speed Demon
 add a new modifier Speed Terror
@@ -46,21 +46,21 @@ enemy in the radius and some of TerrorBlade Spell will do 4% of his Move speed a
  are -- Terror Wave, Zeal and Demonic Prison, Xorn will also gain 25 Agility in True Form and 25 strenght in Normal Form and he will
  gain 1% movespeed per 30 unit Walk, Stacks are lost after 0.6 seconds when Xorn stop moving.
 
-SPELL Q Terror Wave
+SPELL Q Terror Wave - Physical - Nightmare damage is Pure -
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
 they have a Small chance to take insane damage and waking up, running in fear from Xorn. bosses will take Double damage from
 the wave, they cannot be Sleep. the wave will deal 45% increase damage while in True Form and the Sleep duration will be increase
 by 1 second, sleep units will still take damage but only 30% of the damage. Nightmare will have 12% chance to Trigger every 0.5 seconds
 and the wave will travel at a 500 speed unit plus 20% of Xorn current Movespeed.
 
-damage 22 30 38 46 plus 15% 30% 45% 60% of agility Physical damage
+damage 22 30 38 46 plus 15% 30% 45% 60% of agility 
 radius of the wave 225 250 275 300
 Wave max distance 450 525 500 675
 Sleep duration 3.5 second
-Nightmare damage 30 50 70 90 plus 125% of agility Pure damage
+Nightmare damage 30 50 70 90 plus 125% of agility 
 Nightmare Fear duration 1.0 1.5 2.0 2.5 second
 cooldown 17 16 15 14
-mana cost 60 70 80 90 plus 3% of max mana
+mana cost 30 50 70 90 plus 3% of max mana
 
 talent level 10 upgrade Terror Wave
 increase base damage by 22
@@ -110,7 +110,7 @@ Enemys affected by Soul Breaker will be Passive Break and have 15% reduce healin
 Xorn will also deal 25% increase damage with any source of damage he does on targets affected by Soul Breaker and having 10% chance to
 fear them for 0.4 seconds.
 
-SPELL E Speed Blast
+SPELL E Speed Blast - Physical -
 While Xorn is in True Form, he will gain Speed Blast dealing insane damage to a target rooting them and greatly reducing their attack
 speed for the Root duration. Speed Blast will also have 15% chance to gain 10% 15% 20% 25% increase damage on its cast. Speed Blast
 will also gain 5% 7% 9% 11% of Xorn total movespeed into bonus damage. The Root duration will gain 0.1 duration increase for every 200
@@ -129,7 +129,7 @@ increase root duration by 0.2
 increase armor ignore by 4
 reduce the coldown by 2
 ---
-SPELL E Zeal
+SPELL E Zeal - Physical -
 While Xorn is in Normal Form, he will gain Zeal dealing low damage to a target but disarming them and reducing their armor and mana
 regeneration. For every 8 7 6 5 mana lost on the target affected by Zeal debuff they will suffer 4% of Xorn Agility in Pure damage.
 Zeal will always have 240 cast range and its cannot be increase by anymeans (unless its a talent) but will always hit its target and
@@ -199,49 +199,55 @@ stacks will give 1 movespeed and 3 health and mana up to 50 max stacks. At 35 st
 give Xorn 20% damage for 3.5 seconds after casting it and Zeal will have 20% mana cost reduce with 2 seconds coldown reduce.
 
 
-ULTIMATE R Demonic Mirror
-Xorn Summon a wall on each enemys, they will get taunt by the wall for a duration if they kill that wall, a Image of them will
-appear and start to kill them dealing insane damage and having a medium duration and if they die by their own Image, Xorn will
-feed upon that Image of them Empowering him Base on the form he his, enemys that are attacking the walls will gain 35% damage reduction
-until the wall dies or goes away. only 1 stack of the bonus can be active and others that die while being taunt by the wall, will give
-4 seconds duration increase on Xorn buff from Demonic Mirror.
+ULTIMATE R Foulfell Prison - Physical -
+Xorn put his target in a Prison, enemys will take massive damage overtime and have reduce armor and attack damage after the prison
+shatters. Enemys inside of the prison cannot take damage from other source but the prison itself, all debuff will freeze on the target
+and will still affect them for 33% increase effect instead of being a normal debuff. Bosses will reduce the Prison duration by 50% but
+will take double the amount of the base damage. Foulfell Prison ignore all from of status resistence on the target and Xorn will be
+heal for 15% 20% 25% of the total damage from Foulfell Prison after it shatters. Foulfell Prison will do damage every 0.5 seconds.
+increase the armor lost by 1 for every 525 500 475 current health on the target when casted. Foulfell Prison will have 3.5 seconds of
+delay before the target is in the Prison to warn allys but if there is no allys in a 900 radius around Xorn it will Inprison them instanly
 
-Radius for Mirror 400 550 700
-Wall Health 60% 45% 30% of the target max Health
-Wall duration and taunt 4.5 second
-Image damage 150% 200% 250% of the target damage
-Image duration 5 6 7 second
-Normal Form bonus life regeneration 1.2% 1.6% 2% max health per second
-Normal Form bonus damage reduction 15% 25% 35%
-True Form bonus damage 30% 60% 90%
-True Form bonus spell amp 18% 24% 30%
-Both Form duration bonus 9 11 13 second
-Cooldown 80 75 70
-mana cost 5% 15% 25% of Max mana 
+base damage 50 60 70 plus 30% of Agility
+Prison duration 2.0 2.5 3.0
+Armor lost 10 15 20
+Attack damage lost 15% 25% 35%
+debuff duration 5 6 7
+coldown 35 30 25
+manacost 10% 15% 20% of max
 
-talent level 25 Upgrade Demonic Mirror
-Increase wall and taunt duration by 0.5
-increase Image damage by 100%
-increase Normal Form Damage reduction by 10%
-increase True Form damage bonus by 60%
-reduce cooldown by 10
+talent level 40 Upgrade Foulfell Prison
+increase scaling by 20%
+increase the duration by 0.5 seconds
+increase armor lost by 10
+increase debuff duration by 1.5 seconds
+increase the coldown by 5 seconds
 
-Add a new modifier Foul Mirror
-for every enemys that are affected by the Demonic Mirror, Xorn will do 1% of the target Max health in damage up to 5%,
-for bosses deal Current Health instead and if Xorn is in True Form and Casting Demonic Mirror,he will Proc Nightmare From
-Terror Wave dealing 300% increase damage and stuning them for 1.7 second and for Normal Form he will Sunder every enemys affected by
-Demonic Mirror and dealing 10% more Max Health damage bonus to them 1% for bosses.
+add a new Modifier Eternal Prison
+After the duration of the Prison ends, they will still be in there prison until Xorn cancel it. They will still be unable to act but will
+no longer take damage, Foulfell Prison will remain in coldown until Xorn stop the Eternal Prison. Bosses will not be affected by this
+but instead they will increase the prison duration by 1.0 seconds and further lose 8 armor and 10% attack damage. Each kill under Foulfell 
+Prison will give a stack of Eternal Nightmare, each stacks will increase Foulfell Prison base damage by 1 and Xorn speed by 5 max of 25
+stacks. At 4 stacks, Foulfell Prison will gain 375 cast range and increase the attack lost by 5%. At 11 Stacks, Xorn will gain 550 health
+and also gaining 12% attack damage, Foulfell Prison will also be cast on a random target in a 550 range for only 1.5 seconds and they
+cannot be Eternal Prison. At 17 Stacks, Foulfell Prison will gain 10% increase scaling damage and it will also gain 0.5 seconds increase
+on its Prison duration, Xorn will also gain 50% increase Agility when a target is under Foulfell Prison or the Eternal Prison.
 
 
 level 1 talent
 -
-increase strenght gain by 0.2 every level and also increase strenght by 5
+increase strenght gain by 0.2 every level and also increase strenght by 5, Zeal will also gain 15% of Xorn Strenght in bonus damage and
+reduce its mana cost by 10% and its coldown by 1.0 seconds. Xorn will also reduce Disarming effect duration by 20%
 -
-increase agility gain by 0.2 every level and also increase agility by 5
+increase agility gain by 0.2 every level and also increase agility by 5, Speed Blast will further gain 5% scaling Agility and also 
+increase its base damage by 5 but increase its base mana cost by 35. Xorn will reduce all slowing effect duration by 15%
 -
-increase inteillgence gain by 0.2 every level and also increase inteillgence by 5
+increase inteillgence gain by 0.2 every level and also increase inteillgence by 5, Terror Wave will also gain 20% of Xorn Inteillgence
+in bonus damage and increase its wave travel distence by 100% of Inteillgence and reduce its base mana cost by 20. Xorn will reduce
+Silence effect duration by 20%.
 -
-increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2
+increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, all of Xorn spells (beside Metamorphosis) will have 2.5
+coldown reduce with 15% manacost as well. Xorn will further increase 
 -
 level 4 talent
 -
