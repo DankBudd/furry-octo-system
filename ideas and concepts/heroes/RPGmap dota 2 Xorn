@@ -1,4 +1,4 @@
-                                                      Xorn The Demon Lord
+                                                      Xorn The Speed Demon
 Starting stats 2 strenght, 11 agility, 12 inteillgence, Stats gain per level, 0.60 Strenght, 1.10 Agility, 0.20 Inteillgence.
 Base movespeed 200, Base attack damage 1-4, Base Regeneration Health 0.2, Base Regeneration Mana 0.3.
 
@@ -42,9 +42,13 @@ Xorn can use the Speed Horn to remove any Debuff that slow him and restore his l
 talent level 40 upgrade Speed Demon
 add a new modifier Speed Terror
 all enemy near Xorn 900 radius get -11 armor reduction and -24% magic resist reduction, also increase Xorn movementspeed by 6% for every
-enemy in the radius and some of TerrorBlade Spell will do 4% of his Move speed as bonus damage, the following spell getting this bonus
- are -- Terror Wave, Zeal and Demonic Prison, Xorn will also gain 25 Agility in True Form and 25 strenght in Normal Form and he will
- gain 1% movespeed per 30 unit Walk, Stacks are lost after 0.6 seconds when Xorn stop moving.
+enemy in the radius. Xorn Terror Wave, Speed Blast and Zeal will gain 4% of Xorn current movespeed in damage and also gaining 10% increase
+agility scaling. Terror Wave will Ignore spell immune and deal 3% of their max health in damage and reducing their armor by -7 if they
+are under magic immune. After Casting Speed Blast, aother one will be casted in a 750 radius around Xorn at random dealing 20% increase
+damamge and spellvamp for 10% of the damage dealt. Xorn will become Immune to Disarm and Silence Effect after casting Zeal for 4.5 seconds
+and reducing damage taken by 50% for 2.0 seconds as well. Xorn will gain 15% increase size and also gaining 35 Agility in True Form and
+35 Strenght in Normal Form.
+
 
 SPELL Q Terror Wave - Physical - Nightmare damage is Pure -
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
@@ -163,7 +167,8 @@ Xorn will alway start with a level in Metamorphosis giving him a positive bonus 
 For Normal Form Xorn will lose Base damage with attack speed but gain Damage reduction,Health,Stun resist,roots resist and
 making Sunder Stronger and for True Form he will take more damage from pure,physical and magic but gain base damage,attack range,
 attack speed, movement speed and making Terror Wave stronger. While in True Form, Xorn will have 40% increase size. Chainging form
-will cost 25 mana and will have 20 seconds coldown and coldown reduction source cannot lower the coldown it self.
+will cost 25 mana and will have 20 seconds coldown and coldown reduction source cannot lower the coldown it self. Metamorphosis can be
+level up from 4 12 20 28.
 
 TRUE FORM
 damage taken increase by 40% 50% 60% 70% 80%
@@ -251,10 +256,13 @@ coldown reduce with 15% manacost as well. Xorn will further increase
 -
 level 4 talent
 -
-increase Terror Wave base damage by 6 and its scaling by 10%, its also restore 0.7% of Xorn max health for every unit that come in
-contact with it.
+increase Terror Wave base damage by 8 and its scaling by 5%, its also restore 0.7% of Xorn max Mana for every unit that come in
+contact with it. Terror Wave will also deal 0.5% increase damage for every 0.4% current health on the target and also dealing 0.3%
+increase damage for every 0.7% missing health.
 -
-increase all stats by 3 and increase healing recive by 15%
+increase all stats by 6 and increase healing recive by 15%, Xorn Terror Wave will heal him by 15 plus 40% of his Agility for every enemys
+hit by it and Nightmare will restore Xorn health by 33% of its damage. Also reduce Terror Wave mana cost by 8% and its coldown by 1.0
+seconds.
 -
 Increase Physical spell damage by 10% and increase attack damage by 5%
 -
