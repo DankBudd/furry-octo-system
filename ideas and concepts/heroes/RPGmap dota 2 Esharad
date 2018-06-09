@@ -101,6 +101,8 @@ Base magic resist reduce -13%
 debuff duration 4.5 seconds
 Attack damage increase 22%
 Spellamp increase 11%
+Bonus Mana 4% 7% 11% 15% 19% 24% 30%
+Bonus Mana regeneration 1.3 1.9 2.4 3.3 4.5 5.9 7.5
 coldown 14
 mana cost 65
 
