@@ -7,15 +7,21 @@ total base stats at level 40 - 26 Strenght - 55 Agility - 20 Inteillgence -
 LEVEL 30 TALENT rework time
 
 Talent 1
-Increase Xorn armor by 7 and health by 225
-Increase Xorn magic resist by 1% for every 8 agility, he cannot go higher than 20% magic resist and items will still give no magic resist
-, Xorn will also gain 1 armor per 2% magic resist above 0% also increase his stun resist by 25% and his health by 3 for every agility
-points
+Increase Armor by 2 and health by 10%
+Increase Xorn Magic resist cap by 20% and every 1% magic resist above 0% will increase his Armor by 0.3 and his health by 12. Zeal will
+give Xorn 7 Armor and 5% Magic resist for 6.5 seconds after casting it, Xorn will not be able to lose armor for the next 3.2 seconds
+after casting Zeal. Terror Wave will have 15% chance upon damaging enemys to give Xorn 1% damage reduction with 1.5% Pure resist for
+7.0 seconds and will refresh every time it proc again and increasing its duration by 1.5 seconds (max of 10% damage reduction and 15%
+pure resist with 15 seconds duration).
 
 Talent 2
-Increase Xorn damage by 8% and agility by 22
-every attack will steal 3 attack speed and 4 movement speed from the target and give it to Xorn the debuff last 1.8 second and
-refresh every hit up to 20 max stack and the buff duration on Xorn will last 2.1 second refresh every hit
+Increase attack damage by 15 and attack speed by 40
+While in True Form, Xorn will further gain 35 attack range and increase it by 10 for every kill dones up to 100 bonus attack range.
+At max stack Xorn will 25 Attack speed with 15% attack damage. While in Normal Form Xorn will Further gain 1% health for every 750
+damage taken up to 10% bonus health. At max stack Xorn will gain 4 Armor and 0.65% Health Regeneration. Xorn will also gain 15% Status
+resistence and also making Sunder deal 1.5% increase max health to bosses and non-bosses units and Terror Wave will gain 15% of Strenght
+into bonus damage.
+
 
 PASSIVE D OR F Speed Demon
 give a positive and negative buff. Pressing ALT will give INFO for Xorn talent level 30 and talent level 40 of this passive, Xorn will
@@ -27,8 +33,8 @@ got. Xorn will gain 15% blind resistence and 5% Stun resistence while in True Fo
 and 5% Mana Lost resistence. Xorn will also gain 11 health regeneration after casting a spell or items active for 2.0 seconds. He will
 start with a Special Helm that cannot be change.
 
-DEBUFF Xorn will have -15% magic resistence and he cannot gain any Magic resist by any means (except his talents) and he will take 1%
-of his max health in Pure damage for every Pure or magical damage taken. Slowing debuff will have double their effect and durations,
+DEBUFF Xorn will have -15% magic resistence and he can only gain up to 5% Magic resist max (talents can increase this) and he will take
+1% of his max health in Pure damage for every Pure or magical damage taken. Slowing debuff will have double their effect and durations,
 and increase all stun duration above 1.0 seconds by 0.5 seconds. Xorn will lose 5% Inteillgence for every items that give Agility or
 attack damage, he also cannot use any 2handed weapons, he also lose 75% max mana.
 
@@ -99,7 +105,7 @@ coldown 26 25 24 23
 Mana cost 40 100 160 220 plus 1% of max mana
 
 talent level 10 upgrade Sunder
-increase health damage by 3%
+increase health damage by 2%
 increase armor gain by 0.2
 increase Movespeed gain by 3
 increase Evasion gain by 0.20%
@@ -252,7 +258,7 @@ in bonus damage and increase its wave travel distence by 100% of Inteillgence an
 Silence effect duration by 20%.
 -
 increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, all of Xorn spells (beside Metamorphosis) will have 2.5
-coldown reduce with 15% manacost as well. Xorn will further increase 
+coldown reduce with 15% manacost as well. Xorn will increase his magic resist cap by 10% and also increase his magic resist by 5%
 -
 level 4 talent
 -
@@ -264,7 +270,9 @@ increase all stats by 6 and increase healing recive by 15%, Xorn Terror Wave wil
 hit by it and Nightmare will restore Xorn health by 33% of its damage. Also reduce Terror Wave mana cost by 8% and its coldown by 1.0
 seconds.
 -
-Increase Physical spell damage by 10% and increase attack damage by 5%
+Increase Physical Output damage by 15% and reduce magical output damage by 25%. Xorn will reduce speed debuff duration by 33% and also
+gaining 115 health and mana. Sunder will do Physical damage instead of Magical in True Form and increase Sunder max health to non-bosses
+by 1.5% and reduce its mana cost by 10%.
 -
 level 7 talent
 -
