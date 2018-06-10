@@ -1,15 +1,16 @@
                                                     Butcher The Meat Abomination
-Starting stats 8 strenght, 4 agility, 0 inteillgence, Stats gain per level, 1.30 Strenght, 0.50 Agility, 0.00 Inteillgence.
+Starting stats 7 strenght, 8 agility, 0 inteillgence, Stats gain per level, 1.30 Strenght, 0.50 Agility, 0.00 Inteillgence.
 Base movespeed 265, Base attack damage 5-10, Base Regeneration Health 3.1, Base Regeneration Mana 0.0.
 
+total base stats at level 40 - 59 Strenght - 28 Agility - 0 Inteillgence -
 
 LEVEL 30 TALENT
 
 talent 1
 increase Butcher magic resist by 8% and his armor by 3
 Butcher will gain x8 of his armor into health bonus and also gaining x5 of his magic resist into health as well, all of his spell but
-Rotting Flesh will have 27% chance to cost nothing on cast and increase the life regeneration gain from strenght by 0.02, Butcher will
-also gain 0.03 health regeneration for every missing 75 health
+Rotting Flesh will have 27% chance to cost nothing on cast and increasing Butcher armor and magic resist by 12% total. The Life
+regeneration gain from strenght will increase by 0.02, Butcher will also gain 0.03 health regeneration for every missing 75 health
 
 talent 2
 increase Butcher damage by 12% and his spell amp by 8%
@@ -19,17 +20,19 @@ coldown by 2.5, also make Rotting Flesh no longer damage Butcher and spellvamp f
 will remain on Butcher)
 
 PASSIVE D OR F Abomination
-give a positive and negative buff. Pressing ALT will give INFO for level 20 talent of Butcher and level 25 talent of this passive
+give a positive and negative buff. Pressing ALT will give INFO for level 30 talent of Butcher and level 40 talent of this passive.
+Active items that cost mana will cost health instead and also making them cost 3% of Butcher max health as well
 
 BUFF Butcher gain 3 more life per strenght he also gain 1% spell amp per 13 strenght and all of his spell will do 1.0% of his max health
-as bonus damage to enemys he also block 10 magic damage -note this can stack with other source of block- and for every 25 strenght
-Butcher got, he will gain 1 armor, 10 attack speed and 5% blind resist.
-DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max life to use he also take 35% more damage from
-pure and physical damage and he cannot have more than 300 movement speed slows are double on him and slowing effect will damage him by
-1% of his max health for every second of the duration of slows and he only use clever and swords type weapons, Butcher also lose 100
-mana per seconds.
+as bonus damage to enemys he also block 10 magic damage (this can stack with other source of block) and for every 22 strenght Butcher
+got, he will gain 1 armor, 10 attack speed and 3% blind resist. He also reduce Armor debuff duration effect by 25% and every buff that
+allys give to Butcher will increase his health regeneration by 0.07% (does work for butcher himself with his own Buffs).
 
-Active items that cost mana will cost health instead and also making them cost 3% of Butcher max health as well
+DEBUFF Butcher cannot gain any inteillgence per level instead spell will cost max Health to use he also take 35% more damage from
+pure and physical damage and he cannot have more than 300 movement speed slows are double on him and slowing effect will damage him by
+2% of his max health for every 0.9 second of the duration of slows and he only use clever and swords type weapons. Butcher also lose
+100 mana regenration and 100% max mana.
+
 
 Talent level 40 Upgrade Abomination
 add a new modifier Meat Eater
@@ -38,27 +41,27 @@ and every 3 strenght Butcher got will increase the lifesteal done by 1%, Butcher
 he will lose 65 attack speed but strenght will give 0.10 attack speed and agility will give 1% attack damage for every 10 points instead
 of 15, also make agility give 0.2% spell amp per points and give 1% magic resist per 8 points.
 
-SPELL Q Glory Hook
-throw a hook that can grab multiple enemys in one single hook and reducing armor as well. If hooking any ally it will reduce the
-cooldown by 75% but cannot grab more than one person. enemys will also get stun after getting to Butcher. Glory Hook deal insane damage.
+SPELL Q Decaying Hook
+Butcher throws a hook at the location, grabing up to 3 targets that come in contact with it and dealing insane amount of Physical damage
+and reducing their armor and stuning them upon reaching to Butcher location. Butcher will increase the Armor lost by 1 for every 20 18
+16 14 Current Strenght and also increasing Decaying Hook range by 100% 175% 250% 325% of Butcher Strenght as well. Decaying Hook will
+deal 25% 50% 75% 100% increase damage on Target already stun and reduce its coldown by 3. Decaying Hook will have 75% coldown reduction
+upon hooking a ally and reducing the max target hooked by 2.
 
-damage 25 40 55 70 physical damage and 40% 52% 64% 76% of pudge strenght
-Range 400 450 500 550
-increase range by 100% 175% 250% 325% of Butcher Strenght
+base damage 25 40 55 70 Plus 25% 40% 55% 70% of pudge strenght
+Cast Range 400 475 550 625
 Stun duration 0.7 0.8 0.9 1.0
-max hook target 2 3 4 5
-armor reduction 4 5 6 7
-increase armor reduction by 1 for every 25 23 21 19 strenght
-life cost 5% 7% 9% 11%
+Base Armor lost 4 5 6 7
+life cost 5% 6% 7% 8%
 cooldown 17 16 15 14
 
 talent level 10 Upgrade Glory Hook
-increase damage by 30
-increase range by 150
-increase the armor reduction by 2
-increase max target hook by 2
-increase life cost by 4%
-reduce the coldown by 5
+increase base damage by 20
+increase Cast range by 125
+increase Armor lost by 4
+increase Stun duration by 0.3
+increase life cost by 3%
+reduce the coldown by 2
 
 add a new modifier Disease Hook
 Butcher Hook will give Rotting Flesh to enemys that get hook, this Rotting Flesh will only do 75% of the total damage from it but
