@@ -1,8 +1,8 @@
                                                       Xorn The Speed Demon
-Starting stats 2 strenght, 11 agility, 12 inteillgence, Stats gain per level, 0.60 Strenght, 1.10 Agility, 0.20 Inteillgence.
+Starting stats 2 strenght, 11 agility, 12 inteillgence, Stats gain per level, 0.50 Strenght, 1.10 Agility, 0.20 Inteillgence.
 Base movespeed 200, Base attack damage 1-4, Base Regeneration Health 0.2, Base Regeneration Mana 0.3.
 
-total base stats at level 40 - 26 Strenght - 55 Agility - 20 Inteillgence -
+total base stats at level 40 - 22 Strenght - 55 Agility - 20 Inteillgence -
 
 LEVEL 30 TALENT rework time
 
@@ -67,7 +67,7 @@ damage 22 30 38 46 plus 15% 30% 45% 60% of agility
 radius of the wave 225 250 275 300
 Wave max distance 450 525 500 675
 Sleep duration 3.5 second
-Nightmare damage 30 50 70 90 plus 125% of agility 
+Nightmare damage 30 45 60 75 plus 125% of agility 
 Nightmare Fear duration 1.0 1.5 2.0 2.5 second
 cooldown 17 16 15 14
 mana cost 30 50 70 90 plus 3% of max mana
@@ -80,50 +80,51 @@ increase wave max Distence by 100
 remove max mana cost
 
 add a new modifier True Nightmare
-After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 130% 160% 190% 220% of Xorn
+After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 150% 165% 180% 195% of Xorn
 attack damage. If the Image Kill their Victims, It will return to Xorn giving him 1 attack damage and 6 Health, at 5 stacks, Terror
-Wave will gain 15% of Xorn movespeed for its travel distence and also increase Nightmare damage by 15. At 10 stacks, Xorn will gain 125
+Wave will gain 20% of Xorn movespeed for its travel distence and also increase Nightmare damage by 30. At 10 stacks, Xorn will gain 125
 Mana and Terror Wave will deal 3% of Xorn Total Movespeed into bonus damage. At 15 stacks, Xorn will gain 10 Agility and Strenght and
 Terror Wave will reduce the target armor by 6 for 4.5 seconds and if the target dies, it will release a new one with 50% less damage at
-the nearest target but reducing 9 armor for 6 seconds instead of 6 armor for 4.5 seconds. max stack of 20 and 2 stacks are lost upon
-getting stun and 10 stacks is lost when Xorn dies.
+the nearest target but reducing 9 armor for 6 seconds instead of 6 armor for 4.5 seconds. max stack of 20 and 1 stacks are lost upon
+getting stun and 12 stacks is lost when Xorn dies.
 
 SPELL W Sunder - Magical in True Form and Pure in Normal Form
 Xorn Steal the life from his target gaining it for its own. He will gain bonus armor, attack speed, movespeed and evasion for every 1%
 health restore with Sunder. Sunder will always deal 3% of bosses max health into Pure damage and also making them take 15% extra Pure
 damage for 6 seconds. While in Normal Form, Sunder will gain 1% health damage for bosses and 3% for non-bosses units and also reducing
-the coldown to 17 seconds as well. Sunder will have 125 175 225 275 bonus cast range in True Form but will deal Magical damage instead
-of Pure. Sunder will gain 1% health damage for every 40 Agility Xorn has. (doesnt work and Scale for the boss health damage).
+the coldown to 16 seconds as well. Sunder will have 125 175 225 275 bonus cast range in True Form but will deal Magical damage instead
+of Pure. Sunder will gain 1% health damage for every 40 Agility Xorn has, (doesnt work and Scale for the boss health damage). Sunder
+has a base damage of 20 Pure damage and doesnt gain any spellamp bonus or agility scaling.
 
 Health damage 6% 8% 10% 12%
 Armor gain 0.4 0.5 0.6 0.7
 Attack speed gain 3 7 11 15
 Movespeed gain 4 6 8 10
-Evasion gain 1.15% 1.30% 1.45% 1.60%
+Evasion gain 0.75% 0.90% 1.05% 1.20%
 Buff duration 7 9 11 13
 coldown 26 25 24 23
 Mana cost 40 100 160 220 plus 1% of max mana
 
 talent level 10 upgrade Sunder
-increase health damage by 2%
-increase armor gain by 0.2
+increase health damage by 1%
+increase armor gain by 0.1
 increase Movespeed gain by 3
 increase Evasion gain by 0.20%
 remove mana cost
 
 add a new modifier Soul Breaker
 After Casting Sunder on them, they will start to lose 1.0% of their max life per second 0.2% on bosses for 5 seconds and Xorn will heal
-for that health they lose and every 2% health stolen will further increase the duration of Sunder buff by 0.4 seconds. the health lost
-over 5 seconds will not gain any bonus from sunder its self but giving Xorn 1% damage reduction for every seconds of the debuff on the
-enemys, the damage reduction buff will last 4.5 seconds and will refresh every time it damage the target (max of 7% damage reduction).
-Enemys affected by Soul Breaker will be Passive Break and have 15% reduce healing effect and regeneration as well for its duration.
-Xorn will also deal 25% increase damage with any source of damage he does on targets affected by Soul Breaker and having 10% chance to
-fear them for 0.4 seconds.
+for that health they lose and every 1.5% health gain with Sunder will further increase the duration of Sunder buff by 0.4 seconds. the
+health lost over 5 seconds will not gain any bonus from sunder its self but giving Xorn 1% damage reduction for every seconds of the
+debuff on the enemys, the damage reduction buff will last 4.5 seconds and will refresh every time it damage the target (max of 8% damage
+reduction). Enemys affected by Soul Breaker will be Passive Break and have 15% reduce healing effect and regeneration as well for its
+duration. Xorn will also deal 25% increase damage with any source of damage he does on targets affected by Soul Breaker and having 10%
+chance to fear them for 0.4 seconds. Soul Breaker Debuff last 3.5 seconds.
 
 SPELL E Speed Blast - Physical -
 While Xorn is in True Form, he will gain Speed Blast dealing insane damage to a target rooting them and greatly reducing their attack
 speed for the Root duration. Speed Blast will also have 15% chance to gain 10% 15% 20% 25% increase damage on its cast. Speed Blast
-will also gain 5% 7% 9% 11% of Xorn total movespeed into bonus damage. The Root duration will gain 0.1 duration increase for every 200
+will also gain 5% 7% 9% 11% of Xorn total movespeed into bonus damage. The Root duration will gain 0.1 duration increase for every 225
 Movespeed Xorn has. Speed Blast will always Ignore some armor off the target.
 
 Base damage 18 22 26 30 plus 20% of Agility
@@ -162,14 +163,15 @@ reduce mana cost by 30
 
 add a new modifier Demonic Vessel
 Speed Blast will always ignore magic immune targets and if they are magic immune, Speed Blast will do 30% increase damage and also
-deal 0.8% of the target max health as well. Speed Blast will also have 30% chance to crit for 150% damage and healing Xorn by 10%
+dealing 0.8% of the target max health as well. Speed Blast will also have 25% chance to crit for 150% damage and healing Xorn by 10%
 of the total damage and reducing the target attack speed by 35 for 4.0 seconds. Zeal will become a 315 Area of Effect Around Xorn
 and it will lose 4% damage for every targets hit up to 40% damage loss. Zeal will also give Xorn 1% damage reduction for every 3%
 health damage dealt to the target for 7 seconds up to 15% max reduction damage gain, bosses will always give 10% damage reduction for
-4.5 seconds and also giving 0.7% health regeneration with 25% health regeneration and healing source bonus as well.
+4.5 seconds and also giving 0.7% health regeneration with 25% health regeneration and healing source bonus as well. The Critical chance
+on Speed blast will stack with other source for 50% of their Crit chance and 15% of their Crit damage.
 
 PASSIVE TOGGLE D OR F Metamorphosis
-Xorn will alway start with a level in Metamorphosis giving him a positive bonus and a negative Bonus, this passive got 5 levels
+Xorn will alway start with a level in Metamorphosis giving him a positive bonus and a negative Bonus, this passive got 5 levels.
 For Normal Form Xorn will lose Base damage with attack speed but gain Damage reduction,Health,Stun resist,roots resist and
 making Sunder Stronger and for True Form he will take more damage from pure,physical and magic but gain base damage,attack range,
 attack speed, movement speed and making Terror Wave stronger. While in True Form, Xorn will have 40% increase size. Chainging form
@@ -216,21 +218,21 @@ shatters. Enemys inside of the prison cannot take damage from other source but t
 and will still affect them for 33% increase effect instead of being a normal debuff. Bosses will reduce the Prison duration by 50% but
 will take double the amount of the base damage. Foulfell Prison ignore all from of status resistence on the target and Xorn will be
 heal for 15% 20% 25% of the total damage from Foulfell Prison after it shatters. Foulfell Prison will do damage every 0.5 seconds.
-increase the armor lost by 1 for every 525 500 475 current health on the target when casted. Foulfell Prison will have 3.5 seconds of
+increase the armor lost by 1 for every 625 575 525 current health on the target when casted. Foulfell Prison will have 3.5 seconds of
 delay before the target is in the Prison to warn allys but if there is no allys in a 900 radius around Xorn it will Inprison them instanly
 
-base damage 50 60 70 plus 30% of Agility
+base damage 40 60 80 plus 25% of Agility
 Prison duration 2.0 2.5 3.0
 Armor lost 10 15 20
 Attack damage lost 15% 25% 35%
-debuff duration 5 6 7
-coldown 35 30 25
+debuff duration 6.0 6.5 7.0
+coldown 33 30 27
 manacost 10% 15% 20% of max
 
 talent level 40 Upgrade Foulfell Prison
-increase scaling by 20%
+increase scaling damage by 15%
 increase the duration by 0.5 seconds
-increase armor lost by 10
+increase armor lost by 5
 increase debuff duration by 1.5 seconds
 increase the coldown by 5 seconds
 
@@ -242,7 +244,7 @@ Prison will give a stack of Eternal Nightmare, each stacks will increase Foulfel
 stacks. At 4 stacks, Foulfell Prison will gain 375 cast range and increase the attack lost by 5%. At 11 Stacks, Xorn will gain 550 health
 and also gaining 12% attack damage, Foulfell Prison will also be cast on a random target in a 550 range for only 1.5 seconds and they
 cannot be Eternal Prison. At 17 Stacks, Foulfell Prison will gain 10% increase scaling damage and it will also gain 0.5 seconds increase
-on its Prison duration, Xorn will also gain 50% increase Agility when a target is under Foulfell Prison or the Eternal Prison.
+on its Prison duration and Xorn will also gain 40% increase Agility when a target is under Foulfell Prison or the Eternal Prison.
 
 
 level 1 talent
@@ -271,15 +273,19 @@ hit by it and Nightmare will restore Xorn health by 33% of its damage. Also redu
 seconds.
 -
 Increase Physical Output damage by 15% and reduce magical output damage by 25%. Xorn will reduce speed debuff duration by 33% and also
-gaining 115 health and mana. Sunder will do Physical damage instead of Magical in True Form and increase Sunder max health to non-bosses
+gaining 85 health and mana. Sunder will do Physical damage instead of Magical in True Form and increase Sunder max health to non-bosses
 by 1.5% and reduce its mana cost by 10%.
 -
 level 7 talent
 -
-Increase Speed Blast and Zeal base damage by 5 and reduce their coldown by 1, also increase Xorn Agility by 6 and Strenght by 2
+Increase Speed Blast base damage by 7 and its Agility scaling by 3%, Speed Blast will have 15% chance to increase the root duration by
+0.2 seconds and make Speed Blast Root duration reduce healing and health regeneration source by 22%. Also Increase Agility by 7 and
+inteillgence by 4 with 0.7 Mana regeneration.
 -
-Increase attack damage by 10 and attack speed by 22, also increase movespeed by 2% for 5 seconds for every spell casted, stack up 5 time
-and refresh the duration on casted spells (item are not affected)
+Increase Zeal Agility scaling by 4% and reduce its coldown by 1.5 seconds, Zeal will reduce the target magic resist by 7% 9% 11% 13%
+plus 1% for every 25 Agility for the same duration of the debuff of Zeal. Zeal Debuff cannot be Purge and it will have 0.4 disarm
+duration bonus on non-bosses but will have 0.3 disarm duration reduce on bosses and will deal 10% less total damage as well. Zeal
+will also deal 12% bonus magical damage base on Zeal total damage dealt.
 -
 level 10 talent
 upgrade spell Q
@@ -288,20 +294,35 @@ upgrade spell W
 -
 level 13 talent
 -
-increase health by 10% and life regeneration by 1.1 increase by 0.1 every 9 primary stats and also increase xp gain by 15%
+increase health by 10% and life regeneration by 2.3 increase by 0.1 every 5 primary stats and also increase xp gain by 15%
 -
-increase mana by 15% and mana regeneration by 0.6 increase by 0.1 every 7 primary stats and also increase xp gain by 15%
+increase mana by 15% and mana regeneration by 1.2 increase by 0.1 every 3 primary stats and also increase xp gain by 15%
+-
+While in Normal Form Xorn will gain 4.2 health regeneration plus 0.22% health regenration and also increasing the bonus health gain by 5%
+and the damage reduction by 2%. While in True Form Xorn will gain 2.9 mana regeneration plus 0.34% mana regeneration and also increasing
+the bonus attack speed by 10 and the attack range by 35. Also increase xp gain by 15%
 -
 level 16 talent
 -
-Reduce the Coldown of Metamorphosis by 17 seconds but it will no longer do a blast of damage but make Xorn magic immune for 1.2 seconds
-also increase his Movespeed limit by 225 and Agility by 5, Xorn will also reduce debuff durations that slows by 0.5 seconds.
+Reduce the Coldown of Metamorphosis by 10 seconds but increase the mana cost by 50. For True Form increase the attack damage gain by 8
+and the attack range by 65 and Xorn will gain 10% lifesteal and Spellvamp, Normal Form will lose 50% bonus from Lifesteal and Spellvamp.
+For Normal Form increase the health gain by 6% and reduce the attack damage penalty by 10% and Xorn will gain 25% increase Armor from
+items and buff with 15% increase health regeneration Source, True Form will lose 75% bonus from Health regeneration Source and alway
+reduce his Magic resist by 5% as well when in True Form.
 -
-Terror Wave, Speed Blast and Zeal will have 25% chance to deal 15% more damage and increase the damage that enemys take from Physical
-by 4% that stack up 5 time, also increase their cast range by 130 and make them spell vamp for 8% of the damage dealt
+Terror Wave will have 50% chance to deal 40% increase damage and increasing the radius of the wave by 115 but also having 50% chance
+to reduce Terror Wave damage by 40% and reducing the radius of the wave by 85. Terror Wave will also gain 10 base damage with 12% mana
+cost reduce. Also increase Agility by 9 and spellvamp by 6% with 0.07% mana Regeneration
 -
-Increase attack damage by 5%, Xorn will also gain 10% bonus Agility and 5% bonus Strenght while in True Form and in Normal Form he will
-gain 10% increase Strenght and 5% increase Agility instead, Also increase inteillgence by 10 and mana regeneration by 0.7
+Terror Wave will gain 10% increase Agility scaling with 15 bonus damage for Nightmare, Terror Wave will have 10% chance to restore Xorn
+mana and health by 3.5% for every unit hit and also reducing their total health and mana by 2% that stack up to 6% until they die. If
+they reach the max amount of stacks, they will take 13% of Terror Wave total damage in Pure damage every 1.3 seconds for each debuff on
+them cause by Xorn or his allys. (the Damage over time can stack multiple time for every debuff and it will deal damage for every 1.3
+second of the debuff duration done)
+-
+increase attack damage by 4% and health by 7%, Xorn will reduce the coldown of his 3 basic spells by 0.3 seconds every time he cast them
+and reduce their coldown by 3 seconds each time Foulfell Prison is casted. Sunder will also have 0.5 seconds reduce and having 125 bonus
+cast range, it will always restore Xorn health by 2% on each cast giving him the bonus from Sunder as well. (stack with other talents)
 -
 level 19 talent
 -
