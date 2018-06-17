@@ -93,32 +93,33 @@ Shadow Form cannot be Purge and Gondar will gain 100% blind Resistence as well f
 SPELL W
 Weak Strike
 Gondar Strike the enemy in their Weak Spot increasing the damage they take from Gondar and his allys as well, the enemys will suffer from
-damage over time and getting slow every seconds of duration and the slow will last 0.6 seconds after Weak Strike duration end. enemys
+damage over time and getting slow every seconds of duration and the slow will last 2.2 seconds after Weak Strike duration end. enemys
 will take further damage increase from Gondar, he also jump back behind him for 350 425 500 575 units travel. Can be autocast. Coldown
 reduction will have no effect and Weak Strike will gain 100% more bonus from spell amp. If Weak Strike is use in Shadow Step it will do
-Magical damage instead of Physical.
+Magical damage instead of Physical. Weak Strike will deal damage every 0.2 seconds and increase the slow duration by 1% for every 0.1
+seconds. Gondar will add 35% 40% 45% 50% of his attack damage when he Strike his enemys with Weak Strike (only a burst damage and will
+not increase the damage over time), (the cleave from Disease Strike will also work with the burst damage).
 
-base damage 4 5 6 7 plus 6% of agility Physical every 0.2 seconds
-base slow 6% 7% 8% 9%
-increase slow by 1% every 0.1 seconds
-damage taken increase by 25% 35% 45% 55% for Gondar
-damage taken increase by 10% 14% 18% 22% for allys
-duration 2 2.2 2.4 2.6
-coldown 4
-mana cost 35 50 65 80 plus 0.4% of max mana
+base damage 7 plus 4% of agility
+base slow 5% 7% 9% 11%
+damage taken increase by 15% 35% 55% 75% for Gondar
+damage taken increase by 11% 16% 21% 26% for allys
+duration 1.6 1.8 2.0 2.2
+coldown 4.5
+mana cost 35 40 45 50 plus 1% of max mana
 
 talent level 10 upgrade Weak Strike
 increase agility scaling by 2%
 increase base slow by 6%
-increase damage taken by 8% for allys
-increase duration by 0.6
-reduce mana cost by 20
+increase damage taken by 5% for allys
+increase duration by 0.4
+reduce mana cost by 15
 
 add a new modifier Disease Strike
 Weak Strike will cleave in a 365 radius in front of Gondar giving its debuff to others, enemys affected by Weak Strike will be sick,
-dealing 25% less damage with spells and losing 15% base damage as well, when they die under the duration of Weak Strike they will spread
+dealing 20% less damage with spells and losing 10% base damage as well. When they die under the duration of Weak Strike they will spread
 it to others with worst conditions, they will do 35% less damage with spells and lose 25% base damage until they die instead of losing
-it over the duration, Gondar normal attacks against enemys affected by Weak Strike will do 50% pure damage and 50% physical, spell will
+it over the duration. Gondar normal attacks against enemys affected by Weak Strike will do 50% pure damage and 50% physical, spell will
 do 25% pure and 75% physical. Gondar will gain 8% movespeed for every unit affected by the debuff of Weak Strike. Weak Strike cannot
 be Purge by any means.
 
@@ -126,8 +127,8 @@ be Purge by any means.
 SPELL E
 JumpKick - Physical -
 Gondar Jump into a enemys stuning them for a short duration and also making them take increase duration from roots and stun as well,
-he also push them back by 125 units and Gondar will also Jump back 335 units as well, he also gain some damage reduction for a short
-duration upon landing JumpKick. Gondar will also add 125% of his base auto attack damage for bonus damage on JumpKick (doesnt increase
+he also push them back by 125 units and Gondar will also Jump back 265 units as well, he also gain some damage reduction for a short
+duration upon landing JumpKick. Gondar will also add 135% of his base auto attack damage for bonus damage on JumpKick (doesnt increase
 Jump Kick base damage)
 
 base damage 18 22 26 30 plus 25% 30% 35% 40% of agility
@@ -136,7 +137,7 @@ increase stun and root duration by 30% 40% 50% 60%
 debuff duration 3.7 4.0 4.3 4.6
 damage reduction 14% 18% 22% 26%
 buff duration 2.1 2.2 2.3 2.4 seconds
-coldown 7
+coldown 8.5
 mana cost 50 85 110 145 plus 1% of max mana
 
 talent level 20 upgrade JumpKick
@@ -148,27 +149,27 @@ reduce mana cost to 70 at all levels
 
 add a new modifer Unseen Jump
 Gondar will become invisible when he jump for 3.2 seconds, JumpKick doesnt break invis from Shadow Step and Unseen Jump and when use
-in invisibility it will do 35% more damage and stun 0.7 seconds longer and Peice magic immunity and also reducing it coldown by 2.5
-seconds, every time Gondar get the Finish blow on the enemys with JumpKick it will get 2 base damage increase that stack up to 20 time.
+in invisibility it will do 35% more damage and stun 0.7 seconds longer and Peice magic immunity and also reducing it coldown by 1.5
+seconds, every time Gondar get the Finish blow on the enemys with JumpKick it will get 1 base damage increase that stack up to 20 time.
 at 4 stacks, JumpKick will gain 325 cast range and will further push the target by 100 units and also increase the Agility scaling by 5%,
 at 9 stacks, Gondar will gain 35 movespeed and 12 Agility, JumpKick will also do 25% increase damage if the target was stun by other
 Source of Stuns. at 16 stacks, JumpKick will Root the target after its stun duration ends for 2.0 seconds and every 0.4 seconds of roots
-, it will deal 30% of Gondar Agility in Pure damage and also reduce its coldown by 1.5 and increase the damage reduction gain by 5%.
+ it will deal 30% of Gondar Agility in Pure damage and also reduce its coldown by 1.0 and increase the damage reduction gain by 5%.
 
 
 ACTIVE PASSIVE D or F
 Ninja Mastery
-Increase Gondar Agility and Movespeed Limit cap, this can also be use to push forward by 75% 100% 125% 175% of movespeed, Weak Strike and
+Increase Gondar Agility and Movespeed Limit cap, this can also be use to push forward by 90% 120% 150% 180% of movespeed, Weak Strike and
 JumpKick will do bonus damage base on his movespeed and his attack speed, every time he get slowed he will gain bonus health regeneration
 and attack speed for a short duration. Gondar will also gain some Evasion base from his armor, Weak Strike will only get 2% of attack
-speed into damage and 1% of movespeed into damage bonus. (the bonus Movespeed Limit increase by 650 750 850 950 from the base 550)
+speed into damage and 1% of movespeed into damage bonus. The bonus Movespeed Limit increase by 650 750 850 950 from the base of 550.
 
-bonus Evasion per armor 1%
-Agility 9% 11% 13% 15%
+bonus Evasion per armor 0.50% 0.55% 0.60% 0.65%
+Bonus Agility 9% 11% 13% 15%
 movespeed Limit increase 650 750 850 950 
 attack speed into damage 6% 8% 10% 12%
-move speed into damage 2%
-health regeneration 10 15 20 25 plus 20% of agility
+move speed into damage 1.75% 2.50% 3.25% 4.00%
+health regeneration 10 15 20 25 plus 15% of agility
 attack speed 35 70 105 140
 duration of buff 2.9 3.3 3.7 4.1
 coldown of Active effect 6 5.5 5 4.5
@@ -178,19 +179,19 @@ talent level 20 upgrade Ninja Mastery
 increase movespeed limit by 150
 increase attack speed into damage by 3%
 increase moves speed into damage by 1%
-increase the buff duration by 2.2 seconds
+increase the buff duration by 1.7 seconds
 
-add a new modifier Bounty Hunter -after he use one of his spells he will gain Fools Gold spell dealing damage base on his gold-
-Gondar will gain his attack speed into damage for his base damage as well for 5% more bonus, Gondar can use 5% of his current gold to 
-deal damage to a target, damage cap is 100 plus 6 every level of Gondar, enemys will also drop 75% more gold for Gondar on death allys
-will gain 30% gold as well, allys will also be able to spend 20% less gold on items they buy at the shop, Gondar also gain a golden
-aura that give 10% Evasion with 6% damage reduction and 12% bonus damage in a Global Radius for him and his allys (summons will gain 1%
+add a new modifier Bounty Hunter
+Gondar will gain his attack speed into damage for his base damage as well for 5% more bonus. Gondar can use 10% of his current gold to 
+deal damage to a target, damage cap is 100 plus 6 every level of Gondar. Enemys will also drop 75% more gold for Gondar on death allys
+will gain 30% gold as well. Allys will also be able to spend 20% less gold on items they buy at the shop, Gondar also gain a golden
+aura that give 10% Evasion with 6% damage reduction and 12% bonus damage in a Global Radius for him and his allys (summons will gain 0.5%
 health regeneration and 35 attack speed as well).
 
 
 PASSIVE ULTIMATE R
 Track The Weaks
-Gondar will do bonus damage to target lower than 50% 60% 70% of their max health, JumpKick will have reduce mana cost and increase
+Gondar will do bonus damage to target lower than 40% 50% 60% of their max health, JumpKick will have reduce mana cost and increase
 cast range and damage on those target, When Gondar attacks those enemys below the amount of health, they will have a debuff that reduce
 their overall damage and their attack speed for a medium duration, Gondar Weak Strike and JumpKick will also scale on his inteillgence
 as bonus damage and his auto attack will gain some of his spellamp into bonus attack damage as well, Shadow Step will also do 200%
