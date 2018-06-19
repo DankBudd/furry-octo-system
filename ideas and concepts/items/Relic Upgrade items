@@ -9,7 +9,7 @@ Volcanus Soul Burn will become a Fire Ward totem at the location instead of bein
 give all nearby (650 radius) enemys Soul Burn and also increasing its base damage by 11 and the scaling by 15% but increasing its coldown
 by 7. The Fire Ward will last 9 and will refresh the duration of Soul Burn for every enemys that enter the radius. Each 1.5 seconds of Soul
 Burn will increase its damage by 1%. Volcanus will gain Inteillgence, Spellamp, Mana, Health and Silence resistence and he will also lose
-Agility and Attack speed. (Fire Ward will have all of Soul Burn talents buff)
+Agility and Attack speed. (Fire Ward will have all of Soul Burn talent bonus.)
 
 Inteillgence 25-40
 Spellamp 17%-26%
@@ -18,3 +18,14 @@ Health 225-335
 Silence Resistence 10%-15%
 Agility Lost 10-17
 Attack Speed Lost 30-60
+
+
+Sven Relic 1
+Blood Shard Lvl 35 Item
+
+Sven BloodLost will only last 3.5 seconds and any talents or items that would increase its duration will no longer work. BloodLost will
+deal damage every 0.5 seconds and increase its damage by 18% per tick of damage and also increase the base armor lost by 9. For every 2%
+health lost the enemys will lose Armor and further increase it by 0.2 and the armor lost debuff will last 1.5 seconds after BloodLost
+duration ends. Sven will double the attack speed gain when hitting the target under BloodLost. Sven will gain Strenght, Health, Attack
+damage, Cast range and movespeed bonus.
+
