@@ -11,13 +11,13 @@ by 7. The Fire Ward will last 9 and will refresh the duration of Soul Burn for e
 Burn will increase its damage by 1%. Volcanus will gain Inteillgence, Spellamp, Mana, Health and Silence resistence and he will also lose
 Agility and Attack speed. (Fire Ward will have all of Soul Burn talent bonus.)
 
-Inteillgence 25-40
-Spellamp 17%-26%
-Mana 325-750
-Health 225-335
-Silence Resistence 10%-15%
-Agility Lost 10-17
-Attack Speed Lost 30-60
+Inteillgence 25-35
+Spellamp 17%-23%
+Mana 325-550
+Health 225-385
+Silence Resistence 8%-15%
+Agility Lost 9-14
+Attack Speed Lost 50-80
 
 
 Sven Relic 1
@@ -25,7 +25,12 @@ Blood Shard Lvl 35 Item
 
 Sven BloodLost will only last 3.5 seconds and any talents or items that would increase its duration will no longer work. BloodLost will
 deal damage every 0.5 seconds and increase its damage by 18% per tick of damage and also increase the base armor lost by 9. For every 2%
-health lost the enemys will lose Armor and further increase it by 0.2 and the armor lost debuff will last 1.5 seconds after BloodLost
+health lost the enemys will lose Armor and further increase it by 0.2 and the armor lost debuff will last 2.5 seconds after BloodLost
 duration ends. Sven will double the attack speed gain when hitting the target under BloodLost. Sven will gain Strenght, Health, Attack
 damage, Cast range and movespeed bonus.
 
+Strenght 30-40
+health 335-610
+attack damage 25-55
+cast range 250-300
+Movespeed 9%-16%
