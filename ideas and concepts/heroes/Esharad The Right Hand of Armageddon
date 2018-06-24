@@ -1,0 +1,133 @@
+                                               Esharad The Right Hand of Armageddon
+Starting stats 8 strenght, 4 agility, 8 inteillgence, Stats gain per level, 0.50 Strenght, 0.30 Agility, 1.50 Inteillgence.
+Base movespeed 325, Base attack damage 2-11, Base Regeneration Health 0.3, Base Regeneration Mana 1.2.
+
+
+Shadow Demon Model
+
+Small Lore -- Brother of Eshalurd and betrayed of Armageddon the Chaos Lord, Esharad now follow his new Chaos Lord Mongrethod as his fellow
+commander with Eshalurd.
+
+-Note for his 3 basic spells, they will have 7 levels only having 1 level in total, the other levels will give passive stats for him and
+buffing those spells slightly. his spells will gain increase damage base on Esharad level.
+
+talent level 30
+
+talent 1
+
+
+talent 2
+
+
+talent 3
+
+Abbysal Mage
+give a positive and negative buff, Pressing ALT will give INFO for Esharad level 30 talent and level 40 talent for this passive.
+Esharad will have a total of 15 basic spell points to spend for his 3 basic spells (his Ultimate will be normal like everyone). Points
+can be spend every 2 levels.
+
+BUFF Esharad will gain bonus base on his weapons of choice being a Staff, Wand and Orb. Having a Staff will increase his spell amp by
+15% and mana regeneration by 0.25%, having a Wand will increase his total attack speed by 16% and Inteillgence by 8%, having a Orb will
+increase his Total Cast range by 25% and max mana by 12%. Esharad will gain 2 more health from inteillgence and Strenght will also give
+1 inteillgence for every 4 points, Esharad will gain 10% Silence resistence and further increasing it by 35% if stun or rooted for the
+duration of it. He also start with a Special glove that cant be change
+
+DEBUFF Esharad will lose 25% attack damage and take 100% increase damage from Pure, Physical and Magical damage, Esharad will increase
+all stun and root effect by 22% and increasing their damage (if they damage) by 40%. He cannot use sword, axe, cleaver, mace and shields.
+Agility give 0.00 attack speed per point and Esharad will lose 0.5% movespeed per level up to 20%. Esharad will take 0.7% of his max
+health for every instence of Pure and Physical damage taken and also having a 5% chance to get stun for 0.4 seconds. Esharad will always
+have 0.35 increase base attack time with any of the weapons he use
+
+level 40 Upgrade Abbysal Mage
+
+the abbys calls
+
+---
+Right Hand of Eshadur Special Glove
+increase Attack speed by 5 increase by 1 every levels
+increase inteillgence by 3 increase by 1 every 3 levels
+increase magic resist by 4% increase by 1 every 4 levels
+Esharad will gain 6% spellamp and healing amp for 7 seconds after killing any target and refresh this duration if he kill something again
+and further gain 1 stack and well. Max of 4 stacks
+Esharad Will gain 8% spellamp, 4% damage reduction, 0.17% mana regeneration and 8% health when Eshalurd and Esharad are in the same game.
+
+
+SPELL Q Abyssal Hand
+Esharad will conjure a demonic hand under his target, dealing insane amount of damage and rooting the target in place and reducing his
+Magic resist while he is rooted. If the target has a least -10% magic resist, Abyssal Hand will increase the root duration by 6% 10%
+14% 18% 22% 26% 30% and increasing the total damage by 25%. Abyssal Hand will gain double the bonus from cast range and reduce its total
+mana cost by 1% for every -2% magic and above of 0% from the target. this spell will gain 3.7% increase damage and 7% manacost increase
+for every level of Esharad. Abyssal Hand will cost less mana if the target lost at least -30% magic resist and reduce its by 7 seconds
+if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration. Also increase
+Inteillgence and Spellamp for every point in Abbysal Hand
+
+Base damage 24 plus 32% of inteillgence
+Root duration 1.70
+Magic resist lost 15%
+Total Manacost reduce 40%
+Health Threshold 20%
+Bonus Inteillgence 2 5 8 11 14 17 20
+Bonus Spellamp 3.2% 6% 8.6% 12% 15.8% 19.7% 23%
+coldown 20
+manacost 115
+
+Talent level 10 Upgrade Abyssal Hand
+increase base damage by 5
+increase scaling by 5%
+increase total mana cost reduce by 15%
+increase health Threshold by 10%
+increase mana cost by 60
+
+add a new modifier Hand of Despair
+Enemys will have 50% chance to feel Despair in their souls dealing 10 plus 25% of Esharad inteillgence every 0.5 seconds for 3.0 seconds
+and every tick of damage will have 12% chance to reduce the target armor by 3, magic resist by 6% and increasing pure damage taken by 3%
+that last 6.5 seconds. increase the duration of Hand of Dispair by 0.1 seconds for every 4 inteillgence. Esharad will gain a stack of
+Despair if the target dies under Hand of Despair, each stacks will give 12 mana and 1 inteillgence max of 20. At 8 stacks, Hand of
+Despair will gain 0.5 duration and every 0.2 seconds the target will suffer -0.07 health regeneration that last 1.6 seconds and refresh
+every tick of Health regeneration lost. at 15 stacks, Abbysal Hand will gain 0.80 root duration and increase the health threshold by 15%
+and also reduce its coldown by 5. 7 stacks are lost on death and 1 stack is lost upon getting silence.
+
+
+SPELL W Fearing Gaze
+Esharad Gaze upon his target enemy or allys. Enemys will take medium amount of damage and their base magic resist will be reduce to a
+value, they cannot increase it but can be lower. Enemys will also suffer from health and mana regeneration lost for a short time and
+Esharad will gain that health and mana regeneration they lose. Gazing into a ally will give them increase attack damage and spellamp for
+4.5 seconds and reducing Fearing Gaze coldown by 40%. Fearing Gaze will also have 16% chance to fear the target for 1.3 seconds and
+dealing 5 10 15 20 25 30 35 extra base damage as well. this spell will gain 2.1% increase damage and 4.3% manacost increase for every
+level of Esharad. Also increase Mana and Mana regeneration. Esharad cannot self cast Fearing Gaze and allys can also be fear but will
+not take the extra damage.
+
+base damage 14 plus 20% of inteillgence
+Health regeneration lost -6.0 plus 10% of Inteillgence
+Mana regeneration lost -3.0 plus 15% of inteillgence
+Base magic resist reduce -13%
+debuff duration 4.5 seconds
+Attack damage increase 22%
+Spellamp increase 11%
+Bonus Mana 4% 7% 11% 15% 19% 24% 30%
+Bonus Mana regeneration 1.3 1.9 2.4 3.3 4.5 5.9 7.5
+coldown 16
+mana cost 55
+
+talent level 10 Upgrade Fearing Gaze
+increase health regeneration lost by 3.0
+increase mana regeneration lost by 1.5
+increase base magic resist reduce by 4%
+increase debuff duration by 1.0 seconds
+increase attack damage bonus by 22%
+increase spellamp bonus by 11%
+increase mana cost by 85
+
+add a new modifier Eternal Gaze
+Fearing Gaze will become a channeling spell for 1.5 seconds dealing its damage every 0.3 seconds and each instance of damage will do
+10% less damage each. It will give it debuff as normal but increasing the mana and health regeneration lost by -0.8 for every tick of
+damage and also increasing the chance to fear by 2%. Fearing Gaze will no longer be able to be cast on allys. Esharad will gain a stack
+of Eternal Fearing for every fear done, Esharad will gain 0.12 health regeneration and 3 Movespeed max of 35 stacks. At 8 stacks, Eternal
+Gaze will gain 0.3 seconds of channel bonus and also reducing the penalty of damage lost every 0.3 seconds by 2%. At 20 stacks, Esharad
+will gain 2.5% health and Mana regeneration over the duration of the channel and also increasing the base magic resist lost by -3%. At 28
+stacks, Fearing Gaze will be able to be cast on allys again and increasing the bonus damage by 1% and spellamp gain by 0.5% for every 0.2
+seconds of Channel, also increase Fearing Gaze damage scaling by 6% and reduce its coldown by 2.
+
+
+SPELL E 
+
