@@ -49,8 +49,8 @@ Doesnt have a coldown.
 GREATER LAVA SPAWN STATS Attack Range 385
 health 425 plus 25% of Volcanus health
 Mana 200 plus 15% of Volcanus mana
-Armor 9
-Magic resist 20%
+Armor 13
+Magic resist 42%
 damage 21-37 plus 18% of Volcanus Int
 Base attack time 2.15
 
@@ -81,10 +81,10 @@ Extra Pure damage taken 10%
 
 SPELL Q
 Soul Burn - Magical -
-Soul Burn Deal damage per second reducing damage of the target and slowing that target as well also silence the target for the duration,
+Volcanus curse his target Dealing damage every 1.0 second and also reducing attack damage, slowing and also silencng them for the duration.
 Soul Burn cannot be Purge by anymeans and will Ignore spell immune units, the duration will have 2.0 seconds increase if the target lose
-at least 30% of his max health durring its duration, Soul Burn will damage every 1.0 seconds, if the target was Slowed before Soul Burn
-was casted on them, it will deal 175% 190% 205% 220% of Volcanus inteillgence in a 475 area of effect burst damage once on the target.
+at least 30% of his max health durring its duration. If the target was Slowed before Soul Burn was casted on them, it will deal 175%
+190% 205% 220% of Volcanus inteillgence in a 475 area of effect burst damage once on the target.
 
 damage 13 17 21 25 plus 13% 17% 21% 25% of intelligence
 damage reduction 11% 22% 33% 44%
@@ -111,7 +111,7 @@ seconds, max stack of 20% spell amp bonus, 10 stacks are lost upon death and 1 s
 
 SPELL W Lava Wave - Magical -
 Send out a wave of molten lava dealing insane amount of damage and burning them dealing damage every 0.5 seconds and reduce their
-magical resistence for the duration of the Burn. Lava Wave will gain 50% increase bonus from spellamp but will cost 0.05% more mana
+magical resistence for the duration of the Burn. Lava Wave will gain 50% increase bonus from spellamp but will cost 0.02% more mana
 for every spellamp Volcanus has.
 
 damage 25 40 55 70 plus 35% of inteillgence
@@ -146,62 +146,63 @@ Volcanus Channel a Volcano for 6 7 8 9 seconds, each 1.0 seconds the Volcano wil
 high magical damage and Ministuning enemys for 0.1. They will take increase damage from Volcanus spells every time they get damage form
 Volcano and Volcanus will gain 15% damage reduction while he is Channeling. The Amount of lava Balls will increase by 1 for every 17
 inteillgence. the extra damage taken will refresh if they are hit again by a Lava Ball, the debuff duration will last 4.5 seconds.
+The radius of Volcano will tell where the Lava Balls will land and those Lava Balls have 225 plus 150% of Volcanus inteillgence for
+their impact radius and also increase the Volcano radius by 150% 175% 200% 225% of Volcanus inteillgence. Durring the channel of
+Volcano, it will drain Volcanus mana by 3 6 9 12 every 0.5 seconds.
 
 damage 16 22 28 34 plus 40% of Inteillgence
 base Amount of Lava Balls 6 9 12 15
-base Volcano Radius 550 600 650 700
-increase Volcano radius by 150% 175% 200% 225% of inteillgence
-extra damage taken 1.5% 2% 2.5% 3%
+base Volcano Radius 550 625 700 775
+extra damage taken 1.2% 1.5% 1.8% 2.1%
 coldown 28
 mana cost 50 100 150 200 plus 5% of max mana
-Mana cost every 1.0 seconds of channel 4 5 6 7
 
 talent level 20 upgrade Volcano
 increase inteillgence scaling by 25%
 increase the amount of lava balls by 3
-increase the damage taken by 1%
+increase the damage taken by 0.9%
 remove max mana cost
 
 add a new modfier Reborn to Lava
 The Volcano will Debuff the enemys with Lava Creation for 3.5 seconds, upon death enemys will spawn a Lava Spawn with their own stats
 and 2 passive. Only 4 can be alive and they will last 70 seconds. Volcano will also do a Explosion after Volcanus stop Channeling for at
-least 3 seconds, 50% of Volcano radius will be the Explosion dealing 50 plus 75% of inteillgence in magical damage and giving enemys
-Soul Burn with all of its effect but also having 1.5 seconds duration reduce, Volcanus will gain 5 health for every Lava Spawn Created
-at 50 health gain, increase volcanus health by 10% and health regeneration by 3.5, at 150 health gain, Volcano will have 8 base damage
+least 3 seconds, 50% of Volcano radius will be the Explosion dealing 30 plus 75% of inteillgence in magical damage and giving enemys
+Soul Burn with all of its effect but also having 3.0 seconds duration reduce. Volcanus will gain 5 health for every Lava Spawn Created
+at 50 health gain, increase volcanus health by 10% and health regeneration by 3.5. at 150 health gain, Volcano will have 20 base damage
 bonus and increase Volcanus health regeneration Source by 30% and reduce the duration of healing source reduction by 25%. Max of 200
 health gain and he lose all of them on death. The Lava Spawn cannot be controlled and will follow Volcanus around but can be click on
-to see their passive effects.
+to see their passive effects and also casting spell on them.
 
 LAVA SPAWN STATS Range 345
 health 275 plus 13% of Volcanus health
 no mana
-Armor 7
-Magic resist 15%
+Armor 9
+Magic resist 22%
 damage 11-27 plus 10% of Volcanus Int
 Base attack time 1.85
 
 Passive Living Lava
-Enemys that come close to the Lava Spawn 265 radius will get burn for 3 plus 5% of Lava Spawn Attack damage every 0.4 seconds in Magical
-damage that stack with the others Lava spawn as well, also increase their Pure resist by 20% and increase this bonus by 1% for every 3
+Enemys that come close to the Lava Spawn 265 radius will get burn for 2 plus 3% of Lava Spawn Attack damage every 0.4 seconds in Magical
+damage that stack with the others Lava spawn as well. Also increase their Pure resist by 15% and increase this bonus by 1% for every 3
 seconds they live
 
 Passive Recreate
 Lava Spawn will Create Smaller Lava Spawn after they deal 40% of their total Max health in damage with their Basic attack and Living
-Lava to the enemys they will Create 1 Smaller Lava Spawn with only 50% of their total stats they had, those smaller Version of them
-self will not Recreate new one, also refresh the duration of the Normal Lava Spawn duration to 70 again and the Smaller one with last
+Lava to the enemys, They will Create 1 Smaller Lava Spawn with only 35% of their total stats they had, those smaller Version of them
+self will not Recreate new one. Also refresh the duration of the Normal Lava Spawn duration to 70 again and the Smaller one with last
 35 seconds. this can only happen 2 time
 
 
 PASSIVE D OR F Incinerate
 Increase Volcanus Agility, Strenght with Inteillgence and all of Volcanus spells will give 1 stacks of Incinerate every time they deal
-damage, Incinerate will do burn damage every 1.0 seconds base on Volcanus Inteilgence and after 6 seconds if the target doesnt die,
+damage, Incinerate will do burn damage every 1.5 seconds base on Volcanus Inteilgence and after 6 seconds if the target doesnt die,
 Incinerate will explode dealing medium damage to nearby enemys and the target him self only work once for each targets. If they die,
 Incinerate will also explode dealing same damage. Basic attack will also give enemys 1 stack of Incinerate. Incinerate will last 2.5
 seconds and will deal Pure damage on the burn and explosion. Incinerate will gain 40% of Volcanus inteillgence in bonus radius for the
 Explosion. Incinerate will also reduce the target healing sources by 15%.
 
 Attributes bonus 7% 8% 9% 10%
-Incinerate base burn damage 18% 22% 26% 30% of int
+Incinerate base burn damage 12% 16% 20% 24% of int
 Incinerate bonus burn damage per stacks 1% of int
 Incinerate max stacks 8 12 16 20
 Incinerate explosion damage 10 15 20 25 plus 65% of inteillgence
@@ -210,7 +211,7 @@ base explosion radius 240 260 280 300
 talent level 20 upgrade Incinerate
 Increase base burn scaling by 10%
 increase Incinerate burn stacks by 5
-increase Incinerate base damage by 10
+increase Incinerate explosion base damage by 10
 
 add a new modfier Fire Blast
 Incinerate will have 40% increase explosion radius and 20% increase damage if it explode under the 6 seconds marks, making the enemys
