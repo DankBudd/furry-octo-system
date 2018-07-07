@@ -1,4 +1,4 @@
-                                                              Riki the Sneaky Demon
+                                                      Riki the Assasin Demon
  Starting stats 4 strenght, 10 agility, 5 inteillgence, Stats gain per level, 0.30 Strenght, 1.10 Agility, 0.40 Inteillgence.
  Base movespeed 305, Base attack damage 4-6, Base Regeneration Health 0.8, Base Regeneration Mana 0.5.
 
@@ -23,6 +23,7 @@ increase overall stats and give a positive and negative buff
 BUFF Riki will gain 3 health per agility he got, he also gain 1 damage for every 4 agility he got instead of 5, he also start with 10%
 evasion, 100 health and 3 Armor, his Basic Spells will do 50% of his total Evasion into damage bonus, he also reduce all slowing effect
 duration by 30% and he start with a Special dagger that cannot be change, he can also have 1 more dagger into his right or left hand.
+
 DEBUFF riki only gain 1 life per strenght and he take 125% more damage from pure,magical,physical also he can only use dagger weapons type
 he also lose 35% of his max mana and spell vamp wont have any effect on riki spell and any pure damage type will do 2.5% of riki health
 as damage bonus and he cannot have any Critical chance and Critical damage at all - only from Roktoru dagger -
@@ -33,22 +34,22 @@ increase Agility by 5 increase by 1 for every 2 levels
 Physical spell crit chance 10% increase by 1% for every 10 level
 Physical spell crit damage 120% increase by 1% for every 2 level
 can also be use to deal 100% crit for a 1 time use with any spell of riki spell having 10% more crit damage as well
-cooldown of 60 second
+cooldown of 80 second
 
 Roktoru dagger can be Upgraded at level 40 with special material, these are the following bonus stats when upgraded.
 increase base damage bonus by 12
 increase Agility bonus by 16
-increase Attack speed by 45
+increase Attack speed by 30
 increase Evasion by 10%
 Riki Basic attacks will also crit for the same amount on Roktoru Dagger.
-give 40% chance to True Strike, Ignoring Evasion and dealing 75% of Riki Agility in Pure damage
-(Stack with Demon Blood True Strike Having 65% chance of True Strike
+give 30% chance to True Strike, Ignoring Evasion and dealing 75% of Riki Agility in Pure damage
+(Stack with Demon Blood True Strike Having 65% chance of True Strike)
 
 talent level 40 upgrade Demon Blood
 Riki will Become Immune to all Rooting effects and if any spells are Roots casted on Riki, he will gain 50% increase attack damage for
 10 seconds (doesnt have a coldown), Riki also gain 4 More health from Agility and also gaining 2 mana per Agility and Strenght, Riki
 will do 35% bonus Damage on enemys below 40% health with his Spells and Auto attacks, he also give his Basic Spell 35% of his agility
-into bonus damage for them, Riki will have 25% chance True Strike, Ignoring Evasion and dealing 75% of Agility in Pure damage,
+into bonus damage for them, Riki will have 35% chance True Strike, Ignoring Evasion and dealing 75% of Agility in Pure damage,
 taking this Passive talent will Disable all Other True Strike effect (not from Roktoru Dagger)
 
 
