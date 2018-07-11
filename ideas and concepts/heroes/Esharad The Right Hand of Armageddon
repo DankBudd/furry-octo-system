@@ -1,6 +1,6 @@
                                                Esharad The Right Hand of Armageddon
 Starting stats 8 strenght, 4 agility, 8 inteillgence, Stats gain per level, 0.50 Strenght, 0.30 Agility, 1.50 Inteillgence.
-Base movespeed 325, Base attack damage 2-11, Base Regeneration Health 0.3, Base Regeneration Mana 1.2.
+Base movespeed 325, Base attack damage 2-10, Base Regeneration Health 0.3, Base Regeneration Mana 1.2.
 
 
 Shadow Demon Model
@@ -61,10 +61,10 @@ for every level of Esharad. Abyssal Hand will cost less mana if the target lost 
 if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration. Also increase
 Inteillgence and Spellamp for every point in Abbysal Hand
 
-Base damage 24 plus 32% of inteillgence
+Base damage 24 plus 26% of inteillgence
 Root duration 1.70
 Magic resist lost 15%
-Total Manacost reduce 40%
+Total Manacost reduce 30%
 Health Threshold 20%
 Bonus Inteillgence 2 5 8 11 14 17 20
 Bonus Spellamp 3.2% 6% 8.6% 12% 15.8% 19.7% 23%
@@ -72,11 +72,11 @@ coldown 20
 manacost 115
 
 Talent level 10 Upgrade Abyssal Hand
-increase base damage by 5
-increase scaling by 5%
-increase total mana cost reduce by 15%
+increase base damage by 3
+increase scaling by 7%
+increase total mana cost reduce by 10%
 increase health Threshold by 10%
-increase mana cost by 60
+increase mana cost by 90
 
 add a new modifier Hand of Despair
 Enemys will have 50% chance to feel Despair in their souls dealing 10 plus 25% of Esharad inteillgence every 0.5 seconds for 3.0 seconds
@@ -97,7 +97,7 @@ dealing 5 10 15 20 25 30 35 extra base damage as well. this spell will gain 2.1%
 level of Esharad. Also increase Mana and Mana regeneration. Esharad cannot self cast Fearing Gaze and allys can also be fear but will
 not take the extra damage.
 
-base damage 14 plus 20% of inteillgence
+base damage 14 plus 18% of inteillgence
 Health regeneration lost -6.0 plus 10% of Inteillgence
 Mana regeneration lost -3.0 plus 15% of inteillgence
 Base magic resist reduce -13%
@@ -130,4 +130,25 @@ seconds of Channel, also increase Fearing Gaze damage scaling by 6% and reduce i
 
 
 SPELL E Abbysal Pain
+Esharad curse the target enemys dealing magical damage every 3.0 seconds over 15 seconds of duration, each tick of damage will also
+manaburn the target and further increasing the manaburn by 1.2% 1.6% 2.0% 2.4% 2.8% 3.2% 3.6%, 25% of the manaburn will do magical damage
+and also having a small chance to give the lost mana from the target to Esharad every tick of damage. Abbysal Pain cannot be Purge and
+it will deal 40% increase damage to target that have less than -20% magic resist and above. this spell will gain 1.7% increase damage and
+8.4% manacost increase for every level of Esharad. Also increase Health and also giving coldown reduction as well.
+
+Base Damage 15 plus 20% of inteillgence
+base Mana burn 20 plus 6% of Inteillgence
+Mana Restore Chance 7% 8% 9% 10% 11% 12% 13%
+Bonus Health 65 150 230 310 420 545 685
+Bonus Coldown Reduction 3% 5% 7% 9% 11% 13% 15%
+Coldown 40
+Mana cost 225
+
+talent level 15 Upgrade Abbysal Pain
+increase base damamge by 5
+increase base mana burn by 20
+increase Mana restore chance by 8%
+reduce coldown by 10
+increase mana cost by 100
+
 
