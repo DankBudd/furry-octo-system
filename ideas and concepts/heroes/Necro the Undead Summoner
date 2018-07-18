@@ -2,7 +2,6 @@
 Starting stats 4 strenght, 0 agility, 4 inteillgence, Stats gain per level, 0.60 Strenght, 0.00 Agility, 1.10 Inteillgence.
 Base movespeed 295, Base attack damage 3-6, Base Regeneration Health 1.7, Base Regeneration Mana 0.8.
 
-small notes for skeletons, they will be disarm if they walk 1300 radius away from necro
 
 LEVEL 30 TALENT
 
@@ -27,9 +26,10 @@ give a positive and negative buff, Pressing ALT will give INFO for Necro level 2
 BUFF Necro has 10% base magic resist at start and his skeleton get 50% of his magic resist that necro got and necro will gain 1% move
 speed per skeleton alive and his Skeleton Archer and Skeletons will get 2% of Necro max health for them and every time any of his
 summons dies, they will heal other summon for 2% of their max health for them, He also start with a Bone Ring that cant be change
+
 DEBUFF Necro will take 140% more damage from physical and he doesnt gain any agility per level he also need 16 int to gain 1% spell amp
 and strenght only gain 3 life instead of 5 and he also need 10 inteillgence to gain 1 damage instead of 5 inteillgence, any silence
-spells will get 100% more duration and damage Necro by 0.7% of his max health every 0.6 seconds of duration and silence will reduce his
+spells will get 100% more duration and damage Necro by 0.7% of his max health every 0.3 seconds of duration and silence will reduce his
 healing Source bonus by 50%.
 
 Bone Ring Special item
@@ -39,25 +39,26 @@ increase inteillgence by 3 increase by 1 every 3 levels
 increase cast range by 100 increase by 3 every levels
 reduce the mana cost of items use by 25% and also reduce their coldown by 15%, they will summon a Skeleton Warrior upon useing them.
 The Skeleton Warrior will last 18 seconds and he has the normal stats of the Skeleton Warrior as well.
-increase Skeletons life regeneration by 1.6 and attack speed by 15 when near Necro (900 radius)
+increase Skeletons life regeneration by 2.2 and attack speed by 20 when near Necro (350 radius)
 
 talent level 40, upgrade Corrupted Flesh
 give a new modfier Death Walks Among Us
 any enemy that die near Necro 900 radius will be reanimated as a Skeleton Warrior.
-that last for 22 second with 100% of the normal Skeleton Warrior stats as well they got 15% chance to have 200% instead, also increase
+They last for 22 second with 100% of the normal Skeleton Warrior stats as well they got 15% chance to have 200% instead. Also increase
 the damage of Necro Skeleton by 15% and thier max health by 10% as well, Skeleton Warrior that are Raise by SPELL Q have 20% chance to
-have 275 more health and 35 more attack speed and Skeleton Archer will have 20% chance when raise to have 145 bonus attack range and 22
-attack damage. They will have 25% increase size when they are raise stronger.
+have 175 more health and 35 more attack speed and Skeleton Archer will have 20% chance when raise to have 145 bonus attack range and 22
+attack damage. They will have 35% increase size when they are raise stronger and have a darker color.
 
 
 SPELL Q
 Skeleton Warrior
 Summon a Skeleton Warrior to fight for you, they are really weak to area of effect and can die very fast to high damage they also
 have a chance to deal more damage and lifestealing and attacking faster. They will last until death. They will gain 1 armor for every 13
-Inteillgence Necro got and also gaining 1% magic for every 9 inteillgence Necro got as well.
+Inteillgence Necro got and also gaining 1% magic for every 9 inteillgence Necro got as well. Skeleton will be Disarm and silence if they
+walk 1100 radius away from Necro
 
 Skeleton life 75 95 115 135 plus 75% 125% 175% 225% of inteillgence
-Skeleton damage 6-9 10-13 14-17 18-21 plus 9% 11% 13% 15% of inteillgence
+Skeleton damage 6-9 10-13 14-17 18-21 plus 7% 8% 9% 10% of inteillgence
 Skeleton armor 2 3 4 5
 Skeleton magic resist 8% 10% 12% 14%
 Skeleton base attack time 2.4 2.3 2.2 2.1
@@ -104,11 +105,12 @@ Skeletons will also gain 300% of Necro Strenght in Health bonus. Their name will
 SPELL W
 Skeleton Archer
 Summon Skeleton Archer To fight against your foes, Those skeletons will have 4 Elements each. Necro can summon a Poison Archer, Ice
-Archer, Fire Archer and Lightning Archer. They will gain 1 Armor for every 20 inteillgence necro got and also gaining 1% magic resist
-for every 15 Inteillgence necro got as well. They last until death.
+Archer, Fire Archer and Lightning Archer. They will gain 1 Armor for every 17 inteillgence necro got and also gaining 1% magic resist
+for every 13 Inteillgence necro got as well. They last until death. Skeleton will be Disarm and silence if they walk 1100 radius away
+from Necro.
 
 Skeleton Archer life 60 70 80 90 plus 80% 100% 120% 140% of int
-Skeleton Archer damage 11-19 17-25 23-31 29-37 plus 20% of int
+Skeleton Archer damage 11-19 17-25 23-31 29-37 plus 15% of int
 Skeleton Archer armor 0 1 2 3
 Skeleton Archer magic resist 5% 10% 15% 20%
 Skeleton Archer base attack time 2.3 2.1 1.9 1.7
@@ -177,14 +179,14 @@ heal explosion 10 20 30 40 plus 75% 90% 105% 120% of inteillgence
 enemy regen reduction -4 -10 -16 -22 
 skeleton increase damage 5 8 11 14 
 skeleton attack speed increase 14 20 26 32
-explosion radius 300 350 400 450
+explosion radius 200 250 300 350
 mana cost 115 130 145 160 plus 2% 3% 4% 5% of max mana
 cooldown 16 15 14 13
 
 talent level 20 upgrade Death Coil
 increase the damage of Death Coil by 25
 increase enemy regeneration reduction by -11
-increase explosion radius by 150
+increase explosion radius by 100
 remove max mana cost
 reduce coldown by 3
 
@@ -202,9 +204,9 @@ Lifesteal on hit with their auto attacks, Necro will get heal for 25% 30% 35% 40
 their auto attacks.
 
 Skeleton damage increase by 10% 15% 20% 25%
-Skeleton life increase by 10% 20% 30% 40%
+Skeleton life increase by 10% 14% 18% 22%
 Skeleton armor increase by 3 4 5 6
-Skeleton magic resist bonus 4% 10% 16% 22%
+Skeleton magic resist bonus 4% 7% 10% 13%
 Skeleton movement speed bonus 35 50 65 80 FLAT
 Skeleton lifesteal 8% 12% 16% 20%
 Necro bonus health 6% 10% 14% 18%
@@ -276,29 +278,33 @@ also Revive when he die with 50% health and 25% mana, coldown of 60 seconds
 level 1 talent
 -
 increase strenght gain by 0.2 every level and also increase strenght by 5, Necro will gain 3 more health from strenght and also making
-his skeletons gain 5% magic resist and 2 armor bonus. Necro will also gain 1% stun and root resistence per skeleton alive.
+his skeletons gain 5% magic resist and 2 armor bonus. Necro will also gain 0.50% stun and root resistence per skeleton alive.
 -
 increase Inteillgence gain by 0.2 every level and also increase Inteillgence by 5, Death Coil will gain 10 base damage and 5% scaling
-bonus but will lose 35% healing bonus and having 2.5 coldown increase. Necro will become magic immune for 1.5 seconds after casting Death
+bonus but will lose 30% healing bonus and having 2.5 coldown increase. Necro will become magic immune for 1.5 seconds after casting Death
 Coil.
 -
 Increase Strenght and Inteillgence gain by 0.1 every level and also increase Strenght and Inteillgece by 3, reduce Death Coil coldown by
 2 seconds and increase its healing by 10 and 5 for the explosion. Necro Skeleton will also have 0.15 base attack time reduce from Death
-Coil.
+Coil duration buff.
 -
 level 4 talent
 -
 Increase Death Coil base healing by 20 (50% of this goes to the explosion heal) and also increase its Inteillgence scaling damage by 10%,
-also reduce its coldown by 0.1 for every healing done to skeletons.
+also reduce its coldown by 0.1 for every healing done to skeletons. Death Coil will also deal 5% of his total damage dealt into bonus
+Pure damage and heal Necro for 75% of that Amount of Pure damage dealt.
 -
 increase all stats by 4 and increase healing recive by 15%, Death Coil can be cast on Necro and will have 25% increase healing effect
-and also gaining the health regeneration as a buff for necro as well.
+and also gaining the health regeneration as a buff for necro as well with 2.5 second duration bonus. 
 -
-Increase Healing amp by 25% and Inteillgence by 11 and mana regeneration by 2.7 but reduce spellamp by 10% and magic resist by 15%
+Increase Healing amp by 25% and Inteillgence by 11 and mana regeneration by 2.7 but reduce armor by 6 and magic resist by 15%.
+Skeletons of necro will have 10% chance on dealth to drop a Death Orb that will restore necro mana by 2% and increasing his spell amp by
+2.0% that stack 10 time for 25 seconds. Refresh the duration upon picking up a new Death Orb and further increasing the duration by 2.5
+seconds.
 -
-Increase Skeleton Archer attack damage by 4 and their attack range by 100. Also reduce the mana cost of Summon Skeleton Archer by 20%
+Increase Skeleton Archer attack damage by 6 and their attack range by 85. Also reduce the mana cost of Summon Skeleton Archer by 20%
 and remove its coldown as well. When the Skeleton Archer Dies, they will cast a Death Coil with 75% reduce total healing to a random
-Skeleton and will only bounce onces.
+Skeleton and will only bounce one time with no reduction.
 -
 level 7 talent
 -
@@ -326,22 +332,24 @@ will gain 2 armor and 10% magic resist.
 level 16 talent
 -
 Increase Death Coil base damage by 10 and its damage scaling by 20%, Death Coil will gain 225% of Necro Inteillgence in bonus cast range
-and reduce its mana cost by 45 and its coldown by 2.
+and reduce its mana cost by 45 and its coldown by 2. Death Coil will also deal 5% of his total damage dealt into bonus Pure damage and 
+heal Necro for 75% of that Amount of Pure damage dealt (stack with the level 4 talent). 
 -
-Skeleton Mastery will also give nearby skeletons 10% damage reduction and 22% spellvamp, Skeletons will no longer be able to be spellvamp
-and lifesteal upon them and they also gain a Bone Storm aura that deal 8% of their attack damage in a 235 area of effect around them
-that deal damage every 1.3 seconds (stacks with other= skeletons).
+Skeleton Mastery will also give nearby skeletons 5% damage reduction and 16% spellvamp. Skeletons will no longer be able to be spellvamp
+and lifesteal upon them and they also gain a Bone Storm aura that deal 6% of their attack damage in a 235 area of effect around them
+that deal Pure damage every 1.6 seconds (stacks with other skeletons).
 -
 increase Necro Spell amp by 12% and his inteillgence by 6, every time he cast Death Coil he will gain 3 more inteillgence and also gaining
-0.6 mana and life regeneration for 20 seconds, this buff can stack up 5 time and refresh every time Death Coil is casted.
+0.6 mana and life regeneration for 20 seconds, this buff can stack up 5 time and refresh every time Death Coil is casted. At max stack
+Necro will gain 15% bonus inteillgence for its duration of the buff.
 -
 level 19 talent
 -
 Increase Necro Health by 800 and his health regeneration by 8 but reduce his armor by 15 and his magic resist by 35%, he also reduce
 all healing effect from allys by 85% but increase death coil healing on Necro by 150%. Skeleton will lose 65% healing Source but will
-also gain 100 health and 8.5 health regeneration as well.
+also gain 100 health and 11.5 health regeneration as well.
 -
-Increase Necro Skeleton health by 150 and give them 100 mana and 2.5 mana regeneration, they also gain a Spell call Bone Throw that deal
+Increase Necro Skeleton health by 75 and give them 100 mana and 2.5 mana regeneration, they also gain a Spell call Bone Throw that deal
 low amount of damage and will slow the target attack speed and movespeed, they will have it on Auto Cast.
 
 Bone Throw
@@ -349,17 +357,18 @@ deal low damage and slow the Target attack speed and Movespeed, the debuff will 
 duration with other Bone Throw and stack it self up to 10 max stacks of the Bone Throw Debuff, Skeleton Warrior will have 325 cast
 range with Bone Thorw and Skeleton Archer will be Equal to their attack range for the cast range with 350 bonus cast range as well.
 
-Base damage 8
-increase damage by 12% of attack damage
-attack slow 3 4 5 6
-move slow 3 6 9 12 FLAT
-debuff duration 3.0
-mana cost 70
+Base damage 5
+increase damage by 10% of attack damage
+attack slow 2
+move slow 1%
+debuff duration 2.5
+mana cost 65
 no coldown
 -
 Increase Death Touch damage by 40 and reduce it coldown by 15 but increase the Coldown of Necro basic spell by 4 and increase their
 mana cost by 35, also increase mana by 450% of total Strenght of Necro. Skeletons will have 45% bonus damage and 30 attack speed when a
-target is affected by Death Touch for the duration.
+target is affected by Death Touch for the duration. If the Skeleton Archer talent that remove the coldown is pick it will not be affected
+by the 4 coldown increase.
 -
 level 20 talent
 -
@@ -373,7 +382,7 @@ Increase Skeletons Armor by 5, Skeleton Warrior and Skeleton Archer will gain a 
 damage by 8 and their movespeed by 40
 
 Undead Mind
-Make skeletons immune to all form of Mind Controll and increase their health regeneration by 0.3 for every 2% health missing, they
+Make skeletons immune to all form of Mind Controll and increase their health regeneration by 0.2 for every 1% health missing, they
 also gain 10 Armor when they are below 25% health.
 -----
 Increase Skeleton Magic resist by 15%, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Will, also increase
@@ -382,7 +391,7 @@ their attack damage by 8 and their movespeed by 40
 Undead Will
 Make Skeletons Immune to all debuff that reduce magic resist and increase magic resist taken (those debuff will still damage but not
 reduce magic resist or increase magical damage taken) increase their Magic resist by 1% for every 3% health missing, they also gain
-10% damage reduction when they are below 25% health.
+6% damage reduction when they are below 25% health.
 -----
 increase Skeleton Health by 125, Skeleton Warrior and Skeleton Archer will gain a new Passive call Undead Force, also Increase their
 attack damage by 8 and their movespeed by 40
@@ -394,10 +403,10 @@ damage by 1 for every 3% health missing, they also gain 65 attack speed when the
 level 26 talent
 -
 increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
-amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
+amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4% will be change
 -
 increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
-7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
+7 more damage bonus, if Offensive talent is pick increase Primary stat by 4% will be change
 -
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
@@ -407,8 +416,8 @@ speed by 20% and mana regeneration by 2.7 but reduce health regeneration Source 
 -
 level 29 talent
 -
-Increase Pure resist of Necro and his skeletons by 15%, Skeletons will gain 1% Pure resist per 5% health missing and when they are below
-10% health, they will be Immune to all form of damage for 3.5 seconds. Coldown of 50 seconds.
+Increase Pure resist of Necro and his skeletons by 15%, Skeletons will gain 1% Pure resist per 5% health missing and when they fall below
+12% health, they will be Immune to all form of damage for 3.5 seconds. Coldown of 40 seconds.
 -
 increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor and 5% bonus magic resist for every 5 level above level
 30
