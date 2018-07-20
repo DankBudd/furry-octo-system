@@ -63,7 +63,8 @@ SPELL Q Nitro AND Poison Trap
 
 NITRO SHOT
 Kardel fire a shot that deal high Area of effect damage, the first target will suffer from less damage and others will take increase
-damage, the primary target will get blind for a short duration. Also increase the radius by 75% of Kardel Agility and Inteillgence
+damage, the primary target will get blind for a short duration. Also increase the radius by 75% of Kardel Agility and Inteillgence and
+enemys will also be knockback by 55 75 95 115 unit.
 
 damage primary target 135% 145% 155% 165% of attack damage
 Area of effect damage 180% 195% 210% 225% of attack damage
