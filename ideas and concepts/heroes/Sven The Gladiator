@@ -51,9 +51,9 @@ attack time reduce for the duration of BloodLust. The Damage dealt will only dam
 damage bonus 8 16 24 32
 attack speed 25 40 55 70
 flat movement speed 30 50 70 90
-duration 6.5 7.0 7.5 8.0
+duration 3.5 4.0 4.5 5.0
 spell damage reduce 12% 20% 28% 36%
-Inside-out damage 25 40 55 70 plus 65% of strenght
+Inside-out damage 25 40 55 70+65% of strenght
 debuff duration 3 second refresh on hit
 cooldown 24 23 22 21
 mana cost 70 90 110 130 plus 1% of max mana
@@ -78,7 +78,7 @@ Hit the enemys with a Deadly Blow Dealing insane damage base on the enemy Curren
 damage by 0.7% for every 95 current life on the target and he also lifesteal for all that amount of damage done as well, he also disable
 all source of healing on them for a short duration. this spell will have no bonus from other source of spellvamp or lifesteal effects.
 
-damage 20 25 30 35 Plus 30% 45% 60% 75% of Strenght
+damage 20 25 30 35+30% 45% 60% 75% of Strenght
 lifesteal base on the damage done 25% 35% 45% 55%
 current health as bonus damage 4% 6% 8% 10%
 max life as bonus damage for boss 0.4% 0.6% 0.8% 1%
@@ -105,7 +105,7 @@ Sven sharpen his sword making it have a more clean cut making enemys lose blood 
 armor. Sven also gain 8 attack speed for every hit on the target affected by Blood Wound and also increase the armor lost by 0.4 0.5 0.6
 0.7 for every 5% health lost durring Blood Wound duration. Does damage every 1.0 seconds and increas
 
-base damage 7 9 11 13 plus 6% 9% 12% 15% of sven strenght
+base damage 7 9 11 13+6% 9% 12% 15% of sven strenght
 base armor loss 4 5 6 7
 Attack speed Cap 24 40 56 72
 Debuff duration 5 6 7 8
@@ -188,8 +188,8 @@ level 1 talent
 increase Strenght gain by 0.2 every level and also increase strenght by 5, Increase BloodLust duration by 0.5 and its bonus damage by 4.
 Sven will also gain 1 base damage for every 175 current health he got.
 -
-increase Agility gain by 0.2 every level and also increase agility by 5, Death Blow will gain 20% of Sven Agility into bonus damage and
-increase its strenght scaling by 5% and spellvamp by 10%.
+increase Agility gain by 0.2 every level and also increase agility by 5, Death Blow will gain 35% of Sven Agility into bonus damage and
+increase its strenght scaling by 5% and spellvamp by 10%. It will also Restore 0.7% of Sven max health on cast.
 -
 increase Inteillgence gain by 0.2 every level and also increase inteillgence by 5, Reduce the mana cost of Sven spells by 10% and their
 coldown by 0.5. Sven 3 basic spells will gain 15 cast range for every 100 max mana he got and also reduce Mana Lost effect by 15%.
@@ -238,8 +238,8 @@ level 16 talent
 Increase the bonus damage from Titan Rage by 15% and the Base damage recive by 10, every kill in Titan Rage will restore Sven health by
 35 plus 20% of his Strenght, Sven will also gain 25% roots resist in Titan Rage.
 -
-Increase Blood Wound base damage by 3 and increase its duration by 2 seconds, Enemys Affected by Blood Wound will heal allys and sven
-by 16% of the damage dealt to them by anything for the duration, also increase Sven spell amp by 12% and Health regeneration by 3.5
+Increase Blood Wound base damage by 5 and increase its duration by 4 seconds, Enemys Affected by Blood Wound will heal allys and sven
+by 18% of the damage dealt to them by anything for the duration, also increase Sven spell amp by 16% and Health regeneration by 7.5
 -
 increase attack damage by 8% and attack speed by 25, increase Blood Wound attack speed cap by 40 and its duration by 1 seconds, Blood
 Wound cannot be purge by any means. If Sven reachs the max attack speed cap on Blood Wound he will further increase the duration of
@@ -248,8 +248,8 @@ all Stats by 7.
 -
 level 19 talent
 -
-Increase Pure resist by 15%, Sven will futher increase the bonus by 20% when in Titan Rage and BloodLust, also increase his Status
-resistence by 10% and his Agility by 12. Sven will reduce all stun duration above 1.0 seconds by 0.3.
+Increase Pure resist by 10%, Sven will futher increase the bonus by 15% when in Titan Rage and BloodLust at the same time. Also increase
+his Status resistence by 10% and his Agility by 12. Sven will reduce all stun duration above 1.0 seconds by 0.3.
 -
 Increase Sven Strenght by 10 and his health regeneration source bonus by 35% but reduce his attack speed by 15 and his agility by 10,
 Sven will further increase the bonus strenght by 4 for every item that give Strenght or Attack damage max of 20 bonus Strenght and 40
@@ -287,7 +287,7 @@ Sven attack speed by 5 and movespeed by 15, Sven will also gain 15% Blind resist
 -
 level 29 talent
 -
-Increase Pure resist by 10%, further increase the Pure resist by 15% when in Titan Rage or BloodLust, Sven will also gain 5% pure Resist
+Increase Pure resist by 5%, further increase the Pure resist by 10% when in Titan Rage or BloodLust, Sven will also gain 5% pure Resist
 upon killing or getting the assist from bosses, stack 3 time and are lost on death, at 3 stack sven will gain 4 armor and 8% magic
 resist.
 -
