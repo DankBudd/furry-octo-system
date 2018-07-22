@@ -1,7 +1,8 @@
-Zet Starting stats 7 Int, 7 Agi, 7 Str, base speed 300, base damage 7, Stats Gain per level 0.70 int, 0.70 str, 0.70 agi
-Starting item Lightning Hand give 2 damage and 1 all stats base attack time 1.80 Balence DPS-support-tank
+                                                        Zet The Warden of Lightning
+Starting stats 8 strenght, 8 agility, 8 inteillgence, Stats gain per level, 0.80 Strenght, 0.80 Agility, 0.80 Inteillgence.
+Base movespeed 345, Base attack damage 3-8, Base Regeneration Health 0.8, Base Regeneration Mana 0.8.
 
-Skill elements - Lightning damage -
+total base stats at level 40 - 40 Strenght - 40 Agility - 40 Inteillgence -
 
 LEVEL 30 TALENT
 
@@ -14,28 +15,29 @@ increase Zet Agility and Inteillgence by 14 and reducing cooldown of his spells 
 reduce its cooldown by 1
 
 PASSIVE D OR F Lightning God
-Increase overall stats and give a positive and negative buff
+Give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
 
-BUFF Zet get 50% more increase stats from agility,inteillgence,strenght and all stats from items and Strenght,agility,inteillgence will
-give 1 damage per 18 into that one and he reduce Slows effect by 75% on him he also got a special Boots item that scale per level and
-that cant be change, and for every 25 Strenght Agility or Inteillgence Zet will gain 1% life and mana
-DEBUFF Zet takes 150% more damage from pure he also cannot have any boots type item and any item with any stats that
-are not strenght,agility,inteillgence or all stats will have 80% reduce effect and for active item they will only do 30% of the damage
-BONUS BUFF Elemental Gods
-When Enigma, Zet and Volcanus are in the same game they gain bonus, gaining 7% spellamp with 5 health regeneration, 10% magic resist,
-35 Movespeed FLAT and making their spell that deal damage VS NON-ELEMENTAL BEING 25% more damage but reducing their damage VS ELEMENTAL
-BEING by 25%
+BUFF Zet will gain 35% increase stats gain to Agility, Strenght and Inteillgence from items and he also start with 1 armor and 5% magic
+resist. Zet will also gain 3% status resistence for every debuff or buff on him max of 30% status resistence gain. Zet will gain 7 move
+speed for every items that give attack speed and also gaining 1% coldown reduction for every item that give inteillgence. he will also
+start with special boots that cant be change.
+
+DEBUFF Zet will take 75% more damage from Pure and 25% from physical and magical. Every pure instance of damage will deal 0.3% of Zet
+max health in magical damage and also reducing his pure resistence by 1% for 5.5 seconds, this debuff can stack up to 70% and will
+refresh every time Zet takes Pure damage Source. He cannot use weapons, instead he will use 2 glove items instead of 1. Zet will have
+-20% magic resist if he is under 20% of his health.
 
 
-Boots of Balence Special
+Boots of Balence Special item
 increase all stats by 2 increase by 1 every 3 level
 increase life gain from strenght by 2
 increase mana gain from inteillgence by 4
 increase movement speed by 25 FLAT increase by 1 every level
-also make agility and inteillgence give 1 life per points and strenght with agility giving 1 mana.
+Agility and Inteillgence will give Zet 2 life per points.
+Agility and Strenght will give Zet 4 Mana per points.
 Can be use to increase Zet stats by 30% for 10 seconds, coldown of 90 seconds.
 
-talent level 25 upgrade Lightning God
+talent level 40 upgrade Lightning God
 add a new modifier Mana Lightning
 all spell that Zet cast -not item- will cost zero mana and restore him 3% of his Health back his ultimate also make spell cost no mana
 they also give him 10 base damage that stack up to 60 last 5 second refresh every time Zet cast a spell and his mana will become a mana
@@ -44,19 +46,23 @@ after the duration end of the debuff Zet will gain 18% mana back.
 
 
 SPELL Q
-Lightning Arc
-deal high Lightning damage jumping to other Targets increasing the damage they take from Zet Lightning Arc and slowing them for a
-short duration.
+Chain Lightning
+Zet will Channel for 0.3 seconds unleashing a insane Arc Lightning that will bounce and dealing high Physical damage to nearby enemys.
+Chain Lighting will have 15% chance to reduce the target armor by 4 7 10 13 for 6.5 seconds and it will also have 10% chance to break
+them and reduce their armor to -2 -4 -6 -8, they cannot increase their armor for the duration but it can be lower further by other debuff
+and it also got a very small chance of 5% to Lightning Break them, Unable to attack, cast spell and mana regeneration over the duration.
+All of these effect can proc all in one making a strong debuff that cant be purge by any means. The Break Effect will disable Health
+Regeneration and Passive of the target. Each bounce will have its own chance to proc the effect of Chain Lightning. Chain Lightning
+will also have Spellvamp and will reduce the target healing source and regeneration as well.
 
-damage 13 20 27 34 plus 35% 45% 55% 65% of agility type Magical, Lightning
-max jump 5 6 7 8
-reduce damage by 6% for every jump max of 30% reduction
-increase max jump by 1 for every 24 agility points
-damage taken increase 10% 15% 20% 25%
-slow amount 4% 7% 10% 13%
-debuff duration 4.2 4.3 4.4 4.5 second
-mana cost 60 90 120 150 plus 2% of max mana
-coldown 7 6 5 4
+Base damage 14 28 42 56 plus 25% 30% 35% 40% of Agility
+Spellvamp 8% 14% 20% 26%
+Healing Source reduce 6% 9% 12% 15%
+debuff duration 3.5 4.0 4.5 5.0
+Chain Bounce 2 3 4 5<
+mana cost 50 90 130 170 plus 2% of max mana
+coldown 20 18 16 14
+
 
 talent level 10 upgrade lightning arc
 increase base damage by 8
