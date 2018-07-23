@@ -53,7 +53,8 @@ them and reduce their armor to -2 -4 -6 -8, they cannot increase their armor for
 and it also got a very small chance of 5% to Lightning Break them, Unable to attack, cast spell and mana regeneration over the duration.
 All of these effect can proc all in one making a strong debuff that cant be purge by any means. The Break Effect will disable Health
 Regeneration and Passive of the target. Each bounce will have its own chance to proc the effect of Chain Lightning. Chain Lightning
-will also have Spellvamp and will reduce the target healing source and regeneration as well.
+will also have Spellvamp and will reduce the target healing source and regeneration as well. The Chain Lighting Bounce search is 440
+radius
 
 Base damage 14 28 42 56+25% 30% 35% 40% of Agility
 Spellvamp 8% 14% 20% 26%
@@ -72,30 +73,32 @@ increase chain bounce by 1
 remove max mana cost
 
 add a new modifier Lightning Field
-Each Bounce will have 50% chance to create a Lightning Field that will deal 4 plus 7% of Agility every 0.5 seconds for 4.5 seconds in
-Physical damage and its radius is 75+425% of Zet Agility. sss
+Each Bounce will have 50% chance to create a Lightning Field that will deal 4 plus 7% of Agility every 0.5 seconds for 2.5 seconds in
+Physical damage and its radius is 75+425% of Zet Agility. Enemys inside of the Lightning Field will become Shock, taking 3% increase
+damage from Lightning Field every time they take damage from it without limit and also taking 1% increase damage from Chain Lightning
+as well. the debuff duration will last 1.5 seconds and will refresh upon taking Lightning Field damage or Chain Lightning damage. Each
+Lightning Field Created will increase Zet Agility by 1 and his health by 7 max of 14 stacks. At max stack Chain Lightning will gain 1
+more bounce and increase its bounce distence by 375 and also reducing the coldown by 5.
 
 SPELL W Surge
-Zet Heal any ally or himself and increasing further healing also giving increase damage and spell amp, if cast again on the same
-that is affected by the healing bonus increase the target movement speed for a short duration, the heal will have 100% increase effect
-on Zet, Surge also got 35% chance to be cast on 2 random target when casted on Zet.
+Zet heals the target ally restoring their health and mana, Zet will not gain any mana but instead he will gain bonus attack damage with
+Spellamp for a long duration. Allys and Zet will gain a buff that will further increase healing spells on them and Surge will gain 50%
+healing amp bonus if the target has any healing amp effect on them. Also increase Zet or his allys movespeed for 2.5 seconds duration
+when they have any healing amp on them. the buff duration will have 50% reduction on allys.
 
-heal 50 70 90 110 plus 40% 70% 100% 130% of inteillgence
-further increase of heals 15% 25% 35% 45%
-bonus damage 6 12 18 24
-bonus spell amp 7% 11% 15% 19%
-duration of buff 14 second
-movement speed bonus if cast again on same target 10% 17% 24% 31%
-movement speed bonus duration 3 second
-mana cost 40 60 80 100 plus 2% of max mana
-cooldown 10
+Base Heal 35 50 65 80+25% 30% 35% 40% of Inteillgence
+Base Mana Restore 40 60 80 100+10% 14% 18% 22% of Inteillgence
+healing effect Increase 12% 20% 28% 36%
+Spellamp bonus 6% 10% 14% 18%
+Attack damage bonus 12 16 20 24
+Movespeed bonus 15% 25% 35% 45%
+buff duration 6 8 10 12 seconds
+mana cost 50 150 250 350 plus 3% of max mana
+coldown 15 12 9 6
+
 
 talent level 10 upgrade Surge
-increase base heal by 50
-increase inteillgence scaling by 20%
-increase further healing by 10%
-increase movement speed buff by 2 second
-increase mana cost by 90
+
 
 add a new modifier Volting Surge
 if zet cast Surge on himself, it will double Surge Stats but if cast on any ally they will get 50% of Surge stats bonus insteads of 100%
