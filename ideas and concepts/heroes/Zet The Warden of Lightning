@@ -74,10 +74,10 @@ remove max mana cost
 
 add a new modifier Lightning Field
 Each Bounce will have 50% chance to create a Lightning Field that will deal 4 plus 7% of Agility every 0.5 seconds for 2.5 seconds in
-Physical damage and its radius is 75+425% of Zet Agility. Enemys inside of the Lightning Field will become Shock, taking 3% increase
+Physical damage and its radius is 75+325% of Zet Agility. Enemys inside of the Lightning Field will become Shock, taking 3% increase
 damage from Lightning Field every time they take damage from it without limit and also taking 1% increase damage from Chain Lightning
-as well. the debuff duration will last 1.5 seconds and will refresh upon taking Lightning Field damage or Chain Lightning damage. Each
-Lightning Field Created will increase Zet Agility by 1 and his health by 7 max of 14 stacks. At max stack Chain Lightning will gain 1
+as well. the debuff duration will last 1.5 seconds and will refresh upon taking Lightning Field damage or Chain Lightning damage. every
+7 Lightning Field Created will increase Zet Agility by 1 and his health by 7 max of 14 stacks. At max stack Chain Lightning will gain 1
 more bounce and increase its bounce distence by 375 and also reducing the coldown by 5.
 
 SPELL W Surge
@@ -98,6 +98,11 @@ coldown 15 12 9 6
 
 
 talent level 10 upgrade Surge
+increase base heal by 20
+increase heal scaling by 12%
+increase healing effect by 6%
+increase attack damage gain by 8
+reduce its mana cost to 225 at all levels
 
 
 add a new modifier Volting Surge
