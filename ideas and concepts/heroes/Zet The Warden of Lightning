@@ -109,7 +109,7 @@ Surge will always be cast on Zet if he doesnt cast it on himself and if he cast 
 and his total spellamp by 16% for the same duration of Surge buff. Surge will also have 25% chance to Crit heal for 140% and also
 giving the movespeed buff with 1.5 seconds duration increase as well. every Crit Heal done will give a stack of Surge Power, increasing
 Surge base heal by 1 and increasing Zet mana regeneration by 0.2. At 5 stacks, increase Surge cast range by 175 and reduce its coldown by
-1. At 10 stacks, increase Zet mana by 20% and make Surge heal for 2% of Zet current Mana. At 15 stacks, increase healing effect by 12%
+1. At 10 stacks, increase Zet mana by 20% and make Surge heal for 4% of Zet current Mana. At 15 stacks, increase healing effect by 12%
 and Surge will remove all from of debuff from the target. Surge Wont remove debuff that cant be Purge. 50% of the stacks are lost on death
 
 
@@ -146,19 +146,19 @@ amount by 5%. 50% of the stacks are lost on death.
 
 
 PASSIVE D OR F Lightning Body
-Zet will increase his Agility and Inteillgence by 1 for every 14 12 10 8 Strenght Points and also increase Zet Strenght as well. Every
-enemys that die around Zet (375 Radius) will increase his Strenght, every Spells casted will increase his Inteillgence and every 7 6 5 4
-auto attack done will increase his Agility for a long duration. each stack will not refresh the duration they each have they own duration.
-Zet will also make Surge be able to be cast on enemys for only 20% 25% 30% 35% of its total healing into magical damage and also reducing
+Zet will increase his Agility and Inteillgence by 1 for every 10 Strenght Points and also increase Zet Strenght as well. Every enemys
+that die around Zet (375 Radius) will increase his Strenght, every Spells casted will increase his Inteillgence and every 7 6 5 4 auto
+attack done will increase his Agility for a long duration. each stack will not refresh the duration they each have they own duration. Zet
+will also make Surge be able to be cast on enemys for only 20% 25% 30% 35% of its total healing into magical damage and also reducing
 their healing effects by 30% 40% 50% 60% for 1.5 seconds. Zet will only be able to gain a max amount of bonus stats for every single of
 his buff effects from them.
 
-bonus Strenght 6% 8% 10% 12% 
-Strenght gain by kills 2
-Inteillgence gain by casting spells 4 
-Agility gain for every amount of auto attack done 6
+bonus Strenght 10% 
+Strenght gain by kills 3
+Inteillgence gain by casting spells 3
+Agility gain for every amount of auto attack done 3
 max stacks of bonus stats 3 4 5 6
-buff duration 25 30 35 40
+buff duration 50 80 110 140
 
 
 talent level 20 upgrade Lightning Body
