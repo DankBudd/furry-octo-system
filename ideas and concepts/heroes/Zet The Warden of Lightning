@@ -8,15 +8,18 @@ LEVEL 30 TALENT
 
 Talent 1
 increase Zet armor by 5 and health by 8%
-Surge will give Zet 0.15% health regeneration and 0.10% mana regeneration for its buff duration, also increase Zet health regeneration
+Surge will give Zet 0.25% health regeneration and 0.15% mana regeneration for its buff duration, also increase Zet health regeneration
 by 0.1 for every 3 inteillgence and mana regeneration by 0.1 for every 5 strenght. Volt Shield will give Zet 15% damage reduction and
 0.75% health regeneration when the passive shield is still active on Zet, when the passive shield is down increase Zet mana regeneration
 by 0.75% and also increasing his pure resist by 30%.
 
 Talent 2
-increase Zet Agility and Inteillgence by 14 and reducing cooldown of his spells by 15% also Increase Lightning Arc damage by 30% and
-reduce its cooldown by 1
-
+Increase Zet Agility and Inteillgence by 5% and increase his spellamp by 10%
+Chain Lightning will also gain 15% of Zet inteillgence for its base damage and make it spellvamp for 10% of Zet Agility and Inteillgence.
+Surge will give allys it bonus attack damage and spellamp to them and Zet will double the bonus for him self but reduce its duration by
+50% when cast on Zet. Chain Lightning will also give Zet 2 Mana for every kill it get up to 250 max stacks. At 75 stacks, increase Zet
+mana by 6% and reduce chain lighting mana cost by 12%. At 150 stacks, increase chain lighting base damage by 6 and reduce its coldown by
+3. 75 stacks are lost on death.
 
 PASSIVE D OR F Lightning Warden
 Give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
