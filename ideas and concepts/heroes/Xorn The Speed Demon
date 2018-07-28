@@ -48,7 +48,7 @@ Xorn can use the Speed Horn to remove any Debuff that slow him and restore his l
 talent level 40 upgrade Speed Demon
 add a new modifier Speed Terror
 all enemy near Xorn 900 radius get -11 armor reduction and -24% magic resist reduction, also increase Xorn movementspeed by 6% for every
-enemy in the radius. Xorn Terror Wave, Speed Blast and Zeal will gain 4% of Xorn current movespeed in damage and also gaining 10% increase
+enemy in the radius. Xorn Terror Wave, Speed Blast and Zeal will gain 3% of Xorn current movespeed in damage and also gaining 10% increase
 agility scaling. Terror Wave will Ignore spell immune and deal 3% of their max health in damage and reducing their armor by -7 if they
 are under magic immune. After Casting Speed Blast, aother one will be casted in a 750 radius around Xorn at random dealing 20% increase
 damamge and spellvamp for 10% of the damage dealt. Xorn will become Immune to Disarm and Silence Effect after casting Zeal for 4.5 seconds
@@ -60,30 +60,30 @@ SPELL Q Terror Wave - Physical - Nightmare damage is Pure -
 Send a wave of Terror Force dealing damage and making enemys sleep making them have Nightmares of Xorn, while enemys Sleep
 they have a Small chance to take insane damage and waking up, running in fear from Xorn. bosses will take Double damage from
 the wave, they cannot be Sleep. the wave will deal 45% increase damage while in True Form and the Sleep duration will be increase
-by 1 second, sleep units will still take damage but only 30% of the damage. Nightmare will have 12% chance to Trigger every 0.5 seconds
+by 1 second, sleep units will still take damage but only 30% of the damage. Nightmare will have 7% chance to Trigger every 0.5 seconds
 and the wave will travel at a 500 speed unit plus 20% of Xorn current Movespeed.
 
 damage 22 30 38 46 plus 15% 30% 45% 60% of agility 
 radius of the wave 225 250 275 300
 Wave max distance 450 525 500 675
-Sleep duration 3.5 second
+Sleep duration 3.0 second
 Nightmare damage 30 45 60 75 plus 125% of agility 
 Nightmare Fear duration 1.0 1.5 2.0 2.5 second
 cooldown 17 16 15 14
 mana cost 30 50 70 90 plus 3% of max mana
 
 talent level 10 upgrade Terror Wave
-increase base damage by 22
+increase base damage by 12
 increase scaling by 10%
 increase the radius of the wave by 50
-increase wave max Distence by 100
+increase wave max Distence by 140
 remove max mana cost
 
 add a new modifier True Nightmare
 After the enemys wake up, A image of Xorn will chase them for the duration of Fear, the Image deals 150% 165% 180% 195% of Xorn
 attack damage. If the Image Kill their Victims, It will return to Xorn giving him 1 attack damage and 6 Health, at 5 stacks, Terror
-Wave will gain 20% of Xorn movespeed for its travel distence and also increase Nightmare damage by 30. At 10 stacks, Xorn will gain 125
-Mana and Terror Wave will deal 3% of Xorn Total Movespeed into bonus damage. At 15 stacks, Xorn will gain 10 Agility and Strenght and
+Wave will gain 20% of Xorn movespeed for its travel distence and also increase Nightmare damage by 15. At 10 stacks, Xorn will gain 125
+Mana and Terror Wave will deal 2% of Xorn Current Movespeed into bonus damage. At 15 stacks, Xorn will gain 10 Agility and Strenght and
 Terror Wave will reduce the target armor by 6 for 4.5 seconds and if the target dies, it will release a new one with 50% less damage at
 the nearest target but reducing 9 armor for 6 seconds instead of 6 armor for 4.5 seconds. max stack of 20 and 1 stacks are lost upon
 getting stun and 12 stacks is lost when Xorn dies.
@@ -91,35 +91,35 @@ getting stun and 12 stacks is lost when Xorn dies.
 SPELL W Sunder - Magical in True Form and Pure in Normal Form
 Xorn Steal the life from his target gaining it for its own. He will gain bonus armor, attack speed, movespeed and evasion for every 1%
 health restore with Sunder. Sunder will always deal 3% of bosses max health into Pure damage and also making them take 15% extra Pure
-damage for 6 seconds. While in Normal Form, Sunder will gain 1% health damage for bosses and 3% for non-bosses units and also reducing
+damage for 6 seconds. While in Normal Form, Sunder will gain 1% health damage for bosses and 2% for non-bosses units and also reducing
 the coldown to 16 seconds as well. Sunder will have 125 175 225 275 bonus cast range in True Form but will deal Magical damage instead
-of Pure. Sunder will gain 1% health damage for every 40 Agility Xorn has, (doesnt work and Scale for the boss health damage). Sunder
-has a base damage of 20 Pure damage and doesnt gain any spellamp bonus or agility scaling.
+of Pure. Sunder will gain 1% health damage for every 40 Agility Xorn has, (doesnt Scale for the boss health damage). Sunder has a base
+damage of 20 Pure damage and doesnt gain any spellamp bonus or agility scaling.
 
 Health damage 6% 8% 10% 12%
 Armor gain 0.4 0.5 0.6 0.7
 Attack speed gain 3 7 11 15
 Movespeed gain 4 6 8 10
 Evasion gain 0.75% 0.90% 1.05% 1.20%
-Buff duration 7 9 11 13
+Buff duration 8 9 10 11
 coldown 26 25 24 23
 Mana cost 40 100 160 220 plus 1% of max mana
 
 talent level 10 upgrade Sunder
 increase health damage by 1%
-increase armor gain by 0.1
+increase armor gain by 0.2
 increase Movespeed gain by 3
 increase Evasion gain by 0.20%
 remove mana cost
 
 add a new modifier Soul Breaker
 After Casting Sunder on them, they will start to lose 1.0% of their max life per second 0.2% on bosses for 5 seconds and Xorn will heal
-for that health they lose and every 1.5% health gain with Sunder will further increase the duration of Sunder buff by 0.4 seconds. the
-health lost over 5 seconds will not gain any bonus from sunder its self but giving Xorn 1% damage reduction for every seconds of the
-debuff on the enemys, the damage reduction buff will last 4.5 seconds and will refresh every time it damage the target (max of 8% damage
-reduction). Enemys affected by Soul Breaker will be Passive Break and have 15% reduce healing effect and regeneration as well for its
-duration. Xorn will also deal 25% increase damage with any source of damage he does on targets affected by Soul Breaker and having 10%
-chance to fear them for 0.4 seconds. Soul Breaker Debuff last 3.5 seconds.
+for that health they lose and every 1.5% health gain with Sunder will further increase the duration of Sunder buff by 0.4 seconds. It will
+not gain any bonus from sunder its self but giving Xorn 1% damage reduction for every seconds of the debuff on the enemys, the damage
+reduction buff will last 4.5 seconds and will refresh every time it damage the target (max of 8% damage reduction). Enemys affected by
+Soul Breaker will be Passive Break and have 15% reduce healing effect and regeneration as well for its duration. Xorn will also deal 25%
+increase damage with any source of damage he does on targets affected by Soul Breaker and having 10% chance to fear them for 0.4 seconds.
+
 
 SPELL E Speed Blast - Physical -
 While Xorn is in True Form, he will gain Speed Blast dealing insane damage to a target rooting them and greatly reducing their attack
