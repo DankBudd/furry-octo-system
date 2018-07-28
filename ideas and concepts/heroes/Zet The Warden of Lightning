@@ -7,14 +7,18 @@ total base stats at level 40 - 40 Strenght - 40 Agility - 40 Inteillgence -
 LEVEL 30 TALENT
 
 Talent 1
-increase Zet armor by 15% of his magic resist and his health by 2500% of his armor also make Volt Shield cost no mana and reduce its
-cooldown by 5
+increase Zet armor by 5 and health by 8%
+Surge will give Zet 0.15% health regeneration and 0.10% mana regeneration for its buff duration, also increase Zet health regeneration
+by 0.1 for every 3 inteillgence and mana regeneration by 0.1 for every 5 strenght. Volt Shield will give Zet 15% damage reduction and
+0.75% health regeneration when the passive shield is still active on Zet, when the passive shield is down increase Zet mana regeneration
+by 0.75% and also increasing his pure resist by 30%.
 
 Talent 2
 increase Zet Agility and Inteillgence by 14 and reducing cooldown of his spells by 15% also Increase Lightning Arc damage by 30% and
 reduce its cooldown by 1
 
-PASSIVE D OR F Lightning God
+
+PASSIVE D OR F Lightning Warden
 Give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
 
 BUFF Zet will gain 35% increase stats gain to Agility, Strenght and Inteillgence from items and he also start with 1 armor and 5% magic
