@@ -1,8 +1,8 @@
                                                     Magina The Mage Hunter
-Starting stats 2 strenght, 10 agility, 6 inteillgence, Stats gain per level, 0.60 Strenght, 1.50 Agility, 1.00 Inteillgence.
+Starting stats 3 strenght, 9 agility, 8 inteillgence, Stats gain per level, 0.50 Strenght, 1.60 Agility, 1.10 Inteillgence.
 Base movespeed 315, Base attack damage 3-9, Base Regeneration Health 0.5, Base Regeneration Mana 0.9.
 
-total base stats at level 40 - 26 Strenght - 70 Agility - 46 Inteillgence -
+total base stats at level 40 - 23 Strenght - 74 Agility - 52 Inteillgence -
 
 
 LEVEL 30 TALENT
@@ -29,134 +29,136 @@ duration on Magina, he also start with a Special Dagger that cant be change, he 
 
 DEBUFF Magina will take 80% increase damage from PURE,PHYSICAL damage, Magina will only gain 6 mana per intelligence and any Pure type
 damage will alway stun Magina for 0.5 second and deal 3% of his max health as bonus damage and health removal will double on him he
-also lose 0.4% of his max mana for every auto attack he does
+also lose 0.4% of his max mana for every auto attack he does. He can only use dagger and Sword weapons, cannot use 2hand swords.
 
 Blue Flame Dagger
 increase attack damage by 2 increase by 1 every 4 levels
-increase attack speed by 10 increase by 1 every levels
-increase Lifesteal by 8% increase by 1% every 5 levels
-Normal Attacks and spell (Mana Break will have no effect) will alway burn 6 mana off the target and 40% of that Mana burn will be
-damage, Increase the mana burn by 1 for every 2 levels of Magina, stack with other Mana Burn effects.
+increase attack speed by 5 increase by 2 every levels
+Increase Agility by 2 increase by 1 every 2 levels
+increase Lifesteal by 4% increase by 1% every 5 levels
+Normal Attacks and spell (Magina Passive will not gain this bonus) will alway burn 6 mana off the target and 50% of that Mana burn will
+be damage, Increase the mana burn by 1 for every 2 levels of Magina, stack with other Mana Burn effects.
 
 
 talent level 40 upgrade Monk Spirit
-give a new modifier Mana Eater
-all enemys around Magina 1000 radius will lose 15 mana per second and every 1 mana lost will do 1.5 damage and also all that mana they 
-lose per second will go to Magina, when Magina is at max mana he will start to gain a sheild that will block all form of damage, the
-shield cannot go more than 35% of Magina max mana, when he lose the Shield he will not be able to gain one for 10 second, also
-increase his mana regeneration by 5, and increase resist for blind,root and stun by 25%.
+give a new modifier Mburn Aura
+all enemys around Magina 1000 radius will lose 10 mana per 1.5 second and every 1 mana lost will do 1.5 damage and also all that mana
+they lose per 1.5 second will go to Magina. When Magina is at max mana he will start to gain a sheild that will block all form of
+damage, the shield cannot go more than 30% of Magina max mana, when he lose the Shield he will not be able to gain one for 35 second.
+also increase his mana regeneration by 5 and increase his status resistence by 5%, further increase by 10% when the mana shield is up.
 
 SPELL Q
-Mana Break
+Mana Break - Physical -
 Magina deal damage base on the enemy max mana and also deal increase damage with enemys having no mana pool, he also deal 0.1 damage for
-every 1 points of Max mana the enemys got and 50% of all that damage with Mana Break will be mana lost for them. Also reduce their armor
+every 4 points of Max mana the enemys got and 50% of all that damage with Mana Break will be mana lost for them. Also reduce their armor
 by 1 for every 80 75 70 65 mana burn away from the target for 3 3.5 4 4.5 seconds. Enemys will also be silence and passive break for a
 Short duration
 
-base damage 25 30 35 40 plus 40% of Magina agility Physical
+base damage 25 30 35 40+40% of Magina agility
 increase damage when enemys have no mana pool 150% 175% 200% 225% 
 Silence and Passive break duration 0.7 0.8 0.9 1.0 seconds
 cooldown 22 20 18 16
 mana cost 60 100 140 180 plus 3% of max mana
 
 talent level 10 upgrade Mana Break
-Increase base damage by 20
-increase scaling by 30%
-increase mana cost by 75
-reduce coldown by 3
+Increase base damage by 10
+increase scaling by 15%
+increase mana cost by 85
+reduce coldown by 7
 
 add a new modifier Mage Bane
 enemys with higher mana pool than Magina will take 60% more damage from Mana Break and enemys with no mana pool will take Pure damage
 instead of Physical damage with Mana Break. When Mana Break is use on bosses it will alway deal 0.7% of their max health into bonus
 damage and he will reduce their mana cap by 10% up to 30% meaning that they cant have more than 70% mana at all time and taking
-16% increase damage every time by Mana Break, last until death, and at max stack of mana reduction, bosses will lose 15% magical damage
-Output.(total of 48% increase damage taken from Mana break at 3 stacks)
+16% more damage by Mana Break it self, last until death. At max stack of mana reduction, bosses will lose 15% magical damage output.
+(total of 48% increase damage taken from Mana break at 3 stacks). Magina will also gain 1 stack of Hated Mage that increase his mana by
+14 and reducing mana break total manacost by 1% up to 15 max stacks. At 6 stacks, increase mana break base damage by 10 and base scaling
+damage by 10%. At 12 stacks, Mana Break will always deal 1% of Magina Current mana in bonus damage at the cost of having 2% more mana
+cost base on his max mana and also increase his movespeed by 75 and his speedlimit by 150.
+
 
 SPELL W
-Frost Blink
-deal high damage on blinking and silencing enemys around Magina as well and any enemys that attack him after he blink, they will have a
-chance to get blind for a short duration, Mage-Hunter will stack with the Silence of Frost Blink increasing its duration, Frost Blink 
-will also slow enemys by 40% for the Silence duration.
+Frost Blink - Pure -
+deal high damage on blinking and silencing enemys around Magina as well and any enemys that attack him after he blink will have a chance
+to get blind for a short duration. Mage-Hunter will stack with the Silence of Frost Blink increasing its duration. Frost Blink will also 
+slow enemys by 30% for the Silence duration. Also increase the area of effect by 10% 15% 20% 25% of Magina Agility.
 
-damage 20 28 36 44 plus 60% of Magina agility Pure
+damage 20 28 36 44+50% of Magina agility
 silence duration 1.8 2.0 2.2 2.4
 base area of effect 300 335 370 405
-increase area of effect by 30% 35% 40% 45% of Magina Agility
-range 700 850 1000 1150
+base range 700 850 1000 1150
 Chance to be blind 75%
 Blinding Skin duration 3.5 4 4.5 5
-blind duration on enemys 0.9 1.1 1.2 1.5
-miss chance from blind 35%
+blind duration on enemys 0.8 1.0 1.2 1.4
+miss chance from blind 20% 25% 30% 35%
 mana cost 100 110 120 130 plus 3% of his mana
 cooldown 27 24 21 18
 
 talent level 10 upgrade Frost Blink
-increase damage by 16
+increase base damage by 16
 increase agility scaling by 10%
-increase silence duration by 0.5
+increase silence duration by 0.6
 increase cast range by 175% of Magina Agility
-reduce cooldown by 5
+reduce cooldown by 3
 
 add a new modifier Quick Deadly Blink
 Remove the Cast Point on Frost Blink making it instant and enemys that are Affected by Mage-Hunter Silence will take 150% increase
-damage from Blink -doesnt work with Frost Blink it self must be from Auto Attack or Other Spells- and have their spell cooldown increase
-by 2 second. Any enemys that die under Blink will reduce its cooldown by 3 and increase its damage by 15% up to 70% bonus damage on the
-next cast of Frost Blink, Each time enemys get blind it will give Magina 2 mana that stack up to 300, at 130 mana, Magina will gain 1.5
-mana regeneration and 12 Agility, at 240 mana, Magina will gain 15% Evasion and increase Frost Blink silence duration by 0.8. Magina
-will lose 30 mana stacks every time he get Stun and lose all stacks on death.
+damage from Blink (doesnt work with Frost Blink it self must be from other source of silence) and have their spell cooldown increase
+by 2 second. Any enemys that die under Frost Blink will reduce its cooldown by 3 and increase its damage by 15% up to 70% bonus damage
+on the next cast of Frost Blink, Each time enemys get blind it will give Magina 2 mana that stack up to 300. At 130 mana, Magina will
+gain 1.5 mana regeneration and 12 Agility. At 220 mana, Magina will gain 12% Evasion and increase Frost Blink silence duration by 0.6
+and also make Frost Blink freeze all enemys that get hit by it, further increasing the slowing debuff by 15% and also slowing attack 
+speed by 45. Magina will lose 30 mana stacks every time he get Stun and lose all stacks on death.
 
 SPELL E
-Unstable Spell Shield
+Unstable Spell Shield - Magical -
 Magina will store a % of the damage taken from magic damage, making Unstable Spell Shield deal increase damage and stuning them as well.
-Unstable Spell Shield will get 200% increase bonus from spell amp for the base damage. he will also Store the physical damage he takes
-but at a very low rate. (he will also store some of the physical damage as well)
+Unstable Spell Shield will get 200% increase bonus from spell amp for the base damage. he will also Store 1% of the physical damage he
+takes. The Stun duration will increase by 0.1 for every 15 damage done with Unstable Spell Shield max damage stored, it also got a base
+stun of 0.5 seconds up to 3.5 seconds stun max. Also increase the max damage store by 10% 15% 20% 25% of Magina Agility.
 
-base damage 15 Magical damage plus 20% of agility
-magical damage Store 7% 8% 9% 10% of the damage taken
-Phyisical damage store 1% of the damage taken
+base damage 15 damage+20% of agility
+Magical damage Store 7% 8% 9% 10% of the damage taken
 base max damage store 25 40 55 70
-increase max damage store by 25% 30% 35% 40% of Magina Agility
-radius 320 360 400 440
-stun duration 1 1.4 1.8 2.2
+Base radius 325 365 405 445
 mana cost 100 plus 2% 5% 8% 11% of max mana
 cooldown 23 22 21 20
 
 talent level 15 Upgrade Unstable Spell Shield
 increase base damage by 15
-increase max damage store by 25
-increase Agility scaling on max damage store by 10%
-increase radius by 110
-increase stun by 0.3
+increase base damage scaling by 5%
+increase max damage store by 35
+increase base radius by 110
 reduce cooldown by 4
 remove mana cost
 
-add a new modfier Burning Explosion
+add a new modfier Burning Explosion --will be change--
 Unstable Spell Shield will burn the enemy for 8% of the damage done for 6 second, dealing damage every 0.5 second of ticks
 and if Magina use Mana Break on them they will lose 8% of their max mana and taking that into Pure damage and increasing the duration
 of Burning Explosion by 2 second. if the enemy dies under this effect reduce the cooldown of Unstable Spell Shield by 3 and give
 Magina 7% mana back and 5% max health as well
 
 PASSIVE D OF F
-Mage-Hunter
+Mage-Hunter - Pure -
 Increase Magina Agility with magic resist and reducing Base attack time with any weapons he wield. Auto Attacks will have a chance
-to Silence enemy and Silence will take damage every few tick of seconds, Spell will also Silence and those with Silence on them will
-have increase Silence duration, spell will have double the chance to proc the silences, enemys will also get silence longer for every
-450 current mana they have by 0.1.
+to Silence enemy and Silenced enemys will take damage every few tick of seconds. Spell will also Silence and those with Silence on them
+will have increase Silence duration, spell will have double the chance to proc the silences. enemys will also get silence longer for
+every 575 current mana they have by 0.1. Frost Blink silence will stack with Mage-Hunter silence duration.
 
-Agility bonus 9% 12% 15% 18%
-magic resist bonus 5% 10% 15% 20%
+Agility bonus 7% 8% 9% 10%
+magic resist bonus 12% 18% 24% 30%
 Base Attack Time reduction 0.10 0.15 0.20 0.25
-Silence Chance 13% 14% 15% 16%
-Silence damage 5 7 9 11 plus 7% 8% 9% 10% of agility Pure
-base Silence duration 0.6 1.0 1.4 1.8
+Silence Chance 14% 16% 18% 20%
+Silence damage 4 5 6 7+5% of agility
+base Silence duration 0.4 0.6 0.8 1.0
 damage every 0.2 second of Ticks
-cooldown to proc silence 4.0 3.7 3.4 3.1
+cooldown to proc silence 6 5 4 3 seconds
 
 Talent level 15 Upgrade Mage-Hunter
-increase agility bonus by 7%
-increase Silence chance by 4%
-increase Silence scaling Agility damage by 2%
-reduce the coldown to proc silence again by 0.6
+increase agility bonus by 5%
+increase magic resist bonus by 10%
+increase Silence chance by 5%
+increase silence base damage by 3
 
 add a new Modifier Anti-Spell
 every tick of damage when enemys are Silence will have 22% chance to be stun for 0.1 second and taking 2% of Magina max mana in Pure
