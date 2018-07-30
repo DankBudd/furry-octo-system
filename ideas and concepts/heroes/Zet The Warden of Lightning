@@ -124,11 +124,11 @@ SPELL E Volt Shield
 Zet will Increase his Armor and Magic resist base on his Strenght for a medium amount of duration with a cap of armor and magic resist
 gain. He will also gain a passive Shield that scale base off his Max mana Pool as well and will refresh every 20 seconds. Also increase
 his max health by 10 20 30 40 for every enemys in a 350 radius around Zet for 10 seconds after casting Volt Shield. Enemys will also
-take damage when they hit Zet when he has Volt Shield dealing medium damage.
+take damage when they hit Zet when he has Volt Shield dealing medium damage. Spell wont trigger the damage hit of Volt Shield.
 
 base damage 7+12% 13% 14% 15% of Strenght
-bonus Armor 25% 30% 35% 40% of Strenght
-bonus Magic resist 20% 30% 40% 50% of Strenght
+bonus Armor 14% 16% 18% 20% of Strenght
+bonus Magic resist 13% 17% 21% 25% of Strenght
 Max cap Armor 12 18 24 30
 Max cap Magic resist 20% 28% 36% 44%
 Passive Shield Amount 9% 11% 13% 15% of Max Mana
@@ -140,16 +140,17 @@ talent level 20 upgrade Volt Shield
 increase scaling damage by 3%
 increase armor cap by 5
 increase magic resist cap by 6%
+increase buff duration by 0.5 seconds
 remove Volt Shield mana cost
 
 add a new modifier Unstable Lightning Arc
-When Volt Shield buff is Active, it will release Lightning Arc to a nearby enemy (425 radius Search) dealing 10+5% of Zet Attributes
-in Magical Damage every 0.5 seconds and reducing their magic resist by 2% for 6.5 seconds that stack up to 10 and refresh the duration
-as well. at max stack of Lightning Arc debuff the target will suffer 5% of his max health in Pure damage that cant be resisted by any
-means and zet will be heal for 125% of that damage dealt. every 15 Lightning Arc done will increase Zet health regeneration by 0.2 and
+When Volt Shield buff is Active, it will release Lightning Arc to a nearby enemy (425 radius Search) dealing 11+6% of Zet Attributes
+in Magical Damage every 1.0 seconds and reducing their magic resist by 3% for 6.5 seconds that stack up to 10 and refresh the duration
+as well. at max stack of Lightning Arc debuff the target will suffer 4% of his max health in Pure damage that cant be resisted by any
+means and zet will be heal for 145% of that damage dealt. every 15 Lightning Arc done will increase Zet health regeneration by 0.2 and
 increase Volt Shield buff duration by 0.1 seconds, max of 15 stacks. At 6 stacks, increase Volt Shield armor cap by 5 and the magic
-resist cap by 10% and reduce its coldown by 3. At 13 Stacks, increase Zet max health and mana by 10% and increase the passive shield
-amount by 5%. 50% of the stacks are lost on death.
+resist cap by 10% and reduce its coldown by 6. At 13 Stacks, increase Zet max health and mana by 15% and increase the passive shield
+amount by 5%. 50% of the stacks are lost on death. Enemys will only be able to be Shock once for the 4% max health damage.
 
 
 PASSIVE D OR F Lightning Body
@@ -164,12 +165,14 @@ bonus Strenght 10%
 Strenght gain by kills 3
 Inteillgence gain by casting spells 3
 Agility gain for every amount of auto attack done 3
-max stacks of bonus stats 3 4 5 6
+max stacks of bonus stats 3 5 7 9
 buff duration 50 80 110 140
 
 
 talent level 20 upgrade Lightning Body
-
+increase the bonus buff attributes gain by 1
+increase max stack by 3
+increase buff duration by 50 seconds
 
 add a new modifier Charge Body
 
