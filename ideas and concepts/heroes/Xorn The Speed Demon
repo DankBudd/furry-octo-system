@@ -176,7 +176,8 @@ For Normal Form Xorn will lose Base damage with attack speed but gain Damage red
 making Sunder Stronger and for True Form he will take more damage from pure,physical and magic but gain base damage,attack range,
 attack speed, movement speed and making Terror Wave stronger. While in True Form, Xorn will have 40% increase size. Chainging form
 will cost 25 mana and will have 20 seconds coldown and coldown reduction source cannot lower the coldown it self unless its a talent.
-Metamorphosis can be level up from 4 12 20 28.
+Metamorphosis can be level up from 4 12 20 28. Terroblade will also switch his main attributes to strenght if in Normal Form and Agility
+in True Form.
 
 TRUE FORM
 damage taken increase by 40% 50% 60% 70% 80%
@@ -218,21 +219,21 @@ shatters. Enemys inside of the prison cannot take damage from other source but t
 and will still affect them for 33% increase effect instead of being a normal debuff. Bosses will reduce the Prison duration by 50% but
 will take double the amount of the base damage. Foulfell Prison ignore all from of status resistence on the target and Xorn will be
 heal for 15% 20% 25% of the total damage from Foulfell Prison after it shatters. Foulfell Prison will do damage every 0.5 seconds.
-increase the armor lost by 0.5 for every 625 575 525 current health on the target when casted. Foulfell Prison will have 3.5 seconds of
+increase the armor lost by 0.6 for every 625 600 575 current health on the target when casted. Foulfell Prison will have 3.5 seconds of
 delay before the target is in the Prison to warn allys but if there is no allys in a 1200 radius around Xorn it will Inprison them instanly
 
 base damage 40 50 60+25% of Agility
 Prison duration 2.0 2.5 3.0
-Armor lost 10 15 20
+base Armor lost 6 8 10
 Attack damage lost 15% 25% 35%
-debuff duration 6.0 6.5 7.0
+debuff duration 5.0 5.5 6.0
 coldown 40 35 30
 manacost 10% 15% 20% of max
 
 talent level 40 Upgrade Foulfell Prison
-increase scaling damage by 15%
+increase scaling damage by 10%
 increase the duration by 0.5 seconds
-increase armor lost by 5
+increase armor lost by 4
 increase debuff duration by 1.5 seconds
 increase the coldown by 5 seconds
 
@@ -338,6 +339,11 @@ increase Active item use damage by 40% but reduce their bonus gain on them by 10
 enemys and on bosses by 0.5% also remove its mana cost. Sunder will gain 2 cast range bonus for every agility and Inteillgence points
 and increase its buff duration by 0.3 seconds for every 4% health restore with Sunder.
 -
+Foulfell Prison will gain 5 base damage with 10% increase scaling damage and increase its duration by 0.5 but reduce its debuff duration
+by 2.0 seconds if the target has less than 80%. If they are above 80% health increase the debuff duration by 1.0 seconds and make it
+deal 5+10% of Agility in Pure damage every 1.0 seconds when in Foulfell Prison. Also reduce its coldown by 5 but increase the mana cost
+by 10%
+-
 level 20 talent
 -
 upgrade spell E
@@ -409,12 +415,10 @@ level 36 talent
 -
 increase Agility, Strenght and Inteillgence by 12 and also increase life gain from strenght by 2, Attack speed gain from agility by 0.15
 and spell amp gain from inteillgence by 0.5%, to be clear on the spell amp gain the user will gain 1.5% spell amp per 10 int instead of
-1%, Xorn will also gain 3 Agility and 7 movespeed per Agility items he is wearing.
+1%, Xorn will also gain 3 Agility and 7 movespeed per Agility items he is wearing and also increase Zeal cast range by 125 and Speed
+Blast base damage by 7.
 -
-Reduce the coldown of Demonic Mirror by 15, it also cast Zeal or Speed Blast on every units affected by every Unit affected by Demonic
-Mirror, depend on the Form Xorn is, Speed Blast and Zeal will have 30% increase damage as well and also spellvamping for 20% of the
-damage dealt as well, Xorn will also gain 1 movespeed for every enemys dead near him 350 radius, max of 135 movespeed bonus and he
-lose 30 stacks upon death and 5 stack every time he get slow by spells.
+
 -
 level 39 talent
 -
