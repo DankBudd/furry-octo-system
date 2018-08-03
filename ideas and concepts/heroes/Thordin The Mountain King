@@ -1,8 +1,9 @@
-Thordin,Mountain King Nuker-DSP Starting stats 4 Int, 3 Agi, 4 Str, base speed 280, base damage 5
-Stats Gain per level 0.80 int, 0.90 str, 0.60 agi
-starting item Rusty Hammer increase damage by 4 and reduce coldown by 2% base attack time 2.25
+Starting stats 10 strenght, 3 agility, 3 inteillgence, Stats gain per level, 1.60 Strenght, 0.80 Agility, 0.60 Inteillgence
+Base movespeed 305, Base attack damage 4-16, Base Regeneration Health 0.7, Base Regeneration Mana 1.4.
 
-LEVEL 20 TALENT
+total base stats at level 40 - 74 Strenght - 35 Agility - 27 Inteillgence -
+
+LEVEL 30 TALENT
 
 talent 1
 Increase Thordin armor by 12 but reduce his mana by 70% and his pure resist by 35%
@@ -16,42 +17,37 @@ and 5% spell amp for every buff on him as well
 
 
 PASSIVE D OR F
-Dwarft Might
-give a positive and negative buff, Pressing ALT will give INFO for Thordin level 20 talent and level 25 talent for this passive
+Mountain King
+give a positive and negative buff, Pressing ALT will give INFO for Thordin level 30 talent and level 4- talent for this passive
 
-BUFF Thordin Start with 1 armor and any armor lost will be bonus armor for Thordin instead of losing it he also gain 1 damage per armor
-and 100% of his armor will be Strenght and Thordin will gain 25% of his armor into Spell amp bonus and 400% of his Spell amp will be
-Health bonus as well
-DEBUFF Thordin lose 15% magic resist and he take 125% more damage from pure and magic resist any magic resist lost taken will be double
-instead of normal he also can only use hammer type weapons and any movement speed lost spell will alway deal pure damage and deal 50%
-more damage and also damage him for 1.5% of his max health every 1 second of slows duration
+BUFF
 
-Talent level 25 Upgrade Dwarft Might
-add a new modifier infused Hammer
-every basic attack, Thordin Release a Chain Lightning dealing 50% of Thordin total attack with Strenght that jump up to 4 target 
-and restoring his mana by 8% of the damage done by the Chain Lightning. the Chain Lightning got 15% chance to crit for 300% of the
-damage and Doesnt get any bonus from other Source of Crits
+DEBUFF
 
 
-SPELL Q
-Storm Bolt
-Thordin throw a Heavy hammer to a target stunning them and dealing damage with reducing magic resist and armor also pushing the target
-back, the duration and the armor and magic resist lost will have 50% reduction VS bosses
 
-damage 10 25 40 55 plus 40% 60% 80% 100% of strenght 50% magical and 50% physical
-push force 140 170 200 230
-magic resist lost 10% 15% 20% 25% 
-armor lost 3 7 11 15 
-stun duration 2 3 4 5 
-cooldown 18 17 16 15
-mana cost 75 plus 5% of max mana
+
+
+SPELL Q Storm Bolt
+Thordin Throw his hammer at the target dealing insane amount of damage, the damage will do 50% Physical and 50% Magical and will lower
+the target magic resist and armor for a medium duration. They also get stun for 2 3 4 5 seconds, half on bosses. Thordin will lose his
+Hammer when casting Storm Bolt, losing 70% base attack damage until he picks up his hammer gaining a 30% bonus attack damage for 3.5
+seconds. his hammer will stay on the ground for 15 seconds after that timer ends, it will come back to him without giving him the buff
+
+base damage 20 40 60 80+25% 35% 45% 55% of Strenght
+magic resist lost 8% 13% 18% 23%
+armor lost 4 7 10 13
+debuff duration 4.0 4.5 5.0 5.5
+coldown 35 33 31 29
+mana cost 75 plus 10% of max mana
 
 talent level 10 upgrade Storm Bolt
-increase strenght scaling by 50%
-increase cast range by 350
-increase push force by 70
-increase magic resist lost by 9%
-reduce cooldown by 6
+increase base damage by 30
+increase scaling damage by 15%
+increase magic resist lost by 4%
+increase armor lost by 3
+increase debuff duration by 2.5
+increase the coldown by 9
 
 add a new modifier Violent Bolt
 After the Storm Bolt hit the target, it will shatter into smaller peice that hit up to 4 other target for 60% of the total damage of
