@@ -1,7 +1,8 @@
                                                              Furion the Nature Protector
-Starting stats 5 strenght, 0 agility, 5 inteillgence, Stats gain per level, 1.00 Strenght, 0.50 Agility, 1.00 Inteillgence.
-Base movespeed 285, Base attack damage 2-3, Base Regeneration Health 0.6, Base Regeneration Mana 1.1.
+Starting stats 5 strenght, 0 agility, 5 inteillgence, Stats gain per level, 1.00 Strenght, 0.50 Agility, 1.50 Inteillgence.
+Base movespeed 345, Base attack damage 2-4, Base Regeneration Health 1.5, Base Regeneration Mana 2.1.
 
+total base stats at level 40 - 45 Strenght - 20 Agility - 65 Inteillgence -
 
 LEVEL 30 TALENT
 
@@ -18,31 +19,26 @@ Inteillgence into bonus attack speed for them, they also lifesteal for 10% of th
 Nature will have 1 seconds duration bonus and will deal 50% of its healing into damage for enemys
 
 PASSIVE D OR F Nature Way
-give a positive and negative buff
+give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
 
-BUFF Furion will gain 2 life per inteillgence and 5 mana per strenght he also gain 0.1 armor and 0.2% magic resist per level he also
-start with 4% spell amp and 4% heal amp as well any summmon that die will restore Furion life by 1% he also get a special armor chest
-peice that scale per level and cannot be change. Furion also give 15% of his basic attack damage to his summons
-DEBUFF Furion cannot have any Armor-Chest-Peice and he take 120% more damage from physical and 70% more from pure he also lose
-2 movement speed per level with 0.50 attack speed as well he also lose 50% base damage and every time Furion take physical damage he
-will lose 0.6% spell amp and 0.4% healing amp that stack up to 20 last 3 second and refresh for every physical damage taken
+BUFF Furion will gain 2 life per inteillgence and 5 mana per strenght he also gain 0.2 armor and 0.4% magic resist per level he also
+start with 10% spell amp and 3% heal amp as well any summmon that die will restore Furion life by 1% he also get a special armor chest
+peice that cannot be change. Furion also give 5% of his total attack damage to his summons.
 
-Life Grass Armor Special
-increase life by 5% increase by 0.5% per level
-increase healing amp by 5% increase by 0.3% every level
-increase roots resist by 10% increase by 0.7% every level
-Also give Furion a 7 spells, this spell will make trees at the target location.
+DEBUFF Furion cannot have any Armor-Chest-Peice beside his special one and he take 120% more damage from physical and 70% more from pure
+he also lose 2 movement speed per level with 0.50 attack speed as well he also lose 50% base damage and every time Furion take physical 
+damage he will lose 0.6% spell amp and 0.4% healing amp that stack up to 10 last 3 second and refresh for every physical damage is taken
 
-Trees Call - 7 spell (doesnt damage)
-Furion summon Trees at the location, blocking Path and allys can go pass them, When the Trees are gone they will spawn Tiny Treants
-that got 5% of the Treants stats and will last 7 seconds, they dont proc Nature Wrath on Dealth and they have Phase.
-
-Tree spawn 4-7 5-9 6-11 7-13
-durations of trees 10 seconds
-Coldown 30
+Life Grass Armor Special no mana cost coldown of 20 seconds
+increase health by 5% increase by 0.5% every levels
+increase mana by 100 increase by 10 every levels
+increase healing amp by 5% increase by 0.7% every levels
+increase magic resist by 5% increase by 0.3% every levels
+Furion can also use Life Grass Armor to spawn 12 trees that last 6.5 seconds, blocking the paths of enemys and allys can go pass them.
+These are use to summon Treants and block path.
 
 
-talent 25 modifer
+talent 25 modifer will be change
 give a new modifier Guardian of the Forest
 any trees around Furion will have 5% chance per 0.5 second near him to turn into a Treant, these Treant
 will have 200% of the current normal Treant stats and can last until death, max of 3 and for every Treant alive will give
@@ -51,12 +47,12 @@ will have 200% of the current normal Treant stats and can last until death, max 
 SPELL Q
 Nature Wrath
 Heal or damage a target, Healed target will Explode into Nature healing others for 50% of the total heal and giving everyone bonus
-armor and magic resist in a 450 radius, the Target that took damage will explode, dealing 50% of the total damage and reducing armor
-and Magic resist of others in a 450 radius, the Main target will still get affect by the heal or damage and increase or reduce armor
-and magic resist, the target will explode after 3 seconds.
+armor and magic resist in a 450 radius. The target that took damage will explode, dealing 50% of the total damage and reducing armor
+and Magic resist of others in a 450 radius. The Main target will still get affect by the heal or damage and increase or reduce armor
+and magic resist, the target will explode after 3 seconds. The damage is magical.
 
-Heal 60 90 120 150 plus 60% 80% 100% 120% of int
-Damage 14 20 26 32 plus 50% of int type magical
+Heal 60 90 120 150+60% 80% 100% 120% of inteillgence
+Damage 14 20 26 32+50% of inteillgence
 bonus armor 3 6 9 12
 armor reduction 2 5 8 11 
 magic resist 10% 14% 18% 22%
@@ -66,11 +62,7 @@ cooldown 10
 mana cost 80 120 160 200 plus 1% of max mana
 
 talent level 10 upgrade Nature Wrath
-increase heal by 70
-increase damage by 18
-increase armor reduction by 4
-magic resist reduction increase by 7%
-reduce cooldown by 2
+
 
 add a new modifier Green Flame
 after the buff duration end, it will make a green flame on allys healing them by 4 8 12 16 plus 16% of Furion inteillgence every 0.5
@@ -81,25 +73,28 @@ second duration
 
 SPELL W
 Treant Guard
-Summon Treant to fight for your side and last for 30 35 40 45 second and those Treants will Absorb damage that Furion take, 20% of
-the total damage taken will be share on the highest Treant HP, they also have 2 passive.
+Summon Treant to fight for your side and last for 40 60 80 100 second and those Treants will Absorb damage that Furion take, 20% of
+the total damage taken will be share on the highest Treant current health. They can die from the Absorb damage. The spell has a low
+coldown and each time Furion use it, it will have 35% total mana cost increase for 7 seconds and refresh the debuff duration for every
+cast of Treant Guard. They come with 2 passive call Grass Bark and Nature Attack.
 
-Number of Max Treant 2 3 3 4
-Treant life 80 110 140 170 plus 60% 80% 100% 120% of int
-Treant damage 4-7 7-10 10-14 14-20 plus 12% of int
-Treant Magic resis 5% 10% 15% 20%
-Treant armor 2 4 6 8
+Number of Max Treant 1 2 3 4
+Treant life 100 125 150 175+70% 110% 150% 190% of inteillgence
+Treant damage 4-7 7-10 10-14 14-20+17% of inteillgence
+Treant Magic resist 10% 15% 20% 25%
+Treant armor 3 6 9 12
 Treant base attack time 2.00 1.95 1.90 1.85
-cooldown 6
-mana cost 100 125 150 175 plus 2% of max mana
+cooldown 4
+mana cost 100 135 170 205
 
-Treant passive Seed of Life
-When Treants dies, they will do a smaller Version of Nature Wrath Dealing 15% 20% 25% 30% damage or heal to enemys and allys, 375
-radius
+Treant passive 1 Grass Bark
+Treants guard will have 14% chance on hit to restore 3% of their max health and also increasing their magic resistence by 4% 8% 12% 16%
+for 3.5 seconds. Also increase their Health regeneration by 2.5 5.0 7.5 10.0 and increase all healing effect on them by 10% 20% 30% 40%.
 
 Treant Passive 2 Nature Attack
-Treants will do 15% of their damage in Pure and every 3 attack they will do 20% 25% 30% 35% of their damage in Pure and also cleaving
-as well (330 radius in front of them), they will gain 1% health back for every enemys hit with their Cleave.
+Treants Guard will cleave for 20% 26% 32% 38% of their damage in front of them (445 radius) and 25% of the cleave damage done will heal
+Furion. They also have 10% chance to crit for 150% 175% 200% 225% of their damage reducing the target armor by 2 4 6 8 for 4.5 seconds
+and also reducing their healing source by 15%.
 
 talent level 10 upgrade Treant Guard
 reduce cooldown by 3
@@ -109,7 +104,7 @@ increase max treant by 2
 reduce the base attack time by 0.10
 reduce mana cost by 75
 
-add a new modifier Treants Nightmare
+add a new modifier Treants Nightmare will be change
 When the Treants dies, they will spawn 2 lesser Version of them with 35% of the owner stats, these smaller version will have 15% more
 magic resist with 4 more armor, they also have 40% pure resist as well, If Furion dies he will spawn 8 normal Treants that got 50%
 increase stats but only last 18 seconds and will spawn lesser version Treants as well. Treants will also Become immune to all stuns
@@ -118,23 +113,24 @@ speed bonus, Smaller Treants will also do Nature Wrath explosion but only 5% of 
 
 SPELL E
 Pure Nature
-Make a garden at the location buffing ally and treant also healing them and as a small chance of spawning a Treant
-the Treant scale off by Treant Guard but only last 15 second and will spawn smaller treants if the level 10 talent is pick, Furion will
-not be affected by Pure Nature healing effect.
+Make a garden at the location Healing allys and also increasing their attack damage and attack speed while they stay inside of Pure
+Nature. It also got 14% 16% 18% 20% chance on every 2 seconds of duration to spawn a Treant Guard with 20% 30% 40% 50% stats increase
+and they will last 12 15 18 21 seconds before they die releasing a Nature Wrath that does 25% of the total healing damage without giving
+the debuff or buff effect. Pure Nature will heal every 1.0 seconds and increase its radius by 225% of Furion Inteillgence. Furion is not
+affected by Pure Nature.
 
-Heal per second 15 25 35 45 plus 40% of int
-duration 8 9 10 11
-Treant Spawn chance per second 14% 16% 18% 10%
-radius 600 700 800 900
+base Heal 15 25 35 45+30% 35% 40% 45% of inteillgence
+base radius 500 550 600 650
 attackspeed bonus 20 35 50 65 
-damage bonus 9% 12% 15% 18%
-cooldown 23 22 21 20
+attack damage bonus 10% 14% 18% 22%
+Duration 5 6 7 8 seconds
+cooldown 30 29 28 27
 lifecost 25 100 175 250 plus 5% of furion max life
 
 talent level 15 upgeade Pure Nature
 increase duration by 2
-increase radius by 250
-increase attack speed by 25
+increase radius by 150
+increase attack speed by 45
 
 Give a new modifier Garden
 Furion will now be able to get Healing from Pure Nature and every 0.5 seconds, Pure Nature will gain 15 bonus radius and also increasing
