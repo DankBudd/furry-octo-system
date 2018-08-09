@@ -1,5 +1,5 @@
 Starting stats 10 strenght, 3 agility, 3 inteillgence, Stats gain per level, 1.60 Strenght, 0.80 Agility, 0.60 Inteillgence
-Base movespeed 305, Base attack damage 4-16, Base Regeneration Health 0.7, Base Regeneration Mana 1.4.
+Base movespeed 305, Base attack damage 4-16, Base Regeneration Health 0.7, Base Regeneration Mana 2.5.
 
 total base stats at level 40 - 74 Strenght - 35 Agility - 27 Inteillgence -
 
@@ -20,19 +20,34 @@ PASSIVE D OR F
 Mountain King
 give a positive and negative buff, Pressing ALT will give INFO for Thordin level 30 talent and level 4- talent for this passive
 
-BUFF
+BUFF Thordin will gain 1 armor per 11 strenght and also gaining 0.15% spellamp per strenght points as well. He will start with 75 more
+health and also having 0.1% mana Regenaration bonus per allys buff they give him and if he has at least 4 or more buff on Thordin, he
+will gain 25% status resistence and also gaining 100 movespeed until he doesnt have 4 or more buff on him. Thordin will also have a
+special hammer that he cannot change but he can wield one more weapons as well.
 
-DEBUFF
 
+DEBUFF Thordin will take 75% more damage from Pure and Magical damage and he also lose -10% magic resist and 15% base attack damage.
+Inteillgence will only give 7 mana and doesnt give any Mana regeneration at all as well, Agility will give 0.40 attack speed intead and
+Thordin will take 2.3% of his max health in pure damage every time he is stun or silence. He cannot weild any weapons that are not hammers
+. Thordin will also lose 0.25 base attack time with any weapons he wield.
 
-
+Thunder Hill Hammer Special hammer
+Increase attack damage by 5 increase by 1 every 2 levels
+Increase strenght by 2 increase by 1 every 4 levels
+Increase Stun resistence by 5% increase by 1% every 2 levels
+reduce attack speed by 5 increase by 1 every levels
+Thunder Hill will restore Thordin mana by 12% of the damage he deal with his auto attacks and also debuff the target reducing their
+magical resistence by 5% and armor by 2 for 2.5 seconds. The Chain Lightning effect from Thunder Hill will also gain the mana restore
+effect.
+Thunder Hill will also have 25% chance on hit (double with Storm Bolt) to release a Chain Lightning that will deal 5+25% of Thording
+Strenght and Attack damage doing 50% magical and 50% physical damage that will bounce up to 3 target each jump dealing 20% less damage.
 
 
 SPELL Q Storm Bolt
 Thordin Throw his hammer at the target dealing insane amount of damage, the damage will do 50% Physical and 50% Magical and will lower
 the target magic resist and armor for a medium duration. They also get stun for 2 3 4 5 seconds, half on bosses. Thordin will lose his
 Hammer when casting Storm Bolt, losing 70% base attack damage until he picks up his hammer gaining a 30% bonus attack damage for 3.5
-seconds. his hammer will stay on the ground for 15 seconds after that timer ends, it will come back to him without giving him the buff
+seconds. His hammer will stay on the ground for 15 seconds after that timer ends, it will come back to him without giving him the buff.
 
 base damage 20 40 60 80+25% 35% 45% 55% of Strenght
 magic resist lost 8% 13% 18% 23%
