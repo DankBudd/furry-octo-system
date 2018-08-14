@@ -2,7 +2,7 @@ list of blue item, can only be found at around level 11 to 40
 
 
 Greater Soul
-give bonus damage, stats, lifesteal, spellamp and spellvamp with cast range
+Increase overall Stats of the user.
 
 damage 6-10
 spell amp 6-9%
@@ -17,9 +17,9 @@ Increase agility and strenght of the user, also have a chance to deal bonus dama
 
 spell crit, physical spell only
 chance 17%
-damage 160%
+damage 145%
 
-agility 10-15
+agility 9-15
 strenght 6-10
 
 
@@ -27,13 +27,13 @@ Magic Stone
 increase intelligence and spell amp with mana, also can be use to deal damage and slowing the target.
 
 Active item use coldown 20 mana cost 135
-deal 30 magic damage plus 25% of user inteillgence to the target slowing for movement for 40% last 4 second.
+deal 20 magic damage plus 30% of user inteillgence to the target slowing movement for 40% last 2.5 second.
 
-intelligence 7-13
-spell amp 6-11%
-mana 110-180
+intelligence 6-14
+spell amp 6-9%
+mana 110-160
 
-Infernal Stone BLUE, needed lesser infernal stone 1000 gold with recipe 1500 gold
+Infernal Stone BLUE, needed lesser infernal stone 1000 gold with recipe 1500 gold -not to be use-
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
 
 Active use item
@@ -67,10 +67,10 @@ the debuff of disarmor last 3.5 second and can stack multiple time if hitting th
 it by 0.4 seconds 
 
 Passive item use
-Give allys 6 Agility and Strenght also giving them 8% lifesteal, 925 radius
+Give allys 6 Agility and Strenght also giving them 7% lifesteal, double the lifesteal effect on the user. 925 aura radius
 
-Strenght 4-12
-Agility 4-12
+Strenght 4-11
+Agility 4-11
 
 
 HanAxe
@@ -82,23 +82,24 @@ empower next 3 attack cleaving for 40% of the damage instead and increasing dama
 
 Passive item use
 cleave for 20% of the damage dealt and gain 10% of that damage done by the Cleave in health restoration, the lifesteal on Cleave will
-have 10% increase bonus when the Active item buff is Active.
+have 10% increase bonus when the Active item buff is Active. The lifesteal gain from the cleave will take 2.5 seconds to heal the target
+from the total damage done with it.
 
 attack damage 9-17
-strenght 10-14
-attack speed 15-35
-BAT 1.85
+strenght 8-13
+attack speed 15-25
+BAT 1.90
 
 Radiant Stone
 give the user true sight and give near ally bonus life regeneration and mana regeneration also inrease heal amp and mana as well
 
-Passive item use
+Passive item use Radiant Feeling
 give true sight in a 800 radius any enemy that is invisible will take 20% increase damage last 8 second after leaving invis
 
-Passive item use 2
-give 2.8 life regeneration and 3.4 mana regeneration to near ally in a 800 radius
+Passive item use Restoration station!
+give 1.9 life regeneration and 2.2 mana regeneration to near ally in a 800 radius. Double the regeneration on the user.
 
-heal amp 12-18%
+heal amp 9-14%
 mana 135-225
 
 
@@ -106,40 +107,41 @@ Dire Stone
 the user will make near ally invisible making them deal more damage after breaking invis also give them a bonus damage and spell amp
 aura as well. Also Increase all stats and Cast range for the user
 
-passive item use
-all ally near you will go invisble 800 radius after 4 second, if they break the invis aura they will do 20% extra damage with spell and
+passive item use Dire Feeling
+all ally near you will go invisble 800 radius after 4 second, if they break the invis aura they will do 15% extra damage with spell and
 basic attack for 3.5 seconds and they cannot go invis again for 6 second
 
-passive item use 2
-give 7 damage and 5% spell amp to near ally 800 radius
+passive item use Bulk up!
+give 6 damage and 4% spell amp to near ally 800 radius. Double the damage and spellamp on the user.
 
-all stats 8-13
+all stats 4-8
 cast range 100-200
 
 Holy Book
-increase the user heal amp and spell amp, also increase mana and life can also be use to deal holy damage or heal allys
+increase the user healing amp and spell amp, also increase mana and life can also be use to deal magical damage or heal allys
 
-active use item 1
-deal 18 plus 22% of inteillgence as magical damage or heal any ally for 65 heal plus 45% of inteillgence
+active use item 1 coldown 20, mana cost 4% of max mana
+deal 13 plus 19% of inteillgence as magical damage or heal any ally for 85 heal plus 45% of inteillgence
 
-heal amp 11-20%
-increase spell amp 10-14%
-mana 115-180
-life 115-180
+heal amp 8-17%
+spell amp 5-11%
+mana 35-200
+life 35-200
 
 Pure Orb need magical orb with physical orb
 increase all stats and all spell will blind and slow dealing extra damage as well
 
-Passive item use 1
-Spell will slow for 8% and blind for 0.9 second giving 30% to miss and also dealing 6 pure damage
+Passive item use Pure Orb
+Spell will slow for 8% and blind for 0.9 second giving 30% to miss and also dealing 6 pure damage. Spells that does damage every 1.0
+seconds or less will only gain 2 pure damage bonus.
 
-Active item use 1 coldown 40 mana cost 125
+Active item use Pure Attack coldown 40 mana cost 125
 deal 20% of total attributes as damage to a target and all of that damage will be 50% magical and physical, if he die from this, refresh
-the coldown and increase the attributes scaling by 10% more for the next cast.
+the coldown and increase the attributes scaling by 15% more for the next cast and also removing the manacost.
 
-all stats 7-15
-mana 6%-10%
-cooldown reduction 5-8%
+all stats 7-13
+mana 3%-7%
+cooldown reduction 5%-9%
 
 
 Blood Sword
@@ -147,30 +149,30 @@ make the target bleed and lifestealing for medium amount of damage done with ble
 the user life, damage, strenght and attack range
 
 Passive item use Bleed
-Bleed the target for 5 physical damage plus 8% of Attack and lifesteal for 25% plus 10% of strenght, of the damage dealt by bleed, last
+Bleed the target for 3 physical damage plus 7% of Attack and lifesteal for 35% plus 15% of strenght, of the damage dealt by bleed, last
 2.4 second and damage every 0.6 second
 
-Active item use Uber Bleed coldown 60 mana cost 70
+Active item use Uber Bleed coldown 60 mana cost 70 plus 10% of max mana
 bleed all target near the caster 375 radius for 7 physical damage plus 14% of Attack and lifestealing for 80% of the damage dealt
 last 3 second and damage every 0.5 seconds, any target that die durring the Uber Bleed will restore 3% of the user missing health
 
-damage 8-13
-Strenght 6-11
-Life 7-10%
-attack range 50-75
-BAT Modifier 1.60
+damage 5-11
+Strenght 2-13
+Life 5%-10%
+attack range 40-75
+BAT Modifier 1.55
 
 Danudor
 increase the user attack damage with stats and attack speed, also for every 5 strike done with basic attack will make the user deal
 critical hit on the next attack, part of the Alor Death set
 
-Passive item use
-after the 5 hit is done, the user will critical hit for 130% to 165% bonus damage
+Passive item use Death Strike The Weak
+after the 5 hit is done, the user will critical hit for 120% to 155% Random bonus damage
 
-damage 12-15
-all stats 3-5
-attack speed 11-15
-BAT 1.80
+damage 10-15
+all stats 3-6
+attack speed 10-20
+BAT 1.90
 
 Alor Helm
 increase the user armor with magic resist and attack speed, also increase the user Pure resist every time they get damage by Pure damage
@@ -178,22 +180,22 @@ type, part of the Alor Death set
 
 Passive item use Deaths Resistence
 increase Pure resist by 10% when taking pure damage type for 3 second and increase by 3% and 0.7 second every time the user get damage
-again in the duration of Death Resist, max stack of 5 and at max stack refresh the duration every time and increase move speed by 5%
+again in the duration of Death Resist, max stack of 5 and at max stack refresh the duration every time and increase move speed by 25%
 
 armor 2-4
 magic resist 7-11%
-attack speed 10-12
+attack speed 7-15
 
 Alor Gloves
 increase the user magic resist and attack speed, also reduce Base attack time with weapons and having more effect while having
 Danudor Weapon, part of the Alor Death set
 
-Passive item use
-reduce base attack time by 0.10 with weapons, while Danudor is in the User weapons slot, reduce base attack time by 0.30 and attacks
-will deal 25% bonus magical damage
+Passive item use Death Comes
+reduce base attack time by 0.10 with weapons, while Danudor is in the User weapons slot, reduce base attack time by 0.40 and attacks
+will deal 15% bonus magical damage from the total damage dealt with auto attacks
 
 magic resist 5-8%
-attack speed 10-15
+attack speed 10-25
 
 
 Daedalus
@@ -202,33 +204,34 @@ and auto attacks, can also be use to make the next attack or spell deal insane e
 become muted for them
 
 Passive item use Know the Spot!
-spell and auto attacks will have 14% chance to crit for 140% of the damage dealt ignoring magic resist and armor of the target and
-also reducing their magic resist by 5% and armor by 2 for 3 seconds, damage per seconds spells or effect will have 10% chance to crit
+spell and auto attacks will have 14% chance to crit for 125% of the damage dealt ignoring magic resist and armor of the target and
+also reducing their magic resist by 5% and armor by 2 for 3 seconds, damage per seconds spells or effect will have 9% chance to crit
+instead of 14%.
 
-Active item use Great Power
+Active item use Great Power coldown 25, mana cost 18% of max mana
 the next auto attack will deal 35% increase damage and reducing armor by 6 for 3 second and increase the next spell damage by 20%
-and reducing magic resist by 15% for 5 seconds, coldown 55, mana cost 18% of max mana
+and reducing magic resist by 15% for 5 seconds. the buff duration of both effect will last 8 seconds
 
 agility 9-13
 inteillgence 9-13
 attack speed 15-28
 attack range 90-125
-Bat 1.70
+Bat 1.75
 
 Peicing Dagger
 increase the user damage and attack speed, ignore some armor from the target and can also be use to deal 3 attacks in a quick succes,
 and reducing their armor by 1.7 for every hit that doesnt miss from the active
 
-Passive item use
+Passive item use Pierce thy armor
 Ignore 4 armor off the target
 
-Active item use
-next attacks will do 3 attacks in 0.75 seconds each dealing 65% of the user attack damage and all Modifiers will have effects as well
-and reducing armor by 1.7 that last 10 seconds, coldown of 18, mana cost 7% of max mana
+Active item use Quick Strike! coldown of 22, mana cost 7% of max mana
+next attacks will do 3 attacks in 0.75 seconds each dealing 60% of the user attack damage and all Modifiers will have effects as well
+and reducing armor by 1.7 that last 10 seconds.
 
-attack damage 4-8
-attack speed 10-20
-Bat 1.25
+attack damage 3%-5%
+attack speed 11-22
+Bat 1.20
 
 
 Blink Dagger
@@ -237,15 +240,15 @@ stack and also deal high damage, those can be earn by giving a certain amount of
 extra damage.
 
 Active item use Blink mana cost 75 plus 2% mana cost
-Blink 875 unit far dealing 35 plus 20% of the user Primary stats in Pure damage in a 385 radius around the user, cost 2 Blink Soul and
+Blink 875 unit far dealing 30 plus 20% of the user Primary stats in Pure damage in a 385 radius around the user, cost 2 Blink Soul and
 doesnt have a coldown.
 
 Passive item use
-every 8 attack done will give the user 1 Blink Soul and deal 35% of the User attack damage and Primary Attribute in Pure damage, cannot
+every 8 attack done will give the user 1 Blink Soul and deal 45% of the User attack damage and Primary Attribute in Pure damage, cannot
 have more than 10 Blink Soul
 
-Primary stats 12-18
-damage 6-11
+Primary stats 5-7
+damage 2-4
 attack speed 25-40
-BAT 1.30
+BAT 1.05
 
