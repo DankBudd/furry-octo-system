@@ -10,17 +10,18 @@ it also increase the user Attack speed on hit but reduce health regeneration. Ca
 from them.
 
 Passive 1 Blood Poison
-the User will have 15% lifesteal with auto attacks and spells, these will have 12% chance to Blood Poison the target dealing 11 Plus
-12% of the User Strenght and Inteillgence per 0.4 seconds for 4 seconds.
+the User will have 25% lifesteal with auto attacks and spells, these will have 12% chance to Blood Poison the target dealing 11 Plus
+12% of the User Strenght and Inteillgence per 0.2 seconds for 2 seconds.
 
 Passive 2 Blood Hunger
-Each auto attacks and spells will give 5 attack speed but reduce health regeneration by 0.7 up to 20 max stacks.
+Each auto attacks and spells will give 7 attack speed but reduce health regeneration by 1.1 up to 20 max stacks. the buff last 3.5 seconds
+and refresh every hit done.
 
 Active item use Feasts
 The user can Activate this to Consume all stacks of Blood Hunger healing by 45 plus 30% of the User Strenght and Inteillgence per stacks.
 
-Damage 38-44
-Strenght 40-45
-Inteillgence 34-38
-Mana Regeneration 6.5-7.5
+Damage 40-45
+Strenght 41-45
+Inteillgence 37-40
+Mana Regeneration 9.9-11.2
 Base attack time 2.05
