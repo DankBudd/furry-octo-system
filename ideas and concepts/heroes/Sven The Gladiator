@@ -192,18 +192,19 @@ This Spell can last very long with every kill he does.
 
 level 1 talent
 -
-increase Strenght gain by 0.2 every level and also increase strenght by 5, Increase BloodLust duration by 1.0 and its bonus damage by 6.
-Sven will also gain 1 base damage for every 165 current health he got and increase his strenght by 1 for every spells casted for 5.5
+increase Strenght gain by 0.2 every level and also increase strenght by 5, Increase BloodLust duration by 1.0 and its bonus damage by 4.
+Sven will also gain 1 base damage for every 185 current health he got and increase his strenght by 1 for every spells casted for 5.5
 seconds, refresh every time and add 0.5 second duration bonus, up to 6 max stacks.
 -
-increase Agility gain by 0.2 every level and also increase agility by 5, Death Blow will gain 35% of Sven Agility into bonus damage and
-increase its strenght scaling by 5% and spellvamp by 10%. It will also Restore 1.3% of Sven max health on cast.
+increase Agility gain by 0.2 every level and also increase agility by 5, Death Blow will gain 40% of Sven Agility into bonus damage and
+increase its strenght scaling by 5% and spellvamp by 10%. It will also Restore 3.5% of Sven max health on cast.
 -
-increase Inteillgence gain by 0.2 every level and also increase inteillgence by 5, Reduce the mana cost of Sven spells by 25% and their
-coldown by 2.5. Sven 3 basic spells will gain 20 cast range for every 100 max mana he got and also reduce Mana Lost effect by 15%.
+increase Inteillgence gain by 0.2 every level and also increase inteillgence by 5, Reduce the mana cost of Sven spells by 45% and their
+coldown by 3.0. Sven will gain 1 base damage for every 3 inteillgence while in BloodLust and BloodLost will gain 20% of inteillgence as
+bonus damage damage.
 -
 increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 2, Sven will reduce the coldown of his 3 basic spell by 1.0
-seconds and gain 2.7 Mana regeneration. Sven Death Blow will have 1.2 duration increase for its debuff and Blood Wound will have 1.0
+seconds and gain 3.2 Mana regeneration. Sven Death Blow will have 2.5 duration increase for its debuff and Blood Wound will have 1.5
 seconds duration increase.
 -
 level 4 talent
@@ -212,11 +213,12 @@ Increase the bonus damage from BloodLust by 5 and increase its duration by 0.5 s
 will also gain 7 Strenght and 3.5 Health Regeneration when in BloodLust. (Further Increase the Strenght Gain by 6 at level 10 and by 9
 at level 30)
 -
-increase all stats by 6 and increase healing recive by 15%, Further increase the healing recive by 25% when in BloodLust. Blood Wound
+increase all stats by 7 and increase healing recive by 10%, Further increase the healing recive by 15% when in BloodLust. Blood Wound
 will Heal Sven by 0.2% of his max health for every tick of damage and also increase its base damage by 4.
 -
-Increase DeathBlow cast range by 75 and its base damage by 10, DeathBlow will alway reduce the target armor by 3 and slowing them by 10%
-he also increase Roots and Stuns duration on them by 25% as well, the debuff will last as same as the Debuff duration on Death Blow.
+Increase DeathBlow debuff duration by 1.0 seconds and its base damage by 10, DeathBlow will alway reduce the target armor by 3 and
+slowing them by 10% he also increase Roots and Stuns duration on them by 25% as well, the debuff will last as same as the Debuff.
+duration on DeathBlow.
 -
 level 7 talent
 -
