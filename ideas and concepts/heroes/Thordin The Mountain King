@@ -80,7 +80,7 @@ Thordin slam the ground dealing Physical damage to nearby enemys slowing their m
 movespeed lost will be a buff for Thordin and his allys near him when he slam the ground. Thunder Clap will also do 2 3 4 5 increase
 damage for every enemys hit with Thunder Clap for its next cast. Also reduce its coldown by 0.15 0.20 0.25 0.30 for every enemys hit
 with Thunder Clap and auto attack will also reduce its coldown with double the effect. increase Thunder Clap radius by 25% 40% 55% 70%
-of Thordin Strenght.
+of Thordin Strenght. Thunder Clap will have 30% increase mana cost every cast, the debuff will last 16 14 12 10 seconds.
 
 base damage 9 12 15 18+10% 15% 20% 25% of strenght
 attack speed lost 20 30 40 50
@@ -88,7 +88,7 @@ movement speed lost 14% 20% 26% 32%
 debuff and buff duration 3.6 4.4 5.2 6.0
 base radius 310 340 370 400
 cooldown 13 11 9 7
-mana cost 25 75 125 175 plus 4% of max mana
+mana cost 25 50 75 100
 
 talent level 10 Upgrade Thunder Clap
 increase strenght scaling by 10%
@@ -96,11 +96,8 @@ increase radius by 75
 increase attack speed lost by 20
 increase movement speed lost by 8%
 
-add a new mofidier Hammer of Thundering Blood
-Enemys hit by Thunder Clap will have 50% chance to get lightning Bolt dealing 25 30 35 40 plus 80% of Thordin Strenght in pure damage
-and enemys that are below 40% will lose 3% of their Max health 0.4% for bosses and any enemys that die from the Lightning Bolt will
-Heal Thordin by 4% of his max health and every Unit hit by Thunder Clap will restore Thordin health by 25% of the damage done with
-Thunder Clap
+add a new mofidier Pure Thunder Storm
+
 
 SPELL E
 Strenght of the Mountain
