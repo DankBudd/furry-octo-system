@@ -14,6 +14,8 @@ current resistence
 Physical resist
 Magic resist
 Pure resist
+damage reduction -- any resistence reductions
+those under are not use yet
 Holy Resist
 Lightning Resist
 Fire Resist
@@ -23,50 +25,55 @@ Earth Resist
 Death Resist
 Chaos Resist
 Void Resist
-damage reduction -- any resistence reductions
 
 if we add more resistence just type it up here
 
-if Primary stats is str, agi or int you will gain 0.20 damage per point
-all hero will have 150 life and 250 mana base start
+if Primary stats is str, agi or int you will gain 0.20 damage per point -unless something improve or reduce it
+all hero will have 100 life and 200 mana base start
 
 Strenght
-life 5
-life regeneration 0.02
-life 1% for every 20 point of str
-every 6 point will increase health regeneration bonus by 1%
+5 health
+health regeneration 0.02
+1% health for every 15 point of strenght
+every 6 points will increase health regeneration bonus by 1%
 
 Agility
-attack speed 0.50
-movement speed 1
-damage 1% for every 15 point of agility
-reduce Base attack time by 0.01 for every 25 agility
+0.50 attack speed
+1 movespeed
+1% attack damage for every 15 point of agility
+reduce Base attack time by 0.01 for every 20 agility
 
 
 Intelligence
 mana 10
-mana-regeneration 0.05
-spell amp 1% for every 10 point of intelligence
-every 6 point will increase mana regeneration bonus by 1%
+mana-regeneration 0.04
+1% spellamp for every 10 point of intelligence
+every 6 points will increase mana regeneration bonus by 1%
 
-DIVINE STATS after one stats got at least 15,19,23,27 base agi,int,str you can spend a Divine Stats into it gaining new bonus
-these divine stats can be only be gain every level 10,20,30,40 of base stats having a total of 4 to spend.
+DIVINE STATS after one stats got at least 15,20,25,30 base agi,int,str you can spend a Divine Stats into it gaining new bonus
+these divine stats can be only be gain every level 10,20,30,40 of base stats having a total of 4 to spend. the spell crit chance increase
+wont have any effect if the crit chance is under 10%
 
 DIVINE Strenght
-armor 2
-magic resist 3%
-life 3%
-gain 2% root, stun and blind resist
+health 6%
+mana 2%
+armor 3
+magic resist 5%
+health regeneration 0.11%
 
 DIVINE Agility
-increase items critical chance by 1% if it only physical spells crit
-attackspeed 12
-evasion 2%
+increase items and spells critical chance by 1% if it only physical spells crit
+health 3%
+mana 3%
+attackspeed 22
+evasion 3%
 
 DIVINE Intelligence
-increase items critical chance by 1% if it only magical spells crit 
-spell amp 3%
-mana 5%
+increase items critical chance by 1% if it only magical spells crit
+mana 6%
+health 2%
+spell amp 7%
+Mana regeneration 0.33%
 
 -NOTE- if people have crit spell or crit physical the % chance will stack on it meaning the 1% will go on a 10% and have a crit
 for a total of 11% doesnt work if the crit chance is under 10%
