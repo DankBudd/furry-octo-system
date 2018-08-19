@@ -63,13 +63,13 @@ for every level of Esharad. Abyssal Hand will cost less mana if the target lost 
 if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration. Also increase
 Inteillgence and Spellamp for every point in Abbysal Hand
 
-Base damage 24 plus 26% of inteillgence
+Base damage 24+26% of inteillgence
 Root duration 1.70
 Magic resist lost 15%
 Total Manacost reduce 30%
 Health Threshold 20%
-Bonus Inteillgence 2 5 8 11 14 17 20
-Bonus Spellamp 3.2% 6% 8.6% 12% 15.8% 19.7% 23%
+Bonus Inteillgence 7 11 16 22 26 31 40
+Bonus Spellamp 4.1% 7.5% 9.3% 12.7% 17.9% 21.7% 25%
 coldown 20
 manacost 115
 
@@ -82,10 +82,10 @@ increase mana cost by 90
 
 add a new modifier Hand of Despair
 Enemys will have 50% chance to feel Despair in their souls dealing 10 plus 25% of Esharad inteillgence every 0.5 seconds for 3.0 seconds
-and every tick of damage will have 12% chance to reduce the target armor by 3, magic resist by 6% and increasing pure damage taken by 3%
-that last 6.5 seconds. increase the duration of Hand of Dispair by 0.1 seconds for every 4 inteillgence. Esharad will gain a stack of
-Despair if the target dies under Hand of Despair, each stacks will give 12 mana and 1 inteillgence max of 20. At 8 stacks, Hand of
-Despair will gain 0.5 duration and every 0.2 seconds the target will suffer -0.07 health regeneration that last 1.6 seconds and refresh
+and every tick of damage will have 12% chance to reduce the target armor by 3, magic resist by 4% and increasing pure damage taken by 5%
+that last 6.5 seconds. increase the duration of Hand of Dispair by 0.1 seconds for every 6 inteillgence. Esharad will gain a stack of
+Despair if the target dies under Hand of Despair, each stacks will give 22 mana and 1 inteillgence max of 20. At 8 stacks, Hand of
+Despair will gain 0.5 duration and every 0.2 seconds the target will suffer -0.07 health regeneration that last 3.6 seconds and refresh
 every tick of Health regeneration lost. at 15 stacks, Abbysal Hand will gain 0.80 root duration and increase the health threshold by 15%
 and also reduce its coldown by 5. 7 stacks are lost on death and 1 stack is lost upon getting silence.
 
@@ -95,20 +95,20 @@ Esharad Gaze upon his target enemy or allys. Enemys will take medium amount of d
 value, they cannot increase it but can be lower. Enemys will also suffer from health and mana regeneration lost for a short time and
 Esharad will gain that health and mana regeneration they lose. Gazing into a ally will give them increase attack damage and spellamp for
 4.5 seconds and reducing Fearing Gaze coldown by 40%. Fearing Gaze will also have 16% chance to fear the target for 1.3 seconds and
-dealing 5 10 15 20 25 30 35 extra base damage as well. this spell will gain 2.1% increase damage and 4.3% manacost increase for every
+dealing 3 6 9 12 15 18 21 extra base damage as well. this spell will gain 2.8% increase damage and 4.3% manacost increase for every
 level of Esharad. Also increase Mana and Mana regeneration. Esharad cannot self cast Fearing Gaze and allys can also be fear but will
 not take the extra damage.
 
-base damage 14 plus 18% of inteillgence
-Health regeneration lost -6.0 plus 10% of Inteillgence
-Mana regeneration lost -3.0 plus 15% of inteillgence
+base damage 14+18% of inteillgence
+Health regeneration lost -6.0+10% of Inteillgence
+Mana regeneration lost -3.0+15% of inteillgence
 Base magic resist reduce -13%
 debuff duration 4.5 seconds
 Attack damage increase 22%
 Spellamp increase 11%
 Bonus Mana 4% 7% 11% 15% 19% 24% 30%
 Bonus Mana regeneration 1.3 1.9 2.4 3.3 4.5 5.9 7.5
-coldown 16
+coldown 14
 mana cost 55
 
 talent level 10 Upgrade Fearing Gaze
@@ -138,8 +138,8 @@ and also having a small chance to give the lost mana from the target to Esharad 
 it will deal 40% increase damage to target that have less than -20% magic resist and above. this spell will gain 1.7% increase damage and
 8.4% manacost increase for every level of Esharad. Also increase Health and also giving coldown reduction as well.
 
-Base Damage 15 plus 20% of inteillgence
-base Mana burn 20 plus 6% of Inteillgence
+Base Damage 10+10% of inteillgence
+base Mana burn 15+20% of Inteillgence
 Mana Restore Chance 7% 8% 9% 10% 11% 12% 13%
 Bonus Health 65 150 230 310 420 545 685
 Bonus Coldown Reduction 3% 5% 7% 9% 11% 13% 15%
