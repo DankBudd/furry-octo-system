@@ -9,7 +9,8 @@ Small Lore -- Brother of Esharad and betrayed of Armageddon the Chaos Lord, Esha
 fellow commander with Esharad. 
 
 -Note for his 3 basic spells, they will have 7 levels only having 1 level in total, the other levels will give passive stats for him and
-buffing those spells slightly. his spells will gain increase damage base on Eshalurd level.
+buffing those spells slightly. his spells will gain increase damage base on Eshalurd level. Eshalurd will have 15 points to put in his
+3 basic spells, his passive and ult will unlock when he reach the level needed
 
 talent level 30
 
@@ -63,17 +64,17 @@ and also his max total health. Also increase Eshalurd Strenght and Attack speed 
 lost will last 5 seconds.
 
 Base damage 20 plus 12% of Agility and Strenght
-Health Threshold damage bonus 7 10 13 16 19 22 25
+Health Threshold damage bonus 7 9 11 13 15 17 19
 Health restore (Base on DMG) 20%
 Health restore (base on max Health) 1.5%
-Strenght bonus 4 6 9 12 16 20 25
-Attack speed Bonus 6 13 19 26 33 41 56
+Strenght bonus 3 7 14 21 28 33 40
+Attack speed Bonus 11 27 40 58 77 92 115
 coldown 11
 mana cost 90
 
 talent level 10 Upgrade Dooming Slash
 increase base damage by 8
-increase scaling by 4%
+increase scaling damage by 4%
 increase Health restore (Base on DMG) by 12%
 Increase Health restore (base on max Health) by 1.2%
 reduce mana cost by 15
@@ -81,10 +82,10 @@ reduce mana cost by 15
 add a new Modifier Seven Hell Strike
 Dooming Slash will bounce after striking its target, bouncing 7 time dealing 45% less damage for those 7 strike and they will heal him
 as well (only the Health restore Base on DMG) and if it kill the target they Bounce on, reset the number of Bounce to 7 again and
-increase the bounce damage by 15% (can proc without limits). Eshalurd will gain 1 stack of Doomed Slash every time it bounce 4 time
+increase the bounce damage by 25% (can proc without limits). Eshalurd will gain 1 stack of Doomed Slash every time it bounce 4 time
 and every stacks will increase the base damage of Dooming Slash by 1, at 3 stacks, increase Dooming Slash cast range by 145 and reduce
-its mana cost by 15, at 7 stacks, increase Eshalurd attack range by 75 and his attack damage by 14, at 11 stacks, increase the Health
-Restore base on Max health by 0.7% and reduce its coldown by 2. Max stacks of 13 and 2 stacks are lost upon losing 17% max health in
+its mana cost by 25, at 5 stacks, increase Eshalurd attack range by 95 and his attack damage by 27, at 8 stacks, increase the Health
+Restore base on Max health by 1.3% and reduce its coldown by 4. Max stacks of 10 and 2 stacks are lost upon losing 17% max health in
 one hit and 5 stacks are lost on death.
 
 
@@ -95,17 +96,17 @@ by 22% for the same duration of the magic resist lost. LVL? Death will gain bonu
 cost per levels of Eshalurd. Also increase Eshalurd Agility and Health for every points spend in LVL? Death.
 
 base damage 30 plus 20% of Agility and Strenght
-Increase damage (base on Eshalurd LVL) 2.5%
-Increase damage (base on the target LVL) 3.7%
+Increase damage (base on Eshalurd LVL) 3.5%
+Increase damage (base on the target LVL) 2.7%
 Debuff duration 4.5 4.7 4.9 5.1 5.3 5.5 5.7 seconds
-Agility bonus 4 6 9 12 16 20 25
-Health bonus 3% 5% 7% 9% 11% 13% 15%
+Agility bonus 3 7 14 21 28 33 40
+Health bonus 2% 5% 8% 11% 14% 17% 20%
 coldown 17
 Mana cost 125
 
 Talent Level 10 Upgrade LVL? Death
 increase base damage by 5
-increase scaling by 15%
+increase scaling by 10%
 Increase damage (base on Eshalurd LVL) by 0.9%
 Increase damage (base on the target LVL) by 0.5%
 reduce coldown by 3
@@ -127,11 +128,11 @@ and STR. This spell will gain 4% increase damage and 1.7% manacost increase for 
 seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
 
 base damage 9 plus 5% of Agility and Strenght
-health regeneration 4.5 plus 15% of Agility and Strenght
+health regeneration 4.5 plus 11% of Agility and Strenght
 duration 9.0 9.3 9.6 9.9 10.2 10.5 10.8
-radius 400 425 450 475 500 525 550
-Inteillgence bonus 5 8 11 16 21 28 35
-Mana Regeneration bonus 0.7 1.1 1.6 2.2 2.7 3.8 5.1
+radius 400 410 420 430 440 450 460
+Inteillgence bonus 7 14 22 29 36 41 50
+Mana Regeneration bonus 0.7 1.5 2.6 3.2 5.7 7.8 9.1
 coldown 35
 mana cost 175
 
@@ -158,10 +159,10 @@ Eshalurd (600 radius) will give him flat health and also empower his 3 basic spe
 and also reducing his 3 basic spell mana cost as well, Eshalurd will gain 11% movespeed for 4.5 seconds after casting a spells or item
 effect and also reduce the coldown of items by 10% 15% 20% 25%. Each 15 seconds, Eshalurd next spell will have 12% total mana cost reduce
 and have 8% 16% 24% 32% bonus damage (can be toggle on and off).Each stack of health gain will have their own duration of 40 50 60 70
-seconds.
+seconds. DoomBringer will be active at level 3 and will upgrade at level 9 17 25.
 
 Bonus AGI and STR 4% 6% 8% 10%
-Health regeneration base on AGI and Int 9% 11% 13% 15%
+Health regeneration base on AGI and Int 9% 10% 11% 12%
 Health gain 7 18 29 40 plus 25% of Strenght and Agility
 Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.3% 0.5% 0.7%
 Reduce Mana Cost (base on Eshalurd LVL) 0.17% 0.23% 0.27% 0.33%
