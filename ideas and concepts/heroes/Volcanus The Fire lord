@@ -202,14 +202,14 @@ seconds and will deal Pure damage on the burn and explosion. Incinerate will gai
 Explosion. Incinerate will also reduce the target healing sources by 15%.
 
 Attributes bonus 7% 8% 9% 10%
-Incinerate base burn damage 12% 16% 20% 24% of int
+Incinerate base burn damage 4% 8% 12% 16% of int
 Incinerate bonus burn damage per stacks 1% of int
 Incinerate max stacks 8 12 16 20
 Incinerate explosion damage 10 15 20 25 plus 65% of inteillgence
 base explosion radius 240 260 280 300
 
 talent level 20 upgrade Incinerate
-Increase base burn scaling by 10%
+Increase base burn scaling by 4%
 increase Incinerate burn stacks by 5
 increase Incinerate explosion base damage by 10
 
@@ -231,7 +231,7 @@ move for the duration. Volcanus will also Empower his 3 basic spells also reduci
 Soul Burn will be a 450 area of effect instead of being a single target and also having bonus damage, Lava Wave will gain insane bonus
 damage and will become pure damage and the Burn will make enemys take extra Pure damage instead, Volcano will no longer be a Channeling
 spells for the duration of Fire Rage and having more Lava Balls. Volcanus will gain 325 attack range with Sulfuras while in Fire Rage.
-Incinerate will gain 10% 15% 20% increase total radius and will also have 8% 16% 24% base burn scalling increase for the duration of
+Incinerate will gain 10% 15% 20% increase total radius and will also have 6% 12% 18% base burn scalling increase for the duration of
 Fire Rage
 
 bonus health 25% 35% 45%
@@ -273,7 +273,7 @@ increase agility gain by 0.2 every level and also increase agility by 5, Volcanu
 4 Agility and also increase its base damage by 5
 -
 increase inteillgence gain by 0.2 every level and also increase inteillgence by 5, Incinerate will gain 2 max stacks and the base burn
-will gain 8% scaling bonus.
+will gain 4% scaling bonus.
 -
 increase STR,AGI,INT gain by 0.1 every level and also increase all stats by 3, Volcanus will also gain 2% increase in all stats and
 reduce Pure damage taken by 10%, he also gain 5% coldown reduction
@@ -294,7 +294,7 @@ Volcanus can levelup his Fire Rage before level 9 but increase its mana cost by 
 level 7 talent
 -
 Increase Lava Wave base damage by 10 and its scaling by 5%, Lava Wave will deal 1% increase damage per stack of Incinerate the enemys
-got on them, also increase the max stack of Incinerate burn by 2 and increase Incinerate base burn damage by 4%
+got on them, also increase the max stack of Incinerate burn by 2 and increase Incinerate base burn damage by 2%
 -
 Volcanus will gain 8% increase health and 110 mana, each enemys affected by Incinerate will increase Volcanus health and mana regeneration
 by 0.6, Volcanus cannot be lifesteal or spellvamp by enemys and increase all healing source done by allys by 10%.
@@ -339,7 +339,7 @@ regeneration will be 0.5% since he is not channeling it)
 -
 Increase all Magical Output damage by 25% and Pure Output damage by 10% but Volcanus will no longet be able to deal Physical damage at
 all, Volcanus will increase the Attributes gain from Incinerate by 4% and it will give 2 Inteillgence per Incinerate on his targets.
-further increase the inteillgence to 4 per target affected by Incinerate while in Fire Rage.
+further increase the inteillgence to 5 per target affected by Incinerate while in Fire Rage.
 -
 Incinerate will become a 850 Aura around Volcanus giving enemys 1 stack of Incinerate every 1.5 seconds. Incinerate will also burn 2.5
 mana every seconds off the enemys and Volcanus will steal that mana, gaining it for himself and reduce the mana cost of spells by 30%
@@ -415,7 +415,7 @@ increase Agility, Strenght and Inteillgence by 12 and also increase life gain fr
 and spell amp gain from inteillgence by 0.5%, Volcanus will increase the inteillgence scaling on his 3 basic spells by 5% and his
 Incinerate scaling by 20% (for the explosion damage), they also mana Leech for 8% of the damage dealt as well.
 -
-increase the max stack of Incinerate by 6 and the base burn damage by 12%, Incinerate will do 3 Explosion when the target dies under
+increase the max stack of Incinerate by 6 and the base burn damage by 8%, Incinerate will do 3 Explosion when the target dies under
 Incinerate its self, those 3 Explosions will have 40% of the total radius and 55% of the total damage as well, the Explosion will trigger
 after 1.2 seconds of delay. There is a 12% chance that there will be 4 Explosion instead and that 4 Explosion will do 140% of the total
 damage of Incinerate and have 120% of the explosion radius as well, that Explosion will make nearby enemys that get hit by it take 20%
