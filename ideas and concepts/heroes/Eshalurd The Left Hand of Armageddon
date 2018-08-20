@@ -162,7 +162,7 @@ and have 8% 16% 24% 32% bonus damage (can be toggle on and off).Each stack of he
 seconds. DoomBringer will be active at level 3 and will upgrade at level 9 17 25.
 
 Bonus AGI and STR 4% 6% 8% 10%
-Health regeneration base on AGI and Int 9% 10% 11% 12%
+Health regeneration base on AGI and Int 8% 10% 12% 14%
 Health gain 7 18 29 40+25% of Strenght and Agility
 Increase SpellAmp (base on Eshalurd LVL) 0.15% 0.35% 0.55% 0.75%
 Reduce Mana Cost (base on Eshalurd LVL) 0.17% 0.27% 0.37% 0.47%
@@ -176,6 +176,18 @@ increase health gain by 27
 further reduce dooming slash coldown by 1.0
 further reduce base mana cost of LVL? Death by 20
 increase the health regeneration from Doom Flames by 4.7
+
+add a new modifier Demon Lord
+Eshalurd will gain 0.07% health and mana regeneration for every enemys in a 750 radius around him and also giving 3% spellamp and attack
+damage when they die as well for 25 seconds, each stacks got their own durations. If Eshalurd is under Doom Flames he will increase
+Dooming Slash damage by 50% and LVL? Death by 35% for its duration and also making them spellvamp for 15% of the damage dealt. Eshalurd
+will gain a stack of Demonology for every enemys that die around him, each stack will give 0.17 health regeneration and 3 health max of
+100 stacks. At 25 stacks, Eshalurd will gain 8% health and increase the bonus Agility and Strenght from DoomBringer by 3%. At 55 stacks,
+Eshalurd will gain a 10% spellvamp with 5% spellamp and attack damage aura for him and his allys in a 900 radius and also increase the
+spellamp gain per level by 0.10%. At 85 stacks, increase the health regeneration bonus scaling by 6% from DoomBringer and increase
+Eshalurd Size by 35%, gaining 15% status resistence and 10% damage reduction. All stacks are lost on Death.
+
+
 
 
 level 1 talent
