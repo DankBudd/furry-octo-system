@@ -63,7 +63,7 @@ gain 6% increase damage and 2.1% manacost increase for every level of Eshalurd. 
 and also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. the debuff armor
 lost will last 5 seconds.
 
-Base damage 20 plus 12% of Agility and Strenght
+Base damage 20+10% of Agility and Strenght
 Health Threshold damage bonus 7 9 11 13 15 17 19
 Health restore (Base on DMG) 20%
 Health restore (base on max Health) 1.5%
@@ -73,8 +73,8 @@ coldown 11
 mana cost 90
 
 talent level 10 Upgrade Dooming Slash
-increase base damage by 8
-increase scaling damage by 4%
+increase base damage by 6
+increase scaling damage by 3%
 increase Health restore (Base on DMG) by 12%
 Increase Health restore (base on max Health) by 1.2%
 reduce mana cost by 15
@@ -95,7 +95,7 @@ amount of their total levels. Also reduce their Magical resistence by 1% for eve
 by 22% for the same duration of the magic resist lost. LVL? Death will gain bonus damage per levels but will gain 5.2% increase mana
 cost per levels of Eshalurd. Also increase Eshalurd Agility and Health for every points spend in LVL? Death.
 
-base damage 30 plus 20% of Agility and Strenght
+base damage 30+12% of Agility and Strenght
 Increase damage (base on Eshalurd LVL) 3.5%
 Increase damage (base on the target LVL) 2.7%
 Debuff duration 4.5 4.7 4.9 5.1 5.3 5.5 5.7 seconds
@@ -127,8 +127,8 @@ of damage taken. Eshalurd will also gain 0.2% health regeneration with a base he
 and STR. This spell will gain 4% increase damage and 1.7% manacost increase for every level of Eshalurd. The armor debuff will last 3.5
 seconds after leaving Doom Flames radius. Also increase Eshalurd Inteillgence and Mana Regeneration for every points in Doom Flames
 
-base damage 9 plus 5% of Agility and Strenght
-health regeneration 4.5 plus 11% of Agility and Strenght
+base damage 6 plus 4%+Agility and Strenght
+health regeneration 4.5+11% of Agility and Strenght
 duration 9.0 9.3 9.6 9.9 10.2 10.5 10.8
 radius 400 410 420 430 440 450 460
 Inteillgence bonus 7 14 22 29 36 41 50
@@ -163,14 +163,19 @@ seconds. DoomBringer will be active at level 3 and will upgrade at level 9 17 25
 
 Bonus AGI and STR 4% 6% 8% 10%
 Health regeneration base on AGI and Int 9% 10% 11% 12%
-Health gain 7 18 29 40 plus 25% of Strenght and Agility
-Increase SpellAmp (base on Eshalurd LVL) 0.1% 0.3% 0.5% 0.7%
-Reduce Mana Cost (base on Eshalurd LVL) 0.17% 0.23% 0.27% 0.33%
+Health gain 7 18 29 40+25% of Strenght and Agility
+Increase SpellAmp (base on Eshalurd LVL) 0.15% 0.35% 0.55% 0.75%
+Reduce Mana Cost (base on Eshalurd LVL) 0.17% 0.27% 0.37% 0.47%
 Reduce Dooming Slash coldown by 1.5 2.0 2.5 3.0
 Reduce Base mana cost of LVL? Death by 15 30 45 60
 Increase Doom Flames health regeneration by 1.5 3.2 4.9 6.7
 
 Talent level 20 Upgrade DoomBringer
+increase bonus AGI and STR by 5%
+increase health gain by 27
+further reduce dooming slash coldown by 1.0
+further reduce base mana cost of LVL? Death by 20
+increase the health regeneration from Doom Flames by 4.7
 
 
 level 1 talent
