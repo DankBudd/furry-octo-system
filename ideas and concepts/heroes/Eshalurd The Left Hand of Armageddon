@@ -10,7 +10,8 @@ fellow commander with Esharad.
 
 -Note for his 3 basic spells, they will have 7 levels only having 1 level in total, the other levels will give passive stats for him and
 buffing those spells slightly. his spells will gain increase damage base on Eshalurd level. Eshalurd will have 15 points to put in his
-3 basic spells, his passive and ult will unlock when he reach the level needed
+3 basic spells, his passive and ult will unlock when he reach the level needed. he will gain a level point at level 3 6 9 12 15 18 21
+24 27 30 32 34 36 38 40
 
 talent level 30
 
@@ -59,7 +60,7 @@ same game.
 SPELL Q Dooming Slash - Physical -
 deal high amount of damage to a single target, breaking the target armor to -3 -4 -5 -6 -7 -8 -9 and cannot be increase but can be
 lowered. If the target is below 20% health, Dooming Slash will deal increase damage and have no coldown on those target. this spell will
-gain 6% increase damage and 2.1% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage
+gain 5% increase damage and 2.1% manacost increase for every level of Eshalurd. Also restore some health to Eshalurd base on the damage
 and also his max total health. Also increase Eshalurd Strenght and Attack speed for every point spend in Dooming Slash. the debuff armor
 lost will last 5 seconds.
 
@@ -138,7 +139,7 @@ mana cost 175
 
 talent level 20 upgrade Doom Flames
 increase base damage by 2
-increase damage scaling by 3%
+increase damage scaling by 1%
 increase base health regeneration by 4.5
 increase base radius by 125
 reduce coldown by 5
@@ -181,25 +182,32 @@ add a new modifier Demon Lord
 Eshalurd will gain 0.07% health and mana regeneration for every enemys in a 750 radius around him and also giving 3% spellamp and attack
 damage when they die as well for 25 seconds, each stacks got their own durations. If Eshalurd is under Doom Flames he will increase
 Dooming Slash damage by 50% and LVL? Death by 35% for its duration and also making them spellvamp for 15% of the damage dealt. Eshalurd
-will gain a stack of Demonology for every enemys that die around him, each stack will give 0.17 health regeneration and 3 health max of
-100 stacks. At 25 stacks, Eshalurd will gain 8% health and increase the bonus Agility and Strenght from DoomBringer by 3%. At 55 stacks,
+will gain a stack of Demonology for every enemys that die around him, each stack will give 0.04 health regeneration and 1 health max of
+500 stacks. At 70 stacks, Eshalurd will gain 8% health and increase the bonus Agility and Strenght from DoomBringer by 3%. At 205 stacks,
 Eshalurd will gain a 10% spellvamp with 5% spellamp and attack damage aura for him and his allys in a 900 radius and also increase the
-spellamp gain per level by 0.10%. At 85 stacks, increase the health regeneration bonus scaling by 6% from DoomBringer and increase
+spellamp gain per level by 0.10%. At 390 stacks, increase the health regeneration bonus scaling by 6% from DoomBringer and increase
 Eshalurd Size by 35%, gaining 15% status resistence and 10% damage reduction. All stacks are lost on Death.
+
 
 
 
 
 level 1 talent
 -
-increase Strenght gain by 0.2 every level and also increase strenght by 4
+increase Strenght gain by 0.2 every level and also increase strenght by 6, Dooming Slash will gain 3 bonus base damage and increase its
+cast range by 225% of Strenght. Dooming Slash will also have 10% total mana cost reduce when Eshalurd is under Doom Flames.
 -
-increase Agility gain by 0.2 every level and also increase agility by 4
+increase Agility gain by 0.2 every level and also increase agility by 6, LVL? Death will gain 4 bonus base damage and increase its
+scaling agility and strenght by 2%. LVL? Death will gain 250 cast range bonus and 25% bonus damage when Eshalurd is under Doom Flames.
 -
-Increase Agility and Strenght Gain by 0.1 every level and also increase Agility and Strenght by 2
+Increase Agility and Strenght Gain by 0.1 every level and also increase Agility and Strenght by 3, Doom Flames will gain 1 base damage
+bonus with 50 bonus radius. Doom Flames will also gain 15% of Ehalurd strenght and agility for its radius and reduce its mana cost by
+25.
 -
-Increase Inteillgence gain by 0.4 every level and also increase Inteillgence by 6, but reduce his Agility and Strenght by 4 and also
-increase his Inteillgence by 3% and increase Doom Flames damage by 8% of Eshalurd Inteillgence and reduce its coldown by 1.
+Increase Inteillgence gain by 0.4 every level and also increase Inteillgence by 3, Eshalurd will reduce the coldown of his basic spells
+by 1.0 seconds and also reducing their total mana cost by 15%. Doom Flames will gain 5% of Eshalurd inteillgence for its base damage,
+Dooming slash and LVL? Death will gain 12% of Eshalurd Inteillgence for their base damage. also increase mana regeneration by 2.5.
+
 -
 level 4 talent
 -
