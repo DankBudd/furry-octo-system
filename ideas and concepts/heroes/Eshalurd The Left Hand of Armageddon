@@ -329,9 +329,11 @@ increase armor by 5 and magic resist by 10% increase this bonus by 3 bonus armor
 -
 level 30 talent
 -
-talent offensive
+talent spell damage and defensive
 -
-talent defensive
+talent attack damage and defensive
+-
+talent spells powerup
 -
 level 33 talent
 -
