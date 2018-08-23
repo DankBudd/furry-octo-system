@@ -1,8 +1,8 @@
                                                Eshalurd The Left Hand of Armageddon
-Starting stats 5 strenght, 5 agility, 10 inteillgence, Stats gain per level, 0.80 Strenght, 0.80 Agility, 1.00 Inteillgence.
+Starting stats 5 strenght, 5 agility, 10 inteillgence, Stats gain per level, 0.70 Strenght, 0.70 Agility, 1.00 Inteillgence.
 Base movespeed 300, Base attack damage 3-9, Base Regeneration Health 0.4, Base Regeneration Mana 0.7.
 
-total base stats at level 40 - 37 Strenght - 37 Agility - 50 Inteillgence -
+total base stats at level 40 - 33 Strenght - 33 Agility - 50 Inteillgence -
 Doom model
 
 Small Lore -- Brother of Esharad and betrayed of Armageddon the Chaos Lord, Eshalurd now follow his new Chaos Lord Mongrethod as his
@@ -47,11 +47,11 @@ talent level 40 upgrade Abbysal Warrior
 
 
 -------
-Left Hand of Eshadur Special Glove coldown 70 mana cost 10% of max
+Left Hand of Eshadur Special Glove
 increase attack speed by 10, increase by 2 every levels
-increase Attack damage by 2, increase by 1 every 4 levels
+increase Attack damage by 2, increase by 1 every 3 levels
 increase armor by 1, increase by 1 every 5 levels
-Eshalurd will gain 45 attack speed for 2.5 seconds after casting a spell and he will double this buff bonus and duration if he kill
+Eshalurd will gain 45 attack speed for 1.5 seconds after casting a spell and he will double this buff bonus and duration if he kill
 any enemys.
 Eshalurd will gain 8% attack damage, 4% damage reduction, 0.14% health regeneration and 8% mana When Esharad and Eshalurd are in the
 same game.
