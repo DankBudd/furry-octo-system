@@ -106,10 +106,10 @@ of Crits, Also remove Death Blow mana cost and reducing its coldown by 4.
 
 
 SPELL E
-Blood Wound - Physical -
-Sven sharpen his sword making it have a more clean cut making enemys lose blood to death dealing damage every 1.0 second and lowering 
-armor. Sven also gain 8 attack speed for every hit on the target affected by Blood Wound and also increase the armor lost by 0.4 0.5 0.6
-0.7 for every 3% health lost durring Blood Wound duration. Does damage every 1.0 seconds.
+Blood Wound/BloodLost - Physical -
+Sven sharpen his sword making it have a more clean cut, making enemys lose blood to their death dealing damage every 1.0 second and
+lowering armor. Sven will also gain 8 attack speed for every hit on the target affected by Blood Wound and also increase the armor lost
+by 0.4 0.5 0.6 0.7 for every 3% health lost durring Blood Wound duration. Does damage every 1.0 seconds.
 
 base damage 7 9 11 13+5% 7% 9% 11% of sven strenght
 base armor loss 4 5 6 7
@@ -228,8 +228,8 @@ Increase DeathBlow Strenght scaling by 10% and its Spellvamp bonus by 20%, Sven 
 regeneration after casting DeathBlow for 5 seconds. he will double the bonus regeneration if he kill something and it will last 7 second
 instead. (does stack together). Double the regeneration buff bonus at level 15 and further double it again at level 40.
 -
-after Sven cast any spell he will gain 35 attack speed, 12% bonus damage and 55 movespeed for 2.5 seconds, when this bonus is not
-active sven will gain instead 10 attack speed 4% bonus damage and 20 movespeed, also increase his mana by 75 and agility by 4, BloodLust
+after Sven cast any spell he will gain 55 attack speed, 12% bonus damage and 40 movespeed for 2.5 seconds, when this bonus is not
+active sven will gain instead 15 attack speed 4% bonus damage and 10 movespeed, also increase his mana by 75 and agility by 4, BloodLust
 will increase the bonus he gain by 1.5 seconds for a total of 4 seconds but increase BloodLust coldown by 2.
 -
 level 10 talent
@@ -252,12 +252,12 @@ Increase the bonus damage from Titan Rage by 10% and the Base damage recive by 2
 35 plus 20% of his Strenght, Sven will also gain 25% roots resist in Titan Rage. BloodLust will gain 11 bonus damage and 45 movespeed
 bonus when Sven is in Titan Rage.
 -
-Increase Blood Wound base damage by 5 and increase its duration by 4 seconds, Enemys Affected by Blood Wound will heal allys and sven
+Increase Blood Wound base damage by 3 and increase its duration by 5 seconds, Enemys Affected by Blood Wound will heal allys and sven
 by 18% of the damage dealt to them by anything for the duration, also increase Sven spell amp by 16% and Health regeneration by 7.5
 -
 increase attack damage by 8% and attack speed by 25, increase Blood Wound attack speed cap by 40 and its duration by 1 seconds, Blood
 Wound cannot be purge by any means. If Sven reachs the max attack speed cap on Blood Wound he will further increase the duration of
-Blood Wound on the target by 3.5 seconds and he also gain 25% movespeed and Phase for 4 seconds. Also increase Sven movespeed by 25 and
+Blood Wound on the target by 2.0 seconds and he also gain 25% movespeed and Phase for 4 seconds. Also increase Sven movespeed by 25 and
 all Stats by 7.
 -
 level 19 talent
