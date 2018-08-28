@@ -1,16 +1,15 @@
-                                                     Sven The Gladiator
-Starting stats 11 strenght, 6 agility, 3 inteillgence, Stats gain per level, 1.20 Strenght, 0.70 Agility, 0.40 Inteillgence.
+Starting stats 11 strenght, 13 agility, 5 inteillgence, Stats gain per level, 1.40 Strenght, 0.60 Agility, 0.30 Inteillgence.
 Base movespeed 315, Base attack damage 9-15, Base Regeneration Health 1.1, Base Regeneration Mana 0.7.
 
-total base stats at level 40 - 59 Strenght - 34 Agility - 19 Inteillgence -
+total base stats at level 40 - 67 Strenght - 37 Agility - 17 Inteillgence -
 
 TALENT LEVEL 30
 
 talent 1 
 increase sven max health by 12% and his armor by 5
-Sven will gain 1% damage reduction for every 7 strenght he got, UP to 15% max and increase his resist for pure damage by 25. When
-in BloodLust Sven will gain 7 armor and 15% magic resist for its duration and also reducing range attack damage taken by 10%, also
-increase Bloodlust duration by 1.0 and increase the movespeed bonus gain by 35.
+Sven will gain 1% damage reduction for every 7 strenght he got, UP to 15% max and increase his Pure resistence by 10%. When in BloodLust
+Sven will gain 7 armor and 15% magic resist for its duration and also increase Bloodlust duration by 1.0 and increase the movespeed bonus
+gain by 35. stack with the level 39 talent that make BloodLust gain armor and magic resist for its duration.
 
 
 talent 2
@@ -35,7 +34,7 @@ weapons type he also lose 0.8% of his max health for any type of magical damage 
 duration. Enemys will have 10% chance on dealing damage to deal 0.2% of Sven max health in bonus damage and also burning 0.4% of his
 max mana (the mana burn doesnt damage).
 
-level 25 talent upgrade Mighty Warrior
+level 40 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
 Sven will Increase the Cleave damage from War Gladiator by 40% and its radius by 25%. Sven will also gain 10% strenght and Agility,
 Sven will increase allys buff duration that Sven get from them by 33% and for every buff active on Sven, increase his attack damage by
@@ -118,7 +117,7 @@ Debuff duration 7 seconds
 cooldown 30 28 26 24
 mana cost 90 110 130 150 plus 1% of max mana
 
-talent level 15 upgrade Blood Wound
+talent level 20 upgrade Blood Wound
 increase base damage by 4
 increase attack speed cap by 24
 increase the duration by 1 seconds
@@ -148,7 +147,7 @@ Base Block damage 6 9 12 15
 Critical chance 12% 13% 14% 15%
 block chance 45% 50% 55% 60%
 
-talent level 15 upgrade War Gladiator
+talent level 20 upgrade War Gladiator
 increase critical base damage by 20%
 increase critical chance by 3%
 increase block chance by 10%
