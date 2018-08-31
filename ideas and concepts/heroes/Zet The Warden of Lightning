@@ -7,19 +7,11 @@ total base stats at level 40 - 40 Strenght - 40 Agility - 40 Inteillgence -
 LEVEL 30 TALENT
 
 Talent 1
-increase Zet armor by 5 and health by 8%
-Surge will give Zet 0.25% health regeneration and 0.15% mana regeneration for its buff duration, also increase Zet health regeneration
-by 0.1 for every 3 inteillgence and mana regeneration by 0.1 for every 5 strenght. Volt Shield will give Zet 15% damage reduction and
-0.75% health regeneration when the passive shield is still active on Zet, when the passive shield is down increase Zet mana regeneration
-by 0.75% and also increasing his pure resist by 30%.
+
 
 Talent 2
-Increase Zet Agility and Inteillgence by 5% and increase his spellamp by 10%
-Chain Lightning will also gain 15% of Zet inteillgence for its base damage and make it spellvamp for 10% of Zet Agility and Inteillgence.
-Surge will give allys it bonus attack damage and spellamp to them and Zet will double the bonus for him self but reduce its duration by
-50% when cast on Zet. Chain Lightning will also give Zet 2 Mana for every kill it get up to 250 max stacks. At 75 stacks, increase Zet
-mana by 6% and reduce chain lighting mana cost by 12%. At 150 stacks, increase chain lighting base damage by 6 and reduce its coldown by
-3. 75 stacks are lost on death.
+
+
 
 PASSIVE D OR F Lightning Warden
 Give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
@@ -35,13 +27,13 @@ refresh every time Zet takes Pure damage Source. He cannot use weapons, instead 
 -20% magic resist if he is under 20% of his health.
 
 
-Boots of Balence Special item coldown 90
-increase all stats by 2 increase by 1 every 3 level
+Boots of Balence Special item coldown 115
+increase all stats by 3 increase by 1 every 3 level
 increase movement speed by 25 FLAT increase by 1 every level
 increase health gain from strenght by 2 and mana gain from inteillgence by 4
 Agility and Inteillgence will give Zet 2 life per points.
 Agility and Strenght will give Zet 4 Mana per points.
-Can be use to increase Zet stats by 30% for 10 seconds.
+Can be use to increase Zet stats by 40% and also increasing his movespeed by 12% for 15 seconds.
 
 talent level 40 upgrade Lightning God
 add a new modifier Mana Lightning
@@ -54,29 +46,28 @@ after the duration end of the debuff Zet will gain 18% mana back.
 SPELL Q
 Chain Lightning
 Zet will Channel for 0.7 seconds unleashing a insane Arc Lightning that will bounce and dealing high Physical damage to nearby enemys.
-Chain Lighting will have 15% chance to reduce the target armor by 4 7 10 13 for 6.5 seconds and it will also have 10% chance to break
-them and reduce their armor to -2 -4 -6 -8, they cannot increase their armor for the duration but it can be lower further by other debuff
-and it also got a very small chance of 5% to Lightning Break them, Unable to attack, cast spell and mana regeneration over the duration.
-All of these effect can proc all in one making a strong debuff that cant be purge by any means. The Break Effect will disable Health
-Regeneration and Passive of the target. Each bounce will have its own chance to proc the effect of Chain Lightning. Chain Lightning
-will also have Spellvamp and will reduce the target healing source and regeneration as well. The Chain Lighting Bounce search is 440
-radius
+Chain Lighting will have 20% chance to reduce the target armor by 4 7 10 13 and it will also have 15% chance to break them and reduce
+their armor to -2 -4 -6 -8, they cannot increase their armor for the duration but it can be lower further by other debuff and it also
+got a very small chance of 7% to Lightning Break them, Unable to attack, cast spell and mana regeneration over the duration. All of
+these effect can proc all in one making a strong debuff that cant be purge by any means. The Break Effect will disable Passive of the
+target. Each bounce will have its own chance to proc the effect of Chain Lightning. Chain Lightning will also have Spellvamp and will
+reduce the target healing source and regeneration as well. The Chain Lighting Bounce search is 440 radius
 
-Base damage 14 28 42 56+25% 30% 35% 40% of Agility
+Base damage 14 28 42 56+22% 30% 38% 46% of Agility
 Spellvamp 8% 14% 20% 26%
-Healing Source reduction 9% 14% 19% 24%
-debuff duration 3.5 4.0 4.5 5.0
+Healing Source reduction 9% 13% 17% 21%
+debuffs duration 3.2 4.4 5.6 6.8
 Chain Bounce 2 3 4 5
-mana cost 50 90 130 170 plus 2% of max mana
-coldown 20 18 16 14
+mana cost 45 105 165 225 plus 3% of max mana
+coldown 20 17 14 11
 
 
 talent level 10 upgrade lightning arc
-increase base damage by 14
-increase scaling damage by 10%
-increase healing source reduction by 7%
+increase base damage by 17
+increase scaling damage by 7%
+increase healing source reduction by 4%
 increase chain bounce by 1
-reduce debuff duration by 1.0 seconds
+reduce debuff duration by 1.3 seconds
 remove max mana cost
 
 add a new modifier Lightning Field
@@ -85,7 +76,7 @@ Physical damage and its radius is 75+125% of Zet Agility. Enemys inside of the L
 damage from Lightning Field every time they take damage from it without limit and also taking 1% increase damage from Chain Lightning
 as well. the debuff duration will last 1.5 seconds and will refresh upon taking Lightning Field damage or Chain Lightning damage. every
 7 Lightning Field Created will increase Zet Agility by 1 and his health by 17 max of 14 stacks. At max stack Chain Lightning will gain 2
-more bounce and increase its bounce distence by 375 and also reducing the coldown by 5. 50% of stacks are lost on death
+more bounce and increase its bounce distence by 375 and also reducing the coldown by 4. 50% of stacks are lost on death
 
 SPELL W Surge
 Zet heals the target ally restoring their health and mana, Zet will not gain any mana but instead he will gain bonus attack damage with
@@ -93,37 +84,37 @@ Spellamp for a long duration. Allys and Zet will gain a buff that will further i
 healing amp bonus if the target has any healing amp effect on them. Also increase Zet or his allys movespeed for 2.5 seconds duration
 when they have any healing amp on them. the buff duration will have 50% reduction on allys.
 
-Base Heal 35 50 65 80+25% 30% 35% 40% of Inteillgence
-Base Mana Restore 40 60 80 100+10% 14% 18% 22% of Inteillgence
+Base Heal 35 50 65 80+25% 31% 37% 43% of Inteillgence
+Base Mana Restore 40 55 70 85+7% 14% 21% 28% of Inteillgence
 healing effect Increase 12% 20% 28% 36%
 Spellamp bonus 6% 10% 14% 18%
 Attack damage bonus 12 16 20 24
 Movespeed bonus 15% 25% 35% 45%
 buff duration 6 8 10 12 seconds
 mana cost 50 150 250 350 plus 3% of max mana
-coldown 15 12 9 6
+coldown 13 11 9 7
 
 
 talent level 10 upgrade Surge
-increase base heal by 10
-increase heal scaling by 5%
+increase base heal by 35
+increase heal scaling by 9%
 increase healing effect by 6%
-increase attack damage gain by 8
+increase attack damage gain by 11
 increase mana cost by 65
 
 add a new modifier Volting Surge
 Surge will always be cast on Zet if he doesnt cast it on himself and if he cast Surge on himself, increase his attack damage by 12%
-and his total spellamp by 16% for the same duration of Surge buff. Surge will also have 25% chance to Crit heal for 140% and also
+and his total spellamp by 10% for the same duration of Surge buff. Surge will also have 25% chance to Crit heal for 140% and also
 giving the movespeed buff with 1.5 seconds duration increase as well. every Crit Heal done will give a stack of Surge Power, increasing
 Surge base heal by 1 and increasing Zet mana regeneration by 0.2. At 5 stacks, increase Surge cast range by 175 and reduce its coldown by
-1. At 10 stacks, increase Zet mana by 20% and make Surge heal for 4% of Zet current Mana. At 15 stacks, increase healing effect by 12%
+2. At 10 stacks, increase Zet mana by 20% and make Surge heal for 4% of Zet current Mana. At 15 stacks, increase healing effect by 12%
 and Surge will remove all from of debuff from the target. Surge Wont remove debuff that cant be Purge. 50% of the stacks are lost on death
 
 
 SPELL E Volt Shield
 Zet will Increase his Armor and Magic resist base on his Strenght for a medium amount of duration with a cap of armor and magic resist
-gain. He will also gain a passive Shield that scale base off his Max mana Pool as well and will refresh every 20 seconds. Also increase
-his max health by 10 20 30 40 for every enemys in a 350 radius around Zet for 10 seconds after casting Volt Shield. Enemys will also
+gain. He will also gain a passive Shield that scale base off his Max mana Pool as well and will refresh every 25 seconds. Also increase
+his max health by 10 20 30 40 for every enemys in a 375 radius around Zet for 10 seconds after casting Volt Shield. Enemys will also
 take damage when they hit Zet when he has Volt Shield dealing medium damage. Spell wont trigger the damage hit of Volt Shield.
 
 base damage 7+12% 13% 14% 15% of Strenght
@@ -132,7 +123,7 @@ bonus Magic resist 13% 17% 21% 25% of Strenght
 Max cap Armor 12 18 24 30
 Max cap Magic resist 20% 28% 36% 44%
 Passive Shield Amount 9% 11% 13% 15% of Max Mana
-buff duration 8.0 8.5 9.0 9.5 seconds
+buff duration 7.0 7.5 8.0 8.5 seconds
 mana cost 25 50 75 100 plus 5% of max mana
 coldown 32 30 28 26
 
@@ -144,12 +135,12 @@ increase buff duration by 0.5 seconds
 remove Volt Shield mana cost
 
 add a new modifier Unstable Lightning Arc
-When Volt Shield buff is Active, it will release Lightning Arc to a nearby enemy (425 radius Search) dealing 11+6% of Zet Attributes
+When Volt Shield buff is Active, it will release Lightning Arc to a nearby enemy (425 radius Search) dealing 9+4% of Zet Attributes
 in Magical Damage every 1.0 seconds and reducing their magic resist by 3% for 6.5 seconds that stack up to 10 and refresh the duration
 as well. at max stack of Lightning Arc debuff the target will suffer 4% of his max health in Pure damage that cant be resisted by any
 means and zet will be heal for 145% of that damage dealt. every 15 Lightning Arc done will increase Zet health regeneration by 0.2 and
-increase Volt Shield buff duration by 0.1 seconds, max of 15 stacks. At 6 stacks, increase Volt Shield armor cap by 5 and the magic
-resist cap by 10% and reduce its coldown by 6. At 13 Stacks, increase Zet max health and mana by 15% and increase the passive shield
+increase Volt Shield buff duration by 0.1 seconds, max of 15 stacks. At 6 stacks, increase Volt Shield armor cap by 6 and the magic
+resist cap by 12% and reduce its coldown by 4. At 13 Stacks, increase Zet max health and mana by 15% and increase the passive shield
 amount by 5%. 50% of the stacks are lost on death. Enemys will only be able to be Shock once for the 4% max health damage.
 
 
