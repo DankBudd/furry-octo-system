@@ -84,7 +84,7 @@ increase the user primary Attributes, cast range, attack range and also increasi
 create a small Star that deal damage over time and stuns enemys after it ends. while enemys are stun, they will take Insane amount of
 extra damage from other Source of damage.
 
-Active item use coldown 95 mana cost 25% of max mana
+Active item use Star coldown 95 mana cost 25% of max mana
 Create a Star that deal 33 pure damage plus 25% of primary Attributes every 0.5 second that last 2.0 second, after the star end it will
 stuns enemys by 1.3 second increasing damage they take by 180%.
 
@@ -102,7 +102,7 @@ Passive item use Blood Frost
 enemys will lose 25 attack speed with 8% movement speed, any ally that attack a Blood Frost enemy will lifesteal for 10% of the damage
 dealt by spell and basic attack, last 2.2 second
 
-Active item use Frost Bite coldown 36 mana cost 275
+Active item use FrostBite coldown 36 mana cost 275
 throw the cleaver dealing 80 plus 2% of the target max health in pure damage. Frost Bite will reduce enemys attack speed by 50 and
 reducing all healing recive by 35% for 4.5 second.
 
@@ -120,8 +120,8 @@ duration and giving them status resistence as well. Also increase agility, healt
 Active item use Dexterity Boost coldown 50 mana cost 7% of max mana
 increase the user Base Agility by 100% and their status resistence by 35% for 5 seconds
 
-Passive item use Swift and Arm
-increase attack speed gain from agility by 0.25 and increase armor by 1 for every 16 agility
+Passive item use Swift and Armed
+increase attack speed gain from agility by 0.35 and increase armor by 1 for every 13 agility
 
 agility 16-32
 health 245-425
@@ -143,8 +143,8 @@ Nhantalur Helm
 increase magic resist with pure resist, life regeneration and give a small chance to reduce pure damage taken as well, part of the
 Nhantalur Set
 
-passive item use
-give the user 25% chance to block 15% of the pure damage taken
+passive item use Inpure
+give the user 30% chance to block 10% of the pure damage taken.
 
 magic resist 10%-15%
 pure resist 15%-20%
@@ -155,7 +155,7 @@ increase attack speed and magic resist, also give a small chance to deal increas
 part of the Nhantalur set
 
 passive item use
-physical spell will have 65% chance to deal 15% increase damage
+physical spell will have 65% chance to deal 15% increase damage.
 
 attack speed 25-55
 magic resist 4%-7%
@@ -164,8 +164,8 @@ magical damage dealt reduce 15%
 Nhantalur Chest-Armor
 increase armor and magic resist with increase health, also block any magical attack as well, part of the Nhantalur set
 
-passive item use
-block 25 magical plus 5% of the user primary attributes, Magical spell or attack cannot be reduced below 12 damage
+passive item use Magic Block
+block 25 magical plus 5% of the user primary attributes. Magical spell or Magical attacks cannot be reduced below 12 damage
 
 armor 5-9
 magic resist 8%-15%
@@ -175,8 +175,8 @@ Nhantalur Boots
 increase magic resist and mana regeneration with life regeneration as well, every time the user takes magical damage increase his move
 speed and mana with life regeneration resource , part of the Nhantalur set
 
-passive items use
-increase move speed by 20% and life with mana regeneration source by 80% for 2.2 second every time the user takes magical damage
+passive items use Magic Absorb
+increase movespeed by 20% and health with mana regeneration source by 80% for 2.5 second every time the user takes magical damage
 
 magic resist 3%-6%
 mana regeneration 1.9-2.7
@@ -191,8 +191,8 @@ Passive item use Meteor Boost
 all Magical spell will do 6 bonus magic damage and slowing enemys by 14% and making them take 35% extra damage from ULTIMATE spells,
 the debuff last 5 seconds, damage over time spell will make the debuff last 1.4 seconds.
 
-Active items use Meteor Power
-reduce the mana cost and coldown of the next spell by 15%, the buff last 10 second, coldown of 25 no mana cost
+Active items use Meteor Power coldown of 25 no mana cost
+reduce the mana cost and coldown of the next spell by 15%. The buff last 10 second
 
 spell amp 11%-22%
 mana regeneration source increase 25%-50%
@@ -203,14 +203,28 @@ cast range 110-200
 
 Shadow Blade
 Increase the user Attack speed and Agility, also change the user Low and High Attack damage base. can be use to turn invisible, the
-next basic attack will deal extra damage and will also reduce the target armor damage on hit and reducing their armor as well.
+next basic attack will deal extra damage and will also reduce the target armor on hit.
 
-Passive item use
+Passive item use Shadow Power
 Change the user Low Damage to 13 and High Damage to 19
 
-Active item use
+Active item use Into the Shadows
 Turn invisible for 8 seconds, attacking will deal 75 plus 1% of the target max health in Physical damage and reducing their armor by
 7 for 10 seconds
 
 attack speed 65-90
-agility 15-25
+agility 10-30
+
+
+Galb
+Increase the user attack damage, agility, health and movespeed. The user will also deal bonus magical damage on basic attacks and he will
+also gain extra magical damage base on his base attack damage as well. Can be use to deal pure damage base on agility on the next attack
+and also increasing the damage they take from pure damage and physical damage.
+
+Passive item use Magic Infused
+Auto Attacks will deal 14+8% of his base attack damage into magical damage on hits.
+
+Active item use Brute Magic coldown of 60 seconds no mana cost
+The next attack will deal 50+35% of Agility in pure damage and also increasing the damage they take from Pure and Physical damage by 25%
+for 11.5 seconds
+
