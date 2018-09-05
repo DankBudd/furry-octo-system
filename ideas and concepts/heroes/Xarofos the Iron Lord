@@ -1,8 +1,7 @@
-                                                Xarofos the Iron Golem Lord
-Starting stats 20 strenght, 4 agility, 0 inteillgence, Stats gain per level, 1.00 Strenght, 0.40 Agility, 0.00 Inteillgence.
-Base movespeed 265, Base attack damage 7-9, Base Regeneration Health 0.9, Base Regeneration Stolx 0.0.
+Starting stats 20 strenght, 15 agility, 0 inteillgence, Stats gain per level, 1.50 Strenght, 0.50 Agility, 0.00 Inteillgence.
+Base movespeed 265, Base attack damage 7-9, Base Regeneration Health 1.5, Base Regeneration Stolx 0.5.
 
-total base stats at level 40 - 60 Strenght - 20 Agility - 0 Inteillgence -
+total base stats at level 40 - 80 Strenght - 35 Agility - 0 Inteillgence -
 
 
 LEVEL 30 TALENT
@@ -88,25 +87,21 @@ one shot.
 
 
 ACTIVE TOGGLE SPELL W Molten Steel - Pure
-Xaforos will become a body of Moving Molten Steel reducing his Armor but gaining massive magic resist and Pure resist, Enemys that attack
-him while he is in Molten Steel Form will take burning Steel damage and lose some armor and take increase damage to Pure Source. Xarofos
-cannot go lower than 4 6 8 10 armor when useing this skill. When he Activate Molten Steel he will gain 2% 4% 6% 8% magic and pure
-resist, it will also drain is mana per seconds every time it active. The debuff of the armor lost and pure damage taken will refresh
-if they hit him again and will stack up to 7 8 9 10 max. Molten Steel will reduce mana regenration by 60% when Activted. enemys will also
-take damage every 2 seconds when they stay near him. Molten Steel will only gain 15% of his armor into bonus damage. they will take 1%
-increase damage from pure Source per hit taken or every 2 seconds of burn from Molten Steel. Xarofos will increase the radius of Molten
-Steel by 15% of his strenght.
+Xarofos will become a body of Moving Molten Steel reducing his Armor in exchange to gain massive amount of magic resistence and a small
+amount of pure resistence as well. Enemys will also take damage every 1.5 seconds in Magical when they are near Xarofos and he will
+reduce their Magic resistence as well when they stand close to him. Xarofos cannot lose more than 4 6 8 10 armor when Molten Steel is
+active. Every 1 armor Molted will give 0.50% 0.70% 0.90% 1.10% magic resistence and every 1 armor Molted will also give 0.10% 0.20% 0.30%
+0.40% Pure resistence and he will also gain a base of 3% 4% 5% 6% of Magic and Pure resistence when Molten Steel is active. Xarofos will
+also lose 40% Stolx regeneration Source while Molten Steel is active. Xarofos will also increase Molten Steel radius by 20% of his Strenght.
+Molten Steel will only gain 15% of his armor into bonus damage. Molten Steel will have a coldown to reactivate it and wont be affected
+by coldown reduction.
 
-damage on hit 7 8 9 10 plus 6% 7% 8% 9% of strenght
-damage every 2 seconds 5 8 11 14 plus 10% of strenght
-Armor into Magic resist 90% 100% 110% 120% of total armor
-Armor into Pure resist 60% 65% 70% 75% of total armor
-armor lost per hit and 2 seconds 1.1 1.2 1.3 1.4
-debuff duration 2.5 2.8 3.1 3.4
-base radius of Molten Steel 375 395 415 435
-coldown 8
-Mana cost to Activate 15 25 35 45
-mana cost per seconds 6 9 12 15
+base damage 7 8 9 10 plus 12% of strenght
+Magic resistence lost 7% 12% 17% 22%
+base radius of Molten Steel 265 295 325 355
+Stolx cost to Activate 15 25 35 45
+Stolx cost per seconds 6 9 12 15
+Coldown 12 11 10 9
 
 talent level 10 Upgrade Molten Steel
 increase magic resist gain by 15%
@@ -117,11 +112,10 @@ reduce mana cost per seconds by 4
 
 add a new modifier Holy Flames of the Iron Lord
 Range units that attack Xarofos while he is in Molten Steel will take 100% more HIT damage and they will lose 175 attack range for 2.5
-seconds (cant go lower thand 275 attack range). All of his Spell will also do 15% of their damage in Pure while  he stay in Molten Steel,
+seconds (cant go lower thand 275 attack range). All of his Spell will also do 15% of their damage in Pure while he stay in Molten Steel,
 If he does stay for 15 seconds in Molten Steel he will gain 25% Pure Resist and 10% magic resist for 7 seconds, After he stop useing
 Molten Steel the buff will start to fade away, Also increase his health regeneration source bonus by 45% but further reduce his mana
-regeneration by 15% when in Molten Steel. When in Titan Form, Xarofos will no longer lose his armor from Molten Steel for its bonus
-magic and pure resistence.
+regeneration by 15% when in Molten Steel.
 -
 -
 -Iron Charge note-
@@ -203,12 +197,13 @@ Xarofos Become a Titan of Iron gaining 115% Size but reducing his movespeed by 3
 debuff duration with Stun, Blinds, roots, Silence and healing effect reduction, he also gain increase health gain from Strenght and also
 gaining bonus strenght as well but reducing his Agility to 0 for the duration of Titan Form. He also gain 2 new spells that will replace
 his Iron Blast and Iron Charge (some talents will have bonus effect for those 2 new spells ). Molten Steel will also be in effect while
-in Titan Form, having no mana cost and gaining increase radius. He also gain some Stolx Mana regeneration While in Titan Form
+in Titan Form, having no mana cost, gaining increase radius and also increasing the base value of the armor cap while in Molten Steel by
+10 15 20. He also gain some Stolx Mana regeneration While in Titan Form
 
 Status Resistence 25% 40% 55%
 Bonus health from Strenght 3 6 9
 bonus Strenght 45 60 85
-bonus Stolx regeneration 1.7 2.8 3.9
+bonus Stolx regeneration 1.5 3.0 4.5
 Molten Steel radius bonus 15% 25% 35%
 duration 60 seconds
 coldown 210 190 180
