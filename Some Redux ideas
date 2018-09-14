@@ -1,24 +1,24 @@
 Soul Burn
-deal damage over time also reducing their attack damage as well. Enemys will take damage if they cast any spells or items by x0.5 x0.6
-x0.7 x0.8 of their mana cost plus Soul Burn total damage. Soul Burn will Ignore Status Resistence can also be Purge away. When the enemy 
+deal damage over time also reducing their attack damage as well. Enemys will take damage if they cast any spells or items by x0.3 x0.4
+x0.5 x0.6 of their mana cost plus Soul Burn total damage. Soul Burn will Ignore Status Resistence can also be Purge away. When the enemy 
 Purge Soul Burn off, they will suffer x3 of the total damage of Soul Burn once.
 
 damage 14 21 28 35 Pure
 damage reduction 25% 40% 55% 70%
-duration 7 seconds
-coldown 29
+duration 6 seconds
+coldown 24
 mana cost 90 120 150 180
 
 
 Acid Bomb
 Hurls a flask of acid at a target. The Target lose armor, movespeed and reduce healing effects as well. deals damage over 0.3 seconds
-in physical damage and for every 5% health losts under Acid Bomb futher reduce the target armor by 1.
+in physical damage and for every 8% health losts under Acid Bomb futher reduce the target armor by 1.
 
-damage 7 11 15 19
-base armor lost 4 6 8 10
+damage 7 11 15 19 physical
+base armor lost 4 5 6 7
 movespeed slow 10% 15% 20% 25%
-healing effect reduce 8% 10% 12% 14%
+healing effect reduce 9% 12% 15% 18%
 duration 3.6 4.5 5.4 6.3
-coldown 21
-mana cost 50 75 100 125
+coldown 30
+mana cost 50 90 130 170
 
