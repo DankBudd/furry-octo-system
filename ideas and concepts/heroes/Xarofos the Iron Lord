@@ -121,30 +121,27 @@ regeneration by 15% when in Molten Steel.
 
 
 SPELL E Iron Charge - Physical
-Xarofos charge foward in a line dealing insane amount of damage, they will be ministun for 0.2 but if they are Stun by Iron Blast it
-will increase its stun duration and while they are stun, they will lose insane amount of armor, Xarofos will gain insane amount of armor 
-while he is Charging and will last for 3 seconds after he is done charging, Each enemys hit will grant him bonus health regeneration
-that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration, the coldown will
-reduce by 0.4 for every auto attack done. He got a 0.4 seconds delay before he Charge and the Charge speed is 235% of his total movespeed
-and the max range is 470% of his total movespeed.
+Xarofos charge foward in a line dealing high physical damage, they will be ministun for 0.2 but if they are Stun by Iron Blast it will
+have increase stun duration with increase damage as well and while they are stun, they will lose 30 armor. Xarofos will gain increase
+armor while he is Charging and it will last for 3 seconds after he is done charging. Each enemys hit will grant him bonus health regeneration
+that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration with the increase added
+stun duration. Reduce Iron Charge coldown by 0.3 for every auto attack done and increase its base damage by 2% for 6 seconds as well, each
+stacks got their own duration.
 
-base damage 20 25 30 35 plus 10% 15% 20% 25% of Strenght
-increase damage if stun 20 30 40 50 plus 25% of strenght
-armor lost 7 14 21 28 while stun
-increase stun duration 0.4 0.6 0.8 1.0
-increase armor while in charge 12 20 28 36
-health regeneration per enemy hit 0.9 1.8 2.7 3.6
+base damage 20 30 40 50+25% of Strenght
+increase damage if stun 15 30 45 60+15% of Strenght
+increase stun duration if stun by Iron Blast 0.4 0.6 0.8 1.0
+increase armor while in charge by 8 12 16 20
+health regeneration per enemy hit 4.3 6.5 8.7 10.9
 coldown 27 25 23 21
-mana cost 60 85 110 135
+mana cost 30 60 90 120
 
 
 talent level 20 upgrade Iron Charge
-increase the damage when stun by 25
-increase the scaling strenght when stun by 15%
-Increase Stun duration bonus by 0.2
-increase armor gain while in charge by 10
-increase health regeneration gain per hit by 0.8
-reduce coldown by 3
+increase the base damage by 10
+increase the base damage scaling by 5%
+increase the armor gain while charging by 5
+increase health regeneration gain per hit by 4.1
 increase mana cost by 45
 
 add a new modifier Holy Charge
