@@ -22,25 +22,25 @@ PASSIVE D OR F
 Void Lord
 give a positive and negative buff, Pressing ALT will give INFO for Enigma level 30 talent and level 40 talent for this passive
 
-BUFF enigma spell will do 1 pure bonus damage for every 12 inteillgence and he will gain 1% spell amp for every 160 current mana and any 
-slows Enigma takes will grant him a speed boost instead of slowing him and increasing their duration by 1 second he also gain 1% life
-per level gaining 0.5% size as well enigma will have Void Glove that scale per level and he cannot be change, Enigma also gain 4
-inteillgence for every items that give Spellamp (max of 20 Inteillgence).
+BUFF enigma spell will do 1 pure bonus damage for every 12 inteillgence and he will gain 0.1% spell amp for every 24 current mana and
+any slows Enigma takes will grant him a speed boost instead of slowing him and increasing their duration by 1 second he also gain 1%
+life per level gaining 0.5% size as well enigma will have Void Orb that scale per level and he cannot be change. Enigma also gain 2
+inteillgence for every items that give Spellamp, max of 10 Inteillgence gain.
 
 DEBUFF enigma cannot have armor meaning that he will have 0 armor at all time and he will take 80% damage from pure and physical
 and he lose 40% base damage, strenght only giving 3 life instead of 5 and agility only giving 0.25 attack speed instead of 0.50 and
-items with effect that deal damage will have 50% reduction effects, he also lose 5% Agility per Inteillgence item he got. Enigma cannot
-have any weapons beside his Void Orb
+items with effect that deal damage will have 50% reduction effects and deal 25% less damage. He also lose 3% Agility per Inteillgence
+item he got. Enigma cannot have any weapons beside his Void Orb.
 
 talent level 40 upgrade Might of The Void Lord
-Enigma will gain 1% coldown reduction per Items that give Mana or Magical Resistence max of 8% bonus from it, he also gain 10 Mana
+Enigma will gain 1% coldown reduction per Items that give Mana or Magical Resistence max of 7% bonus from it, he also gain 10 Mana
 Regeneration Upon casting a spell for 3.5 seconds. Enigma Spells will be Empower for the next cast he does (Void Lord will become a
 Toggle Passive if the user wants to disable the empower or not). Void Curse will gain 2.5 seconds duration bonus and will deal 2%
-increase damage per 1% missing health on the target (affect Void Mass as well). Gravity Well will gain 35% increase total radius and
+increase damage per 1% missing health on the target (affect Void Mass as well). Gravity Well will gain 30% increase total radius and
 it will push the target to the center at 150 Speed unit and Gravity Well will do a Void Well at the Center, The radius of Void Well will
-be 15% of Gravity Well total Radius. The Void Well will do double damage of Gravity Well total damage. Void Bolt will gain 15% increase
+be 10% of Gravity Well total Radius. The Void Well will do double damage of Gravity Well total damage. Void Bolt will gain 15% increase
 Radius and will Blind enemys in Void, making them miss 25% of their attacks and also reducing their overall damage by 15% for 7 seconds.
-Void Bolt coldown will reduce by 1.5 for every enemys it hits and also increasing the next cast of Void Well damage by 5% for every hits
+Void Bolt coldown will reduce by 1.5 for every enemys it hits and also increasing the next cast of Void Bolt damage by 5% for every hits
 done.
 
 
@@ -54,7 +54,17 @@ Enigma Spell will do increase damage from enemys below 40% health, taking 20% in
 Enigma can also Activate Void Orb to make his next Spell do 15% increase damage and reduce the target magic resist by 12% for 8
 seconds.
 
-Void Orb Can be Upgraded at level 40 with special material
+Void Orb Can be Upgraded at level 40 with special material, here are the bonus
+reduce Base attack time by 0.45
+increase attack damage by 17
+increase inteillgence gain by 8
+increase Spellamp by 10%
+increase health by 125
+increase mana by 340
+Further increase the damage from Enigma spells when they are under 40% health by 10%.
+Increase the Void Orb active effect, increasing the damage bonus by 10% and the magic resist lost by 13%.
+Void Orb will give 8% chance for Enigma to Ignore magic damage and heal for 40% of its total damage.
+
 
 SPELL Q Void Curse - Magical -
 The enemys will be Curse taking low amount of damage every 0.5 seconds and losing magic resist and health regeneration per tick of
@@ -67,76 +77,77 @@ that are in Combat (Doesnt attack enemys that are not in Combat). (Void Curse ca
 each targets max). (Void Curse will stay on coldown as long if a target if affected by it)
 -
 -Lore- The curse of the Void Lord makes his target turn inside-out, making them die of unbearable pain and suffering and turn into a
-eidolon joining the mighty army of the void lord.
+eidolon joining the mighty army of the Void Lord.
 -
 
 base Damage 9 10 11 12+10% of Inteillgence
 Duration 3.5 4.0 4.5 5.0
-magic resist lost 2%
+magic resist lost 1%
 health regeneration lost 0.3 0.4 0.5 0.6
 Void Mass damage 18 26 34 42+45% of Inteillgence
-Void Mass magic resist lost 4%
+Void Mass magic resist lost 3%
 coldown 18 17 16 15
 mana cost 50 100 150 200 plus 2% of max mana
 
 Talent level 10 Upgrade Void Curse
-Increase 0.5 seconds scaling damage by 5%
-increase Void Mass scaling damage by 15%
+Increase 0.5 seconds scaling damage by 2%
+increase Void Mass scaling damage by 10%
 increase duration by 0.5
-increase health regeneration lost by 0.2
+increase health regeneration lost by 0.3
 Increase Void Mass magic resist lost amount by 2%
 
 add a new modifier Void Corruption
 Void Curse will have 4% more chance to Trigger Void Mass and each Void Mass proc will increase its damage by 10% and the radius by 60
 without limits. After Void Curse ends, they will get rooted for 0.1 seconds for every 65 damage taken while in Void Curse and will take
-6% of Enigma inteillgence in Pure damage every 0.1 seconds of root and also reducing healing Source by 25% for the duration of the Root.
-Enigma will gain 1 stack of Void Death for every 6 seconds of root done, at 3 stacks Enigma will gain 7% spellamp and 1.3 mana
-regeneration. At 7 stacks Void Curse will gain 50% more bonus from Spell amp and have 3 second coldown reduce. At 12 stacks Enigma will
-gain 12 Inteillgence and Void Curse will also be cast on 1 other target at random, Each stacks will give Enigma 10 health, max stack of
-15 and stack are lost lost upon death.
+6% of Enigma inteillgence in Pure damage every 0.2 seconds of root and also reducing healing Source by 25% for the duration of the Root.
+Enigma will gain 1 stack of Void Death for every 6 seconds of root done, at 4 stacks Enigma will gain 7% spellamp and 1.3 mana
+regeneration. At 9 stacks Void Curse will gain 35% more bonus from Spell amp and have 3 second coldown reduce. At 16 stacks Enigma will
+gain 12 Inteillgence and Void Curse will also be cast on 1 other target at random, Each stacks will give Enigma 8 health, max stack of
+20 and stack are lost lost upon death.
 
 SPELL W level Gravity Well - Magical -
 Enigma Infest the Ground with Pure Gravity dealing Insane Magical damage per seconds, Gravity Well will also have 10% chance to stun
-enemys for every tick of damage, they will also lose attack speed and lose movespeed as well, the debuff duration will last 2.5 seconds
+enemys for every tick of damage, they will also lose attack speed and lose movespeed as well. The debuff duration will last 1.5 seconds
 and refresh upon taking damage from Gravity Well and stack without limit, when enemys get stun they will take double the amount of
 attack speed lost and movespeed lost with taking triple the damage from Gravity Well. Enemys can only be Stun once and Gravity Well will
-gain 125% bonus radius base on Enigma Inteillgence.
+gain 85% bonus radius base on Enigma Inteillgence.
 -
 -Lore- Enigma channel a weak form of a black hole that will eat its target mind, making them forget everything they know adout their
 past. Enigma will feed upon their mind to gain knowledge from their world to know better adout it.
 -
 
 base Damage 15 35 55 75+20% of inteillgence
-Attackspeed lost 5 6 7 8
+Attackspeed lost 3 5 7 9
 Movespeed lost 6 10 14 18
 Stun Duration 1.1 1.5 1.9 2.3
 Base Radius 425 475 525 575
-Duration 4.0 seconds
+Duration 3.0 seconds
 Cooldown 26
 Mana cost 125 225 325 425 plus 2% of max mana
 
 talent level 10 Upgrade Gravity Well
+increase the base damage by 10
 increase Stun duration by 0.7
 increase Base radius by 75
 increase duration by 1.0 seconds
 
 add a new modifier Void Flame
 Enemys will be Void Flamed if they stand more than 3.0 seconds in Gravity Well, they will be taking 25% more damage from all Source and
-also taking 15% increase damage from Enigma spells as well. They will also take 24% of Enigma inteillgence in Pure damage every 0.6
-seconds of the duration of Void Flame. Void Flame will last 6 seconds and after the duration ends, Enigma will gain 1 stack of Growing
-Void, increasing his spell amp by 0.2% and his health and mana by 3 up to 120 max stacks. At 25 stacks Enigma will gain 11 inteillgence
-and 14% status resistence. At 60 stacks, Enigma will gain 15 health regeneration and Gravity Well will heal Enigma for 100% of its
-total damage when he stand in it. At 95 stacks, Gravity Well will gain 125 more radius with 1 seconds duration and reduce its coldown by
-4 seconds. Stacks are lost upon death.
+also taking 15% increase damage from Enigma spells as well. They will also take 14% of Enigma inteillgence in Pure damage every 0.6
+seconds of the duration of Void Flame. Void Flame will last 6 seconds and after the duration ends. Enigma will gain 1 stack of Growing
+Void for every enemys that gets Void Flame, increasing his spell amp by 0.1% and his health and mana by 3 up to 110 max stacks. At 25
+stacks Enigma will gain 7 inteillgence and 14% status resistence. At 60 stacks, Enigma will gain 12 health regeneration and Gravity
+Well will heal Enigma for 100% of its total damage when he stand in it. At 95 stacks, Gravity Well will gain 125 more radius with 1
+seconds duration and reduce its coldown by 3 seconds. Stacks are lost upon death.
 
 
 SPELL E level Void Bolt - Magical -
 Enigma will Throw a Bolt of Void at the target Location dealing High amount of Magical damage, enemys will have a Debuff call Void
-Hunger that last 12 seconds If they cast at least 3 spells while under this effect, they will gain a Debuff call Consuming Void, taking
-low amount of damage every 0.2 seconds and increasing their cast time point as well. Void Bolt will Ignore Magic immune units. Void Bolt
+Hunger that last 12 seconds. If they cast at least 3 spells while under this effect, they will gain a Debuff call Consuming Void, taking
+low amount of damage every 0.1 seconds and increasing their cast time point as well. Void Bolt will Ignore Magic immune units. Void Bolt
 will also reduce Magic resist and slow movespeed for 5.0 seconds. Each time they cast a spell they will refresh the debuff duration by
-3.5 seconds (Void Bolt will refresh the duration if casted on enemys affected by the debuff). (Void Bolt landing delay will be 1.7
-seconds).
+3.5 seconds and if they are affected by Consuming Void it will gain 1.5 seconds duration increase. (Void Bolt will refresh the duration
+if casted on enemys affected by the debuff). (Void Bolt landing delay will be 1.7 seconds). (Comsuming Void damage is Pure)
 -
 -Lore- Enigma throw a peice of him self at his target, being eat by the void its self and sreaming in agony. Enigma does not know pain
 or fear but only cruelty in his eyes of the void.
@@ -144,8 +155,8 @@ or fear but only cruelty in his eyes of the void.
 
 Bolt base Damage 20 30 40 50+35% of Inteillgence
 Bolt radius Impact 275 300 325 350
-Consuming damage 4 5 6 7+5% of Inteillgence
-Consuming Void duration 5
+Consuming Void base damage 3 4 5 6+2% of Inteillgence
+Consuming Void duration 3
 Cast time point increase 12% 19% 26% 33%
 Magic resist lost 8% 10% 12% 14%
 movespeed lost 5% 10% 15% 20%
@@ -155,29 +166,29 @@ mana cost 125 175 225 275 plus 2% of max mana
 talent level 20 Upgrade Void Bolt
 increase Void Bolt damage by 15
 Increase Void Bolt scaling by 5%
-increase Consuming Void scaling by 2%
 increase magic resist lost by 4%
+increase Consuming Void duration by 1.0 seconds
 reduce mana cost by 75
 
 add a new modifier Unstable Gravity 
-Every Bolt that Land will Create a Small Black Hole that last 3 seconds and doesnt stun but will pull enemys by 175 speed unit and deal
+Every Bolt that Land will Create a Small Black Hole that last 3 seconds and doesnt stun but will pull enemys by 215 speed unit and deal
 115% of Enigma Inteillgence per seconds, Void Bolt will also have 25% chance to crit for 175% of total damage and lifesteal for 30% of 
 that damage dealt as well but also make Void Bolt unable to use any other Source of Crits. Enigma will also gain 25 health per Small
 Black Hole Created, max of 10 stacks, at 10 stacks Enigma will gain 10% health and 12% magic resist, stack are lost upon death.
-Consuming Void cannot be Purge and will deal 100% increase damage and turn Pure damage if the Target is Magic Immune.
+Consuming Void cannot be Purge and will deal 50% increase damage and its Pure damage cannot be Resisted if they are Magic Immune.
 
 
 PASSIVE D OR F Galaxy
-Enigma will gain bonus Coldown reduction and mana, he also give himself and his allys Roots resistence and Magic resist as well,
-he also deal bonus damage with his Spells base on his Max mana every 16 seconds. Enigma will gain Double the bonus from the Root and
-Magic resist. The aura is 1150 radius. he also gain 10% 15% 20% 25% size increase. Enigma will gain 8% increase inteillgence at level 4
-of Galaxy.
+Enigma will gain bonus Coldown reduction and mana, he also give himself and his allys Roots resistence and Magic resist as well. He 
+also increase the damage of the next spells cast by 1% for every 90 current mana Enigma has and the cap bonus damage is 25% 50% 75%
+100%, has a coldown of 16 seconds for the Empower. Enigma will recive double the bonus from the Root Resistence and Magic Resistence,
+The aura is 1150 radius. he also gain 5% 10% 15% 20% size increase. Enigma will gain 8% increase inteillgence at level 4 of Galaxy.
+The Empower wont be affected by coldown reduction.
 -
 -Lore- Enigma himself is a Galaxy of pure corrupted void that will eat anything they wish for. When Enigma dies he will always be reborn
 as a new Galaxy in the middle of nowhere, keeping his mind but losing his body.
 -
 
-Max mana into damage 2% 3% 4% 5%
 cooldown reduction 6% 8% 10% 12%
 Increase Mana 10% 15% 20% 25%
 increase Roots resistence by 6% 9% 12% 15%
@@ -191,9 +202,9 @@ increase magic resistence by 4%
 
 add a new modifier Nebula
 all enemys around enigma will get damage by 7 plus 15% of inteillgence every 1.5 second 525 radius and if they attack him they will lose 
-0.8% max life every time, 15 second on bosses and when enigma die he will explode dealing 50+8% 12% 16% 20% of engima health and mana
+0.8% max life every time, 15 second on bosses and when enigma die he will explode dealing 50+8% 10% 12% 14% of engima health and mana
 in Pure damage and after 4 second, enigma will reborn here with 35% life and 20% mana, cooldown of 180 second for the Revive. The
-Explosion radius is 650. Enigma spells will also have 20% more bonus from Spellamp and he also gain 12% bonus spellamp after casting
+Explosion radius is 525. Enigma spells will also have 20% more bonus from Spellamp and he also gain 12% bonus spellamp after casting
 any spells for 4.5 seconds. (can be toggle on and off for the damage aura).
 
 
