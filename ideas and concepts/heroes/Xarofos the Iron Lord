@@ -1,10 +1,10 @@
-Starting stats 20 strenght, 15 agility, 0 inteillgence, Stats gain per level, 1.50 Strenght, 0.50 Agility, 0.00 Inteillgence.
-Base movespeed 265, Base attack damage 7-9, Base Regeneration Health 1.5, Base Regeneration Stolx 0.5.
+Starting stats 15 strenght, 15 agility, 0 inteillgence, Stats gain per level, 1.50 Strenght, 0.50 Agility, 0.00 Inteillgence.
+Base movespeed 265, Base attack damage 6-11, Base Regeneration Health 2.1, Base Regeneration Stolx 0.5.
 
-total base stats at level 40 - 80 Strenght - 35 Agility - 0 Inteillgence -
+total base stats at level 40 - 75 Strenght - 35 Agility - 0 Inteillgence -
 
 
-LEVEL 30 TALENT
+LEVEL 30 TALENT will be change
 
 Talent 1
 Increase Xarofos Health by 125 and his Pure resist by 10%
@@ -58,7 +58,7 @@ When Xarofos Use his Pure Holy Steel armor, he will Refresh all coldown of his s
 SPELL Q Iron Blast
 Xarofos Knockdown the enemys in front of him, stunning them and dealing physical damage to them. They will also take increase damage from
 Xarofos spell and normal attacks and he will also attack faster on the target affected by the debuff. Xarofos will also gain 11% 12% 13%
-14% of his Strenght in bonus armor for 3.7 4.4 5.1 5.8 seconds duration. He will increase the cleave/blast radius by 15% 20% 25% 30% of
+14% of his Strenght in bonus armor for 3.7 4.4 5.1 5.8 seconds duration. He will increase the cleave/blast radius by 5% 10% 15% 20% of
 his Strenght. If Xarofos use Iron Charge on a target affected by Iron Blast stun, it will have increase stun duration and deal increase
 damage to that target as well.
 
@@ -67,22 +67,22 @@ base Cleave/Blast radius 335 365 395 425
 increase damage taken by 16% 21% 26% 31%
 increase attack speed 35 70 105 140
 stun duration 0.9 1.1 1.3 1.5
-debuff duration 4.5 5 5.5 6
-coldown 9
+debuff duration 3.8 4.2 4.6 5.0 
+coldown 11 10 9 8
 Stolx cost 35 50 65 80
 
 talent level 10 upgrade Iron Blast
-increase base damage by 10
-increase base damage scaling by 7%
-increase cleave radius by 30
-increase attack speed gain by 50
-reduce Stolx cost by 20
+increase base damage by 5
+increase base damage scaling by 8%
+increase cleave/blast radius by 30
+increase attack speed gain by 25
+reduce Stolx cost by 10
 
 add a new modifier Colossus Blast
 Iron Blast stun cannot be resisted by any means and enemys that are stun will take 11% of Xarofos armor and strenght in damage every
 0.3 seconds of stun duration. Iron Blast will also become a area of effect around him instead of being infront of him, if the enemys
 take more than 10% of their max health durring the stun they will lose 35% attack damage and take 65% increase damage from Physical
-Source for 3.7 seconds. Increase Iron Blast base damage by 1 for every 4 or more unit stun in one cast, max stack of 10 and at 4 stacks,
+Source for 2.9 seconds. Increase Iron Blast base damage by 1 for every 4 or more unit stun in one cast, max stack of 10 and at 4 stacks,
 increase Iron Blast radius by 90 and also reduce it coldown by 2. At 8 Stacks, Xarofos will gain 8% max health and Iron Blast will heal
 him by 15% of his strenght and armor for every unit hit by Iron Blast and his Auto attacks as well. he will lose 1 stack if he doesnt
 stun 3 or more target (Single target for bosses will not lose stack from it) and he also lose 1 stack if he take 22% of his health in
@@ -95,9 +95,9 @@ amount of pure resistence as well. Enemys will also take damage every 1.5 second
 reduce their Magic resistence as well when they stand close to him. Xarofos cannot lose more than 4 6 8 10 armor when Molten Steel is
 active. Every 1 armor Molted will give 0.50% 0.70% 0.90% 1.10% magic resistence and every 1 armor Molted will also give 0.10% 0.20% 0.30%
 0.40% Pure resistence and he will also gain a base of 3% 4% 5% 6% of Magic and Pure resistence when Molten Steel is active. Xarofos will
-also lose 40% Stolx regeneration Source while Molten Steel is active. Xarofos will also increase Molten Steel radius by 12% of his Strenght.
+also lose 40% Stolx regeneration Source while Molten Steel is active. Xarofos will also increase Molten Steel radius by 14% of his Strenght.
 Molten Steel will gain 15% of his Magic resist in bonus damage. Molten Steel will have a coldown to reactivate it and wont be affected
-by coldown reduction.
+by coldown reduction. Xarofos cannot pass more than 80% magic resist gain and 50% Pure resist gain total.
 
 base damage 7 8 9 10 plus 12% of strenght
 Magic resistence lost 7% 12% 17% 22%
