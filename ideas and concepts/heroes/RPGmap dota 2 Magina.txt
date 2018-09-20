@@ -49,14 +49,14 @@ also increase his mana regeneration by 5 and increase his status resistence by 5
 
 SPELL Q
 Mana Break - Physical -
-Magina deal damage base on the enemy max mana and also deal increase damage with enemys having no mana pool, he also deal 0.1 damage for
-every 4 points of Max mana the enemys got and 50% of all that damage with Mana Break will be mana lost for them. Also reduce their armor
-by 1 for every 80 75 70 65 mana burn away from the target for 3 3.5 4 4.5 seconds. Enemys will also be silence and passive break for a
-Short duration
+Magina deal damage base on the enemy max mana and also dealing 150% 175% 200% 225% increase damage with enemys having no mana pool. he
+also deal 0.1 damage for every 4 points of Max mana the enemys got and 50% of all that damage with Mana Break will be mana lost for
+them and also reducing their armor by 1 for every 95 90 85 80 mana burn away from the target for a short duration. Enemys will also 
+be silence and passive break for 0.7 0.9 1.1 1.3 seconds.
 
 base damage 25 30 35 40+40% of Magina agility
-increase damage when enemys have no mana pool 150% 175% 200% 225% 
-Silence and Passive break duration 0.7 0.8 0.9 1.0 seconds
+Armor debuff duration 3.3 3.7 4.1 4.5
+Max armor reduce 12 16 20 24
 cooldown 22 20 18 16
 mana cost 60 100 140 180 plus 3% of max mana
 
