@@ -192,15 +192,15 @@ debuff duration with Stun, Blinds, roots, Silence and healing effect reduction, 
 gaining bonus strenght as well but reducing his Agility to 0 for the duration of Titan Form. He also gain 2 new spells that will replace
 his Iron Blast and Iron Charge (some talents will have bonus effect for those 2 new spells ). Molten Steel will also be in effect while
 in Titan Form, having no mana cost, gaining increase radius and also increasing the base value of the armor cap while in Molten Steel by
-10 15 20. He also gain some Stolx Mana regeneration While in Titan Form
+6 10 14. He also gain some Stolx Mana regeneration While in Titan Form.
 
 Status Resistence 25% 40% 55%
-Bonus health from Strenght 3 6 9
+Bonus health from Strenght 3 5 7
 bonus Strenght 45 60 85
-bonus Stolx regeneration 1.5 3.0 4.5
-Molten Steel radius bonus 15% 25% 35%
+bonus Stolx regeneration 3.5 6.0 8.5
+Molten Steel radius bonus 10% 15% 20%
 duration 60 seconds
-coldown 210 190 180
+coldown 210 200 190
 mana cost 65
 
 -
@@ -213,13 +213,13 @@ Xarofos will Knockup every enemys near him, dealing high amount of damage and de
 their armor by 40% of Xarofos total armor himself, enemys will also be force to attack him for 3.2 seconds and every time they attack
 him for that short duration, they will lose 0.4% of their max health every time. (bosses will lose 0.1% of their max health instead)
 
-Knockup damage 40 65 90 plus 80% of Strenght
-Molten Burn damage 8 10 12 plus 15% of Strenght every 0.5 seconds
+Knockup damage 40 65 90+40% 60% 80% of Strenght
+Molten Burn damage 8 10 12+15% of Strenght every 0.5 seconds
 Base armor lost 3 5 7
 debuff duration 4 5 6 seconds
 radius 475 550 625
 coldown 9 8.5 8
-mana cost 35 40 45
+mana cost 35 45 55
 
 SPELL E Iron Fist - Physical -- While in Titan Form
 Xarofos will Fist the target enemy dealing Insane damage and Breaking them, disabling all form of healing and regeneration on them
@@ -227,12 +227,12 @@ and also disabling their passive with reducing their overall damage as well, the
 behind him for 50% of the damage he took and stun them as well for 50% of the duration of the normal stun. the Primary target is stun
 while he is getting push back. (The Stun Duration on the primary target tell how much time they get push for)
 
-damage 75 100 125 plus 100% of Strenght
+base damage 75 100 125+80% 90% 100% of Strenght
 Overall damage reduce 15% 25% 35%
 Pushback Force Speed 630 700 770 units max
 stun duration 1.8
-debuff duration 5 6 7 seconds
-coldown 13 12 11
+debuff duration 4.5 6 7.5 seconds
+coldown 14 13 12
 mana cost 60 80 100
 
 Talent level 40 upgrade Titan Form.
@@ -252,12 +252,13 @@ Steel effect at all since its an passive active durring Titan Form.
 
 Attero Dominatus - 50% physical, 50% magical -
 Xarofos will destroy the Target Mastery dealing Extreme damage to them but Xarofos will lose 90% of his current health in the Procces and
-making Himself deal 60% less total damage with his spell, passive or items effects for 45 seconds (cannot be purge). the enemys will lose
-insane amount of armor and magic resist and will also lose Overall damage as well, the debuff will last 7 seconds and after the duration
+making Himself deal 80% less total damage with his spell, passive or items effects for 45 seconds (cannot be purge). the enemys will lose
+insane amount of armor and magic resist and will also lose Overall damage as well, the debuff will last 11 seconds and after the duration
 ends, the enemys will take 150% of Xarofos total Armor in Pure damage in a 475 Radius and slow the Primary target by 20% until he die.
+Xarofos will channel Attero Dominatus for 0.8 seconds
 
-damage 650 plus 250% of Strenght and Armor
-armor lost 35
+base damage 550 plus 250% of Strenght and Armor
+armor lost 25
 magic resist lost 30%
 overall damage lost 20%
 coldown 475
@@ -266,14 +267,14 @@ no mana cost
 
 level 1 talent
 -
-increase strenght gain by 0.2 every level and also increase strenght by 5, Increase Iron Blast and Iron Charge scaling strenght by 5%
-but increase their mana cost by 10. Also make them have 10% chance to restore 3.5% of Xarofos Stolx.
+increase strenght gain by 0.2 every level and also increase strenght by 5, Increase Iron Blast and Iron Charge scaling strenght by 10%
+but increase their mana cost by 15. Also make them have 12% chance to restore 5% of Xarofos Stolx.
 -
 increase agility gain by 0.2 every level and also increase agility by 5, Xarofos will gain 3 Armor after casting any spells and further
 increase that bonus by 1 for every 15 Agility Xarofos got and for every 35 Agility Xarofos will gain 25 Stolx as well.
 -
 increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.3 and Agility with Strenght by 3,
-Xarofos will reduce the mana cost of his spells by 12% and also reducing their coldown by 1.0 seconds
+Xarofos will reduce the mana cost of his spells by 25% and also reducing their coldown by 1.0 seconds
 -
 level 4 talent
 -
