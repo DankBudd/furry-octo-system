@@ -192,7 +192,8 @@ debuff duration with Stun, Blinds, roots, Silence and healing effect reduction, 
 gaining bonus strenght as well but reducing his Agility to 0 for the duration of Titan Form. He also gain 2 new spells that will replace
 his Iron Blast and Iron Charge (some talents will have bonus effect for those 2 new spells ). Molten Steel will also be in effect while
 in Titan Form, having no mana cost, gaining increase radius and also increasing the base value of the armor cap while in Molten Steel by
-6 10 14. He also gain some Stolx Mana regeneration While in Titan Form.
+6 10 14. He also gain some Stolx Mana regeneration While in Titan Form. Each cast of Iron Blast and Iron Charge will reduce the coldown
+of Titan Form by 0.5 seconds.
 
 Status Resistence 25% 40% 55%
 Bonus health from Strenght 3 5 7
@@ -278,12 +279,17 @@ Xarofos will reduce the mana cost of his spells by 25% and also reducing their c
 -
 level 4 talent
 -
-Iron Blast will have 1.0 coldown reduce and have 10 less mana cost, also increase the cleave radius by 45 and its base damage by 7.
+Increase Iron Blast base damage by 3 and its Cleave/Blast radius by 40. Iron Blast will give Xarofos 17+6% of his Strenght into a base
+heal, further increase the bonus healing gain by 4+2% of his Strenght for each enemy hit increasing the total healing. Also increase
+all healing effect by 15% and further increase it by 10% in Molten Steel.
 -
-increase all stats by 4 and increase healing recive by 15%, Molten Steel will heal Xarofos by 8 Plus 5% of his Strenght every 2 seconds
-while Active
+Increase Agility and Strenght by 10 but reduce Xarofos Stolx by 30 and his Stolx regeneration by 0.35, Xarofos Iron Charge and Iron Blast
+will gain 12% of his Agility into bonus base damage but also increase their mana cost by 10. Xarofos will reduce the mana cost activation
+of Molten Steel by 5 and its mana drain by 2.
 -
-increase physical spell damage by 5% and make them spellvamp for 10% of the damage dealt Also increase cast range by 175.
+Increase Molten Steel radius by 25 and its burn base damage by 2. Molten Steel will give Xarofos 15% movespeed and 3% damage reduction
+while active and when Molten Steel is not active, Xarofos will gain 3 armor and 2.7 health regeneration. Molten Steel will also reduce
+ManaLost effect from enemys when active by 30% and reduce its coldown to activate it by 3 seconds.
 -
 level 7 talent
 -
