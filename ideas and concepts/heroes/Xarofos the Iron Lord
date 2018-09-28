@@ -82,10 +82,10 @@ add a new modifier Colossus Blast
 Iron Blast stun cannot be resisted by any means and enemys that are stun will take 11% of Xarofos armor and strenght in damage every
 0.3 seconds of stun duration. Iron Blast will also become a area of effect around him instead of being infront of him, if the enemys
 take more than 10% of their max health durring the stun they will lose 35% attack damage and take 65% increase damage from Physical
-Source for 2.9 seconds. Increase Iron Blast base damage by 1 for every 4 or more unit stun in one cast, max stack of 10 and at 4 stacks,
-increase Iron Blast radius by 90 and also reduce it coldown by 2. At 8 Stacks, Xarofos will gain 8% max health and Iron Blast will heal
+Source for 2.0 seconds. Increase Iron Blast base damage by 1 for every 4 or more unit stun in one cast max stack of 10. At 4 stacks,
+increase Iron Blast radius by 70 and also reduce it coldown by 2. At 8 Stacks, Xarofos will gain 8% max health and Iron Blast will heal
 him by 15% of his strenght and armor for every unit hit by Iron Blast and his Auto attacks as well. he will lose 1 stack if he doesnt
-stun 3 or more target (Single target for bosses will not lose stack from it) and he also lose 1 stack if he take 22% of his health in
+stun 2 or more target (Single target for bosses will not lose stack from it) and he also lose 1 stack if he take 22% of his health in
 one shot.
 
 
@@ -96,21 +96,22 @@ reduce their Magic resistence as well when they stand close to him. Xarofos cann
 active. Every 1 armor Molted will give 0.50% 0.70% 0.90% 1.10% magic resistence and every 1 armor Molted will also give 0.10% 0.20% 0.30%
 0.40% Pure resistence and he will also gain a base of 3% 4% 5% 6% of Magic and Pure resistence when Molten Steel is active. Xarofos will
 also lose 40% Stolx regeneration Source while Molten Steel is active. Xarofos will also increase Molten Steel radius by 14% of his Strenght.
-Molten Steel will gain 15% of his Magic resist in bonus damage. Molten Steel will have a coldown to reactivate it and wont be affected
+Molten Steel will gain 12% of his Magic resist in bonus damage. Molten Steel will have a coldown to reactivate it and wont be affected
 by coldown reduction. Xarofos cannot pass more than 80% magic resist gain and 50% Pure resist gain total.
 
-base damage 7 8 9 10 plus 12% of strenght
+base damage 7 8 9 10 plus 11% of strenght
 Magic resistence lost 7% 12% 17% 22%
 base radius of Molten Steel 265 295 325 355
 Stolx cost to Activate 15 20 25 30
-Stolx cost per seconds 9 11 13 15
+Stolx cost per seconds 8 10 12 14
 Coldown 18 17 16 15
 
 talent level 10 Upgrade Molten Steel
-increase magic resist gain by 15%
-increase pure resist gain by 10%
-increase armor lost by 0.3
-reduce Stolx cost per seconds by 4
+increase the base damage by 2
+increase magic resist lost by 5%
+increase the radius by 35
+reduce Stolx cost per second by 2
+reduce the coldown to activated by 4
 
 add a new modifier Holy Flames of the Iron Lord  -will be change-
 Range units that attack Xarofos while he is in Molten Steel will take 100% more HIT damage and they will lose 175 attack range for 2.5
@@ -126,14 +127,14 @@ have increase stun duration with increase damage as well and while they are stun
 armor while he is Charging and it will last for 3 seconds after he is done charging. Each enemys hit will grant him bonus health regeneration
 that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration with the increase added
 stun duration. Reduce Iron Charge coldown by 0.3 for every auto attack done and increase its base damage by 2% for 6 seconds as well, each
-stacks got their own duration.
+stacks got their own duration. The target stun by Iron Blast will stop Xarofos charging.
 
 base damage 20 30 40 50+25% of Strenght
 increase damage if stun 15 30 45 60+15% of Strenght
 increase stun duration if stun by Iron Blast 0.4 0.6 0.8 1.0
 increase armor while in charge by 8 12 16 20
 health regeneration per enemy hit 4.3 6.5 8.7 10.9
-coldown 27 25 23 21
+coldown 23 21 19 17
 mana cost 30 60 90 120
 
 
@@ -151,16 +152,16 @@ them 35% of the armor he gain when he is charging for 9 seconds. Upon finishing 
 Blast with all of its effect and dealing 20% increase damage as well, enemys will also be force to attack him for 2.5 seconds and for
 the duration they attack him, they will do 75% less damage to him. Each enemys hit with Iron Charge will increase its base damage by 1
 up to 15 bonus damage. At 10 bonus damage Xarofos will gain 12% magic resistence and 80 movespeed also gaining Phase, With the Phase
-bonus buff, he will deal 30% of his strenght into damage when he pass inside of enemys and slowing them by 80% for 1.5 seconds, can only
+bonus buff, he will deal 35% of his strenght into damage when he pass inside of enemys and slowing them by 80% for 1.5 seconds, can only
 happen every 5 seconds, work with the charge as well. Xarofos will lose 5 stacks if he doesnt hit anyone, he will also lose 1 stack every
-time he gets slow for 3.5 seconds at least.
+time he gets slow for 4.5 seconds at least.
 
 
 PASSIVE D OR F Infuse Iron Body (damage return work like return passive from centaur and not like specter)
 Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
 gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
 regeneration. He also increase all source of Health regeneration on him and for his allys for 50% of his bonus in a 1200 radius, Xarofos
-will also gain 1 bonus Movespeed for every 60 50 40 30 current health he got (Ignore the max speed cap up to 665 movespeed cap).
+will also gain 1 bonus Movespeed for every 75 70 65 60 current health he got (Ignore the max speed cap up to 665 movespeed cap).
 
 damage reflected 8% 9% 10% 11%
 Health bonus 8% 12% 16% 20%
@@ -193,12 +194,12 @@ gaining bonus strenght as well but reducing his Agility to 0 for the duration of
 his Iron Blast and Iron Charge (some talents will have bonus effect for those 2 new spells ). Molten Steel will also be in effect while
 in Titan Form, having no mana cost, gaining increase radius and also increasing the base value of the armor cap while in Molten Steel by
 6 10 14. He also gain some Stolx Mana regeneration While in Titan Form. Each cast of Iron Blast and Iron Charge will reduce the coldown
-of Titan Form by 0.5 seconds.
+of Titan Form by 0.3 seconds.
 
-Status Resistence 25% 40% 55%
+Status Resistence 25% 35% 45%
 Bonus health from Strenght 3 5 7
-bonus Strenght 45 60 85
-bonus Stolx regeneration 3.5 6.0 8.5
+bonus Strenght 30 50 70
+bonus Stolx regeneration 3.5 5.5 7.5
 Molten Steel radius bonus 10% 15% 20%
 duration 60 seconds
 coldown 210 200 190
@@ -211,12 +212,12 @@ the duration of Titan Form.
 
 SPELL Q Molten KnockUp - Physical -- While in Titan Form
 Xarofos will Knockup every enemys near him, dealing high amount of damage and dealing Medium damage per 0.5 seconds to them and reducing
-their armor by 40% of Xarofos total armor himself, enemys will also be force to attack him for 3.2 seconds and every time they attack
-him for that short duration, they will lose 0.4% of their max health every time. (bosses will lose 0.1% of their max health instead)
+their armor by 15% of Xarofos total armor himself, enemys will also be force to attack him for 3.2 seconds and every time they attack
+him for that short duration, they will lose 0.4% of their max health every time, bosses cannot be taunted by Molten KnockUp.
 
-Knockup damage 40 65 90+40% 60% 80% of Strenght
-Molten Burn damage 8 10 12+15% of Strenght every 0.5 seconds
-Base armor lost 3 5 7
+Knockup damage 40 65 90+45% 60% 75% of Strenght
+Molten Burn damage 8 10 12+15% of Strenght
+Base armor lost 1 3 5
 debuff duration 4 5 6 seconds
 radius 475 550 625
 coldown 9 8.5 8
@@ -228,7 +229,7 @@ and also disabling their passive with reducing their overall damage as well, the
 behind him for 50% of the damage he took and stun them as well for 50% of the duration of the normal stun. the Primary target is stun
 while he is getting push back. (The Stun Duration on the primary target tell how much time they get push for)
 
-base damage 75 100 125+80% 90% 100% of Strenght
+base damage 75 100 125+60% 80% 100% of Strenght
 Overall damage reduce 15% 25% 35%
 Pushback Force Speed 630 700 770 units max
 stun duration 1.8
@@ -237,10 +238,12 @@ coldown 14 13 12
 mana cost 60 80 100
 
 Talent level 40 upgrade Titan Form.
-reduce the coldown of both skills by 1
-increase the damage of both skills by 35
-increase the debuff duration of both skill by 1
-increase the coldown of Titan Form by 15
+Increase The Strenght bonus gain by 30
+Increase the Status resistence gain by 10%
+Increase both skill base damage by 25
+Increase both skill scaling damage by 15%
+Reduce both skill coldown by 1 second
+Reduce Titan Form coldown by 15 seconds.
 
 add a new modifier Attero Dominatus
 Xarofos Will gain a 7 Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 16% and
