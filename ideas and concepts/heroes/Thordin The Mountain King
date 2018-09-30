@@ -48,8 +48,9 @@ Thordin Throw his hammer at the target dealing insane amount of damage, the dama
 the target magic resist and armor for a medium duration. They also get stun for 2 3 4 5 seconds, half on bosses. Thordin will lose his
 Hammer when casting Storm Bolt, losing 70% base attack damage until he picks up his hammer gaining a 30% bonus attack damage for 3.5
 seconds. His hammer will stay on the ground for 15 seconds after that timer ends, it will come back to him without giving him the buff.
+He also reduce the coldown of Storm Bolt by 8 after he pickup his hammer.
 
-base damage 20 40 60 80+25% 35% 45% 55% of Strenght
+base damage 20 40 60 80+25% 40% 55% 70% of Strenght
 magic resist lost 8% 13% 18% 23%
 armor lost 4 7 10 13
 debuff duration 4.0 4.5 5.0 5.5
