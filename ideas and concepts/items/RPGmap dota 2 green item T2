@@ -5,13 +5,17 @@ Superior Branch
 
 item needed Iron Brach, Leaf Branch, Wisdom Branch
 
-increase all stats with life and mana regeneration and movement speed
+increase all stats with life and mana regeneration and movement speed. The User will gain a passive that will increase allys armor, magic
+resist and spellamp. The Aura will not affect the user himself.
+
+Passive item use Branch Power
+increase allys armor by 2.5, Magic resist by 7% and their Spellamp by 4.2% in a 900 radius.
 
 2-4 to all stats
 0.5-1.2 life-regen
 0.5-1.2 mana-regen
 7-15 attackspeed
-3% resist to Poison, Fire, Frosts.
+
 
 
 Earth Ring gold 400
@@ -44,7 +48,7 @@ attack speed enemy -8
 movement speed enemy -4%
 
 
-Soul GREEN cant buy
+Lesser Soul
 give bonus damage, stats, spellamp and lifesteal with spellvamp
 
 damage 1-5
@@ -54,7 +58,7 @@ life steal 2%-4%
 spell vamp 2%-4%
 
 
-Lesser Infernal Stone gold 1000 GREEN
+Lesser Infernal Stone gold 1000
 summon infernal unit to aid you in fight, the infernal scale base on your stats, the infernal also got 2 spell and 1 passive can be upgrade
 
 Active use item
@@ -109,7 +113,7 @@ Pure resist per enemys 3%
 health regeneration per enemys 0.7
 radius 315
 
-Seed of Life GREEN
+Seed of Life
 increase user healing amp mana-regeneration and mana, can also be activated to heal a target
 
 Active use item coldown 20 mana cost 85
