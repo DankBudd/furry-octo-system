@@ -5,7 +5,7 @@ reduce the xp gain when above their level by 10% up to 30% reduction
 
 they all have 100 base attack speed and have 1.7 base attack time as well
 
-Centaur Warrior level 1-7 melee Normal Type, xp gain 20 to 40
+Centaur Warrior level 1-7 melee Normal Type, xp gain 8 to 52
 health 90 to 325
 mana 40 to 120
 magic resist 2% to 10%
@@ -27,7 +27,7 @@ the Centaur will charge forward after 1.4 second of delay 700 range dealing 15% 
 damage and if does hit his target he will stun himself for 1.5 second and taking 10% extra damage
 
 
-Centaur Shaman level 1-8 range 475 Normal Type, xp gain 12 to 56
+Centaur Shaman level 1-8 range 475 Normal Type, xp gain 12 to 67
 health 75 to 290
 mana 90 to 350
 magic resist 5% to 10%
@@ -52,8 +52,8 @@ the Centaur Shaman will heal up to 3 target jumping every 0.8 second and having 
 pure damage for 4 seconds
 
 
-Skeleton Warrior level 1-10 melee Undead Type, xp gain 15 to 82
-health 70 to 475
+Skeleton Warrior level 1-10 melee Undead Type, xp gain 11 to 95
+health 72 to 479
 no mana
 magic resist -10% to -5%
 armor 2 to 7
@@ -69,13 +69,14 @@ they die again
 
 Passive Leaching Strike
 the Skeleton warrior will have 20% chance to deal 135% bonus damage on attack and Stealing 7 8 9 10 11 12 13 14 15 16 17 max health from
-the target and giving it to it self, the buff will last until death and the debuff of the lost health on the heroes will last 18 seconds
+the target and giving it to it self, the buff will last until death and the debuff of the lost health on the heroes will last 35 seconds
 
 Passive Skeleton Being
 Skeleton cannot be lifesteal or be spellvamp AND they also cannot lifesteal, spellvamp and they cannot be heal as well. They only 
-able to regenerate life with regeneration spell or passives. healing reduction will last 40% longer on them.
+able to regenerate life with regeneration spell or passives. healing reduction will last 40% longer on them and regeneration effect will
+have 50% increase bonus.
 
-Lesser Fire Elemental level 2-8 range 285 Elemental Type, xp gain 17 to 71
+Lesser Fire Elemental level 2-8 range 285 Elemental Type, xp gain 21 to 91
 health 63 to 354
 mana 142 to 261
 magic resist 2% to 8%
@@ -88,16 +89,16 @@ mana regeneration 1.6 to 3.2
 Spell Lesser Fire Bolt mana cost 25 30 35 40 45 50 55 60 coldown 9
 the Fire Elemental charge up a fire bolt after 0.7 seconds he will lunch the fire bolt dealing 11 14 17 20 23 26 29 32 in Magical Fire
 damage it also got 50% chance to burn the target for 4 plus 0.8% of its max mana every 0.7 seconds in magical fire damage that last 7
-seconds, heroes that are on fire lose 4% magic resist and 2 armor.
+seconds, heroes that are on fire lose 9% magic resist and 3 armor.
 
 Passive Fire Skin
 Heroes that Hit the Fire Elemental with a basic attack or physical spell that have less than 240 range will get burn for 8 10 12 14 16
 18 20 22 plus 0.3% of their max health in Magical Fire damage, Fire Skin will only Burn the Target every 4 seconds since he need to 
-recharge his burning Skin again, while it on coldown he gain 5% damage reduction and 10% move speed.
+recharge his burning Skin again, while it on coldown he gain 15% damage reduction and 18% move speed.
 
 Passive Elemental Being
 Debuff Durations will last only 60% of their duration on Elementals and their attack are alway magical (not for Earth elementals) and
-they gain a 10% bonus resist versus pure damage.
+they gain a 10% bonus Pure resist.
 
 
 
