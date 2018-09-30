@@ -2,25 +2,25 @@ list of white items can be drop at any levels
 
 
 Iron Branch gold 100
-increase strenght and life regeneration with some fire resist
+increase strenght and life regeneration with some Armor
 
 1 to strenght
 0.3 life-regen
-4% fire resist
+1 to armor
 
 Leaf Branch gold 100
-increase agility and movement speed with some poison resist
+increase agility and movement speed with some Magic resist
 
 1 to agility
 3 attackspeed
-4% poison resist
+3% to magic resist
 
 Wisdom Branch gold 100
-increase intelligence and mana regeneration with some frost resist
+increase intelligence and mana regeneration with some spellamp
 
 1 to intelligence
 0.3 mana-regen
-4% frost resist
+2% to spellamp
 
 Elemental Dust
 increase the user life regen and mana with some pure resist also giving a chance to deal bonus damage
@@ -59,7 +59,7 @@ Flint gold 170
 reduce base attack time with any weapons also deal bonus damage
 
 Passive item use
-basic attack got 45% chance to deal 3 pure damage
+basic attack got 65% chance to deal 3 pure damage
 
 BAT reduce 0.05
 
@@ -86,7 +86,7 @@ Crack Stone gold 40
 increase the user spell amp and mana
 
 spell amp 1%
-mana 30
+mana 50
 
 
 Lucky Hard Rock gold 55
@@ -109,7 +109,8 @@ BAT 1.85
 
 
 Stout Shield gold 95
-MELEE HERO ONLY- the user got a chance to block physical damage and increase armor and also increasing magic resist
+MELEE HERO ONLY- the user got a chance to block physical damage and increase armor and also increasing magic resist. The block will
+stack with other source of block damage (the chance block will not stack, only the higher block chance will be in effect)
 
 Passive item use
 the user got 35% chance to block 4 physical damage
