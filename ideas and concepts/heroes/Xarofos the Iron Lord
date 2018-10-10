@@ -1,7 +1,7 @@
-Starting stats 15 strenght, 15 agility, 0 inteillgence, Stats gain per level, 1.50 Strenght, 0.50 Agility, 0.00 Inteillgence.
+Starting stats 10 strenght, 15 agility, 0 inteillgence, Stats gain per level, 1.50 Strenght, 0.50 Agility, 0.00 Inteillgence.
 Base movespeed 265, Base attack damage 6-11, Base Regeneration Health 2.1, Base Regeneration Stolx 0.5.
 
-total base stats at level 40 - 75 Strenght - 35 Agility - 0 Inteillgence -
+total base stats at level 40 - 70 Strenght - 35 Agility - 0 Inteillgence -
 
 
 LEVEL 30 TALENT will be change
@@ -79,10 +79,10 @@ increase attack speed gain by 25
 reduce Stolx cost by 10
 
 add a new modifier Colossus Blast
-Iron Blast stun cannot be resisted by any means and enemys that are stun will take 11% of Xarofos armor and strenght in damage every
+Iron Blast stun cannot be resisted by any means and enemys that are stun will take 9% of Xarofos armor and strenght in damage every
 0.3 seconds of stun duration. Iron Blast will also become a area of effect around him instead of being infront of him, if the enemys
 take more than 10% of their max health durring the stun they will lose 35% attack damage and take 65% increase damage from Physical
-Source for 2.0 seconds. Increase Iron Blast base damage by 1 for every 4 or more unit stun in one cast max stack of 10. At 4 stacks,
+Source for 2.0 seconds. Increase Iron Blast base damage by 1 for every 3 or more unit stun in one cast max stack of 10. At 4 stacks,
 increase Iron Blast radius by 70 and also reduce it coldown by 2. At 8 Stacks, Xarofos will gain 8% max health and Iron Blast will heal
 him by 15% of his strenght and armor for every unit hit by Iron Blast and his Auto attacks as well. he will lose 1 stack if he doesnt
 stun 2 or more target (Single target for bosses will not lose stack from it) and he also lose 1 stack if he take 22% of his health in
@@ -93,49 +93,54 @@ ACTIVE TOGGLE SPELL W Molten Steel - Pure
 Xarofos will become a body of Moving Molten Steel reducing his Armor in exchange to gain massive amount of magic resistence and a small
 amount of pure resistence as well. Enemys will also take damage every 1.5 seconds in Magical when they are near Xarofos and he will
 reduce their Magic resistence as well when they stand close to him. Xarofos cannot lose more than 4 6 8 10 armor when Molten Steel is
-active. Every 1 armor Molted will give 0.50% 0.70% 0.90% 1.10% magic resistence and every 1 armor Molted will also give 0.10% 0.20% 0.30%
-0.40% Pure resistence and he will also gain a base of 3% 4% 5% 6% of Magic and Pure resistence when Molten Steel is active. Xarofos will
+active. Every 1 armor Molted will give 0.50% 0.65% 0.80% 0.95% magic resistence and every 1 armor Molted will also give 0.20% 0.25% 0.30%
+0.35% Pure resistence and he will also gain a base of 3% 4% 5% 6% of Magic and Pure resistence when Molten Steel is active. Xarofos will
 also lose 40% Stolx regeneration Source while Molten Steel is active. Xarofos will also increase Molten Steel radius by 14% of his Strenght.
 Molten Steel will gain 12% of his Magic resist in bonus damage. Molten Steel will have a coldown to reactivate it and wont be affected
-by coldown reduction. Xarofos cannot pass more than 80% magic resist gain and 50% Pure resist gain total.
+by coldown reduction. Xarofos cannot pass more than 70% magic resist gain and 45% Pure resist total while Molten Steel is active.
 
 base damage 7 8 9 10 plus 11% of strenght
 Magic resistence lost 7% 12% 17% 22%
-base radius of Molten Steel 265 295 325 355
+base radius of Molten Steel 270 290 310 330
 Stolx cost to Activate 15 20 25 30
-Stolx cost per seconds 8 10 12 14
+Stolx cost per seconds 4 8 12 16
 Coldown 18 17 16 15
 
 talent level 10 Upgrade Molten Steel
 increase the base damage by 2
 increase magic resist lost by 5%
-increase the radius by 35
+increase the radius by 40
 reduce Stolx cost per second by 2
 reduce the coldown to activated by 4
 
-add a new modifier Holy Flames of the Iron Lord  -will be change-
-Range units that attack Xarofos while he is in Molten Steel will take 100% more HIT damage and they will lose 175 attack range for 2.5
-seconds (cant go lower thand 275 attack range). All of his Spell will also do 15% of their damage in Pure while he stay in Molten Steel,
-If he does stay for 15 seconds in Molten Steel he will gain 25% Pure Resist and 10% magic resist for 7 seconds, After he stop useing
-Molten Steel the buff will start to fade away, Also increase his health regeneration source bonus by 45% but further reduce his mana
-regeneration by 15% when in Molten Steel.
+add a new modifier Holy Flames
+Xarofos will reduce all range Magical damage by 15% if Molten Steel is not activated and if its activated, Xarofos will reduce all range
+physical damage by 15%. Molten Steel will also gain 2 bonus radius every 0.5 seconds that its active up to 200 max limit and also increasing
+the damage by 0.3% as well up to 30% max. If any enemys dies within Molten Steel radius, it will empower Molten Steel increasing its radius
+by 1 and also increasing Xarofos health by 7, max of 40 stacks. At 8 stacks, Molten Steel will gain 3 base damage increase and it will
+also reduce overall damage from enemys by 7%. At 19 stacks, Molten Steel will give Xarofos 20% damage reduction for 3.5 seconds after
+being activated and also make Molten Steel spellvamp for 18% of the damage dealt. At 31 Stacks, Reduce Molten Steel Stolx regeneration
+penalty by 10% and allys within Molten Steel radius will be heal for 50% of its total damage and also increase its total radius by 5%.
+Xarofos will lose 50% of his stacks upon death and 3 stacks if he gets silence under Molten Steel.
+
 
 
 SPELL E Iron Charge - Physical
 Xarofos charge foward in a line dealing high physical damage, they will be ministun for 0.2 but if they are Stun by Iron Blast it will
-have increase stun duration with increase damage as well and while they are stun, they will lose 30 armor. Xarofos will gain increase
+have increase stun duration with increase damage as well and while they are stun, they will lose 20 armor. Xarofos will gain increase
 armor while he is Charging and it will last for 3 seconds after he is done charging. Each enemys hit will grant him bonus health regeneration
 that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration with the increase added
 stun duration. Reduce Iron Charge coldown by 0.3 for every auto attack done and increase its base damage by 2% for 6 seconds as well, each
-stacks got their own duration. The target stun by Iron Blast will stop Xarofos charging.
+stacks got their own duration. The target stun by Iron Blast will stop Xarofos charging. Xarofos Charge will not be stop if the target is
+not stun by Iron Blast, he will still charge foward ministuning his enemys in his paths.
 
 base damage 20 30 40 50+25% of Strenght
 increase damage if stun 15 30 45 60+15% of Strenght
 increase stun duration if stun by Iron Blast 0.4 0.6 0.8 1.0
-increase armor while in charge by 8 12 16 20
+increase armor while in charge and after by 8 12 16 20
 health regeneration per enemy hit 4.3 6.5 8.7 10.9
 coldown 23 21 19 17
-mana cost 30 60 90 120
+Stolx cost 30 60 90 120
 
 
 talent level 20 upgrade Iron Charge
@@ -143,9 +148,9 @@ increase the base damage by 10
 increase the base damage scaling by 5%
 increase the armor gain while charging by 5
 increase health regeneration gain per hit by 4.1
-increase mana cost by 45
+increase Stolx cost by 45
 
-add a new modifier Holy Charge
+add a new modifier Steel Charge -will be change- the passive talent will work on how much raw armor he has.
 While he is Charging, he will Ignore all form of range attacks and reflect them back at them, those range attack reflected will only
 deal 25% of its damage and effect. If Xarofos pass on any allys when Charging, he will heal them by 8% of their max health and give
 them 35% of the armor he gain when he is charging for 9 seconds. Upon finishing the charge at the target location, he will cast Iron
@@ -157,7 +162,7 @@ happen every 5 seconds, work with the charge as well. Xarofos will lose 5 stacks
 time he gets slow for 4.5 seconds at least.
 
 
-PASSIVE D OR F Infuse Iron Body (damage return work like return passive from centaur and not like specter)
+PASSIVE D OR F Infuse Iron Body -will have a small change-
 Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
 gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
 regeneration. He also increase all source of Health regeneration on him and for his allys for 50% of his bonus in a 1200 radius, Xarofos
@@ -177,7 +182,7 @@ increase health regeneration bonus by 15%
 increase health regeneration per stack by 0.1
 increase stack duration by 0.7
 
-add a new modifier Iron Will
+add a new modifier Iron Will -will have a small change
 Xarofos cannot lose armor from debuff cause by the enemys but the enemys will alway do 10% of their damage in Pure on him with anything
 and make his Health regeneration bonus Source Global and giving the same amount that Xarofos gets instead of reducing it by 50%, all
 Movespeed slow or Armor lost debuff will Enrage Xarofos giving him 7 bonus armor with 15% increase movespeed and 0.85 reduce base
@@ -203,7 +208,7 @@ bonus Stolx regeneration 3.5 5.5 7.5
 Molten Steel radius bonus 10% 15% 20%
 duration 60 seconds
 coldown 210 200 190
-mana cost 65
+Stolx cost 65
 
 -
 When in Titan Form this https://www.youtube.com/watch?v=fLMfebz9eWk&list=PLhNV2nTV_ROuIpDuJPeTcdshmfhNeVhwg&index=12 will play out for
@@ -221,7 +226,7 @@ Base armor lost 1 3 5
 debuff duration 4 5 6 seconds
 radius 475 550 625
 coldown 9 8.5 8
-mana cost 35 45 55
+Stolx cost 35 45 55
 
 SPELL E Iron Fist - Physical -- While in Titan Form
 Xarofos will Fist the target enemy dealing Insane damage and Breaking them, disabling all form of healing and regeneration on them
@@ -235,7 +240,7 @@ Pushback Force Speed 630 700 770 units max
 stun duration 1.8
 debuff duration 4.5 6 7.5 seconds
 coldown 14 13 12
-mana cost 60 80 100
+Stolx cost 60 80 100
 
 Talent level 40 upgrade Titan Form.
 Increase The Strenght bonus gain by 30
@@ -246,7 +251,7 @@ Reduce both skill coldown by 1 second
 Reduce Titan Form coldown by 15 seconds.
 
 add a new modifier Attero Dominatus
-Xarofos Will gain a 7 Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 16% and
+Xarofos Will gain a new Spell while in Titan Form call Attero Dominatus, Molten KnockUp will reduce the enemys Magic resist by 16% and
 make them take 35% increase damage from Pure damage type, Molten KnockUp will also Ignore Magic Immune enemys for the damage and when
 they are Magic Immune they will take 100% increase damage from Molten KnockUp, Iron Fist will also deal 8% of Xarofos health in bonus
 damage and have 50% more scaling from his Armor as well, the Damage will Become Pure instead of physical and also making the enemys
@@ -272,22 +277,26 @@ no mana cost
 level 1 talent
 -
 increase strenght gain by 0.2 every level and also increase strenght by 5, Increase Iron Blast and Iron Charge scaling strenght by 10%
-but increase their mana cost by 15. Also make them have 12% chance to restore 5% of Xarofos Stolx.
+but increase their mana cost by 15. His Iron Blast and Iron Charge will have 30% chance to deal 15% increase damage on their next cast
+and also restoring Xarofos health by 2% as well.
 -
-increase agility gain by 0.2 every level and also increase agility by 5, Xarofos will gain 3 Armor after casting any spells and further
-increase that bonus by 1 for every 15 Agility Xarofos got and for every 35 Agility Xarofos will gain 25 Stolx as well.
+increase agility gain by 0.2 every level and also increase agility by 5, Xarofos will gain 4 Armor after casting any spells and further
+increase that bonus value by 1 for every 12 Agility Xarofos got and for every Agility points, Xarofos will gain 4 Health bonus as well.
+The buff will last 3.5 seconds and will increase by 0.1 seconds for every 4 Agility points.
 -
-increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.3 and Agility with Strenght by 3,
-Xarofos will reduce the mana cost of his spells by 25% and also reducing their coldown by 1.0 seconds
+increase Agility and Strenght gain by 0.1 every level and also increase Stolx mana regeneration by 0.75 and Agility with Strenght by 3,
+Xarofos will reduce the Stolx cost of his spells by 25% and also reducing their coldown by 1.0 seconds. He also gain 5 Stolx after
+casting a spell, further increasing his max Stolx pool for 60 seconds and further increasing its duration by 0.1 seconds for every points
+of strenght and agility
 -
 level 4 talent
 -
 Increase Iron Blast base damage by 3 and its Cleave/Blast radius by 40. Iron Blast will give Xarofos 17+6% of his Strenght into a base
 heal, further increase the bonus healing gain by 4+2% of his Strenght for each enemy hit increasing the total healing. Also increase
-all healing effect by 15% and further increase it by 10% in Molten Steel.
+all healing effect by 15% and further increase it by 10% while in Molten Steel.
 -
-Increase Agility and Strenght by 10 but reduce Xarofos Stolx by 30 and his Stolx regeneration by 0.35, Xarofos Iron Charge and Iron Blast
-will gain 12% of his Agility into bonus base damage but also increase their mana cost by 10. Xarofos will reduce the mana cost activation
+Increase Agility and Strenght by 10 but reduce Xarofos Stolx by 40 and his Stolx regeneration by 0.35, Xarofos Iron Charge and Iron Blast
+will gain 20% of his Agility into bonus base damage but also increase their mana cost by 10. Xarofos will reduce the mana cost activation
 of Molten Steel by 5 and its mana drain by 2.
 -
 Increase Molten Steel radius by 25 and its burn base damage by 2. Molten Steel will give Xarofos 15% movespeed and 3% damage reduction
@@ -327,13 +336,16 @@ well, Xarofos will also gain 10% movespeed and 0.2% health regeneration after he
 level 19 talent
 -
 Increase health by 375 and health regeneration Source by 25%, enemys that Spellvamp or Lifesteal Xarofos will be Iron Poison, dealing
-20% of Xarofos armor every 0.3 seconds and while they are Iron Poison, reduce all healing effect by 12%, the debuff last 1.2 seconds and
-deal Pure damage. Xarofos will also become immune to spellvamp and lifesteal effect on him by enemys.
+20% of Xarofos armor every 0.3 seconds and while they are Iron Poison, reduce all healing effect by 60%, the debuff last 1.2 seconds and
+deal Pure damage. Xarofos will also become immune to spellvamp and lifesteal effect by enemys, making them have no benefits from those
+effects.
 -
+will be change
 Increase Molten Steel damage every 2 second by 4 and its scaling by 2%, also Reduce Molten Steel mana cost per seconds while active by 1
 and Xarofos will gain 0.1% movespeed every time he damage any enemys with Molten Steel up to 35% movespeed bonus last until Molten Steel is
 Deactivated and at 25% movespeed gain Xarofos will also gain 5% damage reduction and 0.1% health regeneration
 -
+will be change
 Change Iron Blast damage to Magical and increase spellamp bonus gain from it by 50%, Iron Blast will alway deal 35 damage or Higher
 (cannot go below 25 damage meaning that Iron blast will alway deal 35 if the target has 99% damage reduction) also increase his strenght
 by 15 and his Stolx regeneration by 0.7
@@ -347,34 +359,41 @@ upgrade passive
 level 23 talent
 -
 Increase Iron Blast and Iron Charge scaling by 12% (Iron Charge will have this Scaling on Both damage) and reduce their mana cost by 10,
-Enemys will always lose 5 armor if they get hit by those 2 spells for 4 seconds after the debuff ends, they will take 40% of Xarofos
-Strenght and armor in Physical damage.(the debuff can be refresh by Iron Charge or Iron Blast again reducing 7 armor for 5 seconds
-instead)
+Enemys will always lose 4 armor if they get hit by those 2 spells for 3.5 seconds after the debuff ends, they will take 40% of Xarofos
+Strenght and armor in Physical damage.
 -
+will be change
 Reduce Titan Form coldown by 10 and increase the health gain by 300 and the Status resistence by 10%, Xarofos cannot be Slowed in Titan
 Form, and he will no longer lose his Agility in Titan Form
 -
+will be change
 Increase Physical damage by 25% and make them do 0.5% of the enemys max health in Pure damage and reduce their Overall damage by 10% for
 3.5 seconds, Xarofos will increase the Casts range of Iron Charge by 500 and reduce its coldown by 8.
 -
 level 26 talent
 -
+will be change
 increase spell amp by 12% and health by 10%, this bonus increase when chosing the offensive talent at level 30 having 8% more spell
 amp bonus and 5% more health bonus if Defensive talent is pick increase Primary stat by 4%
 -
+will be change
 increase Mana by 10% and attack damage by 18, this bonus increase when chosing the defensive talent at level 30 having 5% more Mana and
 7 more damage bonus, if Offensive talent is pick increase Primary stat by 4%
 -
+will be change
 increase the items Attributes bonus gain by 25% and reduce their cooldown active by 20%, also increase move speed by 8% and movespeed
 limit by 75
 -
-Increase Xarofos Iron Blast and Iron Charge mana cost by 65 but increase their base damage by 15 and reduce their coldown by 2, Molten
-Steel will gain 3% scaling Strenght on both damage type, Xarofos will also gain 7 Agility and Strenght.
+Increase Xarofos Iron Blast and Iron Charge mana cost by 65 but increase their base damage by 25 and reduce their coldown by 2, Molten
+Steel will gain 4% scaling Strenght and 45 radius but increase its Stolx cost per seconds while active by 5. Xarofos will also gain 7
+Agility and 10 Strenght.
 -
 level 29 talent
 -
+will be change
 Increase Magic resist and Pure resist by 10%, Further increase this bonus by 15% and gain 0.3% health regeneration while in Titan Form
 -
+will be change
 increase armor by 3 and magic resist by 10% increase this bonus by 2 bonus armor and 5% bonus magic resist for every 5 level above level
 30
 -
