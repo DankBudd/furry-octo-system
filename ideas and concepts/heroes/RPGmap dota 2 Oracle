@@ -52,20 +52,21 @@ cooldown 14
 mana cost 100 200 300 400
 
 talent level 10 upgrade Time Shield
-increase Shield duration by 0.3
-increase healing restore by 7%
+increase Shield duration by 0.2
+increase healing restore by 9%
 increase mana restore by 3%
 increase mana cost by 150
-reduce cooldown by 3
+reduce cooldown by 2
 
 add a new modifier Shield Fate
 Time Shield will become a 280 Area of Effect instead of a Single target (Cannot effect non-hero units) and for every target affected by
 Time Shield, it will increase its duration by 0.1, health restore by 3% and explosion damage by 8%. Oracle will gain Fated Time stacks
 for every target put under Time Shield, each stacks will give 2 health and 4 mana to Oracle. At 35 stacks, Oracle will gain 12% Spellamp
 and Healing amp and also Increase the Area of Effect of Time Shield by 15% of Oracle Inteillgence. At 60 stacks, Time Shield will gain 60
-Area of Effect bonus and also increasing the Explosion base damage by 6. at 110 Stacks, Time Shield will Further gain 0.1 duration bonus
-for every units affected by it and also increasing the damage reduction bonus by 10%. Max stack of 135 and Oracle will lose 50 stack on
-death. (Oracle will no longer be Shield for double the duration)
+Area of Effect bonus and also increasing the Explosion base damage by 6. at 110 Stacks, Time Shield will gain 0.1 increase duration per
+allys put under Time Shield instead of 0.15 seconds increase and also increase the damage reduction bonus by 5% if the target is heal for
+10% of his max health, also increase Oracle health by 5% and his movespeed by 25. Max stack of 135 and Oracle will lose 50 stack on death.
+(Oracle will no longer be Shield for double the duration).
 
 SPELL W Mind Blast
 Oracle Primary tool of damage. Deal high damage to a target reducing their overall damage and also reducing their magical resistence.
@@ -73,12 +74,12 @@ The target will also get fear after 2.5 seconds of delay, they will be fear for 
 they will take 40% 55% 70% 85% increase damage from all source. If the target damage or hit Oracle before they get Fear, they will lose
 the Fear debuff.
 
-Base damage 9 15 21 28 Plus 40% of Inteillgence
-Overall damage reduce 6% 10% 14% 18%
-Magic resist lost 10% 15% 20% 25%
-debuff duration 4.5 5 5.5 6.0
-Coldown 14 13 12 11
-mana cost 75 110 155 190
+Base damage 17 21 25 29 Plus 40% of Inteillgence
+Overall damage reduce 9% 12% 15% 18%
+Magic resist lost 8% 11% 14% 17%
+debuff duration 4.0 4.5 5.0 5.5
+Coldown 17 15 13 11
+mana cost 110 170 230 290
 
 talent level 10 upgrade Mind blast
 increase base damage by 8
