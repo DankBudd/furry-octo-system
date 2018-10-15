@@ -118,10 +118,11 @@ Xarofos will reduce all range Magical damage by 15% if Molten Steel is not activ
 physical damage by 15%. Molten Steel will also gain 2 bonus radius every 0.5 seconds that its active up to 200 max limit and also increasing
 the damage by 0.3% as well up to 30% max. If any enemys dies within Molten Steel radius, it will empower Molten Steel increasing its radius
 by 1 and also increasing Xarofos health by 7, max of 40 stacks. At 8 stacks, Molten Steel will gain 3 base damage increase and it will
-also reduce overall damage from enemys by 7%. At 19 stacks, Molten Steel will give Xarofos 20% damage reduction for 3.5 seconds after
-being activated and also make Molten Steel spellvamp for 18% of the damage dealt. At 31 Stacks, Reduce Molten Steel Stolx regeneration
-penalty by 10% and allys within Molten Steel radius will be heal for 50% of its total damage and also increase its total radius by 5%.
-Xarofos will lose 50% of his stacks upon death and 3 stacks if he gets silence under Molten Steel.
+also reduce overall damage from enemys by 7%. At 19 stacks, Molten Steel will give Xarofos 30% damage reduction for 4.5 seconds after
+being activated and also make Molten Steel spellvamp for 27% of the damage dealt. At 31 Stacks, Reduce Molten Steel Stolx regeneration
+penalty by 15% and allys within Molten Steel radius will be heal for 40% of its total damage and also increase its total radius by 5%,
+Molten Steel will also reduce enemys healing source by 12% and Xarofos auto attacks will deal 40% more damage to enemys within Molten
+Steel radius. Xarofos will lose 50% of his stacks upon death and 3 stacks if he gets silence under Molten Steel.
 
 
 
