@@ -24,13 +24,13 @@ Mighty Warrior
 give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
 
 BUFF sven will gain 1 damage per 4 Strenght instead of 5 and he also gain 1% lifesteal per 11 Strenght he also reduce Blinds Durations
-by 30%, he also start with 1 armor and 6% magic resist and if sven get stun for more than 1.4 second he will become Enrage having 15%
-increase damage and removing all debuff on him, the damage bonus will last 4.5 second and this effect can only happen every 12 seconds,
-Sven also gain 0.09 health regeneration per 125 health missing, he also gain 0.03 mana regeneration for every 70 current mana missing
+by 30%, he also start with 1 armor and 6% magic resist and if sven get stun for more than 1.4 second he will become Enrage having 20%
+increase damage and removing all debuff on him, the damage bonus will last 7.5 second and this effect can only happen every 40 seconds,
+Sven also gain 0.09 health regeneration per 125 health missing.
 
-DEBUFF sven lose 20% total attack speed,15% movespeed and 60% mana, he take 100% more damage from pure and he can only use Two-Handed 
-weapons type he also lose 0.8% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by
-15% and his attack speed by 20 for 3 second. Any Silence debuff will last 33% longer and will reduce sven total movespeed to 215 for its
+DEBUFF sven lose 25% total attack speed, 10% movespeed and 55% mana, he take 120% more damage from pure and he can only use Two-Handed 
+weapons type he also lose 0.4% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by
+15% and his attack speed by 20 for 3 second. Any Silence debuff will last 33% longer and will reduce sven total movespeed to 265 for its
 duration. Enemys will have 10% chance on dealing damage to deal 0.2% of Sven max health in bonus damage and also burning 0.4% of his
 max mana (the mana burn doesnt damage).
 
@@ -46,7 +46,8 @@ Bloodlust - Physical -
 Sven goes into a Rage increasing his attack damage, attack speed and movement speed for a Short/Medium time he also debuff the enemy
 reducing thier spell damage and making them explode from the inside-out taking massive damage after the debuff end. Sven will also have
 0.15 base attack time reduce for the duration of BloodLust. The Damage dealt will only damage the target it self and not the others near
-him. Increase the duration of BloodLust by 0.1 seconds for every 8 point of Strenght.
+him. Increase the duration of BloodLust by 0.1 seconds for every 11 point of Strenght.The debuff duration will refresh on hit and it last
+2.5 seconds. Each cast of Bloodlust will increase its next manacost by 12% for 16 second duration without limit stacking up.
 
 damage bonus 12 18 24 30
 attack speed 40 55 70 85
@@ -54,20 +55,19 @@ flat movement speed 30 50 70 90
 duration 3.5 4.0 4.5 5.0
 spell damage reduce 18% 22% 26% 30%
 Inside-out base damage 25 40 55 70+25% of strenght
-debuff duration 3 second refresh on hit
-cooldown 22 20 18 16
-mana cost 50 80 110 140 plus 1% of max mana
+cooldown 8
+mana cost 50 65 80 95
 
 talent level 10 upgrade Bloodlust
 increase attack speed by 25
 increase damage bonus by 8
 increase spell damage reduction by 6%
-increase mana cost by 45
+increase mana cost by 35
 
 add a new modifier Pain Without End
 for the duration of BloodLust sven will have 15% bonus damage and having True Strike and reducing all stun effect by 40% on him
 and every time he hit the same enemy, after the 7 hit he will Gut-him-out making them lose 25% max health permanently, they will not
-take  any damage if they are under 75% health however they will not be able to gain that Health they lost making them stuck at 75%
+take any damage if they are under 75% health however they will not be able to gain that Health they lost making them stuck at 75%
 health until death, bosses will only lose 10% max health and having 90% max health. Sven will also gain 1 Strenght for every 75 damage
 dealt in BloodLust Duration up to 15 25 35 45 Strenght gain max for its duration. At the end of BloodLust duration every Stack of
 Strenght gain will heal Sven by 6 8 10 12 Plus 0.1% of his health. Sven will keep 1 strenght if he gain at least 20 over the duration,
