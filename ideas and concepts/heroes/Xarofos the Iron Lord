@@ -26,23 +26,23 @@ Increase overall stats and give a positive and negative buff, pressing Alt will 
 BUFF Xarofos will gain 1 armor every 12 points of strenght and x4 of his armor will be bonus health for him, he also gain 10% stun and
 roots resist. Any silence will Enrage him removing the silence and giving him 25% increase damage and 0.5% health regeneration for 4 second
 .He will start with 5 physical block that stack with other source of block and also reduce manalost of enemy spells by 35%. He start with
-a special armor-chest-peice that cant be change at all, he can wear 2 gloves. All of his spell will do 50% of his armor into bonus damage
-and Molten Steel wont be affected by it.
+a special armor-chest-peice that cant be change at all, he can wear 2 gloves. Iron Blast and Iron Charge will do 50% of his armor into 
+bonus damage and Molten Steel wont have any affects from it.
 
 DEBUFF Xarofos will take 245% increase damage from magical attacks, Pure damage will always do 0.2% of his max health in damage, he doesnt
 gain inteillgence per level and he will alway have 0 in inteillgence as well. All spell or attacks that blind will last 1.5 seconds longer 
 and make him take 35% increase damage from all source for the duration. He will have 0.35 base attack time increase with all glove or fist
-. He cannot use any weapons but fist and gloves. He also lose 15% magic resist. He also need 10 strenght to gain 1 auto attack damage
+. He cannot use any weapons but fist and gloves. He also lose 15% magic resist. He also need 8 strenght to gain 1 auto attack damage
 instead of 5.
 
 Steel Infused Armor Special
 -note- Xarofos will have a special type of mana and any mana gain from item will not increase his mana pool his mana type name will be
 call Stolx Mana. He also doesnt gain mana regeneration from items but the Steel Infused Armor or talents and other special items
 
-Stolx Mana 200 increase by 5 every levels
-Stolx Mana regeneration 1.7 increase by 0.1 every 3 levels
-Health 50 increase by 10 every levels
-increase armor by 1 increase by 0.2 every levels
+Stolx Mana 225 increase by 6 every levels
+Stolx Mana regeneration 1.3 increase by 0.1 every 2 levels
+Health 40 increase by 8 every levels
+increase armor by 1 increase by 1 every 5 levels
 can be use to refill Xarofos Stolx to full and become magic immune for 1.5 seconds. coldown of 65 no mana cost.
 
 Steel Infused can be Upgraded at level 40 with special material, these are the following bonus stats when upgraded.
@@ -113,7 +113,7 @@ increase the radius by 40
 reduce Stolx cost per second by 2
 reduce the coldown to activated by 4
 
-add a new modifier Holy Flames
+add a new modifier Mithril Flames
 Xarofos will reduce all range Magical damage by 15% if Molten Steel is not activated and if its activated, Xarofos will reduce all range
 physical damage by 15%. Molten Steel will also gain 2 bonus radius every 0.5 seconds that its active up to 200 max limit and also increasing
 the damage by 0.3% as well up to 30% max. If any enemys dies within Molten Steel radius, it will empower Molten Steel increasing its radius
@@ -128,7 +128,7 @@ Steel radius. Xarofos will lose 50% of his stacks upon death and 3 stacks if he 
 
 SPELL E Iron Charge - Physical
 Xarofos charge foward in a line dealing high physical damage, they will be ministun for 0.2 but if they are Stun by Iron Blast it will
-have increase stun duration with increase damage as well and while they are stun, they will lose 20 armor. Xarofos will gain increase
+have increase stun duration with increase damage as well and while they are stun, they will lose 14 armor. Xarofos will gain increase
 armor while he is Charging and it will last for 3 seconds after he is done charging. Each enemys hit will grant him bonus health regeneration
 that last 7 seconds. When they get stun by Iron Blast and then by Iron Charge, it will refresh that stun duration with the increase added
 stun duration. Reduce Iron Charge coldown by 0.3 for every auto attack done and increase its base damage by 2% for 6 seconds as well, each
