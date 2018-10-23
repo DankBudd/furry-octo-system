@@ -162,22 +162,25 @@ magic resist 4%-7%
 magical damage dealt reduce 15%
 
 Nhantalur Chest-Armor
-increase armor and magic resist with increase health, also block any magical attack as well, part of the Nhantalur set
+increase Magic resist and increase health with increase duration of roots and stun duration cause by the user, also block any magical
+attack as well, part of the Nhantalur set
 
 passive item use Magic Block
-block 25 magical plus 5% of the user primary attributes. Magical spell or Magical attacks cannot be reduced below 12 damage
+block 18 magical plus 7% of the user primary attributes. Magical spell or Magical attacks cannot be reduced below 8 damage
 
-armor 5-9
-magic resist 8%-15%
+Root duration increase 10%-15%
+Stun duration increase 6%-10%
+Magic resist 5%-13%
 health 220-425
 
 Nhantalur Boots
-increase magic resist and mana regeneration with life regeneration as well, every time the user takes magical damage increase his move
-speed and mana with life regeneration resource , part of the Nhantalur set
+increase magic resist and mana regeneration with life regeneration and some movespeed as well, every time the user takes magical damage
+increase his move speed and mana with life regeneration resource , part of the Nhantalur set
 
 passive items use Magic Absorb
-increase movespeed by 20% and health with mana regeneration source by 80% for 2.5 second every time the user takes magical damage
+increase movespeed by 20% and health with mana regeneration source by 45% for 2.5 second every time the user takes magical damage
 
+Movespeed 20-35
 magic resist 3%-6%
 mana regeneration 1.9-2.7
 life regeneration 2.1-4.2
@@ -187,18 +190,18 @@ Meteor Ingot
 increase Spell amp, mana regeneration source, mana, life and cast range also make Magical spell do increase damage and giving them a new
 modifier as well, can also be use to reduce the cooldown and manacost of the next spell casted.
 
-Passive item use Meteor Boost
-all Magical spell will do 6 bonus magic damage and slowing enemys by 14% and making them take 35% extra damage from ULTIMATE spells,
-the debuff last 5 seconds, damage over time spell will make the debuff last 1.4 seconds.
+Passive item use Meteor Boots
+all Magical spell will do 6 bonus magic damage and slowing enemys by 14% and making them take 30% extra damage from ULTIMATE spells,
+the debuff last 5 seconds, damage over time spell will make the debuff last 1.4 seconds and have 50% less bonus damage from Meteor Boots.
 
 Active items use Meteor Power coldown of 25 no mana cost
-reduce the mana cost and coldown of the next spell by 15%. The buff last 10 second
+reduce the mana cost and coldown of the next spell by 17%. The buff last 10 second
 
-spell amp 11%-22%
-mana regeneration source increase 25%-50%
-mana 215-435
-life 190-310
-cast range 110-200
+spell amp 11%-19%
+mana regeneration source increase 25%-40%
+mana 215-375
+life 160-320
+cast range 90-165
 
 
 Shadow Blade
@@ -222,9 +225,9 @@ also gain extra magical damage base on his base attack damage as well. Can be us
 and also increasing the damage they take from pure damage and physical damage.
 
 Passive item use Magic Infused
-Auto Attacks will deal 14+8% of his base attack damage into magical damage on hits.
+Auto Attacks will deal 14+8% of base attack damage into magical damage on hits.
 
 Active item use Brute Magic coldown of 60 seconds no mana cost
-The next attack will deal 50+35% of Agility in pure damage and also increasing the damage they take from Pure and Physical damage by 25%
-for 11.5 seconds
+The next attack will deal 40+15% of Attributes in pure damage and also increasing the damage they take from Pure and Magical damage by 25%
+for 7.5 seconds
 
