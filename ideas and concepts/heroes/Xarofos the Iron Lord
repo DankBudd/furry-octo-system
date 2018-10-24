@@ -164,21 +164,23 @@ time he gets slow for 4.5 seconds at least.
 
 
 PASSIVE D OR F Infuse Iron Body -will have a small change-
-Increase Xarofos health and armor, Xarofos will also Reflect damage he takes to his attacker spell or normal attacks, he will also
-gain some health regeneration every time he gets hit and having a short duration but refreshing upon getting a new stack of health
-regeneration. He also increase all source of Health regeneration on him and for his allys for 50% of his bonus in a 1200 radius, Xarofos
-will also gain 1 bonus Movespeed for every 75 70 65 60 current health he got (Ignore the max speed cap up to 665 movespeed cap).
+Increase Xarofos health and armor, Xarofos will damage enemys base on his armor and strenght everytime he takes physical damage and also
+reducing their overall damage for 0.5 seconds. Xarofos will gain some health regeneration every time he gets hit and having a short duration
+but refreshing upon getting a new stack of health regeneration. He also increase all source of Health regeneration on him and for his allys
+for 50% of his bonus in a 1200 radius, Xarofos will also gain 1 bonus Movespeed for every 75 70 65 60 current health he got (Ignore the
+max speed cap up to 665 movespeed cap).
 
-damage reflected 8% 9% 10% 11%
+Damage return 13% 17% 21% 25% of Strenght+Armor
+overall damage reduce 7% 8% 9% 10%
 Health bonus 8% 12% 16% 20%
 Armor bonus 2 5 8 11
 health regeneration bonus 20% 30% 40% 50%
 health regeneration 0.3 per stacks
-max stacks 15 30 45 60
+max stacks 16 32 48 64
 stacks duration 2.4 2.5 2.6 2.7
 
 talent level 20 upgrade Infuse Iron Body
-increase damage reflected by 1%
+
 increase health regeneration bonus by 15%
 increase health regeneration per stack by 0.1
 increase stack duration by 0.7
