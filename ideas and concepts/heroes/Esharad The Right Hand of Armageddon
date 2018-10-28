@@ -58,15 +58,15 @@ Esharad Will gain 8% spellamp, 4% damage reduction, 0.17% mana regeneration and 
 SPELL Q Abyssal Hand
 Esharad will conjure a demonic hand under his target, dealing insane amount of damage and rooting the target in place and reducing his
 Magic resist while he is rooted. If the target has a least -10% magic resist, Abyssal Hand will increase the root duration by 6% 10%
-14% 18% 22% 26% 30% and increasing the total damage by 25%. Abyssal Hand will gain double the bonus from cast range and reduce its total
-mana cost by 1% for every -2% magic and above of 0% from the target. this spell will gain 3.7% increase damage and 7% manacost increase
+14% 18% 22% 26% 30% and increasing the total damage by 25%. Abyssal Hand will gain 50% bonus increase from cast range and reduce its total
+mana cost by 0.7% for every -2% magic and above of 0% from the target. this spell will gain 3.7% increase damage and 7% manacost increase
 for every level of Esharad. Abyssal Hand will cost less mana if the target lost at least -30% magic resist and reduce its by 7 seconds
-if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds plus the root duration. Also increase
+if the target reach a certain amount of health. The magic resist lost will last 3.0 seconds Plus the root duration. Also increase
 Inteillgence and Spellamp for every point in Abbysal Hand
 
 Base damage 24+26% of inteillgence
-Root duration 1.70
-Magic resist lost 15%
+Root duration 1.20 1.30 1.40 1.50 1.60 1.70 1.80
+Base Magic resist lost 16%
 Total Manacost reduce 30%
 Health Threshold 20%
 Bonus Inteillgence 7 11 16 22 26 31 40
@@ -134,21 +134,21 @@ seconds of Channel, also increase Fearing Gaze damage scaling by 6% and reduce i
 
 SPELL E Abbysal Pain
 Esharad curse the target enemys dealing magical damage every 3.0 seconds over 15 seconds of duration, each tick of damage will also
-manaburn the target and further increasing the manaburn by 1.2% 1.6% 2.0% 2.4% 2.8% 3.2% 3.6%, 25% of the manaburn will do magical damage
+manaburn the target and further increasing the manaburn by 1.0% 2.0% 3.0% 4.0% 5.0% 6.0% 7.0%, 30% of the manaburn will do magical damage
 and also having a small chance to give the lost mana from the target to Esharad every tick of damage. Abbysal Pain cannot be Purge and
 it will deal 40% increase damage to target that have less than -20% magic resist and above. this spell will gain 1.7% increase damage and
 8.4% manacost increase for every level of Esharad. Also increase Health and also giving coldown reduction as well.
 
 Base Damage 10+10% of inteillgence
 base Mana burn 15+20% of Inteillgence
-Mana Restore Chance 7% 8% 9% 10% 11% 12% 13%
+Mana Restore Chance 16% 17% 18% 19% 20% 21% 22%
 Bonus Health 65 150 230 310 420 545 685
-Bonus Coldown Reduction 3% 5% 7% 9% 11% 13% 15%
+Bonus Coldown Reduction 8% 10% 12% 14% 16% 18% 20%
 Coldown 40
 Mana cost 225
 
 talent level 15 Upgrade Abbysal Pain
-increase base damamge by 5
+increase base damage by 5
 increase base mana burn by 20
 increase Mana restore chance by 8%
 reduce coldown by 10
