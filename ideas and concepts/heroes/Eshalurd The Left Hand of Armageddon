@@ -190,31 +190,31 @@ Eshalurd Size by 35%, gaining 15% status resistence and 10% damage reduction. Al
 
 
 ULTIMATE Doomed Soul
-Eshalurd doom his target into agony, dealing insane Pure amount of damage every 2.0 seconds each tick reducing the target pure resistence
+Eshalurd doom his target into agony, dealing insane Pure amount of damage every 1.0 seconds each tick reducing the target pure resistence
 and movespeed with attack speed. It also silence the target making them unable to cast spells even if they are magic immune and if they
-are magic immune, they will suffer 25% increase damage from Doomed and the damage over time will change to 1.0 seconds instead of dealing
-damage every 2.0 seconds. When a target enemy is affected by Doomed Soul, Eshalurd will become magic immune and also gaining bonus attack
+are magic immune, they will suffer 25% increase damage from Doomed and the damage over time will change to 0.5 seconds instead of dealing
+damage every 1.0 seconds. When a target enemy is affected by Doomed Soul, Eshalurd will become magic immune and also gaining bonus attack
 damage, spellamp and evasion over the duration of Doomed Soul. Doomed Soul will become active at level 9 and will upgrade at level 17 28.
 the debuff attack speed, movespeed and pure resist lost will last 3.5 seconds and will refresh for every tick of damage. Doomed Soul will
-have 1.2% mana cost increase for every levels of Eshalurd. Doomed Soul will ignore all from of Status resistence.
+have 1.7% mana cost increase for every levels of Eshalurd. Doomed Soul will ignore all from of Status resistence.
 
-base damage 50+25% of Agility and Strenght
-Pure resist lost per tick 2% 4% 6%
-movespeed lost per tick 3% 6% 9%
-attack speed lost per tick 7 11 15
-bonus spellamp 15% 30% 45%
-bonus Evasion 20% 30% 40%
-bonus attack damage 25% 30% 35%
-Duration 6 8 10
+base damage 30 35 40+25% of Agility and Strenght
+Pure resist lost per tick 3% 4% 5%
+movespeed lost per tick 5% 6% 7%
+attack speed lost per tick 14 22 30
+bonus spellamp 30% 40% 50%
+bonus Evasion 10% 20% 30%
+bonus attack damage 30% 35% 40%
+Duration 5
 coldown 50
 mana cost 200 400 600
 
 talent level 40 upgrade Doomed Soul
 increase base damage by 15
 increase spellamp gain by 15%
-increase evasion gain by 10%
-increase attack damage gain by 5%
-increase the duration by 2 seconds
+increase evasion gain by 5%
+increase attack damage gain by 10%
+increase the duration by 1 seconds
 increase mana cost by 150
 
 add a new modifier no idea yet
