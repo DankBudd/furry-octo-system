@@ -39,11 +39,14 @@ and increase all stun duration above 1.0 seconds by 0.5 seconds. Xorn will lose 
 attack damage, he also cannot use any 2handed weapons, he also lose 75% max mana.
 
 Speed Horn Helm SPECIAL coldown 45 seconds
-increase life by 1 for every 3 movement speed
-increase mana by 1 for every 2 movement speed
-increase Pure Resist by 15% increase by 1% for every 5 levels
-increase Movespeed by 35 increase by 1 for every 2 levels
+Increase health by 60% of Current Movespeed
+Increase Mana by 35% of Current Movespeed
+increase Pure Resist by 5% increase by 1% for every 3 levels
+increase Movespeed by 15 increase by 1 for every levels
 Xorn can use the Speed Horn to remove any Debuff that slow him and restore his life by 45% of his total movespeed
+Xorn will gain 0.04 health and 0.02 mana regeneration for every 1 movespeed lost, the rate of the bonus is how much movespeed Xorn has
+in total. Max rate of 1100 Movespeed cap for this bonus for a total of 40 health regeneration and 20 mana regeneration at 100 Movespeed
+when at 1100 or more.
 
 talent level 40 upgrade Speed Demon
 add a new modifier Speed Terror
