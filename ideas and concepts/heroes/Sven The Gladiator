@@ -9,38 +9,38 @@ talent 1
 increase sven max health by 10% and his magic resist by 16%
 Sven will gain 1% damage reduction for every 1.0 seconds spend in Bloodlust and he will lose the damage reduction when Bloodlust duration
 end. Sven will also increase his armor by 1 for every 1.3% health damage cause with Death Blow and reduce Death Blow coldown by 0.05 for
-every Point of armor up to 2.0 seconds reduce max. Sven will gain 15% status resistence while affected by stuns or blinds effects for
-2.5 seconds without coldown to activate the effect.
+every Point of armor up to 1.5 seconds reduce max. Sven will gain 15% status resistence while affected by stuns or blinds effects for
+2.5 seconds without coldown to activate the effect. The bonus armor gain will last 6.5 seconds.
 
 
 talent 2
 Increase Sven Agility by 14 and Strenght by 12
 Death Blow will gain 15% of Sven Agility in bonus damage and increase its strenght scaling by 10% as well, Sven will also gain 0.5 seconds
 of magic immunity upon casting Death Blow. Blood Wound will gain 4 bonus base damage and having 1.0 second duration increase as well, Sven
-will gain 1% bonus attack damage for every 2.0 seconds spend in God Strenght and he will lose the bonus attack damage when God Strenght
+will gain 1% bonus attack damage for every 1.5 seconds spend in God Strenght and he will lose the bonus attack damage gain when God Strenght
 duration end.
 
 
 Mighty Warrior
 give a positive and negative buff, pressing Alt will show the bonus from the level 30 talent and level 40 talent for this passive
 
-BUFF sven will gain 1 damage per 4 Strenght instead of 5 and he also gain 1% lifesteal per 11 Strenght he also reduce Blinds Durations
-by 30%, he also start with 1 armor and 6% magic resist and if sven get stun for more than 1.4 second he will become Enrage having 20%
-increase damage and removing all debuff on him, the damage bonus will last 7.5 second and this effect can only happen every 40 seconds,
-Sven also gain 0.09 health regeneration per 125 health missing.
+BUFF sven will gain 1 damage per 3 Strenght instead of 5 and he also gain 1% lifesteal per 13 Strenght he also reduce Blinds Durations
+by 20%, he also start with 1 armor and 6% magic resist and if sven get stun for more than 1.4 second he will become Enrage having 20%
+increase damage and removing all debuff on him, the damage bonus will last 7.5 second and this effect can only happen every 80 seconds,
+Sven also gain 0.15 health regeneration per 1.4% missing health.
 
-DEBUFF sven lose 25% total attack speed, 10% movespeed and 55% mana, he take 120% more damage from pure and he can only use Two-Handed 
-weapons type he also lose 0.4% of his max health for any type of magical damage and attack slow, Pure damage will alway slows sven by
-15% and his attack speed by 20 for 3 second. Any Silence debuff will last 33% longer and will reduce sven total movespeed to 265 for its
-duration. Enemys will have 10% chance on dealing damage to deal 0.2% of Sven max health in bonus damage and also burning 0.4% of his
-max mana (the mana burn doesnt damage).
+DEBUFF sven lose 30% total attack speed, 10% movespeed and 55% mana, he take 120% more damage from pure and he can only use Two-Handed 
+weapons type he also lose 0.35% of his max health for any type of magical damage with attack slow effects on them, Pure damage will alway
+slows sven by 15% and his attack speed by 20 for 3 second. Any Silence debuff will last 33% longer and will reduce sven total movespeed
+to 265 for its duration. Enemys will have 10% chance on dealing damage to deal 0.1% of Sven max health in bonus damage and also burning
+0.7% of his max mana (the mana burn doesnt damage).
 
 level 40 talent upgrade Mighty Warrior
 add a new modifier Warrior Code
 Sven will Increase the Cleave damage from War Gladiator by 40% and its radius by 25%. Sven will also gain 10% strenght and Agility,
 Sven will increase allys buff duration that Sven get from them by 33% and for every buff active on Sven, increase his attack damage by
-4% and his attack speed by 6. Sven will gain 25% spellamp while in Bloodlust and further increase its duration by 0.2 for every auto
-attacks done and 1.3 for every spells casted, but BloodLust will remain in coldown until the duration ends and it will also gain 0.1
+4% and his attack speed by 10. Sven will gain 25% spellamp while in Bloodlust and further increase its duration by 0.2 for every auto
+attacks done and 1.3 for every spells casted, but BloodLust will remain in coldown until the duration ends and it will also gain 0.7
 coldown increase for every auto attack as well, Sven can refresh the coldown of BloodLust by casting God Strenght.
 
 SPELL Q level
@@ -58,13 +58,14 @@ duration 3.5 4.0 4.5 5.0
 spell damage reduce 16% 19% 22% 25%
 Inside-out base damage 25 40 55 70+25% of strenght
 cooldown 7
-mana cost 55 75 95 115
+mana cost 55 65 75 85
 
 talent level 10 upgrade Bloodlust
 increase attack speed by 25
 increase damage bonus by 8
-increase spell damage reduction by 3%
-increase mana cost by 25
+increase flat movement speed bonus by 30
+increase duration by 0.5
+increase mana cost by 40
 
 add a new modifier Pain Without End
 for the duration of BloodLust sven will have 10% bonus damage and having True Strike and reducing all stun effect by 30% on him
@@ -79,14 +80,15 @@ will lose 5 bonus strenght gain on death.
 SPELL W level
 Death Blow - Physical -
 Hit the enemys with a Deadly Blow Dealing insane damage base on the enemy Current Health (Max Health for bosses). Also increase its
-damage by 1% for every 450 current life on the target and he also lifesteal for a % of that amount of damage done as well, he also disable
-all source of healing on them for a short duration. this spell will have no bonus from other source of spellvamp or lifesteal effects,
-talents will only increase this effect or special items. Death Blow has a cast range of 275 and cannot be increase.
+damage by 0.5% for every 340 current life on the target and he also lifesteal for a % of that amount of damage done as well, he also
+disable all source of healing on them for a short duration. this spell will have no bonus from other source of spellvamp or lifesteal
+effects, talents will only increase this effect or special items. Death Blow has a cast range of 275 and cannot be increase. The Lifesteal
+effect will ignore all form of healing effect reduction.
 
 base damage 20 25 30 35+10% 25% 40% 55% of Strenght
 lifesteal base on the damage done 15% 20% 25% 30%
 current health as bonus damage 4% 6% 8% 10%
-max life as bonus damage for boss 0.4% 0.6% 0.8% 1%
+max health as bonus damage for bosses 0.4% 0.6% 0.8% 1%
 debuff duration 2.2 2.4 2.6 2.8 second
 cooldown 17
 mana 80 100 120 140 plus 1% of max mana
@@ -118,7 +120,7 @@ base damage 7 9 11 13+7% 8% 9% 10% of sven strenght
 base armor loss 4 5 6 7
 Attack speed Cap 24 40 56 72
 Debuff duration 7 seconds
-cooldown 30 28 26 24
+cooldown 25 24 23 22
 mana cost 90 110 130 150 plus 1% of max mana
 
 talent level 20 upgrade Blood Wound
@@ -142,29 +144,30 @@ War Gladiator
 Sven will have a Chance to block Magical Spells and Physical Spells damage and also blocking auto attacks damage as well, he will also
 gain a chance to crit on hit with his auto attacks (Sven cannot benefit from auto attacks crit items stat on them). He also Cleave 
 Infront of him for a % of the damage he dealt and also increase his attack speed by 0.10 0.15 0.20 0.25 per Strenght points and also
-increase his critical damage by 10% 12% 14% 16% of Strenght and his Block amount by 5% 6% 7% 8% of Strenght. At level 4 of this passive,
+increase his critical damage by 10% 15% 20% 25% of Strenght and his Block amount by 5% 6% 7% 8% of Strenght. At level 4 of this passive,
 Sven will gain 6% Strenght and 3% Agility.
 
 Cleave damage 15% 25% 35% 45%
-Cleave radius 450 475 500 525
-Base Critical damage 130% 145% 170% 185%
+Cleave radius 400 420 440 460
+Base Critical damage 120% 130% 140% 150%
 Base Block damage 6 10 16 20
-Critical chance 10% 12% 14% 16%
+Critical chance 12% 13% 14% 15%
 block chance 45% 50% 55% 60%
 
 talent level 20 upgrade War Gladiator
-increase critical base damage by 15%
-increase critical chance by 2%
+increase critical base damage by 20%
+increase critical chance by 3%
 increase block chance by 10%
 increase block damage amount by 8
 increase Cleave damage by 15%
 Increase Cleave radius by 50
 
 add a new modifier Legendary Gladiator
-for every blocks and critical hit sven do he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
-up to 20 stack, upon reaching 20 stack sven will get 8 life regeneration and 15 attack speed until he lose all the stack, and Upon
+for every blocks and critical hit sven do, he will gain 0.5 armor and 1 base damage for 4 second refresh for every block and crit
+up to 20 stack, upon reaching 20 stack sven will get 16 life regeneration and 12% movespeed until he lose all the stack, and Upon
 death he will give his allys 25% of his damage and 50% Strenght to them for 15 second and if sven reach 20 stack and holding them for
-20 second he will gain 10 attack speed, 5% strenght and 5% bonus damage until death.
+20 second he will gain 10 attack speed, 5% strenght and 5% bonus damage until death. Sven cannot be rooted at max stacks and he will
+increase stuns and roots effect cause by sven himself by 40% as well.
 
 ULTIMATE R
 Titan Rage
@@ -229,6 +232,11 @@ attack speed lost from Titan Rage by 15.
 Increase DeathBlow debuff duration by 1.0 seconds and its base damage by 10, DeathBlow will alway reduce the target armor by 3 and
 slowing them by 10% he also increase Roots and Stuns duration on them by 25% as well, the debuff will last as same as the Debuff.
 duration on DeathBlow. Also increase Sven health by 3% and his mana by 75
+-
+Sven increase his War Gladiator critical chance by 3% and the block chance by 10%, he will be able to block magical source of damage at
+the cost of losing 15% Pure resistence and 10% Blind resistence. Each critical hit will heal sven by 15+40% of his strenght and also
+healing him by 0.7% of his max health as well. War Gladiator will also make Sven hit a second time at at max attack speed, this effect
+will have 8 second coldown and can stack with other effect like this.
 -
 level 7 talent
 -
